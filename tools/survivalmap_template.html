@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Survival Road Map</title>
+<!--HEAD-->
+<style>
+/*COMMON_CSS*/
+/* Layout: header + tabs; the run map is a flowchart beside a dossier panel. Built by tools/survivalmap.py. */
+.view { overflow: auto; padding: 2px 4px 0 2px; }
+.view:focus { outline: none; }
+#map { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 460px); gap: 12px; overflow: hidden; }
+.chartcol { display: flex; flex-direction: column; min-width: 0; min-height: 0; gap: 8px; }
+.controls { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
+.seg { display: inline-flex; flex-wrap: wrap; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.seg button { font: 600 13px var(--body); border: 0; background: var(--surface); color: var(--muted); padding: 5px 10px; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
+.seg button:disabled { opacity: .4; cursor: not-allowed; }
+.flowbox { flex: 1; min-height: 360px; overflow: auto; background: var(--sunk); border: 1px solid var(--line); border-radius: 8px; padding: 16px; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--muted); }
+.legend b { color: var(--ink); font-weight: 600; }
+.zoom { display: inline-flex; gap: 4px; margin-left: auto; }
+
+.chartwrap { position: relative; transform-origin: 0 0; }
+.chartwrap svg.edges { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; }
+.step { position: absolute; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px 10px; cursor: pointer; display: grid; gap: 3px; box-shadow: 0 1px 2px rgb(0 0 0 / .12); }
+.step:hover { border-color: var(--ink); }
+.step.sel { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
+.step .top { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
+.step .ttl { font: 700 15px/1.25 var(--body); }
+.step .meta { font-size: 13px; color: var(--muted); }
+.step .num { font: 600 12.5px var(--body); color: var(--muted); }
+.tag { font: 700 11.5px/1 var(--body); border-radius: 4px; padding: 3px 6px 2px; white-space: nowrap; }
+.t-start { background: var(--accent); color: var(--accent-ink); }
+.t-stage { background: var(--ink); color: var(--surface); }
+.t-round { background: var(--surface); color: var(--ink); border: 1px solid var(--ink); }
+.t-end { background: var(--good); color: var(--surface); }
+.t-over { background: var(--bad); color: var(--surface); }
+.step.stage { background: var(--ink); border-color: var(--ink); color: var(--surface); }
+.step.stage .meta { color: var(--line); }
+.step.stage .t-stage { background: var(--surface); color: var(--ink); }
+.step.ending { border: 2.5px solid var(--good); }
+.step.over { border: 2.5px solid var(--bad); }
+.step.easyend { border: 2.5px dashed var(--muted); }
+.step.pool { padding: 7px 10px 8px; gap: 2px; border-style: dashed; }
+.step.pool.gated { border-color: var(--hl); background: var(--hl-bg); }
+.step.pool.out { opacity: .38; border-color: var(--line); background: var(--sunk); }
+.step.pool.out .t-gated { background: var(--muted); }
+.step.pool.in { border-style: solid; box-shadow: 0 0 0 1px var(--hl); }
+.titlepick { display: inline-flex; align-items: center; gap: 6px; font: 600 13px var(--body); color: var(--muted); }
+.titlepick select { font: 13px var(--body); padding: 4px 6px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--ink); }
+.step.pool .ttl { font-size: 14px; }
+.step.pool .meta { font-size: 12px; line-height: 1.35; }
+.t-pool { background: var(--sunk); color: var(--muted); border: 1px solid var(--line); }
+.t-gated { background: var(--hl); color: var(--surface); }
+.edge.opt { stroke: var(--hl); stroke-dasharray: 5 4; }
+.cls { font: 800 15px/1 var(--display); font-stretch: 62%; border-radius: 4px; padding: 2px 6px 1px; background: var(--sunk); border: 1px solid var(--line); }
+.edge { fill: none; stroke: var(--muted); stroke-width: 1.6; }
+.edge.yes { stroke: var(--good); }
+.edge.no { stroke: var(--bad); }
+.edge.hl { stroke-width: 3.2; }
+.elabel rect { fill: var(--sunk); }
+.elabel text { font: 600 11.5px var(--body); fill: var(--muted); }
+.elabel.yes text { fill: var(--good); } .elabel.no text { fill: var(--bad); }
+.junction { fill: var(--bad); }
+#a-opt path { fill: var(--hl); } #a-muted path { fill: var(--muted); } #a-yes path { fill: var(--good); } #a-no path { fill: var(--bad); }
+
+aside.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; overflow-y: auto; overflow-x: hidden; min-width: 0; padding: 16px; display: flex; flex-direction: column; gap: 14px; }
+.panel > * { min-width: 0; flex-shrink: 0; }
+.panel h2 { font: 900 29px/1.05 var(--display); margin: 0; text-transform: uppercase; font-stretch: 62%; }
+.panel h3 { font: 700 14px var(--body); color: var(--ink); margin: 0 0 6px; }
+.panel p { margin: 0; }
+.kicker { font: 500 13px var(--body); color: var(--muted); display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 6px; }
+.fact { background: var(--sunk); border-radius: 6px; padding: 6px 9px; }
+.fact .fk { font: 700 12px var(--body); color: var(--muted); }
+.fact .v { font: 700 16px var(--body); }
+.cond { background: var(--sunk); border-left: 3px solid var(--ink); border-radius: 0 6px 6px 0; padding: 7px 10px; font-size: 14px; }
+dl.set { display: grid; grid-template-columns: max-content 1fr; gap: 3px 12px; margin: 0; font-size: 13.5px; }
+dl.set dt { color: var(--muted); }
+dl.set dd { margin: 0; }
+ul.pool { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; font-size: 13.5px; }
+ul.pool li { display: flex; gap: 8px; align-items: baseline; padding: 3px 0; border-bottom: 1px solid var(--line); }
+ul.pool .who { flex: 1; min-width: 0; }
+ul.pool .with { color: var(--muted); font-size: 12.5px; }
+.lim { font: 600 11px var(--body); color: var(--hl); background: var(--hl-bg); border: 1px solid var(--hl); border-radius: 4px; padding: 0 5px; white-space: nowrap; }
+.cut { border: 1px dashed var(--muted); border-radius: 8px; padding: 8px 12px; color: var(--muted); font-size: 13.5px; }
+.filters input[type="search"] { font: 14px var(--body); padding: 4px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--ink); width: 210px; }
+.count { font-size: 13px; color: var(--muted); margin-left: auto; }
+.jp { font-size: 12.5px; color: var(--muted); }
+@media (max-width: 900px) {
+  #map { grid-template-columns: minmax(0, 1fr); overflow: visible; }
+  .flowbox { max-height: 70vh; flex: none; }
+}
+</style>
+
+<div class="app">
+  <header>
+    <h1>Survival Road <span>Map</span></h1>
+    <div class="sub">Every course, round and possible opponent in King of Colosseum II's Survival Road, read from the game's own data and code.</div>
+    <button id="theme" type="button"></button>
+    <!--NAV-->
+  </header>
+  <nav class="tabs" role="tablist">
+    <button role="tab" id="t-map" aria-selected="true" aria-controls="map">Run map</button>
+    <button role="tab" id="t-opp" aria-selected="false" aria-controls="opp">Opponents</button>
+    <button role="tab" id="t-courses" aria-selected="false" aria-controls="courses">Courses &amp; rules</button>
+    <button role="tab" id="t-diff" aria-selected="false" aria-controls="diff">Difficulties &amp; souls</button>
+    <button role="tab" id="t-how" aria-selected="false" aria-controls="how">How a run works</button>
+  </nav>
+
+  <section class="view" id="map" role="tabpanel">
+    <div class="chartcol">
+      <div class="controls">
+        <div class="seg" id="c-course" role="group" aria-label="Course"></div>
+      </div>
+      <div class="controls">
+        <div class="seg" id="c-mode" role="group" aria-label="Mode"></div>
+        <div class="seg" id="c-diff" role="group" aria-label="Difficulty"></div>
+        <label class="titlepick">Your title <select id="c-title"></select></label>
+        <span class="zoom"><button class="btn" id="zout" type="button" aria-label="Zoom out">−</button><button class="btn" id="zfit" type="button">Fit</button><button class="btn" id="zin" type="button" aria-label="Zoom in">+</button></span>
+      </div>
+      <div class="flowbox" id="flowbox"></div>
+      <div class="legend">
+        <span><b style="color:var(--good)">Green</b> a win</span>
+        <span><b style="color:var(--bad)">Red</b> a loss that ends the run (continues replay the same match)</span>
+        <span><b style="color:var(--hl)">Dashed boxes</b> who a round can draw; gold ones only while your title is good enough (pick yours under "Your title")</span>
+        <span><b>Class</b> the opponent pool a round draws from (D weakest … A strongest)</span>
+        <span>Click a round for its rules and every possible opponent</span>
+      </div>
+    </div>
+    <aside class="panel" id="panel" aria-live="polite"></aside>
+  </section>
+
+  <section class="view" id="opp" role="tabpanel" hidden>
+    <div class="wrap">
+      <div class="prose"><p>Every entry in the opponent tables. In singles an opponent may bring a second (who can interfere); in tag you face a team. Each round draws one entry at random from the course's entries of the classes it allows; the finals draw from class A of every course. You never meet the same wrestler twice in a run, and never one you picked yourself.</p></div>
+      <div class="filters">
+        <div class="seg" id="o-mode" role="group" aria-label="Mode"></div>
+        <select id="o-course" aria-label="Course"></select>
+        <select id="o-class" aria-label="Class"></select>
+        <input type="search" id="o-q" placeholder="Search wrestlers" aria-label="Search wrestlers">
+        <span class="count" id="o-count"></span>
+      </div>
+      <div class="tablebox"><table id="otable"><thead></thead><tbody></tbody></table></div>
+    </div>
+  </section>
+
+  <section class="view" id="courses" role="tabpanel" hidden>
+    <div class="wrap" id="coursetext"></div>
+  </section>
+
+  <section class="view" id="diff" role="tabpanel" hidden>
+    <div class="wrap" id="difftext"></div>
+  </section>
+
+  <section class="view" id="how" role="tabpanel" hidden>
+    <div class="wrap"><div class="prose" id="howtext"></div></div>
+  </section>
+</div>
+
+<script type="application/json" id="data">/*DATA*/</script>
+<script>
+(function () {
+"use strict";
+const D = JSON.parse(document.getElementById("data").textContent);
+const $ = s => document.querySelector(s);
+const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const num = n => Number(n).toLocaleString("en-US");
+const CLASS = { 2: "D", 3: "C", 4: "B", 5: "A" };
+const cls = s => s.split("").join("/");
+const TITLE = Object.fromEntries(D.titles.map(t => [t.id, t.name]));
+const MODES = [["singles", "Singles"], ["tag", "Tag"]];
+/*THEME_JS*/
+let st = { course: 1, mode: "singles", diff: 2, title: -1 }, selId = "start", zoom = 1, natural = { w: 0, h: 0 }, edges = [];
+
+/* ---------- tabs */
+const TABS = ["map", "opp", "courses", "diff", "how"];
+function setTab(t) { TABS.forEach(k => { $("#t-" + k).setAttribute("aria-selected", k === t); $("#" + k).hidden = k !== t; }); }
+TABS.forEach(k => { $("#t-" + k).onclick = () => setTab(k); });
+
+/* ---------- helpers */
+const course = id => D.courses.find(c => c.id === id);
+const diff = id => D.difficulties.find(d => d.id === id);
+const setting = (row, name) => { const s = row.settings.find(x => x.setting === name); return s ? s.display : ""; };
+function oppName(o, mode) {
+  if (mode === "tag") return `${wlink(esc(o.team[0]), o.team_links[0])} &amp; ${wlink(esc(o.team[1]), o.team_links[1])}`;
+  return wlink(esc(o.wrestler), o.link) + (o.second ? ` <span class="with">with ${wlink(esc(o.second), o.second_link)}</span>` : "");
+}
+const limText = v => v ? `<span class="lim" title="Only drawn while your title is ${esc(TITLE[v])} or better">title ≤ ${esc(TITLE[v])}</span>` : "";
+
+/* ---------- the run's nodes for the current choice */
+function runNodes() {
+  const c = course(st.course), m = c.modes[st.mode], d = diff(st.diff), out = [{ id: "start", type: "start" }];
+  if (!m.offered || c.cut) return out;
+  out.push({ id: "qual", type: "stage", stage: "q" });
+  const round = (stage, r) => { const x = { id: stage + r, type: "round", stage, r }; out.push(x); out.push(...poolNodes(x)); };
+  for (let r = 1; r <= d.qualifiers.rounds; r++) round("q", r);
+  if (d.finals) {
+    out.push({ id: "fin", type: "stage", stage: "f" });
+    for (let r = 1; r <= d.finals.rounds; r++) round("f", r);
+    out.push({ id: "ending", type: "ending" });
+  } else out.push({ id: "easyend", type: "easyend" });
+  if (d.finals) out.push({ id: "gameover", type: "gameover" });
+  return out;
+}
+function roundData(x) {
+  const c = course(st.course), d = diff(st.diff);
+  if (x.stage === "q") {
+    const row = c.modes[st.mode].rounds[x.r - 1], bd = row.by_difficulty[st.diff];
+    return { row, classes: bd.classes, cpu: bd.cpu_level, crit: bd.critical, pool: bd.pool };
+  }
+  const F = D.finals[st.mode], row = F.rounds[x.r - 1], bd = row.by_difficulty[st.diff] || {};
+  return { row, classes: "A", cpu: bd.cpu_level, crit: bd.critical, pool: F.pool, finals: true };
+}
+/* a round's pool split by the title it needs: [] when every entry is always drawn */
+function poolNodes(x) {
+  const r = roundData(x), opp = D.opponents[st.mode], groups = new Map();
+  r.pool.forEach(i => { const v = opp[i].title_limit || 0; if (!groups.has(v)) groups.set(v, []); groups.get(v).push(opp[i]); });
+  if (![...groups.keys()].some(v => v)) return [];
+  return [...groups.keys()].sort((a, b) => (a === 0 ? -1 : b === 0 ? 1 : b - a))
+    .map(v => ({ id: `${x.id}_t${v}`, type: "pool", parent: x.id, v, entries: groups.get(v) }));
+}
+/* st.title: -1 = show every pool, 0 = no title yet (a new save), 1-8 = the current title.
+   An entry with title limit v is drawn while the title is 1..v (0x1bc260). */
+const qualifies = v => !v || (st.title >= 1 && st.title <= v);
+function gatedText(x, r) {
+  const opp = D.opponents[st.mode], always = r.pool.filter(i => !opp[i].title_limit).length, extra = r.pool.length - always;
+  const plural = n => `${n} possible opponent${n === 1 ? "" : "s"}`;
+  if (!extra) return plural(r.pool.length);
+  if (st.title >= 0) return `${plural(r.pool.filter(i => qualifies(opp[i].title_limit)).length)} with your title`;
+  return `${always} possible opponents, up to ${r.pool.length} by title`;
+}
+const titleNeed = v => v === 8 ? "Any title" : v === 1 ? "King of Kings" : `${TITLE[v]} or better`;
+function names(list, n) {
+  const nm = o => st.mode === "tag" ? `${o.team[0]} & ${o.team[1]}` : o.wrestler;
+  return esc(list.slice(0, n).map(nm).join(", ")) + (list.length > n ? ` +${list.length - n} more` : "");
+}
+
+/* can one loss in this round end the run? (GAME OVER when wins + matches left < wins needed) */
+function lossText(x) {
+  const d = diff(st.diff), s = x.stage === "q" ? d.qualifiers : d.finals;
+  if (!s || s.wins_needed == null) return "";
+  return s.rounds - s.wins_needed === 0 ? "loss" : `loss no. ${s.rounds - s.wins_needed + 1}`;
+}
+
+function stepHTML(x) {
+  const c = course(st.course), d = diff(st.diff), box = (cls, inner) => `<div class="step ${cls}" data-id="${x.id}" tabindex="0">${inner}</div>`;
+  switch (x.type) {
+    case "start": return box("start", `<div class="top"><span class="tag t-start">Start</span><span class="ttl">${esc(c.name)}</span></div><div class="meta">${st.mode === "tag" ? "Pick a team of two" : "Pick a wrestler (and a second, if you like)"} · ${esc(d.name)}</div>`);
+    case "stage": {
+      const s = x.stage === "q" ? d.qualifiers : d.finals;
+      const goal = x.stage === "q" ? (s.wins_needed == null ? `${s.rounds} matches` : `Win ${s.wins_needed} of ${s.rounds}`) : `Win all ${s.rounds}`;
+      return box("stage", `<div class="top"><span class="tag t-stage">${x.stage === "q" ? "Qualifiers" : "Finals!"}</span><span class="ttl">${goal}</span></div><div class="meta">${x.stage === "q" ? `Opponents from the ${esc(c.key)} course` : "Class A opponents from every course"}</div>`);
+    }
+    case "round": {
+      const r = roundData(x);
+      return box("round", `<div class="top"><span class="tag t-round">${x.stage === "q" ? "Qualifier" : "Final"} ${x.r}</span><span class="cls">${esc(cls(r.classes))}</span><span class="num">CPU level ${r.cpu ?? "?"}${r.crit && r.crit !== "Normal" ? " · critical " + esc(r.crit) : ""}</span></div><div class="ttl">${gatedText(x, r)}</div><div class="meta">${esc(setting(r.row, "Rules"))} · ${esc(setting(r.row, "Time Limit"))} · ${esc(setting(r.row, "Venue"))}</div>`);
+    }
+    case "pool": return box(`pool${x.v ? " gated" : ""}${x.v && st.title >= 0 ? (qualifies(x.v) ? " in" : " out") : ""}`, x.v
+      ? `<div class="top"><span class="tag t-gated">If your title is</span></div><div class="ttl">${esc(titleNeed(x.v))}</div><div class="meta"><b>+${x.entries.length}</b>: ${names(x.entries, 3)}</div>`
+      : `<div class="top"><span class="tag t-pool">Always in the draw</span></div><div class="ttl">${x.entries.length} opponent${x.entries.length === 1 ? "" : "s"}</div><div class="meta">${names(x.entries, 3)}</div>`);
+    case "ending": return box("ending", `<div class="top"><span class="tag t-end">Champion</span><span class="ttl">Course cleared on ${esc(d.name)}</span></div><div class="meta">Your wrestlers, then the staff credits. Shop items for this clear go on sale.</div>`);
+    case "easyend": return box("easyend", `<div class="top"><span class="tag t-stage">Easy ends</span><span class="ttl">Run over after 3 matches</span></div><div class="meta">Never counts as a clear: "Take on NORMAL or harder…"</div>`);
+    case "gameover": return box("over", `<div class="top"><span class="tag t-over">Game Over</span><span class="ttl">${d.continues ? `${d.continues} continue${d.continues === 1 ? "" : "s"}` : "No continues"}</span></div><div class="meta">${d.continues ? "Continue replays the same match against the same opponent" : "The run is over"}${d.id < 5 ? "; Green Boy / Backyard Wrestler add 1 / 2" : ""}</div>`);
+  }
+}
+
+const L = { sw: 330, ow: 230, pw: 180, pgap: 12, gap: 46, top: 8, left: 8 };
+function renderFlow() {
+  const ns = runNodes(), c = course(st.course);
+  if (ns.length === 1) {
+    $("#flowbox").innerHTML = `<p class="cut">The Fighters course has no tag mode: the game never offers it.</p>`;
+    edges = []; select("start"); return;
+  }
+  $("#flowbox").innerHTML = `<div class="chartwrap" id="chart"><svg class="edges" id="edges"></svg>${ns.map(stepHTML).join("")}</div>`;
+  const el = id => document.querySelector(`.step[data-id="${id}"]`), pos = {};
+  ns.forEach(x => { el(x.id).style.width = (x.type === "gameover" ? L.ow : x.type === "pool" ? L.pw : L.sw) + "px"; });
+  const put = (id, x, y) => { const e = el(id); e.style.left = x + "px"; e.style.top = y + "px"; pos[id] = { x, y, w: e.offsetWidth, h: e.offsetHeight }; };
+  const spine = ns.filter(x => x.type !== "gameover" && x.type !== "pool");
+  const pools = id => ns.filter(p => p.type === "pool" && p.parent === id);
+  /* a round's pool boxes sit in a row under it, ending just left of the spine's centre line, so
+     the win arrow runs down beside them; the spine moves right to make room for the widest row */
+  const rowW = n => n * L.pw + (n - 1) * L.pgap;
+  const widest = Math.max(0, ...spine.map(x => pools(x.id).length).filter(Boolean).map(rowW));
+  const sx = widest ? Math.max(L.left, L.left + widest + 24 - L.sw / 2) : L.left;
+  let y = L.top;
+  spine.forEach(x => {
+    put(x.id, sx, y);
+    y += pos[x.id].h;
+    const ps = pools(x.id);
+    if (ps.length) {
+      const right = sx + L.sw / 2 - 24, py = y + 30;
+      let px = right - rowW(ps.length), hmax = 0;
+      ps.forEach(p => { put(p.id, px, py); px += L.pw + L.pgap; hmax = Math.max(hmax, pos[p.id].h); });
+      y = py + hmax;
+    }
+    y += L.gap;
+  });
+  const busX = sx + L.sw + 70;
+  const last = spine[spine.length - 1].id;
+  if (pos.ending !== undefined || ns.some(x => x.id === "gameover")) put("gameover", busX - 40, pos[last].y);
+  natural = { w: busX - 40 + L.ow + 12, h: y };
+  edges = [];
+  const cx = id => pos[id].x + pos[id].w / 2, bot = id => pos[id].y + pos[id].h, mid = id => pos[id].y + pos[id].h / 2;
+  spine.forEach((x, i) => {
+    const nx = spine[i + 1];
+    if (!nx) return;
+    const win = x.type === "round";
+    edges.push({ from: x.id, to: nx.id, cls: win ? "yes" : "", label: win ? (diff(st.diff).finals || x.stage === "f" ? "win" : "win or lose") : "", d: `M${cx(x.id)},${bot(x.id)} V${pos[nx.id].y - 2}`, lx: cx(x.id) + 8, ly: (bot(x.id) + pos[nx.id].y) / 2 + 4 });
+  });
+  spine.forEach(x => {
+    const ps = pools(x.id);
+    if (!ps.length) return;
+    const railY = pos[ps[0].id].y - 14, first = cx(ps[0].id), last = cx(ps[ps.length - 1].id);
+    const stem = Math.min(last, sx + 40);
+    edges.push({ from: x.id, to: ps[0].id, cls: "opt", d: `M${stem},${bot(x.id)} V${railY} M${first},${railY} H${last}`, nomark: true });
+    ps.forEach(p => edges.push({ from: x.id, to: p.id, cls: "opt", d: `M${cx(p.id)},${railY} V${pos[p.id].y - 2}` }));
+  });
+  const losers = ns.filter(x => x.type === "round" && lossText(x));
+  losers.forEach(x => {
+    const yy = mid(x.id);
+    edges.push({ from: x.id, to: "gameover", cls: "no", label: lossText(x), d: `M${pos[x.id].x + pos[x.id].w},${yy} H${busX}`, lx: pos[x.id].x + pos[x.id].w + 6, ly: yy - 6, junction: [busX, yy] });
+  });
+  if (losers.length && pos.gameover) edges.push({ from: "bus", to: "gameover", cls: "no", d: `M${busX},${mid(losers[0].id)} V${pos.gameover.y - 2}`, bus: true });
+  const svg = $("#edges");
+  svg.setAttribute("width", natural.w); svg.setAttribute("height", natural.h);
+  svg.innerHTML = `<defs>${["muted", "yes", "no", "opt"].map(c => `<marker id="a-${c}" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z"/></marker>`).join("")}</defs>`
+    + edges.map((e, i) => `<path class="edge ${e.cls}" data-e="${i}" d="${e.d}"${e.junction || e.nomark ? "" : ` marker-end="url(#a-${e.cls || "muted"})"`}/>` + (e.junction ? `<circle class="junction" cx="${e.junction[0]}" cy="${e.junction[1]}" r="3.5"/>` : "")).join("")
+    + edges.map(e => e.label ? `<g class="elabel ${e.cls}"><text x="${e.lx}" y="${e.ly}">${esc(e.label)}</text></g>` : "").join("");
+  svg.querySelectorAll(".elabel").forEach(g => {
+    const b = g.querySelector("text").getBBox(), r = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    r.setAttribute("x", b.x - 3); r.setAttribute("y", b.y - 1); r.setAttribute("width", b.width + 6); r.setAttribute("height", b.height + 2); r.setAttribute("rx", 3);
+    g.insertBefore(r, g.firstChild);
+  });
+  fitZoom();
+  if (!ns.some(x => x.id === selId)) selId = "start";
+  select(selId);
+}
+function applyZoom() {
+  const c = $("#chart"); if (!c) return;
+  c.style.width = natural.w + "px"; c.style.height = natural.h + "px"; c.style.transform = `scale(${zoom})`;
+  c.style.marginRight = (natural.w * (zoom - 1)) + "px"; c.style.marginBottom = (natural.h * (zoom - 1)) + "px";
+}
+function fitZoom() { zoom = Math.max(.45, Math.min(1, ($("#flowbox").clientWidth - 34) / natural.w)); applyZoom(); }
+$("#zin").onclick = () => { zoom = Math.min(1.6, zoom * 1.2); applyZoom(); };
+$("#zout").onclick = () => { zoom = Math.max(.35, zoom / 1.2); applyZoom(); };
+$("#zfit").onclick = fitZoom;
+
+/* ---------- panel */
+const KEY_SETTINGS = ["Rules", "Match Type", "Falls", "Time Limit", "Rounds", "Round Time", "No. of Rounds", "Rope Break", "Lumberjack", "Ring", "Crowd", "Venue", "Referee", "Ring Announcer"];
+function panel(id) {
+  const c = course(st.course), d = diff(st.diff), x = runNodes().find(n => n.id === id) || { type: "start" };
+  const head = (k, t) => `<div class="kicker"><span>${esc(c.key)} · ${st.mode === "tag" ? "Tag" : "Singles"} · ${esc(d.name)}</span></div><h2>${t}</h2>`;
+  let h = "";
+  if (x.type === "start") {
+    h = head("", esc(c.name)) + `<p>${esc(c.description)}.</p>` + (c.locked_until ? `<div class="cond">Locked until you buy <b>${esc(c.locked_until.shop_item)}</b> (${c.locked_until.price_souls} souls) in the Secret Shop. It goes on sale after ${c.locked_until.on_sale_when.courses_cleared} courses are cleared on Normal or harder.</div>` : "")
+      + (c.cut ? `<p class="cut">Cut from the game: the course list always skips it.</p>` : "")
+      + `<div class="facts"><div class="fact"><div class="fk">Matches</div><div class="v">${d.total_matches}</div></div><div class="fact"><div class="fk">Continues</div><div class="v">${d.continues}</div></div><div class="fact"><div class="fk">Souls, S match</div><div class="v">${num(d.souls_by_grade.S)}</div></div></div>`
+      + `<p class="small muted">Modes: Singles, Singles with a second (your partner stays at ringside), or Tag. Between matches: Next Match, the Hall of Souls (Secret Shop), or Save &amp; Quit.</p>`
+      + (d.locked_until ? `<p class="note">${esc(d.name)} is locked until you buy ${esc(d.locked_until.shop_item)} (${d.locked_until.price_souls} souls).</p>` : "");
+  } else if (x.type === "stage") {
+    const s = D.screens[x.stage === "q" ? "000_02426" : "000_02427"];
+    h = head("", esc(s[0].en)) + `<p><i>${esc(s[1].en.replace(/ \/ /g, " "))}</i></p>`
+      + (x.stage === "q" ? `<p>${d.qualifiers.wins_needed == null ? "Easy plays three qualifiers and stops there; results don't matter." : `Win ${d.qualifiers.wins_needed} of ${d.qualifiers.rounds}.`} Opponents come from the ${esc(c.key)} course's entries.</p>` : `<p>Win all ${d.finals.rounds}. Every round draws a class A entry from any course, singles ${D.finals.singles.pool.length} entries, tag ${D.finals.tag.pool.length}.</p>`);
+  } else if (x.type === "round") {
+    const r = roundData(x), opp = D.opponents[st.mode];
+    const pool = r.pool.map(i => opp[i]).sort((a, b) => (a.class - b.class) || (a.title_limit ? 1 : 0) - (b.title_limit ? 1 : 0));
+    h = head(`${x.stage === "q" ? "Qualifier" : "Final"} ${x.r}`, `${x.stage === "q" ? "Qualifier" : "Final"} ${x.r}`)
+      + `<div class="facts"><div class="fact"><div class="fk">Class</div><div class="v">${esc(cls(r.classes))}</div></div><div class="fact"><div class="fk">CPU level</div><div class="v">${r.cpu ?? "?"}</div></div><div class="fact"><div class="fk">Critical rate</div><div class="v">${esc(r.crit || "?")}</div></div></div>`
+      + (lossText(x) ? `<div class="cond">${lossText(x) === "loss" ? "Any loss here ends the run" : `Your ${esc(lossText(x).replace("loss no. ", "#"))} loss of the stage ends the run`}; a continue replays this match.</div>` : "")
+      + `<div><h3>Rules</h3><dl class="set">${KEY_SETTINGS.map(k => [k, setting(r.row, k)]).filter(([, v]) => v && v !== "None").map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl></div>`
+      + `<div><h3>Possible opponents (${pool.length}, one drawn at random)</h3><ul class="pool">${pool.map(o => `<li><span class="cls">${CLASS[o.class]}</span><span class="who">${oppName(o, st.mode)}${r.finals ? ` <span class="with">· ${esc(course(o.course).key)}</span>` : ""}</span>${limText(o.title_limit)}</li>`).join("")}</ul></div>`
+      + `<p class="small muted">Wrestlers you already met this run, or picked yourself, are skipped. Highlighted entries are only drawn while your current title is good enough.</p>`;
+  } else if (x.type === "pool") {
+    const parent = runNodes().find(n => n.id === x.parent), opp = x.entries.slice().sort((a, b) => a.class - b.class);
+    h = head("", x.v ? `Title: ${esc(titleNeed(x.v))}` : "Always in the draw")
+      + (x.v ? `<div class="cond">These ${x.entries.length} join ${parent.stage === "q" ? "Qualifier" : "Final"} ${parent.r}'s draw only while your current title is <b>${esc(titleNeed(x.v))}</b>${x.v === 8 ? " (every title counts; a brand-new save has none until its first match)" : ""}. Your title is recomputed after every match from your last 10 ratings.</div>`
+        : `<p>Drawn whatever your title. Together with any title-gated entries you qualify for, one is picked at random.</p>`)
+      + (x.v && st.title >= 0 ? `<p><b>${qualifies(x.v) ? "Your title qualifies: these can be drawn." : "Your title doesn't qualify: these won't be drawn."}</b></p>` : "")
+      + (x.v && x.v < 8 ? `<p class="small muted">Titles from best: ${D.titles.slice(0, x.v).map(t => esc(t.name)).join(", ")} qualify; ${D.titles.slice(x.v).map(t => esc(t.name)).join(", ")} don't.</p>` : "")
+      + `<div><h3>Opponents (${opp.length})</h3><ul class="pool">${opp.map(o => `<li><span class="cls">${CLASS[o.class]}</span><span class="who">${oppName(o, st.mode)}${parent.stage === "f" ? ` <span class="with">· ${esc(course(o.course).key)}</span>` : ""}</span></li>`).join("")}</ul></div>`;
+  } else if (x.type === "ending") {
+    h = head("", "Course cleared") + `<p>After the last final: your wrestlers are shown, then the staff credits. The game records that you cleared the ${esc(c.key)} course on ${esc(d.name)} (the best difficulty is kept).</p><p>That record is all a clear gives directly: it puts Secret Shop items on sale. See <a class="sl" href="../secret-shop/#ladder">what goes on sale when</a>.</p>`;
+  } else if (x.type === "easyend") {
+    h = head("", "Easy ends") + `<p>Easy is three qualifiers and nothing else. It never counts as a clear, so it never puts shop items on sale. Afterwards the game shows:</p><div class="cond">${esc(D.notices["2398"].en).replace(/\n/g, "<br>")}</div><p>Souls are paid as usual.</p>`;
+  } else if (x.type === "gameover") {
+    h = head("", "Game Over") + `<p>A loss ends the run when you can no longer reach the stage's goal (wins + matches left &lt; wins needed). On Normal that means a second loss in the qualifiers; everywhere else any loss.</p>
+      <div class="facts"><div class="fact"><div class="fk">Continues on ${esc(d.name)}</div><div class="v">${d.continues}</div></div></div>
+      <p>A continue replays the same match against the same opponent. With none left:</p><div class="cond">${esc(D.notices["2399"].en).replace(/\n/g, "<br>")}</div><p class="small muted">Titles Green Boy and Backyard Wrestler add 1 and 2 continues (not on Easy). Souls are still paid for the lost match.</p>`;
+  }
+  $("#panel").innerHTML = h;
+  $("#panel").scrollTop = 0;
+}
+function select(id) {
+  selId = id;
+  document.querySelectorAll(".step").forEach(e => e.classList.toggle("sel", e.dataset.id === id));
+  document.querySelectorAll("#edges path").forEach(p => { const e = edges[+p.dataset.e]; p.classList.toggle("hl", !!e && (e.from === id || e.to === id || (id === "gameover" && e.to === "gameover"))); });
+  panel(id);
+}
+$("#flowbox").addEventListener("click", e => { const s = e.target.closest(".step"); if (s) select(s.dataset.id); });
+$("#flowbox").addEventListener("keydown", e => { const s = e.target.closest(".step"); if (s && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); select(s.dataset.id); } });
+
+/* ---------- controls */
+function seg(el, items, cur, on) {
+  el.innerHTML = items.map(([v, label, dis]) => `<button type="button" data-v="${v}" aria-pressed="${v == cur}"${dis ? " disabled" : ""}>${esc(label)}</button>`).join("");
+  el.onclick = e => { const b = e.target.closest("button"); if (b && !b.disabled) on(b.dataset.v); };
+}
+function controls() {
+  const c = course(st.course);
+  seg($("#c-course"), D.courses.map(x => [x.id, x.key]), st.course, v => { st.course = +v; if (!course(st.course).modes[st.mode].offered) st.mode = "singles"; update(); });
+  seg($("#c-mode"), MODES.map(([k, l]) => [k, l, !c.modes[k].offered && !c.cut]), st.mode, v => { st.mode = v; update(); });
+  seg($("#c-diff"), D.difficulties.map(d => [d.id, d.name]), st.diff, v => { st.diff = +v; update(); });
+  const tp = $("#c-title");
+  tp.innerHTML = `<option value="-1">Show every pool</option><option value="0">None yet (new save)</option>` + D.titles.map(t => `<option value="${t.id}">${esc(t.name)}</option>`).join("");
+  tp.value = String(st.title);
+  tp.onchange = () => { st.title = +tp.value; update(); };
+}
+function update() { controls(); renderFlow(); try { history.replaceState(null, "", `#${st.course}/${st.mode}/${st.diff}${st.title >= 0 ? "/" + st.title : ""}`); } catch (e) { /* file:// */ } }
+
+/* ---------- opponents table */
+let omode = "singles";
+const oc = $("#o-course"), ocl = $("#o-class");
+oc.innerHTML = `<option value="">All courses</option>` + D.courses.filter(c => !c.cut).map(c => `<option value="${c.id}">${esc(c.key)}</option>`).join("");
+ocl.innerHTML = `<option value="">All classes</option>` + [5, 4, 3, 2].map(k => `<option value="${k}">Class ${CLASS[k]}</option>`).join("");
+function drawOpp() {
+  seg($("#o-mode"), MODES.map(([k, l]) => [k, l]), omode, v => { omode = v; drawOpp(); });
+  const q = $("#o-q").value.trim().toLowerCase();
+  const rows = D.opponents[omode].filter(o => (!oc.value || o.course == oc.value) && (!ocl.value || o.class == ocl.value)
+    && (!q || [o.wrestler, o.second, ...(o.team || []), o.wrestler_jp, o.second_jp, ...(o.team_jp || [])].join(" ").toLowerCase().includes(q)));
+  $("#o-count").textContent = `${rows.length} entries`;
+  $("#otable thead").innerHTML = `<tr><th>${omode === "tag" ? "Team" : "Wrestler"}</th>${omode === "tag" ? "" : "<th>Second</th>"}<th>Course</th><th>Class</th><th>Drawn</th></tr>`;
+  $("#otable tbody").innerHTML = rows.map(o => `<tr><td>${omode === "tag" ? `<b>${wlink(esc(o.team[0]), o.team_links[0])}</b> &amp; <b>${wlink(esc(o.team[1]), o.team_links[1])}</b>` : `<b>${wlink(esc(o.wrestler), o.link)}</b> <span class="jp" lang="ja">${esc(o.wrestler_jp)}</span>`}</td>${omode === "tag" ? "" : `<td>${o.second ? wlink(esc(o.second), o.second_link) : ""}</td>`}<td>${esc(course(o.course).key)}</td><td><span class="cls">${CLASS[o.class]}</span></td><td>${o.class === 5 ? "Qualifiers and finals" : "Qualifiers"} ${limText(o.title_limit)}</td></tr>`).join("");
+}
+[oc, ocl].forEach(s => s.addEventListener("change", drawOpp));
+$("#o-q").addEventListener("input", drawOpp);
+drawOpp();
+
+/* ---------- courses */
+(function () {
+  const rows = D.courses.map(c => {
+    const s = c.modes.singles.rounds[0];
+    return `<tr><td><b>${esc(c.name)}</b><div class="small muted">${esc(c.description)}</div></td><td>${c.cut ? "Cut" : c.locked_until ? `Buy ${esc(c.locked_until.shop_item)} (${c.locked_until.price_souls} souls)` : "From the start"}</td><td>${c.modes.singles.offered && !c.cut ? "Yes" : "No"}</td><td>${c.modes.tag.offered && !c.cut ? "Yes" : "No"}</td><td>${esc(setting(s, "Rules"))}, ${esc(setting(s, "Match Type"))}</td><td>${c.modes.singles.rounds.map(r => esc(setting(r, "Venue"))).filter((v, i, a) => a.indexOf(v) === i).join(" → ")}</td></tr>`;
+  }).join("");
+  const fs = D.finals.singles.rounds[0];
+  $("#coursetext").innerHTML = `<div class="prose"><p>Each course runs its qualifiers under its own sheet of match settings, one per round (singles and tag separately); the finals share one sheet for every course. Click through the run map to see each round's full rules.</p></div>
+    <div class="tablebox"><table><thead><tr><th>Course</th><th>Available</th><th>Singles</th><th>Tag</th><th>Qualifier rules</th><th>Venues (singles)</th></tr></thead><tbody>${rows}
+    <tr class="first"><td><b>Finals</b><div class="small muted">Every course</div></td><td></td><td>Yes</td><td>Yes</td><td>${esc(setting(fs, "Rules"))}, ${esc(setting(fs, "Match Type"))}, ${esc(setting(fs, "Time Limit"))}</td><td>${D.finals.singles.rounds.map(r => esc(setting(r, "Venue"))).filter((v, i, a) => a.indexOf(v) === i).join(" → ")}</td></tr></tbody></table></div>`;
+})();
+
+/* ---------- difficulties and souls */
+(function () {
+  const g = ["S", "A", "B", "C", "D"];
+  const rows = D.difficulties.map(d => `<tr><td><b>${esc(d.name)}</b> <span class="jp" lang="ja">${esc(d.name_jp)}</span></td><td>${d.qualifiers.wins_needed == null ? `${d.qualifiers.rounds}, results ignored` : `Win ${d.qualifiers.wins_needed} of ${d.qualifiers.rounds}`}</td><td>${d.finals ? `Win all ${d.finals.rounds}` : "None"}</td><td class="n">${d.continues}</td><td class="small">${d.qualifiers.cpu_level.join(", ")}${d.finals ? " / " + d.finals.cpu_level.join(", ") : ""}</td>${g.map(k => `<td class="n">${num(d.souls_by_grade[k])}</td>`).join("")}<td class="small">${d.locked_until ? `Buy ${esc(d.locked_until.shop_item)} (${d.locked_until.price_souls} souls)` : "From the start"}</td></tr>`).join("");
+  const trows = D.titles.map(t => `<tr><td class="n">${t.id}</td><td><b>${esc(t.name)}</b> <span class="jp" lang="ja">${esc(t.name_jp)}</span></td><td class="small">${esc(t.rule)}</td><td class="n">${t.bonus_souls.A ? "+" + t.bonus_souls.A : "-"}</td><td class="n">${t.bonus_souls.S ? "+" + t.bonus_souls.S : "-"}</td><td class="small">${[t.extra_continues ? `+${t.extra_continues} continue${t.extra_continues > 1 ? "s" : ""}` : "", t.shop_half_price ? "Shop half price" : ""].filter(Boolean).join(", ")}</td></tr>`).join("");
+  $("#difftext").innerHTML = `<div class="prose"><h2>Difficulties</h2><p>Souls are paid after every match, won or lost, by difficulty and the match's grade (S = rating 100, A = 80+, B = 60+, C = 40+, D below), plus your title's bonus.</p></div>
+    <div class="tablebox"><table><thead><tr><th>Difficulty</th><th>Qualifiers</th><th>Finals</th><th>Continues</th><th>CPU level by round</th>${g.map(k => `<th>${k}</th>`).join("")}<th>Available</th></tr></thead><tbody>${rows}</tbody></table></div>
+    <div class="prose"><h2>Titles</h2><p>Recomputed after every match from your last 10 match grades. Some opponents are only drawn while your title is good enough.</p></div>
+    <div class="tablebox"><table><thead><tr><th>#</th><th>Title</th><th>Last 10 matches</th><th>Bonus, A</th><th>Bonus, S</th><th>Also</th></tr></thead><tbody>${trows}</tbody></table></div>
+    <div class="prose"><p class="note">The title bonuses are decoded from the game code and not yet checked in game. Rough Diamond and Struggling Midcarder really do pay nothing extra for an S (it looks like an original slip). Souls are spent in the <a class="sl" href="../secret-shop/">Secret Shop</a>; you can hold at most 9,999.</p></div>`;
+})();
+
+/* ---------- how a run works */
+$("#howtext").innerHTML = `
+<h2>A run</h2>
+<ol>
+<li><b>Pick</b> Singles, Singles with a second, or Tag; your wrestler(s); a course; a difficulty. Starting a course plays the Survival Road intro movie.</li>
+<li><b>Qualifiers.</b> Each round draws one opponent at random from the course's entries in the classes that round allows (D weakest, then C, B). Harder difficulties and later rounds draw stronger classes and a higher CPU level.</li>
+<li><b>Finals!</b> (not on Easy). Every round draws a class A entry from any course. Win them all.</li>
+<li><b>Between matches</b>: Next Match, the Hall of Souls (the Secret Shop) or Save &amp; Quit. Each match starts fresh; no damage carries over.</li>
+<li><b>Losing</b> ends the run only when the stage's goal is out of reach: on Normal one loss is allowed in the qualifiers, everywhere else none. Game Over offers a continue if you have one; it replays the same match.</li>
+<li><b>Clearing</b> the finals shows the credits and records the course as cleared on that difficulty. That's what puts Secret Shop items on sale.</li>
+</ol>
+<h2>Opponents</h2>
+<p>There are no fixed bosses: every opponent is drawn at random from a pool. You never meet the same wrestler twice in a run, nor one you are playing as. Hidden wrestlers appear as opponents whether you've unlocked them or not. A few entries (e.g. Kotetsu Yamamoto, Seiji Sakaguchi) only turn up while your title is high enough.</p>
+<h2>Courses and difficulties</h2>
+<p>Five courses are open from the start. The Fighters course (singles only, vale tudo rules) and the Superstars course must be bought in the shop, and so must the Super Hard and Master difficulties.</p>
+<h2>Sources</h2>
+<p class="small muted">Built by <span class="k">tools/survivalmap.py</span> from the opponent tables, class grids, match setting sheets and notices on the disc and the English translation; the rules come from the game code (addresses in docs/TECHNICAL.md). Not yet traced: the match-rating formula, what the sheets' ○/× marks mean exactly, and whether a run's "already met" list survives Save &amp; Quit.</p>`;
+
+/* ---------- start */
+const hm = (location.hash || "").slice(1).split("/");
+if (hm.length >= 3 && course(+hm[0]) && diff(+hm[2])) st = { course: +hm[0], mode: hm[1] === "tag" ? "tag" : "singles", diff: +hm[2], title: hm[3] != null && +hm[3] >= 0 && +hm[3] <= 8 ? +hm[3] : -1 };
+update();
+})();
+</script>

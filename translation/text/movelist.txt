@@ -1,0 +1,16842 @@
+# A second move list (CPU logic / move slots).
+# KC2FIRE.000 entry 2011 - see tools/tables.py.
+# Letters are stored full-width (2 bytes), spaces as 1 byte. Keep names about as wide as the Japanese.
+
+@ 0
+JP －
+EN －
+
+@ 1
+JP －
+EN －
+
+@ 2
+JP －
+EN －
+
+@ 3
+JP －
+EN －
+
+@ 4
+JP －
+EN －
+
+@ 5
+JP －
+EN －
+
+@ 6
+JP －
+EN －
+
+@ 7
+JP －
+EN －
+
+@ 8
+JP －
+EN －
+
+@ 9
+JP －
+EN －
+
+@ 10
+JP －
+EN －
+
+@ 11
+JP －
+EN －
+
+@ 12
+JP －
+EN －
+
+@ 13
+JP －
+EN －
+
+@ 14
+JP －
+EN －
+
+@ 15
+JP －
+EN －
+
+@ 16
+JP －
+EN －
+
+@ 17
+JP －
+EN －
+
+@ 18
+JP －
+EN －
+
+@ 19
+JP －
+EN －
+
+@ 20
+JP －
+EN －
+
+@ 21
+JP －
+EN －
+
+@ 22
+JP －
+EN －
+
+@ 23
+JP －
+EN －
+
+@ 24
+JP －
+EN －
+
+@ 25
+JP －
+EN －
+
+@ 26
+JP －
+EN －
+
+@ 27
+JP －
+EN －
+
+@ 28
+JP －
+EN －
+
+@ 29
+JP －
+EN －
+
+@ 30
+JP －
+EN －
+
+@ 31
+JP －
+EN －
+
+@ 32
+JP －
+EN －
+
+@ 33
+JP －
+EN －
+
+@ 34
+JP －
+EN －
+
+@ 35
+JP －
+EN －
+
+@ 36
+JP －
+EN －
+
+@ 37
+JP －
+EN －
+
+@ 38
+JP －
+EN －
+
+@ 39
+JP －
+EN －
+
+@ 40
+JP －
+EN －
+
+@ 41
+JP －
+EN －
+
+@ 42
+JP －
+EN －
+
+@ 43
+JP －
+EN －
+
+@ 44
+JP －
+EN －
+
+@ 45
+JP －
+EN －
+
+@ 46
+JP －
+EN －
+
+@ 47
+JP －
+EN －
+
+@ 48
+JP －
+EN －
+
+@ 49
+JP －
+EN －
+
+@ 50
+JP －
+EN －
+
+@ 51
+JP －
+EN －
+
+@ 52
+JP －
+EN －
+
+@ 53
+JP －
+EN －
+
+@ 54
+JP －
+EN －
+
+@ 55
+JP －
+EN －
+
+@ 56
+JP －
+EN －
+
+@ 57
+JP －
+EN －
+
+@ 58
+JP －
+EN －
+
+@ 59
+JP －
+EN －
+
+@ 60
+JP －
+EN －
+
+@ 61
+JP －
+EN －
+
+@ 62
+JP －
+EN －
+
+@ 63
+JP －
+EN －
+
+@ 64
+JP －
+EN －
+
+@ 65
+JP －
+EN －
+
+@ 66
+JP －
+EN －
+
+@ 67
+JP －
+EN －
+
+@ 68
+JP －
+EN －
+
+@ 69
+JP －
+EN －
+
+@ 70
+JP －
+EN －
+
+@ 71
+JP －
+EN －
+
+@ 72
+JP －
+EN －
+
+@ 73
+JP －
+EN －
+
+@ 74
+JP －
+EN －
+
+@ 75
+JP －
+EN －
+
+@ 76
+JP －
+EN －
+
+@ 77
+JP －
+EN －
+
+@ 78
+JP －
+EN －
+
+@ 79
+JP －
+EN －
+
+@ 80
+JP －
+EN －
+
+@ 81
+JP －
+EN －
+
+@ 82
+JP －
+EN －
+
+@ 83
+JP －
+EN －
+
+@ 84
+JP －
+EN －
+
+@ 85
+JP －
+EN －
+
+@ 86
+JP －
+EN －
+
+@ 87
+JP －
+EN －
+
+@ 88
+JP －
+EN －
+
+@ 89
+JP －
+EN －
+
+@ 90
+JP －
+EN －
+
+@ 91
+JP －
+EN －
+
+@ 92
+JP －
+EN －
+
+@ 93
+JP －
+EN －
+
+@ 94
+JP －
+EN －
+
+@ 95
+JP －
+EN －
+
+@ 96
+JP －
+EN －
+
+@ 97
+JP －
+EN －
+
+@ 98
+JP －
+EN －
+
+@ 99
+JP －
+EN －
+
+@ 100
+JP －
+EN －
+
+@ 101
+JP －
+EN －
+
+@ 102
+JP －
+EN －
+
+@ 103
+JP －
+EN －
+
+@ 104
+JP －
+EN －
+
+@ 105
+JP －
+EN －
+
+@ 106
+JP －
+EN －
+
+@ 107
+JP －
+EN －
+
+@ 108
+JP －
+EN －
+
+@ 109
+JP －
+EN －
+
+@ 110
+JP －
+EN －
+
+@ 111
+JP －
+EN －
+
+@ 112
+JP －
+EN －
+
+@ 113
+JP －
+EN －
+
+@ 114
+JP －
+EN －
+
+@ 115
+JP －
+EN －
+
+@ 116
+JP －
+EN －
+
+@ 117
+JP －
+EN －
+
+@ 118
+JP －
+EN －
+
+@ 119
+JP －
+EN －
+
+@ 120
+JP －
+EN －
+
+@ 121
+JP －
+EN －
+
+@ 122
+JP －
+EN －
+
+@ 123
+JP －
+EN －
+
+@ 124
+JP －
+EN －
+
+@ 125
+JP －
+EN －
+
+@ 126
+JP －
+EN －
+
+@ 127
+JP －
+EN －
+
+@ 128
+JP －
+EN －
+
+@ 129
+JP －
+EN －
+
+@ 130
+JP －
+EN －
+
+@ 131
+JP －
+EN －
+
+@ 132
+JP －
+EN －
+
+@ 133
+JP －
+EN －
+
+@ 134
+JP －
+EN －
+
+@ 135
+JP －
+EN －
+
+@ 136
+JP －
+EN －
+
+@ 137
+JP －
+EN －
+
+@ 138
+JP －
+EN －
+
+@ 139
+JP －
+EN －
+
+@ 140
+JP －
+EN －
+
+@ 141
+JP －
+EN －
+
+@ 142
+JP －
+EN －
+
+@ 143
+JP －
+EN －
+
+@ 144
+JP －
+EN －
+
+@ 145
+JP －
+EN －
+
+@ 146
+JP －
+EN －
+
+@ 147
+JP －
+EN －
+
+@ 148
+JP －
+EN －
+
+@ 149
+JP －
+EN －
+
+@ 150
+JP －
+EN －
+
+@ 151
+JP －
+EN －
+
+@ 152
+JP －
+EN －
+
+@ 153
+JP －
+EN －
+
+@ 154
+JP －
+EN －
+
+@ 155
+JP －
+EN －
+
+@ 156
+JP －
+EN －
+
+@ 157
+JP －
+EN －
+
+@ 158
+JP －
+EN －
+
+@ 159
+JP －
+EN －
+
+@ 160
+JP －
+EN －
+
+@ 161
+JP －
+EN －
+
+@ 162
+JP －
+EN －
+
+@ 163
+JP －
+EN －
+
+@ 164
+JP －
+EN －
+
+@ 165
+JP －
+EN －
+
+@ 166
+JP －
+EN －
+
+@ 167
+JP －
+EN －
+
+@ 168
+JP －
+EN －
+
+@ 169
+JP －
+EN －
+
+@ 170
+JP －
+EN －
+
+@ 171
+JP －
+EN －
+
+@ 172
+JP －
+EN －
+
+@ 173
+JP －
+EN －
+
+@ 174
+JP －
+EN －
+
+@ 175
+JP －
+EN －
+
+@ 176
+JP －
+EN －
+
+@ 177
+JP －
+EN －
+
+@ 178
+JP －
+EN －
+
+@ 179
+JP －
+EN －
+
+@ 180
+JP －
+EN －
+
+@ 181
+JP －
+EN －
+
+@ 182
+JP －
+EN －
+
+@ 183
+JP －
+EN －
+
+@ 184
+JP －
+EN －
+
+@ 185
+JP －
+EN －
+
+@ 186
+JP －
+EN －
+
+@ 187
+JP －
+EN －
+
+@ 188
+JP －
+EN －
+
+@ 189
+JP －
+EN －
+
+@ 190
+JP －
+EN －
+
+@ 191
+JP －
+EN －
+
+@ 192
+JP －
+EN －
+
+@ 193
+JP －
+EN －
+
+@ 194
+JP －
+EN －
+
+@ 195
+JP －
+EN －
+
+@ 196
+JP －
+EN －
+
+@ 197
+JP －
+EN －
+
+@ 198
+JP －
+EN －
+
+@ 199
+JP －
+EN －
+
+@ 200
+JP －
+EN －
+
+@ 201
+JP －
+EN －
+
+@ 202
+JP －
+EN －
+
+@ 203
+JP －
+EN －
+
+@ 204
+JP －
+EN －
+
+@ 205
+JP －
+EN －
+
+@ 206
+JP －
+EN －
+
+@ 207
+JP －
+EN －
+
+@ 208
+JP －
+EN －
+
+@ 209
+JP －
+EN －
+
+@ 210
+JP －
+EN －
+
+@ 211
+JP －
+EN －
+
+@ 212
+JP －
+EN －
+
+@ 213
+JP －
+EN －
+
+@ 214
+JP －
+EN －
+
+@ 215
+JP －
+EN －
+
+@ 216
+JP －
+EN －
+
+@ 217
+JP －
+EN －
+
+@ 218
+JP －
+EN －
+
+@ 219
+JP －
+EN －
+
+@ 220
+JP －
+EN －
+
+@ 221
+JP －
+EN －
+
+@ 222
+JP －
+EN －
+
+@ 223
+JP －
+EN －
+
+@ 224
+JP －
+EN －
+
+@ 225
+JP －
+EN －
+
+@ 226
+JP －
+EN －
+
+@ 227
+JP －
+EN －
+
+@ 228
+JP －
+EN －
+
+@ 229
+JP －
+EN －
+
+@ 230
+JP －
+EN －
+
+@ 231
+JP －
+EN －
+
+@ 232
+JP －
+EN －
+
+@ 233
+JP －
+EN －
+
+@ 234
+JP －
+EN －
+
+@ 235
+JP －
+EN －
+
+@ 236
+JP －
+EN －
+
+@ 237
+JP －
+EN －
+
+@ 238
+JP －
+EN －
+
+@ 239
+JP －
+EN －
+
+@ 240
+JP －
+EN －
+
+@ 241
+JP －
+EN －
+
+@ 242
+JP －
+EN －
+
+@ 243
+JP －
+EN －
+
+@ 244
+JP －
+EN －
+
+@ 245
+JP －
+EN －
+
+@ 246
+JP －
+EN －
+
+@ 247
+JP －
+EN －
+
+@ 248
+JP －
+EN －
+
+@ 249
+JP －
+EN －
+
+@ 250
+JP －
+EN －
+
+@ 251
+JP －
+EN －
+
+@ 252
+JP －
+EN －
+
+@ 253
+JP －
+EN －
+
+@ 254
+JP －
+EN －
+
+@ 255
+JP －
+EN －
+
+@ 256
+JP －
+EN －
+
+@ 257
+JP －
+EN －
+
+@ 258
+JP －
+EN －
+
+@ 259
+JP －
+EN －
+
+@ 260
+JP －
+EN －
+
+@ 261
+JP －
+EN －
+
+@ 262
+JP －
+EN －
+
+@ 263
+JP －
+EN －
+
+@ 264
+JP －
+EN －
+
+@ 265
+JP －
+EN －
+
+@ 266
+JP －
+EN －
+
+@ 267
+JP －
+EN －
+
+@ 268
+JP －
+EN －
+
+@ 269
+JP －
+EN －
+
+@ 270
+JP －
+EN －
+
+@ 271
+JP －
+EN －
+
+@ 272
+JP －
+EN －
+
+@ 273
+JP －
+EN －
+
+@ 274
+JP －
+EN －
+
+@ 275
+JP －
+EN －
+
+@ 276
+JP －
+EN －
+
+@ 277
+JP －
+EN －
+
+@ 278
+JP －
+EN －
+
+@ 279
+JP －
+EN －
+
+@ 280
+JP －
+EN －
+
+@ 281
+JP －
+EN －
+
+@ 282
+JP －
+EN －
+
+@ 283
+JP －
+EN －
+
+@ 284
+JP －
+EN －
+
+@ 285
+JP －
+EN －
+
+@ 286
+JP －
+EN －
+
+@ 287
+JP －
+EN －
+
+@ 288
+JP －
+EN －
+
+@ 289
+JP －
+EN －
+
+@ 290
+JP －
+EN －
+
+@ 291
+JP －
+EN －
+
+@ 292
+JP －
+EN －
+
+@ 293
+JP －
+EN －
+
+@ 294
+JP －
+EN －
+
+@ 295
+JP －
+EN －
+
+@ 296
+JP －
+EN －
+
+@ 297
+JP －
+EN －
+
+@ 298
+JP －
+EN －
+
+@ 299
+JP －
+EN －
+
+@ 300
+JP －
+EN －
+
+@ 301
+JP －
+EN －
+
+@ 302
+JP －
+EN －
+
+@ 303
+JP －
+EN －
+
+@ 304
+JP －
+EN －
+
+@ 305
+JP －
+EN －
+
+@ 306
+JP －
+EN －
+
+@ 307
+JP －
+EN －
+
+@ 308
+JP －
+EN －
+
+@ 309
+JP －
+EN －
+
+@ 310
+JP －
+EN －
+
+@ 311
+JP －
+EN －
+
+@ 312
+JP －
+EN －
+
+@ 313
+JP －
+EN －
+
+@ 314
+JP －
+EN －
+
+@ 315
+JP －
+EN －
+
+@ 316
+JP －
+EN －
+
+@ 317
+JP －
+EN －
+
+@ 318
+JP －
+EN －
+
+@ 319
+JP －
+EN －
+
+@ 320
+JP －
+EN －
+
+@ 321
+JP －
+EN －
+
+@ 322
+JP －
+EN －
+
+@ 323
+JP －
+EN －
+
+@ 324
+JP －
+EN －
+
+@ 325
+JP －
+EN －
+
+@ 326
+JP －
+EN －
+
+@ 327
+JP －
+EN －
+
+@ 328
+JP －
+EN －
+
+@ 329
+JP －
+EN －
+
+@ 330
+JP －
+EN －
+
+@ 331
+JP －
+EN －
+
+@ 332
+JP －
+EN －
+
+@ 333
+JP －
+EN －
+
+@ 334
+JP －
+EN －
+
+@ 335
+JP －
+EN －
+
+@ 336
+JP －
+EN －
+
+@ 337
+JP －
+EN －
+
+@ 338
+JP －
+EN －
+
+@ 339
+JP －
+EN －
+
+@ 340
+JP －
+EN －
+
+@ 341
+JP －
+EN －
+
+@ 342
+JP －
+EN －
+
+@ 343
+JP －
+EN －
+
+@ 344
+JP －
+EN －
+
+@ 345
+JP －
+EN －
+
+@ 346
+JP －
+EN －
+
+@ 347
+JP －
+EN －
+
+@ 348
+JP －
+EN －
+
+@ 349
+JP －
+EN －
+
+@ 350
+JP －
+EN －
+
+@ 351
+JP －
+EN －
+
+@ 352
+JP －
+EN －
+
+@ 353
+JP －
+EN －
+
+@ 354
+JP －
+EN －
+
+@ 355
+JP －
+EN －
+
+@ 356
+JP －
+EN －
+
+@ 357
+JP －
+EN －
+
+@ 358
+JP －
+EN －
+
+@ 359
+JP －
+EN －
+
+@ 360
+JP －
+EN －
+
+@ 361
+JP －
+EN －
+
+@ 362
+JP －
+EN －
+
+@ 363
+JP －
+EN －
+
+@ 364
+JP －
+EN －
+
+@ 365
+JP －
+EN －
+
+@ 366
+JP －
+EN －
+
+@ 367
+JP －
+EN －
+
+@ 368
+JP －
+EN －
+
+@ 369
+JP －
+EN －
+
+@ 370
+JP －
+EN －
+
+@ 371
+JP －
+EN －
+
+@ 372
+JP －
+EN －
+
+@ 373
+JP －
+EN －
+
+@ 374
+JP －
+EN －
+
+@ 375
+JP －
+EN －
+
+@ 376
+JP －
+EN －
+
+@ 377
+JP －
+EN －
+
+@ 378
+JP －
+EN －
+
+@ 379
+JP －
+EN －
+
+@ 380
+JP －
+EN －
+
+@ 381
+JP －
+EN －
+
+@ 382
+JP －
+EN －
+
+@ 383
+JP －
+EN －
+
+@ 384
+JP －
+EN －
+
+@ 385
+JP －
+EN －
+
+@ 386
+JP －
+EN －
+
+@ 387
+JP －
+EN －
+
+@ 388
+JP －
+EN －
+
+@ 389
+JP －
+EN －
+
+@ 390
+JP －
+EN －
+
+@ 391
+JP －
+EN －
+
+@ 392
+JP －
+EN －
+
+@ 393
+JP －
+EN －
+
+@ 394
+JP －
+EN －
+
+@ 395
+JP －
+EN －
+
+@ 396
+JP －
+EN －
+
+@ 397
+JP －
+EN －
+
+@ 398
+JP －
+EN －
+
+@ 399
+JP －
+EN －
+
+@ 400
+JP －
+EN －
+
+@ 401
+JP －
+EN －
+
+@ 402
+JP －
+EN －
+
+@ 403
+JP －
+EN －
+
+@ 404
+JP －
+EN －
+
+@ 405
+JP －
+EN －
+
+@ 406
+JP －
+EN －
+
+@ 407
+JP －
+EN －
+
+@ 408
+JP －
+EN －
+
+@ 409
+JP －
+EN －
+
+@ 410
+JP －
+EN －
+
+@ 411
+JP －
+EN －
+
+@ 412
+JP －
+EN －
+
+@ 413
+JP －
+EN －
+
+@ 414
+JP －
+EN －
+
+@ 415
+JP －
+EN －
+
+@ 416
+JP －
+EN －
+
+@ 417
+JP －
+EN －
+
+@ 418
+JP －
+EN －
+
+@ 419
+JP －
+EN －
+
+@ 420
+JP －
+EN －
+
+@ 421
+JP －
+EN －
+
+@ 422
+JP －
+EN －
+
+@ 423
+JP －
+EN －
+
+@ 424
+JP エプロンからリング（エプロン待機から構え）
+EN Apron to Ring (Wait > Stance)
+
+@ 425
+JP エプロンから場外（エプロン待機から構え）
+EN Apron to Floor (Wait > Stance)
+
+@ 426
+JP リングから転がって場外（仰向けダウンから構え）
+EN Roll Out of Ring (Down > Stance)
+
+@ 427
+JP リングからスライディングで場外（構えから構え）
+EN Slide Out of Ring (Stance > Stance)
+
+@ 428
+JP 場外から転がってリング（構えから構え）
+EN Roll Into Ring (Stance > Stance)
+
+@ 429
+JP 場外からダッシュでリング（構えから構え）
+EN Dash Into Ring (Stance > Stance)
+
+@ 430
+JP エプロンからトップロープ（エプロン待機からトップロープ待機）右
+EN Apron to Top Rope (Apron Wait > Top Rope Wait) R
+
+@ 431
+JP エプロンからトップロープ（エプロン待機からトップロープ待機）左
+EN Apron to Top Rope (Apron Wait > Top Rope Wait) L
+
+@ 432
+JP エプロンからトップロープへ飛び登る右
+EN Leap from Apron to Top Rope R
+
+@ 433
+JP エプロンからトップロープへ飛び登る左
+EN Leap from Apron to Top Rope L
+
+@ 434
+JP トップロープからリングに降りる（トップロープ待機から構え）
+EN Top Rope to Ring (Top Rope Wait > Stance)
+
+@ 435
+JP リングから花道へ
+EN Ring to Ramp
+
+@ 436
+JP 花道から場外へ
+EN Ramp to Floor
+
+@ 437
+JP 場外から花道へ
+EN Floor to Ramp
+
+@ 438
+JP リングからトップロープへ
+EN Ring to Top Rope
+
+@ 439
+JP リングからトップロープへ飛び登る
+EN Leap from Ring to Top Rope
+
+@ 440
+JP リングから走ってトップロープへ
+EN Run from Ring to Top Rope
+
+@ 441
+JP 走り前転
+EN Run Roll
+
+@ 442
+JP 側転避け
+EN Cartwheel Dodge
+
+@ 443
+JP コーナーポストからサマーソルト
+EN Corner Somersault
+
+@ 444
+JP －
+EN －
+
+@ 445
+JP －
+EN －
+
+@ 446
+JP －
+EN －
+
+@ 447
+JP －
+EN －
+
+@ 448
+JP －
+EN －
+
+@ 449
+JP －
+EN －
+
+@ 450
+JP －
+EN －
+
+@ 451
+JP －
+EN －
+
+@ 452
+JP －
+EN －
+
+@ 453
+JP －
+EN －
+
+@ 454
+JP －
+EN －
+
+@ 455
+JP －
+EN －
+
+@ 456
+JP －
+EN －
+
+@ 457
+JP －
+EN －
+
+@ 458
+JP フロントヘッドロック
+EN Front Headlock
+
+@ 459
+JP ハンマーブロー
+EN Hammer Blow
+
+@ 460
+JP ストマックニーリフト
+EN Stomach Knee Lift
+
+@ 461
+JP －
+EN －
+
+@ 462
+JP －
+EN －
+
+@ 463
+JP －
+EN －
+
+@ 464
+JP －
+EN －
+
+@ 465
+JP －
+EN －
+
+@ 466
+JP ー
+EN -
+
+@ 467
+JP －
+EN －
+
+@ 468
+JP －
+EN －
+
+@ 469
+JP －
+EN －
+
+@ 470
+JP －
+EN －
+
+@ 471
+JP －
+EN －
+
+@ 472
+JP －
+EN －
+
+@ 473
+JP －
+EN －
+
+@ 474
+JP －
+EN －
+
+@ 475
+JP －
+EN －
+
+@ 476
+JP －
+EN －
+
+@ 477
+JP －
+EN －
+
+@ 478
+JP －
+EN －
+
+@ 479
+JP －
+EN －
+
+@ 480
+JP －
+EN －
+
+@ 481
+JP －
+EN －
+
+@ 482
+JP －
+EN －
+
+@ 483
+JP －
+EN －
+
+@ 484
+JP －
+EN －
+
+@ 485
+JP －
+EN －
+
+@ 486
+JP －
+EN －
+
+@ 487
+JP －
+EN －
+
+@ 488
+JP －
+EN －
+
+@ 489
+JP －
+EN －
+
+@ 490
+JP －
+EN －
+
+@ 491
+JP －
+EN －
+
+@ 492
+JP －
+EN －
+
+@ 493
+JP －
+EN －
+
+@ 494
+JP －
+EN －
+
+@ 495
+JP －
+EN －
+
+@ 496
+JP －
+EN －
+
+@ 497
+JP －
+EN －
+
+@ 498
+JP －
+EN －
+
+@ 499
+JP －
+EN －
+
+@ 500
+JP －
+EN －
+
+@ 501
+JP －
+EN －
+
+@ 502
+JP －
+EN －
+
+@ 503
+JP －
+EN －
+
+@ 504
+JP －
+EN －
+
+@ 505
+JP －
+EN －
+
+@ 506
+JP －
+EN －
+
+@ 507
+JP －
+EN －
+
+@ 508
+JP －
+EN －
+
+@ 509
+JP －
+EN －
+
+@ 510
+JP －
+EN －
+
+@ 511
+JP －
+EN －
+
+@ 512
+JP －
+EN －
+
+@ 513
+JP －
+EN －
+
+@ 514
+JP －
+EN －
+
+@ 515
+JP －
+EN －
+
+@ 516
+JP －
+EN －
+
+@ 517
+JP －
+EN －
+
+@ 518
+JP －
+EN －
+
+@ 519
+JP －
+EN －
+
+@ 520
+JP －
+EN －
+
+@ 521
+JP －
+EN －
+
+@ 522
+JP －
+EN －
+
+@ 523
+JP －
+EN －
+
+@ 524
+JP －
+EN －
+
+@ 525
+JP －
+EN －
+
+@ 526
+JP －
+EN －
+
+@ 527
+JP －
+EN －
+
+@ 528
+JP －
+EN －
+
+@ 529
+JP －
+EN －
+
+@ 530
+JP －
+EN －
+
+@ 531
+JP －
+EN －
+
+@ 532
+JP －
+EN －
+
+@ 533
+JP －
+EN －
+
+@ 534
+JP シュミット式バックブリーカー
+EN Schmidt Backbreaker
+
+@ 535
+JP シュミット式バックブリーカー
+EN Schmidt Backbreaker
+
+@ 536
+JP －
+EN －
+
+@ 537
+JP －
+EN －
+
+@ 538
+JP －
+EN －
+
+@ 539
+JP －
+EN －
+
+@ 540
+JP －
+EN －
+
+@ 541
+JP －
+EN －
+
+@ 542
+JP －
+EN －
+
+@ 543
+JP －
+EN －
+
+@ 544
+JP －
+EN －
+
+@ 545
+JP －
+EN －
+
+@ 546
+JP －
+EN －
+
+@ 547
+JP －
+EN －
+
+@ 548
+JP －
+EN －
+
+@ 549
+JP －
+EN －
+
+@ 550
+JP －
+EN －
+
+@ 551
+JP －
+EN －
+
+@ 552
+JP －
+EN －
+
+@ 553
+JP －
+EN －
+
+@ 554
+JP －
+EN －
+
+@ 555
+JP －
+EN －
+
+@ 556
+JP －
+EN －
+
+@ 557
+JP －
+EN －
+
+@ 558
+JP －
+EN －
+
+@ 559
+JP －
+EN －
+
+@ 560
+JP －
+EN －
+
+@ 561
+JP －
+EN －
+
+@ 562
+JP －
+EN －
+
+@ 563
+JP －
+EN －
+
+@ 564
+JP －
+EN －
+
+@ 565
+JP －
+EN －
+
+@ 566
+JP －
+EN －
+
+@ 567
+JP －
+EN －
+
+@ 568
+JP －
+EN －
+
+@ 569
+JP 新規技
+EN New Move
+
+@ 570
+JP 新規技
+EN New Move
+
+@ 571
+JP 新規技
+EN New Move
+
+@ 572
+JP 新規技
+EN New Move
+
+@ 573
+JP 新規技
+EN New Move
+
+@ 574
+JP －
+EN －
+
+@ 575
+JP －
+EN －
+
+@ 576
+JP －
+EN －
+
+@ 577
+JP 凶器攻撃
+EN Weapon Attack
+
+@ 578
+JP 凶器攻撃
+EN Weapon Attack
+
+@ 579
+JP 凶器攻撃
+EN Weapon Attack
+
+@ 580
+JP 凶器攻撃
+EN Weapon Attack
+
+@ 581
+JP シュミット式バックブリーカー
+EN Schmidt Backbreaker
+
+@ 582
+JP －
+EN －
+
+@ 583
+JP －
+EN －
+
+@ 584
+JP －
+EN －
+
+@ 585
+JP －
+EN －
+
+@ 586
+JP －
+EN －
+
+@ 587
+JP 凶器攻撃
+EN Weapon Attack
+
+@ 588
+JP 凶器攻撃
+EN Weapon Attack
+
+@ 589
+JP 凶器攻撃
+EN Weapon Attack
+
+@ 590
+JP 凶器攻撃
+EN Weapon Attack
+
+@ 591
+JP －
+EN －
+
+@ 592
+JP ジャブ
+EN Jab
+
+@ 593
+JP アメリカンジャブ
+EN American Jab
+
+@ 594
+JP 柔術ジャブ
+EN Jujutsu Jab
+
+@ 595
+JP ナックルパンチ
+EN Knuckle Punch
+
+@ 596
+JP ナックルアロー
+EN Knuckle Arrow
+
+@ 597
+JP 顔張リ手
+EN Face Slap
+
+@ 598
+JP 胸張リ手
+EN Chest Slap
+
+@ 599
+JP キラー張リ手
+EN Killer Slap
+
+@ 600
+JP ドラゴン張リ手
+EN Dragon Slap
+
+@ 601
+JP 掌打
+EN Palm Strike
+
+@ 602
+JP ビンタ
+EN Slap
+
+@ 603
+JP 空手チョップ
+EN Karate Chop
+
+@ 604
+JP キック
+EN Kick
+
+@ 605
+JP トーキック
+EN Toe Kick
+
+@ 606
+JP 前蹴り
+EN Front Kick
+
+@ 607
+JP 柔術キック
+EN Jujutsu Kick
+
+@ 608
+JP 関節蹴り
+EN Joint Kick
+
+@ 609
+JP ローキック
+EN Low Kick
+
+@ 610
+JP 爆殺ローキック
+EN Bakusatsu Low Kick
+
+@ 611
+JP ドラゴンローキック
+EN Dragon Low Kick
+
+@ 612
+JP キラーローキック
+EN Killer Low Kick
+
+@ 613
+JP ムエタイローキック
+EN Muay Thai Low Kick
+
+@ 614
+JP 下段蹴り
+EN Low Kick
+
+@ 615
+JP ジャイアントトーキック
+EN Giant Toe Kick
+
+@ 616
+JP フック
+EN Hook
+
+@ 617
+JP アメリカンフック
+EN American Hook
+
+@ 618
+JP グーパンチ
+EN Fist Punch
+
+@ 619
+JP ストレート
+EN Straight
+
+@ 620
+JP ロシアンフック
+EN Russian Hook
+
+@ 621
+JP アッパー
+EN Uppercut
+
+@ 622
+JP 逆水平チョップ
+EN Knife-Edge Chop
+
+@ 623
+JP 龍チョップ
+EN Ryu Chop
+
+@ 624
+JP 馳チョップ
+EN Hase Chop
+
+@ 625
+JP 熱血チョップ
+EN Hot-Blooded Chop
+
+@ 626
+JP ジャイアントチョップ
+EN Giant Chop
+
+@ 627
+JP ローリング逆水平チョップ
+EN Rolling Chop
+
+@ 628
+JP ツバメ返し
+EN Tsubame Gaeshi
+
+@ 629
+JP 掌底
+EN Palm Strike
+
+@ 630
+JP フック掌打
+EN Hook Palm
+
+@ 631
+JP ストレート掌打
+EN Straight Palm
+
+@ 632
+JP アッパー掌底
+EN Upper Palm
+
+@ 633
+JP エルボーバット
+EN Elbow Butt
+
+@ 634
+JP エルボースマッシュ
+EN Elbow Smash
+
+@ 635
+JP 逆回転ローリングエルボー
+EN Reverse Rolling Elbow
+
+@ 636
+JP スレッジハンマー
+EN Sledgehammer
+
+@ 637
+JP 腕パンチ
+EN Arm Punch
+
+@ 638
+JP 腕パンチ
+EN Arm Punch
+
+@ 639
+JP バックブロー
+EN Back Blow
+
+@ 640
+JP ボディブロー
+EN Body Blow
+
+@ 641
+JP 袈裟斬りチョップ
+EN Kesagiri Chop
+
+@ 642
+JP モンゴリアンチョップ
+EN Mongolian Chop
+
+@ 643
+JP ラリアット
+EN Lariat
+
+@ 644
+JP ラリアット
+EN Lariat
+
+@ 645
+JP ラリアットアタック
+EN Lariat Attack
+
+@ 646
+JP ラリアットアタック
+EN Lariat Attack
+
+@ 647
+JP ノータッチヘッドバット
+EN No-Touch Headbutt
+
+@ 648
+JP ストマックヘッドバット
+EN Stomach Headbutt
+
+@ 649
+JP ストレート掌底
+EN Straight Palm
+
+@ 650
+JP ムタチョップ
+EN Muta Chop
+
+@ 651
+JP 地獄突き
+EN Hell Thrust
+
+@ 652
+JP ラッシングラリアット
+EN Rushing Lariat
+
+@ 653
+JP バックハンド袈裟斬りチョップ
+EN Backhand Kesagiri Chop
+
+@ 654
+JP ミドルキック
+EN Middle Kick
+
+@ 655
+JP 爆殺ミドルキック
+EN Bakusatsu Middle Kick
+
+@ 656
+JP ムエタイミドルキック
+EN Muay Thai Middle Kick
+
+@ 657
+JP 中段蹴り
+EN Middle Kick
+
+@ 658
+JP フロントハイキック
+EN Front High Kick
+
+@ 659
+JP ケンカキック
+EN Kenka Kick
+
+@ 660
+JP ボディソバット
+EN Body Sobat
+
+@ 661
+JP 元祖ローリングソバット
+EN Original Rolling Sobat
+
+@ 662
+JP ローリングソバット
+EN Rolling Sobat
+
+@ 663
+JP トラースキック
+EN Thrust Kick
+
+@ 664
+JP スピンキック
+EN Spin Kick
+
+@ 665
+JP ダイナミックハイキック
+EN Dynamic High Kick
+
+@ 666
+JP アリキック
+EN Ali Kick
+
+@ 667
+JP 踵落とし
+EN Axe Kick
+
+@ 668
+JP ドロップキック
+EN Dropkick
+
+@ 669
+JP 側面飛びドロップキック
+EN Side Dropkick
+
+@ 670
+JP 一回転ドロップキック
+EN Rolling Dropkick
+
+@ 671
+JP 正面飛びドロップキック
+EN Front Dropkick
+
+@ 672
+JP 低空ドロップキック
+EN Low Dropkick
+
+@ 673
+JP 正面飛び低空ドロップキック
+EN Front Low Dropkick
+
+@ 674
+JP 骨法流浴びせ蹴り
+EN Koppo Abisegeri
+
+@ 675
+JP 浴びせ蹴り
+EN Abisegeri
+
+@ 676
+JP 竜巻蹴り
+EN Tornado Kick
+
+@ 677
+JP フライングニールキック
+EN Flying Neil Kick
+
+@ 678
+JP ラウンディングニールキック
+EN Rounding Neil Kick
+
+@ 679
+JP 飛び後ろ廻し蹴り
+EN Jumping Spin Kick
+
+@ 680
+JP スクリューハイキック
+EN Screw High Kick
+
+@ 681
+JP 延髄蹴り
+EN Enzui Kick
+
+@ 682
+JP 延髄斬り
+EN Enzuigiri
+
+@ 683
+JP 元祖延髄斬り
+EN Original Enzuigiri
+
+@ 684
+JP 小車輪キック
+EN Small Wheel Kick
+
+@ 685
+JP 龍式浴びせ蹴り
+EN Ryu Abisegeri
+
+@ 686
+JP スーパーキック
+EN Superkick
+
+@ 687
+JP 倒れ込みスーパーキック
+EN Falling Superkick
+
+@ 688
+JP 後ろ回し蹴り
+EN Spinning Back Kick
+
+@ 689
+JP ビッグブーツ
+EN Big Boot
+
+@ 690
+JP バックブレインキック
+EN Back Brain Kick
+
+@ 691
+JP バク宙ドロップキック
+EN Backflip Dropkick
+
+@ 692
+JP 顔面蹴り
+EN Face Kick
+
+@ 693
+JP クレイジーサイクロン
+EN Crazy Cyclone
+
+@ 694
+JP ローリングエルボー
+EN Rolling Elbow
+
+@ 695
+JP ローリングラリアット
+EN Rolling Lariat
+
+@ 696
+JP フットボールタックル
+EN Football Tackle
+
+@ 697
+JP スピアー
+EN Spear
+
+@ 698
+JP マッケンロー
+EN McEnroe
+
+@ 699
+JP ローリング掌底
+EN Rolling Palm Strike
+
+@ 700
+JP 裏拳
+EN Backfist
+
+@ 701
+JP ゴールデンレフト
+EN Golden Left
+
+@ 702
+JP ハイキック
+EN High Kick
+
+@ 703
+JP 爆殺ハイキック
+EN Bakusatsu High Kick
+
+@ 704
+JP ムエタイハイキック
+EN Muay Thai High Kick
+
+@ 705
+JP ジャンピングムエタイハイキック
+EN J. Muay Thai High Kick
+
+@ 706
+JP 上段蹴り
+EN High Kick
+
+@ 707
+JP 水面蹴り
+EN Leg Sweep
+
+@ 708
+JP 突き上げドロップキック
+EN Rising Dropkick
+
+@ 709
+JP 魔性ドロップキック
+EN Devil Dropkick
+
+@ 710
+JP 飛び膝蹴り
+EN Flying Knee
+
+@ 711
+JP 大車輪キック
+EN Big Wheel Kick
+
+@ 712
+JP ジャンピングフロントハイキック
+EN J. Front High Kick
+
+@ 713
+JP 輪廻
+EN Rinne
+
+@ 714
+JP 回転地獄蹴り
+EN Rolling Hell Kick
+
+@ 715
+JP ジャンピングハイキック
+EN Jumping High Kick
+
+@ 716
+JP スイクルデス
+EN Suicle Death
+
+@ 717
+JP バク転キック
+EN Backflip Kick
+
+@ 718
+JP 飛燕脚
+EN Swallow Kick
+
+@ 719
+JP 上段回し蹴り
+EN High Roundhouse
+
+@ 720
+JP ハイキック
+EN High Kick
+
+@ 721
+JP 片足取らせ延髄蹴り
+EN Caught-Leg Enzui Kick
+
+@ 722
+JP ファイナルローリングエルボー
+EN Final Rolling Elbow
+
+@ 723
+JP ウエスタンラリアット
+EN Western Lariat
+
+@ 724
+JP ローリングバックブロー
+EN Rolling Back Blow
+
+@ 725
+JP ジャイアントドロップキック
+EN Giant Dropkick
+
+@ 726
+JP 魔性延髄斬り
+EN Devil Enzuigiri
+
+@ 727
+JP 毒霧
+EN Poison Mist
+
+@ 728
+JP 火炎攻撃
+EN Fireball
+
+@ 729
+JP ダイヤモンドカッター
+EN Diamond Cutter
+
+@ 730
+JP ＳＣスタナー
+EN SC Stunner
+
+@ 731
+JP パウダー攻撃
+EN Powder Attack
+
+@ 732
+JP 飛びつき腕ひしぎ逆十字固め
+EN Flying Cross Armbar
+
+@ 733
+JP 飛びつきクロスヒールホールド
+EN Flying Cross Heel Hold
+
+@ 734
+JP ミノルスペシャルⅠ
+EN Minoru Special I
+
+@ 735
+JP スモールパッケージホールド
+EN Small Package Hold
+
+@ 736
+JP 逆さ押さえ込み
+EN Inverted Cradle
+
+@ 737
+JP 飛びつき前方回転エビ固め
+EN Victory Roll
+
+@ 738
+JP スクールボーイ
+EN School Boy
+
+@ 739
+JP フランケンシュタイナー
+EN Frankensteiner
+
+@ 740
+JP ウラカンラナ
+EN Huracanrana
+
+@ 741
+JP 飛びつきフロントチョーク
+EN Flying Front Choke
+
+@ 742
+JP 巻き込み式腕ひしぎ逆十字固め
+EN Rolling Cross Armbar
+
+@ 743
+JP 飛びつき三角絞め
+EN Flying Triangle Choke
+
+@ 744
+JP ナルセロック
+EN Naruse Lock
+
+@ 745
+JP 鬼葬
+EN Kisou
+
+@ 746
+JP スタンド式腕ひしぎ逆十字固め
+EN Standing Cross Armbreaker
+
+@ 747
+JP －
+EN －
+
+@ 748
+JP 走りタックル
+EN Running Tackle
+
+@ 749
+JP キチンシンク
+EN Kitchen Sink
+
+@ 750
+JP ウラカンラナ
+EN Huracanrana
+
+@ 751
+JP フランケンシュタイナー
+EN Frankensteiner
+
+@ 752
+JP コルバタ
+EN Corbata
+
+@ 753
+JP ローリングクラッチホールド
+EN Rolling Clutch Hold
+
+@ 754
+JP 人工衛星ヘッドシザース
+EN Satellite Headscissor
+
+@ 755
+JP トーキック
+EN Toe Kick
+
+@ 756
+JP 走り掴み
+EN Running Grab
+
+@ 757
+JP ジャンピングネックブリーカードロップ
+EN Jumping Neckbreaker
+
+@ 758
+JP ランニングネックブリーカードロップ
+EN Running Neckbreaker
+
+@ 759
+JP ジャイアントネックブリーカードロップ
+EN Giant Neckbreaker
+
+@ 760
+JP 飛びつきネックブリーカードロップ
+EN Flying Neckbreaker
+
+@ 761
+JP スピアー
+EN Spear
+
+@ 762
+JP フライングボディシザース
+EN Flying Body Scissors
+
+@ 763
+JP ダイナマイトニーリフト
+EN Dynamite Knee Lift
+
+@ 764
+JP ランニングダイヤモンドカッター
+EN Running Diamond Cutter
+
+@ 765
+JP ハリケーンスパイク
+EN Hurricane Spike
+
+@ 766
+JP スピンターンＤＤＴ
+EN Spin Turn DDT
+
+@ 767
+JP 飛びつきスイングＤＤＴ
+EN Flying Swinging DDT
+
+@ 768
+JP ジャンピングＤＤＴ
+EN Jumping DDT
+
+@ 769
+JP 顔面ニーリフト
+EN Face Knee Lift
+
+@ 770
+JP デジャブ
+EN Deja Vu
+
+@ 771
+JP アックスボンバー
+EN Axe Bomber
+
+@ 772
+JP ラグビータックル
+EN Rugby Tackle
+
+@ 773
+JP 駆け上がりドロップキック
+EN Run-Up Dropkick
+
+@ 774
+JP ＳＴＯボンバー
+EN STO Bomber
+
+@ 775
+JP ショーンキャプチャー
+EN Shawn Capture
+
+@ 776
+JP スピアー
+EN Spear
+
+@ 777
+JP フェイスクラッシャー
+EN Facecrusher
+
+@ 778
+JP 馬飛び式フェイスクラッシャー
+EN Leapfrog Facecrusher
+
+@ 779
+JP ノータッチヘッドバット
+EN No-Touch Headbutt
+
+@ 780
+JP 袈裟斬りチョップ
+EN Kesagiri Chop
+
+@ 781
+JP ランニングエルボーバット
+EN Running Elbow Butt
+
+@ 782
+JP ジャンピングエルボー
+EN Jumping Elbow
+
+@ 783
+JP スピンエルボー
+EN Spin Elbow
+
+@ 784
+JP ラリアット
+EN Lariat
+
+@ 785
+JP ラリアット
+EN Lariat
+
+@ 786
+JP クローズライン
+EN Clothesline
+
+@ 787
+JP クローズライン
+EN Clothesline
+
+@ 788
+JP ラリアットアタック
+EN Lariat Attack
+
+@ 789
+JP ラリアットアタック
+EN Lariat Attack
+
+@ 790
+JP きりもみ式フライングラリアット
+EN Corkscrew Flying Lariat
+
+@ 791
+JP 倒れ込みラリアット
+EN Falling Lariat
+
+@ 792
+JP ショルダータックル
+EN Shoulder Tackle
+
+@ 793
+JP フライングショルダータックル
+EN Flying Shoulder Tackle
+
+@ 794
+JP セイバーアタック
+EN Saber Attack
+
+@ 795
+JP フライングボディアタック
+EN Flying Body Attack
+
+@ 796
+JP フライングクロスチョップ
+EN Flying Cross Chop
+
+@ 797
+JP トペ・レベルサ
+EN Tope Reversa
+
+@ 798
+JP 側転ボディアタック
+EN Cartwheel Body Attack
+
+@ 799
+JP ジャンピングヒップアタック
+EN Jumping Hip Attack
+
+@ 800
+JP ジャンピングニーパット
+EN Jumping Knee Pat
+
+@ 801
+JP ジャンピングニーアタック
+EN Jumping Knee Attack
+
+@ 802
+JP 完全無欠ジャンピングニーパット
+EN Perfect J. Knee Pat
+
+@ 803
+JP フロントハイキック
+EN Front High Kick
+
+@ 804
+JP ケンカキック
+EN Kenka Kick
+
+@ 805
+JP ドロップキック
+EN Dropkick
+
+@ 806
+JP 一回転ドロップキック
+EN Rolling Dropkick
+
+@ 807
+JP 正面飛びドロップキック
+EN Front Dropkick
+
+@ 808
+JP 突き上げドロップキック
+EN Rising Dropkick
+
+@ 809
+JP 低空ドロップキック
+EN Low Dropkick
+
+@ 810
+JP 正面飛び低空ドロップキック
+EN Front Low Dropkick
+
+@ 811
+JP ゼロ戦キック
+EN Zero-sen Kick
+
+@ 812
+JP 稲妻レッグラリアート
+EN Lightning Leg Lariat
+
+@ 813
+JP フライングニールキック
+EN Flying Neil Kick
+
+@ 814
+JP ラウンディングニールキック
+EN Rounding Neil Kick
+
+@ 815
+JP 低空ニールキック
+EN Low Neil Kick
+
+@ 816
+JP スクリューハイキック
+EN Screw High Kick
+
+@ 817
+JP 二段蹴り
+EN Two-Step Kick
+
+@ 818
+JP シャイニング延髄蹴り
+EN Shining Enzui Kick
+
+@ 819
+JP ブサイクへの膝蹴り
+EN Busaiku Knee
+
+@ 820
+JP 元祖アックスボンバー
+EN Original Axe Bomber
+
+@ 821
+JP 飛び膝蹴り
+EN Flying Knee
+
+@ 822
+JP パンチ
+EN Punch
+
+@ 823
+JP レッグラリアット
+EN Leg Lariat
+
+@ 824
+JP フライングフォーアーム
+EN Flying Forearm
+
+@ 825
+JP バタフライニールキック
+EN Butterfly Neil Kick
+
+@ 826
+JP 大ちゃんボンバー
+EN Dai-chan Bomber
+
+@ 827
+JP ビッグブーツ
+EN Big Boot
+
+@ 828
+JP ランニングエルボーバット
+EN Running Elbow Butt
+
+@ 829
+JP オリャーラリアット
+EN Orya Lariat
+
+@ 830
+JP バックブロー
+EN Back Blow
+
+@ 831
+JP ぶちかましショルダー
+EN Charging Shoulder
+
+@ 832
+JP フライングラリアット
+EN Flying Lariat
+
+@ 833
+JP ハイジャンプジャンピングニーパット
+EN High Jump J. Knee Pat
+
+@ 834
+JP 大車輪ニールキック
+EN Big Wheel Neil Kick
+
+@ 835
+JP 横なぶり飛び膝蹴り
+EN Sideswipe Flying Knee
+
+@ 836
+JP サクソンラリアット
+EN Saxon Lariat
+
+@ 837
+JP 剛腕ラリアット
+EN Power Lariat
+
+@ 838
+JP 浴びせ倒しラリアット
+EN Falling Lariat
+
+@ 839
+JP 浴びせ倒しラリアット
+EN Falling Lariat
+
+@ 840
+JP シャイニング・ウイザード
+EN Shining Wizard
+
+@ 841
+JP アッパー掌底
+EN Upper Palm
+
+@ 842
+JP 倒れ込みクローズライン
+EN Falling Clothesline
+
+@ 843
+JP ぶん殴りラリアット
+EN Slugging Lariat
+
+@ 844
+JP ラリアット
+EN Lariat
+
+@ 845
+JP リキラリアット
+EN Riki Lariat
+
+@ 846
+JP ジャンピングフロントハイキック
+EN J. Front High Kick
+
+@ 847
+JP 浴びせ倒しぶん殴りラリアット
+EN Crushing Slugging Lariat
+
+@ 848
+JP ウエスタンラリアット
+EN Western Lariat
+
+@ 849
+JP ランニングエルボーバット
+EN Running Elbow Butt
+
+@ 850
+JP ジャイアントドロップキック
+EN Giant Dropkick
+
+@ 851
+JP ビーストドロップキック
+EN Beast Dropkick
+
+@ 852
+JP ケンカキック
+EN Kenka Kick
+
+@ 853
+JP －
+EN －
+
+@ 854
+JP 走りタックル
+EN Running Tackle
+
+@ 855
+JP キチンシンク
+EN Kitchen Sink
+
+@ 856
+JP ウラカンラナ
+EN Huracanrana
+
+@ 857
+JP フランケンシュタイナー
+EN Frankensteiner
+
+@ 858
+JP コルバタ
+EN Corbata
+
+@ 859
+JP ローリングクラッチホールド
+EN Rolling Clutch Hold
+
+@ 860
+JP 人工衛星ヘッドシザース
+EN Satellite Headscissor
+
+@ 861
+JP トーキック
+EN Toe Kick
+
+@ 862
+JP 走り掴み
+EN Running Grab
+
+@ 863
+JP ジャンピングネックブリーカードロップ
+EN Jumping Neckbreaker
+
+@ 864
+JP ランニングネックブリーカードロップ
+EN Running Neckbreaker
+
+@ 865
+JP ジャイアントネックブリーカードロップ
+EN Giant Neckbreaker
+
+@ 866
+JP 飛びつきネックブリーカードロップ
+EN Flying Neckbreaker
+
+@ 867
+JP スピアー
+EN Spear
+
+@ 868
+JP フライングボディシザース
+EN Flying Body Scissors
+
+@ 869
+JP ダイナマイトニーリフト
+EN Dynamite Knee Lift
+
+@ 870
+JP ランニングダイヤモンドカッター
+EN Running Diamond Cutter
+
+@ 871
+JP ハリケーンスパイク
+EN Hurricane Spike
+
+@ 872
+JP スピンターンＤＤＴ
+EN Spin Turn DDT
+
+@ 873
+JP 飛びつきスイングＤＤＴ
+EN Flying Swinging DDT
+
+@ 874
+JP ジャンピングＤＤＴ
+EN Jumping DDT
+
+@ 875
+JP 顔面ニーリフト
+EN Face Knee Lift
+
+@ 876
+JP デジャブ
+EN Deja Vu
+
+@ 877
+JP アックスボンバー
+EN Axe Bomber
+
+@ 878
+JP ラグビータックル
+EN Rugby Tackle
+
+@ 879
+JP 駆け上がりドロップキック
+EN Run-Up Dropkick
+
+@ 880
+JP ＳＴＯボンバー
+EN STO Bomber
+
+@ 881
+JP ショーンキャプチャー
+EN Shawn Capture
+
+@ 882
+JP スピアー
+EN Spear
+
+@ 883
+JP フェイスクラッシャー
+EN Facecrusher
+
+@ 884
+JP 馬飛び式フェイスクラッシャー
+EN Leapfrog Facecrusher
+
+@ 885
+JP ノータッチヘッドバット
+EN No-Touch Headbutt
+
+@ 886
+JP 袈裟斬りチョップ
+EN Kesagiri Chop
+
+@ 887
+JP ランニングエルボーバット
+EN Running Elbow Butt
+
+@ 888
+JP ジャンピングエルボー
+EN Jumping Elbow
+
+@ 889
+JP スピンエルボー
+EN Spin Elbow
+
+@ 890
+JP ラリアット
+EN Lariat
+
+@ 891
+JP ラリアット
+EN Lariat
+
+@ 892
+JP クローズライン
+EN Clothesline
+
+@ 893
+JP クローズライン
+EN Clothesline
+
+@ 894
+JP ラリアットアタック
+EN Lariat Attack
+
+@ 895
+JP ラリアットアタック
+EN Lariat Attack
+
+@ 896
+JP きりもみ式フライングラリアット
+EN Corkscrew Flying Lariat
+
+@ 897
+JP 倒れ込みラリアット
+EN Falling Lariat
+
+@ 898
+JP ショルダータックル
+EN Shoulder Tackle
+
+@ 899
+JP フライングショルダータックル
+EN Flying Shoulder Tackle
+
+@ 900
+JP セイバーアタック
+EN Saber Attack
+
+@ 901
+JP フライングボディアタック
+EN Flying Body Attack
+
+@ 902
+JP フライングクロスチョップ
+EN Flying Cross Chop
+
+@ 903
+JP トペ・レベルサ
+EN Tope Reversa
+
+@ 904
+JP 側転ボディアタック
+EN Cartwheel Body Attack
+
+@ 905
+JP ジャンピングヒップアタック
+EN Jumping Hip Attack
+
+@ 906
+JP ジャンピングニーパット
+EN Jumping Knee Pat
+
+@ 907
+JP ジャンピングニーアタック
+EN Jumping Knee Attack
+
+@ 908
+JP 完全無欠ジャンピングニーパット
+EN Perfect J. Knee Pat
+
+@ 909
+JP フロントハイキック
+EN Front High Kick
+
+@ 910
+JP ケンカキック
+EN Kenka Kick
+
+@ 911
+JP ドロップキック
+EN Dropkick
+
+@ 912
+JP 一回転ドロップキック
+EN Rolling Dropkick
+
+@ 913
+JP 正面飛びドロップキック
+EN Front Dropkick
+
+@ 914
+JP 突き上げドロップキック
+EN Rising Dropkick
+
+@ 915
+JP 低空ドロップキック
+EN Low Dropkick
+
+@ 916
+JP 正面飛び低空ドロップキック
+EN Front Low Dropkick
+
+@ 917
+JP ゼロ戦キック
+EN Zero-sen Kick
+
+@ 918
+JP 稲妻レッグラリアート
+EN Lightning Leg Lariat
+
+@ 919
+JP フライングニールキック
+EN Flying Neil Kick
+
+@ 920
+JP ラウンディングニールキック
+EN Rounding Neil Kick
+
+@ 921
+JP 低空ニールキック
+EN Low Neil Kick
+
+@ 922
+JP スクリューハイキック
+EN Screw High Kick
+
+@ 923
+JP 二段蹴り
+EN Two-Step Kick
+
+@ 924
+JP シャイニング延髄蹴り
+EN Shining Enzui Kick
+
+@ 925
+JP ブサイクへの膝蹴り
+EN Busaiku Knee
+
+@ 926
+JP 元祖アックスボンバー
+EN Original Axe Bomber
+
+@ 927
+JP 飛び膝蹴り
+EN Flying Knee
+
+@ 928
+JP パンチ
+EN Punch
+
+@ 929
+JP レッグラリアット
+EN Leg Lariat
+
+@ 930
+JP フライングフォーアーム
+EN Flying Forearm
+
+@ 931
+JP バタフライニールキック
+EN Butterfly Neil Kick
+
+@ 932
+JP 大ちゃんボンバー
+EN Dai-chan Bomber
+
+@ 933
+JP ビッグブーツ
+EN Big Boot
+
+@ 934
+JP ランニングエルボーバット
+EN Running Elbow Butt
+
+@ 935
+JP オリャーラリアット
+EN Orya Lariat
+
+@ 936
+JP バックブロー
+EN Back Blow
+
+@ 937
+JP ぶちかましショルダー
+EN Charging Shoulder
+
+@ 938
+JP フライングラリアット
+EN Flying Lariat
+
+@ 939
+JP ハイジャンプジャンピングニーパット
+EN High Jump J. Knee Pat
+
+@ 940
+JP 大車輪ニールキック
+EN Big Wheel Neil Kick
+
+@ 941
+JP 横なぶり飛び膝蹴り
+EN Sideswipe Flying Knee
+
+@ 942
+JP サクソンラリアット
+EN Saxon Lariat
+
+@ 943
+JP 剛腕ラリアット
+EN Power Lariat
+
+@ 944
+JP 浴びせ倒しラリアット
+EN Falling Lariat
+
+@ 945
+JP 浴びせ倒しラリアット
+EN Falling Lariat
+
+@ 946
+JP シャイニング・ウイザード
+EN Shining Wizard
+
+@ 947
+JP アッパー掌底
+EN Upper Palm
+
+@ 948
+JP 倒れ込みクローズライン
+EN Falling Clothesline
+
+@ 949
+JP ぶん殴りラリアット
+EN Slugging Lariat
+
+@ 950
+JP ラリアット
+EN Lariat
+
+@ 951
+JP リキラリアット
+EN Riki Lariat
+
+@ 952
+JP ジャンピングフロントハイキック
+EN J. Front High Kick
+
+@ 953
+JP 浴びせ倒しぶん殴りラリアット
+EN Crushing Slugging Lariat
+
+@ 954
+JP ウエスタンラリアット
+EN Western Lariat
+
+@ 955
+JP ランニングエルボーバット
+EN Running Elbow Butt
+
+@ 956
+JP ジャイアントドロップキック
+EN Giant Dropkick
+
+@ 957
+JP ビーストドロップキック
+EN Beast Dropkick
+
+@ 958
+JP ケンカキック
+EN Kenka Kick
+
+@ 959
+JP －
+EN －
+
+@ 960
+JP ストンピング
+EN Stomping
+
+@ 961
+JP サンセットフリップ
+EN Sunset Flip
+
+@ 962
+JP セントーン
+EN Senton
+
+@ 963
+JP エルボードロップ
+EN Elbow Drop
+
+@ 964
+JP ジャンピングエルボードロップ
+EN Jumping Elbow Drop
+
+@ 965
+JP フラッシングエルボー
+EN Flashing Elbow
+
+@ 966
+JP ヘッドドロップ
+EN Head Drop
+
+@ 967
+JP 低空ドロップキック
+EN Low Dropkick
+
+@ 968
+JP ワンダフルエルボー
+EN Wonderful Elbow
+
+@ 969
+JP ギロチンドロップ
+EN Guillotine Drop
+
+@ 970
+JP ダブルニードロップ
+EN Double Knee Drop
+
+@ 971
+JP キングコングニードロップ
+EN King Kong Knee Drop
+
+@ 972
+JP ボディプレス
+EN Body Press
+
+@ 973
+JP 超肉弾プレス
+EN Human Bullet Press
+
+@ 974
+JP 毒針エルボードロップ
+EN Stinger Elbow Drop
+
+@ 975
+JP サファリプレス
+EN Safari Press
+
+@ 976
+JP レッグドロップ
+EN Leg Drop
+
+@ 977
+JP －
+EN －
+
+@ 978
+JP カニ挟み
+EN Kani Basami
+
+@ 979
+JP サイクロンホイップ
+EN Cyclone Whip
+
+@ 980
+JP サイクロンホイップ～ヘッドシザース攻防
+EN Cyclone Whip Scissors
+
+@ 981
+JP ショルダースルー
+EN Shoulder Throw
+
+@ 982
+JP 四つん這いカニ挟み
+EN Crawling Kani Basami
+
+@ 983
+JP キチンシンク
+EN Kitchen Sink
+
+@ 984
+JP ジャイアントキチンシンク
+EN Giant Kitchen Sink
+
+@ 985
+JP ダウンローキック
+EN Down Low Kick
+
+@ 986
+JP スタンディングスリーパーホールド
+EN Standing Sleeper Hold
+
+@ 987
+JP スリーパーホールド
+EN Sleeper Hold
+
+@ 988
+JP フロントスープレックス
+EN Front Suplex
+
+@ 989
+JP コンプリートショット
+EN Complete Shot
+
+@ 990
+JP マンハッタンドロップ
+EN Manhattan Drop
+
+@ 991
+JP ヌカドーラ
+EN Nucadora
+
+@ 992
+JP チョコ・コロネ
+EN Choco Corone
+
+@ 993
+JP リフトアップスラム
+EN Lift-Up Slam
+
+@ 994
+JP ケブラドーラ・コン・ヒーロ
+EN Quebradora con Giro
+
+@ 995
+JP ブロックバスターホイップ
+EN Blockbuster Whip
+
+@ 996
+JP バックフリップ
+EN Backflip
+
+@ 997
+JP フラップジャック
+EN Flapjack
+
+@ 998
+JP 払い腰
+EN Harai Goshi
+
+@ 999
+JP コルバタ
+EN Corbata
+
+@ 1000
+JP 人工衛星ヘッドシザースホイップ
+EN Satellite Scissor Whip
+
+@ 1001
+JP ウラカンラナ
+EN Huracanrana
+
+@ 1002
+JP フランケンシュタイナー
+EN Frankensteiner
+
+@ 1003
+JP ジャイアントチョップ
+EN Giant Chop
+
+@ 1004
+JP 背面エルボー
+EN Back Elbow
+
+@ 1005
+JP 逆廻し蹴り
+EN Reverse Spin Kick
+
+@ 1006
+JP １６文キック
+EN 16-Mon Kick
+
+@ 1007
+JP ビッグブーツ
+EN Big Boot
+
+@ 1008
+JP ラッシングラリアット
+EN Rushing Lariat
+
+@ 1009
+JP ダイナマイトニーリフト
+EN Dynamite Knee Lift
+
+@ 1010
+JP ドラゴンスリーパー
+EN Dragon Sleeper
+
+@ 1011
+JP フェイスロック
+EN Facelock
+
+@ 1012
+JP キラーチョークスリーパー
+EN Killer Choke Sleeper
+
+@ 1013
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 1014
+JP コブラツイスト
+EN Cobra Twist
+
+@ 1015
+JP ジャイアントコブラツイスト
+EN Giant Cobra Twist
+
+@ 1016
+JP グランドコブラツイスト
+EN Ground Cobra Twist
+
+@ 1017
+JP フロントネックロック
+EN Front Necklock
+
+@ 1018
+JP スクラップバスター
+EN Scrap Buster
+
+@ 1019
+JP ＳＴＯ
+EN STO
+
+@ 1020
+JP 水車落とし
+EN Waterwheel Drop
+
+@ 1021
+JP 逆一本背負い
+EN Reverse Ippon Seoi
+
+@ 1022
+JP 旋回式スパインバスター
+EN Spinning Spinebuster
+
+@ 1023
+JP スパインボム
+EN Spine Bomb
+
+@ 1024
+JP 変形スパインバスター
+EN Modified Spinebuster
+
+@ 1025
+JP タモンズパワード
+EN Tamon's Powered
+
+@ 1026
+JP マウンテンボム
+EN Mountain Bomb
+
+@ 1027
+JP 捻り式パワースラム
+EN Twisting Powerslam
+
+@ 1028
+JP プレス式パワースラム
+EN Press Powerslam
+
+@ 1029
+JP ブロックバスターホールド
+EN Blockbuster Hold
+
+@ 1030
+JP ターボドロップⅠ
+EN Turbo Drop I
+
+@ 1031
+JP サイクロンＤＤＴ
+EN Cyclone DDT
+
+@ 1032
+JP 高速スパインバスター
+EN Fast Spinebuster
+
+@ 1033
+JP 腕ひしぎ逆十字固め
+EN Cross Armbar
+
+@ 1034
+JP メキシカンピースクラッシャー
+EN Mexican Peace Crusher
+
+@ 1035
+JP －
+EN －
+
+@ 1036
+JP ジョニーマジック２
+EN Johnny Magic 2
+
+@ 1037
+JP コーナー逆さ吊り
+EN Tree of Woe
+
+@ 1038
+JP ロープ目こすり
+EN Rope Eye Rake
+
+@ 1039
+JP 串刺し頭突き連打
+EN Corner Headbutts
+
+@ 1040
+JP 串刺し組み付き膝蹴り
+EN Corner Clinch Knees
+
+@ 1041
+JP 串刺し逆水平チョップ
+EN Corner Chop
+
+@ 1042
+JP 串刺しマシンガン逆水平チョップ
+EN Corner Machine Gun Chops
+
+@ 1043
+JP コーナー馬乗りナックルアロー
+EN Corner Knuckle Arrow
+
+@ 1044
+JP 串刺し腕パンチラッシュ
+EN Corner Arm Punch Rush
+
+@ 1045
+JP 串刺しショートエルボー
+EN Corner Short Elbow
+
+@ 1046
+JP 串刺し肘グリ
+EN Corner Elbow Grind
+
+@ 1047
+JP 串刺しショルダー
+EN Corner Shoulder
+
+@ 1048
+JP 串刺しニーリフト
+EN Corner Knee Lift
+
+@ 1049
+JP 串刺しストンピング
+EN Corner Stomping
+
+@ 1050
+JP 顔面ウオッシュ
+EN Face Wash
+
+@ 1051
+JP 駆け上がりハイキック
+EN Run-Up High Kick
+
+@ 1052
+JP カーフブランディング
+EN Calf Branding
+
+@ 1053
+JP 拝み渡り
+EN Ogami Watari
+
+@ 1054
+JP ターンバックルパワーボム
+EN Turnbuckle Powerbomb
+
+@ 1055
+JP スイングＤＤＴ
+EN Swinging DDT
+
+@ 1056
+JP 志賀式スイングＤＤＴ
+EN Shiga Swinging DDT
+
+@ 1057
+JP 不知火
+EN Shiranui
+
+@ 1058
+JP 串刺しヒッププッシュ
+EN Corner Hip Push
+
+@ 1059
+JP カニカニエルボードロップ
+EN Kani Kani Elbow Drop
+
+@ 1060
+JP 串刺し龍チョップ
+EN Corner Ryu Chop
+
+@ 1061
+JP 串刺し龍チョップ＆グーパンチ
+EN Cnr. Ryu Chop & Punch
+
+@ 1062
+JP タランチュラ式首四の字
+EN Tarantula Neck Lock
+
+@ 1063
+JP ダイヤモンドダスト
+EN Diamond Dust
+
+@ 1064
+JP リバーススイングＤＤＴ
+EN Reverse Swinging DDT
+
+@ 1065
+JP 串刺し胸張り手
+EN Corner Chest Slap
+
+@ 1066
+JP 串刺しマシンガンニーリフト
+EN Cnr. Machine Gun Knees
+
+@ 1067
+JP ビーストパンチ
+EN Beast Punch
+
+@ 1068
+JP ギロチンホイップ
+EN Guillotine Whip
+
+@ 1069
+JP スティンクフェイス
+EN Stinkface
+
+@ 1070
+JP ジャンピング両足ストンピング
+EN Jumping Double Stomp
+
+@ 1071
+JP タランチュラ式フロントネックロック
+EN Tarantula Front Lock
+
+@ 1072
+JP 走りこみ顔面ニーリフト
+EN Running Face Knee Lift
+
+@ 1073
+JP 串刺しシャイニング・ニーリフト
+EN Cnr. Shining Knee Lift
+
+@ 1074
+JP 串刺しダイナミックチョップ
+EN Corner Dynamic Chop
+
+@ 1075
+JP スワンダイブフランケンシュタイナー
+EN Spr. Frankensteiner
+
+@ 1076
+JP スイングフランケンシュタイナー
+EN Swing Frankensteiner
+
+@ 1077
+JP リバーススプラッシュ
+EN Reverse Splash
+
+@ 1078
+JP ビッグバンクラッシュ
+EN Big Bang Crush
+
+@ 1079
+JP 連続ムーンサルトプレス
+EN Double Moonsault Press
+
+@ 1080
+JP アラビアンプレス
+EN Arabian Press
+
+@ 1081
+JP スワンダイブ高速ウラカンラナ
+EN Spr. Fast Huracanrana
+
+@ 1082
+JP ツイスタードーナツプレス
+EN Twister Donut Press
+
+@ 1083
+JP エビ固め
+EN Cradle
+
+@ 1084
+JP きりもみ式ボディアタック
+EN Corkscrew Body Attack
+
+@ 1085
+JP 旋回式フロッグスプラッシュ
+EN Spinning Frog Splash
+
+@ 1086
+JP 串刺しシャイニング・ウイザード
+EN Corner Shining Wizard
+
+@ 1087
+JP リバース不知火
+EN Reverse Shiranui
+
+@ 1088
+JP シャリマティー
+EN Shalimati
+
+@ 1089
+JP 大車輪キック
+EN Big Wheel Kick
+
+@ 1090
+JP 串刺しシャイニング・ブラック
+EN Corner Shining Black
+
+@ 1091
+JP －
+EN －
+
+@ 1092
+JP エルボーバット
+EN Elbow Butt
+
+@ 1093
+JP ジャンピングエルボー
+EN Jumping Elbow
+
+@ 1094
+JP 背面エルボー
+EN Back Elbow
+
+@ 1095
+JP ジャンピングニーパット
+EN Jumping Knee Pat
+
+@ 1096
+JP ドロップキック
+EN Dropkick
+
+@ 1097
+JP 一回転ドロップキック
+EN Rolling Dropkick
+
+@ 1098
+JP 正面飛びドロップキック
+EN Front Dropkick
+
+@ 1099
+JP 低空ドロップキック
+EN Low Dropkick
+
+@ 1100
+JP ゼロ戦キック
+EN Zero-sen Kick
+
+@ 1101
+JP フライングニールキック
+EN Flying Neil Kick
+
+@ 1102
+JP モンキーフリップ
+EN Monkey Flip
+
+@ 1103
+JP いっちゃうぞジャンピングエルボー
+EN "Ichauzo" Jumping Elbow
+
+@ 1104
+JP ジャンピングバックエルボー
+EN Jumping Back Elbow
+
+@ 1105
+JP スペースローリングハイキック
+EN Space Rolling Kick
+
+@ 1106
+JP 弾丸エルボー
+EN Bullet Elbow
+
+@ 1107
+JP トライアングルキック
+EN Triangle Kick
+
+@ 1108
+JP 串刺しジャンピングキック→スーパーＫ２
+EN Corner J. Kick > Super K2
+
+@ 1109
+JP アッパー掌底
+EN Upper Palm
+
+@ 1110
+JP フェイスクラッシャー
+EN Facecrusher
+
+@ 1111
+JP ラリアット
+EN Lariat
+
+@ 1112
+JP ボディスプラッシュ
+EN Body Splash
+
+@ 1113
+JP セイバーアタック
+EN Saber Attack
+
+@ 1114
+JP ジャンピングヒップアタック
+EN Jumping Hip Attack
+
+@ 1115
+JP 完全無欠ジャンピングニーパット
+EN Perfect J. Knee Pat
+
+@ 1116
+JP フロントハイキック
+EN Front High Kick
+
+@ 1117
+JP ケンカキック
+EN Kenka Kick
+
+@ 1118
+JP ジャイアントキック
+EN Giant Kick
+
+@ 1119
+JP ジャンピングフロントハイキック
+EN J. Front High Kick
+
+@ 1120
+JP サマーソルトキック
+EN Somersault Kick
+
+@ 1121
+JP 骨法流浴びせ蹴り
+EN Koppo Abisegeri
+
+@ 1122
+JP 多角系フェースクラッシャー
+EN Multi-Angle Crusher
+
+@ 1123
+JP ドラゴンズ・レイ
+EN Dragon's Ray
+
+@ 1124
+JP スピアー
+EN Spear
+
+@ 1125
+JP 二段蹴り
+EN Two-Step Kick
+
+@ 1126
+JP スピアー～水車落とし
+EN Spear > Waterwheel
+
+@ 1127
+JP 横なぶり式ジャンピングニーパット
+EN Sideswipe J. Knee Pat
+
+@ 1128
+JP －
+EN －
+
+@ 1129
+JP セカンド雪崩式ブレーンバスター
+EN 2nd-Rope Superplex
+
+@ 1130
+JP トップ雪崩式ブレーンバスター
+EN Top-Rope Superplex
+
+@ 1131
+JP 雪崩式フィッシャーマンズバスター
+EN Super Fisherman Buster
+
+@ 1132
+JP 雪崩式フロントスープレックス
+EN Avalanche Front Suplex
+
+@ 1133
+JP 雪崩式ダブルアームスープレックス
+EN Super Double Arm Suplex
+
+@ 1134
+JP 雪崩式ダイヤモンドカッター
+EN Super Diamond Cutter
+
+@ 1135
+JP 雪崩式コジコジカッター
+EN Super Koji Koji Cutter
+
+@ 1136
+JP 雪崩式マウンテンボム
+EN Super Mountain Bomb
+
+@ 1137
+JP 雪崩式パワースラム
+EN Avalanche Powerslam
+
+@ 1138
+JP 雪崩式キャプチュード
+EN Avalanche Capture
+
+@ 1139
+JP 雪崩式デスバレーボム
+EN Super Death Valley
+
+@ 1140
+JP 雪崩式ＤＤＴ
+EN Avalanche DDT
+
+@ 1141
+JP 雪崩式ドラゴンスクリュー
+EN Avalanche Dragon Screw
+
+@ 1142
+JP 大車輪喉輪落とし
+EN Big Wheel Chokeslam
+
+@ 1143
+JP 雪崩式アストロシザース
+EN Super Astro Scissors
+
+@ 1144
+JP 雪崩式腕ひしぎ逆十字固め
+EN Avalanche Cross Armbar
+
+@ 1145
+JP 雪崩式フランケンシュタイナー
+EN Super Frankensteiner
+
+@ 1146
+JP 雪崩式投げキッスフランケンシュタイナー
+EN Super Kiss Frankensteiner
+
+@ 1147
+JP 雪崩式毒霧フランケンシュタイナー
+EN Super Mist Frankensteiner
+
+@ 1148
+JP アイコノクラズム
+EN Iconoclasm
+
+@ 1149
+JP スパイダーフロントスープレックス
+EN Spider Front Suplex
+
+@ 1150
+JP 雪崩式フィッシャーマンズスープレックス
+EN Avalanche Fisherman Suplex
+
+@ 1151
+JP ハンドスタンドシザース・イン・コーナー
+EN Handstand Corner Scissors
+
+@ 1152
+JP 三角飛び雪崩式フランケンシュタイナー
+EN Leap Super Frankensteiner
+
+@ 1153
+JP 雪崩式腰振りフランケンシュタイナー
+EN Super Hip-Shake Franken.
+
+@ 1154
+JP 雪崩式ブルドッキングヘッドロック
+EN Super Bulldog Headlock
+
+@ 1155
+JP 雪崩式リアリティーチェック
+EN Super Reality Check
+
+@ 1156
+JP 雪崩式長滞空ブレーンバスター
+EN Delayed Superplex
+
+@ 1157
+JP 雪崩式裏投げ
+EN Avalanche Uranage
+
+@ 1158
+JP 雪崩式バックドロップ
+EN Avalanche Backdrop
+
+@ 1159
+JP 雪崩式リバースブレーンバスター
+EN Super Rev. Brainbuster
+
+@ 1160
+JP スパイダージャーマンスープレックス
+EN Spider German Suplex
+
+@ 1161
+JP 雪崩式不知火
+EN Avalanche Shiranui
+
+@ 1162
+JP 雪崩式垂直落下式ブレーンバスター
+EN Super Vertical Brainbuster
+
+@ 1163
+JP 雪崩式ノーザンライトボム
+EN Super N. Lights Bomb
+
+@ 1164
+JP 雪崩式エクスプロイダー
+EN Avalanche Exploder
+
+@ 1165
+JP 雪崩式パワーボム
+EN Avalanche Powerbomb
+
+@ 1166
+JP 雪崩式ジャンピングボム
+EN Avalanche Jumping Bomb
+
+@ 1167
+JP 雪崩式タイガードライバー
+EN Avalanche Tiger Driver
+
+@ 1168
+JP 雪崩式みちのくドライバー
+EN Super Michinoku Driver
+
+@ 1169
+JP 雪崩式オリンピックスラム
+EN Avalanche Olympic Slam
+
+@ 1170
+JP 雪崩式キークラッシュ
+EN Avalanche Key Crush
+
+@ 1171
+JP 不知火・改
+EN Shiranui Kai
+
+@ 1172
+JP キンニクバスター
+EN Kinniku Buster
+
+@ 1173
+JP 雪崩式リバースＤＤＴ
+EN Avalanche Reverse DDT
+
+@ 1174
+JP 雪崩式リバースフランケンシュタイナー
+EN Super Rev. Frankensteiner
+
+@ 1175
+JP バーニングハンマー
+EN Burning Hammer
+
+@ 1176
+JP 雪崩式ブラックタイガーボム
+EN Super Black Tiger Bomb
+
+@ 1177
+JP 雪崩式ブルーサンダー
+EN Avalanche Blue Thunder
+
+@ 1178
+JP スカイハイチョークスラム
+EN Sky High Chokeslam
+
+@ 1179
+JP 雪崩式デッドエンド
+EN Avalanche Dead End
+
+@ 1180
+JP 雪崩式ファイナルカット
+EN Avalanche Final Cut
+
+@ 1181
+JP バイソンボム
+EN Bison Bomb
+
+@ 1182
+JP －
+EN －
+
+@ 1183
+JP －
+EN －
+
+@ 1184
+JP －
+EN －
+
+@ 1185
+JP －
+EN －
+
+@ 1186
+JP －
+EN －
+
+@ 1187
+JP －
+EN －
+
+@ 1188
+JP －
+EN －
+
+@ 1189
+JP －
+EN －
+
+@ 1190
+JP －
+EN －
+
+@ 1191
+JP －
+EN －
+
+@ 1192
+JP －
+EN －
+
+@ 1193
+JP －
+EN －
+
+@ 1194
+JP －
+EN －
+
+@ 1195
+JP －
+EN －
+
+@ 1196
+JP －
+EN －
+
+@ 1197
+JP －
+EN －
+
+@ 1198
+JP －
+EN －
+
+@ 1199
+JP －
+EN －
+
+@ 1200
+JP －
+EN －
+
+@ 1201
+JP －
+EN －
+
+@ 1202
+JP －
+EN －
+
+@ 1203
+JP －
+EN －
+
+@ 1204
+JP －
+EN －
+
+@ 1205
+JP －
+EN －
+
+@ 1206
+JP －
+EN －
+
+@ 1207
+JP －
+EN －
+
+@ 1208
+JP －
+EN －
+
+@ 1209
+JP －
+EN －
+
+@ 1210
+JP －
+EN －
+
+@ 1211
+JP －
+EN －
+
+@ 1212
+JP －
+EN －
+
+@ 1213
+JP －
+EN －
+
+@ 1214
+JP －
+EN －
+
+@ 1215
+JP －
+EN －
+
+@ 1216
+JP －
+EN －
+
+@ 1217
+JP －
+EN －
+
+@ 1218
+JP －
+EN －
+
+@ 1219
+JP －
+EN －
+
+@ 1220
+JP －
+EN －
+
+@ 1221
+JP －
+EN －
+
+@ 1222
+JP －
+EN －
+
+@ 1223
+JP －
+EN －
+
+@ 1224
+JP －
+EN －
+
+@ 1225
+JP バックエルボー
+EN Back Elbow
+
+@ 1226
+JP 急所蹴り
+EN Low Blow Kick
+
+@ 1227
+JP ジャイアントレッグスピン
+EN Giant Leg Spin
+
+@ 1228
+JP 腰投げ
+EN Hip Toss
+
+@ 1229
+JP 足踏みつけ
+EN Foot Stomp
+
+@ 1230
+JP －
+EN －
+
+@ 1231
+JP －
+EN －
+
+@ 1232
+JP オーバーヘッドキック
+EN Overhead Kick
+
+@ 1233
+JP 輪廻
+EN Rinne
+
+@ 1234
+JP チキンウイングアームロック
+EN Chickenwing Armlock
+
+@ 1235
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 1236
+JP ダイヤモンドカッター
+EN Diamond Cutter
+
+@ 1237
+JP 前転裏膝十字固め
+EN Rolling Rev. Kneebar
+
+@ 1238
+JP サムソンクラッチ
+EN Samson Clutch
+
+@ 1239
+JP －
+EN －
+
+@ 1240
+JP ストンピング
+EN Stomping
+
+@ 1241
+JP ピンポイントストンピング
+EN Pinpoint Stomping
+
+@ 1242
+JP ニースタンプ
+EN Knee Stamp
+
+@ 1243
+JP レイス式ニードロップ
+EN Race Knee Drop
+
+@ 1244
+JP 横なぶりパンチ
+EN Sideswipe Punch
+
+@ 1245
+JP ローキック
+EN Low Kick
+
+@ 1246
+JP デンジャラスストンピング
+EN Dangerous Stomping
+
+@ 1247
+JP ジャイアントストンピング
+EN Giant Stomping
+
+@ 1248
+JP －
+EN －
+
+@ 1249
+JP 顔面踏みにじる
+EN Face Grind
+
+@ 1250
+JP フェイスカット
+EN Face Cut
+
+@ 1251
+JP ジャンピングフィストドロップ
+EN Jumping Fist Drop
+
+@ 1252
+JP バッファローチョップ
+EN Buffalo Chop
+
+@ 1253
+JP －
+EN －
+
+@ 1254
+JP 首四の字固め
+EN Figure-4 Necklock
+
+@ 1255
+JP スリーパーホールド
+EN Sleeper Hold
+
+@ 1256
+JP 振りかぶり式スリーパーホールド
+EN Wind-Up Sleeper Hold
+
+@ 1257
+JP テキサススリーパーホールド
+EN Texas Sleeper Hold
+
+@ 1258
+JP チンロック
+EN Chinlock
+
+@ 1259
+JP ショルダークロー
+EN Shoulder Claw
+
+@ 1260
+JP サーフボードストレッチ
+EN Surfboard Stretch
+
+@ 1261
+JP エルボードロップ
+EN Elbow Drop
+
+@ 1262
+JP ジャンピングエルボードロップ
+EN Jumping Elbow Drop
+
+@ 1263
+JP フラッシングエルボー
+EN Flashing Elbow
+
+@ 1264
+JP テキサスエルボードロップ
+EN Texas Elbow Drop
+
+@ 1265
+JP ヘッドドロップ
+EN Head Drop
+
+@ 1266
+JP 蛙飛びヘッドドロップ
+EN Frog Hop Head Drop
+
+@ 1267
+JP フットスタンプ
+EN Foot Stamp
+
+@ 1268
+JP 低空ドロップキック
+EN Low Dropkick
+
+@ 1269
+JP いん石
+EN Meteorite
+
+@ 1270
+JP コジコジエルボー
+EN Koji Koji Elbow
+
+@ 1271
+JP 手刀
+EN Shuto
+
+@ 1272
+JP 踵落とし踏みつけ
+EN Axe Kick Stomp
+
+@ 1273
+JP ドライビングエルボー
+EN Driving Elbow
+
+@ 1274
+JP 馬乗りパンチ
+EN Mounted Punch
+
+@ 1275
+JP 馬乗り掌打
+EN Mounted Palm Strike
+
+@ 1276
+JP 馬乗り張り手
+EN Mounted Slap
+
+@ 1277
+JP 馬乗りナックルパンチ
+EN Mounted Knuckle Punch
+
+@ 1278
+JP マウントポジションに移行
+EN Go to Mount
+
+@ 1279
+JP ダブルニードロップ
+EN Double Knee Drop
+
+@ 1280
+JP ジャンピングニースタンプ
+EN Jumping Knee Stamp
+
+@ 1281
+JP キングコングニードロップ
+EN King Kong Knee Drop
+
+@ 1282
+JP ギロチンドロップ
+EN Guillotine Drop
+
+@ 1283
+JP ヒップドロップ
+EN Hip Drop
+
+@ 1284
+JP セントーン
+EN Senton
+
+@ 1285
+JP サンセットフリップ
+EN Sunset Flip
+
+@ 1286
+JP ジャンピングフットスタンプ
+EN Jumping Foot Stamp
+
+@ 1287
+JP ムーンサルトニードロップ
+EN Moonsault Knee Drop
+
+@ 1288
+JP 腕極め馬乗りパンチ
+EN Arm-Trap Mounted Punch
+
+@ 1289
+JP 肩固め
+EN Arm Triangle
+
+@ 1290
+JP ギロチンチョーク
+EN Guillotine Choke
+
+@ 1291
+JP コブラクロー
+EN Cobra Claw
+
+@ 1292
+JP アイアンクロー
+EN Iron Claw
+
+@ 1293
+JP ネックアンドアームブリッジ
+EN Neck & Arm Bridge
+
+@ 1294
+JP 原型ストラングルホールド
+EN Original Stranglehold
+
+@ 1295
+JP ストラングルホールドγ
+EN Stranglehold Gamma
+
+@ 1296
+JP バタフライロック
+EN Butterfly Lock
+
+@ 1297
+JP 三角絞め
+EN Triangle Choke
+
+@ 1298
+JP フロントネックロック
+EN Front Necklock
+
+@ 1299
+JP 肩固め
+EN Arm Triangle
+
+@ 1300
+JP 変形ネックアンドアームブリッジ
+EN Mod. Neck & Arm Bridge
+
+@ 1301
+JP ステップオーバーフェイスロック
+EN Stepover Facelock
+
+@ 1302
+JP ドラゴンスリーパー
+EN Dragon Sleeper
+
+@ 1303
+JP ストレッチプラム
+EN Stretch Plum
+
+@ 1304
+JP ＷＡＲスペシャル
+EN WAR Special
+
+@ 1305
+JP スタンディングストレッチ
+EN Standing Stretch
+
+@ 1306
+JP バッファロースリーパー
+EN Buffalo Sleeper
+
+@ 1307
+JP 極楽固め
+EN Gokuraku Hold
+
+@ 1308
+JP チキンウイングフェイスロック
+EN Chickenwing Facelock
+
+@ 1309
+JP 涅槃
+EN Nirvana
+
+@ 1310
+JP ８４６９
+EN 8469
+
+@ 1311
+JP 胴絞めドラゴンスリーパー
+EN Scissor Dragon Sleeper
+
+@ 1312
+JP 変形バッファロースリーパー
+EN Mod. Buffalo Sleeper
+
+@ 1313
+JP 変形ＫＡＺミッション
+EN Modified KAZmission
+
+@ 1314
+JP コブラホールド
+EN Cobra Hold
+
+@ 1315
+JP Ｎｏ．５４
+EN No. 54
+
+@ 1316
+JP ドラゴンクラッチ
+EN Dragon Clutch
+
+@ 1317
+JP 胴絞めフルネルソン
+EN Scissored Full Nelson
+
+@ 1318
+JP ヤナギロック
+EN Yanagi Lock
+
+@ 1319
+JP キングコブラホールド
+EN King Cobra Hold
+
+@ 1320
+JP 変形ドラゴンスリーパー
+EN Mod. Dragon Sleeper
+
+@ 1321
+JP 引き起こし剛腕ラリアット
+EN Pull-Up Power Lariat
+
+@ 1322
+JP 引き起こしウエスタンラリアット
+EN Pull-Up Western Lariat
+
+@ 1323
+JP 引き起こし叩き付けラリアット
+EN Pull-Up Smash Lariat
+
+@ 1324
+JP アイアンクロースラム
+EN Iron Claw Slam
+
+@ 1325
+JP 葉隠れ→体固め
+EN Hagakure > Cover
+
+@ 1326
+JP ブレードキック
+EN Blade Kick
+
+@ 1327
+JP ニーリフト→体固め
+EN Knee Lift > Cover
+
+@ 1328
+JP －
+EN －
+
+@ 1329
+JP ストンピング
+EN Stomping
+
+@ 1330
+JP ピンポイントストンピング
+EN Pinpoint Stomping
+
+@ 1331
+JP ニースタンプ
+EN Knee Stamp
+
+@ 1332
+JP レイス式ニードロップ
+EN Race Knee Drop
+
+@ 1333
+JP 横なぶりパンチ
+EN Sideswipe Punch
+
+@ 1334
+JP ローキック
+EN Low Kick
+
+@ 1335
+JP デンジャラスストンピング
+EN Dangerous Stomping
+
+@ 1336
+JP ジャイアントストンピング
+EN Giant Stomping
+
+@ 1337
+JP ジャイアントスタンプ
+EN Giant Stamp
+
+@ 1338
+JP 踏みつけサムアップ
+EN Foot Pin Thumbs-Up
+
+@ 1339
+JP キーロック
+EN Keylock
+
+@ 1340
+JP エルボードロップ
+EN Elbow Drop
+
+@ 1341
+JP ジャンピングエルボードロップ
+EN Jumping Elbow Drop
+
+@ 1342
+JP フラッシングエルボー
+EN Flashing Elbow
+
+@ 1343
+JP テキサスエルボードロップ
+EN Texas Elbow Drop
+
+@ 1344
+JP ヘッドドロップ
+EN Head Drop
+
+@ 1345
+JP 蛙飛びヘッドドロップ
+EN Frog Hop Head Drop
+
+@ 1346
+JP フットスタンプ
+EN Foot Stamp
+
+@ 1347
+JP 低空ドロップキック
+EN Low Dropkick
+
+@ 1348
+JP いん石
+EN Meteorite
+
+@ 1349
+JP コジコジエルボー
+EN Koji Koji Elbow
+
+@ 1350
+JP 手刀
+EN Shuto
+
+@ 1351
+JP 踵落とし踏みつけ
+EN Axe Kick Stomp
+
+@ 1352
+JP ドライビングエルボー
+EN Driving Elbow
+
+@ 1353
+JP マウントポジションに移行
+EN Go to Mount
+
+@ 1354
+JP マウントポジションに移行
+EN Go to Mount
+
+@ 1355
+JP 体固め
+EN Cover
+
+@ 1356
+JP 体固め
+EN Cover
+
+@ 1357
+JP 踏みつけ体固め
+EN Foot Cover
+
+@ 1358
+JP 体固め
+EN Cover
+
+@ 1359
+JP 腕取り体固め
+EN Arm-Hook Cover
+
+@ 1360
+JP ダブルニードロップ
+EN Double Knee Drop
+
+@ 1361
+JP ジャンピングニースタンプ
+EN Jumping Knee Stamp
+
+@ 1362
+JP キングコングニードロップ
+EN King Kong Knee Drop
+
+@ 1363
+JP ギロチンドロップ
+EN Guillotine Drop
+
+@ 1364
+JP ヒップドロップ
+EN Hip Drop
+
+@ 1365
+JP セントーン
+EN Senton
+
+@ 1366
+JP サンセットフリップ
+EN Sunset Flip
+
+@ 1367
+JP ジャンピングフットスタンプ
+EN Jumping Foot Stamp
+
+@ 1368
+JP ムーンサルトニードロップ
+EN Moonsault Knee Drop
+
+@ 1369
+JP チキンウイングアームロック
+EN Chickenwing Armlock
+
+@ 1370
+JP 腕ひしぎ逆十字固め
+EN Cross Armbar
+
+@ 1371
+JP ケサ固め
+EN Scarf Hold
+
+@ 1372
+JP Ｖ１アームロック
+EN V1 Armlock
+
+@ 1373
+JP ストレートアームバー
+EN Straight Armbar
+
+@ 1374
+JP 腕極めケサ固め
+EN Arm-Lock Scarf Hold
+
+@ 1375
+JP Ｎｏ．３４
+EN No. 34
+
+@ 1376
+JP 横四方膝蹴り
+EN Side Control Knees
+
+@ 1377
+JP 羽根折り腕固め
+EN Chickenwing Armbar
+
+@ 1378
+JP アナコンダ・バイス
+EN Anaconda Vise
+
+@ 1379
+JP ボディプレス
+EN Body Press
+
+@ 1380
+JP ヒップドロップ→体固め
+EN Hip Drop > Pin
+
+@ 1381
+JP ムーンサルトプレス
+EN Moonsault Press
+
+@ 1382
+JP 片エビ固め
+EN Leg Hook Pin
+
+@ 1383
+JP 片エビ固め
+EN Leg Hook Pin
+
+@ 1384
+JP 片エビ固め
+EN Leg Hook Pin
+
+@ 1385
+JP サファリプレス
+EN Safari Press
+
+@ 1386
+JP 回転地獄五輪スペシャル
+EN Hell Olympic Special
+
+@ 1387
+JP 超肉弾プレス
+EN Human Bullet Press
+
+@ 1388
+JP 毒針エルボードロップ→体固め
+EN Poison Needle > Pin
+
+@ 1389
+JP 四の字ジャックナイフ固め
+EN Figure-4 Jackknife
+
+@ 1390
+JP ドルフィンクラッチ
+EN Dolphin Clutch
+
+@ 1391
+JP サファリプレス
+EN Safari Press
+
+@ 1392
+JP アースクエイクドロップ
+EN Earthquake Drop
+
+@ 1393
+JP －
+EN －
+
+@ 1394
+JP ストンピング
+EN Stomping
+
+@ 1395
+JP ピンポイントストンピング
+EN Pinpoint Stomping
+
+@ 1396
+JP ニースタンプ
+EN Knee Stamp
+
+@ 1397
+JP レイス式ニードロップ
+EN Race Knee Drop
+
+@ 1398
+JP 横なぶりパンチ
+EN Sideswipe Punch
+
+@ 1399
+JP ローキック
+EN Low Kick
+
+@ 1400
+JP デンジャラスストンピング
+EN Dangerous Stomping
+
+@ 1401
+JP ジャイアントストンピング
+EN Giant Stomping
+
+@ 1402
+JP 急所ヘッドドロップ
+EN Low Blow Head Drop
+
+@ 1403
+JP 急所ストンピング
+EN Low Blow Stomp
+
+@ 1404
+JP サイキック
+EN Psychic
+
+@ 1405
+JP 足掴みローキック
+EN Leg-Catch Low Kick
+
+@ 1406
+JP 足掛け膝殺し
+EN Leg Hook Knee Crusher
+
+@ 1407
+JP レッグブリーカー
+EN Leg Breaker
+
+@ 1408
+JP スピニングレッグロック
+EN Spinning Leglock
+
+@ 1409
+JP レッグロック
+EN Leglock
+
+@ 1410
+JP エルボードロップ
+EN Elbow Drop
+
+@ 1411
+JP ジャンピングエルボードロップ
+EN Jumping Elbow Drop
+
+@ 1412
+JP フラッシングエルボー
+EN Flashing Elbow
+
+@ 1413
+JP テキサスエルボードロップ
+EN Texas Elbow Drop
+
+@ 1414
+JP ヘッドドロップ
+EN Head Drop
+
+@ 1415
+JP 蛙飛びヘッドドロップ
+EN Frog Hop Head Drop
+
+@ 1416
+JP フットスタンプ
+EN Foot Stamp
+
+@ 1417
+JP 低空ドロップキック
+EN Low Dropkick
+
+@ 1418
+JP いん石
+EN Meteorite
+
+@ 1419
+JP コジコジエルボー
+EN Koji Koji Elbow
+
+@ 1420
+JP 手刀
+EN Shuto
+
+@ 1421
+JP 踵落とし踏みつけ
+EN Axe Kick Stomp
+
+@ 1422
+JP ドライビングエルボー
+EN Driving Elbow
+
+@ 1423
+JP アキレス腱固め
+EN Achilles Hold
+
+@ 1424
+JP 膝十字固め
+EN Kneebar
+
+@ 1425
+JP 足四の字固め
+EN Figure-4 Lock
+
+@ 1426
+JP マフラーホールド
+EN Muffler Hold
+
+@ 1427
+JP 逆エビ固め
+EN Boston Crab
+
+@ 1428
+JP 反り逆エビ固め
+EN Arched Boston Crab
+
+@ 1429
+JP 逆片エビ固め
+EN Single Leg Crab
+
+@ 1430
+JP 反り逆片エビ固め
+EN Arched Single Leg Crab
+
+@ 1431
+JP 踏みつけ逆片エビ固め
+EN Stomp Single Leg Crab
+
+@ 1432
+JP サソリ固め
+EN Scorpion Hold
+
+@ 1433
+JP ガードポジションに移行
+EN Go to Guard
+
+@ 1434
+JP ダブルニードロップ
+EN Double Knee Drop
+
+@ 1435
+JP ジャンピングニースタンプ
+EN Jumping Knee Stamp
+
+@ 1436
+JP キングコングニードロップ
+EN King Kong Knee Drop
+
+@ 1437
+JP ギロチンドロップ
+EN Guillotine Drop
+
+@ 1438
+JP ヒップドロップ
+EN Hip Drop
+
+@ 1439
+JP セントーン
+EN Senton
+
+@ 1440
+JP サンセットフリップ
+EN Sunset Flip
+
+@ 1441
+JP ジャンピングフットスタンプ
+EN Jumping Foot Stamp
+
+@ 1442
+JP ムーンサルトニードロップ
+EN Moonsault Knee Drop
+
+@ 1443
+JP ヒールホールド
+EN Heel Hold
+
+@ 1444
+JP アンクルホールド
+EN Ankle Hold
+
+@ 1445
+JP 足四の字固め
+EN Figure-4 Lock
+
+@ 1446
+JP ナガタロックⅠ
+EN Nagata Lock I
+
+@ 1447
+JP 監獄固め
+EN Prison Lock
+
+@ 1448
+JP 猛牛足卍
+EN Bull Leg Manji
+
+@ 1449
+JP ジャイアントスイング
+EN Giant Swing
+
+@ 1450
+JP 抱え込み式逆エビ固め
+EN Cradled Boston Crab
+
+@ 1451
+JP Ｓ・Ｔ・Ｆ
+EN STF
+
+@ 1452
+JP 原型Ｓ・Ｔ・Ｆ
+EN Original STF
+
+@ 1453
+JP ジャイアントＳ・Ｔ・Ｆ
+EN Giant STF
+
+@ 1454
+JP タモンズシューター
+EN Tamon's Shooter
+
+@ 1455
+JP リバースバイパーホールド
+EN Reverse Viper Hold
+
+@ 1456
+JP スコーピオンデスロック
+EN Scorpion Deathlock
+
+@ 1457
+JP テキサスクローバーホールド
+EN Texas Cloverleaf
+
+@ 1458
+JP スピニングトーホールド
+EN Spinning Toehold
+
+@ 1459
+JP リバースネルソンデスロック
+EN Rev. Nelson Deathlock
+
+@ 1460
+JP トライアングルスコーピオン
+EN Triangle Scorpion
+
+@ 1461
+JP 回転地獄五輪パート４
+EN Hell Olympic Part 4
+
+@ 1462
+JP グランドクロス２００
+EN Grand Cross 200
+
+@ 1463
+JP スタンディングアンクルホールド
+EN Standing Ankle Hold
+
+@ 1464
+JP クランチループ
+EN Crunch Loop
+
+@ 1465
+JP 足四の字固め
+EN Figure-4 Lock
+
+@ 1466
+JP アンクルホールド
+EN Ankle Hold
+
+@ 1467
+JP －
+EN －
+
+@ 1468
+JP ストンピング
+EN Stomping
+
+@ 1469
+JP ピンポイントストンピング
+EN Pinpoint Stomping
+
+@ 1470
+JP ニースタンプ
+EN Knee Stamp
+
+@ 1471
+JP レイス式ニードロップ
+EN Race Knee Drop
+
+@ 1472
+JP 横なぶりパンチ
+EN Sideswipe Punch
+
+@ 1473
+JP ローキック
+EN Low Kick
+
+@ 1474
+JP デンジャラスストンピング
+EN Dangerous Stomping
+
+@ 1475
+JP ジャイアントストンピング
+EN Giant Stomping
+
+@ 1476
+JP チョン蹴り
+EN Tap Kick
+
+@ 1477
+JP エルボードロップ
+EN Elbow Drop
+
+@ 1478
+JP ジャンピングエルボードロップ
+EN Jumping Elbow Drop
+
+@ 1479
+JP フラッシングエルボー
+EN Flashing Elbow
+
+@ 1480
+JP テキサスエルボードロップ
+EN Texas Elbow Drop
+
+@ 1481
+JP ヘッドドロップ
+EN Head Drop
+
+@ 1482
+JP 蛙飛びヘッドドロップ
+EN Frog Hop Head Drop
+
+@ 1483
+JP フットスタンプ
+EN Foot Stamp
+
+@ 1484
+JP 低空ドロップキック
+EN Low Dropkick
+
+@ 1485
+JP いん石
+EN Meteorite
+
+@ 1486
+JP コジコジエルボー
+EN Koji Koji Elbow
+
+@ 1487
+JP 手刀
+EN Shuto
+
+@ 1488
+JP 踵落とし踏みつけ
+EN Axe Kick Stomp
+
+@ 1489
+JP ドライビングエルボー
+EN Driving Elbow
+
+@ 1490
+JP キャメルクラッチ
+EN Camel Clutch
+
+@ 1491
+JP がぶりに移行
+EN Go to Front Headlock
+
+@ 1492
+JP ダブルニードロップ
+EN Double Knee Drop
+
+@ 1493
+JP ジャンピングニースタンプ
+EN Jumping Knee Stamp
+
+@ 1494
+JP キングコングニードロップ
+EN King Kong Knee Drop
+
+@ 1495
+JP ギロチンドロップ
+EN Guillotine Drop
+
+@ 1496
+JP ヒップドロップ
+EN Hip Drop
+
+@ 1497
+JP セントーン
+EN Senton
+
+@ 1498
+JP サンセットフリップ
+EN Sunset Flip
+
+@ 1499
+JP ジャンピングフットスタンプ
+EN Jumping Foot Stamp
+
+@ 1500
+JP ムーンサルトニードロップ
+EN Moonsault Knee Drop
+
+@ 1501
+JP 拷問キャメルクラッチ
+EN Torture Camel Clutch
+
+@ 1502
+JP ストラングルホールドα
+EN Stranglehold Alpha
+
+@ 1503
+JP ナガタロックⅡ
+EN Nagata Lock II
+
+@ 1504
+JP 片羽絞め
+EN Single Wing Choke
+
+@ 1505
+JP 変形顔面絞め
+EN Modified Face Choke
+
+@ 1506
+JP 胴絞めスリーパー
+EN Body Scissors Sleeper
+
+@ 1507
+JP チョークスリーパー
+EN Choke Sleeper
+
+@ 1508
+JP 四点ポジションニーリフト
+EN Four-Point Knee Lift
+
+@ 1509
+JP 腹固め
+EN Hara Gatame
+
+@ 1510
+JP ゆりかもめ
+EN Yurikamome
+
+@ 1511
+JP 三所絞め
+EN Mitokoro Choke
+
+@ 1512
+JP Ｎｏ．５２
+EN No. 52
+
+@ 1513
+JP ナガタロックⅢ
+EN Nagata Lock III
+
+@ 1514
+JP ジャストフェースロック
+EN Just Facelock
+
+@ 1515
+JP －
+EN －
+
+@ 1516
+JP ストンピング
+EN Stomping
+
+@ 1517
+JP ピンポイントストンピング
+EN Pinpoint Stomping
+
+@ 1518
+JP ニースタンプ
+EN Knee Stamp
+
+@ 1519
+JP レイス式ニードロップ
+EN Race Knee Drop
+
+@ 1520
+JP 横なぶりパンチ
+EN Sideswipe Punch
+
+@ 1521
+JP ローキック
+EN Low Kick
+
+@ 1522
+JP デンジャラスストンピング
+EN Dangerous Stomping
+
+@ 1523
+JP ジャイアントストンピング
+EN Giant Stomping
+
+@ 1524
+JP ジャイアントスタンプ
+EN Giant Stamp
+
+@ 1525
+JP 足掛け腕殺し
+EN Leg Hook Arm Crusher
+
+@ 1526
+JP エルボードロップ
+EN Elbow Drop
+
+@ 1527
+JP ジャンピングエルボードロップ
+EN Jumping Elbow Drop
+
+@ 1528
+JP フラッシングエルボー
+EN Flashing Elbow
+
+@ 1529
+JP テキサスエルボードロップ
+EN Texas Elbow Drop
+
+@ 1530
+JP ヘッドドロップ
+EN Head Drop
+
+@ 1531
+JP 蛙飛びヘッドドロップ
+EN Frog Hop Head Drop
+
+@ 1532
+JP フットスタンプ
+EN Foot Stamp
+
+@ 1533
+JP 低空ドロップキック
+EN Low Dropkick
+
+@ 1534
+JP いん石
+EN Meteorite
+
+@ 1535
+JP コジコジエルボー
+EN Koji Koji Elbow
+
+@ 1536
+JP 手刀
+EN Shuto
+
+@ 1537
+JP 踵落とし踏みつけ
+EN Axe Kick Stomp
+
+@ 1538
+JP ドライビングエルボー
+EN Driving Elbow
+
+@ 1539
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 1540
+JP がぶりに移行
+EN Go to Front Headlock
+
+@ 1541
+JP がぶりに移行
+EN Go to Front Headlock
+
+@ 1542
+JP 腕取り体固め
+EN Arm-Hook Cover
+
+@ 1543
+JP ダブルニードロップ
+EN Double Knee Drop
+
+@ 1544
+JP ジャンピングニースタンプ
+EN Jumping Knee Stamp
+
+@ 1545
+JP キングコングニードロップ
+EN King Kong Knee Drop
+
+@ 1546
+JP ギロチンドロップ
+EN Guillotine Drop
+
+@ 1547
+JP ヒップドロップ
+EN Hip Drop
+
+@ 1548
+JP セントーン
+EN Senton
+
+@ 1549
+JP サンセットフリップ
+EN Sunset Flip
+
+@ 1550
+JP ジャンピングフットスタンプ
+EN Jumping Foot Stamp
+
+@ 1551
+JP ムーンサルトニードロップ
+EN Moonsault Knee Drop
+
+@ 1552
+JP 腕ひしぎ固め
+EN Armbar
+
+@ 1553
+JP コジＭＡＸホールド
+EN Koji MAX Hold
+
+@ 1554
+JP 裏十字固め
+EN Reverse Cross Armbar
+
+@ 1555
+JP 腕ひしぎ逆十字固め
+EN Cross Armbar
+
+@ 1556
+JP 体固め
+EN Cover
+
+@ 1557
+JP 体固め
+EN Cover
+
+@ 1558
+JP ボディプレス
+EN Body Press
+
+@ 1559
+JP 踏みつけ体固め
+EN Foot Cover
+
+@ 1560
+JP 体固め
+EN Cover
+
+@ 1561
+JP ヒップドロップ→体固め
+EN Hip Drop > Pin
+
+@ 1562
+JP ムーンサルトプレス
+EN Moonsault Press
+
+@ 1563
+JP 片エビ固め
+EN Leg Hook Pin
+
+@ 1564
+JP 片エビ固め
+EN Leg Hook Pin
+
+@ 1565
+JP 片エビ固め
+EN Leg Hook Pin
+
+@ 1566
+JP ジャパニーズレッグロールクラッチホールド
+EN Japanese Leg Roll Clutch
+
+@ 1567
+JP ラ・マヒストラル
+EN La Magistral
+
+@ 1568
+JP 外道クラッチ
+EN Gedo Clutch
+
+@ 1569
+JP サファリプレス
+EN Safari Press
+
+@ 1570
+JP 超肉弾プレス
+EN Human Bullet Press
+
+@ 1571
+JP 毒針エルボードロップ→体固め
+EN Poison Needle > Pin
+
+@ 1572
+JP 四の字ジャックナイフ固め
+EN Figure-4 Jackknife
+
+@ 1573
+JP サファリプレス
+EN Safari Press
+
+@ 1574
+JP －
+EN －
+
+@ 1575
+JP ストンピング
+EN Stomping
+
+@ 1576
+JP ピンポイントストンピング
+EN Pinpoint Stomping
+
+@ 1577
+JP ニースタンプ
+EN Knee Stamp
+
+@ 1578
+JP レイス式ニードロップ
+EN Race Knee Drop
+
+@ 1579
+JP 横なぶりパンチ
+EN Sideswipe Punch
+
+@ 1580
+JP ローキック
+EN Low Kick
+
+@ 1581
+JP デンジャラスストンピング
+EN Dangerous Stomping
+
+@ 1582
+JP ジャイアントストンピング
+EN Giant Stomping
+
+@ 1583
+JP 足掛け膝砕き
+EN Leg Hook Knee Smash
+
+@ 1584
+JP エルボードロップ
+EN Elbow Drop
+
+@ 1585
+JP ジャンピングエルボードロップ
+EN Jumping Elbow Drop
+
+@ 1586
+JP フラッシングエルボー
+EN Flashing Elbow
+
+@ 1587
+JP テキサスエルボードロップ
+EN Texas Elbow Drop
+
+@ 1588
+JP ヘッドドロップ
+EN Head Drop
+
+@ 1589
+JP 蛙飛びヘッドドロップ
+EN Frog Hop Head Drop
+
+@ 1590
+JP フットスタンプ
+EN Foot Stamp
+
+@ 1591
+JP 低空ドロップキック
+EN Low Dropkick
+
+@ 1592
+JP いん石
+EN Meteorite
+
+@ 1593
+JP コジコジエルボー
+EN Koji Koji Elbow
+
+@ 1594
+JP 手刀
+EN Shuto
+
+@ 1595
+JP 踵落とし踏みつけ
+EN Axe Kick Stomp
+
+@ 1596
+JP ドライビングエルボー
+EN Driving Elbow
+
+@ 1597
+JP 前転キャメルクラッチ
+EN Rolling Camel Clutch
+
+@ 1598
+JP 逆エビ固め
+EN Boston Crab
+
+@ 1599
+JP 反り逆エビ固め
+EN Arched Boston Crab
+
+@ 1600
+JP 抱え込み式逆エビ固め
+EN Cradled Boston Crab
+
+@ 1601
+JP 逆片エビ固め
+EN Single Leg Crab
+
+@ 1602
+JP ボーアンドアロー
+EN Bow and Arrow
+
+@ 1603
+JP カベルナリア
+EN Cavernaria
+
+@ 1604
+JP バックマウントに移行
+EN Go to Back Mount
+
+@ 1605
+JP ダブルニードロップ
+EN Double Knee Drop
+
+@ 1606
+JP ジャンピングニースタンプ
+EN Jumping Knee Stamp
+
+@ 1607
+JP キングコングニードロップ
+EN King Kong Knee Drop
+
+@ 1608
+JP ギロチンドロップ
+EN Guillotine Drop
+
+@ 1609
+JP ヒップドロップ
+EN Hip Drop
+
+@ 1610
+JP セントーン
+EN Senton
+
+@ 1611
+JP サンセットフリップ
+EN Sunset Flip
+
+@ 1612
+JP ジャンピングフットスタンプ
+EN Jumping Foot Stamp
+
+@ 1613
+JP ムーンサルトニードロップ
+EN Moonsault Knee Drop
+
+@ 1614
+JP 反り逆片エビ固め
+EN Arched Single Leg Crab
+
+@ 1615
+JP 足折り固め
+EN Leg Fold Hold
+
+@ 1616
+JP Ｓ・Ｔ・Ｆ
+EN STF
+
+@ 1617
+JP 裏Ｓ・Ｔ・Ｆ
+EN Reverse STF
+
+@ 1618
+JP トルコ刈り式監獄固め
+EN Turkish Prison Lock
+
+@ 1619
+JP 裏膝十字固め
+EN Reverse Kneebar
+
+@ 1620
+JP 裏アキレス腱固め
+EN Reverse Achilles Hold
+
+@ 1621
+JP 裏足四の字固め
+EN Reverse Figure-4 Lock
+
+@ 1622
+JP リバースインディアンデスロック
+EN Rev. Indian Deathlock
+
+@ 1623
+JP 鎌固め
+EN Sickle Hold
+
+@ 1624
+JP タモンズシューター
+EN Tamon's Shooter
+
+@ 1625
+JP ロメロスペシャル
+EN Romero Special
+
+@ 1626
+JP クロス式キャメルクラッチ
+EN Crossed Camel Clutch
+
+@ 1627
+JP マックスペイン
+EN Max Pain
+
+@ 1628
+JP クロスフェイス・オブ・ＪＡＤＯ
+EN Crossface of JADO
+
+@ 1629
+JP 志賀絞め
+EN Shiga Choke
+
+@ 1630
+JP リバースクローバーホールド
+EN Reverse Cloverleaf
+
+@ 1631
+JP スタンディングアンクルホールド
+EN Standing Ankle Hold
+
+@ 1632
+JP ベリートゥバック
+EN Belly to Back
+
+@ 1633
+JP アレビンズ・リフト
+EN Alebins Lift
+
+@ 1634
+JP 俵返し
+EN Bale Throw
+
+@ 1635
+JP ぶっこ抜きジャーマンスープレックスホールド
+EN Deadlift German Suplex Hold
+
+@ 1636
+JP クロス式Ｓ・Ｔ・Ｆ
+EN Crossed STF
+
+@ 1637
+JP カナディアンバックブリーカー
+EN Canadian Backbreaker
+
+@ 1638
+JP －
+EN －
+
+@ 1639
+JP －
+EN －
+
+@ 1640
+JP －
+EN －
+
+@ 1641
+JP －
+EN －
+
+@ 1642
+JP －
+EN －
+
+@ 1643
+JP －
+EN －
+
+@ 1644
+JP －
+EN －
+
+@ 1645
+JP －
+EN －
+
+@ 1646
+JP －
+EN －
+
+@ 1647
+JP －
+EN －
+
+@ 1648
+JP －
+EN －
+
+@ 1649
+JP －
+EN －
+
+@ 1650
+JP －
+EN －
+
+@ 1651
+JP －
+EN －
+
+@ 1652
+JP －
+EN －
+
+@ 1653
+JP －
+EN －
+
+@ 1654
+JP －
+EN －
+
+@ 1655
+JP －
+EN －
+
+@ 1656
+JP －
+EN －
+
+@ 1657
+JP －
+EN －
+
+@ 1658
+JP －
+EN －
+
+@ 1659
+JP －
+EN －
+
+@ 1660
+JP －
+EN －
+
+@ 1661
+JP －
+EN －
+
+@ 1662
+JP －
+EN －
+
+@ 1663
+JP －
+EN －
+
+@ 1664
+JP －
+EN －
+
+@ 1665
+JP －
+EN －
+
+@ 1666
+JP －
+EN －
+
+@ 1667
+JP －
+EN －
+
+@ 1668
+JP －
+EN －
+
+@ 1669
+JP ストンピング
+EN Stomping
+
+@ 1670
+JP 後頭部へ逆水平チョップ
+EN Chop to Back of Head
+
+@ 1671
+JP サッカーボールキック
+EN Soccer Ball Kick
+
+@ 1672
+JP スタンドアップニードロップ
+EN Stand-Up Knee Drop
+
+@ 1673
+JP ローキック
+EN Low Kick
+
+@ 1674
+JP 振り下ろしパンチ
+EN Hammer Punch
+
+@ 1675
+JP 脳天エルボー
+EN Skull Elbow
+
+@ 1676
+JP スリーパーホールド
+EN Sleeper Hold
+
+@ 1677
+JP 振りかぶり式スリーパーホールド
+EN Wind-Up Sleeper Hold
+
+@ 1678
+JP テキサススリーパーホールド
+EN Texas Sleeper Hold
+
+@ 1679
+JP チンロック
+EN Chinlock
+
+@ 1680
+JP ショルダークロー
+EN Shoulder Claw
+
+@ 1681
+JP サーフボードストレッチ
+EN Surfboard Stretch
+
+@ 1682
+JP 後頭部へのドロップキック
+EN Dropkick to Rear Head
+
+@ 1683
+JP 逆水平チョップ＆サッカーボールキック
+EN Chop & Soccer Ball Kick
+
+@ 1684
+JP ランニングミドルキック
+EN Running Middle Kick
+
+@ 1685
+JP 顔面へのドロップキック
+EN Dropkick to Face
+
+@ 1686
+JP ステップオーバーフェイスロック
+EN Stepover Facelock
+
+@ 1687
+JP ドラゴンスリーパー
+EN Dragon Sleeper
+
+@ 1688
+JP ストレッチプラム
+EN Stretch Plum
+
+@ 1689
+JP ＷＡＲスペシャル
+EN WAR Special
+
+@ 1690
+JP スタンディングストレッチ
+EN Standing Stretch
+
+@ 1691
+JP バッファロースリーパー
+EN Buffalo Sleeper
+
+@ 1692
+JP 極楽固め
+EN Gokuraku Hold
+
+@ 1693
+JP チキンウイングフェイスロック
+EN Chickenwing Facelock
+
+@ 1694
+JP 涅槃
+EN Nirvana
+
+@ 1695
+JP ８４６９
+EN 8469
+
+@ 1696
+JP 胴絞めドラゴンスリーパー
+EN Scissor Dragon Sleeper
+
+@ 1697
+JP 変形バッファロースリーパー
+EN Mod. Buffalo Sleeper
+
+@ 1698
+JP 変形ＫＡＺミッション
+EN Modified KAZmission
+
+@ 1699
+JP コブラホールド
+EN Cobra Hold
+
+@ 1700
+JP Ｎｏ．５４
+EN No. 54
+
+@ 1701
+JP ドラゴンクラッチ
+EN Dragon Clutch
+
+@ 1702
+JP 胴絞めフルネルソン
+EN Scissored Full Nelson
+
+@ 1703
+JP ヤナギロック
+EN Yanagi Lock
+
+@ 1704
+JP キングコブラホールド
+EN King Cobra Hold
+
+@ 1705
+JP 変形ドラゴンスリーパー
+EN Mod. Dragon Sleeper
+
+@ 1706
+JP －
+EN －
+
+@ 1707
+JP －
+EN －
+
+@ 1708
+JP トーキック
+EN Toe Kick
+
+@ 1709
+JP 振り下ろしパンチ
+EN Hammer Punch
+
+@ 1710
+JP ミドルキック
+EN Middle Kick
+
+@ 1711
+JP シャイニング・ウイザード
+EN Shining Wizard
+
+@ 1712
+JP シャイニング・ブラック
+EN Shining Black
+
+@ 1713
+JP スターネス・ウイザード
+EN Starness Wizard
+
+@ 1714
+JP サンシャイン・ウイザード
+EN Sunshine Wizard
+
+@ 1715
+JP シャイニング・ウイザード→体固め
+EN Shining Wizard > Cover
+
+@ 1716
+JP シャイニング・ドラゴン
+EN Shining Dragon
+
+@ 1717
+JP ハイキック
+EN High Kick
+
+@ 1718
+JP ニーリフト
+EN Knee Lift
+
+@ 1719
+JP ブレードキック
+EN Blade Kick
+
+@ 1720
+JP －
+EN －
+
+@ 1721
+JP シャイニング・ウイザード
+EN Shining Wizard
+
+@ 1722
+JP シャイニング・ブラック
+EN Shining Black
+
+@ 1723
+JP 延髄シャイニング・ウイザード
+EN Enzui Shining Wizard
+
+@ 1724
+JP スターネス・ウイザード
+EN Starness Wizard
+
+@ 1725
+JP サンシャイン・ウイザード
+EN Sunshine Wizard
+
+@ 1726
+JP 葉隠れ
+EN Hagakure
+
+@ 1727
+JP シャイニング・ウイザード→体固め
+EN Shining Wizard > Cover
+
+@ 1728
+JP シャイニング・ドラゴン
+EN Shining Dragon
+
+@ 1729
+JP ニーリフト
+EN Knee Lift
+
+@ 1730
+JP ミドルキック
+EN Middle Kick
+
+@ 1731
+JP ドロップキック
+EN Dropkick
+
+@ 1732
+JP 葉隠れ→体固め
+EN Hagakure > Cover
+
+@ 1733
+JP 巻き戻しニールキック
+EN Rewind Neil Kick
+
+@ 1734
+JP シャイニング稲妻レッグラリアート
+EN Shining Leg Lariat
+
+@ 1735
+JP ニーリフト→体固め
+EN Knee Lift > Cover
+
+@ 1736
+JP シャイニング・トライアングル
+EN Shining Triangle
+
+@ 1737
+JP －
+EN －
+
+@ 1738
+JP －
+EN －
+
+@ 1739
+JP ストンピング
+EN Stomping
+
+@ 1740
+JP ローキック
+EN Low Kick
+
+@ 1741
+JP チョン蹴り
+EN Tap Kick
+
+@ 1742
+JP ハンマーブロー
+EN Hammer Blow
+
+@ 1743
+JP スレッジハンマー
+EN Sledgehammer
+
+@ 1744
+JP 振り下ろしパンチ
+EN Hammer Punch
+
+@ 1745
+JP 四つん這いヘッドバット
+EN Crawling Headbutt
+
+@ 1746
+JP 顔面ニーリフト
+EN Face Knee Lift
+
+@ 1747
+JP 胴絞めフロントネックロック
+EN Scissor Front Necklock
+
+@ 1748
+JP －
+EN －
+
+@ 1749
+JP 延髄踵落とし
+EN Enzui Axe Kick
+
+@ 1750
+JP 低空ドロップキック
+EN Low Dropkick
+
+@ 1751
+JP ステップキック
+EN Step Kick
+
+@ 1752
+JP 腿キック
+EN Thigh Kick
+
+@ 1753
+JP ギロチンドロップ
+EN Guillotine Drop
+
+@ 1754
+JP サイドニーリフト
+EN Side Knee Lift
+
+@ 1755
+JP 前転踵落とし
+EN Rolling Axe Kick
+
+@ 1756
+JP ラ・マヒストラル
+EN La Magistral
+
+@ 1757
+JP 腕ひしぎ逆十字固め
+EN Cross Armbar
+
+@ 1758
+JP －
+EN －
+
+@ 1759
+JP －
+EN －
+
+@ 1760
+JP チョークスリーパー
+EN Choke Sleeper
+
+@ 1761
+JP 胴絞めスリーパー
+EN Body Scissors Sleeper
+
+@ 1762
+JP －
+EN －
+
+@ 1763
+JP スレッジハンマー
+EN Sledgehammer
+
+@ 1764
+JP ダイビング脳天チョップ
+EN Diving Head Chop
+
+@ 1765
+JP ダイビングエルボー
+EN Diving Elbow
+
+@ 1766
+JP ダイビングラリアット
+EN Diving Lariat
+
+@ 1767
+JP ダイビングショルダーアタック
+EN Diving Shoulder Attack
+
+@ 1768
+JP ウルトラ・タイガードロップ
+EN Ultra Tiger Drop
+
+@ 1769
+JP ダイビングヒップアタック
+EN Diving Hip Attack
+
+@ 1770
+JP ダイビングフロントハイキック
+EN Diving Front High Kick
+
+@ 1771
+JP ミサイルキック
+EN Missile Kick
+
+@ 1772
+JP 正面飛びミサイルキック
+EN Front Missile Kick
+
+@ 1773
+JP ヘッドスプリング式ミサイルキック
+EN Kip-Up Missile Kick
+
+@ 1774
+JP 低空ミサイルキック
+EN Low Missile Kick
+
+@ 1775
+JP ダイビングニールキック
+EN Diving Neil Kick
+
+@ 1776
+JP ダイビング延髄斬り
+EN Diving Enzuigiri
+
+@ 1777
+JP ダイビングニーアタック
+EN Diving Knee Attack
+
+@ 1778
+JP 滞空式正面飛びミサイルキック
+EN Hang-Time Missile Kick
+
+@ 1779
+JP ライダーキック
+EN Rider Kick
+
+@ 1780
+JP ダイビング野人ブレーンチョップ
+EN D. Yajin Brain Chop
+
+@ 1781
+JP ムーンサルトアタック
+EN Moonsault Attack
+
+@ 1782
+JP ダイビングエルボードロップ
+EN Diving Elbow Drop
+
+@ 1783
+JP ダイビングニードロップ
+EN Diving Knee Drop
+
+@ 1784
+JP ダイビングダブルニードロップ
+EN D. Double Knee Drop
+
+@ 1785
+JP ダイビングギロチンドロップ
+EN Diving Guillotine Drop
+
+@ 1786
+JP ダイビングフットスタンプ
+EN Diving Foot Stamp
+
+@ 1787
+JP ダイビングヘッドバット
+EN Diving Headbutt
+
+@ 1788
+JP 拝みダイビングヘッドバット
+EN Ogami Diving Headbutt
+
+@ 1789
+JP バッファローダイビングヘッドバット
+EN Buffalo Diving Headbutt
+
+@ 1790
+JP スーパーダイビングヘッドバット
+EN Super Diving Headbutt
+
+@ 1791
+JP スワントーンボム
+EN Swanton Bomb
+
+@ 1792
+JP ダイビングボディプレス
+EN Diving Body Press
+
+@ 1793
+JP フロッグスプラッシュ
+EN Frog Splash
+
+@ 1794
+JP ムササビプレス
+EN Musasabi Press
+
+@ 1795
+JP マッドスプラッシュ
+EN Mad Splash
+
+@ 1796
+JP ファイヤーバードスプラッシュ
+EN Firebird Splash
+
+@ 1797
+JP サザンクロススプラッシュ
+EN Southern Cross Splash
+
+@ 1798
+JP 旋回式フロッグスプラッシュ
+EN Spinning Frog Splash
+
+@ 1799
+JP ダイビングボディアタック
+EN Diving Body Attack
+
+@ 1800
+JP フロッグ式ダイビングボディアタック
+EN Frog Diving Body Attack
+
+@ 1801
+JP ダイビングいん石
+EN Diving Meteorite
+
+@ 1802
+JP 突撃ダイビングヘッドバット
+EN Charging D. Headbutt
+
+@ 1803
+JP トップロープダイビングセントーン
+EN Top-Rope Diving Senton
+
+@ 1804
+JP ハリケーンラナ
+EN Hurricanrana
+
+@ 1805
+JP ダイビングヘッドバッド→体固め
+EN D. Headbutt > Cover
+
+@ 1806
+JP スーパーダイビングヘッドバッド→体固め
+EN Super D. Headbutt > Cover
+
+@ 1807
+JP バッファローダイビングヘッドバッド→体固め
+EN Buffalo Diving Headbutt > Cover
+
+@ 1808
+JP トップロープダイビングセントーン→体固め
+EN Top-Rope D. Senton > Cover
+
+@ 1809
+JP スワントーンボム→体固め
+EN Swanton Bomb > Cover
+
+@ 1810
+JP スーパーフライ
+EN Superfly
+
+@ 1811
+JP パールハーバースプラッシュ
+EN Pearl Harbor Splash
+
+@ 1812
+JP ナガイ殺し
+EN Nagai Killer
+
+@ 1813
+JP シューティングスタープレス
+EN Shooting Star Press
+
+@ 1814
+JP ダイビングネックブリーカードロップ
+EN Diving Neckbreaker
+
+@ 1815
+JP 飛びつきスイングＤＤＴ
+EN Flying Swinging DDT
+
+@ 1816
+JP ドラゴン・ラナ
+EN Dragon Rana
+
+@ 1817
+JP ディープインパクト
+EN Deep Impact
+
+@ 1818
+JP －
+EN －
+
+@ 1819
+JP ダイビングセントーン
+EN Diving Senton
+
+@ 1820
+JP ローリングセントーン
+EN Rolling Senton
+
+@ 1821
+JP 前方回転ギロチンドロップ
+EN Flip Guillotine Drop
+
+@ 1822
+JP ジャイアントプレス
+EN Giant Press
+
+@ 1823
+JP 背面エルボードロップ
+EN Back Elbow Drop
+
+@ 1824
+JP ムーンサルトプレス
+EN Moonsault Press
+
+@ 1825
+JP ムーンサルトプレス
+EN Moonsault Press
+
+@ 1826
+JP ラウンディングボディプレス
+EN Rounding Body Press
+
+@ 1827
+JP 低空ムーンサルトプレス
+EN Low Moonsault Press
+
+@ 1828
+JP 旋回式ボディプレス
+EN Spinning Body Press
+
+@ 1829
+JP カンクーントルネード
+EN Cancun Tornado
+
+@ 1830
+JP ２ＮＤダイビング超肉弾プレス
+EN 2nd D. Bullet Press
+
+@ 1831
+JP 重爆ムーンサルトプレス
+EN Heavy Moonsault Press
+
+@ 1832
+JP ダイビングセントーン→体固め
+EN Diving Senton > Cover
+
+@ 1833
+JP ダイビングキングコングニードロップ→体固め
+EN D. King Kong Knee Drop > Cover
+
+@ 1834
+JP フェニックススプラッシュ
+EN Phoenix Splash
+
+@ 1835
+JP －
+EN －
+
+@ 1836
+JP プランチャ・スイシーダ
+EN Plancha Suicida
+
+@ 1837
+JP 旋回式プランチャ
+EN Spinning Plancha
+
+@ 1838
+JP スワンダイブプランチャ
+EN Springboard Plancha
+
+@ 1839
+JP ラ・ケブラーダ
+EN La Quebrada
+
+@ 1840
+JP 拝みケブラーダ
+EN Ogami Quebrada
+
+@ 1841
+JP 宇宙人ケブラーダ
+EN Alien Quebrada
+
+@ 1842
+JP －
+EN －
+
+@ 1843
+JP －
+EN －
+
+@ 1844
+JP －
+EN －
+
+@ 1845
+JP スライディングキック
+EN Sliding Kick
+
+@ 1846
+JP エルボー・スイシーダ
+EN Elbow Suicida
+
+@ 1847
+JP トペ・スイシーダ
+EN Tope Suicida
+
+@ 1848
+JP ショルダー・スイシーダ
+EN Shoulder Suicida
+
+@ 1849
+JP トペ・コン・ヒーロ
+EN Tope con Giro
+
+@ 1850
+JP ノータッチトペ・コン・ヒーロ
+EN No-Touch Tope con Giro
+
+@ 1851
+JP プランチャ・スイシーダ
+EN Plancha Suicida
+
+@ 1852
+JP トルニージョ
+EN Tornillo
+
+@ 1853
+JP スペースフライングタイガーアタック
+EN Space Tiger Attack
+
+@ 1854
+JP ハヤテスペシャル１号
+EN Hayate Special No. 1
+
+@ 1855
+JP ハヤテスペシャル２号
+EN Hayate Special No. 2
+
+@ 1856
+JP 宇宙人プランチャ
+EN Alien Plancha
+
+@ 1857
+JP ブエロ・デ・アギラ
+EN Vuelo de Aguila
+
+@ 1858
+JP ドラゴンロケット
+EN Dragon Rocket
+
+@ 1859
+JP －
+EN －
+
+@ 1860
+JP エルボー・スイシーダ
+EN Elbow Suicida
+
+@ 1861
+JP トペ・コン・ヒーロ
+EN Tope con Giro
+
+@ 1862
+JP トペ・スイシーダ
+EN Tope Suicida
+
+@ 1863
+JP プランチャ・スイシーダ
+EN Plancha Suicida
+
+@ 1864
+JP －
+EN －
+
+@ 1865
+JP エルボーバット
+EN Elbow Butt
+
+@ 1866
+JP ニーパット
+EN Knee Pat
+
+@ 1867
+JP ハイキック
+EN High Kick
+
+@ 1868
+JP スワンダイブミサイルキック
+EN Spr. Missile Kick
+
+@ 1869
+JP スワンダイブ正面飛びミサイルキック
+EN Spr. Front Missile Kick
+
+@ 1870
+JP スワンダイブニールキック
+EN Springboard Neil Kick
+
+@ 1871
+JP フライングボディアタック
+EN Flying Body Attack
+
+@ 1872
+JP トペ・アトミコ
+EN Tope Atomico
+
+@ 1873
+JP ウルトラ・ウラカンラナ
+EN Ultra Huracanrana
+
+@ 1874
+JP スワンダイブボディアタック
+EN Spr. Body Attack
+
+@ 1875
+JP スワンダイブエルボー
+EN Springboard Elbow
+
+@ 1876
+JP スワンダイブギロチンドロップ
+EN Spr. Guillotine Drop
+
+@ 1877
+JP ハイパーニー・空牙
+EN Hyper Knee Kuga
+
+@ 1878
+JP フロムコーナー・トゥー・コーナー
+EN From Corner to Corner
+
+@ 1879
+JP －
+EN －
+
+@ 1880
+JP トーキック
+EN Toe Kick
+
+@ 1881
+JP ニーリフト
+EN Knee Lift
+
+@ 1882
+JP 唾張り手
+EN Spit Slap
+
+@ 1883
+JP ブレーンバスター
+EN Brainbuster
+
+@ 1884
+JP シャイニング・ウイザード
+EN Shining Wizard
+
+@ 1885
+JP 断崖ドラゴンスクリュー
+EN Apron Dragon Screw
+
+@ 1886
+JP スタンガンピースクラッシャー
+EN Stun Gun Peace Crusher
+
+@ 1887
+JP 拷問ロープいじめ
+EN Rope Torture
+
+@ 1888
+JP 断崖タイガードライバー
+EN Apron Tiger Driver
+
+@ 1889
+JP 断崖喉輪地獄落とし
+EN Apron Hell Chokeslam
+
+@ 1890
+JP 断崖パワーボム
+EN Apron Powerbomb
+
+@ 1891
+JP 断崖ＤＤＴ
+EN Apron DDT
+
+@ 1892
+JP 断崖エクスプロイダー
+EN Apron Exploder
+
+@ 1893
+JP 断崖ハーフネルソンスープレックス
+EN Apron Half Nelson
+
+@ 1894
+JP エプロンジャーマンスープレックス
+EN Apron German Suplex
+
+@ 1895
+JP エプロンリバースＤＤＴ
+EN Apron Reverse DDT
+
+@ 1896
+JP 断崖タイガースープレックス
+EN Apron Tiger Suplex
+
+@ 1897
+JP －
+EN －
+
+@ 1898
+JP ボディパンチ
+EN Body Punch
+
+@ 1899
+JP ニーリフト
+EN Knee Lift
+
+@ 1900
+JP 場外にブレーンバスター
+EN Brainbuster to Floor
+
+@ 1901
+JP －
+EN －
+
+@ 1902
+JP －
+EN －
+
+@ 1903
+JP ガードポジション脇腹パンチ
+EN Guard Rib Punch
+
+@ 1904
+JP ガードポジションパンチ
+EN Guard Punch
+
+@ 1905
+JP パウンド
+EN Pound
+
+@ 1906
+JP ガードポジションヘッドバット
+EN Guard Headbutt
+
+@ 1907
+JP ガードポジションモンゴリアンチョップ
+EN Guard Mongolian Chop
+
+@ 1908
+JP 恥ずかしパンチ
+EN Shame Punch
+
+@ 1909
+JP アキレス腱固め
+EN Achilles Hold
+
+@ 1910
+JP ヒールホールド
+EN Heel Hold
+
+@ 1911
+JP アンクルホールド
+EN Ankle Hold
+
+@ 1912
+JP 膝十字固め
+EN Kneebar
+
+@ 1913
+JP ネックロック
+EN Necklock
+
+@ 1914
+JP 裏アキレス腱固め
+EN Reverse Achilles Hold
+
+@ 1915
+JP 倒れ込みアキレス腱固め
+EN Falling Achilles Hold
+
+@ 1916
+JP ジャイアントスイング
+EN Giant Swing
+
+@ 1917
+JP リフトアッププレス
+EN Lift-Up Press
+
+@ 1918
+JP パワーボム
+EN Powerbomb
+
+@ 1919
+JP －
+EN －
+
+@ 1920
+JP －
+EN －
+
+@ 1921
+JP －
+EN －
+
+@ 1922
+JP －
+EN －
+
+@ 1923
+JP －
+EN －
+
+@ 1924
+JP ビーストボム
+EN Beast Bomb
+
+@ 1925
+JP 炎のコマ
+EN Flaming Top
+
+@ 1926
+JP －
+EN －
+
+@ 1927
+JP －
+EN －
+
+@ 1928
+JP 馬乗りパンチ
+EN Mounted Punch
+
+@ 1929
+JP 馬乗りナックルパンチ
+EN Mounted Knuckle Punch
+
+@ 1930
+JP 馬乗り掌打
+EN Mounted Palm Strike
+
+@ 1931
+JP 馬乗り張り手
+EN Mounted Slap
+
+@ 1932
+JP 馬乗りエルボー
+EN Mounted Elbow
+
+@ 1933
+JP 馬乗り脇腹パンチ
+EN Mounted Rib Punch
+
+@ 1934
+JP 腕極め馬乗りパンチ
+EN Arm-Trap Mounted Punch
+
+@ 1935
+JP 横四方膝蹴り
+EN Side Control Knees
+
+@ 1936
+JP 上四方膝蹴り
+EN Top Mount Knee
+
+@ 1937
+JP 馬乗りパンチ
+EN Mounted Punch
+
+@ 1938
+JP 馬乗り掌打
+EN Mounted Palm Strike
+
+@ 1939
+JP ビーストパンチ
+EN Beast Punch
+
+@ 1940
+JP 肩固め
+EN Arm Triangle
+
+@ 1941
+JP ギロチンチョーク
+EN Guillotine Choke
+
+@ 1942
+JP 腕ひしぎ逆十字固め
+EN Cross Armbar
+
+@ 1943
+JP 三角絞め
+EN Triangle Choke
+
+@ 1944
+JP ケサ固め
+EN Scarf Hold
+
+@ 1945
+JP 腕極めケサ固め
+EN Arm-Lock Scarf Hold
+
+@ 1946
+JP チキンウイングアームロック
+EN Chickenwing Armlock
+
+@ 1947
+JP Ｖ１アームロック
+EN V1 Armlock
+
+@ 1948
+JP ストレートアームバー
+EN Straight Armbar
+
+@ 1949
+JP 腕ひしぎ十字固め
+EN Juji-Gatame
+
+@ 1950
+JP 袖車絞め
+EN Ezekiel Choke
+
+@ 1951
+JP －
+EN －
+
+@ 1952
+JP －
+EN －
+
+@ 1953
+JP 後頭部パンチ
+EN Back-of-Head Punch
+
+@ 1954
+JP 後頭部ナックルパンチ
+EN Rear Knuckle Punch
+
+@ 1955
+JP 後頭部掌打
+EN Back-of-Head Palm
+
+@ 1956
+JP 後頭部エルボー
+EN Back-of-Head Elbow
+
+@ 1957
+JP 後頭部ヘッドバット
+EN Back-of-Head Headbutt
+
+@ 1958
+JP 脇腹パンチ
+EN Rib Punch
+
+@ 1959
+JP ジャーマンクラッチに移行
+EN Go to German Clutch
+
+@ 1960
+JP －
+EN －
+
+@ 1961
+JP 腹固め
+EN Hara Gatame
+
+@ 1962
+JP 膝固め
+EN Knee Lock
+
+@ 1963
+JP 腕ひしぎ逆十字固め
+EN Cross Armbar
+
+@ 1964
+JP 胴絞めスリーパー
+EN Body Scissors Sleeper
+
+@ 1965
+JP 裸絞め
+EN Rear Naked Choke
+
+@ 1966
+JP チョークスリーパー
+EN Choke Sleeper
+
+@ 1967
+JP 胴絞めチョークスリーパー
+EN Scissor Choke Sleeper
+
+@ 1968
+JP アレビンズ・リフト
+EN Alebins Lift
+
+@ 1969
+JP ベリートゥバック
+EN Belly to Back
+
+@ 1970
+JP リバースパワーボム
+EN Reverse Powerbomb
+
+@ 1971
+JP フルネルソンスープレックス
+EN Full Nelson Suplex
+
+@ 1972
+JP 俵返し
+EN Bale Throw
+
+@ 1973
+JP ぶっこ抜きジャーマン
+EN Deadlift German
+
+@ 1974
+JP －
+EN －
+
+@ 1975
+JP －
+EN －
+
+@ 1976
+JP 顔面パンチ
+EN Face Punch
+
+@ 1977
+JP ボディパンチ
+EN Body Punch
+
+@ 1978
+JP －
+EN －
+
+@ 1979
+JP サイドニーリフト
+EN Side Knee Lift
+
+@ 1980
+JP 顔面ニーリフト
+EN Face Knee Lift
+
+@ 1981
+JP 四点ポジションニーリフト
+EN Four-Point Knee Lift
+
+@ 1982
+JP 腹固め
+EN Hara Gatame
+
+@ 1983
+JP フロントネックロック
+EN Front Necklock
+
+@ 1984
+JP 胴絞めフロントネックロック
+EN Scissor Front Necklock
+
+@ 1985
+JP ジャンピングＤＤＴ
+EN Jumping DDT
+
+@ 1986
+JP ダブルアームスープレックス
+EN Double Arm Suplex
+
+@ 1987
+JP パワーボムホイップ
+EN Powerbomb Whip
+
+@ 1988
+JP パイルドライバー
+EN Piledriver
+
+@ 1989
+JP －
+EN －
+
+@ 1990
+JP －
+EN －
+
+@ 1991
+JP －
+EN －
+
+@ 1992
+JP －
+EN －
+
+@ 1993
+JP －
+EN －
+
+@ 1994
+JP －
+EN －
+
+@ 1995
+JP －
+EN －
+
+@ 1996
+JP オモプラッタ
+EN Omoplata
+
+@ 1997
+JP フロントネックロック
+EN Front Necklock
+
+@ 1998
+JP 三角絞め
+EN Triangle Choke
+
+@ 1999
+JP アームロック
+EN Armlock
+
+@ 2000
+JP 腕ひしぎ逆十字固め
+EN Cross Armbar
+
+@ 2001
+JP アキレス腱固め
+EN Achilles Hold
+
+@ 2002
+JP 腕ひしぎ三角絞め
+EN Triangle Armbar
+
+@ 2003
+JP －
+EN －
+
+@ 2004
+JP －
+EN －
+
+@ 2005
+JP －
+EN －
+
+@ 2006
+JP －
+EN －
+
+@ 2007
+JP －
+EN －
+
+@ 2008
+JP －
+EN －
+
+@ 2009
+JP －
+EN －
+
+@ 2010
+JP ー
+EN -
+
+@ 2011
+JP －
+EN －
+
+@ 2012
+JP アキレス腱固め
+EN Achilles Hold
+
+@ 2013
+JP －
+EN －
+
+@ 2014
+JP －
+EN －
+
+@ 2015
+JP －
+EN －
+
+@ 2016
+JP 下からパンチ
+EN Punch from Bottom
+
+@ 2017
+JP アームロック
+EN Armlock
+
+@ 2018
+JP 裏膝十字固め
+EN Reverse Kneebar
+
+@ 2019
+JP 捻り上げアームロック
+EN Twisting Armlock
+
+@ 2020
+JP －
+EN －
+
+@ 2021
+JP －
+EN －
+
+@ 2022
+JP リバース水車落とし
+EN Rev. Waterwheel Drop
+
+@ 2023
+JP 水車落とし
+EN Waterwheel Drop
+
+@ 2024
+JP デスバレーボム
+EN Death Valley Bomb
+
+@ 2025
+JP ノーザンライトスープレックスホイップ
+EN N. Lights Suplex Whip
+
+@ 2026
+JP －
+EN －
+
+@ 2027
+JP デンジャラスボディスラム
+EN Dangerous Body Slam
+
+@ 2028
+JP スパインバスター
+EN Spinebuster
+
+@ 2029
+JP －
+EN －
+
+@ 2030
+JP －
+EN －
+
+@ 2031
+JP －
+EN －
+
+@ 2032
+JP －
+EN －
+
+@ 2033
+JP －
+EN －
+
+@ 2034
+JP －
+EN －
+
+@ 2035
+JP －
+EN －
+
+@ 2036
+JP －
+EN －
+
+@ 2037
+JP －
+EN －
+
+@ 2038
+JP －
+EN －
+
+@ 2039
+JP －
+EN －
+
+@ 2040
+JP －
+EN －
+
+@ 2041
+JP －
+EN －
+
+@ 2042
+JP －
+EN －
+
+@ 2043
+JP －
+EN －
+
+@ 2044
+JP －
+EN －
+
+@ 2045
+JP 飛びつき腕ひしぎ逆十字固め
+EN Flying Cross Armbar
+
+@ 2046
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 2047
+JP ショルダーアームブリーカー
+EN Shoulder Armbreaker
+
+@ 2048
+JP ジャイアントアームブリーカー
+EN Giant Armbreaker
+
+@ 2049
+JP 飛びつき十字固め
+EN Flying Juji-Gatame
+
+@ 2050
+JP 逆さ押さえ込み
+EN Inverted Cradle
+
+@ 2051
+JP 一本背負い
+EN Ippon Seoi
+
+@ 2052
+JP カンヌキスープレックス
+EN Kannuki Suplex
+
+@ 2053
+JP 引き込み倒し
+EN Drag Down
+
+@ 2054
+JP －
+EN －
+
+@ 2055
+JP 膝にエルボー
+EN Elbow to Knee
+
+@ 2056
+JP エルボーパット
+EN Elbow Pat
+
+@ 2057
+JP レッグロック
+EN Leglock
+
+@ 2058
+JP 足を取り軸足払い
+EN Leg Catch Sweep
+
+@ 2059
+JP はたき落とす
+EN Swat Down
+
+@ 2060
+JP エルボードロップ
+EN Elbow Drop
+
+@ 2061
+JP －
+EN －
+
+@ 2062
+JP －
+EN －
+
+@ 2063
+JP 足一本背負い
+EN Leg Ippon Seoi
+
+@ 2064
+JP フック
+EN Hook
+
+@ 2065
+JP 軸足ローキック
+EN Pivot Low Kick
+
+@ 2066
+JP アッパー掌底
+EN Upper Palm
+
+@ 2067
+JP アキレス腱固め
+EN Achilles Hold
+
+@ 2068
+JP リバース水車落とし
+EN Rev. Waterwheel Drop
+
+@ 2069
+JP ドラゴンスクリュー
+EN Dragon Screw
+
+@ 2070
+JP 元祖ドラゴンスクリュー
+EN Original Dragon Screw
+
+@ 2071
+JP 下手ドラゴンスクリュー
+EN Underhand Dragon Screw
+
+@ 2072
+JP 曼荼羅捻り
+EN Mandala Twist
+
+@ 2073
+JP ラリアット
+EN Lariat
+
+@ 2074
+JP 裏アキレス腱固め
+EN Reverse Achilles Hold
+
+@ 2075
+JP チョークスリーパー
+EN Choke Sleeper
+
+@ 2076
+JP スタンディングアキレス腱固め
+EN Standing Achilles Hold
+
+@ 2077
+JP キャプチュード
+EN Capture
+
+@ 2078
+JP 高速ドラゴンスクリュー
+EN Fast Dragon Screw
+
+@ 2079
+JP 連続高速ドラゴンスクリュー
+EN Rapid Dragon Screw
+
+@ 2080
+JP 縦回転ドラゴンスクリュー
+EN Vertical Dragon Screw
+
+@ 2081
+JP 足取りパワーボム
+EN Leg Catch Powerbomb
+
+@ 2082
+JP －
+EN －
+
+@ 2083
+JP ダブルブレーンバスター
+EN Double Brainbuster
+
+@ 2084
+JP ボディスラム→ノーフィアードロップ
+EN Body Slam > No Fear Drop
+
+@ 2085
+JP ダブルドロップキック
+EN Double Dropkick
+
+@ 2086
+JP ダブルフロントハイキック
+EN Double Front High Kick
+
+@ 2087
+JP ダブルアームブリーカー
+EN Double Armbreaker
+
+@ 2088
+JP ダブル低空ドロップキック
+EN Double Low Dropkick
+
+@ 2089
+JP ダブル股割き
+EN Double Wishbone
+
+@ 2090
+JP ダブル膝砕き
+EN Double Knee Smash
+
+@ 2091
+JP カニバサミ→エルボードロップ
+EN Kani Basami > Elbow
+
+@ 2092
+JP ダブルフェイスバスター
+EN Double Facebuster
+
+@ 2093
+JP ゴールデンゲートスピン
+EN Golden Gate Spin
+
+@ 2094
+JP 太鼓の乱れ打ち
+EN Taiko Drum Barrage
+
+@ 2095
+JP 合体パワーボム
+EN Team Powerbomb
+
+@ 2096
+JP 合体ダイヤモンドカッター
+EN Team Diamond Cutter
+
+@ 2097
+JP ダブルタイガードライバー
+EN Double Tiger Driver
+
+@ 2098
+JP ビッグハイヤーデモリッション
+EN Big Higher Demolition
+
+@ 2099
+JP サンドイッチラリアット
+EN Sandwich Lariat
+
+@ 2100
+JP サンドイッチ延髄蹴り
+EN Sandwich Enzui Kick
+
+@ 2101
+JP 刈龍怒
+EN Kariryudo
+
+@ 2102
+JP 踏み台式シャイニング・ウイザード
+EN Step-Up Shining Wizard
+
+@ 2103
+JP シーソーバスター
+EN Seesaw Buster
+
+@ 2104
+JP 俺ごとサファリ
+EN Ore-Goto Safari
+
+@ 2105
+JP ダブルチョークスラム
+EN Double Chokeslam
+
+@ 2106
+JP －
+EN －
+
+@ 2107
+JP ダブルバックドロップ
+EN Double Backdrop
+
+@ 2108
+JP 合体フェイスクラッシャー
+EN Team Facecrusher
+
+@ 2109
+JP バックドロップ喉輪落とし
+EN Backdrop Chokeslam
+
+@ 2110
+JP バックドロップランニングネックブリーカー
+EN Backdrop R. Neckbreaker
+
+@ 2111
+JP 俺ごと刈れ
+EN Ore-Goto Kare
+
+@ 2112
+JP バックドロップパワーボム
+EN Backdrop Powerbomb
+
+@ 2113
+JP －
+EN －
+
+@ 2114
+JP スーパーパワーボム
+EN Super Powerbomb
+
+@ 2115
+JP スーパーバックドロップパワーボム
+EN Super Backdrop Bomb
+
+@ 2116
+JP 合体パイルドライバー
+EN Team Piledriver
+
+@ 2117
+JP 合体アバランシュプレス
+EN Team Avalanche Press
+
+@ 2118
+JP ダイビングネックブリーカーバックドロップ
+EN Diving Neckbreaker Backdrop
+
+@ 2119
+JP ダブルインパクト
+EN Double Impact
+
+@ 2120
+JP スカイハイフランケンシュタイナー
+EN Sky High Franken.
+
+@ 2121
+JP ヘブンインパクト
+EN Heaven Impact
+
+@ 2122
+JP 摩周
+EN Mashu
+
+@ 2123
+JP タイフーンロール
+EN Typhoon Roll
+
+@ 2124
+JP シャイニングインパクト
+EN Shining Impact
+
+@ 2125
+JP －
+EN －
+
+@ 2126
+JP 片手あげ
+EN Hand Up
+
+@ 2127
+JP 片手半あげ
+EN Half Hand Up
+
+@ 2128
+JP 片腕あげ
+EN Arm Up
+
+@ 2129
+JP パンサーポーズ
+EN Panther Pose
+
+@ 2130
+JP 手首チェック
+EN Wrist Check
+
+@ 2131
+JP 両手あげ
+EN Hands Up
+
+@ 2132
+JP エルボー直し
+EN Fix Elbow Pad
+
+@ 2133
+JP 汗ワイパー
+EN Wipe Sweat
+
+@ 2134
+JP ダイナミック腕回し
+EN Big Arm Swing
+
+@ 2135
+JP 両腕交差
+EN Cross Arms
+
+@ 2136
+JP 青春の握り拳
+EN Youth Fist
+
+@ 2137
+JP 熱き握り拳
+EN Hot Fist
+
+@ 2138
+JP スターネスフィニッシュ宣言
+EN Starness Finish Call
+
+@ 2139
+JP 雄叫び胸張り
+EN Roar & Chest Out
+
+@ 2140
+JP 両手頬叩き
+EN Slap Cheeks
+
+@ 2141
+JP 斧爆弾予告
+EN Axe Bomb Call
+
+@ 2142
+JP ノーフィアー
+EN No Fear
+
+@ 2143
+JP ジャーマンアピール
+EN German Pose
+
+@ 2144
+JP 原人の雄叫び
+EN Caveman Roar
+
+@ 2145
+JP 担ぐぞ
+EN Lift 'Em
+
+@ 2146
+JP 稲妻アピール
+EN Lightning Pose
+
+@ 2147
+JP 筋肉アピール
+EN Muscle Pose
+
+@ 2148
+JP ジークンドーの構え
+EN Jeet Kune Do Stance
+
+@ 2149
+JP 開脚ジャンプ
+EN Split Jump
+
+@ 2150
+JP 見下ろし威嚇
+EN Glare Down
+
+@ 2151
+JP ジャイアントフィニッシュ宣言
+EN Giant Finish Call
+
+@ 2152
+JP ジャイアント手は口元に
+EN Giant Hand to Mouth
+
+@ 2153
+JP レガース直し
+EN Fix Shin Pads
+
+@ 2154
+JP 屈伸運動
+EN Squats
+
+@ 2155
+JP 頷き握り拳
+EN Nod & Fist
+
+@ 2156
+JP 両手交差斬り
+EN Cross Chop Pose
+
+@ 2157
+JP 首斬りポーズ１
+EN Throat Slash 1
+
+@ 2158
+JP 「オーッ」
+EN "Ohhh!"
+
+@ 2159
+JP 握り拳「オーッ」
+EN Fist "Ohhh!"
+
+@ 2160
+JP サポーター直し
+EN Fix Kneepad
+
+@ 2161
+JP テキサスロングホーン
+EN Texas Longhorn
+
+@ 2162
+JP トライアングルサイン
+EN Triangle Sign
+
+@ 2163
+JP 腹太鼓
+EN Belly Drum
+
+@ 2164
+JP 地団駄踏み雄叫び
+EN Stomp & Roar
+
+@ 2165
+JP ドラゴンフィニッシュ宣言
+EN Dragon Finish Call
+
+@ 2166
+JP 雄叫び気合入れ
+EN Roar Psych-Up
+
+@ 2167
+JP 両手十字斬り
+EN Cross Slash
+
+@ 2168
+JP 上空毒霧吹き
+EN Mist Spray Up
+
+@ 2169
+JP 魔界首斬り
+EN Demon Slash
+
+@ 2170
+JP 両手拡げ挑発
+EN Arms Out Taunt
+
+@ 2171
+JP 膝つきガッツポーズ
+EN Kneel Fist Pump
+
+@ 2172
+JP 胸反り両手ガッツポーズ
+EN Arch Back Fist Pump
+
+@ 2173
+JP 気合い入れ押忍
+EN Osu! Psych-Up
+
+@ 2174
+JP 指回し１
+EN Finger Spin 1
+
+@ 2175
+JP 胸張り首斬り
+EN Chest Out Slash
+
+@ 2176
+JP 両手クロスガッツポーズ
+EN Crossed Fist Pump
+
+@ 2177
+JP 両手握り拳
+EN Both Fists
+
+@ 2178
+# [glossary-ok] move/taunt name, "taunt" implied
+JP 尻叩きアピール
+EN Butt Slap
+
+@ 2179
+JP やるって大暴れ
+EN Rampage
+
+@ 2180
+JP 野人ダンス
+EN Wild Man Dance
+
+@ 2181
+JP スピアーダンス
+EN Spear Dance
+
+@ 2182
+JP 片足踏み鳴らし
+EN Foot Stomp
+
+@ 2183
+JP 敬礼
+EN Salute
+
+@ 2184
+# [glossary-ok] move/taunt name, "taunt" implied
+JP 両手クロス入魂アピール
+EN Crossed Arms Spirit
+
+@ 2185
+JP 首斬りポーズ２
+EN Throat Slash 2
+
+@ 2186
+JP 弓引きガッツポーズ
+EN Bow Fist Pump
+
+@ 2187
+JP 指回し２
+EN Finger Spin 2
+
+@ 2188
+JP 掌底アピール
+EN Palm Strike Pose
+
+@ 2189
+JP 旋回ポージング
+EN Spin Pose
+
+@ 2190
+JP 祈り両手ガッツポーズ
+EN Prayer Fist Pump
+
+@ 2191
+JP ボムアピール
+EN Bomb Pose
+
+@ 2192
+JP 両手叩き招き
+EN Clap & Beckon
+
+@ 2193
+JP 腕回し
+EN Arm Swing
+
+@ 2194
+JP 胸張り
+EN Chest Out
+
+@ 2195
+JP ドライバーアピール
+EN Driver Pose
+
+@ 2196
+JP 力一杯首斬り
+EN Hard Throat Slash
+
+@ 2197
+JP バックドロップ予告
+EN Backdrop Call
+
+@ 2198
+JP 両手招き
+EN Beckon
+
+@ 2199
+JP 野人覚醒
+EN Wild Man Awakes
+
+@ 2200
+JP 忍者ポーズ
+EN Ninja Pose
+
+@ 2201
+JP 念仏拝み
+EN Chant Prayer
+
+@ 2202
+JP クレイジーパキュン
+EN Crazy Bang
+
+@ 2203
+JP 握手を誘う
+EN Offer Handshake
+
+@ 2204
+JP 猛牛アピール
+EN Raging Bull Pose
+
+@ 2205
+JP 空手ポーズ
+EN Karate Pose
+
+@ 2206
+JP ドルフィンポーズ
+EN Dolphin Pose
+
+@ 2207
+JP 振り向きアピール
+EN Turn-Around Pose
+
+@ 2208
+JP 両手中指立て
+EN Double Middle Finger
+
+@ 2209
+JP 中指立て
+EN Middle Finger
+
+@ 2210
+JP 片手上げウォー
+EN Hand Up "Woo!"
+
+@ 2211
+JP ホー
+EN "Hoh!"
+
+@ 2212
+JP チョークスラムアピール
+EN Chokeslam Pose
+
+@ 2213
+JP 若手アピール
+EN Rookie Pose
+
+@ 2214
+JP 耳あてアピール
+EN Ear Cup Pose
+
+@ 2215
+JP マッスルポージング
+EN Muscle Posing
+
+@ 2216
+JP 野人ラリアット予告
+EN Wild Lariat Call
+
+@ 2217
+JP 大暴れ
+EN Rampage
+
+@ 2218
+JP 降参ポーズ
+EN Surrender Pose
+
+@ 2219
+JP アメリカンウォーク
+EN American Walk
+
+@ 2220
+JP スパイク雄叫び
+EN Spike Roar
+
+@ 2221
+JP ブルドックポーズ
+EN Bulldog Pose
+
+@ 2222
+JP ブルドック跨ぎポーズ
+EN Bulldog Straddle
+
+@ 2223
+JP はりきりポーズ
+EN Eager Pose
+
+@ 2224
+JP テキサスステップ
+EN Texas Step
+
+@ 2225
+JP アイアンクロー予告
+EN Iron Claw Call
+
+@ 2226
+JP 前屈み一休み
+EN Bent Over Rest
+
+@ 2227
+JP Ｕスタイルステップ
+EN U-Style Step
+
+@ 2228
+JP ショートスピアーダンス
+EN Short Spear Dance
+
+@ 2229
+JP 腰クネ
+EN Hip Wiggle
+
+@ 2230
+JP パキュン
+EN Bang!
+
+@ 2231
+JP カモーン
+EN C'mon!
+
+@ 2232
+JP カニ歩き
+EN Crab Walk
+
+@ 2233
+JP カリーダンス
+EN Curry Dance
+
+@ 2234
+JP 首振り
+EN Head Shake
+
+@ 2235
+JP ＷＯＷ！ＷＯＷ！
+EN WOW! WOW!
+
+@ 2236
+JP アニマルポーズ
+EN Animal Pose
+
+@ 2237
+JP 雄叫びガッツポーズ
+EN Roar Fist Pump
+
+@ 2238
+JP 礼
+EN Bow
+
+@ 2239
+JP キングコングアピール
+EN King Kong Pose
+
+@ 2240
+JP 軽く礼
+EN Small Bow
+
+@ 2241
+JP 会場見回しパフォーマンス
+EN Look Around Crowd
+
+@ 2242
+JP 両手叩き
+EN Clap Hands
+
+@ 2243
+JP 野獣覚醒
+EN Beast Awakes
+
+@ 2244
+JP ローキックフェイント
+EN Low Kick Feint
+
+@ 2245
+JP タックルフェイント
+EN Tackle Feint
+
+@ 2246
+JP サムアップ
+EN Thumbs Up
+
+@ 2247
+JP フォレストダンス
+EN Forest Dance
+
+@ 2248
+JP ぶん殴りラリアット予告
+EN Haymaker Lariat Call
+
+@ 2249
+JP 黒師念仏
+EN Black Chant
+
+@ 2250
+JP 閃光魔術予告
+EN Shining Wizard Call
+
+@ 2251
+# [glossary-ok] move/taunt name, "taunt" implied
+JP 龍魂左腕アピール
+EN Dragon Left Arm
+
+@ 2252
+JP 膝つき弓引きガッツポーズ
+EN Kneel Bow Fist Pump
+
+@ 2253
+JP 膝つきラブキッス
+EN Kneel Love Kiss
+
+@ 2254
+JP 両手振り上げ招き
+EN Raise & Beckon
+
+@ 2255
+JP 糸巻きアピール
+EN Spool Pose
+
+@ 2256
+JP 首切り一本指上げ
+EN Slash & Point Up
+
+@ 2257
+JP 真田フェイント
+EN Sanada Feint
+
+@ 2258
+JP 踏み込みラリアット予告
+EN Step-In Lariat Call
+
+@ 2259
+JP グリーンベレーポーズ
+EN Green Beret Pose
+
+@ 2260
+JP タイム要請
+EN Time Out
+
+@ 2261
+JP 空手の構え
+EN Karate Stance
+
+@ 2262
+JP 残心
+EN Zanshin
+
+@ 2263
+JP エベレストフィニッシュ宣言
+EN Everest Finish Call
+
+@ 2264
+JP 弾丸エルボーアピール
+EN Bullet Elbow Pose
+
+@ 2265
+JP ビーストアピール
+EN Beast Pose
+
+@ 2266
+JP あいーん
+EN "Aiin"
+
+@ 2267
+JP 太鼓腹叩き
+EN Belly Slap
+
+@ 2268
+JP Ｌｏｗｋｉ威嚇
+EN Low Ki Threat
+
+@ 2269
+JP マッチョアピール
+EN Macho Pose
+
+@ 2270
+JP 胸叩き
+EN Chest Slap
+
+@ 2271
+JP 腕ぐるぐる
+EN Arm Windmill
+
+@ 2272
+JP 垂直落下アピール
+EN Vertical Drop Pose
+
+@ 2273
+JP ガッツアピール
+EN Guts Pose
+
+@ 2274
+JP 来い、オラー
+EN "Come On!"
+
+@ 2275
+JP モンゴルスラム予告
+EN Mongol Slam Call
+
+@ 2276
+JP 片手ガッツポーズ
+EN One Fist Pump
+
+@ 2277
+JP ビッシビシいくぞ
+EN "Here I Come!"
+
+@ 2278
+JP 両手で担ぐぞ
+EN Two-Hand Lift 'Em
+
+@ 2279
+JP スーパーフライ
+EN Superfly
+
+@ 2280
+JP スピアー予告
+EN Spear Call
+
+@ 2281
+JP ドゥガンアップ
+EN Duggan Up
+
+@ 2282
+JP コリノ一番
+EN Corino Ichiban
+
+@ 2283
+JP 指一本上げ
+EN Finger Up
+
+@ 2284
+JP サルポーズ
+EN Monkey Pose
+
+@ 2285
+JP キークラッシュ予告
+EN Key Crush Call
+
+@ 2286
+JP ショーンキャプチャー予告
+EN Shawn Capture Call
+
+@ 2287
+JP 通常歩き
+EN Walk
+
+@ 2288
+JP 小走り
+EN Jog
+
+@ 2289
+JP 走り
+EN Run
+
+@ 2290
+JP ジャイアント歩き
+EN Giant Walk
+
+@ 2291
+JP ムタ歩き
+EN Muta Walk
+
+@ 2292
+JP 武蔵小走り
+EN Musashi Jog
+
+@ 2293
+JP プルロープ小走り
+EN Pull Rope Jog
+
+@ 2294
+JP 竜殺し刀歩き
+EN Dragon Sword Walk
+
+@ 2295
+JP －
+EN －
+
+@ 2296
+JP －
+EN －
+
+@ 2297
+JP 片手あげ
+EN Hand Up
+
+@ 2298
+JP 礼
+EN Bow
+
+@ 2299
+JP 両手あげ
+EN Hands Up
+
+@ 2300
+JP 両手振り
+EN Wave Hands
+
+@ 2301
+JP 両手指差し
+EN Point Both
+
+@ 2302
+JP 気合い入れ押忍
+EN Osu! Psych-Up
+
+@ 2303
+JP 威風堂々両手広げ
+EN Majestic Arms Out
+
+@ 2304
+JP ラブアピール
+EN Love Pose
+
+@ 2305
+JP Ｔ２０００アピール
+EN T2000 Pose
+
+@ 2306
+JP 敬礼
+EN Salute
+
+@ 2307
+JP 会場見回し
+EN Look Around
+
+@ 2308
+JP 両手クロス
+EN Cross Arms
+
+@ 2309
+JP 獣神アピール
+EN Jushin Pose
+
+@ 2310
+JP ノーフィアー雄叫び
+EN No Fear Roar
+
+@ 2311
+JP うつむき両手上げ
+EN Head Down Hands Up
+
+@ 2312
+JP 両手拡げ挑発
+EN Arms Out Taunt
+
+@ 2313
+JP オーッ
+EN "Ohhh!"
+
+@ 2314
+JP ＤＪダンス
+EN DJ Dance
+
+@ 2315
+JP 皇帝戦士アピール
+EN Emperor Pose
+
+@ 2316
+JP 火祭り刀アピール
+EN Fire Sword Pose
+
+@ 2317
+JP ビーストアピール
+EN Beast Pose
+
+@ 2318
+JP 竜殺し刀アピール
+EN Dragon Sword Pose
+
+@ 2319
+JP 弾丸アピール
+EN Bullet Pose
+
+@ 2320
+JP 待つ
+EN Wait
+
+@ 2321
+JP 軽く気合入れ
+EN Light Psych-Up
+
+@ 2322
+JP －
+EN －
+
+@ 2323
+JP 祈り
+EN Pray
+
+@ 2324
+JP 会場見回し
+EN Look Around
+
+@ 2325
+JP 会場見回し（手を腰）
+EN Look Around (Hips)
+
+@ 2326
+JP 片手挙げ
+EN Hand Up
+
+@ 2327
+JP 両手挙げ
+EN Hands Up
+
+@ 2328
+JP 指差し眺め
+EN Point & Gaze
+
+@ 2329
+JP 両手拡げ挑発
+EN Arms Out Taunt
+
+@ 2330
+JP 威嚇
+EN Threaten
+
+@ 2331
+JP 挑発耳あて
+EN Ear Cup Taunt
+
+@ 2332
+JP ノーフィアー
+EN No Fear
+
+@ 2333
+JP 皇帝戦士アピール
+EN Emperor Pose
+
+@ 2334
+JP 火祭り刀アピール
+EN Fire Sword Pose
+
+@ 2335
+JP 木刀アピール
+EN Bokken Pose
+
+@ 2336
+JP 富豪２ダンス
+EN Fugo 2 Dance
+
+@ 2337
+JP ベルトアピール
+EN Belt Pose
+
+@ 2338
+JP 歩き見回し
+EN Walk & Look
+
+@ 2339
+JP 歩き手首チェック
+EN Walk Wrist Check
+
+@ 2340
+JP 歩き片手挙げ
+EN Walk Hand Up
+
+@ 2341
+JP 歩き両手挙げ
+EN Walk Hands Up
+
+@ 2342
+JP 歩き首振り
+EN Walk Head Shake
+
+@ 2343
+JP 歩きウルフパック
+EN Walk Wolfpack
+
+@ 2344
+JP 小走り見回し
+EN Jog & Look
+
+@ 2345
+JP 走り見回し
+EN Run & Look
+
+@ 2346
+JP ジャイアント歩き見回し
+EN Giant Walk & Look
+
+@ 2347
+JP ムタ歩き見回し
+EN Muta Walk & Look
+
+@ 2348
+JP 武蔵小走り見回し
+EN Musashi Jog & Look
+
+@ 2349
+JP プルロープ小走り見回し
+EN Pull Rope Jog & Look
+
+@ 2350
+JP 竜殺し刀歩き見回し
+EN Sword Walk & Look
+
+@ 2351
+JP Ｌｏｗｋｉ威嚇
+EN Low Ki Threat
+
+@ 2352
+JP リング下からエプロンに上がる
+EN Floor to Apron
+
+@ 2353
+JP 花道からエプロンに移動
+EN Ramp to Apron
+
+@ 2354
+JP リングイン
+EN Enter Ring
+
+@ 2355
+JP 一礼リングイン
+EN Bow & Enter
+
+@ 2356
+JP ジャンプリングイン
+EN Jump In
+
+@ 2357
+JP ジャンピングリングイン
+EN Jumping Entry
+
+@ 2358
+JP 開脚リングイン
+EN Split Entry
+
+@ 2359
+JP 前転リングイン
+EN Roll Entry
+
+@ 2360
+JP 飛び込みリングイン
+EN Dive In
+
+@ 2361
+JP ロープまたぎリングイン
+EN Step Over Rope
+
+@ 2362
+JP ジャイアントリングイン
+EN Giant Entry
+
+@ 2363
+JP 水吹きリングイン
+EN Water Spit Entry
+
+@ 2364
+JP うさぎ飛びリングイン
+EN Bunny Hop Entry
+
+@ 2365
+JP 獣神リングイン
+EN Jushin Entry
+
+@ 2366
+JP 見栄切りリングイン
+EN Kabuki Pose Entry
+
+@ 2367
+JP パンサーリングイン
+EN Panther Entry
+
+@ 2368
+JP Ｔ２０００リングイン
+EN T2000 Entry
+
+@ 2369
+JP おじぎリングイン
+EN Bow Entry
+
+@ 2370
+JP ガッツポーズリングイン
+EN Fist Pump Entry
+
+@ 2371
+JP いっちゃうぞリングイン
+EN "Ichauzo" Entry
+
+@ 2372
+JP ドタバタリングイン
+EN Clumsy Entry
+
+@ 2373
+JP バク転リングイン
+EN Backflip Entry
+
+@ 2374
+JP ローリングリングイン
+EN Rolling Entry
+
+@ 2375
+JP 敬礼リングイン
+EN Salute Entry
+
+@ 2376
+JP ハイジャンプリングイン
+EN High Jump Entry
+
+@ 2377
+JP 手首チェック
+EN Wrist Check
+
+@ 2378
+JP ぶらぶら
+EN Loiter
+
+@ 2379
+JP 両腕交差
+EN Cross Arms
+
+@ 2380
+JP 両手を腰に
+EN Hands on Hips
+
+@ 2381
+JP ぴょんぴょん
+EN Hop Hop
+
+@ 2382
+JP グローブチェック
+EN Glove Check
+
+@ 2383
+JP 両膝ウォームアップ
+EN Knee Warm-Up
+
+@ 2384
+JP ジャイアント待機
+EN Giant Wait
+
+@ 2385
+JP 片手あげ
+EN Hand Up
+
+@ 2386
+JP 片手半あげ１
+EN Half Hand Up 1
+
+@ 2387
+JP 片手半あげ２
+EN Half Hand Up 2
+
+@ 2388
+JP 片手振り
+EN Wave
+
+@ 2389
+JP 片手振りあげ
+EN Wave Up
+
+@ 2390
+JP 片手一本指あげ
+EN Point Up
+
+@ 2391
+JP 片手振り下ろし
+EN Swing Down
+
+@ 2392
+JP 手首チェック片手あげ
+EN Wrist Check Up
+
+@ 2393
+JP ドクター片手突きあげ
+EN Doctor Fist Up
+
+@ 2394
+JP 肘チェック片手あげ
+EN Elbow Check Up
+
+@ 2395
+JP 片手ガッツポーズ
+EN One Fist Pump
+
+@ 2396
+JP 両手あげ１
+EN Hands Up 1
+
+@ 2397
+JP 両手あげ２
+EN Hands Up 2
+
+@ 2398
+JP 両手振り１
+EN Wave Both 1
+
+@ 2399
+JP 両手振り２
+EN Wave Both 2
+
+@ 2400
+JP 両手振りあげ
+EN Swing Both Up
+
+@ 2401
+JP 両手開き
+EN Open Arms
+
+@ 2402
+JP 胸開き両手あげ
+EN Chest Out Arms Up
+
+@ 2403
+JP 礼
+EN Bow
+
+@ 2404
+JP 軽く礼
+EN Small Bow
+
+@ 2405
+JP ガッツポーズ礼
+EN Fist Pump Bow
+
+@ 2406
+JP 片手付き礼
+EN Hand Bow
+
+@ 2407
+JP 腿叩き礼
+EN Thigh Slap Bow
+
+@ 2408
+JP 睨みつけ礼
+EN Glare Bow
+
+@ 2409
+JP ジャイアントおじき
+EN Giant Bow
+
+@ 2410
+JP ブラジル敬礼
+EN Brazil Salute
+
+@ 2411
+JP 念仏拝み
+EN Chant Prayer
+
+@ 2412
+JP 黒師拝み
+EN Black Prayer
+
+@ 2413
+JP 仁王立ち
+EN Stand Tall
+
+@ 2414
+JP ガンつけ
+EN Stare Down
+
+@ 2415
+JP シャドーボクシング
+EN Shadow Boxing
+
+@ 2416
+JP バートンアピール
+EN Barton Pose
+
+@ 2417
+JP 気合い入れ押忍
+EN Osu! Psych-Up
+
+@ 2418
+JP 武蔵アピール
+EN Musashi Pose
+
+@ 2419
+JP ウルフキッス
+EN Wolf Kiss
+
+@ 2420
+JP 両手拡げ挑発
+EN Arms Out Taunt
+
+@ 2421
+JP 両手ガッツポーズ
+EN Two-Fist Pump
+
+@ 2422
+JP 野人覚醒
+EN Wild Man Awakes
+
+@ 2423
+JP 両手拡げ威嚇
+EN Arms Out Threat
+
+@ 2424
+JP 両手あげ前進
+EN Arms Up Advance
+
+@ 2425
+JP パンサーアピール
+EN Panther Pose
+
+@ 2426
+JP 屈伸
+EN Squats
+
+@ 2427
+JP テキサスロングホーン
+EN Texas Longhorn
+
+@ 2428
+JP 両膝ウォームアップ
+EN Knee Warm-Up
+
+@ 2429
+JP 毒霧
+EN Poison Mist
+
+@ 2430
+JP ＷＯＷ！ＷＯＷ！
+EN WOW! WOW!
+
+@ 2431
+JP 指差し
+EN Point
+
+@ 2432
+JP 太陽キッス
+EN Sun Kiss
+
+@ 2433
+JP 悪態をつく
+EN Curse
+
+@ 2434
+JP 大げさガッツポーズ
+EN Big Fist Pump
+
+@ 2435
+JP 威風堂々
+EN Majestic
+
+@ 2436
+JP コネコネ
+EN Knead
+
+@ 2437
+JP フォレストケンケン
+EN Forest Hop
+
+@ 2438
+JP 腰クネダンス
+EN Hip Wiggle Dance
+
+@ 2439
+JP 腕回しノーフィアー
+EN Arm Swing No Fear
+
+@ 2440
+JP セイバーサイン
+EN Saber Sign
+
+@ 2441
+JP 拳溜め振りあげ
+EN Fist Charge
+
+@ 2442
+JP ＯＨ
+EN "OH"
+
+@ 2443
+JP 正拳ガッツポーズ
+EN Punch Fist Pump
+
+@ 2444
+JP 両手クロス見栄きり
+EN Cross Arms Pose
+
+@ 2445
+JP ゼロセンポーズ
+EN Zero-sen Pose
+
+@ 2446
+JP 腰に手を置く
+EN Hands on Hips
+
+@ 2447
+JP 理不尽両手あげ
+EN Absurd Hands Up
+
+@ 2448
+JP 弾丸アピール
+EN Bullet Pose
+
+@ 2449
+JP モハメドポーズ
+EN Mohamed Pose
+
+@ 2450
+JP 交差指一本あげ
+EN Cross Finger Up
+
+@ 2451
+JP 火祭り刀アピール
+EN Fire Sword Pose
+
+@ 2452
+JP 木刀アピール
+EN Bokken Pose
+
+@ 2453
+JP グリーンベレーポーズ
+EN Green Beret Pose
+
+@ 2454
+JP ビーストアピール
+EN Beast Pose
+
+@ 2455
+JP テングポーズ
+EN Tengu Pose
+
+@ 2456
+JP Ｌｏｗｋｉ威嚇
+EN Low Ki Threat
+
+@ 2457
+JP アダモポーズ
+EN Adamo Pose
+
+@ 2458
+JP 側転
+EN Cartwheel
+
+@ 2459
+JP 胸張りガッツポーズ
+EN Chest Fist Pump
+
+@ 2460
+JP コジコジポーズ
+EN Kojikoji Pose
+
+@ 2461
+JP 両手つき礼
+EN Two-Hand Bow
+
+@ 2462
+JP 両手伸ばし
+EN Stretch Arms
+
+@ 2463
+JP ビッシビシいくぞ
+EN "Here I Come!"
+
+@ 2464
+JP ＣＷポーズ
+EN CW Pose
+
+@ 2465
+JP サル威嚇
+EN Monkey Threat
+
+@ 2466
+JP －
+EN －
+
+@ 2467
+JP 両手でガッツポーズ
+EN Two-Hand Fist Pump
+
+@ 2468
+JP 片手でガッツポーズ
+EN One-Hand Fist Pump
+
+@ 2469
+JP 片膝ではぁはぁ
+EN Kneel & Pant
+
+@ 2470
+JP テキサスロングホーン
+EN Texas Longhorn
+
+@ 2471
+JP ダブルウイザード
+EN Double Wizard
+
+@ 2472
+JP 飛行機ポーズ
+EN Airplane Pose
+
+@ 2473
+JP ダァー
+EN "Daaa!"
+
+@ 2474
+JP 忍者ポーズ
+EN Ninja Pose
+
+@ 2475
+JP ノーフィアー
+EN No Fear
+
+@ 2476
+JP 深くおじぎ
+EN Deep Bow
+
+@ 2477
+JP －
+EN －
+
+@ 2478
+JP －
+EN －
+
+@ 2479
+JP －
+EN －
+
+@ 2480
+JP ボディスラム
+EN Body Slam
+
+@ 2481
+JP ハイアングルボディスラム
+EN High-Angle Body Slam
+
+@ 2482
+JP フライングメイヤー
+EN Snapmare
+
+@ 2483
+JP ファイヤーマンズキャリー
+EN Fireman's Carry
+
+@ 2484
+JP カニ挟み
+EN Kani Basami
+
+@ 2485
+JP 足を取り軸足払い
+EN Leg Catch Sweep
+
+@ 2486
+JP 大外刈り
+EN Osoto-gari
+
+@ 2487
+JP 払い腰
+EN Harai Goshi
+
+@ 2488
+JP 一本背負い
+EN Ippon Seoi
+
+@ 2489
+JP チンクラッシャー
+EN Chin Crusher
+
+@ 2490
+JP メキシカンチンクラッシャー
+EN Mexican Chin Crusher
+
+@ 2491
+JP ヘッドシザースホイップ
+EN Head Scissors Whip
+
+@ 2492
+JP ジャイアント腕殺し
+EN Giant Armbreaker
+
+@ 2493
+JP ジャーマンクラッチへ移行する
+EN Into German Clutch
+
+@ 2494
+JP 腕取り足掛け倒し
+EN Arm Trip
+
+@ 2495
+JP フライングメイヤー２
+EN Snapmare 2
+
+@ 2496
+JP タイガースピン
+EN Tiger Spin
+
+@ 2497
+JP コークスクリューシザース
+EN Corkscrew Scissors
+
+@ 2498
+JP ジャイアントアームホイップ
+EN Giant Arm Whip
+
+@ 2499
+JP ヘッドロック
+EN Headlock
+
+@ 2500
+JP 首投げヘッドロック
+EN Headlock Takeover
+
+@ 2501
+JP ヘッドロックパンチ
+EN Headlock Punch
+
+@ 2502
+JP 首投げ
+EN Neck Throw
+
+@ 2503
+JP メキシカンストレッチ
+EN Mexican Stretch
+
+@ 2504
+JP ココナッツクラッシュ
+EN Coconut Crush
+
+@ 2505
+JP マンハッタンドロップ
+EN Manhattan Drop
+
+@ 2506
+JP 水車落とし
+EN Waterwheel Drop
+
+@ 2507
+JP リバース水車落とし
+EN Rev. Waterwheel Drop
+
+@ 2508
+JP スイングネックブリーカードロップ
+EN Swinging Neckbreaker
+
+@ 2509
+JP ショルダーネックブリーカードロップ
+EN Shoulder Neckbreaker
+
+@ 2510
+JP ツームストンパイルドライバー
+EN Tombstone Piledriver
+
+@ 2511
+JP リフトアップスラム
+EN Lift-Up Slam
+
+@ 2512
+JP サイドバスター
+EN Side Buster
+
+@ 2513
+JP ペンデュラムバックブリーカー
+EN Pendulum Backbreaker
+
+@ 2514
+JP カンヌキスープレックス
+EN Kannuki Suplex
+
+@ 2515
+JP すくい投げ
+EN Scoop Slam
+
+@ 2516
+JP 河津掛け落とし
+EN Kawazu Drop
+
+@ 2517
+JP 裏コジカッター
+EN Reverse Koji Cutter
+
+@ 2518
+JP 倒立エスケープ
+EN Handstand Escape
+
+@ 2519
+JP 巴投げ
+EN Tomoe Nage
+
+@ 2520
+JP コブラツイスト
+EN Cobra Twist
+
+@ 2521
+JP 拷問コブラツイスト
+EN Torture Cobra Twist
+
+@ 2522
+JP カンヌキ絞め
+EN Bar Choke
+
+@ 2523
+JP ネックハンギングツリー
+EN Neck Hanging Tree
+
+@ 2524
+JP 首極め腕卍
+EN Neck Lock Armbar
+
+@ 2525
+JP －
+EN －
+
+@ 2526
+JP ブルドッキングヘッドロック
+EN Bulldog Headlock
+
+@ 2527
+JP スタンディング肩固め
+EN Standing Arm Triangle
+
+@ 2528
+JP ハイチサンダー
+EN Haichi Thunder
+
+@ 2529
+JP ストレッチバスター
+EN Stretch Buster
+
+@ 2530
+JP ピースクラッシャー
+EN Peace Crusher
+
+@ 2531
+JP ダイヤモンドカッター
+EN Diamond Cutter
+
+@ 2532
+JP ＳＣスタナー
+EN SC Stunner
+
+@ 2533
+JP ギロチン式ピースクラッシャー
+EN Guillotine P. Crusher
+
+@ 2534
+JP ＳＴＯ
+EN STO
+
+@ 2535
+JP カッキーカッター
+EN Kakki Cutter
+
+@ 2536
+JP ヒライエンド
+EN Hirai End
+
+@ 2537
+JP 逆一本背負い
+EN Reverse Ippon Seoi
+
+@ 2538
+JP キャプチュード
+EN Capture
+
+@ 2539
+JP サイレントデス
+EN Silent Death
+
+@ 2540
+JP コンプリートショット
+EN Complete Shot
+
+@ 2541
+JP ＳＴＫ
+EN STK
+
+@ 2542
+JP リアリティーチェック
+EN Reality Check
+
+@ 2543
+JP マイクボトム
+EN Mic Bottom
+
+@ 2544
+JP ブルズ・ポセイドン
+EN Bull's Poseidon
+
+@ 2545
+JP ハイチエッジ
+EN Haichi Edge
+
+@ 2546
+JP メルトダウン
+EN Meltdown
+
+@ 2547
+JP ジャンピングツームストンパイルドライバー
+EN Jumping Tombstone
+
+@ 2548
+JP ハイジャンプフェイスバスター
+EN High Jump Facebuster
+
+@ 2549
+JP ブルーディスティニー
+EN Blue Destiny
+
+@ 2550
+JP キャプチュードバスター
+EN Capture Buster
+
+@ 2551
+JP スモールパッケージホールド
+EN Small Package Hold
+
+@ 2552
+JP グランドコブラツイスト
+EN Ground Cobra Twist
+
+@ 2553
+JP キドクラッチ
+EN Kido Clutch
+
+@ 2554
+JP 芦屋クラッチ
+EN Ashiya Clutch
+
+@ 2555
+JP ローリングクレイドル
+EN Rolling Cradle
+
+@ 2556
+JP 腕取りスモールパッケージホールド
+EN Arm Trap Small Package
+
+@ 2557
+JP 火の玉ボム
+EN Fireball Bomb
+
+@ 2558
+JP トルネードボム
+EN Tornado Bomb
+
+@ 2559
+JP ウラカンラナ
+EN Huracanrana
+
+@ 2560
+JP フランケンシュタイナー
+EN Frankensteiner
+
+@ 2561
+JP 高角度前方回転エビ固め
+EN High-Angle Sunset Flip
+
+@ 2562
+JP 四の字ジャックナイフ固め
+EN Figure-4 Jackknife
+
+@ 2563
+JP ネックハンギングボム
+EN Neck Hanging Bomb
+
+@ 2564
+JP バイアグラドライバー
+EN Viagra Driver
+
+@ 2565
+JP ファイヤーマンズキャリーホールド
+EN Fireman's Carry Hold
+
+@ 2566
+JP アックスギロチンドライバー
+EN Axe Guillotine Driver
+
+@ 2567
+JP ジャイアントコブラツイスト
+EN Giant Cobra Twist
+
+@ 2568
+JP グランドコブラツイスト絞め
+EN Ground Cobra Choke
+
+@ 2569
+JP ストレッチプラム
+EN Stretch Plum
+
+@ 2570
+JP 春樹スペシャル
+EN Haruki Special
+
+@ 2571
+JP 卍固め
+EN Octopus Hold
+
+@ 2572
+JP 元祖卍固め
+EN Original Octopus
+
+@ 2573
+JP 飛びつき腕ひしぎ逆十字固め
+EN Flying Cross Armbar
+
+@ 2574
+JP ミノルスペシャルⅠ
+EN Minoru Special I
+
+@ 2575
+JP ビクトル式膝十字固め
+EN Victor Kneebar
+
+@ 2576
+JP ＩＶニーロック
+EN IV Knee Lock
+
+@ 2577
+JP 飛びつきクロスヒールホールド
+EN Flying Cross Heel Hold
+
+@ 2578
+JP スタンディングアームロック
+EN Standing Armlock
+
+@ 2579
+JP リンギーナ
+EN Ringuina
+
+@ 2580
+JP 巻き込み式腕ひしぎ逆十字固め
+EN Rolling Cross Armbar
+
+@ 2581
+JP トライアングル・ランサー
+EN Triangle Lancer
+
+@ 2582
+JP 回転地獄五輪パート０
+EN Kaiten Jigoku Part 0
+
+@ 2583
+JP 流星ロック
+EN Ryusei Lock
+
+@ 2584
+JP 膝極め足首固め
+EN Knee & Ankle Lock
+
+@ 2585
+JP グラウンド卍固め
+EN Ground Octopus
+
+@ 2586
+JP 変形ブリティッシュフォール
+EN Modified British Fall
+
+@ 2587
+JP 竜巻谷落とし
+EN Tatsumaki Taniotoshi
+
+@ 2588
+JP 野人ブルドッキングヘッドロック
+EN Wild Bulldog Headlock
+
+@ 2589
+JP 無間
+EN Mugen
+
+@ 2590
+JP アナコンダ・バイス
+EN Anaconda Vise
+
+@ 2591
+JP －
+EN －
+
+@ 2592
+JP ボディスラム
+EN Body Slam
+
+@ 2593
+JP ハイアングルボディスラム
+EN High-Angle Body Slam
+
+@ 2594
+JP フライングメイヤー
+EN Snapmare
+
+@ 2595
+JP ファイヤーマンズキャリー
+EN Fireman's Carry
+
+@ 2596
+JP カニ挟み
+EN Kani Basami
+
+@ 2597
+JP 足を取り軸足払い
+EN Leg Catch Sweep
+
+@ 2598
+JP 大外刈り
+EN Osoto-gari
+
+@ 2599
+JP 払い腰
+EN Harai Goshi
+
+@ 2600
+JP 一本背負い
+EN Ippon Seoi
+
+@ 2601
+JP チンクラッシャー
+EN Chin Crusher
+
+@ 2602
+JP メキシカンチンクラッシャー
+EN Mexican Chin Crusher
+
+@ 2603
+JP ヘッドシザースホイップ
+EN Head Scissors Whip
+
+@ 2604
+JP ジャイアント腕殺し
+EN Giant Armbreaker
+
+@ 2605
+JP ジャーマンクラッチへ移行する
+EN Into German Clutch
+
+@ 2606
+JP 腕取り足掛け倒し
+EN Arm Trip
+
+@ 2607
+JP フライングメイヤー２
+EN Snapmare 2
+
+@ 2608
+JP タイガースピン
+EN Tiger Spin
+
+@ 2609
+JP コークスクリューシザース
+EN Corkscrew Scissors
+
+@ 2610
+JP ジャイアントアームホイップ
+EN Giant Arm Whip
+
+@ 2611
+JP ヘッドロック
+EN Headlock
+
+@ 2612
+JP 首投げヘッドロック
+EN Headlock Takeover
+
+@ 2613
+JP ヘッドロックパンチ
+EN Headlock Punch
+
+@ 2614
+JP 首投げ
+EN Neck Throw
+
+@ 2615
+JP メキシカンストレッチ
+EN Mexican Stretch
+
+@ 2616
+JP ココナッツクラッシュ
+EN Coconut Crush
+
+@ 2617
+JP マンハッタンドロップ
+EN Manhattan Drop
+
+@ 2618
+JP 水車落とし
+EN Waterwheel Drop
+
+@ 2619
+JP リバース水車落とし
+EN Rev. Waterwheel Drop
+
+@ 2620
+JP スイングネックブリーカードロップ
+EN Swinging Neckbreaker
+
+@ 2621
+JP ショルダーネックブリーカードロップ
+EN Shoulder Neckbreaker
+
+@ 2622
+JP ツームストンパイルドライバー
+EN Tombstone Piledriver
+
+@ 2623
+JP リフトアップスラム
+EN Lift-Up Slam
+
+@ 2624
+JP サイドバスター
+EN Side Buster
+
+@ 2625
+JP ペンデュラムバックブリーカー
+EN Pendulum Backbreaker
+
+@ 2626
+JP カンヌキスープレックス
+EN Kannuki Suplex
+
+@ 2627
+JP すくい投げ
+EN Scoop Slam
+
+@ 2628
+JP 河津掛け落とし
+EN Kawazu Drop
+
+@ 2629
+JP 裏コジカッター
+EN Reverse Koji Cutter
+
+@ 2630
+JP 倒立エスケープ
+EN Handstand Escape
+
+@ 2631
+JP 巴投げ
+EN Tomoe Nage
+
+@ 2632
+JP コブラツイスト
+EN Cobra Twist
+
+@ 2633
+JP 拷問コブラツイスト
+EN Torture Cobra Twist
+
+@ 2634
+JP カンヌキ絞め
+EN Bar Choke
+
+@ 2635
+JP ネックハンギングツリー
+EN Neck Hanging Tree
+
+@ 2636
+JP 首極め腕卍
+EN Neck Lock Armbar
+
+@ 2637
+JP －
+EN －
+
+@ 2638
+JP ブルドッキングヘッドロック
+EN Bulldog Headlock
+
+@ 2639
+JP スタンディング肩固め
+EN Standing Arm Triangle
+
+@ 2640
+JP ハイチサンダー
+EN Haichi Thunder
+
+@ 2641
+JP ストレッチバスター
+EN Stretch Buster
+
+@ 2642
+JP ピースクラッシャー
+EN Peace Crusher
+
+@ 2643
+JP ダイヤモンドカッター
+EN Diamond Cutter
+
+@ 2644
+JP ＳＣスタナー
+EN SC Stunner
+
+@ 2645
+JP ギロチン式ピースクラッシャー
+EN Guillotine P. Crusher
+
+@ 2646
+JP ＳＴＯ
+EN STO
+
+@ 2647
+JP カッキーカッター
+EN Kakki Cutter
+
+@ 2648
+JP ヒライエンド
+EN Hirai End
+
+@ 2649
+JP 逆一本背負い
+EN Reverse Ippon Seoi
+
+@ 2650
+JP キャプチュード
+EN Capture
+
+@ 2651
+JP サイレントデス
+EN Silent Death
+
+@ 2652
+JP コンプリートショット
+EN Complete Shot
+
+@ 2653
+JP ＳＴＫ
+EN STK
+
+@ 2654
+JP リアリティーチェック
+EN Reality Check
+
+@ 2655
+JP マイクボトム
+EN Mic Bottom
+
+@ 2656
+JP ブルズ・ポセイドン
+EN Bull's Poseidon
+
+@ 2657
+JP ハイチエッジ
+EN Haichi Edge
+
+@ 2658
+JP メルトダウン
+EN Meltdown
+
+@ 2659
+JP ジャンピングツームストンパイルドライバー
+EN Jumping Tombstone
+
+@ 2660
+JP ハイジャンプフェイスバスター
+EN High Jump Facebuster
+
+@ 2661
+JP ブルーディスティニー
+EN Blue Destiny
+
+@ 2662
+JP キャプチュードバスター
+EN Capture Buster
+
+@ 2663
+JP スモールパッケージホールド
+EN Small Package Hold
+
+@ 2664
+JP グランドコブラツイスト
+EN Ground Cobra Twist
+
+@ 2665
+JP キドクラッチ
+EN Kido Clutch
+
+@ 2666
+JP 芦屋クラッチ
+EN Ashiya Clutch
+
+@ 2667
+JP ローリングクレイドル
+EN Rolling Cradle
+
+@ 2668
+JP 腕取りスモールパッケージホールド
+EN Arm Trap Small Package
+
+@ 2669
+JP 火の玉ボム
+EN Fireball Bomb
+
+@ 2670
+JP トルネードボム
+EN Tornado Bomb
+
+@ 2671
+JP ウラカンラナ
+EN Huracanrana
+
+@ 2672
+JP フランケンシュタイナー
+EN Frankensteiner
+
+@ 2673
+JP 高角度前方回転エビ固め
+EN High-Angle Sunset Flip
+
+@ 2674
+JP 四の字ジャックナイフ固め
+EN Figure-4 Jackknife
+
+@ 2675
+JP ネックハンギングボム
+EN Neck Hanging Bomb
+
+@ 2676
+JP バイアグラドライバー
+EN Viagra Driver
+
+@ 2677
+JP ファイヤーマンズキャリーホールド
+EN Fireman's Carry Hold
+
+@ 2678
+JP アックスギロチンドライバー
+EN Axe Guillotine Driver
+
+@ 2679
+JP ジャイアントコブラツイスト
+EN Giant Cobra Twist
+
+@ 2680
+JP グランドコブラツイスト絞め
+EN Ground Cobra Choke
+
+@ 2681
+JP ストレッチプラム
+EN Stretch Plum
+
+@ 2682
+JP 春樹スペシャル
+EN Haruki Special
+
+@ 2683
+JP 卍固め
+EN Octopus Hold
+
+@ 2684
+JP 元祖卍固め
+EN Original Octopus
+
+@ 2685
+JP 飛びつき腕ひしぎ逆十字固め
+EN Flying Cross Armbar
+
+@ 2686
+JP ミノルスペシャルⅠ
+EN Minoru Special I
+
+@ 2687
+JP ビクトル式膝十字固め
+EN Victor Kneebar
+
+@ 2688
+JP ＩＶニーロック
+EN IV Knee Lock
+
+@ 2689
+JP 飛びつきクロスヒールホールド
+EN Flying Cross Heel Hold
+
+@ 2690
+JP スタンディングアームロック
+EN Standing Armlock
+
+@ 2691
+JP リンギーナ
+EN Ringuina
+
+@ 2692
+JP 巻き込み式腕ひしぎ逆十字固め
+EN Rolling Cross Armbar
+
+@ 2693
+JP トライアングル・ランサー
+EN Triangle Lancer
+
+@ 2694
+JP 回転地獄五輪パート０
+EN Kaiten Jigoku Part 0
+
+@ 2695
+JP 流星ロック
+EN Ryusei Lock
+
+@ 2696
+JP 膝極め足首固め
+EN Knee & Ankle Lock
+
+@ 2697
+JP グラウンド卍固め
+EN Ground Octopus
+
+@ 2698
+JP 変形ブリティッシュフォール
+EN Modified British Fall
+
+@ 2699
+JP 竜巻谷落とし
+EN Tatsumaki Taniotoshi
+
+@ 2700
+JP 野人ブルドッキングヘッドロック
+EN Wild Bulldog Headlock
+
+@ 2701
+JP 無間
+EN Mugen
+
+@ 2702
+JP アナコンダ・バイス
+EN Anaconda Vise
+
+@ 2703
+JP －
+EN －
+
+@ 2704
+JP 顔面掻きむしり
+EN Face Rake
+
+@ 2705
+JP サミング
+EN Eye Thumb
+
+@ 2706
+JP ハンマーブロー
+EN Hammer Blow
+
+@ 2707
+JP ボディーブロー
+EN Body Blow
+
+@ 2708
+JP 地獄突き
+EN Hell Thrust
+
+@ 2709
+JP 脳天エルボー
+EN Skull Elbow
+
+@ 2710
+JP ハンマーエルボー
+EN Hammer Elbow
+
+@ 2711
+JP かちあげエルボースマッシュ
+EN Uppercut Elbow Smash
+
+@ 2712
+JP 顔面ニーリフト
+EN Face Knee Lift
+
+@ 2713
+JP ストマックニーリフト
+EN Stomach Knee Lift
+
+@ 2714
+JP 腿キック
+EN Thigh Kick
+
+@ 2715
+JP ジャンプキック
+EN Jump Kick
+
+@ 2716
+JP ヘッドバット
+EN Headbutt
+
+@ 2717
+JP 一本足頭突き
+EN Ippon Headbutt
+
+@ 2718
+JP ストマックヘッドバット
+EN Stomach Headbutt
+
+@ 2719
+JP 脳天チョップ
+EN Brain Chop
+
+@ 2720
+JP 踏み込み地獄突き
+EN Step-In Hell Thrust
+
+@ 2721
+JP 関節蹴り
+EN Joint Kick
+
+@ 2722
+JP キラーナックルアロー
+EN Killer Knuckle Arrow
+
+@ 2723
+JP ランカシャーエルボー
+EN Lancashire Elbow
+
+@ 2724
+JP エルボーバット
+EN Elbow Butt
+
+@ 2725
+JP 胸張り手
+EN Chest Slap
+
+@ 2726
+JP 腹張り手
+EN Belly Slap
+
+@ 2727
+JP トーキック
+EN Toe Kick
+
+@ 2728
+JP ナックルアロー
+EN Knuckle Arrow
+
+@ 2729
+JP ヒップバット
+EN Hip Attack
+
+@ 2730
+JP 脳天チョップ連打
+EN Brain Chop Flurry
+
+@ 2731
+JP 脳天唐竹割り
+EN Karatake Wari
+
+@ 2732
+JP マシンガン逆水平チョップ
+EN Machine-Gun Chops
+
+@ 2733
+JP 馳チョップ連打
+EN Hase Chop Flurry
+
+@ 2734
+JP 龍チョップ連打
+EN Ryu Chop Flurry
+
+@ 2735
+JP 連続モンゴリアンチョップ
+EN Mongolian Chop Flurry
+
+@ 2736
+JP 突っ張り
+EN Tsuppari
+
+@ 2737
+JP ショートエルボー
+EN Short Elbow
+
+@ 2738
+JP かちあげエルボースマッシュ連打
+EN Uppercut Elbow Flurry
+
+@ 2739
+JP ミドルキック
+EN Middle Kick
+
+@ 2740
+JP 爆殺ミドルキック
+EN Bakusatsu Middle Kick
+
+@ 2741
+JP ムエタイミドルキック
+EN Muay Thai Middle Kick
+
+@ 2742
+JP 中段蹴り
+EN Middle Kick
+
+@ 2743
+JP ステップキック
+EN Step Kick
+
+@ 2744
+JP 肩掴み延髄蹴り
+EN Shoulder Grab Enzui
+
+@ 2745
+JP 逆廻し蹴り
+EN Reverse Spin Kick
+
+@ 2746
+JP 低空ドロップキック
+EN Low Dropkick
+
+@ 2747
+JP 急所パンチ
+EN Low Blow Punch
+
+@ 2748
+JP 噛みつき
+EN Bite
+
+@ 2749
+JP 凶器攻撃
+EN Weapon Attack
+
+@ 2750
+JP テキサスジャブ
+EN Texas Jab
+
+@ 2751
+JP アメリカンパンチラッシュ
+EN American Punch Rush
+
+@ 2752
+JP 起き上がり小法師チョップ
+EN Okiagari Chop
+
+@ 2753
+JP 起き上がり小法師ラリアット
+EN Okiagari Lariat
+
+@ 2754
+JP マシンガン頚動脈チョップ
+EN Machine-Gun Neck Chops
+
+@ 2755
+JP 輪廻
+EN Rinne
+
+@ 2756
+JP ボディパンチ連打
+EN Body Blow Flurry
+
+@ 2757
+JP 急所キック
+EN Low Blow Kick
+
+@ 2758
+JP 足取らせ延髄蹴り
+EN Leg Catch Enzui
+
+@ 2759
+JP ローリング掌底
+EN Rolling Palm Strike
+
+@ 2760
+JP 正面飛び低空ドロップキック
+EN Front Low Dropkick
+
+@ 2761
+JP ジャンピングハイキック
+EN Jumping High Kick
+
+@ 2762
+JP 顔面腕こすり
+EN Forearm Rake
+
+@ 2763
+JP １０時１０分チョップ
+EN 10:10 Chop
+
+@ 2764
+JP 鉄拳制裁
+EN Iron Fist
+
+@ 2765
+JP 熱血チョップ
+EN Hot-Blooded Chop
+
+@ 2766
+JP ヘッドバット連打
+EN Headbutt Flurry
+
+@ 2767
+JP 一本足頭突き連打
+EN Ippon Headbutt Flurry
+
+@ 2768
+JP 脳天唐竹割り連打
+EN Karatake Flurry
+
+@ 2769
+JP 掌底アッパー
+EN Palm Uppercut
+
+@ 2770
+JP エルボーコンビネーション
+EN Elbow Combination
+
+@ 2771
+JP ワンツーエルボー
+EN One-Two Elbow
+
+@ 2772
+JP ショートレンジラリアット
+EN Short-Range Lariat
+
+@ 2773
+JP マシンガン顔面ニーリフト
+EN Machine-Gun Knee Lifts
+
+@ 2774
+JP マシンガンストマックニーリフト
+EN Rapid Stomach Knees
+
+@ 2775
+JP ダイナマイトニーリフト
+EN Dynamite Knee Lift
+
+@ 2776
+JP セイバーハンマーラッシュ
+EN Saber Hammer Rush
+
+@ 2777
+JP デンジャラスセイバーハンマー
+EN Dangerous Saber Hammer
+
+@ 2778
+JP 袈裟斬りチョップラッシュ
+EN Kesagiri Chop Rush
+
+@ 2779
+JP 冴刃ラッシュ
+EN Saeba Rush
+
+@ 2780
+JP 真田ラッシュ
+EN Sanada Rush
+
+@ 2781
+JP ＳＡＮケアキック
+EN Sankeia Kick
+
+@ 2782
+JP ローリングソバットラッシュ
+EN Rolling Sobat Rush
+
+@ 2783
+JP 掌打コンビネーション
+EN Palm Combination
+
+@ 2784
+JP ハイキックコンビネーション
+EN High Kick Combination
+
+@ 2785
+JP ハイキックラッシュ
+EN High Kick Rush
+
+@ 2786
+JP バックスピンコンビネーション
+EN Backspin Combination
+
+@ 2787
+JP 喧嘩屋ラッシュ
+EN Brawler Rush
+
+@ 2788
+JP ダイナマイトパンチラッシュ
+EN Dynamite Punch Rush
+
+@ 2789
+JP ファイナルローリングエルボー
+EN Final Rolling Elbow
+
+@ 2790
+JP ロシアンフックラッシュ
+EN Russian Hook Rush
+
+@ 2791
+JP マッハパンチラッシュ
+EN Mach Punch Rush
+
+@ 2792
+JP ショートアッパー
+EN Short Uppercut
+
+@ 2793
+JP 組み膝蹴り連打
+EN Clinch Knee Flurry
+
+@ 2794
+JP 正拳突き連打
+EN Seiken Flurry
+
+@ 2795
+JP 飛び膝ラッシュ
+EN Flying Knee Rush
+
+@ 2796
+JP ライトニングコンビネーション
+EN Lightning Combination
+
+@ 2797
+JP 突き放しハイキック
+EN Push-Off High Kick
+
+@ 2798
+JP 空手ラッシュ
+EN Karate Rush
+
+@ 2799
+JP 爆殺ラッシュ
+EN Bakusatsu Rush
+
+@ 2800
+JP ジルバラッシュ
+EN Jitterbug Rush
+
+@ 2801
+JP 膝十字固め
+EN Kneebar
+
+@ 2802
+JP シザースキック
+EN Scissors Kick
+
+@ 2803
+JP 突っ張り電車道
+EN Tsuppari Charge
+
+@ 2804
+JP ダイナマイトヘッドバット
+EN Dynamite Headbutt
+
+@ 2805
+JP デンジャラスニーリフト
+EN Dangerous Knee Lift
+
+@ 2806
+JP ビーストラッシュ
+EN Beast Rush
+
+@ 2807
+JP ブサイクへの顔面潰し
+EN Ugly Face Crush
+
+@ 2808
+JP 金本ラッシュ
+EN Kanemoto Rush
+
+@ 2809
+JP アイアンクロー
+EN Iron Claw
+
+@ 2810
+JP 弾丸ローリングエルボー
+EN Bullet Rolling Elbow
+
+@ 2811
+JP 振りぬきフック
+EN Swing-Through Hook
+
+@ 2812
+JP ミクロハイキック
+EN Micro High Kick
+
+@ 2813
+JP 突き上げニーリフト
+EN Rising Knee Lift
+
+@ 2814
+JP ショートレンジ剛腕ラリアット
+EN Short Power Lariat
+
+@ 2815
+JP ショートレンジウエスタンラリアット
+EN Short Western Lariat
+
+@ 2816
+JP ショートレンジ叩き付けラリアット
+EN Short-Range Slam Lariat
+
+@ 2817
+JP 相撲ラリアット
+EN Sumo Lariat
+
+@ 2818
+JP －
+EN －
+
+@ 2819
+JP 肩口にエルボー
+EN Shoulder Elbow
+
+@ 2820
+JP 腕を引っ張る
+EN Arm Pull
+
+@ 2821
+JP 手首投げ
+EN Wrist Throw
+
+@ 2822
+JP チキンウイングアームロック
+EN Chickenwing Armlock
+
+@ 2823
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 2824
+JP スタンディングアームロック
+EN Standing Armlock
+
+@ 2825
+JP ショルダーアームブリーカー
+EN Shoulder Armbreaker
+
+@ 2826
+JP ジャンピングアームブリーカー
+EN Jumping Arm Breaker
+
+@ 2827
+JP ジャイアントアームブリーカー
+EN Giant Armbreaker
+
+@ 2828
+JP ジョニーマジックⅠ
+EN Johnny Magic I
+
+@ 2829
+JP ナガタロックⅡ
+EN Nagata Lock II
+
+@ 2830
+JP ビッグベン
+EN Big Ben
+
+@ 2831
+JP 腕極めアバランシュプレス
+EN Armlock Avalanche
+
+@ 2832
+JP －
+EN －
+
+@ 2833
+JP 膝にエルボー
+EN Elbow to Knee
+
+@ 2834
+JP エルボーパット
+EN Elbow Pat
+
+@ 2835
+JP レッグロック
+EN Leglock
+
+@ 2836
+JP 足を取り軸足払い
+EN Leg Catch Sweep
+
+@ 2837
+JP はたき落とす
+EN Swat Down
+
+@ 2838
+JP エルボードロップ
+EN Elbow Drop
+
+@ 2839
+JP －
+EN －
+
+@ 2840
+JP －
+EN －
+
+@ 2841
+JP 足一本背負い
+EN Leg Ippon Seoi
+
+@ 2842
+JP フック
+EN Hook
+
+@ 2843
+JP 軸足ローキック
+EN Pivot Low Kick
+
+@ 2844
+JP アッパー掌底
+EN Upper Palm
+
+@ 2845
+JP アキレス腱固め
+EN Achilles Hold
+
+@ 2846
+JP リバース水車落とし
+EN Rev. Waterwheel Drop
+
+@ 2847
+JP ドラゴンスクリュー
+EN Dragon Screw
+
+@ 2848
+JP 元祖ドラゴンスクリュー
+EN Original Dragon Screw
+
+@ 2849
+JP 下手ドラゴンスクリュー
+EN Underhand Dragon Screw
+
+@ 2850
+JP 曼荼羅捻り
+EN Mandala Twist
+
+@ 2851
+JP ラリアット
+EN Lariat
+
+@ 2852
+JP 裏アキレス腱固め
+EN Reverse Achilles Hold
+
+@ 2853
+JP チョークスリーパー
+EN Choke Sleeper
+
+@ 2854
+JP スタンディングアキレス腱固め
+EN Standing Achilles Hold
+
+@ 2855
+JP キャプチュード
+EN Capture
+
+@ 2856
+JP 高速ドラゴンスクリュー
+EN Fast Dragon Screw
+
+@ 2857
+JP 連続高速ドラゴンスクリュー
+EN Rapid Dragon Screw
+
+@ 2858
+JP 縦回転ドラゴンスクリュー
+EN Vertical Dragon Screw
+
+@ 2859
+JP 足取りパワーボム
+EN Leg Catch Powerbomb
+
+@ 2860
+JP －
+EN －
+
+@ 2861
+JP エルボーバット
+EN Elbow Butt
+
+@ 2862
+JP トーキック
+EN Toe Kick
+
+@ 2863
+JP ボディスラム
+EN Body Slam
+
+@ 2864
+JP ハイアングルボディスラム
+EN High-Angle Body Slam
+
+@ 2865
+JP ゴリラスラム
+EN Gorilla Slam
+
+@ 2866
+JP シュミット式バックブリーカー
+EN Schmidt Backbreaker
+
+@ 2867
+JP ショルダーバスター
+EN Shoulder Buster
+
+@ 2868
+JP ギロチンホイップ
+EN Guillotine Whip
+
+@ 2869
+JP フィニッシュ用シュミット式バックブリーカー
+EN Finishing Schmidt Backbreaker
+
+@ 2870
+JP オクラホマスタンピート
+EN Oklahoma Stampede
+
+@ 2871
+JP アバランシュプレス
+EN Avalanche Press
+
+@ 2872
+JP ＳＤＡ
+EN SDA
+
+@ 2873
+JP 暗闇脳天パイルドライバー
+EN Darkness Piledriver
+
+@ 2874
+JP エメラルド・フロウジョン
+EN Emerald Flowsion
+
+@ 2875
+JP ブロックバスター
+EN Blockbuster
+
+@ 2876
+JP アバランシュホールド
+EN Avalanche Hold
+
+@ 2877
+JP みちのくドライバー２
+EN Michinoku Driver II
+
+@ 2878
+JP ハインズドライバー→片エビ固め
+EN Hines Driver > Pin
+
+@ 2879
+JP ＴＴＤ
+EN TTD
+
+@ 2880
+JP ＴＴＤ→片エビ固め
+EN TTD > Pin
+
+@ 2881
+JP ファイヤーサンダー
+EN Fire Thunder
+
+@ 2882
+JP ブリティッシュフォール
+EN British Fall
+
+@ 2883
+JP ターンバックオクラホマスタンピート
+EN Corner Okla. Stampede
+
+@ 2884
+JP ブリティッシュフォール→体固め
+EN British Fall > Pin
+
+@ 2885
+JP エメラルド・フロウジョン→片エビ固め
+EN Emerald Flowsion > Pin
+
+@ 2886
+JP 原形エメラルド・フロウジョン→体固め
+EN Orig. Emerald Flowsion>Pin
+
+@ 2887
+JP Ｋドリラー
+EN K-Driller
+
+@ 2888
+JP －
+EN －
+
+@ 2889
+JP 脇腹パンチ
+EN Rib Punch
+
+@ 2890
+JP エルボーバット
+EN Elbow Butt
+
+@ 2891
+JP トーキック
+EN Toe Kick
+
+@ 2892
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 2893
+JP ブレーンバスター
+EN Brainbuster
+
+@ 2894
+JP 高速ブレーンバスター
+EN Quick Brainbuster
+
+@ 2895
+JP 顔面砕きブレーンバスター
+EN Face-Crushing BB
+
+@ 2896
+JP ブレーンバスタースラム
+EN Brainbuster Slam
+
+@ 2897
+JP ジャンピングブレーンバスター
+EN Jumping Brainbuster
+
+@ 2898
+JP 網打ち式ネックブリーカードロップ
+EN Net Neckbreaker Drop
+
+@ 2899
+JP 連続高速ブレーンバスター
+EN Quick BB Combo
+
+@ 2900
+JP 剃刀ブレーンバスター
+EN Razor Brainbuster
+
+@ 2901
+JP 長滞空ブレーンバスター
+EN Delayed Brainbuster
+
+@ 2902
+JP ぶっこ抜きブレーンバスター
+EN Bridging Brainbuster
+
+@ 2903
+JP 垂直落下式ブレーンバスター
+EN Vertical Brainbuster
+
+@ 2904
+JP 長滞空垂直落下式ブレーンバスター
+EN Delayed Vertical BB
+
+@ 2905
+JP フィッシャーマンズバスター
+EN Fisherman Buster
+
+@ 2906
+JP フィッシャーマンズスープレックス
+EN Fisherman Suplex
+
+@ 2907
+JP ファルコンアロー
+EN Falcon Arrow
+
+@ 2908
+JP オレンジクラッシュ
+EN Orange Crush
+
+@ 2909
+JP 垂直落下式ブレーンバスター→体固め
+EN Vertical Brainbuster > Pin
+
+@ 2910
+JP 長滞空垂直落下式ＢＢ→体固め
+EN Delayed Vertical BB>Pin
+
+@ 2911
+JP キークラッシュ’９９
+EN Key Crush '99
+
+@ 2912
+JP コジコジドライバー
+EN Koji Koji Driver
+
+@ 2913
+JP ゴリラーマンズスープレックスホールド
+EN Gorillaman Suplex Hold
+
+@ 2914
+JP ショットガン
+EN Shotgun
+
+@ 2915
+JP ジャックスラム
+EN Jack Slam
+
+@ 2916
+JP 直下式ブレーンバスター
+EN Straight-Drop BB
+
+@ 2917
+JP 龍式垂直落下式ブレーンバスター
+EN Ryu Vertical Brainbuster
+
+@ 2918
+JP ５３歳
+EN 53 Years Old
+
+@ 2919
+JP クラッチ式フィッシャーマンバスター
+EN Clutch Fisherman Buster
+
+@ 2920
+JP ゴリラーマンズドライバー
+EN Gorillaman Driver
+
+@ 2921
+JP ツイスター
+EN Twister
+
+@ 2922
+JP 侍ドライバー‘８４
+EN Samurai Driver '84
+
+@ 2923
+JP キンニクバスター
+EN Kinniku Buster
+
+@ 2924
+JP フィッシャーマンＤＤＴ
+EN Fisherman DDT
+
+@ 2925
+JP 垂直落下式ＤＤＴ
+EN Vertical DDT
+
+@ 2926
+JP 龍式ノーザンライトボム
+EN Ryu N. Lights Bomb
+
+@ 2927
+JP ノーザンライトボム
+EN Northern Lights Bomb
+
+@ 2928
+JP デスブランド
+EN Death Brand
+
+@ 2929
+JP 垂直落下式ファルコンアロー
+EN Vertical Falcon Arrow
+
+@ 2930
+JP ジャックハマー
+EN Jackhammer
+
+@ 2931
+JP キンニクバスター→片エビ固め
+EN Kinniku Buster > Pin
+
+@ 2932
+JP フィッシャーマンＤＤＴ→片エビ固め
+EN Fisherman DDT > Pin
+
+@ 2933
+JP 垂直落下式ＤＤＴ→片エビ固め
+EN Vertical DDT > Pin
+
+@ 2934
+JP 龍式ノーザンライトボム→片エビ固め
+EN Ryu NL Bomb > Pin
+
+@ 2935
+JP ノーザンライトボム→体固め
+EN NL Bomb > Pin
+
+@ 2936
+JP デスブランド→片エビ固め
+EN Death Brand > Pin
+
+@ 2937
+JP 連続直下式ブレーンバスター
+EN Straight-Drop BB Combo
+
+@ 2938
+JP スターネスダストα
+EN Starness Dust Alpha
+
+@ 2939
+JP スターネスダストα→体固め
+EN Starness Dust A > Pin
+
+@ 2940
+JP 改良型エメラルドフロウジョン
+EN New Emerald Flowsion
+
+@ 2941
+JP －
+EN －
+
+@ 2942
+JP エルボーバット
+EN Elbow Butt
+
+@ 2943
+JP トーキック
+EN Toe Kick
+
+@ 2944
+JP ニーリフト
+EN Knee Lift
+
+@ 2945
+JP フロントヘッドロック
+EN Front Headlock
+
+@ 2946
+JP －
+EN －
+
+@ 2947
+JP ＤＤＴ
+EN DDT
+
+@ 2948
+JP 元祖ＤＤＴ
+EN Original DDT
+
+@ 2949
+JP 爆殺ＤＤＴ
+EN Bakusatsu DDT
+
+@ 2950
+JP 串刺しＤＤＴ
+EN Skewer DDT
+
+@ 2951
+JP フロントネックチャンスリー
+EN Front Neck Chancery
+
+@ 2952
+JP タイガーネックチャンスリー
+EN Tiger Neck Chancery
+
+@ 2953
+JP ハーフハッチ
+EN Half Hatch
+
+@ 2954
+JP 倒れ込みアームブリーカー
+EN Falling Armbreaker
+
+@ 2955
+JP ジャイアントＤＤＴ
+EN Giant DDT
+
+@ 2956
+JP ダイナミックＤＤＴ
+EN Dynamic DDT
+
+@ 2957
+JP フロントチョーク
+EN Front Choke
+
+@ 2958
+JP 後転ネックロック
+EN Back Roll Necklock
+
+@ 2959
+JP フロントスリーパー
+EN Front Sleeper
+
+@ 2960
+JP フロントネックロック
+EN Front Necklock
+
+@ 2961
+JP スイングＤＤＴ
+EN Swinging DDT
+
+@ 2962
+JP ジャンピングＤＤＴ
+EN Jumping DDT
+
+@ 2963
+JP サドン・インパクト
+EN Sudden Impact
+
+@ 2964
+JP 魔神風車ＤＤＴ
+EN Majin Windmill DDT
+
+@ 2965
+JP ハーフハッチホールド
+EN Half Hatch Hold
+
+@ 2966
+JP ジョンスパイク
+EN John Spike
+
+@ 2967
+JP 魔神風車固め
+EN Majin Windmill Hold
+
+@ 2968
+JP ジョンスパイク→片エビ固め
+EN John Spike > Pin
+
+@ 2969
+JP －
+EN －
+
+@ 2970
+JP エルボーバット
+EN Elbow Butt
+
+@ 2971
+JP トーキック
+EN Toe Kick
+
+@ 2972
+JP サイドスープレックス
+EN Side Suplex
+
+@ 2973
+JP 滞空式サイドスープレックス
+EN Delayed Side Suplex
+
+@ 2974
+JP ストマックブロック
+EN Stomach Block
+
+@ 2975
+JP アレビンズ・リフト
+EN Alebins Lift
+
+@ 2976
+JP ドクターボム
+EN Doctor Bomb
+
+@ 2977
+JP 俵返し
+EN Bale Throw
+
+@ 2978
+JP ターボドロップⅡ
+EN Turbo Drop II
+
+@ 2979
+JP －
+EN －
+
+@ 2980
+JP エルボーバット
+EN Elbow Butt
+
+@ 2981
+JP トーキック
+EN Toe Kick
+
+@ 2982
+JP ストマッククラッシャー
+EN Stomach Crusher
+
+@ 2983
+JP バックフリップ
+EN Backflip
+
+@ 2984
+JP エアープレーンスピン
+EN Airplane Spin
+
+@ 2985
+JP アルゼンチンバックブリーカー
+EN Argentine Backbreaker
+
+@ 2986
+JP アルゼンチン式背骨折り
+EN Arg. Spine Breaker
+
+@ 2987
+JP アルゼンチンバックブリーカードロップ
+EN Arg. Backbreaker Drop
+
+@ 2988
+JP アルゼンチンストマッククラッシャー
+EN Arg. Stomach Crusher
+
+@ 2989
+JP アルゼンチンバックフリップ
+EN Argentine Backflip
+
+@ 2990
+JP ハワイアンスマッシャー
+EN Hawaiian Smasher
+
+@ 2991
+JP デスバレーボム
+EN Death Valley Bomb
+
+@ 2992
+JP ハワイアンスマッシャー→体固め
+EN Hawaiian Smasher > Pin
+
+@ 2993
+JP デスバレーボム→片エビ固め
+EN Death Valley Bomb > Pin
+
+@ 2994
+JP ストームスラム
+EN Storm Slam
+
+@ 2995
+JP ＷＡ４
+EN WA4
+
+@ 2996
+JP チャタヌガチュチュ
+EN Chattanooga Choo-Choo
+
+@ 2997
+JP オリンピック予選スラム
+EN Olympic Slam
+
+@ 2998
+JP ハリケーンドライバー
+EN Hurricane Driver
+
+@ 2999
+JP 不入ドム
+EN Fuiri Dome
+
+@ 3000
+JP 大回転ＤＤＴ
+EN Big Spin DDT
+
+@ 3001
+JP デスバレードライバー
+EN Death Valley Driver
+
+@ 3002
+JP バーニングハンマー
+EN Burning Hammer
+
+@ 3003
+JP デスバレードライバー→片エビ固め
+EN Death Valley Driver>Pin
+
+@ 3004
+JP バーニングハンマー→体固め
+EN Burning Hammer > Pin
+
+@ 3005
+JP スパイシードロップ
+EN Spicy Drop
+
+@ 3006
+JP ハワイアン・ファイブ・アウト
+EN Hawaiian Five-Out
+
+@ 3007
+JP 富士山ジャーマンスープレックスホールド
+EN Mt. Fuji German Hold
+
+@ 3008
+JP アルゼンチン・コースター
+EN Argentine Coaster
+
+@ 3009
+JP －
+EN －
+
+@ 3010
+JP エルボーバット
+EN Elbow Butt
+
+@ 3011
+JP トーキック
+EN Toe Kick
+
+@ 3012
+JP 胴タックル
+EN Waist Tackle
+
+@ 3013
+JP 組み付きニーリフト
+EN Clinch Knee Lift
+
+@ 3014
+JP ベアハッグ
+EN Bear Hug
+
+@ 3015
+JP フロントスープレックス
+EN Front Suplex
+
+@ 3016
+JP スロイダー
+EN Sloider
+
+@ 3017
+JP ウンターグルフ
+EN Untergriff
+
+@ 3018
+JP ベリートゥベリー
+EN Belly to Belly
+
+@ 3019
+JP 滞空式フロントスープレックス
+EN Delayed Front Suplex
+
+@ 3020
+JP ベアハッグフロントスープレックス
+EN Bear Hug Front Suplex
+
+@ 3021
+JP 連続ベリートゥベリー
+EN Belly to Belly Combo
+
+@ 3022
+JP ベアハッグブレーンバスター
+EN Bear Hug Brainbuster
+
+@ 3023
+JP ー
+EN -
+
+@ 3024
+JP ベアハッグＤＤＴ
+EN Bear Hug DDT
+
+@ 3025
+JP －
+EN －
+
+@ 3026
+JP エルボーバット
+EN Elbow Butt
+
+@ 3027
+JP トーキック
+EN Toe Kick
+
+@ 3028
+JP ミノルスペシャルⅡ
+EN Minoru Special II
+
+@ 3029
+JP ノーザンライトスープレックスホイップ
+EN N. Lights Suplex Whip
+
+@ 3030
+JP ノーザンライトスープレックスホールド
+EN N. Lights Suplex Hold
+
+@ 3031
+JP －
+EN －
+
+@ 3032
+JP エルボーバット
+EN Elbow Butt
+
+@ 3033
+JP トーキック
+EN Toe Kick
+
+@ 3034
+JP ミノルスペシャルⅡ
+EN Minoru Special II
+
+@ 3035
+JP ノーザンライトスープレックスホイップ
+EN N. Lights Suplex Whip
+
+@ 3036
+JP ノーザンライトスープレックスホールド
+EN N. Lights Suplex Hold
+
+@ 3037
+JP －
+EN －
+
+@ 3038
+JP エルボーバット
+EN Elbow Butt
+
+@ 3039
+JP トーキック
+EN Toe Kick
+
+@ 3040
+JP ニーリフト
+EN Knee Lift
+
+@ 3041
+JP 裏投げ
+EN Uranage
+
+@ 3042
+JP 高角度裏投げ
+EN High-Angle Uranage
+
+@ 3043
+JP 裏投げ→体固め
+EN Uranage > Pin
+
+@ 3044
+JP 高角度裏投げ→片エビ固め
+EN Hi-Angle Uranage>Pin
+
+@ 3045
+JP 裏落とし
+EN Ura Otoshi
+
+@ 3046
+JP 連続裏投げ
+EN Uranage Combo
+
+@ 3047
+JP 連続裏投げ→体固め
+EN Uranage Combo > Pin
+
+@ 3048
+JP －
+EN －
+
+@ 3049
+JP エルボーバット
+EN Elbow Butt
+
+@ 3050
+JP トーキック
+EN Toe Kick
+
+@ 3051
+JP ニーリフト
+EN Knee Lift
+
+@ 3052
+JP 変形ストマッククラッシャー
+EN Modified Stomach Crush
+
+@ 3053
+JP 変形エビ固め
+EN Modified Cradle
+
+@ 3054
+JP エクスプロイダー
+EN Exploder
+
+@ 3055
+JP 高角度エクスプロイダー
+EN High-Angle Exploder
+
+@ 3056
+JP ブリザードスープレックスホイップ
+EN Blizzard Suplex Whip
+
+@ 3057
+JP ブリザードスープレックスホールド
+EN Blizzard Suplex Hold
+
+@ 3058
+JP エクスプロイダー→片エビ固め
+EN Exploder > Pin
+
+@ 3059
+JP 高角度エクスプロイダー→片エビ固め
+EN High-Angle Exploder > Pin
+
+@ 3060
+JP 変形裏投げ
+EN Modified Uranage
+
+@ 3061
+JP ワンハンドクラッチ・エクスプロイダー
+EN One-Hand Clutch Exploder
+
+@ 3062
+JP ワンハンドＣ・エクスプロイダー→片エビ固め
+EN 1-Hand Clutch Exploder > Pin
+
+@ 3063
+JP －
+EN －
+
+@ 3064
+JP エルボーバット
+EN Elbow Butt
+
+@ 3065
+JP トーキック
+EN Toe Kick
+
+@ 3066
+JP ねじ伏せる
+EN Force Down
+
+@ 3067
+JP 脳天チョップ
+EN Brain Chop
+
+@ 3068
+JP チョークスラム
+EN Chokeslam
+
+@ 3069
+JP 高角度喉輪落とし
+EN High-Angle Nodowa
+
+@ 3070
+JP ハイアングルチョークスラム
+EN High-Angle Chokeslam
+
+@ 3071
+JP ジャイアントチョークスラム
+EN Giant Chokeslam
+
+@ 3072
+JP アメイズインパクト
+EN Amaze Impact
+
+@ 3073
+JP 合掌捻り
+EN Gassho Hineri
+
+@ 3074
+JP チョークスラム→片エビ固め
+EN Chokeslam > Pin
+
+@ 3075
+JP 高角度喉輪落とし→片エビ固め
+EN High-Angle Nodowa > Pin
+
+@ 3076
+JP ハイアングルチョークスラム→片エビ固め
+EN High-Angle Chokeslam > Pin
+
+@ 3077
+JP ジャイアントチョークスラム→体固め
+EN Giant Chokeslam > Pin
+
+@ 3078
+JP アメイズインパクト→体固め
+EN Amaze Impact > Pin
+
+@ 3079
+JP アイアンクロースラム
+EN Iron Claw Slam
+
+@ 3080
+JP 起き上がりこぼし喉輪落とし
+EN Okiagari Nodowa Otoshi
+
+@ 3081
+JP 喉輪落とし→片エビ固め
+EN Nodowa Otoshi > Pin
+
+@ 3082
+JP －
+EN －
+
+@ 3083
+JP エルボーバット
+EN Elbow Butt
+
+@ 3084
+JP トーキック
+EN Toe Kick
+
+@ 3085
+JP 肘落とし
+EN Elbow Drop
+
+@ 3086
+JP スレッジハンマー
+EN Sledgehammer
+
+@ 3087
+JP ニーリフト
+EN Knee Lift
+
+@ 3088
+JP ジャーマンクラッチに移行
+EN Go to German Clutch
+
+@ 3089
+JP ダブルアームスープレックス
+EN Double Arm Suplex
+
+@ 3090
+JP テキサススープレックス
+EN Texas Suplex
+
+@ 3091
+JP 高速ダブルアームスープレックス
+EN Quick Double Arm Sup.
+
+@ 3092
+JP 滞空式ダブルアームスープレックス
+EN Dly. Double Arm Suplex
+
+@ 3093
+JP ダブルアームフェイスバスター
+EN Double Arm Facebuster
+
+@ 3094
+JP ペディグリー
+EN Pedigree
+
+@ 3095
+JP リバースタイガードライバー
+EN Reverse Tiger Driver
+
+@ 3096
+JP ダブルアームスープレックスホールド
+EN Double Arm Suplex Hold
+
+@ 3097
+JP タイガードライバー
+EN Tiger Driver
+
+@ 3098
+JP タイガードライバー
+EN Tiger Driver
+
+@ 3099
+JP 連続タイガードライバー
+EN Tiger Driver Combo
+
+@ 3100
+JP ペディグリー→片エビ固め
+EN Pedigree > Pin
+
+@ 3101
+JP リバースタイガードライバー→体固め
+EN Reverse Tiger Driver > Pin
+
+@ 3102
+JP チキンウイングパイルドライバー
+EN Chickenwing P.Driver
+
+@ 3103
+JP タイガードライバー
+EN Tiger Driver
+
+@ 3104
+JP タイガードライバー’９１
+EN Tiger Driver '91
+
+@ 3105
+JP タイガードライバー’９１
+EN Tiger Driver '91
+
+@ 3106
+JP ダブルアームスクリュースープレックス
+EN Double Arm Screw Suplex
+
+@ 3107
+JP －
+EN －
+
+@ 3108
+JP 肘落とし
+EN Elbow Drop
+
+@ 3109
+JP スレッジハンマー
+EN Sledgehammer
+
+@ 3110
+JP トーキック
+EN Toe Kick
+
+@ 3111
+JP ヒップトス
+EN Hip Toss
+
+@ 3112
+JP ステップキック
+EN Step Kick
+
+@ 3113
+JP ジャンボスープレックス
+EN Jumbo Suplex
+
+@ 3114
+JP パイルドライバー
+EN Piledriver
+
+@ 3115
+JP フェイスバスター
+EN Facebuster
+
+@ 3116
+JP カナディアンバックブリーカー
+EN Canadian Backbreaker
+
+@ 3117
+JP ハイジャックバックブリーカー
+EN Hijack Backbreaker
+
+@ 3118
+JP Ｓ・Ｔ・Ｆ
+EN STF
+
+@ 3119
+JP ビーストボム
+EN Beast Bomb
+
+@ 3120
+JP ジャイアントパイルドライバー
+EN Giant Piledriver
+
+@ 3121
+JP 滞空式パイルドライバー
+EN Delayed Piledriver
+
+@ 3122
+JP ゴッチ式パイルドライバー
+EN Gotch Piledriver
+
+@ 3123
+JP カナディアンハンマー
+EN Canadian Hammer
+
+@ 3124
+JP パワーボムホイップ
+EN Powerbomb Whip
+
+@ 3125
+JP 高角度パワーボムホイップ
+EN Hi-Angle P.Bomb Whip
+
+@ 3126
+JP ハイアングルパワーボムホイップ
+EN Hi-Angle P.Bomb Whip
+
+@ 3127
+JP サンダーファイアーパワーボムホイップ
+EN Thunder Fire P.Bomb Whip
+
+@ 3128
+JP 餅つきパワーボムホイップ
+EN Mochitsuki P.Bomb Whip
+
+@ 3129
+JP ビッグクランチホイップ
+EN Big Crunch Whip
+
+@ 3130
+JP リバースショルダーバスター
+EN Rev. Shoulder Buster
+
+@ 3131
+JP パワーボム
+EN Powerbomb
+
+@ 3132
+JP パワーボム
+EN Powerbomb
+
+@ 3133
+JP 高角度パワーボム
+EN High-Angle Powerbomb
+
+@ 3134
+JP パワーボム
+EN Powerbomb
+
+@ 3135
+JP ハイアングルパワーボム
+EN High-Angle Powerbomb
+
+@ 3136
+JP 侍パワーボム
+EN Samurai Powerbomb
+
+@ 3137
+JP 念仏パワーボム
+EN Nenbutsu Powerbomb
+
+@ 3138
+JP ジャックナイフ式パワーボム
+EN Jackknife Powerbomb
+
+@ 3139
+JP 餅つきパワーボム
+EN Mochitsuki Powerbomb
+
+@ 3140
+JP ビッグクランチ
+EN Big Crunch
+
+@ 3141
+JP ダイナミックボム
+EN Dynamic Bomb
+
+@ 3142
+JP ライガーボム
+EN Liger Bomb
+
+@ 3143
+JP スパイラルボム
+EN Spiral Bomb
+
+@ 3144
+JP サムライボム
+EN Samurai Bomb
+
+@ 3145
+JP ハヤテ式サンダーファイアーパワーボム
+EN Hayate T. Fire P.Bomb
+
+@ 3146
+JP サンダーファイアーパワーボム
+EN Thunder Fire Powerbomb
+
+@ 3147
+JP ブラックタイガーボム
+EN Black Tiger Bomb
+
+@ 3148
+JP 投げっぱなしパワーボム
+EN Release Powerbomb
+
+@ 3149
+JP ジャンピングパイルドライバー
+EN Jumping Piledriver
+
+@ 3150
+JP パワーボム
+EN Powerbomb
+
+@ 3151
+JP パワーボムホイップ
+EN Powerbomb Whip
+
+@ 3152
+JP コンプリートダスト
+EN Complete Dust
+
+@ 3153
+JP ビルディングボム
+EN Building Bomb
+
+@ 3154
+JP バイソンテニエル
+EN Bison Tenierl
+
+@ 3155
+JP ジャンピングボム
+EN Jumping Bomb
+
+@ 3156
+JP サムライボムホイップ
+EN Samurai Bomb Whip
+
+@ 3157
+JP アッサムボム
+EN Assam Bomb
+
+@ 3158
+JP バイソンテニエル
+EN Bison Tenierl
+
+@ 3159
+JP ダイヤモンドヘッド
+EN Diamond Head
+
+@ 3160
+JP バートバッシュ
+EN Bart Bash
+
+@ 3161
+JP 垂直落下式パワーボム
+EN Vertical Powerbomb
+
+@ 3162
+JP ジャンボリフト
+EN Jumbo Lift
+
+@ 3163
+JP 渾身のパワーボム
+EN All-Out Powerbomb
+
+@ 3164
+JP 滞空式侍パワーボム
+EN Delayed Samurai P.Bomb
+
+@ 3165
+JP 餅つきデスバレー
+EN Mochitsuki D. Valley
+
+@ 3166
+JP ランニングライガーボム
+EN Running Liger Bomb
+
+@ 3167
+JP 連続パワーボム
+EN Powerbomb Combo
+
+@ 3168
+JP 元祖パワーボム
+EN Original Powerbomb
+
+@ 3169
+JP ラストライド
+EN Last Ride
+
+@ 3170
+JP バートンバスター
+EN Barton Buster
+
+@ 3171
+JP ランニングパワーボム
+EN Running Powerbomb
+
+@ 3172
+JP －
+EN －
+
+@ 3173
+JP －
+EN －
+
+@ 3174
+JP ガードポジション脇腹パンチ
+EN Guard Rib Punch
+
+@ 3175
+JP ガードポジションパンチ
+EN Guard Punch
+
+@ 3176
+JP パウンド
+EN Pound
+
+@ 3177
+JP ガードポジションヘッドバット
+EN Guard Headbutt
+
+@ 3178
+JP ガードポジションモンゴリアンチョップ
+EN Guard Mongolian Chop
+
+@ 3179
+JP 恥ずかしパンチ
+EN Shame Punch
+
+@ 3180
+JP アキレス腱固め
+EN Achilles Hold
+
+@ 3181
+JP ヒールホールド
+EN Heel Hold
+
+@ 3182
+JP アンクルホールド
+EN Ankle Hold
+
+@ 3183
+JP 膝十字固め
+EN Kneebar
+
+@ 3184
+JP ネックロック
+EN Necklock
+
+@ 3185
+JP 裏アキレス腱固め
+EN Reverse Achilles Hold
+
+@ 3186
+JP 倒れ込みアキレス腱固め
+EN Falling Achilles Hold
+
+@ 3187
+JP ジャイアントスイング
+EN Giant Swing
+
+@ 3188
+JP リフトアッププレス
+EN Lift-Up Press
+
+@ 3189
+JP パワーボム
+EN Powerbomb
+
+@ 3190
+JP －
+EN －
+
+@ 3191
+JP －
+EN －
+
+@ 3192
+JP －
+EN －
+
+@ 3193
+JP －
+EN －
+
+@ 3194
+JP －
+EN －
+
+@ 3195
+JP ビーストボム
+EN Beast Bomb
+
+@ 3196
+JP 炎のコマ
+EN Flaming Top
+
+@ 3197
+JP －
+EN －
+
+@ 3198
+JP －
+EN －
+
+@ 3199
+JP 馬乗りパンチ
+EN Mounted Punch
+
+@ 3200
+JP 馬乗りナックルパンチ
+EN Mounted Knuckle Punch
+
+@ 3201
+JP 馬乗り掌打
+EN Mounted Palm Strike
+
+@ 3202
+JP 馬乗り張り手
+EN Mounted Slap
+
+@ 3203
+JP 馬乗りエルボー
+EN Mounted Elbow
+
+@ 3204
+JP 馬乗り脇腹パンチ
+EN Mounted Rib Punch
+
+@ 3205
+JP 腕極め馬乗りパンチ
+EN Arm-Trap Mounted Punch
+
+@ 3206
+JP 横四方膝蹴り
+EN Side Control Knees
+
+@ 3207
+JP 上四方膝蹴り
+EN Top Mount Knee
+
+@ 3208
+JP 馬乗りパンチ
+EN Mounted Punch
+
+@ 3209
+JP 馬乗り掌打
+EN Mounted Palm Strike
+
+@ 3210
+JP ビーストパンチ
+EN Beast Punch
+
+@ 3211
+JP 肩固め
+EN Arm Triangle
+
+@ 3212
+JP ギロチンチョーク
+EN Guillotine Choke
+
+@ 3213
+JP 腕ひしぎ逆十字固め
+EN Cross Armbar
+
+@ 3214
+JP 三角絞め
+EN Triangle Choke
+
+@ 3215
+JP ケサ固め
+EN Scarf Hold
+
+@ 3216
+JP 腕極めケサ固め
+EN Arm-Lock Scarf Hold
+
+@ 3217
+JP チキンウイングアームロック
+EN Chickenwing Armlock
+
+@ 3218
+JP Ｖ１アームロック
+EN V1 Armlock
+
+@ 3219
+JP ストレートアームバー
+EN Straight Armbar
+
+@ 3220
+JP 腕ひしぎ十字固め
+EN Juji-Gatame
+
+@ 3221
+JP 袖車絞め
+EN Ezekiel Choke
+
+@ 3222
+JP －
+EN －
+
+@ 3223
+JP －
+EN －
+
+@ 3224
+JP 顔面パンチ
+EN Face Punch
+
+@ 3225
+JP ボディパンチ
+EN Body Punch
+
+@ 3226
+JP －
+EN －
+
+@ 3227
+JP サイドニーリフト
+EN Side Knee Lift
+
+@ 3228
+JP 顔面ニーリフト
+EN Face Knee Lift
+
+@ 3229
+JP 四点ポジションニーリフト
+EN Four-Point Knee Lift
+
+@ 3230
+JP 腹固め
+EN Hara Gatame
+
+@ 3231
+JP フロントネックロック
+EN Front Necklock
+
+@ 3232
+JP 胴絞めフロントネックロック
+EN Scissor Front Necklock
+
+@ 3233
+JP ジャンピングＤＤＴ
+EN Jumping DDT
+
+@ 3234
+JP ダブルアームスープレックス
+EN Double Arm Suplex
+
+@ 3235
+JP パワーボムホイップ
+EN Powerbomb Whip
+
+@ 3236
+JP パイルドライバー
+EN Piledriver
+
+@ 3237
+JP －
+EN －
+
+@ 3238
+JP ボディスラム
+EN Body Slam
+
+@ 3239
+JP ハイアングルボディスラム
+EN High-Angle Body Slam
+
+@ 3240
+JP フライングメイヤー
+EN Snapmare
+
+@ 3241
+JP ファイヤーマンズキャリー
+EN Fireman's Carry
+
+@ 3242
+JP カニ挟み
+EN Kani Basami
+
+@ 3243
+JP 足を取り軸足払い
+EN Leg Catch Sweep
+
+@ 3244
+JP 大外刈り
+EN Osoto-gari
+
+@ 3245
+JP 払い腰
+EN Harai Goshi
+
+@ 3246
+JP 一本背負い
+EN Ippon Seoi
+
+@ 3247
+JP チンクラッシャー
+EN Chin Crusher
+
+@ 3248
+JP メキシカンチンクラッシャー
+EN Mexican Chin Crusher
+
+@ 3249
+JP ヘッドシザースホイップ
+EN Head Scissors Whip
+
+@ 3250
+JP ジャイアント腕殺し
+EN Giant Armbreaker
+
+@ 3251
+JP ジャーマンクラッチへ移行する
+EN Into German Clutch
+
+@ 3252
+JP 腕取り足掛け倒し
+EN Arm Trip
+
+@ 3253
+JP フライングメイヤー２
+EN Snapmare 2
+
+@ 3254
+JP タイガースピン
+EN Tiger Spin
+
+@ 3255
+JP コークスクリューシザース
+EN Corkscrew Scissors
+
+@ 3256
+JP ジャイアントアームホイップ
+EN Giant Arm Whip
+
+@ 3257
+JP ヘッドロック
+EN Headlock
+
+@ 3258
+JP 首投げヘッドロック
+EN Headlock Takeover
+
+@ 3259
+JP ヘッドロックパンチ
+EN Headlock Punch
+
+@ 3260
+JP 首投げ
+EN Neck Throw
+
+@ 3261
+JP メキシカンストレッチ
+EN Mexican Stretch
+
+@ 3262
+JP ハンマースルー
+EN Irish Whip
+
+@ 3263
+JP 歌舞伎役者ハンマースルー
+EN Kabuki Irish Whip
+
+@ 3264
+JP ココナッツクラッシュ
+EN Coconut Crush
+
+@ 3265
+JP マンハッタンドロップ
+EN Manhattan Drop
+
+@ 3266
+JP 水車落とし
+EN Waterwheel Drop
+
+@ 3267
+JP リバース水車落とし
+EN Rev. Waterwheel Drop
+
+@ 3268
+JP スイングネックブリーカードロップ
+EN Swinging Neckbreaker
+
+@ 3269
+JP ショルダーネックブリーカードロップ
+EN Shoulder Neckbreaker
+
+@ 3270
+JP ツームストンパイルドライバー
+EN Tombstone Piledriver
+
+@ 3271
+JP リフトアップスラム
+EN Lift-Up Slam
+
+@ 3272
+JP サイドバスター
+EN Side Buster
+
+@ 3273
+JP ペンデュラムバックブリーカー
+EN Pendulum Backbreaker
+
+@ 3274
+JP カンヌキスープレックス
+EN Kannuki Suplex
+
+@ 3275
+JP すくい投げ
+EN Scoop Slam
+
+@ 3276
+JP 河津掛け落とし
+EN Kawazu Drop
+
+@ 3277
+JP 裏コジカッター
+EN Reverse Koji Cutter
+
+@ 3278
+JP 倒立エスケープ
+EN Handstand Escape
+
+@ 3279
+JP 巴投げ
+EN Tomoe Nage
+
+@ 3280
+JP コブラツイスト
+EN Cobra Twist
+
+@ 3281
+JP 拷問コブラツイスト
+EN Torture Cobra Twist
+
+@ 3282
+JP カンヌキ絞め
+EN Bar Choke
+
+@ 3283
+JP ネックハンギングツリー
+EN Neck Hanging Tree
+
+@ 3284
+JP 首極め腕卍
+EN Neck Lock Armbar
+
+@ 3285
+JP －
+EN －
+
+@ 3286
+JP ブルドッキングヘッドロック
+EN Bulldog Headlock
+
+@ 3287
+JP スタンディング肩固め
+EN Standing Arm Triangle
+
+@ 3288
+JP ハイチサンダー
+EN Haichi Thunder
+
+@ 3289
+JP ストレッチバスター
+EN Stretch Buster
+
+@ 3290
+JP ピースクラッシャー
+EN Peace Crusher
+
+@ 3291
+JP ダイヤモンドカッター
+EN Diamond Cutter
+
+@ 3292
+JP ＳＣスタナー
+EN SC Stunner
+
+@ 3293
+JP ギロチン式ピースクラッシャー
+EN Guillotine P. Crusher
+
+@ 3294
+JP ＳＴＯ
+EN STO
+
+@ 3295
+JP カッキーカッター
+EN Kakki Cutter
+
+@ 3296
+JP ヒライエンド
+EN Hirai End
+
+@ 3297
+JP 逆一本背負い
+EN Reverse Ippon Seoi
+
+@ 3298
+JP キャプチュード
+EN Capture
+
+@ 3299
+JP サイレントデス
+EN Silent Death
+
+@ 3300
+JP コンプリートショット
+EN Complete Shot
+
+@ 3301
+JP ＳＴＫ
+EN STK
+
+@ 3302
+JP リアリティーチェック
+EN Reality Check
+
+@ 3303
+JP マイクボトム
+EN Mic Bottom
+
+@ 3304
+JP ブルズ・ポセイドン
+EN Bull's Poseidon
+
+@ 3305
+JP ハイチエッジ
+EN Haichi Edge
+
+@ 3306
+JP メルトダウン
+EN Meltdown
+
+@ 3307
+JP ジャンピングツームストンパイルドライバー
+EN Jumping Tombstone
+
+@ 3308
+JP ハイジャンプフェイスバスター
+EN High Jump Facebuster
+
+@ 3309
+JP ブルーディスティニー
+EN Blue Destiny
+
+@ 3310
+JP キャプチュードバスター
+EN Capture Buster
+
+@ 3311
+JP スモールパッケージホールド
+EN Small Package Hold
+
+@ 3312
+JP グランドコブラツイスト
+EN Ground Cobra Twist
+
+@ 3313
+JP キドクラッチ
+EN Kido Clutch
+
+@ 3314
+JP 芦屋クラッチ
+EN Ashiya Clutch
+
+@ 3315
+JP ローリングクレイドル
+EN Rolling Cradle
+
+@ 3316
+JP 腕取りスモールパッケージホールド
+EN Arm Trap Small Package
+
+@ 3317
+JP 火の玉ボム
+EN Fireball Bomb
+
+@ 3318
+JP トルネードボム
+EN Tornado Bomb
+
+@ 3319
+JP ウラカンラナ
+EN Huracanrana
+
+@ 3320
+JP フランケンシュタイナー
+EN Frankensteiner
+
+@ 3321
+JP 高角度前方回転エビ固め
+EN High-Angle Sunset Flip
+
+@ 3322
+JP 四の字ジャックナイフ固め
+EN Figure-4 Jackknife
+
+@ 3323
+JP ネックハンギングボム
+EN Neck Hanging Bomb
+
+@ 3324
+JP バイアグラドライバー
+EN Viagra Driver
+
+@ 3325
+JP ファイヤーマンズキャリーホールド
+EN Fireman's Carry Hold
+
+@ 3326
+JP アックスギロチンドライバー
+EN Axe Guillotine Driver
+
+@ 3327
+JP ジャイアントコブラツイスト
+EN Giant Cobra Twist
+
+@ 3328
+JP グランドコブラツイスト絞め
+EN Ground Cobra Choke
+
+@ 3329
+JP ストレッチプラム
+EN Stretch Plum
+
+@ 3330
+JP 春樹スペシャル
+EN Haruki Special
+
+@ 3331
+JP 卍固め
+EN Octopus Hold
+
+@ 3332
+JP 元祖卍固め
+EN Original Octopus
+
+@ 3333
+JP 飛びつき腕ひしぎ逆十字固め
+EN Flying Cross Armbar
+
+@ 3334
+JP ミノルスペシャルⅠ
+EN Minoru Special I
+
+@ 3335
+JP ビクトル式膝十字固め
+EN Victor Kneebar
+
+@ 3336
+JP ＩＶニーロック
+EN IV Knee Lock
+
+@ 3337
+JP 飛びつきクロスヒールホールド
+EN Flying Cross Heel Hold
+
+@ 3338
+JP スタンディングアームロック
+EN Standing Armlock
+
+@ 3339
+JP リンギーナ
+EN Ringuina
+
+@ 3340
+JP 巻き込み式腕ひしぎ逆十字固め
+EN Rolling Cross Armbar
+
+@ 3341
+JP トライアングル・ランサー
+EN Triangle Lancer
+
+@ 3342
+JP 回転地獄五輪パート０
+EN Kaiten Jigoku Part 0
+
+@ 3343
+JP 流星ロック
+EN Ryusei Lock
+
+@ 3344
+JP 膝極め足首固め
+EN Knee & Ankle Lock
+
+@ 3345
+JP グラウンド卍固め
+EN Ground Octopus
+
+@ 3346
+JP 変形ブリティッシュフォール
+EN Modified British Fall
+
+@ 3347
+JP 竜巻谷落とし
+EN Tatsumaki Taniotoshi
+
+@ 3348
+JP 野人ブルドッキングヘッドロック
+EN Wild Bulldog Headlock
+
+@ 3349
+JP 無間
+EN Mugen
+
+@ 3350
+JP アナコンダ・バイス
+EN Anaconda Vise
+
+@ 3351
+JP －
+EN －
+
+@ 3352
+JP ネックスマッシュ
+EN Neck Smash
+
+@ 3353
+JP ハンマーブロー
+EN Hammer Blow
+
+@ 3354
+JP ニークラッシャー
+EN Knee Crusher
+
+@ 3355
+JP ワンハンドバックブリーカー
+EN One-Hand Backbreaker
+
+@ 3356
+JP －
+EN －
+
+@ 3357
+JP アトミックドロップ
+EN Atomic Drop
+
+@ 3358
+JP アトミックホイップ
+EN Atomic Whip
+
+@ 3359
+JP ハイアングルアトミックドロップ
+EN High-Angle Atomic Drop
+
+@ 3360
+JP バックドロップ
+EN Backdrop
+
+@ 3361
+JP 高速バックドロップ
+EN Quick Backdrop
+
+@ 3362
+JP ジャンピングバックドロップ
+EN Jumping Backdrop
+
+@ 3363
+JP 垂直落下式バックドロップ
+EN Vertical Backdrop
+
+@ 3364
+JP デンジャラスバックドロップ
+EN Dangerous Backdrop
+
+@ 3365
+JP 元祖バックドロップ
+EN Original Backdrop
+
+@ 3366
+JP 完全無欠バックドロップ
+EN Perfect Backdrop
+
+@ 3367
+JP デンジャラスバックドロップホールド
+EN Dangerous Backdrop Hold
+
+@ 3368
+JP バックドロップホールド
+EN Backdrop Hold
+
+@ 3369
+JP ハイアングルバックドロップ
+EN High-Angle Backdrop
+
+@ 3370
+JP アトミック＆バックドロップ
+EN Atomic & Backdrop
+
+@ 3371
+JP 抱え式バックドロップ
+EN Cradle Backdrop
+
+@ 3372
+JP 旋回式バックドロップ
+EN Spinning Backdrop
+
+@ 3373
+JP 長滞空抱え式バックドロップ
+EN Dly. Cradle Backdrop
+
+@ 3374
+JP ハリケーンクランチ
+EN Hurricane Crunch
+
+@ 3375
+JP 落下傘バックドロップ
+EN Parachute Backdrop
+
+@ 3376
+JP 高角度抱え式バックドロップ
+EN HA Cradle Backdrop
+
+@ 3377
+JP ジャイアント抱え式バックドロップ
+EN Giant Cradle Backdrop
+
+@ 3378
+JP 抱え式バックドロップホールド
+EN Cradle Backdrop Hold
+
+@ 3379
+JP ブルーサンダー
+EN Blue Thunder
+
+@ 3380
+JP ハリケーンクランチ→片エビ固め
+EN Hurricane Crunch > Pin
+
+@ 3381
+JP 抱え上げバックドロップ
+EN Lifting Backdrop
+
+@ 3382
+JP 完全無欠バックドロップホールド
+EN Perfect Backdrop Hold
+
+@ 3383
+JP 俺が田上だ
+EN I'm Tagami!
+
+@ 3384
+JP 俺が田上だ→体固め
+EN I'm Tagami! > Pin
+
+@ 3385
+JP －
+EN －
+
+@ 3386
+JP ネックスマッシュ
+EN Neck Smash
+
+@ 3387
+JP ハンマーブロー
+EN Hammer Blow
+
+@ 3388
+JP ニークラッシャー
+EN Knee Crusher
+
+@ 3389
+JP ワンハンドバックブリーカー
+EN One-Hand Backbreaker
+
+@ 3390
+JP －
+EN －
+
+@ 3391
+JP アトミックドロップ
+EN Atomic Drop
+
+@ 3392
+JP アトミックホイップ
+EN Atomic Whip
+
+@ 3393
+JP ハイアングルアトミックドロップ
+EN High-Angle Atomic Drop
+
+@ 3394
+JP バックドロップ
+EN Backdrop
+
+@ 3395
+JP 高速バックドロップ
+EN Quick Backdrop
+
+@ 3396
+JP ジャンピングバックドロップ
+EN Jumping Backdrop
+
+@ 3397
+JP 垂直落下式バックドロップ
+EN Vertical Backdrop
+
+@ 3398
+JP デンジャラスバックドロップ
+EN Dangerous Backdrop
+
+@ 3399
+JP 元祖バックドロップ
+EN Original Backdrop
+
+@ 3400
+JP 完全無欠バックドロップ
+EN Perfect Backdrop
+
+@ 3401
+JP デンジャラスバックドロップホールド
+EN Dangerous Backdrop Hold
+
+@ 3402
+JP バックドロップホールド
+EN Backdrop Hold
+
+@ 3403
+JP ハイアングルバックドロップ
+EN High-Angle Backdrop
+
+@ 3404
+JP アトミック＆バックドロップ
+EN Atomic & Backdrop
+
+@ 3405
+JP 抱え式バックドロップ
+EN Cradle Backdrop
+
+@ 3406
+JP 旋回式バックドロップ
+EN Spinning Backdrop
+
+@ 3407
+JP 長滞空抱え式バックドロップ
+EN Dly. Cradle Backdrop
+
+@ 3408
+JP ハリケーンクランチ
+EN Hurricane Crunch
+
+@ 3409
+JP 落下傘バックドロップ
+EN Parachute Backdrop
+
+@ 3410
+JP 高角度抱え式バックドロップ
+EN HA Cradle Backdrop
+
+@ 3411
+JP ジャイアント抱え式バックドロップ
+EN Giant Cradle Backdrop
+
+@ 3412
+JP 抱え式バックドロップホールド
+EN Cradle Backdrop Hold
+
+@ 3413
+JP ブルーサンダー
+EN Blue Thunder
+
+@ 3414
+JP ハリケーンクランチ→片エビ固め
+EN Hurricane Crunch > Pin
+
+@ 3415
+JP 抱え上げバックドロップ
+EN Lifting Backdrop
+
+@ 3416
+JP 完全無欠バックドロップホールド
+EN Perfect Backdrop Hold
+
+@ 3417
+JP 俺が田上だ
+EN I'm Tagami!
+
+@ 3418
+JP 俺が田上だ→体固め
+EN I'm Tagami! > Pin
+
+@ 3419
+JP －
+EN －
+
+@ 3420
+JP クラッチを外してネックスマッシュ
+EN Break & Neck Smash
+
+@ 3421
+JP クラッチを外してハンマーブロー
+EN Break & Hammer Blow
+
+@ 3422
+JP －
+EN －
+
+@ 3423
+JP ニークラッシャー
+EN Knee Crusher
+
+@ 3424
+JP 捻り式バックドロップ
+EN Twisting Backdrop
+
+@ 3425
+JP ぶっこ抜きバックドロップ
+EN Bridging Backdrop
+
+@ 3426
+JP バックドロップホールド
+EN Backdrop Hold
+
+@ 3427
+JP 三途バックドロップ
+EN Sanzu Backdrop
+
+@ 3428
+JP 大剛式バックドロップ
+EN Daigo Backdrop
+
+@ 3429
+JP 地獄バックドロップ
+EN Hell Backdrop
+
+@ 3430
+JP 地獄バックドロップ→体固め
+EN Hell Backdrop > Pin
+
+@ 3431
+JP －
+EN －
+
+@ 3432
+JP 延髄ヘッドバット
+EN Enzui Headbutt
+
+@ 3433
+JP ネックスマッシュ
+EN Neck Smash
+
+@ 3434
+JP 背中にエルボーバット
+EN Elbow to Back
+
+@ 3435
+JP スレッジハンマー
+EN Sledgehammer
+
+@ 3436
+JP 急所パンチ
+EN Low Blow Punch
+
+@ 3437
+JP 裏関節蹴り
+EN Kick to Knee Back
+
+@ 3438
+JP 後頭部パンチ
+EN Back-of-Head Punch
+
+@ 3439
+JP スリーパーホールド
+EN Sleeper Hold
+
+@ 3440
+JP サーフボードストレッチ
+EN Surfboard Stretch
+
+@ 3441
+JP メキシカンストレッチ
+EN Mexican Stretch
+
+@ 3442
+JP フェイスクラッシャー
+EN Facecrusher
+
+@ 3443
+JP ジャイアントアームブリーカー
+EN Giant Armbreaker
+
+@ 3444
+JP －
+EN －
+
+@ 3445
+JP －
+EN －
+
+@ 3446
+JP 羽交い締め
+EN Full Nelson
+
+@ 3447
+JP 延髄ニールキック
+EN Enzui Neel Kick
+
+@ 3448
+JP 延髄ラリアット
+EN Enzui Lariat
+
+@ 3449
+JP 胴絞めスリーパーホールド
+EN Body Scissors Sleeper
+
+@ 3450
+JP キラーチョークスリーパー
+EN Killer Choke Sleeper
+
+@ 3451
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 3452
+JP コブラツイスト
+EN Cobra Twist
+
+@ 3453
+JP リバースＤＤＴ
+EN Reverse DDT
+
+@ 3454
+JP リバースブレーンバスター
+EN Reverse Brainbuster
+
+@ 3455
+JP ペンデュラムバックブリーカー
+EN Pendulum Backbreaker
+
+@ 3456
+JP 肩車式ＤＤＴ
+EN Shoulder DDT
+
+@ 3457
+JP サイドバスター
+EN Side Buster
+
+@ 3458
+JP 河津掛け落とし
+EN Kawazu Drop
+
+@ 3459
+JP ジャイアント河津掛け落とし
+EN Giant Kawazu Drop
+
+@ 3460
+JP スクールボーイ
+EN School Boy
+
+@ 3461
+JP 首かっきり
+EN Throat Cut
+
+@ 3462
+JP 胴絞めチョークスリーパーホールド
+EN Scissors Choke Sleeper
+
+@ 3463
+JP ナガタロックⅡ
+EN Nagata Lock II
+
+@ 3464
+JP 拷問コブラツイスト
+EN Torture Cobra Twist
+
+@ 3465
+JP ジャイアントコブラツイスト
+EN Giant Cobra Twist
+
+@ 3466
+JP グランドコブラツイスト絞め
+EN Ground Cobra Choke
+
+@ 3467
+JP ストレッチプラム
+EN Stretch Plum
+
+@ 3468
+JP 春樹スペシャル
+EN Haruki Special
+
+@ 3469
+JP 卍固め
+EN Octopus Hold
+
+@ 3470
+JP 元祖卍固め
+EN Original Octopus
+
+@ 3471
+JP 背面式腕ひしぎ逆十字固め
+EN Back Cross Armbreaker
+
+@ 3472
+JP ビクトル式腕ひしぎ逆十字固め
+EN Victor Cross Armbreaker
+
+@ 3473
+JP ビクトル式足取り腕ひしぎ逆十字固め
+EN Victor Leg-Trip Armbreaker
+
+@ 3474
+JP ファイナルカット
+EN Final Cut
+
+@ 3475
+JP バーニングソード
+EN Burning Sword
+
+@ 3476
+JP 垂直落下式リバースブレーンバスター
+EN Vertical Reverse BB
+
+@ 3477
+JP リバースパワーボム
+EN Reverse Powerbomb
+
+@ 3478
+JP ジャーマンスープレックスホイップ
+EN German Suplex Whip
+
+@ 3479
+JP 一回転ジャーマンスープレックスホイップ
+EN Full Spin German Whip
+
+@ 3480
+JP エベレストジャーマンスープレックスホイップ
+EN Everest German Suplex Whip
+
+@ 3481
+JP ダイナミックジャーマン
+EN Dynamic German
+
+@ 3482
+JP デッドエンド
+EN Dead End
+
+@ 3483
+JP デンジャラスジャーマン
+EN Dangerous German
+
+@ 3484
+JP ベリートゥバック
+EN Belly to Back
+
+@ 3485
+JP 高角度前方回転エビ固め
+EN High-Angle Sunset Flip
+
+@ 3486
+JP 後方回転エビ固め
+EN Back Roll Cradle
+
+@ 3487
+JP 逆さ押さえ込み
+EN Inverted Cradle
+
+@ 3488
+JP グランドコブラツイスト
+EN Ground Cobra Twist
+
+@ 3489
+JP ストレッチボム
+EN Stretch Bomb
+
+@ 3490
+JP 火の玉ボム
+EN Fireball Bomb
+
+@ 3491
+JP ジャーマンスープレックスホールド
+EN German Suplex Hold
+
+@ 3492
+JP 低空ジャーマンスープレックスホールド
+EN Low German Suplex Hold
+
+@ 3493
+JP 高速ジャーマンスープレックスホールド
+EN Quick German Suplex Hold
+
+@ 3494
+JP 高角度ジャーマンスープレックスホールド
+EN High-Angle German Hold
+
+@ 3495
+JP エベレストジャーマンスープレックスホールド
+EN Everest German Suplex Hold
+
+@ 3496
+JP 滞空式ジャーマンスープレックスホールド
+EN Delayed German Suplex Hold
+
+@ 3497
+JP クロスアームスープレックスホールド
+EN Cross Arm Suplex Hold
+
+@ 3498
+JP デッドエンド→エビ固め
+EN Dead End > Cradle
+
+@ 3499
+JP ジャーマンスープレックスホールド
+EN German Suplex Hold
+
+@ 3500
+JP マヤ式ジャーマンスープレックスホールド
+EN Maya German Suplex Hold
+
+@ 3501
+JP ミステリオ・ラナ
+EN Misterio Rana
+
+@ 3502
+JP スリーパースープレックス
+EN Sleeper Suplex
+
+@ 3503
+JP ジャパニーズレッグロールクラッチホールド
+EN Japanese Leg Roll Clutch
+
+@ 3504
+JP チョークスラムボム
+EN Chokeslam Bomb
+
+@ 3505
+JP グランドキャニオン
+EN Grand Canyon
+
+@ 3506
+JP ジャンピングフェイスバスター
+EN Jumping Facebuster
+
+@ 3507
+JP 逆さ押さえ込み式急所蹴り
+EN Inverted Pin Low Kick
+
+@ 3508
+JP バイアグラドライバー
+EN Viagra Driver
+
+@ 3509
+JP ドルフィンスペシャル２号
+EN Dolphin Special 2
+
+@ 3510
+JP ぶっこ抜きジャーマン
+EN Deadlift German
+
+@ 3511
+JP ドルフィンスペシャル１号
+EN Dolphin Special 1
+
+@ 3512
+JP ボルケーノ・イラプション
+EN Volcano Eruption
+
+@ 3513
+JP 富士山ジャーマンスープレックスホールド
+EN Mt. Fuji German Hold
+
+@ 3514
+JP 金華山ジャーマンスープレックスホールド
+EN Kinkazan German Hold
+
+@ 3515
+JP 逆落とし
+EN Sakaotoshi
+
+@ 3516
+JP タイガースープレックス’８５ホイップ
+EN Tiger Suplex '85 Whip
+
+@ 3517
+JP バイ・バレー
+EN Bye Valley
+
+@ 3518
+JP 大回転ジャーマン
+EN Big Spin German
+
+@ 3519
+JP 回転地獄五輪パート５
+EN Kaiten Jigoku Part 5
+
+@ 3520
+JP 連続ベリートゥバック
+EN Belly to Back Combo
+
+@ 3521
+JP 元祖ジャーマンスープレックスホールド
+EN Original German Hold
+
+@ 3522
+JP ローリングジャーマンスープレックスホールド
+EN Rolling German Suplex Hold
+
+@ 3523
+JP トリプルジャーマンスープレックスホールド
+EN Triple German Suplex Hold
+
+@ 3524
+JP ロコモーショントリプルスープレックスホールド
+EN Locomotion Triple Suplex Hold
+
+@ 3525
+JP タイガースープレックス’８５
+EN Tiger Suplex '85
+
+@ 3526
+JP －
+EN －
+
+@ 3527
+JP ネックスマッシュ
+EN Neck Smash
+
+@ 3528
+JP ハンマーブロー
+EN Hammer Blow
+
+@ 3529
+JP －
+EN －
+
+@ 3530
+JP －
+EN －
+
+@ 3531
+JP －
+EN －
+
+@ 3532
+JP コブラクラッチ
+EN Cobra Clutch
+
+@ 3533
+JP スミスクラッチ
+EN Smith Clutch
+
+@ 3534
+JP ジャイアントバックブリーカー
+EN Giant Backbreaker
+
+@ 3535
+JP スイングコブラクラッチ
+EN Swinging Cobra Clutch
+
+@ 3536
+JP コブラホールド
+EN Cobra Hold
+
+@ 3537
+JP ミリオンダラーバスター
+EN Million Dollar Buster
+
+@ 3538
+JP コブラクラッチスープレックス
+EN Cobra Clutch Suplex
+
+@ 3539
+JP コブラクラッチスープレックス→片エビ固め
+EN Cobra Clutch Suplex > Pin
+
+@ 3540
+JP トルネードカッキーカッター
+EN Tornado Kakki Cutter
+
+@ 3541
+JP －
+EN －
+
+@ 3542
+JP ネックスマッシュ
+EN Neck Smash
+
+@ 3543
+JP ハンマーブロー
+EN Hammer Blow
+
+@ 3544
+JP 逆水平チョップ
+EN Knife-Edge Chop
+
+@ 3545
+JP －
+EN －
+
+@ 3546
+JP －
+EN －
+
+@ 3547
+JP －
+EN －
+
+@ 3548
+JP ローリング逆水平
+EN Rolling Chop
+
+@ 3549
+JP ハーフネルソンスープレックス
+EN Half Nelson Suplex
+
+@ 3550
+JP ハーフネルソンスープレックス→片エビ固め
+EN Half Nelson Suplex > Pin
+
+@ 3551
+JP －
+EN －
+
+@ 3552
+JP ネックスマッシュ
+EN Neck Smash
+
+@ 3553
+JP ハンマーブロー
+EN Hammer Blow
+
+@ 3554
+JP フルネルソン
+EN Full Nelson
+
+@ 3555
+JP コマンドサブミッション
+EN Command Submission
+
+@ 3556
+JP －
+EN －
+
+@ 3557
+JP －
+EN －
+
+@ 3558
+JP －
+EN －
+
+@ 3559
+JP フルネルソンバスター
+EN Full Nelson Buster
+
+@ 3560
+JP ドラゴンスープレックスホイップ
+EN Dragon Suplex Whip
+
+@ 3561
+JP 高速ドラゴンスープレックスホイップ
+EN Quick Dragon Suplex Whip
+
+@ 3562
+JP フルネルソンスープレックス
+EN Full Nelson Suplex
+
+@ 3563
+JP フルネルソンボム
+EN Full Nelson Bomb
+
+@ 3564
+JP ドラゴンスープレックスホールド
+EN Dragon Suplex Hold
+
+@ 3565
+JP 高速ドラゴンスープレックスホールド
+EN Quick Dragon Suplex Hold
+
+@ 3566
+JP 元祖ドラゴンスープレックスホールド
+EN Original Dragon Suplex
+
+@ 3567
+JP 起き上がり小法師ドラゴンＳＰホイップ
+EN Okiagari Dragon Whip
+
+@ 3568
+JP 起き上がり小法師ドラゴンＳＰホールド
+EN Okiagari Dragon Hold
+
+@ 3569
+JP －
+EN －
+
+@ 3570
+JP ネックスマッシュ
+EN Neck Smash
+
+@ 3571
+JP ハンマーブロー
+EN Hammer Blow
+
+@ 3572
+JP －
+EN －
+
+@ 3573
+JP －
+EN －
+
+@ 3574
+JP －
+EN －
+
+@ 3575
+JP タイガースープレックスホイップ
+EN Tiger Suplex Whip
+
+@ 3576
+JP タイガースープレックスホールド
+EN Tiger Suplex Hold
+
+@ 3577
+JP 高角度タイガースープレックスホールド
+EN High-Angle Tiger Suplex
+
+@ 3578
+JP エベレストタイガースープレックスホールド
+EN Everest Tiger Suplex Hold
+
+@ 3579
+JP 元祖タイガースープレックスホールド
+EN Original Tiger Suplex
+
+@ 3580
+JP ミレニアムスープレックス
+EN Millennium Suplex
+
+@ 3581
+JP ミレニアムスープレックス→片エビ固め
+EN Millennium Suplex > Pin
+
+@ 3582
+JP －
+EN －
+
+@ 3583
+JP ネックスマッシュ
+EN Neck Smash
+
+@ 3584
+JP ハンマーブロー
+EN Hammer Blow
+
+@ 3585
+JP －
+EN －
+
+@ 3586
+JP －
+EN －
+
+@ 3587
+JP －
+EN －
+
+@ 3588
+JP タイガースープレックス’８５ホイップ
+EN Tiger Suplex '85 Whip
+
+@ 3589
+JP タイガースープレックス’８５
+EN Tiger Suplex '85
+
+@ 3590
+JP －
+EN －
+
+@ 3591
+JP －
+EN －
+
+@ 3592
+JP 後頭部パンチ
+EN Back-of-Head Punch
+
+@ 3593
+JP 後頭部ナックルパンチ
+EN Rear Knuckle Punch
+
+@ 3594
+JP 後頭部掌打
+EN Back-of-Head Palm
+
+@ 3595
+JP 後頭部エルボー
+EN Back-of-Head Elbow
+
+@ 3596
+JP 後頭部ヘッドバット
+EN Back-of-Head Headbutt
+
+@ 3597
+JP 脇腹パンチ
+EN Rib Punch
+
+@ 3598
+JP ジャーマンクラッチに移行
+EN Go to German Clutch
+
+@ 3599
+JP －
+EN －
+
+@ 3600
+JP 腹固め
+EN Hara Gatame
+
+@ 3601
+JP 膝固め
+EN Knee Lock
+
+@ 3602
+JP 腕ひしぎ逆十字固め
+EN Cross Armbar
+
+@ 3603
+JP 胴絞めスリーパー
+EN Body Scissors Sleeper
+
+@ 3604
+JP 裸絞め
+EN Rear Naked Choke
+
+@ 3605
+JP チョークスリーパー
+EN Choke Sleeper
+
+@ 3606
+JP 胴絞めチョークスリーパー
+EN Scissor Choke Sleeper
+
+@ 3607
+JP アレビンズ・リフト
+EN Alebins Lift
+
+@ 3608
+JP ベリートゥバック
+EN Belly to Back
+
+@ 3609
+JP リバースパワーボム
+EN Reverse Powerbomb
+
+@ 3610
+JP フルネルソンスープレックス
+EN Full Nelson Suplex
+
+@ 3611
+JP 俵返し
+EN Bale Throw
+
+@ 3612
+JP ぶっこ抜きジャーマン
+EN Deadlift German
+
+@ 3613
+JP －
+EN －
+
+@ 3614
+JP －
+EN －
+
+@ 3615
+JP －
+EN －
+
+@ 3616
+JP －
+EN －
+
+@ 3617
+JP －
+EN －
+
+@ 3618
+JP －
+EN －
+
+@ 3619
+JP －
+EN －
+
+@ 3620
+JP －
+EN －
+
+@ 3621
+JP －
+EN －
+
+@ 3622
+JP －
+EN －
+
+@ 3623
+JP －
+EN －
+
+@ 3624
+JP －
+EN －
+
+@ 3625
+JP －
+EN －
+
+@ 3626
+JP －
+EN －
+
+@ 3627
+JP －
+EN －
+
+@ 3628
+JP －
+EN －
+
+@ 3629
+JP －
+EN －
+
+@ 3630
+JP －
+EN －
+
+@ 3631
+JP －
+EN －
+
+@ 3632
+JP －
+EN －
+
+@ 3633
+JP －
+EN －
+
+@ 3634
+JP －
+EN －
+
+@ 3635
+JP －
+EN －
+
+@ 3636
+JP －
+EN －
+
+@ 3637
+JP －
+EN －
+
+@ 3638
+JP －
+EN －
+
+@ 3639
+JP －
+EN －
+
+@ 3640
+JP －
+EN －
+
+@ 3641
+JP －
+EN －
+
+@ 3642
+JP トーキック
+EN Toe Kick
+
+@ 3643
+JP ショルダータックル
+EN Shoulder Tackle
+
+@ 3644
+JP －
+EN －
+
+@ 3645
+JP トーキック
+EN Toe Kick
+
+@ 3646
+JP ショルダータックル
+EN Shoulder Tackle
+
+@ 3647
+JP ボディパンチ
+EN Body Punch
+
+@ 3648
+JP ボディパンチ
+EN Body Punch
+
+@ 3649
+JP ニーリフト
+EN Knee Lift
+
+@ 3650
+JP ヘッドシザース
+EN Head Scissors
+
+@ 3651
+JP ケサ固めを逆に押さえ込む
+EN Reverse Kesa Gatame
+
+@ 3652
+JP －
+EN －
+
+@ 3653
+JP －
+EN －
+
+@ 3654
+JP －
+EN －
+
+@ 3655
+JP －
+EN －
+
+@ 3656
+JP －
+EN －
+
+@ 3657
+JP －
+EN －
+
+@ 3658
+JP －
+EN －
+
+@ 3659
+JP －
+EN －
+
+@ 3660
+JP －
+EN －
+
+@ 3661
+JP －
+EN －
+
+@ 3662
+JP －
+EN －
+
+@ 3663
+JP －
+EN －
+
+@ 3664
+JP －
+EN －
+
+@ 3665
+JP －
+EN －
+
+@ 3666
+JP －
+EN －
+
+@ 3667
+JP －
+EN －
+
+@ 3668
+JP －
+EN －
+
+@ 3669
+JP －
+EN －
+
+@ 3670
+JP －
+EN －
+
+@ 3671
+JP －
+EN －
+
+@ 3672
+JP －
+EN －
+
+@ 3673
+JP －
+EN －
+
+@ 3674
+JP －
+EN －
+
+@ 3675
+JP －
+EN －
+
+@ 3676
+JP －
+EN －
+
+@ 3677
+JP 膝蹴り
+EN Knee Kick
+
+@ 3678
+JP －
+EN －
+
+@ 3679
+JP 軸足払い
+EN Leg Sweep
+
+@ 3680
+JP －
+EN －
+
+@ 3681
+JP －
+EN －
+
+@ 3682
+JP －
+EN －
+
+@ 3683
+JP －
+EN －
+
+@ 3684
+JP －
+EN －
+
+@ 3685
+JP －
+EN －
+
+@ 3686
+JP －
+EN －
+
+@ 3687
+JP －
+EN －
+
+@ 3688
+JP －
+EN －
+
+@ 3689
+JP －
+EN －
+
+@ 3690
+JP －
+EN －
+
+@ 3691
+JP －
+EN －
+
+@ 3692
+JP ニーリフト破り
+EN Knee Lift Counter
+
+@ 3693
+JP －
+EN －
+
+@ 3694
+JP －
+EN －
+
+@ 3695
+JP －
+EN －
+
+@ 3696
+JP －
+EN －
+
+@ 3697
+JP －
+EN －
+
+@ 3698
+JP －
+EN －
+
+@ 3699
+JP －
+EN －
+
+@ 3700
+JP －
+EN －
+
+@ 3701
+JP －
+EN －
+
+@ 3702
+JP －
+EN －
+
+@ 3703
+JP －
+EN －
+
+@ 3704
+JP －
+EN －
+
+@ 3705
+JP －
+EN －
+
+@ 3706
+JP －
+EN －
+
+@ 3707
+JP －
+EN －
+
+@ 3708
+JP －
+EN －
+
+@ 3709
+JP －
+EN －
+
+@ 3710
+JP －
+EN －
+
+@ 3711
+JP －
+EN －
+
+@ 3712
+JP －
+EN －
+
+@ 3713
+JP －
+EN －
+
+@ 3714
+JP －
+EN －
+
+@ 3715
+JP ボディーパンチ
+EN Body Punch
+
+@ 3716
+JP ボディスラム
+EN Body Slam
+
+@ 3717
+JP ハイアングルボディスラム
+EN High-Angle Body Slam
+
+@ 3718
+JP ゴリラスラム
+EN Gorilla Slam
+
+@ 3719
+JP スモールパッケージホールド
+EN Small Package Hold
+
+@ 3720
+JP ブレーンバスター
+EN Brainbuster
+
+@ 3721
+JP 高速ブレーンバスター
+EN Quick Brainbuster
+
+@ 3722
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 3723
+JP スモールパッケージホールド
+EN Small Package Hold
+
+@ 3724
+JP 胴絞めフロントネックロック
+EN Scissor Front Necklock
+
+@ 3725
+JP －
+EN －
+
+@ 3726
+JP 水車落とし
+EN Waterwheel Drop
+
+@ 3727
+JP ノーザンライトスープレックスホールド
+EN N. Lights Suplex Hold
+
+@ 3728
+JP ボディーパンチ
+EN Body Punch
+
+@ 3729
+JP ツームストンパイルドライバー
+EN Tombstone Piledriver
+
+@ 3730
+JP キドクラッチ
+EN Kido Clutch
+
+@ 3731
+JP 脳天エルボー
+EN Skull Elbow
+
+@ 3732
+JP スリーパーホールド
+EN Sleeper Hold
+
+@ 3733
+JP 顔面パンチ
+EN Face Punch
+
+@ 3734
+JP －
+EN －
+
+@ 3735
+JP ニーリフト
+EN Knee Lift
+
+@ 3736
+JP ＤＤＴ
+EN DDT
+
+@ 3737
+JP フロントネックチャンスリー
+EN Front Neck Chancery
+
+@ 3738
+JP ニーリフト
+EN Knee Lift
+
+@ 3739
+JP ＤＤＴ
+EN DDT
+
+@ 3740
+JP フロントネックチャンスリー
+EN Front Neck Chancery
+
+@ 3741
+JP バックエルボー
+EN Back Elbow
+
+@ 3742
+JP 巻き投げ
+EN Makikomi
+
+@ 3743
+JP 腰投げ
+EN Hip Toss
+
+@ 3744
+JP バックエルボー
+EN Back Elbow
+
+@ 3745
+JP 脳天エルボー
+EN Skull Elbow
+
+@ 3746
+JP 巻き投げ
+EN Makikomi
+
+@ 3747
+JP スモールパッケージホールド
+EN Small Package Hold
+
+@ 3748
+JP バックエルボー
+EN Back Elbow
+
+@ 3749
+JP 腰投げ
+EN Hip Toss
+
+@ 3750
+JP スモールパッケージホールド
+EN Small Package Hold
+
+@ 3751
+JP 片膝をついて踏ん張る
+EN Brace on One Knee
+
+@ 3752
+JP リバーススラム
+EN Reverse Slam
+
+@ 3753
+JP リバーススープレックス
+EN Reverse Suplex
+
+@ 3754
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 3755
+JP リバーススラム
+EN Reverse Slam
+
+@ 3756
+JP ドラゴンスクリュー
+EN Dragon Screw
+
+@ 3757
+JP 膝十字固め
+EN Kneebar
+
+@ 3758
+JP キドクラッチ
+EN Kido Clutch
+
+@ 3759
+JP リバーススープレックス
+EN Reverse Suplex
+
+@ 3760
+JP －
+EN －
+
+@ 3761
+JP 脳天エルボー
+EN Skull Elbow
+
+@ 3762
+JP ココナッツクラッシュ
+EN Coconut Crush
+
+@ 3763
+JP ブルドッキングヘッドロック
+EN Bulldog Headlock
+
+@ 3764
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 3765
+JP ビクトル膝十字固め
+EN Victor Kneebar
+
+@ 3766
+JP ロープにエスケープ
+EN Escape to Ropes
+
+@ 3767
+JP 脳天エルボー
+EN Skull Elbow
+
+@ 3768
+JP ココナッツクラッシュ
+EN Coconut Crush
+
+@ 3769
+JP ブルドッキングヘッドロック
+EN Bulldog Headlock
+
+@ 3770
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 3771
+JP ビクトル膝十字固め
+EN Victor Kneebar
+
+@ 3772
+JP －
+EN －
+
+@ 3773
+JP －
+EN －
+
+@ 3774
+JP バックエルボー
+EN Back Elbow
+
+@ 3775
+JP オーバーヘッドキック
+EN Overhead Kick
+
+@ 3776
+JP 輪廻
+EN Rinne
+
+@ 3777
+JP ダイヤモンドカッター
+EN Diamond Cutter
+
+@ 3778
+JP 急所蹴り
+EN Low Blow Kick
+
+@ 3779
+JP レッグスピン
+EN Leg Spin
+
+@ 3780
+JP 腰投げ
+EN Hip Toss
+
+@ 3781
+JP チキンウイングアームロック
+EN Chickenwing Armlock
+
+@ 3782
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 3783
+JP 前転裏膝十字固め
+EN Rolling Rev. Kneebar
+
+@ 3784
+JP サムソンクラッチ
+EN Samson Clutch
+
+@ 3785
+JP 足踏みつけ
+EN Foot Stomp
+
+@ 3786
+JP －
+EN －
+
+@ 3787
+JP －
+EN －
+
+@ 3788
+JP 腰投げ
+EN Hip Toss
+
+@ 3789
+JP バックエルボー
+EN Back Elbow
+
+@ 3790
+JP －
+EN －
+
+@ 3791
+JP バックエルボー
+EN Back Elbow
+
+@ 3792
+JP 腰投げ
+EN Hip Toss
+
+@ 3793
+JP －
+EN －
+
+@ 3794
+JP バックエルボー
+EN Back Elbow
+
+@ 3795
+JP 腰投げ
+EN Hip Toss
+
+@ 3796
+JP サムソンクラッチ
+EN Samson Clutch
+
+@ 3797
+JP ロープにエスケープ
+EN Escape to Ropes
+
+@ 3798
+JP バックエルボー
+EN Back Elbow
+
+@ 3799
+JP 腰投げ
+EN Hip Toss
+
+@ 3800
+JP トーキック
+EN Toe Kick
+
+@ 3801
+JP ニーリフト
+EN Knee Lift
+
+@ 3802
+JP －
+EN －
+
+@ 3803
+JP －
+EN －
+
+@ 3804
+JP －
+EN －
+
+@ 3805
+JP －
+EN －
+
+@ 3806
+JP －
+EN －
+
+@ 3807
+JP －
+EN －
+
+@ 3808
+JP －
+EN －
+
+@ 3809
+JP カウンターハイキック
+EN Counter High Kick
+
+@ 3810
+JP カウンター両足キック
+EN Counter Dropkick
+
+@ 3811
+JP トラースキック
+EN Thrust Kick
+
+@ 3812
+JP エルボーバット
+EN Elbow Butt
+
+@ 3813
+JP 腹にヘッドバット
+EN Headbutt to Gut
+
+@ 3814
+JP カニ挟み
+EN Kani Basami
+
+@ 3815
+JP ローリングクラッチホールド
+EN Rolling Clutch Hold
+
+@ 3816
+JP スクールボーイ
+EN School Boy
+
+@ 3817
+JP ヒールキック
+EN Heel Kick
+
+@ 3818
+JP ミドルキック
+EN Middle Kick
+
+@ 3819
+JP 逆さ押え込み
+EN Inverted Pin
+
+@ 3820
+JP ローリングクラッチホールド
+EN Rolling Clutch Hold
+
+@ 3821
+JP スモールパッケージホールド
+EN Small Package Hold
+
+@ 3822
+JP －
+EN －
+
+@ 3823
+JP エルボーパット
+EN Elbow Pat
+
+@ 3824
+JP ボディパンチ
+EN Body Punch
+
+@ 3825
+JP －
+EN －
+
+@ 3826
+JP －
+EN －
+
+@ 3827
+JP シャイニング・ウイザード破り
+EN Shining Wizard Counter
+
+@ 3828
+JP シャイニング・ブラック破り
+EN Shining Black Counter
+
+@ 3829
+JP スターネス・ウイザード破り
+EN Starness Wizard Ctr.
+
+@ 3830
+JP サンシャイン・ウイザード破り
+EN Sunshine Wizard Ctr.
+
+@ 3831
+JP ニーリフト破り
+EN Knee Lift Counter
+
+@ 3832
+JP シャイニング・ウイザード破り
+EN Shining Wizard Counter
+
+@ 3833
+JP ケンカキック破り
+EN Kenka Kick Counter
+
+@ 3834
+JP スターネス・ウイザード破り
+EN Starness Wizard Ctr.
+
+@ 3835
+JP サンシャイン・ウイザード破り
+EN Sunshine Wizard Ctr.
+
+@ 3836
+JP 葉隠れ破り
+EN Hagakure Counter
+
+@ 3837
+JP シャイニングブラック破り
+EN Shining Black Counter
+
+@ 3838
+JP ミドルキック破り
+EN Middle Kick Counter
+
+@ 3839
+JP －
+EN －
+
+@ 3840
+JP －
+EN －
+
+@ 3841
+JP －
+EN －
+
+@ 3842
+JP －
+EN －
+
+@ 3843
+JP －
+EN －
+
+@ 3844
+JP 顔面蹴り
+EN Face Kick
+
+@ 3845
+JP －
+EN －
+
+@ 3846
+JP －
+EN －
+
+@ 3847
+JP －
+EN －
+
+@ 3848
+JP －
+EN －
+
+@ 3849
+JP －
+EN －
+
+@ 3850
+JP －
+EN －
+
+@ 3851
+JP －
+EN －
+
+@ 3852
+JP －
+EN －
+
+@ 3853
+JP －
+EN －
+
+@ 3854
+JP －
+EN －
+
+@ 3855
+JP －
+EN －
+
+@ 3856
+JP －
+EN －
+
+@ 3857
+JP 逆さ押さえ込み
+EN Inverted Cradle
+
+@ 3858
+JP －
+EN －
+
+@ 3859
+JP －
+EN －
+
+@ 3860
+JP アトミックドロップ
+EN Atomic Drop
+
+@ 3861
+JP テキサスブルドーザー
+EN Texas Bulldozer
+
+@ 3862
+JP コブラツイスト
+EN Cobra Twist
+
+@ 3863
+JP －
+EN －
+
+@ 3864
+JP 逆エビ固め
+EN Boston Crab
+
+@ 3865
+JP スモールパッケージホールド
+EN Small Package Hold
+
+@ 3866
+JP ハンマースルー返し
+EN Irish Whip Reversal
+
+@ 3867
+JP ハンマースルーをこらえる
+EN Resist Irish Whip
+
+@ 3868
+JP 軸足払い
+EN Leg Sweep
+
+@ 3869
+JP －
+EN －
+
+@ 3870
+JP 回転軸足払い
+EN Spinning Leg Sweep
+
+@ 3871
+JP －
+EN －
+
+@ 3872
+JP －
+EN －
+
+@ 3873
+JP －
+EN －
+
+@ 3874
+JP －
+EN －
+
+@ 3875
+JP アームホイップ
+EN Arm Whip
+
+@ 3876
+JP アームホイップ
+EN Arm Whip
+
+@ 3877
+JP 体固め
+EN Cover
+
+@ 3878
+JP 体固め
+EN Cover
+
+@ 3879
+JP －
+EN －
+
+@ 3880
+JP －
+EN －
+
+@ 3881
+JP －
+EN －
+
+@ 3882
+JP －
+EN －
+
+@ 3883
+JP －
+EN －
+
+@ 3884
+JP －
+EN －
+
+@ 3885
+JP 巻き投げ
+EN Makikomi
+
+@ 3886
+JP －
+EN －
+
+@ 3887
+JP 三角絞め
+EN Triangle Choke
+
+@ 3888
+JP フランケンシュタイナー
+EN Frankensteiner
+
+@ 3889
+JP ウラカンラナ
+EN Huracanrana
+
+@ 3890
+JP ヘッドシザースホイップ
+EN Head Scissors Whip
+
+@ 3891
+JP －
+EN －
+
+@ 3892
+JP －
+EN －
+
+@ 3893
+JP －
+EN －
+
+@ 3894
+JP －
+EN －
+
+@ 3895
+JP ヘッドシザースホイップ
+EN Head Scissors Whip
+
+@ 3896
+JP ウラカンラナ
+EN Huracanrana
+
+@ 3897
+JP フランケンシュタイナー
+EN Frankensteiner
+
+@ 3898
+JP 前方回転エビ固め
+EN Sunset Flip
+
+@ 3899
+JP 三角絞め
+EN Triangle Choke
+
+@ 3900
+JP －
+EN －
+
+@ 3901
+JP －
+EN －
+
+@ 3902
+JP リバースプレス
+EN Reverse Press
+
+@ 3903
+JP －
+EN －
+
+@ 3904
+JP リバースプレス
+EN Reverse Press
+
+@ 3905
+JP －
+EN －
+
+@ 3906
+JP ロープ掴み断崖喉輪返し耐えて、バックエルボー
+EN Cliff Nodowa Counter, Back Elbow
+
+@ 3907
+JP ロープ掴み断崖エクスプロイダー返し耐えて、脳天エルボー（エクスプロイダー用）
+EN Rope Grab Cliff Exploder Counter, Brain Elbow (Exploder)
+
+@ 3908
+JP ロープ掴み断崖ハーフネルソン返し耐えて、バックエルボー（ハーフネルソン用）
+EN Cliff Half Nelson Counter, Back Elbow (Half Nelson)
+
+@ 3909
+JP ープ掴みエプロンジャーマン返し耐えて、バックエルボー（ジャーマン用）
+EN Rope Grab Apron German Counter, Back Elbow (German)
+
+@ 3910
+JP 耐えて、バックエルボー（喉輪用）
+EN Resist, Elbow (Nodowa)
+
+@ 3911
+JP 耐えて、脳天エルボー（エクスプロイダー用）
+EN Resist, Brain Elbow (Exploder)
+
+@ 3912
+JP 耐えて、バックエルボー（ハーフネルソン用）
+EN Resist, Elbow (Nelson)
+
+@ 3913
+JP 耐えて、バックエルボー（ジャーマン用）
+EN Resist, Back Elbow (German)
+
+@ 3914
+JP ジャイアントキック
+EN Giant Kick
+
+@ 3915
+JP ラリアット
+EN Lariat
+
+@ 3916
+JP タランチュラ
+EN Tarantula
+
+@ 3917
+JP －
+EN －
+
+@ 3918
+JP 延髄ラリアット
+EN Enzui Lariat
+
+@ 3919
+JP ＤＤＴ
+EN DDT
+
+@ 3920
+JP パワーボム
+EN Powerbomb
+
+@ 3921
+JP ドロップキック
+EN Dropkick
+
+@ 3922
+JP ジャンピングハイキック
+EN Jumping High Kick
+
+@ 3923
+JP ラリアット
+EN Lariat
+
+@ 3924
+JP パワースラム
+EN Powerslam
+
+@ 3925
+JP フェースクラッシャー
+EN Face Crusher
+
+@ 3926
+JP 高角度喉輪落とし
+EN High-Angle Nodowa
+
+@ 3927
+JP エルボーパット
+EN Elbow Pat
+
+@ 3928
+JP フック
+EN Hook
+
+@ 3929
+JP 雪崩式パワーボム
+EN Avalanche Powerbomb
+
+@ 3930
+JP －
+EN －
+
+@ 3931
+JP －
+EN －
+
+@ 3932
+JP －
+EN －
+
+@ 3933
+JP －
+EN －
+
+@ 3934
+JP 腕ひしぎ逆十字固め
+EN Cross Armbar
+
+@ 3935
+JP エビ固め
+EN Cradle
+
+@ 3936
+JP スモールパッケージホールド
+EN Small Package Hold
+
+@ 3937
+JP スモールパッケージホールド
+EN Small Package Hold
+
+@ 3938
+JP ツームストンドライバー
+EN Tombstone Driver
+
+@ 3939
+JP バックドロップ
+EN Backdrop
+
+@ 3940
+JP 捻り式バックドロップ
+EN Twisting Backdrop
+
+@ 3941
+JP ぶっこ抜きバックドロップ
+EN Bridging Backdrop
+
+@ 3942
+JP ジャンピングバックドロップ
+EN Jumping Backdrop
+
+@ 3943
+JP 高速バックドロップ
+EN Quick Backdrop
+
+@ 3944
+JP 抱え式バックドロップ
+EN Cradle Backdrop
+
+@ 3945
+JP ジャイアント抱え式バックドロップ
+EN Giant Cradle Backdrop
+
+@ 3946
+JP パワーボムホイップ
+EN Powerbomb Whip
+
+@ 3947
+JP パワーボムホイップ
+EN Powerbomb Whip
+
+@ 3948
+JP ドラゴンスクリュー
+EN Dragon Screw
+
+@ 3949
+JP ラリアット
+EN Lariat
+
+@ 3950
+JP アキレス腱固め
+EN Achilles Hold
+
+@ 3951
+JP ショルダーアームブリーカー
+EN Shoulder Armbreaker
+
+@ 3952
+JP ジャイアントアームブリーカー
+EN Giant Armbreaker
+
+@ 3953
+JP 一本背負い
+EN Ippon Seoi
+
+@ 3954
+JP 引き込み倒し
+EN Drag Down
+
+@ 3955
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 3956
+JP 飛びつき腕ひしぎ逆十字固め
+EN Flying Cross Armbar
+
+@ 3957
+JP リバースＤＤＴ
+EN Reverse DDT
+
+@ 3958
+JP 脳天膝蹴り
+EN Knee to Head
+
+@ 3959
+JP ＤＤＴ
+EN DDT
+
+@ 3960
+JP スリーパーホールド
+EN Sleeper Hold
+
+@ 3961
+JP 腕ひしぎ逆十字固め
+EN Cross Armbar
+
+@ 3962
+JP ドラゴンクラッチ
+EN Dragon Clutch
+
+@ 3963
+JP ＤＤＴ
+EN DDT
+
+@ 3964
+JP ピースクラッシャー
+EN Peace Crusher
+
+@ 3965
+JP 飛びつき腕ひしぎ逆十字
+EN Flying Armbar
+
+@ 3966
+JP ＤＤＴ
+EN DDT
+
+@ 3967
+JP リバースボム
+EN Reverse Bomb
+
+@ 3968
+JP －
+EN －
+
+@ 3969
+JP －
+EN －
+
+@ 3970
+JP －
+EN －
+
+@ 3971
+JP パワーボム
+EN Powerbomb
+
+@ 3972
+JP －
+EN －
+
+@ 3973
+JP －
+EN －
+
+@ 3974
+JP －
+EN －
+
+@ 3975
+JP －
+EN －
+
+@ 3976
+JP －
+EN －
+
+@ 3977
+JP 前方回転エビ固め
+EN Sunset Flip
+
+@ 3978
+JP －
+EN －
+
+@ 3979
+JP 変形スモールパッケージホールド
+EN Modified Small Package
+
+@ 3980
+JP －
+EN －
+
+@ 3981
+JP －
+EN －
+
+@ 3982
+JP －
+EN －
+
+@ 3983
+JP －
+EN －
+
+@ 3984
+JP －
+EN －
+
+@ 3985
+JP 両足タックル
+EN Double Leg
+
+@ 3986
+JP －
+EN －
+
+@ 3987
+JP ロープ掴み断崖パワーボム返しヘッドシザースホイップ返し（パワーボム用）
+EN Cliff PB Counter, Head Scissors Whip Counter (PB)
+
+@ 3988
+JP ロープ掴み断崖パワーボム返しバタ足こらえ（パワーボム用）
+EN Cliff PB Counter, Kick & Resist (PB)
+
+@ 3989
+JP 逆上がり（喉輪用）
+EN Pull Over (Nodowa)
+
+@ 3990
+JP ヘッドシザースホイップ返し（パワーボム用）
+EN Head Scissors Ctr. (PB)
+
+@ 3991
+JP バタ足こらえ（パワーボム用）
+EN Kick & Resist (PB)
+
+@ 3992
+JP －
+EN －
+
+@ 3993
+JP サミング
+EN Eye Thumb
+
+@ 3994
+JP 顔面掻きむしり倒し
+EN Face Rake Takedown
+
+@ 3995
+JP フライングメイヤー
+EN Snapmare
+
+@ 3996
+JP ファイヤーマンズキャリー
+EN Fireman's Carry
+
+@ 3997
+JP アームホイップ
+EN Arm Whip
+
+@ 3998
+JP 大外刈り
+EN Osoto-gari
+
+@ 3999
+JP カニ挟み
+EN Kani Basami
+
+@ 4000
+JP ニーリフト
+EN Knee Lift
+
+@ 4001
+JP 水車落とし
+EN Waterwheel Drop
+
+@ 4002
+JP －
+EN －
+
+@ 4003
+JP サミング
+EN Eye Thumb
+
+@ 4004
+JP 顔面掻きむしり倒し
+EN Face Rake Takedown
+
+@ 4005
+JP フライングメイヤー
+EN Snapmare
+
+@ 4006
+JP ファイヤーマンズキャリー
+EN Fireman's Carry
+
+@ 4007
+JP アームホイップ
+EN Arm Whip
+
+@ 4008
+JP 大外刈り
+EN Osoto-gari
+
+@ 4009
+JP カニ挟み
+EN Kani Basami
+
+@ 4010
+JP ニーリフト
+EN Knee Lift
+
+@ 4011
+JP 水車落とし
+EN Waterwheel Drop
+
+@ 4012
+JP －
+EN －
+
+@ 4013
+JP ハンマーブロー
+EN Hammer Blow
+
+@ 4014
+JP ボディパンチ
+EN Body Punch
+
+@ 4015
+JP エルボーパット
+EN Elbow Pat
+
+@ 4016
+JP パンチ
+EN Punch
+
+@ 4017
+JP トーキック
+EN Toe Kick
+
+@ 4018
+JP ニーリフト
+EN Knee Lift
+
+@ 4019
+JP －
+EN －
+
+@ 4020
+JP －
+EN －
+
+@ 4021
+JP エルボーパット
+EN Elbow Pat
+
+@ 4022
+JP 肩口にエルボーパット
+EN Elbow Pat to Shoulder
+
+@ 4023
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 4024
+JP ハンマースルー
+EN Irish Whip
+
+@ 4025
+JP －
+EN －
+
+@ 4026
+JP ハンマーブロー
+EN Hammer Blow
+
+@ 4027
+JP 顔面パンチ
+EN Face Punch
+
+@ 4028
+JP ストマックニーリフト
+EN Stomach Knee Lift
+
+@ 4029
+JP 反転ソバット
+EN Spinning Sobat
+
+@ 4030
+JP 延髄蹴り
+EN Enzui Kick
+
+@ 4031
+JP 顔面蹴り
+EN Face Kick
+
+@ 4032
+JP 膝十字固め
+EN Kneebar
+
+@ 4033
+JP 膝十字固め
+EN Kneebar
+
+@ 4034
+JP シャイニング・ウイザード
+EN Shining Wizard
+
+@ 4035
+JP －
+EN －
+
+@ 4036
+JP ボディパンチ
+EN Body Punch
+
+@ 4037
+JP ボディスラム
+EN Body Slam
+
+@ 4038
+JP ハイアングルボディスラム
+EN High-Angle Body Slam
+
+@ 4039
+JP ゴリラスラム
+EN Gorilla Slam
+
+@ 4040
+JP スモールパッケージホールド
+EN Small Package Hold
+
+@ 4041
+JP －
+EN －
+
+@ 4042
+JP スモールパッケージホールド
+EN Small Package Hold
+
+@ 4043
+JP ブレーンバスター
+EN Brainbuster
+
+@ 4044
+JP 高速ブレーンバスター
+EN Quick Brainbuster
+
+@ 4045
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 4046
+JP 胴絞めフロントネックロック
+EN Scissor Front Necklock
+
+@ 4047
+JP －
+EN －
+
+@ 4048
+JP －
+EN －
+
+@ 4049
+JP 水車落とし
+EN Waterwheel Drop
+
+@ 4050
+JP ノーザンライトスープレックスホールド
+EN N. Lights Suplex Hold
+
+@ 4051
+JP －
+EN －
+
+@ 4052
+JP ボディパンチ
+EN Body Punch
+
+@ 4053
+JP ツームストンパイルドライバー
+EN Tombstone Piledriver
+
+@ 4054
+JP キドクラッチ
+EN Kido Clutch
+
+@ 4055
+JP －
+EN －
+
+@ 4056
+JP 踏ん張って脳天エルボー
+EN Resist, Brain Elbow
+
+@ 4057
+JP スリーパーホールド
+EN Sleeper Hold
+
+@ 4058
+JP －
+EN －
+
+@ 4059
+JP 脳天エルボー
+EN Skull Elbow
+
+@ 4060
+JP 胴タックル
+EN Waist Tackle
+
+@ 4061
+JP －
+EN －
+
+@ 4062
+JP ニーリフト
+EN Knee Lift
+
+@ 4063
+JP ＤＤＴ
+EN DDT
+
+@ 4064
+JP フロントネックチャンスリー
+EN Front Neck Chancery
+
+@ 4065
+JP －
+EN －
+
+@ 4066
+JP ニーリフト
+EN Knee Lift
+
+@ 4067
+JP ＤＤＴ
+EN DDT
+
+@ 4068
+JP フロントネックチャンスリー
+EN Front Neck Chancery
+
+@ 4069
+JP －
+EN －
+
+@ 4070
+JP バックエルボー
+EN Back Elbow
+
+@ 4071
+JP 巻き投げ
+EN Makikomi
+
+@ 4072
+JP 払い腰
+EN Harai Goshi
+
+@ 4073
+JP －
+EN －
+
+@ 4074
+JP バックエルボー
+EN Back Elbow
+
+@ 4075
+JP 脳天エルボー
+EN Skull Elbow
+
+@ 4076
+JP 巻き投げ
+EN Makikomi
+
+@ 4077
+JP スモールパッケージホールド
+EN Small Package Hold
+
+@ 4078
+JP －
+EN －
+
+@ 4079
+JP バックエルボー
+EN Back Elbow
+
+@ 4080
+JP 払い投げる
+EN Sweep Throw
+
+@ 4081
+JP スモールパッケージホールド
+EN Small Package Hold
+
+@ 4082
+JP －
+EN －
+
+@ 4083
+JP －
+EN －
+
+@ 4084
+JP リバーススラム
+EN Reverse Slam
+
+@ 4085
+JP リバーススープレックス
+EN Reverse Suplex
+
+@ 4086
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 4087
+JP －
+EN －
+
+@ 4088
+JP リバーススラム
+EN Reverse Slam
+
+@ 4089
+JP ドラゴンスクリュー
+EN Dragon Screw
+
+@ 4090
+JP 膝十字固め
+EN Kneebar
+
+@ 4091
+JP キドクラッチ
+EN Kido Clutch
+
+@ 4092
+JP リバーススープレックス
+EN Reverse Suplex
+
+@ 4093
+JP －
+EN －
+
+@ 4094
+JP －
+EN －
+
+@ 4095
+JP －
+EN －
+
+@ 4096
+JP －
+EN －
+
+@ 4097
+JP －
+EN －
+
+@ 4098
+JP －
+EN －
+
+@ 4099
+JP －
+EN －
+
+@ 4100
+JP オモプラッタ
+EN Omoplata
+
+@ 4101
+JP フロントネックロック
+EN Front Necklock
+
+@ 4102
+JP 三角絞め
+EN Triangle Choke
+
+@ 4103
+JP アームロック
+EN Armlock
+
+@ 4104
+JP 腕ひしぎ逆十字固め
+EN Cross Armbar
+
+@ 4105
+JP アキレス腱固め
+EN Achilles Hold
+
+@ 4106
+JP 腕ひしぎ三角絞め
+EN Triangle Armbar
+
+@ 4107
+JP －
+EN －
+
+@ 4108
+JP －
+EN －
+
+@ 4109
+JP －
+EN －
+
+@ 4110
+JP －
+EN －
+
+@ 4111
+JP －
+EN －
+
+@ 4112
+JP －
+EN －
+
+@ 4113
+JP －
+EN －
+
+@ 4114
+JP ー
+EN -
+
+@ 4115
+JP －
+EN －
+
+@ 4116
+JP アキレス腱固め
+EN Achilles Hold
+
+@ 4117
+JP －
+EN －
+
+@ 4118
+JP －
+EN －
+
+@ 4119
+JP リバース水車落とし
+EN Rev. Waterwheel Drop
+
+@ 4120
+JP 水車落とし
+EN Waterwheel Drop
+
+@ 4121
+JP デスバレーボム
+EN Death Valley Bomb
+
+@ 4122
+JP ノーザンライトスープレックスホイップ
+EN N. Lights Suplex Whip
+
+@ 4123
+JP －
+EN －
+
+@ 4124
+JP デンジャラスボディスラム
+EN Dangerous Body Slam
+
+@ 4125
+JP スパインバスター
+EN Spinebuster
+
+@ 4126
+JP －
+EN －
+
+@ 4127
+JP サミング
+EN Eye Thumb
+
+@ 4128
+JP 顔面掻きむしり倒し
+EN Face Rake Takedown
+
+@ 4129
+JP フライングメイヤー
+EN Snapmare
+
+@ 4130
+JP ファイヤーマンズキャリー
+EN Fireman's Carry
+
+@ 4131
+JP アームホイップ
+EN Arm Whip
+
+@ 4132
+JP 大外刈り
+EN Osoto-gari
+
+@ 4133
+JP カニ挟み
+EN Kani Basami
+
+@ 4134
+JP ニーリフト
+EN Knee Lift
+
+@ 4135
+JP 水車落とし
+EN Waterwheel Drop
+
+@ 4136
+JP －
+EN －
+
+@ 4137
+JP 脳天エルボー
+EN Skull Elbow
+
+@ 4138
+JP －
+EN －
+
+@ 4139
+JP ココナッツクラッシュ
+EN Coconut Crush
+
+@ 4140
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 4141
+JP ブルドッキングヘッドロック
+EN Bulldog Headlock
+
+@ 4142
+JP ビクトル式膝十字固め
+EN Victor Kneebar
+
+@ 4143
+JP －
+EN －
+
+@ 4144
+JP 脳天エルボー
+EN Skull Elbow
+
+@ 4145
+JP －
+EN －
+
+@ 4146
+JP ココナッツクラッシュ
+EN Coconut Crush
+
+@ 4147
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 4148
+JP ブルドッキングヘッドロック
+EN Bulldog Headlock
+
+@ 4149
+JP ビクトル式膝十字固め
+EN Victor Kneebar
+
+@ 4150
+JP －
+EN －
+
+@ 4151
+JP 脳天エルボー
+EN Skull Elbow
+
+@ 4152
+JP －
+EN －
+
+@ 4153
+JP ココナッツクラッシュ
+EN Coconut Crush
+
+@ 4154
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 4155
+JP ブルドッキングヘッドロック
+EN Bulldog Headlock
+
+@ 4156
+JP ビクトル式膝十字固め
+EN Victor Kneebar
+
+@ 4157
+JP －
+EN －
+
+@ 4158
+JP －
+EN －
+
+@ 4159
+JP バックエルボー
+EN Back Elbow
+
+@ 4160
+JP 急所蹴り
+EN Low Blow Kick
+
+@ 4161
+JP ジャイアントレッグスピン
+EN Giant Leg Spin
+
+@ 4162
+JP 腰投げ
+EN Hip Toss
+
+@ 4163
+JP 足踏みつけ
+EN Foot Stomp
+
+@ 4164
+JP －
+EN －
+
+@ 4165
+JP －
+EN －
+
+@ 4166
+JP オーバーヘッドキック
+EN Overhead Kick
+
+@ 4167
+JP 輪廻
+EN Rinne
+
+@ 4168
+JP チキンウイングアームロック
+EN Chickenwing Armlock
+
+@ 4169
+JP 脇固め
+EN Fujiwara Armbar
+
+@ 4170
+JP ダイヤモンドカッター
+EN Diamond Cutter
+
+@ 4171
+JP 前転裏膝十字固め
+EN Rolling Rev. Kneebar
+
+@ 4172
+JP サムソンクラッチ
+EN Samson Clutch
+
+@ 4173
+JP －
+EN －
+
+@ 4174
+JP －
+EN －
+
+@ 4175
+JP ー
+EN -
+
+@ 4176
+JP 腰投げ
+EN Hip Toss
+
+@ 4177
+JP ネックスマッシュ
+EN Neck Smash
+
+@ 4178
+JP ハンマーブロー
+EN Hammer Blow
+
+@ 4179
+JP －
+EN －
+
+@ 4180
+JP －
+EN －
+
+@ 4181
+JP ー
+EN -
+
+@ 4182
+JP 腰投げ
+EN Hip Toss
+
+@ 4183
+JP －
+EN －
+
+@ 4184
+JP －
+EN －
+
+@ 4185
+JP ー
+EN -
+
+@ 4186
+JP 腰投げ
+EN Hip Toss
+
+@ 4187
+JP ー
+EN -
+
+@ 4188
+JP サムソンクラッチ
+EN Samson Clutch
+
+@ 4189
+JP －
+EN －
+
+@ 4190
+JP ー
+EN -
+
+@ 4191
+JP 腰投げ
+EN Hip Toss
+
+@ 4192
+JP －
+EN －
+
+@ 4193
+JP －
+EN －
+
+@ 4194
+JP 腰投げ
+EN Hip Toss
+
+@ 4195
+JP －
+EN －
+
+@ 4196
+JP －
+EN －
+
+@ 4197
+JP －
+EN －
+
+@ 4198
+JP －
+EN －
+
+@ 4199
+JP 下からパンチ
+EN Punch from Bottom
+
+@ 4200
+JP アームロック
+EN Armlock
+
+@ 4201
+JP 裏膝十字固め
+EN Reverse Kneebar
+
+@ 4202
+JP 捻り上げアームロック
+EN Twisting Armlock
+
+@ 4203
+JP ボティパンチ
+EN Body Punch
+
+@ 4204
+JP ニーリフト
+EN Knee Lift
+
+@ 4205
+JP 場外ブレーンバスター
+EN Outside Brainbuster
+
+@ 4206
+JP トーキック
+EN Toe Kick
+
+@ 4207
+JP ニーリフト
+EN Knee Lift
+
+@ 4208
+JP ブレーンバスター
+EN Brainbuster

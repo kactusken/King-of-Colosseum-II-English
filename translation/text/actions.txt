@@ -1,0 +1,2284 @@
+# Move categories and edit-mode help.
+# KC2FIRE.000 entry 1443 (strings) / 1444 (offsets) - see tools/pools.py.
+# Letters are stored full-width (2 bytes), spaces and new lines as 1 byte; keep %d codes.
+# A block's lines are the string's lines; a final empty line is a trailing new line.
+
+@ 0
+JP ベーシックアクション
+EN Basic Actions
+
+@ 1
+JP スタンディングアクション
+EN Standing Actions
+
+@ 2
+JP ダウンアクションＡ
+EN Down Actions A
+
+@ 3
+JP ダウンアクションＢ
+EN Down Actions B
+
+@ 4
+JP トップロープ飛びアクション
+EN Top Rope Dives
+
+@ 5
+JP クラッチアクション
+EN Clutch Actions
+
+@ 6
+JP ハンマースルーアクションＡ
+EN Irish Whip Actions A
+
+@ 7
+JP ハンマースルーアクションＢ
+EN Irish Whip Actions B
+
+@ 8
+JP グラウンドクラッチアクション
+EN Ground Clutch Actions
+
+@ 9
+JP タッグアクション
+EN Tag Actions
+
+@ 10
+JP トライアル
+EN Trial
+
+@ 11
+JP スパーリング
+EN Sparring
+
+@ 12
+JP ステップ１
+EN Step 1
+
+@ 13
+JP ロープワーク
+EN Rope Work
+
+@ 14
+JP 「ロープリバウンド」を「３回成功」させる
+EN Succeed at "Rope Rebound" 3 times
+
+@ 15
+JP ロープを利用したダッシュの操作
+EN Dashing off the ropes
+
+@ 16
+JP ロープダッシュ：「方向キー＋△ボタン」
+EN Rope dash: Direction + △
+
+@ 17
+JP 
+JP 
+EN 
+EN 
+
+@ 18
+JP 
+JP 
+EN 
+EN 
+
+@ 19
+JP ロープストップ
+EN Rope Stop
+
+@ 20
+JP 「ロープストップ」を「３回成功」させる
+EN Succeed at "Rope Stop" 3 times
+
+@ 21
+JP ロープリバウンドでダッシュを止める操作
+EN Stopping a dash off the rope rebound
+
+@ 22
+JP ロープダッシュ：「方向キー＋△ボタン」
+EN Rope dash: Direction + △
+
+@ 23
+JP ロープストップ：ロープリバウンド直前「△ボタン」
+EN Rope stop: △ just before the rebound
+
+@ 24
+JP 
+JP 
+EN 
+EN 
+
+@ 25
+JP 呼吸困難
+EN Breathlessness
+
+@ 26
+JP 「呼吸困難」を発生させる
+EN Become "Breathless"
+
+@ 27
+JP 呼吸困難が発生する感覚を掴む
+EN Get a feel for when you become breathless
+
+@ 28
+JP ロープダッシュ：「方向キー＋△ボタン」を続ける
+EN Keep rope dashing: Direction + △
+
+@ 29
+JP 
+JP 
+EN 
+EN 
+
+@ 30
+JP 
+JP 
+EN 
+EN 
+
+@ 31
+JP 呼吸回復
+EN Recover Breath
+
+@ 32
+JP 「呼吸を完全回復」させる
+EN Recover your breath completely
+
+@ 33
+JP 呼吸を回復させる操作
+EN Recovering your breath
+
+@ 34
+JP 呼吸回復：「Ｌ１ボタン」を押し続ける
+EN Recover breath: Hold L1
+
+@ 35
+JP 
+JP 
+EN 
+EN 
+
+@ 36
+JP 
+JP 
+EN 
+EN 
+
+@ 37
+JP 場外への出方
+EN Leaving the Ring
+
+@ 38
+JP 「場外へ出る」を「３回成功」させる
+EN Succeed at "Leave the ring" 3 times
+
+@ 39
+JP リングから場外へ出る操作
+EN Going from the ring to the floor
+
+@ 40
+JP エプロン際で「方向キー＋△ボタン」を押し続ける
+EN Hold Direction + △ at the apron edge
+
+@ 41
+JP 
+JP 
+EN 
+EN 
+
+@ 42
+JP 
+JP 
+EN 
+EN 
+
+@ 43
+JP リングへの入り方
+EN Entering the Ring
+
+@ 44
+JP 「リングへ戻る」を「３回成功」させる
+EN Succeed at "Return to the ring" 3 times
+
+@ 45
+JP 場外からリング内に入る操作
+EN Going from the floor into the ring
+
+@ 46
+JP リング際で「方向キー＋△ボタン」を押し続ける
+EN Hold Direction + △ at the ring edge
+
+@ 47
+JP 
+JP 
+EN 
+EN 
+
+@ 48
+JP 
+JP 
+EN 
+EN 
+
+@ 49
+JP エプロンへの出方
+EN Going to the Apron
+
+@ 50
+JP 「エプロンへ出る」を「３回成功」させる
+EN Succeed at "Go to the apron" 3 times
+
+@ 51
+JP リングからエプロンへ出る操作
+EN Going from the ring to the apron
+
+@ 52
+JP エプロン際で「方向キー＋△ボタン」を軽く押す
+EN Tap Direction + △ at the apron edge
+
+@ 53
+JP 
+JP 
+EN 
+EN 
+
+@ 54
+JP 
+JP 
+EN 
+EN 
+
+@ 55
+JP エプロンから場外へ降りる
+EN Dropping from the Apron
+
+@ 56
+JP 「場外へ降りる」を「３回成功」させる
+EN Succeed at "Drop to the floor" 3 times
+
+@ 57
+JP エプロンから場外へ降りる操作
+EN Dropping from the apron to the floor
+
+@ 58
+JP 「方向キー（場外方向）＋△ボタン」
+EN Direction (toward the floor) + △
+
+@ 59
+JP 
+JP 
+EN 
+EN 
+
+@ 60
+JP 
+JP 
+EN 
+EN 
+
+@ 61
+JP ダッシュイン
+EN Dash In
+
+@ 62
+JP 「ダッシュイン」を「３回成功」させる
+EN Succeed at "Dash In" 3 times
+
+@ 63
+JP 場外からリング内へダッシュして入る操作
+EN Dashing from the floor into the ring
+
+@ 64
+JP ロープダッシュ：「方向キー＋△ボタン」
+EN Rope dash: Direction + △
+
+@ 65
+JP ロープダッシュ中、「Ｒ１ボタン」を押し続ける
+EN While rope dashing, hold R1
+
+@ 66
+JP 
+JP 
+EN 
+EN 
+
+@ 67
+JP ダッシュアウト
+EN Dash Out
+
+@ 68
+JP 「ダッシュアウト」を「３回成功」させる
+EN Succeed at "Dash Out" 3 times
+
+@ 69
+JP リング内から場外へダッシュして出る操作
+EN Dashing from the ring out to the floor
+
+@ 70
+JP ロープダッシュ：「方向キー＋△ボタン」
+EN Rope dash: Direction + △
+
+@ 71
+JP ロープダッシュ中、「Ｒ１ボタン」を押し続ける
+EN While rope dashing, hold R1
+
+@ 72
+JP 
+JP 
+EN 
+EN 
+
+@ 73
+JP ポストに登る
+EN Climbing the Post
+
+@ 74
+JP 「ポストに登る」を「３回成功」させる
+EN Climb the post 3 times
+
+@ 75
+JP コーナーポストに登る操作
+EN Climbing a post
+
+@ 76
+JP コーナー際で「方向キー＋△ボタン」
+EN Direction + △ at corner
+
+@ 77
+JP 
+JP 
+EN 
+EN 
+
+@ 78
+JP 
+JP 
+EN 
+EN 
+
+@ 79
+JP ポストから降りる
+EN Climbing Down
+
+@ 80
+JP 「ポストから降りる」を「３回成功」させる
+EN Succeed at "Climb Down" 3 times
+
+@ 81
+JP コーナーポスト上から降りる操作
+EN Climbing off a post
+
+@ 82
+JP ポストに登る：コーナー際で「方向キー＋△ボタン」
+EN Climb: Direction + △ at a corner
+
+@ 83
+JP ポストから降りる：ポスト上で「方向キー下」
+EN Climb down: Down on the post
+
+@ 84
+JP 
+JP 
+EN 
+EN 
+
+@ 85
+JP ポスト駆け登り
+EN Running Up the Post
+
+@ 86
+JP 「ポスト駆け登り」を「３回成功」させる
+EN Run up the post 3 times
+
+@ 87
+JP コーナーポストに駆け登る操作
+EN Running up a post
+
+@ 88
+JP 「方向キー（ポスト方向）＋△ボタン」を押し続ける
+EN Hold Direction (toward the post) + △
+
+@ 89
+JP 
+JP 
+EN 
+EN 
+
+@ 90
+JP 
+JP 
+EN 
+EN 
+
+@ 91
+JP ステップ２
+EN Step 2
+
+@ 92
+JP 立ち技
+EN Standing
+
+@ 93
+JP 「立ち技」を「３回ヒット」させる
+EN Land "Standing" 3 times
+
+@ 94
+JP 相手に接近し、立ち技を仕掛ける操作
+EN Closing in for standing moves
+
+@ 95
+JP 「□／×／○ボタン」又は「方向キー＋（□／×／○ボタン）」
+EN □/×/○ or Direction + (□/×/○)
+
+@ 96
+JP 使う技によって間合いが異なる
+EN Range varies by move
+
+@ 97
+JP 
+JP 
+EN 
+EN 
+
+@ 98
+JP 立ち技（魂）
+EN Standing (Soul)
+
+@ 99
+JP 「立ち技（魂）」を「３回ヒット」させる
+EN Land "Soul Hits" 3 times
+
+@ 100
+JP ２つのボタン同時押しの魂技を仕掛ける操作
+EN Soul moves: 2 buttons at once
+
+@ 101
+JP 魂技１：「□＋×ボタン」
+EN Soul 1: □ + ×
+
+@ 102
+JP 魂技２：「方向キー＋（□＋×ボタン）」
+EN Soul 2: Direction + (□ + ×)
+
+@ 103
+JP １回使うたびに「魂」を「１個消費」
+EN Each use spends 1 "Soul"
+
+@ 104
+JP ガード
+EN Guard
+
+@ 105
+JP 「ガード」を「３回成功」させる
+EN Guard 3 times
+
+@ 106
+JP 相手の攻撃を防ぐ操作
+EN Blocking attacks
+
+@ 107
+JP 攻撃を受ける前に「Ｒ２ボタン」
+EN R2 before being hit
+
+@ 108
+JP 呼吸が乱れると「ガードクラッシュ」が発生し易い
+EN Bad breathing risks a "Guard Crush"
+
+@ 109
+JP ガードクラッシュ：無防備状態になる
+EN Guard Crush: left open
+
+@ 110
+JP キャッチ
+EN Catch
+
+@ 111
+JP 「キャッチ」を「３回成功」させる
+EN Catch 3 times
+
+@ 112
+JP 相手の攻撃を捕らえて反撃する操作
+EN Catching and countering
+
+@ 113
+JP キャッチ：「Ｒ２ボタン（又は、方向キー＋Ｒ２ボタン）」
+EN Catch: R2 (or Direction + R2)
+
+@ 114
+JP 攻撃がヒットする瞬間にタイミングを合わせる
+EN Time it to the moment of impact
+
+@ 115
+JP 
+JP 
+EN 
+EN 
+
+@ 116
+JP ホーミングダッシュ技
+EN Homing Dash Moves
+
+@ 117
+JP 「ホーミングダッシュ技」を「３回ヒット」させる
+EN Land "Homing Dash Moves" 3 times
+
+@ 118
+JP オートでダッシュ攻撃する操作
+EN Auto dash attack
+
+@ 119
+JP ホーミングダッシュ：「△ボタン」
+EN Homing dash: △
+
+@ 120
+JP ホーミングダッシュ中、「□／×／○／□＋×ボタン」
+EN During a homing dash, □/×/○/□+×
+
+@ 121
+JP 
+JP 
+EN 
+EN 
+
+@ 122
+JP ロープダッシュ技
+EN Rope Dash Moves
+
+@ 123
+JP 「ロープダッシュ技」を「３回ヒット」させる
+EN Land "Rope Dash Moves" 3 times
+
+@ 124
+JP 任意方向にダッシュ攻撃する操作
+EN Aimed dash attacks
+
+@ 125
+JP ロープダッシュ：「方向キー＋△ボタン」
+EN Rope dash: Direction + △
+
+@ 126
+JP ロープダッシュ中、「□／×／○／□＋×ボタン」
+EN During rope dash, □/×/○/□+×
+
+@ 127
+JP 
+JP 
+EN 
+EN 
+
+@ 128
+JP 凶器を拾う（場外）
+EN Get Weapon (Outside)
+
+@ 129
+JP 「凶器を拾う（場外）」を「３回成功」させる
+EN Get a weapon outside 3 times
+
+@ 130
+JP 凶器を拾う操作
+EN Grab a weapon
+
+@ 131
+JP 凶器を拾う：場外の鉄柵に密着して「方向キー＋Ｒ１ボタン」
+EN Get weapon: Direction + R1 at the barrier
+
+@ 132
+JP 
+JP 
+EN 
+EN 
+
+@ 133
+JP 
+JP 
+EN 
+EN 
+
+@ 134
+JP 凶器を拾う
+EN Pick Up a Weapon
+
+@ 135
+JP 「凶器を拾う」を「３回成功」させる
+EN Pick up a weapon 3 times
+
+@ 136
+JP 落ちている凶器を拾う操作
+EN Picking up a weapon
+
+@ 137
+JP 凶器を拾う：凶器に近づいて「Ｒ１ボタン」
+EN Get weapon: R1 next to a weapon
+
+@ 138
+JP 凶器を捨てる：凶器を携帯中に「Ｒ１ボタン」
+EN Drop weapon: R1 while holding one
+
+@ 139
+JP 攻撃を受けると、凶器を落とす
+EN Getting hit drops it
+
+@ 140
+JP 凶器攻撃
+EN Weapon Hit
+
+@ 141
+JP 「凶器攻撃」を「３回ヒット」させる
+EN Land "Weapon Hit" 3 times
+
+@ 142
+JP 凶器を使って攻撃する操作
+EN Weapon attacks
+
+@ 143
+JP 凶器攻撃：「□ボタン（小）／×ボタン（中）／○ボタン（大）」
+EN Weapon hit: □ light / × mid / ○ heavy
+
+@ 144
+JP 小攻撃は隙が小さく、ダメージが少ない
+EN Light hits: quick, weak
+
+@ 145
+JP 大攻撃は隙が大きく、ダメージが多い
+EN Heavy hits: slow, strong
+
+@ 146
+JP 走り凶器攻撃
+EN Dash Weapon Hit
+
+@ 147
+JP 「走り凶器攻撃」を「３回ヒット」させる
+EN Land "Dash Weapon Hit" 3 times
+
+@ 148
+JP 凶器を使ってダッシュ攻撃する操作
+EN Weapon dash attacks
+
+@ 149
+JP 走り凶器攻撃：ダッシュ中、「□／×／○ボタン」
+EN Dash weapon hit: □/×/○ in a dash
+
+@ 150
+JP 
+JP 
+EN 
+EN 
+
+@ 151
+JP 
+JP 
+EN 
+EN 
+
+@ 152
+JP 凶器攻撃をキャッチ
+EN Catch Weapon Attack
+
+@ 153
+JP 「凶器攻撃をキャッチ」を「３回成功」させる
+EN Succeed at "Weapon Catch" 3 times
+
+@ 154
+JP 相手の凶器を奪う操作
+EN Stealing a weapon
+
+@ 155
+JP キャッチ：「Ｒ２ボタン（又は、方向キー＋Ｒ２ボタン）」
+EN Catch: R2 (or Direction + R2)
+
+@ 156
+JP 凶器攻撃がヒットする瞬間にタイミングを合わせる
+EN Time it to the moment the weapon hits
+
+@ 157
+JP 
+JP 
+EN 
+EN 
+
+@ 158
+JP ステップ３
+EN Step 3
+
+@ 159
+JP ダウン技
+EN Down Moves
+
+@ 160
+JP 「ダウン技」を「３回ヒット」させる
+EN Land "Down Moves" 3 times
+
+@ 161
+JP ダウン状態の相手に攻撃する操作
+EN Hitting a downed opponent
+
+@ 162
+JP 「頭側」「腕側」「足側」で「□／×／○／□＋×ボタン」
+EN At the head, arm or legs: □/×/○/□+×
+
+@ 163
+JP 「仰向け／うつ伏せ」で技が変化
+EN Moves vary face-up/down
+
+@ 164
+JP 
+JP 
+EN 
+EN 
+
+@ 165
+JP フォール／絞め／関節技の解除
+EN Releasing Holds
+
+@ 166
+JP 「フォール／絞め／関節技」を解除する
+EN Release a "pin/choke/lock"
+
+@ 167
+JP 任意に技を解除する操作
+EN Letting go at will
+
+@ 168
+JP 技を極めている時に「×ボタン」
+EN × during the hold
+
+@ 169
+JP 
+JP 
+EN 
+EN 
+
+@ 170
+JP 
+JP 
+EN 
+EN 
+
+@ 171
+JP フォールから逃れる
+EN Escaping Pins
+
+@ 172
+JP 「フォール」を返す
+EN Kick out of a pin
+
+@ 173
+JP 相手のフォールから逃れる操作
+EN Kicking out of pins
+
+@ 174
+JP 「□／×／○／△ボタン」を連打
+EN Mash □/×/○/△
+
+@ 175
+JP 
+JP 
+EN 
+EN 
+
+@ 176
+JP 
+JP 
+EN 
+EN 
+
+@ 177
+JP 絞め／関節技から逃れる
+EN Escaping Holds
+
+@ 178
+JP 「絞め／関節技」から逃れる
+EN Escape a "choke/lock"
+
+@ 179
+JP 相手の絞め／関節技から逃れる操作
+EN Escaping chokes and locks
+
+@ 180
+JP 「方向キー＋（□／×／○／△ボタン）」を連打
+EN Mash Direction + (□/×/○/△)
+
+@ 181
+JP 「方向キー（ロープ方向）」を押しながら連打すれば、
+EN Hold Direction (to ropes) and mash
+
+@ 182
+JP 「ロープブレイク」の方向へ逃れられる
+EN to escape for a "Rope Break"
+
+@ 183
+JP ダウンダッシュ技
+EN Down Dash Moves
+
+@ 184
+JP 「ダウンダッシュ技」を「３回ヒット」させる
+EN Land "Down Dash Moves" 3 times
+
+@ 185
+JP ダウン状態の相手にダッシュ攻撃する操作
+EN Dashing at a downed opponent
+
+@ 186
+JP ダッシュ（ホーミング／ロープ）中、「□／×／○／□＋×ボタン」
+EN Dashing (homing/rope), □/×/○/□+×
+
+@ 187
+JP 「仰向け／うつ伏せ」で使える技が変化
+EN Moves vary face-up/down
+
+@ 188
+JP 
+JP 
+EN 
+EN 
+
+@ 189
+JP 相手を転がす
+EN Turning Over
+
+@ 190
+JP 「相手を転がす」を「３回成功」させる
+EN Succeed at "Turn Over" 3 times
+
+@ 191
+JP ダウン状態の相手を転がす操作
+EN Flipping an opponent
+
+@ 192
+JP 相手（ダウン中）の「腕側」で「Ｒ１ボタン＋△ボタン」
+EN R1 + △ at the arm side
+
+@ 193
+JP 
+JP 
+EN 
+EN 
+
+@ 194
+JP 
+JP 
+EN 
+EN 
+
+@ 195
+JP 相手を引きずる
+EN Dragging Opponent
+
+@ 196
+JP 「相手を引きずる」を「３回成功」させる
+EN Succeed at "Dragging" 3 times
+
+@ 197
+JP ダウン状態の相手を引きずる操作
+EN Dragging an opponent
+
+@ 198
+JP 相手（ダウン中）の「頭側／足側」で「△ボタン」
+EN △ at the head or feet
+
+@ 199
+JP 
+JP 
+EN 
+EN 
+
+@ 200
+JP 
+JP 
+EN 
+EN 
+
+@ 201
+JP 相手をまたぐ
+EN Stepping Over
+
+@ 202
+JP 「相手をまたぐ」を「３回成功」させる
+EN Succeed at "Step Over" 3 times
+
+@ 203
+JP ダウン状態の相手をまたぐ操作
+EN Straddling an opponent
+
+@ 204
+JP 相手（ダウン中）の「腕側」で「方向キー」を押し続ける
+EN Hold Direction at the arm side
+
+@ 205
+JP 
+JP 
+EN 
+EN 
+
+@ 206
+JP 
+JP 
+EN 
+EN 
+
+@ 207
+JP 相手を真横に引っ張る
+EN Pulling Sideways
+
+@ 208
+JP 「相手を真横に引っ張る」を「３回成功」させる
+EN Succeed at "Pulling Sideways" 3 times
+
+@ 209
+JP ダウン状態の相手を真横に引っ張る操作
+EN Pulling an opponent sideways
+
+@ 210
+JP 相手（ダウン中）の「腕側」で「△ボタン」
+EN △ at the arm side
+
+@ 211
+JP 
+JP 
+EN 
+EN 
+
+@ 212
+JP 
+JP 
+EN 
+EN 
+
+@ 213
+JP ローリング
+EN Rolling
+
+@ 214
+JP 「ローリングエスケープ」を「３回成功」させる
+EN Do "Rolling Escape" 3 times
+
+@ 215
+JP ダウン状態時にローリング移動する操作
+EN Rolling around while down
+
+@ 216
+JP ダウン中「□ボタン＋方向キー（ロープ方向）」
+EN Down: □ + Direction (to ropes)
+
+@ 217
+JP エプロン際で実行すると「ローリングエスケープ」
+EN At the apron: "Rolling Escape"
+
+@ 218
+JP 他、「□ボタン」を押し続けると「狸寝入り（ダウン維持）」
+EN Also, hold □ to "Play Possum (stay down)"
+
+@ 219
+JP 起き上がりフェイント
+EN Getting-Up Feint
+
+@ 220
+JP 「起き上がりフェイント」を「３回成功」させる
+EN Succeed at "Rising Feint" 3 times
+
+@ 221
+JP 起き上がり際にフェイントをする操作
+EN Feinting as you get up
+
+@ 222
+JP ダウン中に「×ボタン」を押し続ける
+EN Hold × while down
+
+@ 223
+JP 
+JP 
+EN 
+EN 
+
+@ 224
+JP 
+JP 
+EN 
+EN 
+
+@ 225
+JP 自らギブアップ
+EN Giving Up
+
+@ 226
+JP 「自らギブアップ」を「１回成功」させる
+EN Succeed at "Giving Up" once
+
+@ 227
+JP 任意にギブアップ負けをする操作
+EN Giving up at will
+
+@ 228
+JP 「絞め／関節技」を極められている時のみ
+EN Only when in a "choke/lock"
+
+@ 229
+JP 「Ｌ１＋Ｌ２＋Ｒ１＋Ｒ２ボタン」を「２秒間以上」押し続ける
+EN Hold "L1+L2+R1+R2" for "2 seconds or more"
+
+@ 230
+JP 
+JP 
+EN 
+EN 
+
+@ 231
+JP ステップ4
+EN Step 4
+
+@ 232
+JP 引き起こし（通常）
+EN Pick-up (Normal)
+
+@ 233
+JP 「引き起こし（通常）」を「３回成功」させる
+EN Do "Pick-up (Normal)" 3 times
+
+@ 234
+JP ダウン状態の相手を引き起こす操作
+EN Lifting a downed opponent
+
+@ 235
+JP 「頭側／足側」で「Ｒ１ボタン＋△ボタン」を押し続ける
+EN Hold R1 + △ at the head or feet
+
+@ 236
+JP 「仰向け／うつ伏せ」両面で実行可能
+EN Works face-up or face-down
+
+@ 237
+JP 
+JP 
+EN 
+EN 
+
+@ 238
+JP 引き起こし（半ダウン）
+EN Pick-up (Sitting)
+
+@ 239
+JP 「引き起こし（半ダウン）」を「３回成功」させる
+EN Do "Pick-up (Sitting)" 3 times
+
+@ 240
+JP 相手を半ダウン状態にする操作
+EN Sitting the opponent up
+
+@ 241
+JP 「頭側（仰向け）」で「Ｒ１ボタン＋△ボタン」
+EN R1 + △ at the head (face-up)
+
+@ 242
+JP 「△ボタン」は軽く押す
+EN Just tap △
+
+@ 243
+JP 
+JP 
+EN 
+EN 
+
+@ 244
+JP 半ダウン技
+EN Sitting Moves
+
+@ 245
+JP 「半ダウン技」を「３回成功」させる
+EN Land 3 "Sitting Moves"
+
+@ 246
+JP 半ダウン状態の相手を攻撃する操作
+EN Hitting a sitting opponent
+
+@ 247
+JP 「背中側」で「□／×／○／□＋×ボタン」
+EN □/×/○/□+× from behind
+
+@ 248
+JP 
+JP 
+EN 
+EN 
+
+@ 249
+JP 
+JP 
+EN 
+EN 
+
+@ 250
+JP 引き起こし（片膝ダウン）
+EN Pick-up (Kneeling)
+
+@ 251
+JP 「引き起こし（片膝ダウン）」を「３回成功」させる
+EN Do "Pick-up (Kneeling)" 3 times
+
+@ 252
+JP 相手を片膝ダウン状態にする操作
+EN Pulling up to one knee
+
+@ 253
+JP 「足側（仰向け）」で「Ｒ１ボタン＋△ボタン」
+EN R1 + △ at the feet (face-up)
+
+@ 254
+JP 「△ボタン」は軽く押す
+EN Just tap △
+
+@ 255
+JP 
+JP 
+EN 
+EN 
+
+@ 256
+JP 片膝ダウン技
+EN Kneeling Moves
+
+@ 257
+JP 「片膝ダウン技」を「３回成功」させる
+EN Land 3 "Kneeling Moves"
+
+@ 258
+JP 片膝ダウン状態の相手を攻撃する操作
+EN Attacking a kneeling opponent
+
+@ 259
+JP 「正面側」で「□／×／○／□＋×ボタン」
+EN □/×/○/□+× from the front
+
+@ 260
+JP また、「ダッシュ」を併用すると「片膝ダッシュ技」
+EN Add a dash: "Kneeling Dash Move"
+
+@ 261
+JP 主な技：「シャイニング・ウイザード」
+EN e.g. "Shining Wizard"
+
+@ 262
+JP 引き起こし（四つんばい）
+EN Pick-up (All Fours)
+
+@ 263
+JP 「引き起こし（四つんばいダウン）」を「３回成功」させる
+EN Succeed at "Pick-up (All Fours)" 3 times
+
+@ 264
+JP 相手を四つんばい状態にする操作
+EN Pulling up onto all fours
+
+@ 265
+JP 相手（うつ伏せ）の「頭側／足側」で「Ｒ１ボタン＋△ボタン」
+EN R1 + △ at head/feet (face-down)
+
+@ 266
+JP 「△ボタン」は軽く押す
+EN Just tap △
+
+@ 267
+JP 
+JP 
+EN 
+EN 
+
+@ 268
+JP 四つんばいダウン技
+EN All-Fours Moves
+
+@ 269
+JP 「四つんばいダウン技」を「３回成功」させる
+EN Succeed at "All Fours" 3 times
+
+@ 270
+JP 四つんばいダウン状態の相手に攻撃する操作
+EN Attacking an opponent on all fours
+
+@ 271
+JP 「頭／腕／足側」で「□／×／○／□＋×ボタン」
+EN □/×/○/□+× at head, arm or feet
+
+@ 272
+JP 
+JP 
+EN 
+EN 
+
+@ 273
+JP 
+JP 
+EN 
+EN 
+
+@ 274
+JP ステップ5
+EN Step 5
+
+@ 275
+JP ダウン飛び技（正面登り）
+EN Down Dives (Front)
+
+@ 276
+JP 「ダウン飛び技（正面登り）」を「３回成功」させる
+EN Land 3 "Down Dives (Front)"
+
+@ 277
+JP ポスト上からダウン中の相手に攻撃する操作
+EN Diving onto a downed opponent
+
+@ 278
+JP ポストに登る：「方向キー＋△ボタン」
+EN Climb: Direction + △
+
+@ 279
+JP ポスト上に待機中、「○／□＋×ボタン」
+EN While on the post, ○ or □+×
+
+@ 280
+JP 主な技：「ダイビングボディプレス」
+EN e.g. Diving Body Press
+
+@ 281
+JP 立ち飛び技
+EN Standing Dives
+
+@ 282
+JP 「立ち飛び技」を「３回成功」させる
+EN Land 3 "Standing Dives"
+
+@ 283
+JP ポスト上から立っている相手に攻撃する操作
+EN Diving onto a standing opponent
+
+@ 284
+JP ポストに登る：「方向キー＋△ボタン」
+EN Climb: Direction + △
+
+@ 285
+JP ポスト上に待機中、「□／×ボタン」
+EN While on the post, □ or ×
+
+@ 286
+JP 主な技：「ミサイルキック」
+EN e.g. Missile Kick
+
+@ 287
+JP ダウン飛び技（背面登り）
+EN Down Dives (Back)
+
+@ 288
+JP 「ダウン飛び技（背面登り）」を「３回成功」させる
+EN Succeed at "Down Dives (Back)" 3 times
+
+@ 289
+JP ポスト下からダイレクトに攻撃をする操作
+EN Attacking straight from below
+
+@ 290
+JP 「方向キー（ポスト方向）＋（□／×／○／□＋×ボタン）」
+EN Direction (to post) + (□/×/○/□+×)
+
+@ 291
+JP 主な技：「ムーンサルトプレス」
+EN e.g. Moonsault
+
+@ 292
+JP 「引きずる」「真横に引っ張る」で相手の位置調節
+EN Use "Drag" and "Pull Sideways" to aim
+
+@ 293
+JP ステップ6
+EN Step 6
+
+@ 294
+JP タイアップクラッチ
+EN Tie-Up Clutch
+
+@ 295
+JP 「タイアップクラッチ」を「３回成功」させる
+EN Do "Tie-Up Clutch" 3 times
+
+@ 296
+JP 相手にタイアップクラッチを仕掛ける操作
+EN Applying a Tie-Up Clutch
+
+@ 297
+JP 「正面側」で「Ｒ１ボタン＋△ボタン」
+EN R1 + △ from the front
+
+@ 298
+JP 
+JP 
+EN 
+EN 
+
+@ 299
+JP 
+JP 
+EN 
+EN 
+
+@ 300
+JP タイアップクラッチ技
+EN Tie-Up Clutch Moves
+
+@ 301
+JP 「タイアップクラッチ技」を「３回成功」させる
+EN Land 3 "Tie-Up Clutch Moves"
+
+@ 302
+JP タイアップクラッチから技を仕掛ける操作
+EN Moves from a Tie-Up Clutch
+
+@ 303
+JP タイアップクラッチ（ＴＣ）：「Ｒ１ボタン＋△ボタン」
+EN Tie-up clutch (TC): R1 + △
+
+@ 304
+JP 「腰を落とす瞬間（画面フラッシュ）」下記のボタンを押す
+EN At the "brace (flash)", press below
+
+@ 305
+JP ＴＣ成功後、「□／×／△／○／□＋×／△＋○ボタン」
+EN After a TC, □/×/△/○/□+×/△+○
+
+@ 306
+JP フロントヘッドロック
+EN Front Headlock
+
+@ 307
+JP 「フロントヘッドロック」を「３回成功」させる
+EN Do "Front Headlock" 3 times
+
+@ 308
+JP フロントヘッドロック（ＦＨ）で相手を拘束する操作
+EN Locking in a Front Headlock (FH)
+
+@ 309
+JP タイアップクラッチ：「Ｒ１ボタン＋△ボタン」成功後
+EN After a Tie-Up Clutch (R1 + △)
+
+@ 310
+JP 「腰を落とす瞬間（画面フラッシュ）」に「Ｒ２ボタン」
+EN When the hips sink (flash), press R2
+
+@ 311
+JP ＦＨ攻撃：「□／×／△／○ボタン」、移動：「方向キー」
+EN FH attacks: □/×/△/○, move: Direction
+
+@ 312
+JP 相手を回転させる
+EN Spinning the Opponent
+
+@ 313
+JP 「相手を回転させる」を「３回成功」させる
+EN Succeed at "Spin Opponent" 3 times
+
+@ 314
+JP 相手の体を回転させる操作
+EN Turning them around
+
+@ 315
+JP ピヨリ（行動不能状態）の相手に近づき「Ｒ３ボタン」
+EN Near a Dazed (helpless) foe, press R3
+
+@ 316
+JP 主な用途：「相手のバックをとる」
+EN Used to get behind them
+
+@ 317
+JP 
+JP 
+EN 
+EN 
+
+@ 318
+JP ジャーマンクラッチ技
+EN German Clutch Moves
+
+@ 319
+JP 「ジャーマンクラッチ技」を「３回成功」させる
+EN Do "German Clutch Moves" 3 times
+
+@ 320
+JP ジャーマンクラッチ（ＧＣ）技を仕掛ける操作
+EN Using German Clutch (GC) moves
+
+@ 321
+JP ＧＣ：「背面側」で「Ｒ１ボタン＋△ボタン」
+EN GC: R1 + △ from behind
+
+@ 322
+JP 「腰を落とす瞬間（画面フラッシュ）」下記のボタンを押す
+EN When the hips sink (screen flash), press:
+
+@ 323
+JP ＧＣ成功後、「□／×／△／○／□＋×／△＋○ボタン」
+EN After a GC, □/×/△/○/□+×/△+○
+
+@ 324
+JP 羽交い締め
+EN Full Nelson
+
+@ 325
+JP 「羽交い締め」を「３回成功」させる
+EN Do "Full Nelson" 3 times
+
+@ 326
+JP 相手を羽交い締めで拘束する操作
+EN Locking in a full nelson
+
+@ 327
+JP ＧＣ：「背面側」で「Ｒ１ボタン＋△ボタン」
+EN GC: R1 + △ from behind
+
+@ 328
+JP 「腰を落とす瞬間（画面フラッシュ）」下記のボタンを押す
+EN When the hips sink (screen flash), press:
+
+@ 329
+JP ＧＣ成功後、「Ｒ２ボタン」
+EN After a GC, R2
+
+@ 330
+JP 掴み技（リング内から）
+EN Ring Grapples
+
+@ 331
+JP 「掴み技（リング内から）」を「３回成功」させる
+EN Succeed at "Ring Grapples" 3 times
+
+@ 332
+JP リング内からエプロン上の相手を攻撃する操作
+EN Hitting an apron foe from inside
+
+@ 333
+JP エプロン際で「Ｒ１＋（□／×／△／○／□＋×／△＋○）」
+EN Apron edge: R1 + (□/×/△/○/□+×/△+○)
+
+@ 334
+JP 「腰を落とす瞬間（画面フラッシュ）」下記のボタンを押す
+EN When the hips sink (screen flash), press:
+
+@ 335
+JP 掴む成功後、「□／×／△／○／□＋×ボタン」
+EN After the grab, □/×/△/○/□+×
+
+@ 336
+JP 掴み技（エプロン上から）
+EN Apron Grapples
+
+@ 337
+JP 「掴み技（エプロン上から）」を「３回成功」させる
+EN Succeed at "Apron Grapples" 3 times
+
+@ 338
+JP エプロン上からリング内の相手を攻撃する操作
+EN Hitting a foe inside from the apron
+
+@ 339
+JP 掴む：エプロン上で「Ｒ１＋△ボタン」
+EN Grab: R1 + △ on the apron
+
+@ 340
+JP 「腰を落とす瞬間（画面フラッシュ）」下記のボタンを押す
+EN When the hips sink (screen flash), press:
+
+@ 341
+JP 掴む成功後、「□／×／△／○／□＋×ボタン」
+EN After the grab, □/×/△/○/□+×
+
+@ 342
+JP ステップ7
+EN Step 7
+
+@ 343
+JP ハンマースルー
+EN Irish Whip
+
+@ 344
+JP 「ハンマースルー」を「３回成功」させる
+EN Do "Irish Whip" 3 times
+
+@ 345
+JP 相手をロープへ振る操作
+EN Whipping to ropes
+
+@ 346
+JP ハンマースルー（ＨＴ）：ＴＣ後「方向キー＋Ｒ１ボタン（軽く押す）」
+EN Irish Whip (IW): after TC, Direction + tap R1
+
+@ 347
+JP 「腰を落とす瞬間（画面フラッシュ）」上記のボタンを押す
+EN Do it when the hips sink (screen flash)
+
+@ 348
+JP 必ず「ロープのある方向」に「方向キー」を入れる
+EN Always point Direction at the ropes
+
+@ 349
+JP カウンター技
+EN Counter Moves
+
+@ 350
+JP 「カウンター技」を「３回成功」させる
+EN Do "Counter Moves" 3 times
+
+@ 351
+JP ロープへ振った相手にカウンター攻撃する操作
+EN Countering a foe off the ropes
+
+@ 352
+JP ＨＴ：「Ｒ１ボタン＋△ボタン」後、「方向キー＋Ｒ１ボタン（軽く押す）」
+EN IW: after R1 + △, Direction + R1 (tap)
+
+@ 353
+JP 「腰を落とす瞬間（画面フラッシュ）」上記のボタンを押す
+EN Do it when the hips sink (screen flash)
+
+@ 354
+JP カウンター技：「Ｒ１ボタン＋（□／×／○／□＋×ボタン）」
+EN Counter moves: R1 + (□/×/○/□+×)
+
+@ 355
+JP 対角線ハンマースルー
+EN Diagonal Irish Whip
+
+@ 356
+JP 「対角線ハンマースルー」を「３回成功」させる
+EN Do "Diagonal Irish Whip" 3 times
+
+@ 357
+JP 相手をコーナーダウンさせる操作
+EN Whipping into a corner
+
+@ 358
+JP 対角線ＨＴ：「Ｒ１＋△ボタン」後、「方向キー＋Ｒ１ボタン（軽く押す）」
+EN Diagonal IW: after R1 + △, Direction + R1 (tap)
+
+@ 359
+JP 「腰を落とす瞬間（画面フラッシュ）」上記のボタンを押す
+EN Do it when the hips sink (screen flash)
+
+@ 360
+JP 必ず「ポストのある方向」に「方向キー」を入れる
+EN Always point Direction at a corner
+
+@ 361
+JP 対角線ダッシュ技
+EN Diagonal Dash Moves
+
+@ 362
+JP 「対角線ダッシュ技」を「３回成功」させる
+EN Do "Diagonal Dash" 3 times
+
+@ 363
+JP コーナーダウン中の相手にダッシュ攻撃する操作
+EN Dash attacks on a foe in the corner
+
+@ 364
+JP 対角線ＨＴ：「Ｒ１＋△ボタン」後、「方向キー＋Ｒ１ボタン（軽く押す）」
+EN Diagonal IW: after R1 + △, Direction + R1 (tap)
+
+@ 365
+JP 「腰を落とす瞬間（画面フラッシュ）」上記のボタンを押す
+EN Do it when the hips sink (screen flash)
+
+@ 366
+JP 対角線ダッシュ技：「□／×／○／□＋×ボタン」
+EN Diagonal dash moves: □/×/○/□+×
+
+@ 367
+JP コーナーダウン技
+EN Corner Down Moves
+
+@ 368
+JP 「コーナーダウン技」を「３回成功」させる
+EN Do "Corner Down Moves" 3 times
+
+@ 369
+JP コーナーダウン中の相手に攻撃する操作
+EN Attacking a foe in the corner
+
+@ 370
+JP 対角線ＨＴ：「Ｒ１＋△ボタン」後、「方向キー＋Ｒ１ボタン（軽く押す）」
+EN Diagonal IW: after R1 + △, Direction + R1 (tap)
+
+@ 371
+JP 「腰を落とす瞬間（画面フラッシュ）」上記のボタンを押す
+EN Do it when the hips sink (screen flash)
+
+@ 372
+JP コーナーダウン技：相手に接近し「□／×／○／□＋×ボタン」
+EN Corner down moves: get close, □/×/○/□+×
+
+@ 373
+JP コーナー組み技
+EN Corner Grapples
+
+@ 374
+JP 「コーナー組み技（雪崩式技）」を「３回成功」させる
+EN "Corner Grapples (Avalanche)" 3 times
+
+@ 375
+JP コーナーダウン中の相手に雪崩式技を仕掛ける操作
+EN Avalanche moves on a foe in the corner
+
+@ 376
+JP 対角線ＨＴ：「Ｒ１＋△ボタン」後、「方向キー＋Ｒ１ボタン（軽く押す）」
+EN Diagonal IW: after R1 + △, Direction + R1 (tap)
+
+@ 377
+JP 「腰を落とす瞬間（画面フラッシュ）」上記のボタンを押す
+EN Do it when the hips sink (screen flash)
+
+@ 378
+JP 雪崩式技：接近して「Ｒ１ボタン＋（□／×／○／□＋×ボタン）」
+EN Avalanche: get close, R1 + (□/×/○/□+×)
+
+@ 379
+JP コーナー逆さ吊り
+EN Tree of Woe
+
+@ 380
+JP 「コーナー逆さ吊り」を「３回成功」させる
+EN Succeed at "Tree of Woe" 3 times
+
+@ 381
+JP コーナーダウン中の相手を逆さ吊りで拘束する操作
+EN Hanging a foe in the Tree of Woe
+
+@ 382
+JP 対角線ＨＴ：「Ｒ１＋△ボタン」後、「方向キー＋Ｒ１ボタン（軽く押す）」
+EN Diagonal IW: after R1 + △, Direction + R1 (tap)
+
+@ 383
+JP 「腰を落とす瞬間（画面フラッシュ）」上記のボタンを押す
+EN Do it when the hips sink (screen flash)
+
+@ 384
+JP コーナー逆さ吊り：相手に接近し「Ｒ１ボタン＋△ボタン」
+EN Tree of Woe: get close, R1 + △
+
+@ 385
+JP ステップ8
+EN Step 8
+
+@ 386
+JP ハンマースルー（場外）
+EN Irish Whip (Outside)
+
+@ 387
+JP 「ハンマースルー（場外）」を「３回成功」させる
+EN Do "Irish Whip (Outside)" 3 times
+
+@ 388
+JP リング内から相手を場外へ放り出す操作
+EN Throwing a foe out of the ring
+
+@ 389
+JP タイアップクラッチ：「Ｒ１ボタン＋△ボタン」後、
+EN After a Tie-Up Clutch (R1 + △),
+
+@ 390
+JP 「腰を落とす瞬間（画面フラッシュ）」下記のボタンを押す
+EN When the hips sink (screen flash), press:
+
+@ 391
+JP ハンマースルー（場外）：「Ｒ１ボタン」を押し続ける
+EN Irish Whip (Outside): hold R1
+
+@ 392
+JP 場外飛び技（プランチャ）
+EN Dive (Plancha)
+
+@ 393
+JP 「場外飛び技（プランチャ）」を「３回成功」させる
+EN Succeed at "Dive (Plancha)" 3 times
+
+@ 394
+JP エプロン際から場外の相手にプランチャ攻撃する操作
+EN Plancha from the edge to a foe outside
+
+@ 395
+JP ＴＣ：ロープを背に「Ｒ１ボタン＋△ボタン」後、
+EN Back to ropes, TC (R1 + △), then
+
+@ 396
+JP ハンマースルー（場外）：「Ｒ１ボタン」を押し続ける
+EN Irish Whip (Outside): hold R1
+
+@ 397
+JP プランチャ：「方向キー＋（□／×／○／□＋×ボタン）」
+EN Plancha: Direction + (□/×/○/□+×)
+
+@ 398
+JP 場外飛び技（トペ）
+EN Outside Dive (Tope)
+
+@ 399
+JP 「場外飛び技（トペ）」を「３回成功」させる
+EN Succeed at "Dive (Tope)" 3 times
+
+@ 400
+JP リング中央から場外の相手にトペ攻撃する操作
+EN Tope from mid-ring to a foe outside
+
+@ 401
+JP ＴＣ：ロープを背に「Ｒ１ボタン＋△ボタン」後、
+EN Back to ropes, TC (R1 + △), then
+
+@ 402
+JP ハンマースルー（場外）：「Ｒ１ボタン」を押し続ける
+EN Irish Whip (Outside): hold R1
+
+@ 403
+JP トペ：ロープリバウンド中、「□／×／○／□＋×ボタン（押し続ける）」
+EN Tope: during a rope rebound, hold □/×/○/□+×
+
+@ 404
+JP エプロン技（エプロンダッシュ）
+EN Apron Dash
+
+@ 405
+JP 「エプロン技（エプロンダッシュ）」を「３回成功」させる
+EN Succeed at "Apron Dash" 3 times
+
+@ 406
+JP エプロン上から場外の相手を攻撃する操作
+EN Apron attacks on a foe outside
+
+@ 407
+JP ＴＣ：ロープを背に「Ｒ１ボタン＋△ボタン」後、
+EN Back to ropes, TC (R1 + △), then
+
+@ 408
+JP ハンマースルー（場外）：「Ｒ１ボタン」を押し続ける
+EN Irish Whip (Outside): hold R1
+
+@ 409
+JP 「エプロン上」で「ロープダッシュ」後、「□／×／○／□＋×ボタン」
+EN Rope dash on the apron, then □/×/○/□+×
+
+@ 410
+JP エプロン技（スワンダイブ）
+EN Springboard
+
+@ 411
+JP 「エプロン技（スワンダイブ）」を「３回成功」させる
+EN Succeed at "Springboard" 3 times
+
+@ 412
+JP エプロン上からリング内の相手を攻撃する操作
+EN Apron attacks on a foe in the ring
+
+@ 413
+JP ＴＣ：ロープを背に「Ｒ１ボタン＋△ボタン」後、
+EN Back to ropes, TC (R1 + △), then
+
+@ 414
+JP ハンマースルー（リング内）：「Ｒ１ボタン」を押し続ける
+EN Irish Whip (In Ring): hold R1
+
+@ 415
+JP スワンダイブ：エプロン上で「×／○／□＋×ボタン」
+EN Springboard: on apron, ×/○/□+×
+
+@ 416
+JP ステップ9
+EN Step 9
+
+@ 417
+JP 走りタックル
+EN Running Tackle
+
+@ 418
+JP 「走りタックル」を「３回成功」させる
+EN Do "Running Tackle" 3 times
+
+@ 419
+JP 強引にグラウンドの展開に持ち込む操作
+EN Forcing the fight to the mat
+
+@ 420
+JP ホーミングダッシュ：「△ボタン」
+EN Homing dash: △
+
+@ 421
+JP 走りタックル：「ホーミングダッシュ」後、「□ボタン」
+EN Running tackle: homing dash, □
+
+@ 422
+JP 
+JP 
+EN 
+EN 
+
+@ 423
+JP がぶり
+EN Facelock
+
+@ 424
+JP 「がぶり」を「３回成功」させる
+EN Do "Facelock" 3 times
+
+@ 425
+JP 相手のタックルをがぶりで対処する操作
+EN Stop a tackle with a facelock
+
+@ 426
+JP がぶり：相手のタックルが当たる瞬間に「Ｒ２ボタン」
+EN Facelock: R2 as the foe's tackle hits
+
+@ 427
+JP 
+JP 
+EN 
+EN 
+
+@ 428
+JP 
+JP 
+EN 
+EN 
+
+@ 429
+JP ガードポジション技
+EN Guard Position Moves
+
+@ 430
+JP 「ガードポジション技」を「３回成功」させる
+EN Do "Guard Position" 3 times
+
+@ 431
+JP ガードポジション（ＧＰ）から攻撃する操作
+EN Guard position (GP) attacks
+
+@ 432
+JP 走りタックル：「ホーミングダッシュ」後、「□ボタン」
+EN Running tackle: homing dash, □
+
+@ 433
+JP 「腰を落とす瞬間（画面フラッシュ）」下記のボタンを押す
+EN When the hips sink (screen flash), press:
+
+@ 434
+JP ＧＰ技：「□／×／△／○／□＋×／△＋○／Ｒ１ボタン」
+EN GP moves: □/×/△/○/□+×/△+○/R1
+
+@ 435
+JP ステップ10
+EN Step 10
+
+@ 436
+JP タッチ
+EN Tag
+
+@ 437
+JP 「タッチ」を「３回成功」させる
+EN Do "Tag" 3 times
+
+@ 438
+JP エプロン待機中のパートナーと交代する操作
+EN Tagging a partner on the apron
+
+@ 439
+JP タッチ：「パートナー方向」の「方向キー＋Ｌ１ボタン」
+EN Tag: Direction (to partner) + L1
+
+@ 440
+JP 試合権利のある選手がリング内におり
+EN When the legal man is inside
+
+@ 441
+JP パートナーがエプロン待機中に行える
+EN and partner on the apron
+
+@ 442
+JP 手招き＆タッチ
+EN Beckon & Tag
+
+@ 443
+JP 「手招き＆タッチ」を「３回成功」させる
+EN Do "Beckon & Tag" 3 times
+
+@ 444
+JP パートナー（ＣＯＭ）を呼び戻し交代する操作
+EN Calling your CPU partner to tag
+
+@ 445
+JP 手招き＆タッチ：エプロン待機中、「△ボタン」
+EN Beckon & tag: on the apron, △
+
+@ 446
+JP 
+JP 
+EN 
+EN 
+
+@ 447
+JP 
+JP 
+EN 
+EN 
+
+@ 448
+JP タッチ（強制）
+EN Tag (Forced)
+
+@ 449
+JP 「タッチ（強制）」を「３回成功」させる
+EN Do "Tag (Forced)" 3 times
+
+@ 450
+JP パートナー（ＣＯＭ）と強制的に交代する操作
+EN Forcing a tag with a CPU partner
+
+@ 451
+JP タッチ（強制）：パートナー（ＣＯＭ）が近くにいる時に「Ｌ１ボタン」
+EN Forced tag: L1 when your CPU partner is close
+
+@ 452
+JP 
+JP 
+EN 
+EN 
+
+@ 453
+JP 
+JP 
+EN 
+EN 
+
+@ 454
+JP カット攻撃
+EN Cut Attacks
+
+@ 455
+JP 「カット攻撃」を「３回成功」させる
+EN Do "Cut Attacks" 3 times
+
+@ 456
+JP 技を極められているパートナーを助ける操作
+EN Saving a partner caught in a hold
+
+@ 457
+JP カット攻撃：パートナーに近づき「□／×／○ボタン」
+EN Cut attack: near partner, □/×/○
+
+@ 458
+JP 
+JP 
+EN 
+EN 
+
+@ 459
+JP 
+JP 
+EN 
+EN 
+
+@ 460
+JP ダッシュカット攻撃
+EN Dash Cut Attack
+
+@ 461
+JP 「ダッシュカット攻撃」を「３回成功」させる
+EN Do "Dash Cut Attack" 3 times
+
+@ 462
+JP 技を極められているパートナーをダッシュで助ける操作
+EN Dashing in to save a trapped partner
+
+@ 463
+JP ダッシュカット攻撃：「ダッシュ」中、「□／×／○ボタン」
+EN Dash cut attack: during dash, □/×/○
+
+@ 464
+JP 
+JP 
+EN 
+EN 
+
+@ 465
+JP 
+JP 
+EN 
+EN 
+
+@ 466
+JP ターゲットチェンジ
+EN Switch Target
+
+@ 467
+JP 「ターゲットチェンジ」を「３回成功」させる
+EN Do "Switch Target" 3 times
+
+@ 468
+JP 闘う相手を切り替える操作
+EN Switching opponents
+
+@ 469
+JP ターゲットチェンジ：「Ｌ２ボタン」
+EN Switch target: L2
+
+@ 470
+JP 
+JP 
+EN 
+EN 
+
+@ 471
+JP 
+JP 
+EN 
+EN 
+
+@ 472
+JP ツープラトン技（正面）
+EN Double Team (Front)
+
+@ 473
+JP 「ツープラトン技（正面）」を「３回成功」させる
+EN Do "Double Team (Front)" 3 times
+
+@ 474
+JP パートナーと協力する攻撃操作
+EN Double-teaming a foe
+
+@ 475
+JP リング上で「２対１の状況」になった時
+EN When it's 2-on-1 in the ring
+
+@ 476
+JP ツープラトン技（正面）：相手正面から「□ボタン」
+EN Team-up (front): □ from front
+
+@ 477
+JP 
+JP 
+EN 
+EN 
+
+@ 478
+JP ツープラトン技（背面）
+EN Double Team (Rear)
+
+@ 479
+JP 「ツープラトン技（背面）」を「３回成功」させる
+EN Do "Double Team (Rear)" 3 times
+
+@ 480
+JP パートナーと協力する攻撃操作
+EN Double-teaming a foe
+
+@ 481
+JP リング上で「２対１の状況」になった時
+EN When it's 2-on-1 in the ring
+
+@ 482
+JP ツープラトン技（背面）：相手背面から「□ボタン」
+EN Team-up (rear): □ from behind
+
+@ 483
+JP 
+JP 
+EN 
+EN 
+
+@ 484
+JP ツープラトン技（コーナー）
+EN Double Team (Corner)
+
+@ 485
+JP 「ツープラトン技（コーナー）」を「３回成功」させる
+EN Do "Double Team (Corner)" 3 times
+
+@ 486
+JP パートナーと協力する攻撃操作
+EN Double-teaming a foe
+
+@ 487
+JP 相手を「自軍コーナー」に「コーナーダウン」させる
+EN Slump the foe in your own corner
+
+@ 488
+JP パートナー（味方）が「エプロン上」に待機している時
+EN while your partner waits on the apron
+
+@ 489
+JP ツープラトン技（コーナー）：相手に接近し「□＋×ボタン」
+EN Team-up (corner): get close, □ + ×
+
+@ 490
+JP 引っ張り落とす（リング内から）
+EN Pull Down (from the Ring)
+
+@ 491
+JP 「引っ張り落とす（リング内から）」を「３回成功」させる
+EN Do "Pull Down (from the Ring)" 3 times
+
+@ 492
+JP リング上の相手を場外に引っ張り落とす操作
+EN Pulling a foe out of the ring
+
+@ 493
+JP 「方向キー（相手側）＋（Ｒ１ボタン＋△ボタン）」
+EN Direction (toward foe) + (R1 + △)
+
+@ 494
+JP 
+JP 
+EN 
+EN 
+
+@ 495
+JP 
+JP 
+EN 
+EN 
+
+@ 496
+JP 引っ張り落とす（エプロンから）
+EN Pull Down (Apron)
+
+@ 497
+JP 「引っ張り落とす（エプロンから）」を「３回成功」させる
+EN Succeed at "Pull Down (Apron)" 3 times
+
+@ 498
+JP エプロン上の相手を場外に引っ張り落とす操作
+EN Pulling a foe off the apron
+
+@ 499
+JP 「方向キー（相手側）＋（Ｒ１ボタン＋△ボタン）」
+EN Direction (toward foe) + (R1 + △)
+
+@ 500
+JP 
+JP 
+EN 
+EN 
+
+@ 501
+JP 
+JP 
+EN 
+EN 
+
+@ 502
+JP 相手をこかす（ダッシュ中）
+EN Trip (Dashing)
+
+@ 503
+JP 「相手をこかす（ダッシュ中）」を「３回成功」させる
+EN Succeed at "Trip (Dashing)" 3 times
+
+@ 504
+JP 相手を場外から転倒させる操作
+EN Tripping from the floor
+
+@ 505
+JP 「ロープリバウンド中」の「方向キー（相手側）＋（Ｒ１ボタン＋△ボタン）」
+EN On the rebound: Direction (toward foe) + (R1 + △)
+
+@ 506
+JP ロープストップを行う時のタイミングで操作を行う
+EN Use the same timing as a rope stop
+
+@ 507
+JP 
+JP 
+EN 
+EN 
+
+@ 508
+JP デットリードライブ
+EN Deadly Drive
+
+@ 509
+JP 「デットリードライブ」を「３回成功」させる
+EN Do "Deadly Drive" 3 times
+
+@ 510
+JP コーナーポスト待機中の相手を投げ落とす操作
+EN Throwing a foe off the corner post
+
+@ 511
+JP コーナーポスト方向の「方向キー＋（□／×／○ボタン）」
+EN Direction (toward post) + (□/×/○)
+
+@ 512
+JP 
+JP 
+EN 
+EN 
+
+@ 513
+JP 
+JP 
+EN 
+EN 
+
+@ 514
+JP ステップ11
+EN Step 11
+
+@ 515
+JP テストマッチ
+EN Test Match
+
+@ 516
+JP 「小鉄」と試合を行い、「３カウント／ギブアップ」を奪う
+EN Beat Kotetsu by 3 count or submission
+
+@ 517
+JP 「フォール技」による「３カウント」を奪え！
+EN Get a 3 count with a pin!
+
+@ 518
+JP 又は「絞め／関節技」による「ギブアップ」を奪え！
+EN Or make him give up to a choke or lock!
+
+@ 519
+JP 「時間切れ／リングアウト／反則」での決着は無い！
+EN No finishes by time, ring-out or DQ!
+
+@ 520
+JP 身に付けた「技術」と「知識」を結集し、「小鉄」を倒せ！
+EN Use all you've learned to beat Kotetsu!
+
+@ 521
+JP ステップ12
+EN Step 12
+
+@ 522
+JP フリー
+EN Free
+
+@ 523
+JP 実戦を想定して練習生を倒せ
+EN Beat a trainee for real
+
+@ 524
+JP 「スタートボタン」を押すと「コンフィグ設定」が可能
+EN Press START for Config settings
+
+@ 525
+JP 
+JP 
+EN 
+EN 
+
+@ 526
+JP 
+JP 
+EN 
+EN 
+
+@ 527
+JP 
+JP 
+EN 
+EN 

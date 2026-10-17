@@ -1,0 +1,1814 @@
+# Text in the executable (SLPM_656.02) - see tools/elftext.py.
+# Replaced in place. Single-line strings are stored as ASCII (1 byte a letter), multi-line ones
+# full-width (2 bytes). The block id is the file offset; "slot=N" is the room in bytes.
+
+@ 230f60 slot=73
+JP アントニオ猪木
+EN Antonio Inoki
+
+@ 230fb4 slot=73
+JP 藤波　辰巳
+EN Tatsumi Fujinami
+
+@ 231008 slot=73
+JP 藤波　辰巳
+EN Tatsumi Fujinami
+
+@ 23105c slot=73
+JP 高山　善廣
+EN Yoshihiro Takayama
+
+@ 2310b0 slot=73
+JP 天山　広吉
+EN Hiroyoshi Tenzan
+
+@ 231104 slot=73
+JP 中邑　真輔
+EN Shinsuke Nakamura
+
+@ 231158 slot=73
+JP 天山　広吉
+EN Hiroyoshi Tenzan
+
+@ 2311ac slot=73
+JP 佐々木　健介
+EN Kensuke Sasaki
+
+@ 231200 slot=73
+JP ボブ・サップ
+EN Bob Sapp
+
+@ 231254 slot=73
+JP 藤田 和之
+EN Kazuyuki Fujita
+
+@ 2312b2 slot=73
+JP 高山　善廣
+EN Yoshihiro Takayama
+
+@ 231306 slot=73
+JP 中邑　真輔
+EN Shinsuke Nakamura
+
+@ 231604 slot=73
+JP 藤波　辰巳
+EN Tatsumi Fujinami
+
+@ 231629 slot=73
+JP 木村　健吾
+EN Kengo Kimura
+
+@ 231658 slot=73
+JP 前田　日明
+EN Akira Maeda
+
+@ 23167d slot=73
+JP 木戸　修
+EN Osamu Kido
+
+@ 2316ac slot=73
+JP 藤波　辰巳
+EN Tatsumi Fujinami
+
+@ 2316d1 slot=73
+JP 木村　健吾
+EN Kengo Kimura
+
+@ 231700 slot=73
+JP 天山　広吉
+EN Hiroyoshi Tenzan
+
+@ 231725 slot=73
+JP 小島　聡
+EN Satoshi Kojima
+
+@ 231754 slot=73
+JP 藤波　辰爾
+EN Tatsumi Fujinami
+
+@ 231779 slot=73
+JP 西村　修
+EN Osamu Nishimura
+
+@ 2317a8 slot=73
+JP 武藤　敬司
+EN Keiji Mutoh
+
+@ 2317cd slot=73
+JP 太陽　ケア
+EN Taiyo Kea
+
+@ 2317fc slot=73
+JP 蝶野　正洋
+EN Masahiro Chono
+
+@ 231821 slot=73
+JP 天山　広吉
+EN Hiroyoshi Tenzan
+
+@ 231850 slot=73
+JP 棚橋　弘至
+EN Hiroshi Tanahashi
+
+@ 231875 slot=73
+JP 吉江　豊
+EN Yutaka Yoshie
+
+@ 2318a4 slot=73
+JP 天山　広吉
+EN Hiroyoshi Tenzan
+
+@ 2318c9 slot=73
+JP 西村　修
+EN Osamu Nishimura
+
+@ 2318f8 slot=73
+JP 高山　善廣
+EN Yoshihiro Takayama
+
+@ 23191d slot=73
+JP 鈴木　みのる
+EN Minoru Suzuki
+
+@ 231956 slot=73
+JP 越中　詩郎
+EN Shiro Koshinaka
+
+@ 2319aa slot=73
+JP 高田　伸彦
+EN Nobuhiko Takada
+
+@ 2319fe slot=73
+JP 越中　詩郎
+EN Shiro Koshinaka
+
+@ 231a52 slot=73
+JP 成瀬　昌由
+EN Masayuki Naruse
+
+@ 231aa6 slot=73
+JP ケンドー・カシン
+EN Kendo Kashin
+
+@ 231afa slot=73
+JP 田中　稔
+EN Minoru Tanaka
+
+@ 231b4e slot=73
+JP 金本　浩二
+EN Koji Kanemoto
+
+@ 231ba2 slot=73
+JP タイガーマスク
+EN Tiger Mask
+
+@ 231bf6 slot=73
+JP 邪道
+EN Jado
+
+@ 231c4a slot=73
+JP ヒート
+EN Heat
+
+@ 231ca8 slot=73
+JP 大谷　晋二郎
+EN Shinjiro Otani
+
+@ 231ccd slot=73
+JP 高岩　竜一
+EN Ryuji Takaiwa
+
+@ 231cfc slot=73
+JP ケンドー・カシン
+EN Kendo Kashin
+
+@ 231d21 slot=73
+JP ドクトル・ワグナーＪｒ．
+EN Dr. Wagner Jr.
+
+@ 231d50 slot=73
+JP 獣神サンダー・ライガー
+EN Jushin Liger
+
+@ 231d75 slot=73
+JP ザ・グレート・サスケ
+EN The Great Sasuke
+
+@ 231da4 slot=36
+JP 邪道
+EN Jado
+
+@ 231dc9 slot=36
+JP 外道
+EN Gedo
+
+@ 231df8 slot=73
+JP 獣神サンダー・ライガー
+EN Jushin Liger
+
+@ 231e1d slot=73
+JP 田中　稔
+EN Minoru Tanaka
+
+@ 231e4c slot=73
+JP 金丸　義信
+EN Yoshinobu Kanemaru
+
+@ 231e71 slot=73
+JP 菊地　毅
+EN Tsuyoshi Kikuchi
+
+@ 231ea0 slot=73
+JP 獣神サンダー・ライガー
+EN Jushin Liger
+
+@ 231ec5 slot=73
+JP 金本　浩二
+EN Koji Kanemoto
+
+@ 231ef4 slot=36
+JP 邪道
+EN Jado
+
+@ 231f19 slot=36
+JP 外道
+EN Gedo
+
+@ 231f48 slot=73
+JP カレーマン
+EN Curry Man
+
+@ 231f6d slot=73
+JP アメリカン・ドラゴン
+EN American Dragon
+
+@ 231f9c slot=36
+JP 邪道
+EN Jado
+
+@ 231fc1 slot=36
+JP 外道
+EN Gedo
+
+@ 231ffa slot=73
+JP 棚橋　弘至
+EN Hiroshi Tanahashi
+
+@ 23234c slot=73
+JP 三沢　光晴
+EN Mitsuharu Misawa
+
+@ 2323a0 slot=73
+JP 秋山　準
+EN Jun Akiyama
+
+@ 2323f4 slot=73
+JP 小川　良成
+EN Yoshinari Ogawa
+
+@ 232448 slot=73
+JP 高山　善廣
+EN Yoshihiro Takayama
+
+@ 23249c slot=73
+JP 三沢　光晴
+EN Mitsuharu Misawa
+
+@ 2324f0 slot=73
+JP 小橋　建太
+EN Kenta Kobashi
+
+@ 23269e slot=73
+JP ベイダー
+EN Vader
+
+@ 2326c3 slot=73
+JP スコーピオ
+EN Scorpio
+
+@ 2326f2 slot=73
+JP 三沢　光晴
+EN Mitsuharu Misawa
+
+@ 232717 slot=73
+JP 小川　良成
+EN Yoshinari Ogawa
+
+@ 232746 slot=73
+JP 大森　隆男
+EN Takao Omori
+
+@ 23276b slot=73
+JP 高山　善廣
+EN Yoshihiro Takayama
+
+@ 23279a slot=73
+JP 森嶋　猛
+EN Takeshi Morishima
+
+@ 2327bf slot=73
+JP 力皇　猛
+EN Takeshi Rikio
+
+@ 2327ee slot=73
+JP 秋山　準
+EN Jun Akiyama
+
+@ 232813 slot=73
+JP 斉藤　彰俊
+EN Akitoshi Saito
+
+@ 232842 slot=73
+JP 小橋　建太
+EN Kenta Kobashi
+
+@ 232867 slot=73
+JP 本田　多聞
+EN Tamon Honda
+
+@ 232896 slot=73
+JP 永田　裕志
+EN Yuji Nagata
+
+@ 2328bb slot=73
+JP 棚橋　弘至
+EN Hiroshi Tanahashi
+
+@ 2328ea slot=73
+JP 三沢　光晴
+EN Mitsuharu Misawa
+
+@ 23290f slot=73
+JP 小川　良成
+EN Yoshinari Ogawa
+
+@ 2329f0 slot=73
+JP 金丸　義信
+EN Yoshinobu Kanemaru
+
+@ 232a44 slot=73
+JP 高岩　竜一
+EN Ryuji Takaiwa
+
+@ 232a98 slot=73
+JP 丸藤　正道
+EN Naomichi Marufuji
+
+@ 232aec slot=73
+JP 橋　誠
+EN Makoto Hashi
+
+@ 232b40 slot=73
+JP 金丸　義信
+EN Yoshinobu Kanemaru
+
+@ 232b94 slot=73
+JP マイケル・モデスト
+EN Michael Modest
+
+@ 232be8 slot=73
+JP 杉浦　貴
+EN Takashi Sugiura
+
+@ 232c3c slot=73
+JP 獣神サンダー・ライガー
+EN Jushin Liger
+
+@ 232c90 slot=73
+JP 金丸　義信
+EN Yoshinobu Kanemaru
+
+@ 232d42 slot=73
+JP 丸藤　正道
+EN Naomichi Marufuji
+
+@ 232d67 slot=73
+JP ＫＥＮＴＡ
+EN KENTA
+
+@ 233094 slot=73
+JP ジャンボ鶴田
+EN Jumbo Tsuruta
+
+@ 2330e8 slot=73
+JP 天龍　源一郎
+EN Genichiro Tenryu
+
+@ 23313c slot=73
+JP ジャンボ鶴田
+EN Jumbo Tsuruta
+
+@ 233190 slot=73
+JP 天龍　源一郎
+EN Genichiro Tenryu
+
+@ 2331e4 slot=73
+JP 武藤　敬司
+EN Keiji Mutoh
+
+@ 233238 slot=73
+JP 川田　利明
+EN Toshiaki Kawada
+
+@ 23328c slot=73
+JP 天龍　源一郎
+EN Genichiro Tenryu
+
+@ 2332e0 slot=73
+JP グレート・ムタ
+EN Great Muta
+
+@ 233334 slot=73
+JP 橋本　真也
+EN Shinya Hashimoto
+
+@ 233388 slot=73
+JP 川田　利明
+EN Toshiaki Kawada
+
+@ 2333e6 slot=73
+JP ジャンボ鶴田
+EN Jumbo Tsuruta
+
+@ 23340b slot=73
+JP 谷津　嘉章
+EN Yoshiaki Yatsu
+
+@ 23343a slot=73
+JP スタン・ハンセン
+EN Stan Hansen
+
+@ 23345f slot=73
+JP テリー・ゴディ
+EN Terry Gordy
+
+@ 23348e slot=73
+JP ジャンボ鶴田
+EN Jumbo Tsuruta
+
+@ 2334b3 slot=73
+JP 谷津　嘉章
+EN Yoshiaki Yatsu
+
+@ 2334e2 slot=73
+JP 天龍　源一郎
+EN Genichiro Tenryu
+
+@ 233507 slot=73
+JP 安生　洋二
+EN Yoji Anjo
+
+@ 233536 slot=73
+JP 武藤　敬司
+EN Keiji Mutoh
+
+@ 23355b slot=73
+JP 太陽　ケア
+EN Taiyo Kea
+
+@ 23358a slot=73
+JP ブライアン・アダムス
+EN Brian Adams
+
+@ 2335af slot=73
+JP ブライアン・クラーク
+EN Bryan Clark
+
+@ 2335de slot=73
+JP 小島　聡
+EN Satoshi Kojima
+
+@ 233603 slot=73
+JP 太陽　ケア
+EN Taiyo Kea
+
+@ 233632 slot=73
+JP 武藤　敬司
+EN Keiji Mutoh
+
+@ 233657 slot=36
+JP 嵐
+EN Arashi
+
+@ 233686 slot=73
+JP 小島　聡
+EN Satoshi Kojima
+
+@ 2336ab slot=73
+JP カズ・ハヤシ
+EN Kaz Hayashi
+
+@ 2336da slot=73
+JP 永田　裕志
+EN Yuji Nagata
+
+@ 2336ff slot=73
+JP ケンドー・カシン
+EN Kendo Kashin
+
+@ 233738 slot=73
+JP ヒロ　斎藤
+EN Hiro Saito
+
+@ 23378c slot=73
+JP 小林　邦昭
+EN Kuniaki Kobayashi
+
+@ 2337e0 slot=73
+JP 渕　正信
+EN Masanobu Fuchi
+
+@ 233834 slot=73
+JP 渕　正信
+EN Masanobu Fuchi
+
+@ 233888 slot=73
+JP 菊地　毅
+EN Tsuyoshi Kikuchi
+
+@ 2338dc slot=73
+JP 小川　良成
+EN Yoshinari Ogawa
+
+@ 233930 slot=73
+JP マウナケア・モスマン
+EN Mauna Kea Mossman
+
+@ 233984 slot=73
+JP 小川　良成
+EN Yoshinari Ogawa
+
+@ 2339d8 slot=73
+JP ケンドー・カシン
+EN Kendo Kashin
+
+@ 233a2c slot=73
+JP カズ・ハヤシ
+EN Kaz Hayashi
+
+@ 233a8a slot=73
+JP キングコング
+EN King Kong
+
+@ 233aaf slot=73
+JP タイガー・ジョーキンダー
+EN Tiger Joginder
+
+@ 233ade slot=73
+JP フランク・バロア
+EN Frank Valois
+
+@ 233b03 slot=73
+JP ダン・ミラー
+EN Dan Miller
+
+@ 233b32 slot=73
+JP 力道山
+EN Rikidozan
+
+@ 233b57 slot=36
+JP 豊登
+EN Toyonobori
+
+@ 233b86 slot=36
+JP 嵐
+EN Arashi
+
+@ 233bab slot=73
+JP 北原　光輝
+EN Koki Kitahara
+
+@ 233bda slot=36
+JP 嵐
+EN Arashi
+
+@ 233bff slot=73
+JP 荒谷　信孝
+EN Nobutaka Araya
+
+@ 233c2e slot=73
+JP 佐藤　耕平
+EN Kohei Sato
+
+@ 233c53 slot=73
+JP 横井　宏考
+EN Hirotaka Yokoi
+
+@ 233c82 slot=73
+JP 金村　キンタロー
+EN Kintaro Kanemura
+
+@ 233ca7 slot=73
+JP 黒田　哲広
+EN Tetsuhiro Kuroda
+
+@ 233cd6 slot=73
+JP ミスター雁之助
+EN Mr. Gannosuke
+
+@ 233cfb slot=73
+JP 黒田　哲広
+EN Tetsuhiro Kuroda
+
+@ 233d2a slot=73
+JP グレート・コスケ
+EN Great Kosuke
+
+@ 233d4f slot=36
+JP 獅龍
+EN Shiryu
+
+@ 233d7e slot=73
+JP 天龍　源一郎
+EN Genichiro Tenryu
+
+@ 233da3 slot=73
+JP 渕　正信
+EN Masanobu Fuchi
+
+@ 234480 slot=73
+JP 坂田　亘
+EN Wataru Sakata
+
+@ 2344d4 slot=73
+JP 高岩　竜一
+EN Ryuji Takaiwa
+
+@ 2347d2 slot=73
+JP 佐々木　健介
+EN Kensuke Sasaki
+
+@ 234b24 slot=73
+JP 長州　力
+EN Riki Choshu
+
+@ 234b49 slot=73
+JP 天龍　源一郎
+EN Genichiro Tenryu
+
+@ 234e76 slot=73
+JP ウェイン・シャムロック
+EN Wayne Shamrock
+
+@ 234eca slot=73
+JP 鈴木　みのる
+EN Minoru Suzuki
+
+@ 234f1e slot=73
+JP バス・ルッテン
+EN Bas Rutten
+
+@ 234f72 slot=73
+JP 船木　誠勝
+EN Masakatsu Funaki
+
+@ 234fc6 slot=73
+JP 近藤　有己
+EN Yuki Kondo
+
+@ 23501a slot=73
+JP 船木　誠勝
+EN Masakatsu Funaki
+
+@ 23506e slot=73
+JP ガイ・メッツァー
+EN Guy Mezger
+
+@ 2350c2 slot=73
+JP 近藤　有己
+EN Yuki Kondo
+
+@ 235116 slot=73
+JP セーム・シュルト
+EN Semmy Schilt
+
+@ 23516a slot=73
+JP ジョシュ・バーネット
+EN Josh Barnett
+
+@ 2351c8 slot=73
+JP 高橋　義生
+EN Yoshiki Takahashi
+
+@ 23551a slot=73
+JP ＫＥＩ　山宮
+EN KEI Yamamiya
+
+@ 23556e slot=73
+JP 菊田　早苗
+EN Sanae Kikuta
+
+@ 23586c slot=73
+JP ネイサン・マーコート
+EN Nate Marquardt
+
+@ 2358c0 slot=73
+JP 國奥　麒樹真
+EN Kiuma Kunioku
+
+@ 235914 slot=73
+JP ネイサン・マーコート
+EN Nate Marquardt
+
+@ 235bbe slot=73
+JP 國奥　麒樹真
+EN Kiuma Kunioku
+
+@ 2a9d50 slot=6
+# [keep] already English letters / a number format
+JP ＳＷＡ
+
+@ 2aa020 slot=15
+# [keep] already English letters / a number format
+JP %dｃｍ　%dｋｇ
+JP 
+
+@ 2aa030 slot=11
+# [keep] already English letters / a number format
+JP %d．%d．%d
+JP 
+
+@ 2aa8f0 slot=31
+# [keep] already English letters / a number format
+JP ＲＡＮＤＯＭ　ＴＥＡＭ　１
+
+@ 2aa910 slot=26
+# [keep] already English letters / a number format
+JP ＲＡＮＤＯＭ　ＴＥＡＭ　２
+
+@ 2aa950 slot=15
+# [keep] already English letters / a number format
+JP ＮＯ　ＤＡＴＡ
+JP 
+
+@ 2aaef0 slot=23
+# [keep] already English letters / a number format
+JP %dｃｍ・　%dｋｇ
+JP 
+
+@ 2aaf08 slot=15
+# [keep] already English letters / a number format
+JP %dｃｍ・%dｋｇ
+JP 
+
+@ 2aaf18 slot=15
+# [keep] already English letters / a number format
+JP %d．　%d．　%d
+JP 
+
+@ 2aaf28 slot=15
+# [keep] already English letters / a number format
+JP %d．　%d．%d
+JP 
+
+@ 2aaf38 slot=15
+# [keep] already English letters / a number format
+JP %d．%d．　%d
+JP 
+
+@ 2aaf48 slot=11
+# [keep] already English letters / a number format
+JP %d．%d．%d
+JP 
+
+@ 2ab590 slot=15
+# [keep] already English letters / a number format
+JP ＮＯ　ＤＡＴＡ
+JP 
+
+@ 2ab5e8 slot=87
+# [keep] already English letters / a number format
+JP ？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？
+
+@ 2ab640 slot=15
+# [keep] already English letters / a number format
+JP ＮＯ　ＤＡＴＡ
+JP 
+
+@ 2abb90 slot=15
+# [keep] already English letters / a number format
+JP 　　%d%s
+
+@ 2abba0 slot=11
+# [keep] already English letters / a number format
+JP %s　%s　%s
+JP 
+
+@ 2ac7a0 slot=20
+# [keep] the name-entry password the game compares with the input (docs/HIDDEN_CONTENT.md)
+JP 小橋蝶野武藤橋本三沢
+
+@ 2ac840 slot=127
+# [keep] already English letters / a number format
+JP ＯＲＩＧＩＮＡＬ　ＴＥＡＭ
+
+@ 2ac8c0 slot=127
+# [keep] already English letters / a number format
+JP ＫＩＮＧ　ＯＦ　ＣＯＬＯＳＳＥＵＭ
+
+@ 2ac940 slot=6
+# [keep] already English letters / a number format
+JP ＳＷＡ
+
+@ 2ac9e0 slot=34
+# [keep] already English letters / a number format
+JP ＫＩＮＧ　ＯＦ　ＣＯＬＯＳＳＥＵＭ
+
+@ 2ae610 slot=28
+JP コンティニュー？（残り%d回）
+EN Continue? (%d left)
+
+@ 2ae780 slot=23
+JP その興行で指定された
+EN Set by the show
+
+@ 2ae798 slot=15
+JP 前の画面で
+EN As before
+
+@ 2ae7a8 slot=15
+# [glossary-ok] Match Maker key, room-limited
+JP プロレスルール
+EN Wrestling Rules
+
+@ 2ae7b8 slot=23
+JP バーリトゥードルール
+EN Vale Tudo Rules
+
+@ 2ae7d0 slot=23
+JP パンクラスルール
+EN Pancrase Rules
+
+@ 2ae7e8 slot=39
+JP ＵＬＴＩＭＡＴＥＣＲＵＳＨルール
+EN Ultimate Crush Rules
+
+@ 2ae810 slot=23
+JP Ｕ－ＳＴＹＬＥルール
+EN U-STYLE Rules
+
+@ 2ae828 slot=23
+JP アメリカンルール
+EN American Rules
+
+@ 2ae840 slot=10
+JP 無我ルール
+EN Muga Rules
+
+@ 2ae851 slot=14
+JP カウント
+EN  Count
+
+@ 2ae860 slot=23
+JP オンリーギブアップ
+EN Submission Only
+
+@ 2ae878 slot=15
+JP 一本勝負
+EN One Fall
+
+@ 2ae888 slot=15
+JP 三本勝負
+EN Best 2 of 3
+
+@ 2ae898 slot=23
+JP あり（ノーマル）
+EN On (Normal)
+
+@ 2ae8b0 slot=23
+JP あり（マストシステム）
+EN On (Must System)
+
+@ 2ae8c8 slot=15
+JP 無地（青）
+EN Plain (Blue)
+
+@ 2ae8d8 slot=15
+JP 無地（白）
+EN Plain (White)
+
+@ 2ae8e8 slot=15
+JP 無地（黒）
+EN Plain (Black)
+
+@ 2ae8f8 slot=15
+JP 全日本レトロ1
+EN AJ Retro 1
+
+@ 2ae908 slot=15
+JP 全日本レトロ2
+EN AJ Retro 2
+
+@ 2ae918 slot=23
+JP ＺＥＲＯ－ＯＮＥ
+EN ZERO-ONE
+
+@ 2ae930 slot=15
+JP パンクラス
+EN Pancrase
+
+@ 2ae940 slot=15
+JP Ｕ－ＳＴＹＬＥ
+EN U-STYLE
+
+@ 2ae950 slot=15
+JP ＢＬＡＤＥ
+EN BLADE
+
+@ 2ae960 slot=15
+JP マッスル－1
+EN Muscle-1
+
+@ 2ae970 slot=15
+JP ＤＡＲＫ
+EN DARK
+
+@ 2ae980 slot=15
+JP 平成維新軍
+EN Heisei Ishingun
+
+@ 2ae990 slot=23
+JP ＵＷＨインテグラル
+EN UWH Integral
+
+@ 2ae9a8 slot=23
+JP ゆきぐにプロレス
+EN Yukiguni Pro Wrestling
+
+@ 2ae9c0 slot=15
+JP 関西プロレス
+EN Kansai Pro
+
+@ 2ae9d0 slot=15
+JP ゴングス
+EN Gongs
+
+@ 2ae9e0 slot=15
+JP 新日本ファン
+EN New Japan Fans
+
+@ 2ae9f0 slot=15
+JP ノアファン
+EN NOAH Fans
+
+@ 2aea00 slot=15
+JP 全日本ファン
+EN All Japan Fans
+
+@ 2aea10 slot=15
+JP ゼロワンファン
+EN ZERO-ONE Fans
+
+@ 2aea20 slot=15
+JP ＷＪファン
+EN WJ Fans
+
+@ 2aea30 slot=23
+JP パンクラスファン
+EN Pancrase Fans
+
+@ 2aea48 slot=23
+JP Ｕ－ＳＴＹＬＥファン
+EN U-STYLE Fans
+
+@ 2aea60 slot=23
+JP 総合格闘技ファン
+EN MMA Fans
+
+@ 2aea78 slot=15
+JP プロレスファン
+EN Wrestling Fans
+
+@ 2aea88 slot=31
+JP スパイクドーム（新日本）
+EN Spike Dome (New Japan)
+
+@ 2aeaa8 slot=15
+JP スパイクドーム
+EN Spike Dome
+
+@ 2aeab8 slot=23
+JP 日本武闘館（ノア）
+EN Nippon Butokan (NOAH)
+
+@ 2aead0 slot=23
+# [glossary-ok] Match Maker key, room-limited
+JP 日本武闘館（全日本）
+EN Butokan (All Japan)
+
+@ 2aeae8 slot=15
+JP 日本武闘館
+EN Nippon Butokan
+
+@ 2aeaf8 slot=15
+JP 大江戸国技館
+EN Oedo Kokugikan
+
+@ 2aeb08 slot=15
+# [glossary-ok] Match Maker key, room-limited
+JP 臨海コロシアム
+EN Rinkai
+
+@ 2aeb18 slot=15
+JP 遊楽園ホール
+EN Yurakuen Hall
+
+@ 2aeb28 slot=15
+JP メイファ有明
+EN Meifa Ariake
+
+@ 2aeb38 slot=15
+# [glossary-ok] Match Maker key, room-limited
+JP 千駄ヶ谷体育館
+EN Sendagaya Gym
+
+@ 2aeb48 slot=15
+# [glossary-ok] Match Maker key, room-limited
+JP 川島球場
+EN Kawashima
+
+@ 2aeb58 slot=15
+JP 地方会場
+EN Regional Venue
+
+@ 2aeb68 slot=23
+JP レッドシューズ海野
+EN Red Shoes Unno
+
+@ 2aeb80 slot=15
+JP 田山正雄
+EN Masao Tayama
+
+@ 2aeb90 slot=15
+JP 西永秀一
+EN S. Nishinaga
+
+@ 2aeba0 slot=15
+JP マイティ井上
+EN Mighty Inoue
+
+@ 2aebb0 slot=15
+JP 和田京平
+EN Kyohei Wada
+
+@ 2aebc0 slot=15
+JP 阿部信輔
+EN Shinsuke Abe
+
+@ 2aebd0 slot=15
+JP タイガー服部
+EN Tiger Hattori
+
+@ 2aebe0 slot=15
+JP 保永昇男
+EN Norio Honaga
+
+@ 2aebf0 slot=15
+JP 廣戸総一
+EN Soichi Hiroto
+
+@ 2aec00 slot=15
+JP 山本小鉄
+EN K. Yamamoto
+
+@ 2aec10 slot=15
+JP 田中秀和
+EN Hidekazu Tanaka
+
+@ 2aec20 slot=15
+JP 木原文人
+EN Fumihito Kihara
+
+@ 2aec30 slot=15
+JP オッキー沖田
+EN Okky Okita
+
+@ 2aec40 slot=15
+JP 辻よしなり
+EN Yoshinari Tsuji
+
+@ 2aec50 slot=15
+JP 山崎一夫
+EN Kazuo Yamazaki
+
+@ 2aec60 slot=8
+JP 百田光雄
+EN Momota
+
+@ 2aedf8 slot=15
+# [keep] already English letters / a number format
+JP %dｃｍ　%dｋｇ
+
+@ 2aee08 slot=10
+# [keep] already English letters / a number format
+JP %d．%d．%d
+
+@ 2af3f0 slot=15
+JP イージー
+EN Easy
+
+@ 2af400 slot=15
+JP ノーマル
+EN Normal
+
+@ 2af410 slot=15
+JP ハード
+EN Hard
+
+@ 2af420 slot=15
+JP Sハード
+EN Super Hard
+
+@ 2af430 slot=15
+JP マスター
+EN Master
+
+@ 2af440 slot=10
+JP エディット
+EN Edit
+
+@ 2af460 slot=15
+JP 格闘家コース
+EN Fighter Course
+
+@ 2af470 slot=16
+JP Ｓスターズコース
+EN S-Stars Course
+
+@ 2af4a8 slot=23
+# [keep] already English letters / a number format
+JP ＳＵＰＥＲ ＨＡＲＤ
+
+@ 2af4c0 slot=12
+# [keep] already English letters / a number format
+JP ＭＡＳＴＥＲ
+
+@ 2af5f0 slot=23
+JP エディットＰ＋５０
+EN Edit Points +50
+
+@ 2af608 slot=15
+# [keep] already English letters / a number format
+JP ＳＥＣＲＥＴ
+
+@ 2af618 slot=30
+JP 特定条件を満たすと交換できます
+EN Tradeable once conditions met
+
+@ 2af788 slot=15
+JP スパイクドーム
+EN Spike Dome
+
+@ 2af798 slot=15
+JP 日本武闘館
+EN Nippon Butokan
+
+@ 2af7a8 slot=15
+JP 大江戸国技館
+EN Oedo Kokugikan
+
+@ 2af7b8 slot=15
+# [glossary-ok] Match Maker key, room-limited
+JP 臨海コロシアム
+EN Rinkai
+
+@ 2af7c8 slot=15
+JP 遊楽園ホール
+EN Yurakuen Hall
+
+@ 2af7d8 slot=15
+JP メイファ有明
+EN Meifa Ariake
+
+@ 2af7e8 slot=15
+# [glossary-ok] Match Maker key, room-limited
+JP 千駄ヶ谷体育館
+EN Sendagaya Gym
+
+@ 2af7f8 slot=15
+# [glossary-ok] Match Maker key, room-limited
+JP 川島球場
+EN Kawashima
+
+@ 2af808 slot=8
+# [glossary-ok] Match Maker key, room-limited
+JP 地方会場
+EN Regional
+
+@ 2afa38 slot=23
+JP スパイクドーム(新日本)
+EN Spike Dome (New Japan)
+
+@ 2afa50 slot=15
+JP スパイクドーム
+EN Spike Dome
+
+@ 2afa60 slot=23
+# [glossary-ok] Match Maker key, room-limited
+JP 日本武闘館(全日本)
+EN Butokan (All Japan)
+
+@ 2afa78 slot=23
+JP 日本武闘館(ノア)
+EN Nippon Butokan (NOAH)
+
+@ 2afa90 slot=15
+JP 日本武闘館
+EN Nippon Butokan
+
+@ 2afaa0 slot=15
+JP 大江戸国技館
+EN Oedo Kokugikan
+
+@ 2afab0 slot=15
+# [glossary-ok] Match Maker key, room-limited
+JP 臨海コロシアム
+EN Rinkai
+
+@ 2afac0 slot=15
+JP 遊楽園ホール
+EN Yurakuen Hall
+
+@ 2afad0 slot=15
+JP メイファ有明
+EN Meifa Ariake
+
+@ 2afae0 slot=15
+# [glossary-ok] Match Maker key, room-limited
+JP 千駄ヶ谷体育館
+EN Sendagaya Gym
+
+@ 2afaf0 slot=8
+# [glossary-ok] Match Maker key, room-limited
+JP 川島球場
+EN Stadium
+
+@ 2afc48 slot=31
+JP プロレスリング・ノア
+# Match Maker key (0x1d1af8 strcmp): the same English as teamdata.csv promotions [glossary-ok]
+EN NOAH
+
+@ 2afc68 slot=31
+JP 全日本プロレス
+# Match Maker key (0x1d1af8 strcmp): the same English as teamdata.csv promotions [glossary-ok]
+EN All Japan
+
+@ 2afc88 slot=31
+JP ＢＬＡＤＥ
+# Match Maker key (0x1d1af8 strcmp): the same English as teamdata.csv promotions [glossary-ok]
+EN BLADE
+
+@ 2afca8 slot=31
+JP Ｓ－１
+# Match Maker key (0x1d1af8 strcmp): the same English as teamdata.csv promotions [glossary-ok]
+EN S-1
+
+@ 2afcc8 slot=31
+JP ステイシー一族
+# Match Maker key (0x1d1af8 strcmp): the same English as teamdata.csv promotions [glossary-ok]
+EN Stacy Clan
+
+@ 2afce8 slot=31
+JP 新日本プロレス
+# Match Maker key (0x1d1af8 strcmp): the same English as teamdata.csv promotions [glossary-ok]
+EN New Japan
+
+@ 2afd08 slot=31
+JP 全日本プロレス
+# Match Maker key (0x1d1af8 strcmp): the same English as teamdata.csv promotions [glossary-ok]
+EN All Japan
+
+@ 2afd28 slot=31
+JP ＺＥＲＯ－ＯＮＥ
+# Match Maker key (0x1d1af8 strcmp): the same English as teamdata.csv promotions [glossary-ok]
+EN ZERO-ONE
+
+@ 2afd48 slot=31
+JP 新日本プロレス
+# Match Maker key (0x1d1af8 strcmp): the same English as teamdata.csv promotions [glossary-ok]
+EN New Japan
+
+@ 2afd68 slot=31
+JP ＺＥＲＯ－ＯＮＥ
+# Match Maker key (0x1d1af8 strcmp): the same English as teamdata.csv promotions [glossary-ok]
+EN ZERO-ONE
+
+@ 2afd88 slot=31
+JP 全日本プロレス
+# Match Maker key (0x1d1af8 strcmp): the same English as teamdata.csv promotions [glossary-ok]
+EN All Japan
+
+@ 2afda8 slot=31
+JP プロレスリング・ノア
+# Match Maker key (0x1d1af8 strcmp): the same English as teamdata.csv promotions [glossary-ok]
+EN NOAH
+
+@ 2afdc8 slot=15
+JP 坂口　征二
+EN Seiji Sakaguchi
+
+@ 2afdd8 slot=15
+JP 山本　小鉄
+EN K. Yamamoto
+
+@ 2afde8 slot=15
+JP 星野　勘太郎
+EN Kantaro Hoshino
+
+@ 2afdf8 slot=23
+JP アックス・ドゥガン
+EN Axe Dugan
+
+@ 2afe10 slot=15
+JP ラッシャー木村
+EN Rusher Kimura
+
+@ 2afe20 slot=15
+JP セイバー
+EN Saber
+
+@ 2afe30 slot=15
+JP サム・ポップ
+EN Sam Pop
+
+@ 2afe40 slot=15
+JP 黒師無双
+EN Kokushi Muso
+
+@ 2afe50 slot=15
+JP グレート・ムタ
+EN Great Muta
+
+@ 2afe60 slot=23
+JP スター・バイソン
+EN Star Bison
+
+@ 2afe78 slot=23
+JP バット・サファリ
+EN Bat Safari
+
+@ 2afe90 slot=15
+JP 長州　力
+EN Riki Choshu
+
+@ 2afea0 slot=15
+JP 真田　伸久
+EN Nobuhisa Sanada
+
+@ 2afeb0 slot=23
+JP マスク・ド・パンサー
+EN Mask de Panther
+
+@ 2afec8 slot=23
+JP パワー・ウォリアー
+EN Power Warrior
+
+@ 2afee0 slot=23
+JP 獣神サンダー・ライガー
+EN Jushin Liger
+
+@ 2afef8 slot=12
+JP 火野輪　伸人
+EN N. Hinowa
+
+@ 2aff30 slot=15
+JP 武藤　敬司
+EN Keiji Mutoh
+
+@ 2aff40 slot=15
+JP 佐々木　健介
+EN Kensuke Sasaki
+
+@ 2aff50 slot=15
+JP 橋本　真也
+EN S. Hashimoto
+
+@ 2aff60 slot=15
+JP ハシフ・カーン
+EN Hashif Khan
+
+@ 2aff70 slot=12
+JP ＳＨＯＧＵＮ
+EN SHOGUN
+
+@ 2b0170 slot=15
+JP （藤波）
+EN (Fujinami)
+
+@ 2b0180 slot=8
+JP （井上）
+EN (Inoue)
+
+@ 2b02c0 slot=15
+JP %d分%d秒
+EN %dm %ds
+
+@ 2b0490 slot=15
+JP （藤波）
+EN (Fujinami)
+
+@ 2b04a0 slot=15
+JP （井上）
+EN (Inoue)
+
+@ 2b04b0 slot=8
+# [keep] already English letters / a number format
+JP %d．%d％
+
+@ 2b04e8 slot=15
+JP Ｕ－３０
+EN U-30
+
+@ 2b04f8 slot=15
+JP ジュニア
+EN Junior
+
+@ 2b0508 slot=15
+JP ライトヘビー
+EN Light Heavy
+
+@ 2b0518 slot=10
+JP ウェルター
+EN Welter
+
+@ 2b0550 slot=15
+JP 新日本ファン
+EN New Japan Fans
+
+@ 2b0560 slot=15
+JP 全日本ファン
+EN All Japan Fans
+
+@ 2b0570 slot=15
+JP ノアファン
+EN NOAH Fans
+
+@ 2b0580 slot=15
+JP ゼロワンファン
+EN ZERO-ONE Fans
+
+@ 2b0590 slot=15
+JP ＷＪファン
+EN WJ Fans
+
+@ 2b05a0 slot=23
+JP パンクラスファン
+EN Pancrase Fans
+
+@ 2b05b8 slot=23
+JP Ｕ-ＳＴＹＬＥファン
+EN U-STYLE Fans
+
+@ 2b05d0 slot=23
+JP 総合格闘技ファン
+EN MMA Fans
+
+@ 2b05e8 slot=14
+JP プロレスファン
+EN Wrestling Fans
+
+@ 2b06d0 slot=38
+JP フリー興行が選択できるようになりました
+EN Free Show is now available
+
+@ 2d62b8 slot=15
+JP 引き分け
+EN Draw
+
+@ 2d62c8 slot=23
+JP 時間切れ引き分け
+EN Time Limit Draw
+
+@ 2d62e0 slot=15
+JP 反則勝ち
+EN Win by DQ
+
+@ 2d62f0 slot=23
+JP 両者リングアウト
+EN Double Count-out
+
+@ 2d6308 slot=12
+JP リングアウト
+EN Count-out
+
+@ 2d6598 slot=16
+# [spacing-ok] the space stands for a Japanese full-width space / separator / dropped counter
+JP ロストポイント　
+EN Lost Points 
+
+@ 2d79e0 slot=15
+JP 決め技名
+EN Finishing Move
+
+@ 2d79f0 slot=23
+JP %dＲ　%d分%02d秒
+EN R%d %d:%02d
+
+@ 2d7a08 slot=15
+JP %02d分%02d秒
+EN %02d:%02d
+
+@ 2d7a18 slot=15
+JP 引き分け
+EN Draw
+
+@ 2d7a28 slot=8
+JP ※ドロー
+EN *Draw
+
+@ 2e5a88 slot=6
+JP フリー
+EN Free
+
+@ 2e5b50 slot=7
+# [spacing-ok] the space stands for a Japanese full-width space / separator / dropped counter
+JP ・
+EN  
+
+@ 2e5cf0 slot=7
+# [keep] already English letters / a number format
+JP （%s）
+JP 
+
+@ 2e5f70 slot=6
+# [keep] already English letters / a number format
+JP 　　%d
+
+@ 2e5fa0 slot=7
+# [keep] name-entry characters (data, not drawn as text)
+JP ヴ ー 
+JP 
+
+@ 2e60d8 slot=4
+# [keep] already English letters / a number format
+JP ＶＳ
+
+@ 2e6168 slot=7
+JP フリー
+EN Free
+
+@ 2e6170 slot=7
+JP あり
+EN Yes
+
+@ 2e6178 slot=7
+JP なし
+EN None
+
+@ 2e6180 slot=7
+# [keep] Match Maker sheet key (0x1b4208 strcmp), stays as the sheets have it
+JP 10分
+# Match Maker sheet key (0x1b4208 strcmp): keep in step with the 2837-2844 cells
+
+@ 2e6188 slot=7
+# [keep] Match Maker sheet key (0x1b4208 strcmp), stays as the sheets have it
+JP 15分
+# Match Maker sheet key (0x1b4208 strcmp): keep in step with the 2837-2844 cells
+
+@ 2e6190 slot=7
+# [keep] Match Maker sheet key (0x1b4208 strcmp), stays as the sheets have it
+JP 20分
+# Match Maker sheet key (0x1b4208 strcmp): keep in step with the 2837-2844 cells
+
+@ 2e6198 slot=7
+# [keep] Match Maker sheet key (0x1b4208 strcmp), stays as the sheets have it
+JP 30分
+# Match Maker sheet key (0x1b4208 strcmp): keep in step with the 2837-2844 cells
+
+@ 2e61a0 slot=7
+# [keep] Match Maker sheet key (0x1b4208 strcmp), stays as the sheets have it
+JP 45分
+# Match Maker sheet key (0x1b4208 strcmp): keep in step with the 2837-2844 cells
+
+@ 2e61a8 slot=7
+# [keep] Match Maker sheet key (0x1b4208 strcmp), stays as the sheets have it
+JP 60分
+# Match Maker sheet key (0x1b4208 strcmp): keep in step with the 2837-2844 cells
+
+@ 2e61b0 slot=7
+JP 無制限
+EN None
+
+@ 2e61b8 slot=7
+# [keep] Match Maker sheet key (0x1b4208 strcmp), stays as the sheets have it
+JP 3分
+# Match Maker sheet key (0x1b4208 strcmp): keep in step with the 2837-2844 cells
+
+@ 2e61c0 slot=7
+# [keep] Match Maker sheet key (0x1b4208 strcmp), stays as the sheets have it
+JP 5分
+# Match Maker sheet key (0x1b4208 strcmp): keep in step with the 2837-2844 cells
+
+@ 2e6240 slot=7
+# [keep] Match Maker sheet key (0x1b4208 strcmp), stays as the sheets have it
+JP 5点
+# Match Maker sheet key (0x1b4208 strcmp): keep in step with the 2837-2844 cells
+
+@ 2e6248 slot=7
+# [keep] Match Maker sheet key (0x1b4208 strcmp), stays as the sheets have it
+JP 10点
+# Match Maker sheet key (0x1b4208 strcmp): keep in step with the 2837-2844 cells
+
+@ 2e6250 slot=7
+# [keep] Match Maker sheet key (0x1b4208 strcmp), stays as the sheets have it
+JP 15点
+# Match Maker sheet key (0x1b4208 strcmp): keep in step with the 2837-2844 cells
+
+@ 2e6258 slot=7
+# [keep] Match Maker sheet key (0x1b4208 strcmp), stays as the sheets have it
+JP 1点
+# Match Maker sheet key (0x1b4208 strcmp): keep in step with the 2837-2844 cells
+
+@ 2e6260 slot=7
+# [keep] Match Maker sheet key (0x1b4208 strcmp), stays as the sheets have it
+JP 2点
+# Match Maker sheet key (0x1b4208 strcmp): keep in step with the 2837-2844 cells
+
+@ 2e6268 slot=7
+# [keep] Match Maker sheet key (0x1b4208 strcmp), stays as the sheets have it
+JP 3点
+# Match Maker sheet key (0x1b4208 strcmp): keep in step with the 2837-2844 cells
+
+@ 2e6270 slot=7
+# [keep] Match Maker sheet key (0x1b4208 strcmp), stays as the sheets have it
+JP 4点
+# Match Maker sheet key (0x1b4208 strcmp): keep in step with the 2837-2844 cells
+
+@ 2e6298 slot=7
+JP 新日本1
+EN NJPW 1
+
+@ 2e62a0 slot=7
+JP 新日本2
+EN NJPW 2
+
+@ 2e62a8 slot=7
+JP 新日本3
+EN NJPW 3
+
+@ 2e62b0 slot=7
+JP 新日本4
+EN NJPW 4
+
+@ 2e62b8 slot=7
+JP ノア
+EN NOAH
+
+@ 2e62c0 slot=7
+JP 全日本
+EN AJPW
+
+@ 2e62c8 slot=7
+JP ＷＪ
+EN WJ
+
+@ 2e62d0 slot=7
+# [keep] already English letters / a number format
+JP ＷＡＲ
+
+@ 2e62d8 slot=7
+JP Ｓ－1
+EN S-1
+
+@ 2e62e0 slot=7
+# [keep] already English letters / a number format
+JP ＥＷＥ
+
+@ 2e62e8 slot=6
+JP 超竜館
+EN Choryu
+
+@ 2e62f8 slot=7
+JP 高い
+EN High
+
+@ 2e6300 slot=7
+# [keep] Match Maker sheet key (0x1b4208 strcmp), stays as the sheets have it
+JP 普通
+# Match Maker sheet key (0x1b4208 strcmp): keep in step with the 2837-2844 cells
+
+@ 2e6308 slot=6
+JP 仲田龍
+EN Nakata
+
+@ 2e6328 slot=23
+JP 不明
+EN Unknown
+
+@ 2e63c8 slot=6
+JP フリー
+EN Free
+
+@ 2e6400 slot=6
+JP フリー
+EN Free
+
+@ 2e6440 slot=4
+JP なし
+EN None
+
+@ 2e6458 slot=7
+JP （笑）
+EN (Smile)
+
+@ 2e6460 slot=7
+JP （怒）
+EN (Angry)
+
+@ 2e6468 slot=6
+JP （気）
+EN (Fire)
+
+@ 2e6480 slot=7
+# [spacing-ok] the space stands for a Japanese full-width space / separator / dropped counter
+JP 人
+# counter after a number, dropped (as in the pictures): a space
+EN  
+
+@ 2e6498 slot=6
+# [keep] already English letters / a number format
+JP （%s）
+
+@ 2e64b0 slot=7
+JP %d人
+# counter dropped: the number alone
+EN %d
+
+@ 2e6500 slot=7
+JP （笑）
+EN (Smile)
+
+@ 2e6508 slot=7
+JP （怒）
+EN (Angry)
+
+@ 2e6510 slot=6
+JP （気）
+EN (Fire)
+
+@ 2e6520 slot=7
+JP %d人
+# counter dropped: the number alone
+EN %d
+
+@ 2e6530 slot=7
+JP ミドル
+EN Middle
+
+@ 2e6538 slot=6
+JP ヘビー
+EN Heavy
+
+@ 2e6548 slot=7
+# [spacing-ok] the space stands for a Japanese full-width space / separator / dropped counter
+JP 人
+# counter after a number, dropped (as in the pictures): a space
+EN  
+
+@ 2e6550 slot=7
+JP 試合
+# Match Maker label
+EN Bouts
+
+@ 2e6560 slot=7
+JP 空位
+EN Vacant
+
+@ 2e6568 slot=6
+# [keep] already English letters / a number format
+JP 　＆　
+
+@ 2e6578 slot=7
+# [spacing-ok] the space stands for a Japanese full-width space / separator / dropped counter
+JP 人
+# counter after a number, dropped (as in the pictures): a space
+EN  
+
+@ 2e6950 slot=7
+# [keep] already English letters / a number format
+JP ０－３
+
+@ 2e6958 slot=7
+# [keep] already English letters / a number format
+JP １－２
+
+@ 2e6960 slot=7
+# [keep] already English letters / a number format
+JP ２－１
+
+@ 2e6968 slot=7
+# [keep] already English letters / a number format
+JP ３－０
+
+@ 2e6970 slot=7
+JP 判定
+# result method beside ＫＯ / ＴＫＯ: judges' decision [glossary-ok]
+EN Dec.
+
+@ 2e6978 slot=7
+# [keep] already English letters / a number format
+JP ＴＫＯ
+
+@ 2e6980 slot=4
+# [keep] already English letters / a number format
+JP ＫＯ

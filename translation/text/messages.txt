@@ -1,0 +1,2380 @@
+# System messages, title history, belt names.
+# KC2FIRE.000 entry 1441 (strings) / 1442 (offsets) - see tools/pools.py.
+# Letters are stored full-width (2 bytes), spaces and new lines as 1 byte; keep %d codes.
+# A block's lines are the string's lines; a final empty line is a trailing new line.
+
+@ 0
+JP レスラーが全員引退しているので、
+EN All of these wrestlers have retired,
+
+@ 1
+JP レスラーを選択することはできません
+EN so they cannot be selected.
+
+@ 2
+JP 初代王者
+JP 
+EN First champion
+EN 
+
+@ 3
+JP 第%d代王者
+JP 
+EN Champion No. %d
+EN 
+
+@ 4
+JP タイトル獲得日　%d年%d月%d日
+JP 
+EN Title won %d.%d.%d
+EN 
+
+@ 5
+JP 防衛回数　%d回
+JP 
+EN Defenses: %d
+EN 
+
+@ 6
+JP ＩＷＧＰヘビー級
+EN IWGP Heavyweight
+
+@ 7
+JP ＮＷＦヘビー級
+EN NWF Heavyweight
+
+@ 8
+JP ＩＷＧＰタッグ
+EN IWGP Tag Team
+
+@ 9
+JP ＩＷＧＰジュニアヘビー級
+EN IWGP Junior Heavyweight
+
+@ 10
+JP ＩＷＧＰジュニアタッグ
+EN IWGP Junior Tag Team
+
+@ 11
+JP Ｕ－３０無差別級
+EN U-30 Openweight
+
+@ 12
+JP ＧＨＣヘビー級
+EN GHC Heavyweight
+
+@ 13
+JP ＧＨＣタッグ
+EN GHC Tag Team
+
+@ 14
+JP ＧＨＣジュニアヘビー級
+EN GHC Junior Heavyweight
+
+@ 15
+JP ＧＨＣジュニアタッグ
+EN GHC Junior Tag Team
+
+@ 16
+JP 三冠ヘビー級
+EN Triple Crown Heavyweight
+
+@ 17
+JP 世界タッグ
+EN World Tag Team
+
+@ 18
+JP 世界ジュニアヘビー級
+EN World Junior Heavyweight
+
+@ 19
+JP アジアタッグ
+EN All Asia Tag Team
+
+@ 20
+JP 天下一ヘビー級
+EN Tenkaichi Heavyweight
+
+@ 21
+JP 天下一タッグ
+EN Tenkaichi Tag Team
+
+@ 22
+JP 天下一Ｊｒ
+EN Tenkaichi Jr.
+
+@ 23
+JP ＷＭＧヘビー級
+EN WMG Heavyweight
+
+@ 24
+JP ＷＭＧタッグ
+EN WMG Tag Team
+
+@ 25
+JP ＷＭＧジュニア
+EN WMG Junior
+
+@ 26
+JP キング・オブ・パンクラシスト無差別級
+EN King of Pancrase Openweight
+
+@ 27
+JP キング・オブ・パンクラシストヘビー級
+EN King of Pancrase Heavyweight
+
+@ 28
+JP キング・オブ・パンクラシストライトヘビー級
+EN King of Pancrase Light Heavyweight
+
+@ 29
+JP キング・オブ・パンクラシストミドル級
+EN King of Pancrase Middleweight
+
+@ 30
+JP キング・オブ・パンクラシストウェルター級
+EN King of Pancrase Welterweight
+
+@ 31
+JP このタイトルに挑戦する資格のある
+EN This title can't be selected unless
+
+@ 32
+JP 階級のレスラーが１人以上いないと、
+EN a wrestler in an eligible weight class
+
+@ 33
+JP このタイトルを選択することはできません
+EN is available to challenge for it.
+
+@ 34
+JP このシリーズに参戦する資格のある
+EN This series can't be selected unless
+
+@ 35
+JP 階級のレスラーが１人以上いないと、
+EN a wrestler in an eligible weight class
+
+@ 36
+JP このシリーズを選択することはできません
+EN is available to enter it.
+
+@ 37
+JP Ｎ　Ｇ１クライマックス
+EN N G1 Climax
+
+@ 38
+JP Ｎ　ベスト・オブ・ザ・スーパーＪｒ
+EN N Best of the Super Juniors
+
+@ 39
+JP Ｓ　ＧＨＣヘビー級
+EN S GHC Heavyweight
+
+@ 40
+JP Ｓ　ＧＨＣジュニアヘビー級
+EN S GHC Junior Heavyweight
+
+@ 41
+JP Ｎ　チャンピオンカーニバル
+EN N Champion Carnival
+
+@ 42
+JP Ｎ　ジュニアヘビー級チャンピオンカーニバル
+EN N Junior Heavyweight Champion Carnival
+
+@ 43
+JP Ｔ　火祭り
+EN T Fire Festival
+
+@ 44
+JP Ｓ　天下一Ｊｒ
+EN S Tenkaichi Jr.
+
+@ 45
+JP Ｓ　ＷＪ最強者決定
+EN S WJ Strongest Wrestler
+
+@ 46
+JP Ｎ　オリジナル
+EN N Original
+
+@ 47
+JP Ｓ　Ｇ１タッグ
+EN S G1 Tag
+
+@ 48
+JP Ｓ　ＧＨＣタッグ
+EN S GHC Tag Team
+
+@ 49
+JP Ｓ　世界最強タッグ決定
+EN S Real World Tag
+
+@ 50
+JP Ｔ　火祭りタッグ
+EN T Fire Festival Tag
+
+@ 51
+JP Ｓ　ＷＪ最強タッグ決定
+EN S WJ Strongest Tag
+
+@ 52
+JP Ｎ　オリジナルタッグ
+EN N Original Tag
+
+@ 53
+JP リーグ戦
+EN League
+
+@ 54
+JP トーナメント
+EN Tournament
+
+@ 55
+JP ＴＹＰＥ　１
+EN TYPE 1
+
+@ 56
+JP ＴＹＰＥ　２
+EN TYPE 2
+
+@ 57
+JP ＴＹＰＥ　３
+EN TYPE 3
+
+@ 58
+JP ＴＹＰＥ　４
+EN TYPE 4
+
+@ 59
+JP 空位
+EN Vacant
+
+@ 60
+JP ジュニアヘビー級
+EN Junior Heavyweight
+
+@ 61
+JP ヘビー級
+EN Heavyweight
+
+@ 62
+JP スーパーヘビー級
+EN Super Heavyweight
+
+@ 63
+JP フリー
+EN Openweight
+
+@ 64
+JP ＳＳ
+EN SS
+
+@ 65
+JP Ｓ
+EN S
+
+@ 66
+JP Ｍ
+EN M
+
+@ 67
+JP Ｌ
+EN L
+
+@ 68
+JP ＬＬ
+EN LL
+
+@ 69
+JP オーソドックス
+EN Orthodox
+
+@ 70
+JP テクニシャン
+EN Technician
+
+@ 71
+JP レスリング
+EN Wrestling
+
+@ 72
+JP グラウンド
+EN Ground
+
+@ 73
+JP パワー
+EN Power
+
+@ 74
+JP ストロングシューター
+EN Strong Shooter
+
+@ 75
+JP アメリカン
+EN American
+
+@ 76
+JP ハイスパート
+EN High Spurt
+
+@ 77
+JP オールラウンド
+EN All-Round
+
+@ 78
+JP ジーニアス
+EN Genius
+
+@ 79
+JP レボリューション
+EN Revolution
+
+@ 80
+JP ジュニア
+EN Junior
+
+@ 81
+JP ルチャドール
+EN Luchador
+
+@ 82
+JP ヒール
+EN Heel
+
+@ 83
+JP ミステリアス
+EN Mysterious
+
+@ 84
+JP シューター
+EN Shooter
+
+@ 85
+JP ファイター
+EN Fighter
+
+@ 86
+JP グラップラー
+EN Grappler
+
+@ 87
+JP ストライカー
+EN Striker
+
+@ 88
+JP フリーファイター
+EN Free Fighter
+
+@ 89
+JP ステイシー
+EN Stacy
+
+@ 90
+JP パンサー
+EN Panther
+
+@ 91
+JP ジャイアント
+EN Giant
+
+@ 92
+JP 魔性
+EN Devilish
+
+@ 93
+JP 王道
+EN Odo
+
+@ 94
+JP ビースト
+EN Beast
+
+@ 95
+JP 飯塚タイプ
+EN Iizuka Type
+
+@ 96
+JP 木戸タイプ
+EN Kido Type
+
+@ 97
+JP 馳タイプ
+EN Hase Type
+
+@ 98
+JP 小川良成タイプ
+EN Y. Ogawa Type
+
+@ 99
+JP 川田タイプ
+EN Kawada Type
+
+@ 100
+JP 浅子タイプ
+EN Asako Type
+
+@ 101
+JP 丸藤タイプ
+EN Marufuji Type
+
+@ 102
+JP Ｌｏｗｋｉタイプ
+EN Low Ki Type
+
+@ 103
+JP カシンタイプ
+EN Kashin Type
+
+@ 104
+JP 田中稔タイプ
+EN M. Tanaka Type
+
+@ 105
+JP 三沢タイプ
+EN Misawa Type
+
+@ 106
+JP 秋山タイプ
+EN Akiyama Type
+
+@ 107
+JP 小橋タイプ
+EN Kobashi Type
+
+@ 108
+JP 中邑タイプ
+EN Nakamura Type
+
+@ 109
+JP 白
+EN White
+
+@ 110
+JP 黒
+EN Black
+
+@ 111
+JP 紺
+EN Navy
+
+@ 112
+JP 青
+EN Blue
+
+@ 113
+JP スカイブルー
+EN Sky Blue
+
+@ 114
+JP ブルー
+EN Royal Blue
+
+@ 115
+JP 水色
+EN Light Blue
+
+@ 116
+JP 薄青
+EN Pale Blue
+
+@ 117
+JP 紫
+EN Purple
+
+@ 118
+JP ピンク
+EN Pink
+
+@ 119
+JP 赤
+EN Red
+
+@ 120
+JP 茶
+EN Brown
+
+@ 121
+JP オレンジ
+EN Orange
+
+@ 122
+JP 橙
+EN Tangerine
+
+@ 123
+JP らくだ色
+EN Camel
+
+@ 124
+JP 黄色
+EN Yellow
+
+@ 125
+JP レモンイエロー
+EN Lemon Yellow
+
+@ 126
+JP 薄緑
+EN Pale Green
+
+@ 127
+JP きみどり
+EN Lime Green
+
+@ 128
+JP 緑
+EN Green
+
+@ 129
+JP 深緑
+EN Dark Green
+
+@ 130
+JP 金
+EN Gold
+
+@ 131
+JP 銀
+EN Silver
+
+@ 132
+JP 低い
+EN Low
+
+@ 133
+JP 普通
+EN Normal
+
+@ 134
+JP 高い
+EN High
+
+@ 135
+JP 不明
+EN Unknown
+
+@ 136
+JP 日本
+EN Japan
+
+@ 137
+JP アメリカ
+EN USA
+
+@ 138
+JP カナダ
+EN Canada
+
+@ 139
+JP ドイツ
+EN Germany
+
+@ 140
+JP メキシコ
+EN Mexico
+
+@ 141
+JP イギリス
+EN UK
+
+@ 142
+JP フランス
+EN France
+
+@ 143
+JP ブラジル
+EN Brazil
+
+@ 144
+JP ロシア
+EN Russia
+
+@ 145
+JP プエルトリコ
+EN Puerto Rico
+
+@ 146
+JP インド
+EN India
+
+@ 147
+JP スーダン
+EN Sudan
+
+@ 148
+JP ヨルダン
+EN Jordan
+
+@ 149
+JP キューバ
+EN Cuba
+
+@ 150
+JP フィンランド
+EN Finland
+
+@ 151
+JP グルジア共和国
+EN Georgia
+
+@ 152
+JP オランダ
+EN Netherlands
+
+@ 153
+JP イタリア
+EN Italy
+
+@ 154
+JP スペイン
+EN Spain
+
+@ 155
+JP スイス
+EN Switzerland
+
+@ 156
+JP 中国
+EN China
+
+@ 157
+JP 韓国
+EN South Korea
+
+@ 158
+JP 朝鮮民主主義人民共和国
+EN North Korea
+
+@ 159
+JP モンゴル
+EN Mongolia
+
+@ 160
+JP タイ
+EN Thailand
+
+@ 161
+JP オーストラリア
+EN Australia
+
+@ 162
+JP ニュージーランド
+EN New Zealand
+
+@ 163
+JP ブルガリア共和国
+EN Bulgaria
+
+@ 164
+JP ボツワナ共和国
+EN Botswana
+
+@ 165
+JP 南アフリカ共和国
+EN South Africa
+
+@ 166
+JP トンガ
+EN Tonga
+
+@ 167
+JP トリニダード＆トバゴ
+EN Trinidad/Tobago
+
+@ 168
+JP ウクライナ
+EN Ukraine
+
+@ 169
+JP オーストリア
+EN Austria
+
+@ 170
+JP クロアチア
+EN Croatia
+
+@ 171
+JP パラオ共和国
+EN Palau
+
+@ 172
+JP アラブ首長国連邦
+EN UAE
+
+@ 173
+JP イラン
+EN Iran
+
+@ 174
+JP 米領サモア
+EN American Samoa
+
+@ 175
+JP 鬼門の一回戦
+EN 1st-Round Jinx
+
+@ 176
+JP シリーズモード参加時に、
+EN Series Mode:
+
+@ 177
+JP 初戦での防御パラメータが
+EN all defense stats
+
+@ 178
+JP 全て－１になる
+EN -1 in round 1
+
+@ 179
+JP ＃
+EN ＃
+
+@ 180
+JP 鬼門の決勝戦
+EN Final Jinx
+
+@ 181
+JP シリーズモード参加時に、
+EN Series Mode:
+
+@ 182
+# [glossary-ok] item effect wording
+JP 決勝戦での防御パラメータが
+EN in the final, all
+
+@ 183
+JP 全て－１になる
+EN defense stats -1
+
+@ 184
+JP ＃
+EN ＃
+
+@ 185
+JP 短期政権
+EN Short Reign
+
+@ 186
+JP タイトルマッチ参加時に、
+EN Title Match:
+
+@ 187
+JP ベルトを所有していたら、
+EN as champion, all
+
+@ 188
+JP ３回目の防衛戦まで防御パラメータが
+EN defense stats -1 until the
+
+@ 189
+JP 全て－１になる
+EN 3rd defense
+
+@ 190
+JP お祭り男
+EN Party Man
+
+@ 191
+JP シリーズモード参加時に、
+EN Series Mode:
+
+@ 192
+# [glossary-ok] dialogue wording
+JP 体力回復ランクと精神力ランクが
+EN Recovery & Spirit ranks
+
+@ 193
+JP １段階アップする
+EN go up 1 level
+
+@ 194
+JP ＃
+EN ＃
+
+@ 195
+JP 眠れる火山
+EN Sleeping Giant
+
+@ 196
+JP シリーズモード参加時に、
+EN Series Mode:
+
+@ 197
+# [glossary-ok] item effect wording
+JP ３０％の確率で攻撃パラメータが
+EN 30% chance of all
+
+@ 198
+JP 全て＋１になる
+EN attack stats +1
+
+@ 199
+JP ＃
+EN ＃
+
+@ 200
+JP 大本命
+EN Favorite
+
+@ 201
+JP シリーズモード参加時に、
+EN Series Mode:
+
+@ 202
+JP 精神力ランクが１段階アップする
+EN Spirit rank goes up 1
+
+@ 203
+JP ＃
+EN ＃
+
+@ 204
+JP ＃
+EN ＃
+
+@ 205
+JP 大穴
+EN Upset
+
+@ 206
+JP シリーズモード参加時に、
+EN Series Mode:
+
+@ 207
+# [glossary-ok] item effect wording
+JP ０～３０％の確率で攻撃パラメータが
+EN 0-30% chance of all
+
+@ 208
+JP 全て＋１になる
+EN attack stats +1
+
+@ 209
+JP ＃
+EN ＃
+
+@ 210
+JP Ｇ１男
+EN Mr. G1
+
+@ 211
+JP シリーズモードの
+EN Series Mode:
+
+@ 212
+JP Ｇ１クライマックス参加時に、
+EN in the G1 Climax,
+
+@ 213
+JP 攻撃パラメータが全て＋１になる
+EN all attack stats +1
+
+@ 214
+JP ＃
+EN ＃
+
+@ 215
+JP リアルチャンピオン
+EN Real Champion
+
+@ 216
+JP タイトルマッチ参加時に、
+EN Title Match:
+
+@ 217
+JP ベルトを所有していたら、
+EN as champion, all
+
+@ 218
+JP 防御パラメータが全て＋１になる
+EN defense stats +1
+
+@ 219
+JP ＃
+EN ＃
+
+@ 220
+JP 長期政権
+EN Long Reign
+
+@ 221
+JP タイトルマッチ参加時に、
+EN Title Match:
+
+@ 222
+JP ベルトを所有していたら、
+EN as champion, all
+
+@ 223
+JP ３回目の防衛戦まで防御パラメータが
+EN defense stats +1 until the
+
+@ 224
+JP 全て＋１になる
+EN 3rd defense
+
+@ 225
+JP グリーンボーイ
+EN Green Boy
+
+@ 226
+JP 自分の魂技の効果が低くなるが、
+EN Weaker Soul Moves, but
+
+@ 227
+JP 精神力が充実している時の
+EN with full Spirit,
+
+@ 228
+JP ダウン時間が１／２になる
+EN half the down time
+
+@ 229
+JP ＃
+EN ＃
+
+@ 230
+JP グラウンドテクニック
+EN Ground Tech.
+
+@ 231
+JP 自分の体力が多く残っている時に、
+EN With plenty of Stamina,
+
+@ 232
+JP 絞め技や関節技を決めている時間が
+EN chokes and locks last
+
+@ 233
+JP 通常の１．２～１．５倍になる
+EN 1.2-1.5 times as long
+
+@ 234
+JP ＃
+EN ＃
+
+@ 235
+JP リングマスター
+EN Ring Master
+
+@ 236
+JP 相手の精神力が少ない時に、
+EN Opponent low on Spirit:
+
+@ 237
+JP コーナー逆さ吊りの時間が
+EN Tree of Woe holds
+
+@ 238
+JP 通常の２倍になる
+EN twice as long
+
+@ 239
+JP ＃
+EN ＃
+
+@ 240
+JP 悪のリズム
+EN Rhythm of Evil
+
+@ 241
+JP 場外に出ている間、
+EN While outside,
+
+@ 242
+JP 精神力が減らなくなる
+EN Spirit won't drop
+
+@ 243
+JP ＃
+EN ＃
+
+@ 244
+JP ＃
+EN ＃
+
+@ 245
+JP 熟練の妙技
+EN Veteran Finesse
+
+@ 246
+JP 自分の体力が多く残っている時に、
+EN With plenty of Stamina,
+
+@ 247
+JP 全ての小技の威力が２０％増す
+EN light moves do 20% more
+
+@ 248
+JP ＃
+EN ＃
+
+@ 249
+JP ＃
+EN ＃
+
+@ 250
+JP 鮮血の悪魔
+EN Crimson Devil
+
+@ 251
+JP 自分の体力が残り少なくて、
+EN Low on Stamina and
+
+@ 252
+JP 流血している時に、
+EN bleeding:
+
+@ 253
+JP 凶器攻撃の威力が１０％増す
+EN weapons do 10% more
+
+@ 254
+JP ＃
+EN ＃
+
+@ 255
+JP 凶器の悦楽
+EN Joy of Weapons
+
+@ 256
+JP 自分が流血している時に、
+EN While bleeding,
+
+@ 257
+JP 受けた凶器攻撃のダメージが
+EN weapon damage taken
+
+@ 258
+JP １０％軽減される
+EN drops by 10%
+
+@ 259
+JP ＃
+EN ＃
+
+@ 260
+JP タッグ屋
+EN Tag Expert
+
+@ 261
+# [glossary-ok] skill name
+JP 同じタッグ屋のスキルをもつ人
+EN Tag Expert partners:
+
+@ 262
+JP とのツープラトン攻撃の威力が
+EN double teams do
+
+@ 263
+JP ２０％増す
+EN do 20% more
+
+@ 264
+JP ＃
+EN ＃
+
+@ 265
+JP スター性
+EN Star Power
+
+@ 266
+JP 自分の体力が瀕死の時に、
+EN Stamina nearly gone:
+
+@ 267
+JP アピールした直後の技の威力が
+EN the move after a taunt
+
+@ 268
+JP ２０％増す
+EN does 20% more
+
+@ 269
+JP ＃
+EN ＃
+
+@ 270
+JP 一発逆転
+EN Comeback
+
+@ 271
+JP 自分の体力が瀕死状態だが、
+EN Stamina nearly gone
+
+@ 272
+JP 精神力は残っている時に、
+EN but Spirit left:
+
+@ 273
+JP 魂技クリティカル発生確率が２倍になる
+EN Soul Move critical rate x2
+
+@ 274
+JP ＃
+EN ＃
+
+@ 275
+JP 集中力
+EN Focus
+
+@ 276
+JP 打撃＆サブミッション＆テクニック系技で
+EN Strike, submission, tech
+
+@ 277
+JP クリティカルされる確率が５０％低下する
+EN moves: critical risk -50%
+
+@ 278
+JP ＃
+EN ＃
+
+@ 279
+JP ＃
+EN ＃
+
+@ 280
+JP 柔軟性
+EN Flexible
+
+@ 281
+JP スープレックス＆パワー系技で
+EN Suplex and power
+
+@ 282
+JP クリティカルされる確率が５０％低下する
+EN moves: critical risk -50%
+
+@ 283
+JP ＃
+EN ＃
+
+@ 284
+JP ＃
+EN ＃
+
+@ 285
+JP シャイニング
+EN Shining
+
+@ 286
+JP 相手の体力が残り少ない時に、
+EN Opponent low on Stamina:
+
+@ 287
+JP 片膝ダウンになる確率が
+EN downs to one knee
+
+@ 288
+JP 通常より２０％増す
+EN are 20% likelier
+
+@ 289
+JP ＃
+EN ＃
+
+@ 290
+JP クイックリターン
+EN Quick Return
+
+@ 291
+JP 自分の体力が残り少ないが、
+EN Low on Stamina but
+
+@ 292
+JP 精神力は残っている時に、
+EN with Spirit left:
+
+@ 293
+JP ダウン時間が１／８になる
+EN 1/8 the down time
+
+@ 294
+JP ＃
+EN ＃
+
+@ 295
+JP スタートダッシュ
+EN Fast Start
+
+@ 296
+JP 自分の体力が多く残っている時に、
+EN With plenty of Stamina,
+
+@ 297
+JP 全ての攻撃パラメータが＋１になる
+EN all attack stats +1
+
+@ 298
+JP ＃
+EN ＃
+
+@ 299
+JP ＃
+EN ＃
+
+@ 300
+JP 反撃
+EN Rally
+
+@ 301
+JP 自分の体力が瀕死状態の時に、
+EN Stamina nearly gone:
+
+@ 302
+JP 全ての攻撃パラメータが＋１になる
+EN all attack stats +1
+
+@ 303
+JP ＃
+EN ＃
+
+@ 304
+JP ＃
+EN ＃
+
+@ 305
+JP 受け身
+EN Ukemi
+
+@ 306
+JP 自分の体力が瀕死状態の時に、
+EN Stamina nearly gone:
+
+@ 307
+JP 全ての防御パラメータが＋１になる
+EN all defense stats +1
+
+@ 308
+JP ＃
+EN ＃
+
+@ 309
+JP ＃
+EN ＃
+
+@ 310
+JP 呼吸法
+EN Breathing
+
+@ 311
+JP 自分の体力に余裕がある内は
+EN While Stamina holds,
+
+@ 312
+JP 自然呼吸回復力が
+EN breath returns
+
+@ 313
+JP 通常の２倍になる
+EN twice as fast
+
+@ 314
+JP ＃
+EN ＃
+
+@ 315
+JP 業師
+EN Crafty
+
+@ 316
+JP 自分の魂技がループ設定の場合、
+EN If your Soul Move loops,
+
+@ 317
+JP 魂技を決めている時間が
+EN you hold Soul Moves
+
+@ 318
+JP 通常の２倍になる
+EN twice as long
+
+@ 319
+JP ＃
+EN ＃
+
+@ 320
+JP 流血
+EN Blood
+
+@ 321
+JP 自分が流血している間、
+EN While bleeding,
+
+@ 322
+JP 全ての技の威力が１０％増す
+EN all moves do 10% more
+
+@ 323
+JP ＃
+EN ＃
+
+@ 324
+JP ＃
+EN ＃
+
+@ 325
+JP 残忍
+EN Cruel
+
+@ 326
+JP 相手が流血している間、
+EN Opponent bleeding:
+
+@ 327
+JP 自分が受ける精神力ダメージが
+EN Spirit damage taken
+
+@ 328
+JP ２０％軽減する
+EN drops by 20%
+
+@ 329
+JP ＃
+EN ＃
+
+@ 330
+JP ハードコア
+EN Hardcore
+
+@ 331
+JP 凶器攻撃の威力が１．２倍、
+EN Weapon hits x1.2,
+
+@ 332
+JP 凶器攻撃を受けた時のダメージが
+EN weapon hits taken do
+
+@ 333
+JP １／２になる
+EN half damage
+
+@ 334
+JP ＃
+EN ＃
+
+@ 335
+JP パニッシャー
+EN Punisher
+
+@ 336
+JP 自分の流血中にアピールをすると、
+EN Taunt while bleeding:
+
+@ 337
+JP ３分間だけ凶器攻撃に
+EN for 3 minutes,
+
+@ 338
+JP クリティカル効果が発生する
+EN weapons go critical
+
+@ 339
+JP ＃
+EN ＃
+
+@ 340
+JP 一撃必殺
+EN One-Shot Kill
+
+@ 341
+JP 試合中に初めて決めた必殺技の
+EN Your first Finisher in a
+
+@ 342
+JP ダメージが通常の１．２倍になる
+EN match does 1.2x damage
+
+@ 343
+JP ＃
+EN ＃
+
+@ 344
+JP ＃
+EN ＃
+
+@ 345
+JP 根性
+EN Guts
+
+@ 346
+JP 自分の体力と精神力が瀕死状態の時、
+EN Stamina & Spirit nearly gone:
+
+@ 347
+JP ギブアップする確率が１／５になる
+EN 1/5 as likely to give up
+
+@ 348
+JP ＃
+EN ＃
+
+@ 349
+JP ＃
+EN ＃
+
+@ 350
+JP ひらめき
+EN Inspiration
+
+@ 351
+JP 自分の体力と精神力が瀕死状態で、
+EN Stamina & Spirit nearly gone,
+
+@ 352
+JP 魂が１つ以上残っている時、
+EN with souls left:
+
+@ 353
+JP ランダム返しの発生確率が
+EN random reversals x2
+
+@ 354
+JP １度だけ２倍になる
+EN once only
+
+@ 355
+JP タフ
+EN Tough
+
+@ 356
+JP 自分の体力が瀕死状態だが、
+EN Stamina nearly gone
+
+@ 357
+JP 精神力は残っている時に、
+EN but Spirit left:
+
+@ 358
+JP 受けるダメージが全て２０％軽減される
+EN all damage taken -20%
+
+@ 359
+JP ＃
+EN ＃
+
+@ 360
+JP 秒殺
+EN Blitz
+
+@ 361
+JP 試合開始直後の１分間に
+EN In the 1st minute,
+
+@ 362
+JP 魂技でのクリティカル発生確率が
+EN Soul Move critical rate
+
+@ 363
+JP 通常の２倍になる
+EN is doubled
+
+@ 364
+JP ＃
+EN ＃
+
+@ 365
+JP まむし
+EN Mamushi
+
+@ 366
+JP 自分が絞め・関節技を決めている時に、
+EN While you hold a choke or lock,
+
+@ 367
+JP 相手がロープに移動できなくなる
+EN they can't reach the ropes
+
+@ 368
+JP ＃
+EN ＃
+
+@ 369
+JP ＃
+EN ＃
+
+@ 370
+JP 仁王立ち
+EN Stand Tall
+
+@ 371
+JP 自分の体力が半分以下の時に、
+EN At half Stamina or less,
+
+@ 372
+JP 小・中打撃技でダウンしづらくなる
+EN light hits rarely down you
+
+@ 373
+JP ＃
+EN ＃
+
+@ 374
+JP ＃
+EN ＃
+
+@ 375
+JP 切り返し
+EN Reversal
+
+@ 376
+JP 自分の体力が瀕死状態だが、
+EN Stamina nearly gone
+
+@ 377
+JP 精神力は残っている時に、
+EN but Spirit left:
+
+@ 378
+JP 相手の必殺技を１度だけ
+EN reverse a Finisher
+
+@ 379
+JP ５０％の確率で返す
+EN once, 50% odds
+
+@ 380
+JP 光りを消す男
+EN Lights Out
+
+@ 381
+JP 試合中に初めて魂技を決めた時、
+EN Your first Soul Move has
+
+@ 382
+JP ５０％の確率で相手の魂を
+EN a 50% chance to take
+
+@ 383
+JP １つ減らすことができる
+EN an opponent's soul
+
+@ 384
+JP ＃
+EN ＃
+
+@ 385
+JP 魂のエール
+EN Soul Cheer
+
+@ 386
+JP 自分がセコンドをやっていて、
+EN As a Second, if your
+
+@ 387
+JP 味方の体力と精神力が半分以下の時、
+EN partner's Stamina & Spirit
+
+@ 388
+JP アピールをすると、１度だけ自分の魂を
+EN are below half, taunt to
+
+@ 389
+JP 味方に１つ与えることができる
+EN give them 1 soul (once)
+
+@ 390
+JP 血の契約
+EN Blood Pact
+
+@ 391
+JP 自分と相手がお互い流血している場合、
+EN If you and the opponent both
+
+@ 392
+JP アピールすることで自分の魂を
+EN bleed, taunt to restore
+
+@ 393
+JP １つだけ復活させることができる
+EN one of your souls
+
+@ 394
+JP ＃
+EN ＃
+
+@ 395
+JP 独裁者
+EN Dictator
+
+@ 396
+JP アピール最中に相手の攻撃を受けると、
+EN If hit while taunting,
+
+@ 397
+JP 相手の魂を奪って、自分の魂を
+EN steal a soul and restore
+
+@ 398
+JP １つ回復させることができる
+EN one of your own
+
+@ 399
+JP （１試合に３回まで）
+EN (max 3 a match)
+
+@ 400
+JP 無我
+EN Muga
+
+@ 401
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 402
+JP 「グラウンドテクニック」と「一発逆転」
+EN Ground Tech., Comeback
+
+@ 403
+JP と「呼吸法」の効果を持つ
+EN and Breathing
+
+@ 404
+JP 試合巧者
+EN Ring General
+
+@ 405
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 406
+JP 「反撃」と「呼吸法」
+EN Rally,
+
+@ 407
+JP と「業師」の効果を持つ
+EN Breathing & Crafty
+
+@ 408
+JP 不屈の闘志
+EN Indomitable
+
+@ 409
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 410
+JP 「クイックリターン」と「反撃」
+EN Quick Return, Rally
+
+@ 411
+JP と「受け身」の効果を持つ
+EN and Ukemi
+
+@ 412
+JP 鉄人
+EN Iron
+
+@ 413
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 414
+JP 「根性」と「タフ」
+EN Guts and Tough
+
+@ 415
+JP の効果を持つ
+EN combined
+
+@ 416
+JP ウィザード
+EN Wizard
+
+@ 417
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 418
+JP 「スター性」と「シャイニング」
+EN Star Power, Shining
+
+@ 419
+JP と「ひらめき」の効果を持つ
+EN and Inspiration
+
+@ 420
+JP デンジャラス
+EN Dangerous
+
+@ 421
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 422
+JP 「クイックリターン」と「反撃」
+EN Quick Return, Rally
+
+@ 423
+JP と「呼吸法」の効果を持つ
+EN and Breathing
+
+@ 424
+JP 魔界
+EN Makai
+
+@ 425
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 426
+JP 「悪のリズム」と「残忍」
+EN Rhythm of Evil,
+
+@ 427
+JP と「ひらめき」の効果を持つ
+EN Cruel and Inspiration
+
+@ 428
+JP 闘魂伝承
+EN Toukon Heir
+
+@ 429
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 430
+JP 「一発逆転」と「シャイニング」
+EN Comeback, Shining
+
+@ 431
+JP と「一撃必殺」の効果を持つ
+EN and One-Shot Kill
+
+@ 432
+JP ど真ん中
+EN Dead Center
+
+@ 433
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 434
+JP 「スタートダッシュ」と「一撃必殺」
+EN Fast Start &
+
+@ 435
+JP の効果を持つ
+EN One-Shot Kill
+
+@ 436
+JP 革命魂
+EN Rebel
+
+@ 437
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 438
+JP 「反撃」と「タフ」
+EN Rally and Tough
+
+@ 439
+JP の効果を持つ
+EN combined
+
+@ 440
+JP ノーフィアー
+EN No Fear
+
+@ 441
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 442
+JP 「スター性」と「シャイニング」
+EN Star Power, Shining
+
+@ 443
+JP と「一撃必殺」の効果を持つ
+EN and One-Shot Kill
+
+@ 444
+JP 流星
+EN Comet
+
+@ 445
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 446
+JP 「リングマスター」と「一発逆転」
+EN Ring Master, Comeback
+
+@ 447
+JP と「ひらめき」の効果を持つ
+EN and Inspiration
+
+@ 448
+JP Ｕの魂
+EN U Spirit
+
+@ 449
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 450
+JP 「グラウンドテクニック」と「業師」
+EN Ground Tech., Crafty
+
+@ 451
+JP と「一撃必殺」の効果を持つ
+EN and One-Shot Kill
+
+@ 452
+JP 関節職人
+EN Lock Master
+
+@ 453
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 454
+JP 「グラウンドテクニック」と「業師」
+EN Ground Tech., Crafty
+
+@ 455
+JP と「まむし」の効果を持つ
+EN and Mamushi
+
+@ 456
+JP デスマッチ王
+EN Deathmatch King
+
+@ 457
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 458
+JP 「悪のリズム」と「流血」
+EN Rhythm of Evil,
+
+@ 459
+JP と「ハードコア」の効果を持つ
+EN Blood and Hardcore
+
+@ 460
+JP スーパースター
+EN Superstar
+
+@ 461
+# [glossary-ok] skill name
+JP 単体特殊スキルの
+EN Veteran Finesse
+
+@ 462
+JP 「熟練の妙技」と「スター性」
+EN + Star Power
+
+@ 463
+JP と「一撃必殺」の効果を持つ
+EN + One-Shot Kill
+
+@ 464
+JP トリックスター
+EN Trickster
+
+@ 465
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 466
+JP 「悪のリズム」と「スター性」
+EN Rhythm of Evil,
+
+@ 467
+JP と「一発逆転」の効果を持つ
+EN Star Power & Comeback
+
+@ 468
+JP 若獅子
+EN Rookie
+
+@ 469
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 470
+JP 「グリーンボーイ」と「グラウンドテクニック」
+EN Green Boy and Ground Tech.
+
+@ 471
+JP の効果を持つ
+EN combined
+
+@ 472
+JP バイプレイヤー
+EN Role Player
+
+@ 473
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 474
+JP 「リングマスター」と「タッグ屋」
+EN Ring Master &
+
+@ 475
+JP の効果を持つ
+EN Tag Expert
+
+@ 476
+JP グラップラー
+EN Grappler
+
+@ 477
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 478
+JP 「一発逆転」と「集中力」
+EN Comeback, Focus
+
+@ 479
+JP と「ひらめき」の効果を持つ
+EN and Inspiration
+
+@ 480
+JP ストライカー
+EN Striker
+
+@ 481
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 482
+JP 「スタートダッシュ」と「秒殺」
+EN Fast Start and Blitz
+
+@ 483
+JP の効果を持つ
+EN combined
+
+@ 484
+JP 闘魂
+EN Toukon
+
+@ 485
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 486
+JP 「グラウンドテクニック」と「一発逆転」
+EN Ground Tech., Comeback
+
+@ 487
+JP と「一撃必殺」の効果を持つ
+EN and One-Shot Kill
+
+@ 488
+JP 王道
+EN Odo
+
+@ 489
+# [glossary-ok] skill name
+JP 単体特殊スキルの
+EN Veteran Finesse
+
+@ 490
+JP 「熟練の妙技」と「呼吸法」
+EN + Breathing
+
+@ 491
+JP と「一撃必殺」の効果を持つ
+EN + One-Shot Kill
+
+@ 492
+JP 怪物
+EN Beast
+
+@ 493
+JP 単体特殊スキルの
+EN Has the Skills
+
+@ 494
+JP 「スター性」と「受け身」
+EN Star Power, Ukemi
+
+@ 495
+JP と「呼吸法」の効果を持つ
+EN and Breathing
+
+@ 496
+JP 猛虎魂
+EN Tiger
+
+@ 497
+# [glossary-ok] skill name
+JP 単体特殊スキルの
+EN Star Power
+
+@ 498
+JP 「スター性」と「一発逆転」
+EN + Comeback
+
+@ 499
+JP と「一撃必殺」の効果を持つ
+EN + One-Shot Kill
+
+@ 500
+JP パワーボム
+EN Powerbomb
+
+@ 501
+JP ガードポジション
+EN Guard Position
+
+@ 502
+JP バックマウント
+EN Back Mount
+
+@ 503
+JP タイアップ（変更不能）
+EN Tie-Up (Fixed)
+
+@ 504
+JP ジャーマン（変更不能）
+EN German (Fixed)
+
+@ 505
+JP （右スティック）
+EN (Right Stick)
+
+@ 506
+JP フロントヘッドロック
+EN Front Headlock
+
+@ 507
+JP 羽交い締め
+EN Full Nelson
+
+@ 508
+JP 回
+EN x
+
+@ 509
+JP 勝
+EN W
+
+@ 510
+JP 敗
+EN L
+
+@ 511
+JP 分
+EN D
+
+@ 512
+JP ＯＦＦ
+EN OFF
+
+@ 513
+JP ＯＮ
+EN ON
+
+@ 514
+JP 空白
+EN Blank
+
+@ 515
+JP なし
+EN None
+
+@ 516
+# [spacing-ok] the space stands for a Japanese full-width space / separator / dropped counter
+JP ・
+EN  
+# separator between a foreign wrestler's first and last name (スコット・ノートン) - a space in English
+
+@ 517
+JP ＝
+EN ＝
+
+@ 518
+JP メモリーカード（ＰＳ２）がスロット１に差されていません
+EN No memory card (PS2) in slot 1
+
+@ 519
+JP メモリーカード（ＰＳ２）が初期化されていません
+EN Memory card (PS2) not formatted
+
+@ 520
+JP メモリーカード（ＰＳ２）が初期化されていません。
+JP 初期化しますか？
+EN Memory card (PS2) not formatted.
+EN Format it?
+
+@ 521
+JP メモリーカード（ＰＳ２）を初期化しています。
+JP メモリーカード（ＰＳ２）を抜いたり、電源を切ったりしないでください
+EN Formatting memory card (PS2).
+EN Don't remove the memory card (PS2) or turn off power
+
+@ 522
+JP 初期化に成功しました
+EN Format complete
+
+@ 523
+JP 初期化に失敗しました
+EN Format failed
+
+@ 524
+JP メモリーカード（ＰＳ２）には本ゲームのゲームデータが存在しません
+EN No data for this game on the memory card (PS2)
+
+@ 525
+JP スロット１のメモリーカード（ＰＳ２）から
+JP エディットレスラーデータを読み込みますか？
+EN Load edit wrestler data
+EN from memory card (PS2) slot 1?
+
+@ 526
+JP メモリーカード（ＰＳ２）からゲームデータをロードしています。
+JP メモリーカード（ＰＳ２）を抜き差ししないでください
+EN Loading game data from memory card (PS2).
+EN Don't remove/insert memory card (PS2)
+
+@ 527
+JP スロット１のメモリーカード（ＰＳ２）からゲームデータをロードしています。
+JP メモリーカード（ＰＳ２）を抜き差ししないでください
+EN Loading game data from memory card (PS2) slot 1.
+EN Don't remove/insert memory card (PS2)
+
+@ 528
+JP スロット１からレスラーデータをロードしています。
+JP メモリーカード（ＰＳ２）を抜き差ししないでください
+EN Loading wrestler data from slot 1.
+EN Don't remove/insert memory card (PS2)
+
+@ 529
+JP ロードが完了しました
+EN Load complete
+
+@ 530
+JP ロードに失敗しました
+EN Load failed
+
+@ 531
+JP ゲームデータが破損しているため、ロードに失敗しました
+EN Game data is damaged; could not load
+
+@ 532
+JP メモリーカード（ＰＳ２）へのアクセスに失敗しました
+EN Could not access memory card (PS2)
+
+@ 533
+JP 本ゲームのゲームデータが存在しません。
+JP 新規にゲームデータを作成しますか？
+JP （同時に現在のゲームデータをすべてセーブします）
+EN No game data for this game.
+EN Create new game data?
+EN (All current game data is saved too)
+
+@ 534
+JP 新規ゲームデータを作成しています。
+JP メモリーカード（ＰＳ２）を抜いたり、電源を切ったりしないでください
+EN Creating new game data.
+EN Don't remove the memory card (PS2) or turn off power
+
+@ 535
+JP 新規ゲームデータの作成に成功しました
+EN New game data created
+
+@ 536
+JP 新規ゲームデータの作成に失敗しました
+EN Could not create game data
+
+@ 537
+JP メモリーカード（ＰＳ２）の空き容量が不足しています。
+JP 本ゲームのゲームデータをセーブするには　１８７１ＫＢ以上必要です
+EN Memory card (PS2) lacks free space.
+EN To save, this game needs at least 1871 KB
+
+@ 538
+JP ゲームデータが更新されています。
+JP メモリーカード（ＰＳ２）にゲームデータをセーブしますか？
+EN Game data has changed.
+EN Save game data to memory card (PS2)?
+
+@ 539
+JP メモリーカード（ＰＳ２）にゲームデータをセーブしますか？
+EN Save game data to memory card (PS2)?
+
+@ 540
+JP 全てのデータを上書きしてもよろしいですか？
+EN Overwrite all data?
+
+@ 541
+JP システムデータを上書きしてもよろしいですか？
+EN Overwrite system data?
+
+@ 542
+JP エディットデータを上書きしてもよろしいですか？
+EN Overwrite edit data?
+
+@ 543
+JP 全てのデータをロードしてもよろしいですか？
+EN Load all data?
+
+@ 544
+JP システムデータをロードしてもよろしいですか？
+EN Load system data?
+
+@ 545
+JP エディットデータをロードしてもよろしいですか？
+EN Load edit data?
+
+@ 546
+JP メモリーカード（ＰＳ２）にゲームデータをセーブしています。
+JP メモリーカード（ＰＳ２）を抜いたり、電源を切ったりしないでください
+EN Saving game data to memory card (PS2).
+EN Don't remove the memory card (PS2) or turn off power
+
+@ 547
+JP セーブが完了しました
+EN Save complete
+
+@ 548
+JP セーブに失敗しました
+EN Save failed
+
+@ 549
+JP メモリーカード（ＰＳ２）がスロット１に差されていません。
+JP 本ゲームのゲームデータをセーブするには　１８７１ＫＢ以上
+JP 必要です。このまま開始しますか？
+EN No memory card (PS2) in slot 1.
+EN To save, this game needs 1871 KB
+EN or more. Start anyway?
+
+@ 550
+JP メモリーカード（ＰＳ２）が初期化されていません。
+JP 本ゲームのゲームデータをセーブするには　１８７１ＫＢ以上
+JP 必要です。このままで開始しますか？
+EN Memory card (PS2) not formatted.
+EN To save, this game needs 1871 KB
+EN or more. Start anyway?
+
+@ 551
+JP メモリーカード（ＰＳ２）に本ゲームのゲームデータがないので、
+JP ロードできません。本ゲームのゲームデータをセーブするには
+JP １８７１ＫＢ以上必要です。このまま開始しますか？
+EN No data for this game on memory card (PS2),
+EN so it can't be loaded. A save needs
+EN at least 1871 KB. Start anyway?
+
+@ 552
+JP メモリーカード（ＰＳ２）の空き容量が不足しています。
+JP 本ゲームのゲームデータをセーブするには　１８７１ＫＢ以上
+JP 必要です。このまま開始しますか？
+EN Memory card (PS2) lacks free space.
+EN To save, this game needs 1871 KB
+EN or more. Start anyway?
+
+@ 553
+JP ロードに失敗しました。このまま開始しますか？
+EN Load failed. Start anyway?
+
+@ 554
+JP ゲームデータが破損しているため、
+JP ロードに失敗しました。このまま開始しますか？
+EN Game data is damaged, so
+EN load failed. Start anyway?
+
+@ 555
+JP メモリーカード（ＰＳ２）へのアクセスに失敗しました。
+JP このまま開始しますか？
+EN Could not access memory card (PS2).
+EN Start anyway?
+
+@ 556
+JP メモリーカード（ＰＳ２）が抜き差しされたため、
+JP オートセーブを行いませんでした。
+JP このままセーブを行いますか？
+EN Memory card (PS2) was swapped,
+EN so auto save was skipped.
+EN Save anyway?
+
+@ 557
+JP メモリーカード（ＰＳ２）がスロット１にさされていません。
+JP このままゲームを続けますか？
+EN No memory card (PS2) in slot 1.
+EN Continue anyway?
+
+@ 558
+JP 本ゲームのゲームデータを新規に作成します。
+JP （同時に現在のゲームデータをすべてセーブします）
+JP よろしいですか？
+EN New game data will be created.
+EN (All current game data is saved too)
+EN Is that OK?
+
+@ 559
+JP メモリーカード（ＰＳ２）の空き容量が不足しています。
+JP 本ゲームのゲームデータをセーブするには　１８７１ＫＢ以上
+JP 必要です。このままゲームを続けますか？
+EN Memory card (PS2) lacks free space.
+EN To save, this game needs 1871 KB
+EN or more. Continue anyway?
+
+@ 560
+JP クイックセーブが完了しました
+EN Quick Save complete
+
+@ 561
+JP 上書きしてもよろしいですか？
+EN Overwrite?
+
+@ 562
+JP 上書き先のレスラーの獲得ベルトは返上、参加している
+JP シリーズとイリミネーションチームは破棄されます。
+JP 本当に上書きしますか？
+EN The replaced wrestler loses his belts
+EN and series/Elimination spots.
+EN Really overwrite?
+
+@ 563
+JP エディットしたレスラーの名前が上書き先のレスラーの
+JP 名前と異なるため、『戦いの歴史』は破棄されます。
+JP 本当に上書きしますか？
+EN The edit wrestler's name differs from
+EN the old one, so its Battle History is lost.
+EN Really overwrite?
+
+@ 564
+JP 各階級に最低１人の選手が必要ですので、
+JP このレスラーに上書きすることはできません
+EN Each weight class needs 1 or more,
+EN so this one can't be overwritten
+
+@ 565
+JP ここでは他のメモリーカード（ＰＳ２）に入っている
+JP エディットレスラーのデータを読み込んで、
+JP 自分のエディットレスラー枠にコピーすることができます。
+JP スロット１にレスラーデータの入っているメモリーカード（ＰＳ２）
+JP を差し込み、指定されたボタン操作を行ってください。
+EN Here you can load edit wrestlers from
+EN another memory card (PS2)
+EN and copy them into your edit slots.
+EN Insert a memory card (PS2) with wrestler
+EN data in slot 1 and press the buttons shown.
+
+@ 566
+JP レスラータイプの上限を超えてしまうため、
+JP このレスラーに上書きすることはできません
+EN Over the Wrestler Type limit,
+EN so this one can't be overwritten
+
+@ 567
+JP レスラータイプの上限を超えてしまうため、
+JP このレスラーをクイックセーブすることはできません
+EN Over the Wrestler Type limit,
+EN so this one can't be Quick Saved
+
+@ 568
+JP このレスラーは引退しているため、
+JP コピーすることはできません
+EN This wrestler has retired,
+EN so he can't be copied

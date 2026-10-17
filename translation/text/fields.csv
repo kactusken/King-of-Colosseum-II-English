@@ -1,0 +1,1267 @@
+table,field,japanese,english,ascii_max,notes
+appearance,name,新日本プロレス,New Japan,27
+appearance,name,プロレスリング・ノア,NOAH,27
+appearance,name,全日本プロレス,All Japan,27
+appearance,name,ＺＥＲＯ－ＯＮＥ,ZERO-ONE,27
+appearance,name,ＷＪ,WJ,27
+appearance,name,謎,Mystery,27
+appearance,name,ＦＲＥＥ,FREE,27
+appearance,name,オリジナル,Original,27
+appearance,name,構え,Stance,27
+appearance,name,体型,Build,27
+appearance,name,ボディサイズ,Body Size,27
+appearance,name,ノーマル,Normal,27
+appearance,name,柔道着,Judo Gi,27
+appearance,name,パンタロン,Pantaloons,27
+appearance,name,忍者コスチューム,Ninja Costume,27
+appearance,name,もんぺ,Monpe,27
+appearance,name,裾入れジーンズ,Tucked-In Jeans,27
+appearance,name,ジャージ,Track Pants,27
+appearance,name,トランクス,Trunks,27
+appearance,name,サングラス,Sunglasses,27
+appearance,name,裸,Bare,27
+appearance,name,ペイント,Paint,27
+appearance,name,タンクトップ,Tank Top,27
+appearance,name,ボディスーツ,Bodysuit,27
+appearance,name,Tシャツ,T-Shirt,27
+appearance,name,右肘,Right Elbow,27
+appearance,name,左肘,Left Elbow,27
+appearance,name,指テーピング,Finger Tape,27
+appearance,name,甲,Hand Tape,27
+appearance,name,グローブ,Gloves,27
+appearance,name,腕毛付き,Arm Hair,27
+appearance,name,指テーピング（腕毛付き）,Finger Tape+Hair,27
+appearance,name,甲（腕毛付き）,Hand Tape+Hair,27
+appearance,name,ショートタイツ,Short Tights,27
+appearance,name,ショートスパッツ,Short Spats,27
+appearance,name,ハ―フタイツ,Half Tights,27
+appearance,name,ロングタイツ,Long Tights,27
+appearance,name,未定,TBD,27
+appearance,name,入場衣装,Entrance Gear,27
+appearance,name,項目数,Item Count,27
+logic_situations,name,立ち打撃,Strikes,27
+logic_situations,name,ホーミングダッシュ,Homing Dash,27
+logic_situations,name,ロープダッシュ,Rope Dash,27
+logic_situations,name,ダウンダッシュ,Down Dash,27
+logic_situations,name,相手ダッシュ,Foe Dashing,27
+logic_situations,name,コーナーダウン,Corner Down,27
+logic_situations,name,対角線ダッシュ,Diagonal Dash,27
+logic_situations,name,コーナー組み,Corner Grab,27
+logic_situations,name,正面組み,Front Grapple,27
+logic_situations,name,背面組み,Rear Grapple,27
+logic_situations,name,□,□,27
+logic_situations,name,×,×,27
+logic_situations,name,○,○,27
+logic_situations,name,△,△,27
+logic_situations,name,Ｒ１,R1,27
+logic_situations,name,□×,□×,27
+logic_situations,name,△○,△○,27
+logic_situations,name,タイアップ　□,Tie-Up □,27
+logic_situations,name,タイアップ　×,Tie-Up ×,27
+logic_situations,name,タイアップ　○,Tie-Up ○,27
+logic_situations,name,タイアップ　△,Tie-Up △,27
+logic_situations,name,タイアップ　Ｒ１,Tie-Up R1,27
+logic_situations,name,タイアップ　□×,Tie-Up □×,27
+logic_situations,name,タイアップ　△○,Tie-Up △○,27
+logic_situations,name,ジャーマン　□,German □,27
+logic_situations,name,ジャーマン　×,German ×,27
+logic_situations,name,ジャーマン　○,German ○,27
+logic_situations,name,ジャーマン　△,German △,27
+logic_situations,name,ジャーマン　Ｒ１,German R1,27
+logic_situations,name,ジャーマン　□×,German □×,27
+logic_situations,name,ジャーマン　△○,German △○,27
+logic_situations,name,ジャーマン返し,German Rev.,27
+logic_situations,name,頭側,Head Side,27
+logic_situations,name,腕側,Arm Side,27
+logic_situations,name,足側,Leg Side,27
+logic_situations,name,クラッチ引起こし,Clutch Lift,27
+logic_situations,name,半ダウン技,Sitting Moves,27
+logic_situations,name,片膝ダウン技,Kneeling,27
+logic_situations,name,片膝ダッシュ技,Kneel Dash,27
+logic_situations,name,正面登り,Front Climb,27
+logic_situations,name,背面登り,Back Climb,27
+logic_situations,name,ロープ越し場外技,Rope Dive,27
+logic_situations,name,走り場外技,Running Dive,27
+logic_situations,name,エプロン場外技,Apron Dives,27
+logic_situations,name,エプロン場内技,Apron to Ring,27
+logic_situations,name,リング内から掴み,Ring Grab,27
+logic_situations,name,エプロンから掴み,Apron Grab,27
+logic_situations,name,ガードポジション,Guard Position,27
+logic_situations,name,マウントポジション,Mount Position,27
+logic_situations,name,バックマウント,Back Mount,27
+logic_situations,name,がぶり,Facelock,27
+logic_situations,name,腕キャッチ１,Arm Catch 1,27
+logic_situations,name,腕キャッチ２,Arm Catch 2,27
+logic_situations,name,右足キャッチ,R. Leg Catch,27
+logic_situations,name,正面,Front,27
+logic_situations,name,背後,Behind,27
+logic_situations,name,コーナー,Corner,27
+logic_situations,name,アピール,Taunt,27
+logic_situations,name,入場歩き,Entrance Walk,27
+logic_situations,name,登場アピール,Entry Taunt,27
+logic_situations,name,途中アピール,Ramp Taunt,27
+logic_situations,name,リングイン,Enter Ring,27
+logic_situations,name,待機,Waiting,27
+logic_situations,name,コール時,Name Call,27
+logic_situations,name,試合後アピール,After Match,27,[glossary-ok] option name: the after-match taunt setting
+logic_actions,name,間合いを取る,Keep Distance,31
+logic_actions,name,回り込む,Circle Around,31
+logic_actions,name,正面から組む,Lock Up from Front,31
+logic_actions,name,打撃技を出す,Use a Strike,31
+logic_actions,name,ホーミングダッシュ技を出す,Use a Homing Dash Move,31
+logic_actions,name,立ち打撃技,Standing Strike,31
+logic_actions,name,ホーミングダッシュ技,Homing Dash Moves,31
+logic_actions,name,背後から組む,Lock Up from Behind,31
+logic_actions,name,ロープダッシュ技を出す,Use a Rope Dash Move,31
+logic_actions,name,ロープダッシュ技,Rope Dash Moves,31
+logic_actions,name,正面クラッチ,Front Clutch,31
+logic_actions,name,□,□,31
+logic_actions,name,×,×,31
+logic_actions,name,○,○,31
+logic_actions,name,△,△,31
+logic_actions,name,Ｒ１,R1,31
+logic_actions,name,□×（魂）,□× (Soul),31
+logic_actions,name,△○（魂）,△○ (Soul),31
+logic_actions,name,タイアップ　□,Tie-Up □,31
+logic_actions,name,タイアップ　×,Tie-Up ×,31
+logic_actions,name,タイアップ　○,Tie-Up ○,31
+logic_actions,name,タイアップ　△,Tie-Up △,31
+logic_actions,name,タイアップ　R1,Tie-Up R1,31
+logic_actions,name,タイアップ　R2,Tie-Up R2,31
+logic_actions,name,タイアップ　□×（魂）,Tie-Up □× (Soul),31
+logic_actions,name,タイアップ　△○（魂）,Tie-Up △○ (Soul),31
+logic_actions,name,背後クラッチ,Rear Clutch,31
+logic_actions,name,ジャーマン　□,German □,31
+logic_actions,name,ジャーマン　×,German ×,31
+logic_actions,name,ジャーマン　○,German ○,31
+logic_actions,name,ジャーマン　△,German △,31
+logic_actions,name,ジャーマン　Ｒ１,German R1,31
+logic_actions,name,ジャーマン　Ｒ２,German R2,31
+logic_actions,name,ジャーマン　□×（魂）,German □× (Soul),31
+logic_actions,name,ジャーマン　△○（魂）,German △○ (Soul),31
+logic_actions,name,ジャーマン返し,German Rev.,31
+logic_actions,name,ロープへ,To the Ropes,31
+logic_actions,name,対角線へ,To the Far Corner,31
+logic_actions,name,場外へ,To the Floor,31
+logic_actions,name,エプロンへ,To the Apron,31
+logic_actions,name,カウンター技を出す,Use a Counter,31
+logic_actions,name,カウンター技,Counter Moves,31
+logic_actions,name,何もしない,Do Nothing,31
+logic_actions,name,逆さ吊りにする,Tree of Woe,31
+logic_actions,name,コーナーダウン技を出す,Use a Corner Down Move,31
+logic_actions,name,対角線ダッシュ技を出す,Diagonal Dash Move,31
+logic_actions,name,コーナー組み技を出す,Use a Corner Grapple,31
+logic_actions,name,エプロン場内技,Apron-to-Ring Moves,31
+logic_actions,name,コーナーダウン技,Corner Down Moves,31
+logic_actions,name,対角線ダッシュ技,Diagonal Dash Moves,31
+logic_actions,name,コーナー組み技,Corner Grapples,31
+logic_actions,name,うつ伏せにする,Turn Face-Down,31
+logic_actions,name,引き起こす,Pull Up,31
+logic_actions,name,クラッチ引き起こしへ,Into Clutch Pick-up,31
+logic_actions,name,仰向け技（頭側）を出す,Face-Up (Head Side),31
+logic_actions,name,仰向け技（腕側）を出す,Face-Up (Arm Side),31
+logic_actions,name,仰向け技（足側）を出す,Face-Up (Leg Side),31
+logic_actions,name,ダウンダッシュ技を出す,Use a Down Dash Move,31
+logic_actions,name,素立ち状態へ,Pull to Standing,31
+logic_actions,name,半ダウン状態へ,Pull to Sitting,31
+logic_actions,name,片膝ダウン状態へ,Pull to Kneeling,31
+logic_actions,name,クラッチ引き起こし,Clutch Lift,31,[glossary-ok] option name, shortened
+logic_actions,name,仰向け技（頭部）,Face-Up Move (Head),31
+logic_actions,name,仰向け技（腕部）,Face-Up Move (Arm),31
+logic_actions,name,仰向け技（足部）,Face-Up Move (Leg),31
+logic_actions,name,ダウンダッシュ技,Down Dash Moves,31
+logic_actions,name,仰向けにする,Turn Face-Up,31
+logic_actions,name,うつ伏せ技（頭側）を出す,Face-Down (Head Side),31
+logic_actions,name,うつ伏せ技（腕側）を出す,Face-Down (Arm Side),31
+logic_actions,name,うつ伏せ技（足側）を出す,Face-Down (Leg Side),31
+logic_actions,name,四つん這い状態へ,Pull to All Fours,31
+logic_actions,name,うつ伏せ技（頭部）,Face-Down Move (Head),31
+logic_actions,name,うつ伏せ技（腕部）,Face-Down Move (Arm),31
+logic_actions,name,うつ伏せ技（足部）,Face-Down Move (Leg),31
+logic_actions,name,半ダウン技を出す,Use a Sitting Move,31
+logic_actions,name,半ダウン技,Sitting Moves,31
+logic_actions,name,片膝ダウン技を出す,Use a Kneeling Move,31
+logic_actions,name,片膝ダウンダッシュ技を出す,Kneeling Dash Move,31
+logic_actions,name,片膝ダウン技,Kneeling Moves,31
+logic_actions,name,片膝ダウンダッシュ技,Kneeling Dash Move,31
+logic_actions,name,四つん這い技（頭側）を出す,All Fours (Head Side),31
+logic_actions,name,四つん這い技（腕側）を出す,All Fours (Arm Side),31
+logic_actions,name,四つん這い技（足側）を出す,All Fours (Leg Side),31
+logic_actions,name,四つん這い技（頭部）,All-Fours Move (Head),31
+logic_actions,name,四つん這い技（腕部）,All-Fours Move (Arm),31
+logic_actions,name,四つん這い技（足部）,All-Fours Move (Leg),31
+logic_actions,name,登らない,Don't Climb,31
+logic_actions,name,正面登り飛び技を出す,Front Top-Rope Dive,31
+logic_actions,name,背面登り飛び技を出す,Back Top-Rope Dive,31
+logic_actions,name,正面登り飛び技,Front Top-Rope Dive,31
+logic_actions,name,背面登り飛び技,Back Top-Rope Dive,31
+logic_actions,name,エプロンに出ない,Stay off the Apron,31
+logic_actions,name,エプロン場内技を出す,Apron-to-Ring Move,31
+logic_actions,name,場外へ降りる,Go to the Floor,31
+logic_actions,name,ダッシュして場外へ降りる,Dash to the Floor,31
+logic_actions,name,ロープ越し場外技を出す,Use an Over-Rope Dive,31
+logic_actions,name,走り場外技を出す,Use a Running Dive,31
+logic_actions,name,エプロンダッシュ場外技を出す,Use an Apron Dash Dive,31
+logic_actions,name,ロープ越し場外技,Rope Dive,31
+logic_actions,name,走り場外技,Running Dive,31
+logic_actions,name,エプロンダッシュ場外技,Apron Dash Dive,31
+logic_actions,name,リング内からの掴み技を出す,Grab Move from the Ring,31
+logic_actions,name,リング内からの掴み技,Grab Move from the Ring,31
+logic_actions,name,エプロンからの掴み技を出す,Grab from the Apron,31
+logic_actions,name,エプロンからの掴み技,Grab from the Apron,31
+logic_actions,name,アピールしない,Don't Taunt,31
+logic_actions,name,アピール,Taunt,31
+logic_actions,name,ガードポジション技,Guard Position Moves,31
+logic_actions,name,マウントポジション技,Mount Move,31
+logic_actions,name,バックマウント技,Back Mount Move,31
+logic_actions,name,がぶり技,Front Headlock Move,31
+logic_actions,name,腕キャッチ１,Arm Catch 1,31
+logic_actions,name,腕キャッチ２,Arm Catch 2,31
+logic_actions,name,右足キャッチ技,Right Leg Catch Move,31
+logic_actions,name,ガードポジション返し技,Guard Reversal,31
+logic_actions,name,マウントポジション返し技,Mount Reversal,31
+logic_actions,name,バックマウント返し技,Back Mount Reversal,31
+logic_actions,name,がぶり返し技,Front Headlock Reversal,31
+logic_actions,name,こだわらない,Any,31
+logic_actions,name,得意技１を出す,Use Signature Move 1,31
+logic_actions,name,得意技２を出す,Use Signature Move 2,31
+logic_actions,name,得意技３を出す,Use Signature Move 3,31
+logic_actions,name,得意技４を出す,Use Signature Move 4,31
+logic_actions,name,必殺技を出す,Use the Finisher,31
+logic_actions,name,技の前にアピールしない,Don't Taunt Before Moves,31
+logic_actions,name,技の前にアピール,Taunt Before Moves,31
+logic_actions,name,早い,Early,31
+logic_actions,name,遅い,Late,31
+logic_actions,name,する,Yes,31
+logic_actions,name,しない,No,31
+logic_actions,name,多い,Often,31
+logic_actions,name,少ない,Rarely,31
+logic_actions,name,振る,Whip,31
+logic_actions,name,振らない,Don't Whip,31
+logic_actions,name,拾う,Pick Up,31
+logic_actions,name,拾わない,Don't Pick Up,31
+wrestler_types,name,オーソドックス,Orthodox,39
+wrestler_types,help,どの攻撃もそれなりにこなせる正統派プロレスラータイプ,An orthodox wrestler who can handle every kind of attack,83
+wrestler_types,name,テクニシャン,Technician,39
+wrestler_types,help,丸め込み技や絞め技や投げ技が得意な無我なプロレスラータイプ,"A Muga-style wrestler good at roll-ups, chokes and throws",83
+wrestler_types,name,レスリング,Wrestling,39
+wrestler_types,help,投げ技やグラウンド技が得意なアマレス系プロレスラータイプ,An amateur-style wrestler good at throws and mat work,83
+wrestler_types,name,グラウンド,Ground,39
+wrestler_types,help,グラウンド技と丸め込み技が得意なねちっこいプロレスラータイプ,A grinding wrestler good at mat work and roll-ups,83
+wrestler_types,name,パワー,Power,39
+wrestler_types,help,馬力や腕力を使ったパワー殺法を得意とする筋肉プロレスラータイプ,A muscle wrestler who overpowers with raw strength,83
+wrestler_types,name,ストロングシューター,Strong Shooter,39
+wrestler_types,help,蹴り・投げ・関節技を得意とするＵ系プロレスラータイプ,"A U-style wrestler good at kicks, throws and joint locks",83
+wrestler_types,name,アメリカン,American,39
+wrestler_types,help,ラフ攻撃や丸め込み技を得意とするズル賢いアメリカンレスラータイプ,"A crafty American wrestler: rough attacks, roll-ups",83
+wrestler_types,name,ハイスパート,High Spurt,39
+wrestler_types,help,馬力・腕力・瞬発力を使って勢いで攻めまくるど真ん中レスラータイプ,A no-frills wrestler who rushes in with power and speed,83
+wrestler_types,name,オールラウンド,All-Round,39
+wrestler_types,help,打撃・投げ・飛び技を得意とする万能プロレスラータイプ,"An all-rounder good at strikes, throws and high-flying",83
+wrestler_types,name,ジーニアス,Genius,39
+wrestler_types,help,飛び技・関節技・丸め込み技を器用に使いこなす天才プロレスラータイプ,"A gifted wrestler: high-flying, joint locks, roll-ups",83
+wrestler_types,name,レボリューション,Revolution,39
+wrestler_types,help,ラフ攻撃とパワー殺法を得意とする頑固なプロレスラータイプ,A stubborn wrestler good at rough attacks and power moves,83
+wrestler_types,name,ジュニア,Junior,39
+wrestler_types,help,飛び技・投げ技・丸め込み技を得意とする俊敏なプロレスラータイプ,"A quick wrestler good at high-flying, throws and roll-ups",83
+wrestler_types,name,ルチャドール,Luchador,39
+wrestler_types,help,飛び技・絞め技・丸め込み技を得意とするメキシカンプロレスラータイプ,"A Mexican-style wrestler: high-flying, chokes, roll-ups",83
+wrestler_types,name,ヒール,Heel,39
+wrestler_types,help,ラフ殺法のみを得意とする凶悪プロレスラータイプ,A vicious wrestler who only fights dirty,83
+wrestler_types,name,ミステリアス,Mysterious,39
+wrestler_types,help,ラフ攻撃・飛び技・丸め込み技が得意な魔界プロレスラータイプ,"A Makai wrestler: rough attacks, high-flying, roll-ups",83
+wrestler_types,name,シューター,Shooter,39
+wrestler_types,help,打撃とグラウンド技を得意とするＵ系格闘家タイプ,A U-style fighter good at strikes and mat work,83
+wrestler_types,name,ファイター,Fighter,39
+wrestler_types,help,打撃技のみを得意とする立ち技格闘家タイプ,A stand-up fighter who only strikes,83
+wrestler_types,name,グラップラー,Grappler,39
+wrestler_types,help,グラウンド技と打撃も多少得意とする総合格闘家タイプ,"An MMA fighter good at mat work, with some striking",83
+wrestler_types,name,ストライカー,Striker,39
+wrestler_types,help,打撃とラフ殺法を武器にする総合格闘家タイプ,An MMA fighter who uses strikes and rough tactics,83
+wrestler_types,name,フリーファイター,Free Fighter,39
+wrestler_types,help,投げ技とグラウンド技を得意とする柔道家タイプ,A judoka good at throws and mat work,83
+wrestler_types,name,ステイシー,Stacy,39
+wrestler_types,help,グラウンド技とラフ攻撃を得意とする誇り高き柔術家タイプ,"A proud jiu-jitsu fighter: mat work, rough attacks",83
+wrestler_types,name,パンサー,Panther,39
+wrestler_types,help,蹴り・投げ・飛び技を得意とする虎戦士系プロレスラータイプ,"A tiger warrior: kicks, throws and high-flying",83
+wrestler_types,name,ジャイアント,Giant,39
+wrestler_types,help,ラフ攻撃とパワー殺法を得意とする大巨人プロレスラータイプ,A giant wrestler good at rough attacks and power moves,83
+wrestler_types,name,魔性,Devilish,39
+wrestler_types,help,ラフ攻撃・グラウンド技・丸め込み技が得意な闘魂プロレスラータイプ,"A Toukon wrestler: rough attacks, mat work, roll-ups",83
+wrestler_types,name,王道,Odo,39
+wrestler_types,help,打撃と力技を得意とする王道プロレスラータイプ,A King's Road wrestler good at strikes and power moves,83
+wrestler_types,name,ビースト,Beast,39
+wrestler_types,help,パンチと怪力殺法で相手を破壊する野獣プロレスラータイプ,A beast who wrecks foes with punches and brute force,83
+wrestler_types,name,ビクトリー武蔵,Victory Musashi,39
+wrestler_types,help,闘いの伝説ことビクトリー武蔵のサンプル,"Sample: Victory Musashi, ""Fighting Legend""",83
+wrestler_types,name,グレート司馬,Great Shiba,39
+wrestler_types,help,世界を征する巨人ことグレート司馬のサンプル,"Sample: Great Shiba, ""World-Conquering Giant""",83
+wrestler_types,name,トミー・ボンバー,Tommy Bomber,39
+wrestler_types,help,パワフル爆弾ことトミー・ボンバーのサンプル,"Sample: Tommy Bomber, ""Powerful Bomb""",83
+wrestler_types,name,マスク・ド・パンサー,Mask de Panther,39
+wrestler_types,help,夢幻のヒーローことマスク・ド・パンサーのサンプル,"Sample: Mask de Panther, ""Phantasm Hero""",83
+wrestler_types,name,野川　裕也（プロレス）,Yuya Nogawa (Pro),39
+wrestler_types,help,狂乱の柔道王こと野川裕也のサンプル,"Sample: Yuya Nogawa, ""Frenzied Judo King""",83
+wrestler_types,name,ザ・ミステリアス・カグラ,Mysterious Kagura,39
+wrestler_types,help,東洋の怪奇ことザ・ミステリアス・カグラのサンプル,"Sample: Mysterious Kagura, ""Oriental Mystery""",83
+wrestler_types,name,沖田　勝志,Katsushi Okita,39
+wrestler_types,help,炎のカリスマこと沖田勝志のサンプル,"Sample: Katsushi Okita, ""Flaming Charisma""",83
+wrestler_types,name,サクソン春樹,Saxon Haruki,39
+wrestler_types,help,ビッグバディことサクソン春樹のサンプル,"Sample: Saxon Haruki, ""Big Body""",83
+wrestler_types,name,ランマル,Ranmaru,39
+wrestler_types,help,羽ばたく不死鳥ことランマルのサンプル,"Sample: Ranmaru, ""Soaring Phoenix""",83
+wrestler_types,name,ウイニング亀村,Winning Kamemura,39
+wrestler_types,help,ヒューマントーチことウイニング亀村のサンプル,"Sample: Winning Kamemura, ""Human Torch""",83
+wrestler_types,name,室田　鉄彦,Tetsuhiko Murota,39
+wrestler_types,help,魂の豪腕こと室田鉄彦のサンプル,"Sample: Tetsuhiko Murota, ""Mighty Arm with Soul""",83
+wrestler_types,name,Ｍｒ．芦屋,Mr. Ashiya,39
+wrestler_types,help,荒れ狂う業師ことＭｒ．芦屋のサンプル,"Sample: Mr. Ashiya, ""Raging Technician""",83
+wrestler_types,name,ハンター五条,Hunter Gojo,39
+wrestler_types,help,怒れる鬼神ことハンター五条のサンプル,"Sample: Hunter Gojo, ""Raging Demon God""",83
+wrestler_types,name,マスター・トーゴー,Master Togo,39
+wrestler_types,help,暗黒大王ことマスター・トーゴーのサンプル,"Sample: Master Togo, ""Great King of Darkness""",83
+wrestler_types,name,ブレード・ハヤテ,Blade Hayate,39
+wrestler_types,help,東北の疾風ことブレード・ハヤテのサンプル,"Sample: Blade Hayate, ""Tohoku Gale""",83
+wrestler_types,name,Ｓ・ドルフィン,S. Dolphin,39
+wrestler_types,help,浪花の彗星ことＳ・ドルフィンのサンプル,"Sample: S. Dolphin, ""Naniwa Comet""",83
+wrestler_types,name,神崎　仁水,Jinsui Kanzaki,39
+wrestler_types,help,さすらいの荒法師こと神崎仁水のサンプル,"Sample: Jinsui Kanzaki, ""Wandering Warrior Monk""",83
+wrestler_types,name,グラン・マリポーサ,Gran Mariposa,39
+wrestler_types,help,ルチャの小さな偉人ことグラン・マリポーサのサンプル,"Sample: Gran Mariposa, ""Little Giant of Lucha""",83
+wrestler_types,name,ＷＡＫＡゆきぐに,WAKA Yukiguni,39
+wrestler_types,help,荒くれ一番星ことＷＡＫＡゆきぐにのサンプル,"Sample: WAKA Yukiguni, ""Rowdy First Star""",83
+wrestler_types,name,怒乱　音羽,Doran Otowa,39
+wrestler_types,help,浪花のエトワールこと怒乱音羽のサンプル,"Sample: Doran Otowa, ""Etoile of Osaka""",83
+wrestler_types,name,ワルサーＫＹＯＴＯ,Walther KYOTO,39
+wrestler_types,help,ダンシングビートことワルサーＫＹＯＴＯのサンプル,"Sample: Walther KYOTO, ""Dancing Beat""",83
+wrestler_types,name,ＺＹＭＡ,ZYMA,39
+wrestler_types,help,怒れる悪の華ことＺＹＭＡのサンプル,"Sample: ZYMA, ""Raging Flower of Evil""",83
+wrestler_types,name,アステカ・ジュニア,Azteca Jr.,39
+wrestler_types,help,若き新竜ことアステカ・ジュニアのサンプル,"Sample: Azteca Jr., ""Young New Dragon""",83
+wrestler_types,name,後月 正成,Masanari Shitsuki,39
+wrestler_types,help,蹴撃武将こと後月正成のサンプル,"Sample: Masanari Shitsuki, ""Kicking Warlord""",83
+wrestler_types,name,倉仲　武博（プロレス）,T. Kuranaka (Pro),39
+wrestler_types,help,浪花の打撃王こと倉仲武博のサンプル,"Sample: Takehiro Kuranaka, ""Striking King of Osaka""",83
+wrestler_types,name,えぼすさん,Ebosu-san,39
+wrestler_types,help,浪花の福神ことえぼすさんのサンプル,"Sample: Ebosu-san, ""Lucky God of Osaka""",83
+wrestler_types,name,ジェット,Jet,39
+wrestler_types,help,伝説のヒーローことジェットのサンプル,"Sample: Jet, ""Legendary Hero""",83
+wrestler_types,name,ＩＳＡＭＩ,ISAMI,39
+wrestler_types,help,天に舞う白鳥ことＩＳＡＭＩのサンプル,"Sample: ISAMI, ""Swan Dancing in the Sky""",83
+wrestler_types,name,梶原　丈,Jo Kajiwara,39
+wrestler_types,help,サブミッションマスターこと梶原丈のサンプル,"Sample: Jo Kajiwara, ""Submission Master""",83
+wrestler_types,name,安藤　障二,Shoji Ando,39
+wrestler_types,help,ビッグマウスこと安藤障二のサンプル,"Sample: Shoji Ando, ""Big Mouth""",83
+wrestler_types,name,石原　冬威,Toi Ishihara,39
+wrestler_types,help,剛勇戦士こと石原冬威のサンプル,"Sample: Toi Ishihara, ""Valiant Warrior""",83
+wrestler_types,name,ヘラクレス大月,Hercules Otsuki,39
+wrestler_types,help,スープレックスマスターことヘラクレス大月のサンプル,"Sample: Hercules Otsuki, ""Suplex Master""",83
+wrestler_types,name,リック西城,Rick Saijo,39
+wrestler_types,help,東北の喧嘩番長ことリック西城のサンプル,"Sample: Rick Saijo, ""Tohoku Brawl Boss""",83
+wrestler_types,name,梶田　ミツル,Mitsuru Kajita,39
+wrestler_types,help,闘う一寸法師こと梶田ミツルのサンプル,"Sample: Mitsuru Kajita, ""Fighting Tom Thumb""",83
+wrestler_types,name,楠田　政美,Masami Kusuda,39
+wrestler_types,help,流浪の仕事人こと楠田政美のサンプル,"Sample: Masami Kusuda, ""Wandering Pro""",83
+wrestler_types,name,火野　まさる,Masaru Hino,39
+wrestler_types,help,格闘王子こと火野まさるのサンプル,"Sample: Masaru Hino, ""Prince of Fighting""",83
+wrestler_types,name,黒光,Kokko,39
+wrestler_types,help,最強スモウファイターこと黒光のサンプル,"Sample: Kokko, ""Strongest Sumo Fighter""",83
+wrestler_types,name,さだ…ｓａｎ,Sada...san,39
+wrestler_types,help,ポジティブライフことさだ・・・ｓａｎのサンプル,"Sample: Sada...san, ""Positive Life""",83
+wrestler_types,name,観月　慶三,Keizo Mizuki,39
+wrestler_types,help,魅惑の風雲児こと観月慶三のサンプル,"Sample: Keizo Mizuki, ""Enchanting Adventurer""",83
+wrestler_types,name,会津　義幸　,Yoshiyuki Aizu,39
+wrestler_types,help,ワンダーパワーこと会津義幸のサンプル,"Sample: Yoshiyuki Aizu, ""Wonder Power""",83
+wrestler_types,name,梶田　政之（プロレス・ＶＴ）,M. Kajita (Pro/VT),39
+wrestler_types,help,ファイティングビーストこと梶田政之のサンプル,"Sample: Masayuki Kajita, ""Fighting Beast""",83
+wrestler_types,name,宝坂　大志（プロレス・ＶＴ）,T. Hosaka (Pro/VT),39
+wrestler_types,help,バイオニクスソルジャーこと宝坂大志のサンプル,"Sample: Taishi Hosaka, ""Bionics Soldier""",83
+wrestler_types,name,アックス・ノーガン,Axe Nogan,39
+wrestler_types,help,アックスマニアことアックス・ノーガンのサンプル,"Sample: Axe Nogan, ""Axe Mania""",83
+wrestler_types,name,サム・ポップ,Sam Pop,39
+wrestler_types,help,漆黒の肉弾野獣ことサム・ポップのサンプル,"Sample: Sam Pop, ""Jet-Black Battering Beast""",83
+wrestler_types,name,アックス・ドゥガン,Axe Dugan,39
+wrestler_types,help,無敵の超人ことアックス・ドゥガンのサンプル,"Sample: Axe Dugan, ""Invincible Superman""",83
+wrestler_types,name,ゴールデンハンマー,Golden Hammer,39
+wrestler_types,help,新人類ことゴールデンハンマーのサンプル,"Sample: Golden Hammer, ""New Breed""",83
+wrestler_types,name,スター・バイソン,Star Bison,39
+wrestler_types,help,リングの猛牛ことスター・バイソンのサンプル,"Sample: Star Bison, ""Raging Bull of the Ring""",83
+wrestler_types,name,ビッグ・ザ・グレート・ブル,Big the Great Bull,39
+wrestler_types,help,哲学獣ことビッグ・ザ・グレート・ブルのサンプル,"Sample: Big the Great Bull, ""Philosophical Beast""",83
+wrestler_types,name,ジャイアント・ロシュモフ,Giant Roshmoff,39
+wrestler_types,help,人間山脈ことジャイアント・ロシュモフのサンプル,"Sample: Giant Roshmoff, ""Human Mountain""",83
+wrestler_types,name,ケリー・テキサン,Kerry Texan,39
+wrestler_types,help,ワイルドブロンコことケリー・テキサンのサンプル,"Sample: Kerry Texan, ""Wild Bronco""",83
+wrestler_types,name,ハリー・テキサンＪｒ．,Harry Texan Jr.,39
+wrestler_types,help,グレートアメリカことハリー・テキサンＪｒ．のサンプル,"Sample: Harry Texan Jr., ""Great America""",83
+wrestler_types,name,マスカラ・コンドル,Mascara Condor,39
+wrestler_types,help,仮面大帝ことマスカラ・コンドルのサンプル,"Sample: Mascara Condor, ""Masked Emperor""",83
+wrestler_types,name,マスカラ・イーグル,Mascara Eagle,39
+wrestler_types,help,荒鷲仮面ことマスカラ・イーグルのサンプル,"Sample: Mascara Eagle, ""Masked Wild Eagle""",83
+wrestler_types,name,アブドル・ザ・デンジャー,Abdul the Danger,39
+wrestler_types,help,褐色の悪魔ことアブドル・ザ・デンジャーのサンプル,"Sample: Abdul the Danger, ""Brown Devil""",83
+wrestler_types,name,マッド・タイガー,Mad Tiger,39
+wrestler_types,help,血に飢えた虎ことマッド・タイガーのサンプル,"Sample: Mad Tiger, ""Bloodthirsty Tiger""",83
+wrestler_types,name,ディック・スレンダー,Dick Slender,39
+wrestler_types,help,疑惑の貴公子ことディック・スレンダーのサンプル,"Sample: Dick Slender, ""Prince of Doubt""",83
+wrestler_types,name,ダイナミック・キッド,Dynamic Kid,39
+wrestler_types,help,猛爆野郎ことダイナミック・キッドのサンプル,"Sample: Dynamic Kid, ""Explosive Rascal""",83
+wrestler_types,name,ナイト・ブラスター,Night Blaster,39
+wrestler_types,help,殺刃超特急ことナイト・ブラスターのサンプル,"Sample: Night Blaster, ""Killer-Blade Express""",83
+wrestler_types,name,アイアン・ブラスター,Iron Blaster,39
+wrestler_types,help,暴走機関車ことアイアン・ブラスターのサンプル,"Sample: Iron Blaster, ""Runaway Locomotive""",83
+wrestler_types,name,ケリー・ボギー,Kerry Bogey,39
+wrestler_types,help,殺人魚雷ことケリー・ボギーのサンプル,"Sample: Kerry Bogey, ""Killer Torpedo""",83
+wrestler_types,name,スティル・ジェイムス,Still James,39
+wrestler_types,help,冷酷医師ことスティル・ジェイムスのサンプル,"Sample: Still James, ""Cold-Blooded Doctor""",83
+wrestler_types,name,セイバー,Saber,39
+wrestler_types,help,魔王の刺客ことセイバーのサンプル,"Sample: Saber, ""Demon King's Assassin""",83
+wrestler_types,name,ビッグ・スタミナ,Big Stamina,39
+wrestler_types,help,豪腕ブルドッグことビッグ・スタミナのサンプル,"Sample: Big Stamina, ""Mighty-Arm Bulldog""",83
+wrestler_types,name,スモール・スタミナ,Small Stamina,39
+wrestler_types,help,マッチョハンサムことスモール・スタミナのサンプル,"Sample: Small Stamina, ""Macho Handsome""",83
+wrestler_types,name,ジョン・ピース,John Peace,39
+wrestler_types,help,金髪の餓狼ことジョン・ピースのサンプル,"Sample: John Peace, ""Hungry Blond Wolf""",83
+wrestler_types,name,Ｇ・Ｏ＝ブライト,G. O'Bright,39
+wrestler_types,help,スープレックスモンスターことＧ・Ｏ＝ブライトのサンプル,"Sample: G. O'Bright, ""Suplex Monster""",83
+wrestler_types,name,マッスル・モンスター,Muscle Monster,39
+wrestler_types,help,究極の生命体ことマッスル・モンスターのサンプル,"Sample: Muscle Monster, ""Ultimate Life Form""",83
+wrestler_types,name,ワイルド・ファントム,Wild Phantom,39
+wrestler_types,help,天駆ける天馬ことワイルド・ファントムのサンプル,"Sample: Wild Phantom, ""Pegasus of the Skies""",83
+wrestler_types,name,ブレンダン・ダイモス,Brendan Deimos,39
+wrestler_types,help,クロニクルの傭兵ことブレンダン・ダイモスのサンプル,"Sample: Brendan Deimos, ""Mercenary of Chronicle""",83
+wrestler_types,name,ブレンダン・クランク,Brendan Crank,39
+wrestler_types,help,クロニクルの守護神ことブレンダン・クランクのサンプル,"Sample: Brendan Crank, ""Guardian of Chronicle""",83
+wrestler_types,name,マスカラ・イーグルＪｒ．（プロレス）,M. Eagle Jr. (Pro),39
+wrestler_types,help,ルチャ最強の遺伝子ことマスカラ・イーグルＪｒ．のサンプル,"Sample: Mascara Eagle Jr., ""Strongest Lucha Genes""",83
+wrestler_types,name,バット・サファリ,Bat Safari,39
+wrestler_types,help,キング・オブ・ファットことバット・サファリのサンプル,"Sample: Bat Safari, ""King of Fat""",83
+wrestler_types,name,バッファロー・ルイス,Buffalo Lewis,39
+wrestler_types,help,西部の猛牛ことバッファロー・ルイスのサンプル,"Sample: Buffalo Lewis, ""Raging Bull of the West""",83
+wrestler_types,name,ハンク・フォレスト,Hank Forest,39
+wrestler_types,help,エクセレントボディことハンク・フォレストのサンプル,"Sample: Hank Forest, ""Excellent Body""",83
+wrestler_types,name,ドン・ローガン,Don Logan,39
+wrestler_types,help,エクセレントモンスターことドン・ローガンのサンプル,"Sample: Don Logan, ""Excellent Monster""",83
+wrestler_types,name,ギャランドゥー・リベラ,Gallandoo Rivera,39
+wrestler_types,help,魅惑のエストレージャことギャランドゥー・リベラのサンプル,"Sample: Gallandoo Rivera, ""Enchanting Estrella""",83
+wrestler_types,name,カリー・マスク,Curry Mask,39
+wrestler_types,help,超激辛スパイスことカリー・マスクのサンプル,"Sample: Curry Mask, ""Extra-Hot Spice""",83
+wrestler_types,name,マスク・ド・パンサーⅣ,Mask de Panther IV,39
+wrestler_types,help,夢幻の疾風ことマスク・ド・パンサーⅣのサンプル,"Sample: Mask de Panther IV, ""Phantasm Gale""",83
+wrestler_types,name,ホーネット・ビースト（プロレス）,Hornet Beast (Pro),39
+wrestler_types,help,黒き稲妻ことホーネット・ビーストのサンプル,"Sample: Hornet Beast, ""Black Lightning""",83
+wrestler_types,name,キース・ラーニング（プロレス）,Keith Learning (Pro),39
+wrestler_types,help,テキサスバッファローことキース・ラーニングのサンプル,"Sample: Keith Learning, ""Texas Buffalo""",83
+wrestler_types,name,マイク・オールマン（プロレス）,Mike Allman (Pro),39
+wrestler_types,help,バーリトゥードハンマーことマイク・オールマンのサンプル,"Sample: Mike Allman, ""Vale Tudo Hammer""",83
+wrestler_types,name,梨田 秀吉,Hideyoshi Nashida,39
+wrestler_types,help,最強柔道王こと梨田秀吉のサンプル,"Sample: Hideyoshi Nashida, ""Strongest Judo King""",83
+wrestler_types,name,野川　裕也（ＶＴ）,Yuya Nogawa (VT),39
+wrestler_types,name,梶井　直久,Naohisa Kajii,39
+wrestler_types,help,ＵＮＯの秘密兵器こと梶井直久のサンプル,"Sample: Naohisa Kajii, ""UNO's Secret Weapon""",83
+wrestler_types,name,梶田　政之（ＶＴ）,Masayuki Kajita (VT),39
+wrestler_types,name,冴刃 明,Akira Saeba,39
+wrestler_types,help,世界の格闘家こと冴刃明のサンプル,"Sample: Akira Saeba, ""World Fighter""",83
+wrestler_types,name,真田 伸久,Nobuhisa Sanada,39
+wrestler_types,help,戦乱の荒武者こと真田伸久のサンプル,"Sample: Nobuhisa Sanada, ""Wild Warrior of War""",83
+wrestler_types,name,柏田 一樹,Kazuki Kashiwada,39
+wrestler_types,help,驚異の頭脳ファイターこと柏田一樹のサンプル,"Sample: Kazuki Kashiwada, ""Amazing Brain Fighter""",83
+wrestler_types,name,松木 光次郎,Kojiro Matsuki,39
+wrestler_types,help,情熱のグラップラーこと松木光次郎のサンプル,"Sample: Kojiro Matsuki, ""Passionate Grappler""",83
+wrestler_types,name,宝坂　大志（ＶＴ）,Taishi Hosaka (VT),39
+wrestler_types,name,桜木“ジェット”旅人,"T. ""Jet"" Sakuragi",39
+wrestler_types,help,ナチュラルグラップラーこと桜木“ジェット”旅人のサンプル,"Sample: T. ""Jet"" Sakuragi, ""Natural Grappler""",83
+wrestler_types,name,倉仲　武博,Takehiro Kuranaka,39
+wrestler_types,name,ミクロ・プロポリス,Micro Propolis,39
+wrestler_types,help,ザ・ポリスマンことミクロ・プロポリスのサンプル,"Sample: Micro Propolis, ""The Policeman""",83
+wrestler_types,name,ロシアンエンペラー・ピョードル,R. Emperor Pyodor,39
+wrestler_types,help,極寒の皇帝ことロシアンエンペラー・ピョードルのサンプル,"Sample: Russian Emperor Pyodor, ""The Frozen Emperor""",83
+wrestler_types,name,ケンタウロ・ボヘミア,Centauro Bohemia,39
+wrestler_types,help,死角なき柔術王子ことケンタウロ・ボヘミアのサンプル,"Sample: Centauro Bohemia, ""Flawless Jiu-Jitsu Prince""",83
+wrestler_types,name,アンドレィ・ジルバ,Andrei Zilba,39
+wrestler_types,help,殺戮膝戦士ことアンドレィ・ジルバのサンプル,"Sample: Andrei Zilba, ""Killer Knee Warrior""",83
+wrestler_types,name,キース・ラーニング（ＶＴ）,Keith Learning (VT),39
+wrestler_types,name,マイク・オールマン（ＶＴ）,Mike Allman (VT),39
+wrestler_types,name,ボーン・クライ,Bone Cry,39
+wrestler_types,help,マッドファイターことボーン・クライのサンプル,"Sample: Bone Cry, ""Mad Fighter""",83
+wrestler_types,name,ルガール・ロブハンキン,Rugal Robhankin,39
+wrestler_types,help,ロシアの切り札ことルガール・ロブハンキンのサンプル,"Sample: Rugal Robhankin, ""Russia's Trump Card""",83
+wrestler_types,name,ベイビー・バッドエッジ,Baby Badedge,39
+wrestler_types,help,ＢＬＡＤＥの門番ことベイビー・バッドエッジのサンプル,"Sample: Baby Badedge, ""Gatekeeper of BLADE""",83
+wrestler_types,name,クリントン・Ｌ・ジョンソン,Clinton L. Johnson,39
+wrestler_types,help,ワイルドドッグことクリントン・Ｌ・ジョンソンのサンプル,"Sample: Clinton L. Johnson, ""Wild Dog""",83
+wrestler_types,name,ホーネット・ゴースト（Ｓ－１）,Hornet Ghost (S-1),39
+wrestler_types,help,黒き稲妻ことホーネット・ゴーストのサンプル,"Sample: Hornet Ghost, ""Black Lightning""",83
+wrestler_types,name,ポール・サバンナ,Paul Savanna,39
+wrestler_types,help,暴走タイフーンことポール・サバンナのサンプル,"Sample: Paul Savanna, ""Runaway Typhoon""",83
+wrestler_types,name,マイク・アント,Mike Ant,39
+wrestler_types,help,南海の野獣ことマイク・アントのサンプル,"Sample: Mike Ant, ""Beast of the South Seas""",83
+wrestler_types,name,チーター・カール,Cheetah Carl,39
+wrestler_types,help,Ｓ－１の暴君ことチーター・カールのサンプル,"Sample: Cheetah Carl, ""Tyrant of S-1""",83
+wrestler_types,name,ベイク・ゲルハルト,Bake Gerhardt,39
+wrestler_types,help,荒ぶる豪腕ことベイク・ゲルハルトのサンプル,"Sample: Bake Gerhardt, ""Raging Mighty Arm""",83
+wrestler_types,name,ベーム・シュトゥルム,Behm Sturm,39
+wrestler_types,help,闘う高層ビルことベーム・シュトゥルムのサンプル,"Sample: Behm Sturm, ""Fighting Skyscraper""",83
+wrestler_types,name,ケイン・ハーロック,Kane Harlock,39
+wrestler_types,help,シューティングヘラクレスことケイン・ハーロックのサンプル,"Sample: Kane Harlock, ""Shooting Hercules""",83
+wrestler_types,name,マイク・ベアー,Mike Bear,39
+wrestler_types,help,ヒト科最強戦士ことマイク・ベアーのサンプル,"Sample: Mike Bear, ""Strongest Hominid""",83
+wrestler_types,name,ダン・ダダーン,Dan Dadaan,39
+wrestler_types,help,レスリングビーストことダン・ダダーンのサンプル,"Sample: Dan Dadaan, ""Wrestling Beast""",83
+wrestler_types,name,ネモ,Nemo,39
+wrestler_types,help,十字架を背負った男ことネモのサンプル,"Sample: Nemo, ""Man Who Bears the Cross""",83
+wrestler_types,name,エドワード・アイフル,Edward Eiful,39
+wrestler_types,help,ザ・トルネードことエドワード・アイフルのサンプル,"Sample: Edward Eiful, ""The Tornado""",83
+wrestler_types,name,カルロス・ヒューストン,Carlos Houston,39
+wrestler_types,help,褐色のニンジャことカルロス・ヒューストンのサンプル,"Sample: Carlos Houston, ""Bronze Ninja""",83
+wrestler_types,name,ケルベロス・ボヘミア,Cerberus Bohemia,39
+wrestler_types,help,死角なき柔術王子実弟ことケルベロス・ボヘミアのサンプル,"Sample: Cerberus Bohemia, ""Jiu-Jitsu Prince's Brother""",83
+wrestler_types,name,ボス・ドッケン,Boss Dokken,39
+wrestler_types,help,秒殺ソルジャーことボス・ドッケンのサンプル,"Sample: Boss Dokken, ""Quick-Finish Soldier""",83
+wrestler_types,name,ジャクソン・フレージア,Jackson Frazier,39
+wrestler_types,help,シューティングマスターことジャクソン・フレージアのサンプル,"Sample: Jackson Frazier, ""Shooting Master""",83
+wrestler_types,name,ニクソン・ステイシー,Nixon Stacy,39
+wrestler_types,help,４５０戦無敗の男ことニクソン・ステイシーのサンプル,"Sample: Nixon Stacy, ""Unbeaten in 450 Fights""",83
+wrestler_types,name,ヴォイス・ステイシー,Voice Stacy,39
+wrestler_types,help,一族最強の遺伝子ことヴォイス・ステイシーのサンプル,"Sample: Voice Stacy, ""Strongest Genes of the Clan""",83
+wrestler_types,name,ヘッド・ステイシー,Head Stacy,39
+wrestler_types,help,進化系ステイシーことヘッド・ステイシーのサンプル,"Sample: Head Stacy, ""Evolved Stacy""",83
+wrestler_types,name,ライアン・ステイシー,Ryan Stacy,39
+wrestler_types,help,暴走ステイシーことライアン・ステイシーのサンプル,"Sample: Ryan Stacy, ""Rampaging Stacy""",83
+wrestler_types,name,ウォルフ・バーン,Wolf Bahn,39
+wrestler_types,help,コマンドウルフことウォルフ・バーンのサンプル,"Sample: Wolf Bahn, ""Commando Wolf""",83
+wrestler_types,name,ランドル・ロビィコフ,Randall Robikoff,39
+wrestler_types,help,ロシアの白魔術師ことランドル・ロビィコフのサンプル,"Sample: Randall Robikoff, ""Russian White Magician""",83
+wrestler_types,name,ジェネラル・ボルドー,General Bordeaux,39
+wrestler_types,help,暗黒街の喧嘩屋ことジェネラル・ボルドーのサンプル,"Sample: General Bordeaux, ""Underworld Brawler""",83
+wrestler_types,name,マスカラ・イーグルＪｒ．（ＶＴ）,M. Eagle Jr. (VT),39
+wrestler_types,name,ヘラクレス・アレビン,Hercules Alevin,39
+wrestler_types,help,最強の人類ことヘラクレス・アレビンのサンプル,"Sample: Hercules Alevin, ""Strongest Human""",83
+wrestler_types,name,ヴァイティング・パイソン,Viting Python,39
+wrestler_types,help,最強の拳ことヴァイティング・パイソンのサンプル,"Sample: Viting Python, ""Strongest Fist""",83
+wrestler_types,name,暁,Akatsuki,39
+wrestler_types,help,再起のヨコヅナこと暁のサンプル,"Sample: Akatsuki, ""Comeback Yokozuna""",83
+wrestler_types,name,観月　みつる,Mitsuru Mizuki,39
+wrestler_types,help,カミソリファイターこと観月みつるのサンプル,"Sample: Mitsuru Mizuki, ""Razor Fighter""",83
+wrestler_types,name,サンプル最大数,Max Samples,39
+wrestler_types,help,サンプル最大数,Max Samples,83
+voices,name,あぁぁ（飯塚）,Aaa (Iizuka),43
+voices,name,あぁぁぁ（小島）,Aaaa (Kojima),43
+voices,name,あぁぁうっ（泉田）,Aaau! (Izumida),43
+voices,name,あぁっぁぁ（ライガー）,Aaaa (Liger),43
+voices,name,あうっ（泉田）,Au! (Izumida),43
+voices,name,あぎぃ（藤波）,Agii (Fujinami),43
+voices,name,あっちょお（垣原）,Acchoo (Kakihara),43
+voices,name,あひゃぁぁ（金丸）,Ahyaaa (Kanemaru),43
+voices,name,アックスボンバー１（大森）,Axe Bomber 1 (Omori),43
+voices,name,アックスボンバー２（大森）,Axe Bomber 2 (Omori),43
+voices,name,アックスボンバー３（大森）,Axe Bomber 3 (Omori),43
+voices,name,アー1（外国人）,Aa 1 (Foreigner),43
+voices,name,アー2（ハインズ）,Aa 2 (Hines),43
+voices,name,アー3（外国人）,Aa 3 (Foreigner),43
+voices,name,アァッ（外国人）,Aa! (Foreigner),43
+voices,name,アァァッ（外国人）,Aaa! (Foreigner),43
+voices,name,アーゥィッ（外国人）,Aaui! (Foreigner),43
+voices,name,アァッシッ（外国人）,Aasshi! (Foreigner),43
+voices,name,アットッ（外国人）,Atto! (Foreigner),43
+voices,name,いぃっ1（真壁）,Ii! 1 (Makabe),43
+voices,name,いぃっ2（真壁）,Ii! 2 (Makabe),43
+voices,name,いぃっ3,Ii! 3,43
+voices,name,いぃっ4（棚橋）,Ii! 4 (Tanahashi),43
+voices,name,いぃっ5,Ii! 5,43
+voices,name,いぃぃぃ1（永田）,Iiii 1 (Nagata),43
+voices,name,いぃぃぃ2（宮本）,Iiii 2 (Miyamoto),43
+voices,name,いぃぃぃ3（川田）,Iiii 3 (Kawada),43
+voices,name,ぃいぃっ（ヒロ）,Iii! (Hiro),43
+voices,name,いぃぃぃっやぁ（邪道）,Iiiiyyaa (Jado),43
+voices,name,いぃぃぇっ（川田）,Iiie! (Kawada),43
+voices,name,いぃっきょ（川田）,Iikkyo (Kawada),43
+voices,name,いぃぃっやぁ（吉江）,Iiiyyaa (Yoshie),43
+voices,name,いぃぃやっ1（橋）,Iiiya! 1 (Hashi),43
+voices,name,いぃぃやっ2（佐藤）,Iiiya! 2 (Sato),43
+voices,name,いぃえ（木戸）,Iie (Kido),43
+voices,name,いぃきょっ（川田）,Iikyo! (Kawada),43
+voices,name,いぃっやぁぁぁ（ライガー）,Iiyyaaaa (Liger),43
+voices,name,ぃぃっょ（竹村）,Iiyyo (Takemura),43
+voices,name,いっぃぃぃぃっ（橋本）,Iiiii! (Hashimoto),43
+voices,name,いっぃぃゃぁ（多聞）,Iiiyaa (Tamon),43
+voices,name,いっきょお（川田）,Ikkyoo (Kawada),43
+voices,name,いっしゃぁ（ライガー）,Isshaa (Liger),43
+voices,name,いっちゃあっ（橋本）,Icchaa! (Hashimoto),43
+voices,name,いぃゃ1（邪道）,Iiya 1 (Jado),43
+voices,name,いぃゃ2（柴田）,Iiya 2 (Shibata),43
+voices,name,いぃゃ3（森嶋）,Iiya 3 (Morishima),43
+voices,name,いぃゃ4（杉浦）,Iiya 4 (Sugiura),43
+voices,name,いぃやぁ１（サムライ）,Iiyaa 1 (Samurai),43
+voices,name,いぃやぁ２（棚橋）,Iiyaa 2 (Tanahashi),43
+voices,name,いぃやぁ３,Iiyaa 3,43
+voices,name,いぃやぁ4（葛西）,Iiyaa 4 (Kasai),43
+voices,name,いぃやぁ5（星川）,Iiyaa 5 (Hoshikawa),43
+voices,name,いぃやぁ6（田中稔）,Iiyaa 6 (M. Tanaka),43
+voices,name,いぃやぁぁぁ1（小原）,Iiyaaaa 1 (Ohara),43
+voices,name,いぃゃぁぁぁ2（小島）,Iiyaaaa 2 (Kojima),43
+voices,name,いぃゃぁぁぁ3（森嶋）,Iiyaaaa 3 (Morishima),43
+voices,name,いぃゃぁぁぁ4（高岩）,Iiyaaaa 4 (Takaiwa),43
+voices,name,いぃゃぁおぅ（越中）,Iiyaaou (Koshinaka),43
+voices,name,いぃゅ（永田）,Iiyu (Nagata),43
+voices,name,いぃょぉ（竹村）,Iiyoo (Takemura),43
+voices,name,いぃよぉぉ（吉江）,Iiyooo (Yoshie),43
+voices,name,いくぞー１（馳）,Ikuzo! 1 (Hase),43
+voices,name,いくぞー２（越中）,Ikuzo! 2 (Koshinaka),43
+voices,name,いくぞー３（安田）,Ikuzo! 3 (Yasuda),43
+voices,name,いくぞー４（小橋）,Ikuzo! 4 (Kobashi),43
+voices,name,いくぞー５（後藤）,Ikuzo! 5 (Goto),43
+voices,name,いっちゃうぞバカヤロー1（小島）,Here I go! 1 (Kojima),43
+voices,name,いっちゃうぞバカヤロー2（小島）,Here I go! 2 (Kojima),43
+voices,name,いっちゃうぞバカヤロー3（小島）,Here I go! 3 (Kojima),43
+voices,name,いっちゃうぞバカヤロー4（小島）,Here I go! 4 (Kojima),43
+voices,name,いなづま（池田）,Inazuma (Ikeda),43
+voices,name,ぃっよいしょ（雅央）,Iyyoisho (Masao),43
+voices,name,ぃやぁ（馳）,Iyaa (Hase),43
+voices,name,いやぁあ（吉江）,Iyaaa (Yoshie),43
+voices,name,ぃやぁぁ１（ライガー）,Iyaaa 1 (Liger),43
+voices,name,ぃやぁぁ２,Iyaaa 2,43
+voices,name,いやぁぁぁ（杉浦）,Iyaaaa (Sugiura),43
+voices,name,いやぁぁぅ（平井）,Iyaaau (Hirai),43
+voices,name,いやあっ,Iyaa!,43
+voices,name,いゃっ１（ＡＫＩＲＡ）,Iya! 1 (AKIRA),43
+voices,name,いゃっ２（ライガー）,Iya! 2 (Liger),43
+voices,name,いゃっ３（中西）,Iya! 3 (Nakanishi),43
+voices,name,いゃっ４（大谷）,Iya! 4 (Otani),43
+voices,name,いゃっ５（柴田）,Iya! 5 (Shibata),43
+voices,name,いゃっ６,Iya! 6,43
+voices,name,いゃっ７（佐々木）,Iya! 7 (Sasaki),43
+voices,name,いゃっ８（越中）,Iya! 8 (Koshinaka),43
+voices,name,いゃっ９（菊地）,Iya! 9 (Kikuchi),43
+voices,name,いゃっ１０（佐藤）,Iya! 10 (Sato),43
+voices,name,いやっちゃ（彰俊）,Iyaccha (Akitoshi),43
+voices,name,いやゃ（吉江）,Iyaya (Yoshie),43
+voices,name,いよぉ（吉江）,Iyoo (Yoshie),43
+voices,name,ぃょっ,Iyo!,43
+voices,name,いよっ１（馳）,Iyo! 1 (Hase),43
+voices,name,いょっ２（馳）,Iyo! 2 (Hase),43
+voices,name,イイィィィ（外国人）,Iiiii (Foreigner),43
+voices,name,イエェェィ（外国人）,Ieeei (Foreigner),43
+voices,name,イィヤァァ（外国人）,Iiyaaa (Foreigner),43
+voices,name,イィユ（外国人）,Iiyu (Foreigner),43
+voices,name,ィッヤアァ（外国人）,Iyyaaa (Foreigner),43
+voices,name,イッヤァァァ（外国人）,Iyyaaaa (Foreigner),43
+voices,name,イャァ（ハインズ）,Iyaa (Hines),43
+voices,name,ィヤアァァゥ（外国人）,Iyaaaau (Foreigner),43
+voices,name,うあっ（金本）,Ua! (Kanemoto),43
+voices,name,ヴぁぁ（健介）,Vaa (Kensuke),43
+voices,name,ウィィィィィィ（外国人）,Uiiiiii (Foreigner),43
+voices,name,うぃっ1（ヒロ）,Ui! 1 (Hiro),43
+voices,name,うぃっ2（浅子）,Ui! 2 (Asako),43
+voices,name,うぃっやあぁぁ（高山）,Uiyyaaaa (Takayama),43
+voices,name,うぃやぁあ（健介）,Uiyaaa (Kensuke),43
+voices,name,ぅぃやぁぁぅ（高山）,Uiyaaau (Takayama),43
+voices,name,ぅぃゃっ（ＡＫＩＲＡ）,Uiya! (AKIRA),43
+voices,name,うぅあぁぅ（高山）,Uuaau (Takayama),43
+voices,name,うぅあっ（大森）,Uua! (Omori),43
+voices,name,うぅぅぅぇ（嵐）,Uuuue (Arashi),43
+voices,name,うーーっうぅ（泉田）,Uuuuu (Izumida),43
+voices,name,うぅぅゃぁっ（矢野）,Uuuyaa! (Yano),43
+voices,name,ぅぅぅわぅ（田上）,Uuuwau (Taue),43
+voices,name,うぅえ（健介）,Uue (Kensuke),43
+voices,name,うぅえあぁ（平井）,Uueaa (Hirai),43
+voices,name,うぅっ１（山崎）,Uu! 1 (Yamazaki),43
+voices,name,うぅっ２（天山）,Uu! 2 (Tenzan),43
+voices,name,うぅっ３（ウルフ）,Uu! 3 (Wolf),43
+voices,name,うぅっ4（秋山）,Uu! 4 (Akiyama),43
+voices,name,うぅっ5（ハヤシ）,Uu! 5 (Hayashi),43
+voices,name,うぅっいぃゅぅ（長州）,Uuiiyu (Choshu),43
+voices,name,うえぃ（中西）,Uei (Nakanishi),43
+voices,name,うぇぃおぉ（越中）,Ueioo (Koshinaka),43
+voices,name,うぇうお（サムライ）,Ueuo (Samurai),43
+voices,name,うえぇぁあ（彰俊）,Ueeaa (Akitoshi),43
+voices,name,ぅえぇあぁぁ（嵐）,Ueeaaa (Arashi),43
+voices,name,うぇっ１（ケア）,Ue! 1 (Kea),43
+voices,name,うぇっ２（ヒロ）,Ue! 2 (Hiro),43
+voices,name,うえっ３（ヒロ）,Ue! 3 (Hiro),43
+voices,name,うぇや（健介）,Ueya (Kensuke),43
+voices,name,うぇりゃ,Uerya,43
+voices,name,うぇわしっ（蝶野）,Uewashi! (Chono),43
+voices,name,うぉぉ（邦昭）,Uoo (Kuniaki),43
+voices,name,うぉっ（後藤）,Uo! (Goto),43
+voices,name,うっぁ（長州）,Ua (Choshu),43
+voices,name,ぅっいゃあ（力皇）,Uiyaa (Rikio),43
+voices,name,うっへぇ（カシン）,Uhhee (Kashin),43
+voices,name,うっりゃあ（橋本）,Urryaa (Hashimoto),43
+voices,name,うはぁ（川田）,Uhaa (Kawada),43
+voices,name,うやぁ（中西）,Uyaa (Nakanishi),43
+voices,name,うゃぁっ（高山）,Uyaa! (Takayama),43
+voices,name,ぅやっ（西村）,Uya! (Nishimura),43
+voices,name,うわぁぁぁぁ～（菊地）,Uwaaaaa~ (Kikuchi),43
+voices,name,うわっ（菊地）,Uwa! (Kikuchi),43
+voices,name,ぅわぁ（山崎）,Uwaa (Yamazaki),43
+voices,name,うりゃあぁ（吉江）,Uryaaa (Yoshie),43
+voices,name,ウゥゥ1（外国人）,Uuu 1 (Foreigner),43
+voices,name,ウゥゥ2（外国人）,Uuu 2 (Foreigner),43
+voices,name,ウゥゥワァァ（外国人）,Uuuwaaa (Foreigner),43
+voices,name,ウェアァァア（プレデター）,Ueaaaa (Predator),43
+voices,name,ウェィュ（外国人）,Ueiyu (Foreigner),43
+voices,name,ウェャァ（外国人）,Ueyaa (Foreigner),43
+voices,name,ウギャァ（外国人）,Ugyaa (Foreigner),43
+voices,name,ウッ（ハインズ）,U! (Hines),43
+voices,name,ウナラ（外国人）,Unara (Foreigner),43
+voices,name,ウュアッ（外国人）,Uyua! (Foreigner),43
+voices,name,ウワー（外国人）,Uwaa (Foreigner),43
+voices,name,ゥワァァ（外国人）,Uwaaa (Foreigner),43
+voices,name,ウワーー（外国人）,Uwaaa (Foreigner),43
+voices,name,ウワッ（外国人）,Uwa! (Foreigner),43
+voices,name,えぁぁぁ（天山）,Eaaa (Tenzan),43
+voices,name,えぃしゃあ（ヒロ）,Eishaa (Hiro),43
+voices,name,えぃっ（浅子）,Ei! (Asako),43
+voices,name,ぇいゃあ（ヒロ）,Eiyaa (Hiro),43
+voices,name,えぇ１（永田）,Ee 1 (Nagata),43
+voices,name,えぇ２（長井）,Ee 2 (Nagai),43
+voices,name,えぇぃぃっ（ＡＫＩＲＡ）,Eeii! (AKIRA),43
+voices,name,えぇぃぅ（平田）,Eeiu (Hirata),43
+voices,name,えぇぃょぉ（竹村）,Eeiyoo (Takemura),43
+voices,name,えぇうぉ（棚橋）,Eeuo (Tanahashi),43
+voices,name,えぇぇい（葛西）,Eeei (Kasai),43
+voices,name,えぇぇぇっ（永源）,Eeee! (Eigen),43
+voices,name,えぇぇやぁぁ（健介）,Eeeyaaa (Kensuke),43
+voices,name,えぇぇわぁっ（ノートン）,Eeewaa! (Norton),43
+voices,name,えゃぁっ1（井上）,Eyaa! 1 (Inoue),43
+voices,name,えゃぁっ2,Eyaa! 2,43
+voices,name,えゃぁっ3（越中）,Eyaa! 3 (Koshinaka),43
+voices,name,エクスプロイダー（秋山）,Exploder (Akiyama),43
+voices,name,エー（ハインズ）,Ee (Hines),43
+voices,name,おぁ（蝶野）,Oa (Chono),43
+voices,name,おいっいくぞー（天山）,Oiikuzoo (Tenzan),43
+voices,name,おぇぃ（中西）,Oei (Nakanishi),43
+voices,name,おえー（天山）,Oee (Tenzan),43
+voices,name,おぇっ（長州）,Oe! (Choshu),43
+voices,name,おー（後藤）,Oo (Goto),43
+voices,name,おーちゃあ１（健介）,Oochaa 1 (Kensuke),43
+voices,name,おーちゃあ2（健介）,Oochaa 2 (Kensuke),43
+voices,name,オーゥ１,Ow 1,43
+voices,name,オーゥ２,Ow 2,43
+voices,name,おぉぉぉりゃ（安田）,Oooorya (Yasuda),43
+voices,name,おぉわ（サムライ）,Oowa (Samurai),43
+voices,name,おっし、いくぞえー（高岩）,"OK, here I go! (Takaiwa)",43
+voices,name,おっしゃあ（橋本）,Osshaa (Hashimoto),43
+voices,name,おらぁ（村上）,Oraa (Murakami),43
+voices,name,おりゃあ（永田）,Oryaa (Nagata),43
+voices,name,おりゃぁぁ1（雅央）,Oryaaa 1 (Masao),43
+voices,name,おりゃぁぁ2（雅央）,Oryaaa 2 (Masao),43
+voices,name,おわ（サムライ）,Owa (Samurai),43
+voices,name,おわぁ（飯塚）,Owaa (Iizuka),43
+voices,name,終わり,End,43
+voices,name,終わりだがや（邪道）,It's over! (Jado),43
+voices,name,オォォェ（ハワード）,Oooe (Howard),43
+voices,name,がぁぁ1（天龍）,Gaaa 1 (Tenryu),43
+voices,name,がぁぁ2（天龍）,Gaaa 2 (Tenryu),43
+voices,name,ガァァァッ（スコーピオ）,Gaaaa! (Scorpio),43
+voices,name,ガァッ（ノートン）,Gaa! (Norton),43
+voices,name,担ぐぞ1（雅央）,Lifting him! 1 (Masao),43
+voices,name,担ぐぞ2（佐々木）,Lifting him! 2 (Sasaki),43
+voices,name,がはっ（小原）,Gaha! (Ohara),43
+voices,name,カモーン（外国人）,Kamoon (Foreigner),43
+voices,name,カモン～カモン（蝶野）,Come on! (Chono),43
+voices,name,カモン～カモン（外国人）,Come on! (Foreigner),43
+voices,name,ぎいゃぁ（高橋）,Giiyaa (Takahashi),43
+voices,name,ぎぃゃぁぁあ（田中）,Giiyaaaa (Tanaka),43
+voices,name,ぎゃぁぁぁ（ムタ）,Gyaaaa (Muta),43
+voices,name,ぎゃぁっ（小橋）,Gyaa! (Kobashi),43
+voices,name,ギャァ（ノートン）,Gyaa (Norton),43
+voices,name,ぐぅあぁぁ（小橋）,Guaaa (Kobashi),43
+voices,name,くぅぇぃ（土方）,Kuei (Hijikata),43
+voices,name,くぅはぁ（佐藤）,Kuhaa (Sato),43
+voices,name,ぐぅゃ（小橋）,Guya (Kobashi),43
+voices,name,くぅわぁぁ（和牛太）,Kuwaaa (Wagyuta),43
+voices,name,くしやっ（丸藤）,Kushiya! (Marufuji),43
+voices,name,くすぃ（成瀬）,Kusi (Naruse),43
+voices,name,くそったれー（長州）,Kusottaree (Choshu),43
+voices,name,くっあぁぁっ（多聞）,Kuaaa! (Tamon),43
+voices,name,ぐわあぁぁ（小原）,Guwaaaa (Ohara),43
+voices,name,くわっ（富豪）,Kuwa! (Fugo),43
+voices,name,クゥァア（Ｌｏｗｋｉ）,Kuaa (Low Ki),43
+voices,name,クゥアァ（ハワード）,Kuaa (Howard),43
+voices,name,グゥワ（プレデター）,Guwa (Predator),43
+voices,name,グゥワァ（外国人）,Guwaa (Foreigner),43
+voices,name,クェェェェ（ハシフ）,Keeee (Hashif),43
+voices,name,クッウゥゥア（プレデター）,Kuuuua (Predator),43
+voices,name,クマンッ,Come on!,43
+voices,name,グワァ（外国人）,Guwaa (Foreigner),43
+voices,name,げぇぁぁぅ（橋）,Geeaau (Hashi),43
+voices,name,げぇぅ（泉田）,Geeu (Izumida),43
+voices,name,ゲアァ（外国人）,Geaa (Foreigner),43
+voices,name,こいオラっ（安田）,Koiora! (Yasuda),43
+voices,name,こいよコラぁ（村上）,Koiyokoraa (Murakami),43
+voices,name,ごぉ（菊地）,Goo (Kikuchi),43
+voices,name,ごほっ,Goho!,43
+voices,name,ごわぁ（ケア）,Gowaa (Kea),43
+voices,name,ごわっ（後藤）,Gowa! (Goto),43
+voices,name,コリノイチバン（コリノ）,Corino Ichiban (Corino),43
+voices,name,しー（天山）,Shii (Tenzan),43
+voices,name,じいぃぃゃあ（嵐）,Jiiiiyaa (Arashi),43
+voices,name,じぃぃいやっ（本間）,Jiiiya! (Honma),43
+voices,name,じぃぃや（大谷）,Jiiya (Otani),43
+voices,name,しーっ（泉田）,Shii! (Izumida),43
+voices,name,しーっ（ライガー）,Shii! (Liger),43
+voices,name,じぃやぁぁ（武藤）,Jiyaaa (Mutoh),43
+voices,name,じぃやぁああ（力皇）,Jiyaaaa (Rikio),43
+voices,name,じぃゃっ（井上）,Jiya! (Inoue),43
+voices,name,しぇあ（長州）,Shea (Choshu),43
+voices,name,しぇぇぇぇい（葛西）,Sheeeei (Kasai),43
+voices,name,ジェット（山笠）,Jetto (Yamakasa),43
+voices,name,死になさい（池田）,Die! (Ikeda),43
+voices,name,死ね（大谷）,Die! (Otani),43
+voices,name,しねー（大谷）,Shinee (Otani),43
+voices,name,死ねぇや（大谷）,Just die! (Otani),43
+voices,name,死ねこら（星川）,"Die, you! (Hoshikawa)",43
+voices,name,しゃーぁっ（秋山）,Shaaa! (Akiyama),43
+voices,name,ジュッ（外国人）,Ju! (Foreigner),43
+voices,name,しゅとぉ（ライガー）,Shutoo (Liger),43
+voices,name,ジィヤァ（外国人）,Jiyaa (Foreigner),43
+voices,name,ショアッ（外国人）,Shoa! (Foreigner),43
+voices,name,ずぅ（菊地）,Zu (Kikuchi),43
+voices,name,ずぅぅいゃっ（大森）,Zuuiya! (Omori),43
+voices,name,スーパーフライ（外道）,Super Fly (Gedo),43
+voices,name,ぜぁぁ（健介）,Zeaa (Kensuke),43
+voices,name,ぜぁっ（小橋）,Zea! (Kobashi),43
+voices,name,ぜぅえぁぁ（小橋）,Zeueaa (Kobashi),43
+voices,name,ぜぇあぁ（健介）,Zeeaa (Kensuke),43
+voices,name,ぜっあぁぁ（健介）,Zeaaa (Kensuke),43
+voices,name,だぁぁぁ（矢野）,Daaaa (Yano),43
+voices,name,だぁぇぁ（矢野）,Daaea (Yano),43
+voices,name,だぇあぁぁ（小橋）,Daeaaa (Kobashi),43
+voices,name,だっ（嵐）,Da! (Arashi),43
+voices,name,だっしゃぁ（安田）,Dasshaa (Yasuda),43
+voices,name,立てこらー（永田）,"Get up, you! (Nagata)",43
+voices,name,立て立てオラぁ（村上）,Get up! (Murakami),43
+voices,name,ちぇあぁぁ,Cheaaa,43
+voices,name,ちゃぁ（ライガー）,Chaa (Liger),43
+voices,name,ちゅぁ（健介）,Chua (Kensuke),43
+voices,name,ちょちょちょ（カシン）,Chochocho (Kashin),43
+voices,name,ちょっぱ１（三沢）,Choppa 1 (Misawa),43
+voices,name,ちょっぱ２（三沢）,Choppa 2 (Misawa),43
+voices,name,ちょっぱ３（三沢）,Choppa 3 (Misawa),43
+voices,name,っぁぁぁ（飯塚）,Aaa (Iizuka),43
+voices,name,っいゃ,Iya,43
+voices,name,っうぇぁあ（彰俊）,Ueaa (Akitoshi),43
+voices,name,っぇいさぁ（金丸）,Eisaa (Kanemaru),43
+voices,name,っえぃしゃ（杉浦）,Eisha (Sugiura),43
+voices,name,つおぉっ（ウルフ）,Tsuoo! (Wolf),43
+voices,name,っくしょ（成瀬）,Kkusho (Naruse),43
+voices,name,っじゅあ,Jjua,43
+voices,name,っしょあ（成瀬）,Sshoa (Naruse),43
+voices,name,っふぃゅ（武藤）,Ffiyu (Mutoh),43
+voices,name,っよっ（竹村）,Yyo! (Takemura),43
+voices,name,っわふらっ（田上）,Wwafura! (Taue),43
+voices,name,でぃぃっぃっ（荒谷）,Diii! (Araya),43
+voices,name,でぃっ,Di!,43
+voices,name,てぃやぁ（力皇）,Tiyaa (Rikio),43
+voices,name,でぅえしっ（和牛太）,Deueshi! (Wagyuta),43
+voices,name,でぇぃ,Dei,43
+voices,name,でぇい（永田）,Dei (Nagata),43
+voices,name,でぇぃや,Deiya,43
+voices,name,でぇぇ１（ハヤシ）,Dee 1 (Hayashi),43
+voices,name,でぇぇ２（杉浦）,Dee 2 (Sugiura),43
+voices,name,でぇぇぁっ（橋）,Deea! (Hashi),43
+voices,name,でぇぇい（百田）,Deei (Momota),43
+voices,name,でぇぇぇっ（杉浦）,Deee! (Sugiura),43
+voices,name,てぇっ（田中）,Te! (Tanaka),43
+voices,name,でぇやぁ（武藤）,Deyaa (Mutoh),43
+voices,name,でぇやぁぁ1（小橋）,Deyaaa 1 (Kobashi),43
+voices,name,でぇやぁぁ2（橋）,Deyaaa 2 (Hashi),43
+voices,name,できうっ（田中）,Dekiu! (Tanaka),43
+voices,name,でっぇぇゃっ（金丸）,Deeeya! (Kanemaru),43
+voices,name,でっきゃっしゅ（カシン）,Dekkyasshu (Kashin),43
+voices,name,でゃっ（井上）,Deya! (Inoue),43
+voices,name,てへぇぇっ（田中）,Teheee! (Tanaka),43
+voices,name,でゅっ,Deyu!,43
+voices,name,でらっ（和牛太）,Dera! (Wagyuta),43
+voices,name,ディーヤッ1（外国人）,Diiya! 1 (Foreigner),43
+voices,name,ディーヤッ2（外国人）,Diiya! 2 (Foreigner),43
+voices,name,ディヤアァ（外国人）,Diyaaa (Foreigner),43
+voices,name,デェアァァァ（ノートン）,Deaaaa (Norton),43
+voices,name,デェイ（アダモ）,Dei (Adamo),43
+voices,name,デェオ（外国人）,Deo (Foreigner),43
+voices,name,デェヤ（外国人）,Deya (Foreigner),43
+voices,name,デェヤァ（外国人）,Deyaa (Foreigner),43
+voices,name,デッシ（外国人）,Desshi (Foreigner),43
+voices,name,どあぁ（邦昭）,Doaa (Kuniaki),43
+voices,name,どぁぁっぁっぁっ（蝶野）,Doaaaa! (Chono),43
+voices,name,どぅぁおう（田上）,Douaou (Taue),43
+voices,name,どうぅぅ（小川）,Douuu (Ogawa),43
+voices,name,どぅえぁぁ,Doueaa,43
+voices,name,どうしたオラッエー（天山）,What's wrong! (Tenzan),43
+voices,name,どうしたんだオラッエー（蝶野）,What's wrong! (Chono),43
+voices,name,どぅやぁぁ（小橋）,Douyaaa (Kobashi),43
+voices,name,どぇっ（邦昭）,Doe! (Kuniaki),43
+voices,name,どぉ（長井）,Doo (Nagai),43
+voices,name,とぉ（西村）,Too (Nishimura),43
+voices,name,どぉあ（金本）,Dooa (Kanemoto),43
+voices,name,どぉおぁ（高橋）,Doooa (Takahashi),43
+voices,name,どゃぁ（蝶野）,Doyaa (Chono),43
+voices,name,とゃぁぁ（矢野）,Toyaaa (Yano),43
+voices,name,どゅあぁ（健介）,Doyuaa (Kensuke),43
+voices,name,どゅぅ（三沢）,Doyu (Misawa),43
+voices,name,どゅぅあ（河野）,Doyua (Kono),43
+voices,name,どりゃ（平田）,Dorya (Hirata),43
+voices,name,トイッ（外国人）,Toi! (Foreigner),43
+voices,name,ドォォ（外国人）,Dooo (Foreigner),43
+voices,name,ドォォオ（外国人）,Doooo (Foreigner),43
+voices,name,トリャ（外国人）,Torya (Foreigner),43
+voices,name,にぃやぁぁぁ（荒谷）,Niiyaaaa (Araya),43
+voices,name,にゅゃあぁ（多聞）,Nyuyaaa (Tamon),43
+voices,name,ぬぁぁぁぁぁ（中西）,Naaaaa (Nakanishi),43
+voices,name,ぬぃぃぃっ（多聞）,Niii! (Tamon),43
+voices,name,ぬぅおぉ（星川）,Nuoo (Hoshikawa),43
+voices,name,ぬぅぉぉぉ（棚橋）,Nuooo (Tanahashi),43
+voices,name,ぬぅっ（小橋）,Nu! (Kobashi),43
+voices,name,ぬぇぇぇ（金本）,Neee (Kanemoto),43
+voices,name,ぬぉぉぉ（高岩）,Nooo (Takaiwa),43
+voices,name,ぬっ（菊地）,Nu! (Kikuchi),43
+voices,name,ヌゥゥ（テンタ）,Nuu (Tenta),43
+voices,name,ヌゥゥゥア（テンタ）,Nuuua (Tenta),43
+voices,name,ヌゥワァ（外国人）,Nuwaa (Foreigner),43
+voices,name,ねぅえあぁぁ（小橋）,Neueaaa (Kobashi),43
+voices,name,ねおぉぉぅ（高岩）,Neooou (Takaiwa),43
+voices,name,ねやぁ（小橋）,Neyaa (Kobashi),43
+voices,name,ねやぁぁ（小島）,Neyaaa (Kojima),43
+voices,name,ねよいっしょ（柴田）,Neyoissho (Shibata),43
+voices,name,ねりゃゃあ（小島）,Neryayaa (Kojima),43
+voices,name,のあぁぁ（大谷）,Noaaa (Otani),43
+voices,name,のぇぇぁっ（邪道）,Noeea! (Jado),43
+voices,name,ばあぁぁ（丸藤）,Baaaa (Marufuji),43
+voices,name,ばかやろっ１（小島）,Bakayaro! 1 (Kojima),43
+voices,name,ばかやろっ２（小島）,Bakayaro! 2 (Kojima),43
+voices,name,はっ,Ha!,43
+voices,name,ハ～イ（アダモ）,Ha~i (Adamo),43
+voices,name,ハァイ（外国人）,Haai (Foreigner),43
+voices,name,バカ（コリノ）,Baka (Corino),43
+voices,name,ハワッタ（外国人）,Hawatta (Foreigner),43
+voices,name,ひぃやぁ,Hiiyaa,43
+voices,name,ひぃやあぁぁ（川田）,Hiiyaaaa (Kawada),43
+voices,name,びえぇぇ（佐藤）,Bieee (Sato),43
+voices,name,ビッシビシいくからな（星野）,No mercy! (Hoshino),43
+voices,name,ふぃぃゆっ（武藤）,Fiiyu! (Mutoh),43
+voices,name,フィシャーマン（土方）,Fishaaman (Hijikata),43
+voices,name,ふぅえ（百田）,Fue (Momota),43
+voices,name,ぶぅえぇぇぇ（嵐）,Bueeee (Arashi),43
+voices,name,ふぅぇっ（土方）,Fue! (Hijikata),43
+voices,name,ふぅわ１（健介）,Fuwa 1 (Kensuke),43
+voices,name,ふぅわ２（大谷）,Fuwa 2 (Otani),43
+voices,name,ふぇい（カシン）,Fei (Kashin),43
+voices,name,ふえぇ,Fuee,43
+voices,name,ふぇぇあ（小原）,Feea (Ohara),43
+voices,name,ふぇぇぃ,Feei,43
+voices,name,ふぇぇい（金本）,Feei (Kanemoto),43
+voices,name,ぶぇぇい1（永田）,Beei 1 (Nagata),43
+voices,name,ぶぇぇい2（永田）,Beei 2 (Nagata),43
+voices,name,ふぎゃあ（ムタ）,Fugyaa (Muta),43
+voices,name,ふざけんなオラっエー（蝶野）,Quit messing around! (Chono),43
+voices,name,ふっあ（三沢）,Fua (Misawa),43
+voices,name,ふっうっ（小川）,Fuu! (Ogawa),43
+voices,name,ぶわぁ（高岩）,Buwaa (Takaiwa),43
+voices,name,フゥアッ（コリノ）,Fua! (Corino),43
+voices,name,フゥェェアァ（スコーピオ）,Fueeaa (Scorpio),43
+voices,name,フゥオア（外国人）,Fuoa (Foreigner),43
+voices,name,フェッ（コリノ）,Fe! (Corino),43
+voices,name,フェッチャイ（アダモ）,Fecchai (Adamo),43
+voices,name,フッ（外国人）,Fu! (Foreigner),43
+voices,name,へぁぁあぁ（金丸）,Heaaaa (Kanemaru),43
+voices,name,へぃ（カシン）,Hei (Kashin),43
+voices,name,べぇあぁ（富豪）,Beeaa (Fugo),43
+voices,name,へぇえ（永源）,Heee (Eigen),43
+voices,name,へぇぇぇい（永源）,Heeeei (Eigen),43
+voices,name,へっきょう（菊地）,Hekkyou (Kikuchi),43
+voices,name,へへへっ（蝶野）,Hehehe! (Chono),43
+voices,name,へゃぁぁっ（鼓太郎）,Heyaaa! (Kotaro),43
+voices,name,へゃっ（本間）,Heya! (Honma),43
+voices,name,ほぇぇ（藤波）,Hoee (Fujinami),43
+voices,name,ほぇっ（長井）,Hoe! (Nagai),43
+voices,name,ほー（中西）,Hoo (Nakanishi),43
+voices,name,ほぉっ（安田）,Hoo! (Yasuda),43
+voices,name,ほっ（安田）,Ho! (Yasuda),43
+voices,name,ほわぁぁ（安田）,Howaaa (Yasuda),43
+voices,name,ホワァァァ（ハシフ）,Howaaaa (Hashif),43
+voices,name,ほわぁぁっ（中西）,Howaaa! (Nakanishi),43
+voices,name,むぅとぉ（ムタ）,Mutoo (Muta),43
+voices,name,むっとぉ（ムタ）,Muttoo (Muta),43
+voices,name,モンゴルスラーム（ウルフ）,Mongolian Slam (Wolf),43
+voices,name,やぁぁぁ（ライガー）,Yaaaa (Liger),43
+voices,name,やあぁぁぁ～（秋山）,Yaaaaa~ (Akiyama),43
+voices,name,やあぁっ（柴田）,Yaaa! (Shibata),43
+voices,name,やゃぁ（中西）,Yayaa (Nakanishi),43
+voices,name,やろー（邦昭）,Yaroo (Kuniaki),43
+voices,name,ヤー（ハインズ）,Yaa (Hines),43
+voices,name,ヤァァ（外国人）,Yaaa (Foreigner),43
+voices,name,ヤャァ（外国人）,Yayaa (Foreigner),43
+voices,name,ヤァットォ（外国人）,Yaattoo (Foreigner),43
+voices,name,ゆぅいゆぅ（佐藤）,Yuiyu (Sato),43
+voices,name,ゅぅぅあぁ（蝶野）,Yuuaa (Chono),43
+voices,name,ゆぅぅぅやぁ（秋山）,Yuuuyaa (Akiyama),43
+voices,name,ゆぅぅぅわぁ（ケア）,Yuuuwaa (Kea),43
+voices,name,ゆゃあ（ケア）,Yuyaa (Kea),43
+voices,name,ゅわぁ（中西）,Yuwaa (Nakanishi),43
+voices,name,ユアッ（外国人）,Yua! (Foreigner),43
+voices,name,ユゥアッ（外国人）,Yua! (Foreigner),43
+voices,name,ユゥポ（ハインズ）,Yupo (Hines),43
+voices,name,ュヤァァッ（外国人）,Yuyaaa! (Foreigner),43
+voices,name,よいしょオラー（馳）,Yoishooraa (Hase),43
+voices,name,よぉぃゆぅ（長州）,Yooiyu (Choshu),43
+voices,name,よっ１（浅子）,Yo! 1 (Asako),43
+voices,name,よっ２（馳）,Yo! 2 (Hase),43
+voices,name,よっ３（竹村）,Yo! 3 (Takemura),43
+voices,name,よっしゃぁ（浅子）,Yosshaa (Asako),43
+voices,name,よっしゃいくぞー（馳）,"All right, go! (Hase)",43
+voices,name,よっしゃオラ（百田）,Yosshaora (Momota),43
+voices,name,よったぁ（橋本）,Yottaa (Hashimoto),43
+voices,name,ょってぇ（西村）,Yotte (Nishimura),43
+voices,name,わぁああ（田上）,Waaaa (Taue),43
+voices,name,わぁぁう（中西）,Waaau (Nakanishi),43
+voices,name,わぁぁっ（邦昭）,Waaa! (Kuniaki),43
+voices,name,わぁいぅ（田中）,Waaiu (Tanaka),43
+voices,name,わぁっしゅ（蝶野）,Waasshu (Chono),43
+voices,name,ワー（外国人）,Waa (Foreigner),43
+voices,name,ワァァォ（外国人）,Waaao (Foreigner),43
+voices,name,ワシャア（ハインズ）,Washaa (Hines),43
+voices,name,ワッ（外国人）,Wa! (Foreigner),43
+voices,name,ワッハハハ（外国人）,Wahhahaha (Foreigner),43
+voices,name,ＷＯＷ（プレデター）,Wow (Predator),43
+themes,name,なし,None,43
+themes,name,ＤＲＡＧＯＮ ＳＵＰＬＥＸ,Dragon Suplex,43
+themes,name,ＤＲＡＧＯＮ ＳＵＰＬＥＸ（手）,Dragon Suplex (Clap),43
+themes,name,ｎＷｏクラッシュ,nWo CRASH,43
+themes,name,ｎＷｏクラッシュ（手）,nWo CRASH (Clap),43
+themes,name,ＭＩＳＳＯＮＢＬＯＷ,Mission Blow,43
+themes,name,ＭＩＳＳＯＮＢＬＯＷ（Ｃ）,Mission Blow (C),43
+themes,name,テンザン～時空～,TENZAN ~Jiku~,43
+themes,name,テンザン～時空～（手）,Tenzan Jiku (Clap),43
+themes,name,怒りの獣神,Angry Jushin,43
+themes,name,怒りの獣神（手）,Angry Jushin (Clap),43
+themes,name,スパルタンＸ,Spartan X,43
+themes,name,スパルタンＸ（Ｃ）,Spartan X (C),43
+themes,name,ＢＬＡＺＩＮ（Ｖｉｃｔｏｒｙｖｅｒｓｉｏ,Blazin (Victory),43
+themes,name,ＢＬＡＺＩＮ（Ｃ）,BLAZIN (C),43
+themes,name,ＳＴＥＲＮＮEＳＳ(ｔｙｐｅＣ),Sternness (Type C),43
+themes,name,ＳＴＥＲＮＮEＳＳ（Ｃ）,Sternness (C),43
+themes,name,ＧＨＣヘビーのテーマ,GHC Heavy Theme,43
+themes,name,ＴＲＡＮＳ　ＭＡＧＩＣ,TRANS MAGIC,43
+themes,name,ＴＲＡＮＳ　ＭＡＧＩＣ（Ｃ）,TRANS MAGIC (C),43
+themes,name,ＭＵＴＡ,MUTA,43
+themes,name,ＭＵＴＡ（手）,MUTA (Clap),43
+themes,name,ＨｏｌｙＷａｒ ２１,Holy War 21,43
+themes,name,ＨｏｌｙＷａｒ ２１（Ｃ）,Holy War 21 (C),43
+themes,name,ＲＵＳＨ！！,RUSH!!,43
+themes,name,ＲＵＳＨ！！（Ｃ）,RUSH!! (C),43
+themes,name,爆勝宣言,Bakusho Sengen,43
+themes,name,爆勝宣言（Ｃ）,Bakusho Sengen (C),43
+themes,name,前奏～爆勝宣言,Bakusho Intro,43
+themes,name,前奏～爆勝宣言（Ｃ）,Bakusho Intro (C),43
+themes,name,ＢＥＬＩＥＶＥＳＲＯＡＤ,Believe's Road,43
+themes,name,ＢＥＬＩＥＶＥＳＲＯＡＤ（Ｃ）,Believe's Road (C),43
+themes,name,パワーホール,Power Hall,43
+themes,name,パワーホール（Ｃ）,Power Hall (C),43
+themes,name,ＴＨＥ ＷＯＲＬＤ,The World,43
+themes,name,ＴＨＥ ＷＯＲＬＤ（Ｃ）,The World (C),43
+themes,name,ＴＨＵＮＤＥＲ ＳＴＯＲＭ,Thunder Storm,43
+themes,name,ＴＨＵＮＤＥＲ ＳＴＯＲＭ（Ｃ）,Thunder Storm (C),43
+themes,name,Ｄ-ＰＯＷＥＲ,D-Power,43
+themes,name,Ｄ-ＰＯＷＥＲ（Ｃ）,D-Power (C),43
+themes,name,ＵＷＦメインテーマ,UWF Main Theme,43
+themes,name,ＵＷＦメインテーマ（山崎）,UWF Theme: Yamazaki,43
+themes,name,ＵＷＦメインテーマ（田村）,UWF Theme: Tamura,43
+themes,name,ＦＲＡＭＥ ＯＦ ＭＩＮＤ,Frame of Mind,43
+themes,name,ＦＲＡＭＥ ＯＦ ＭＩＮＤ（Ｃ）,Frame of Mind (C),43
+themes,name,藤波辰巳のテーマ,Fujinami Theme,43
+themes,name,藤波辰巳のテーマ（手）,Fujinami (Clap),43
+themes,name,蝶野正洋のテーマ,Chono Theme,43
+themes,name,蝶野正洋のテーマ（Ｃ）,Chono Theme (C),43
+themes,name,中西学のテーマ,Nakanishi Theme,43
+themes,name,安田忠夫のテーマ１,Yasuda Theme 1,43
+themes,name,魔界倶楽部のテーマ,Makai Club Theme,43
+themes,name,安田忠夫のテーマ2,Yasuda Theme 2,43
+themes,name,飯塚高史のテーマ,Iizuka Theme,43
+themes,name,西村修のテーマ,Nishimura Theme,43
+themes,name,真壁伸也のテーマ,Shinya Makabe Theme,43
+themes,name,吉江豊のテーマ,Yutaka Yoshie Theme,43
+themes,name,棚橋弘至のテーマ,Tanahashi Theme,43
+themes,name,中邑真輔のテーマ,Nakamura Theme,43
+themes,name,柴田勝頼のテーマ1,Shibata Theme 1,43
+themes,name,柴田勝頼のテーマ2,Shibata Theme 2,43
+themes,name,クレイジードッグスのテーマ,Crazy Dogs Theme,43
+themes,name,長井満也のテーマ,Mitsuya Nagai Theme,43
+themes,name,ブルー・ウルフのテーマ,Blue Wolf Theme,43
+themes,name,平田淳嗣のテーマ,Junji Hirata Theme,43
+themes,name,ヒロ斎藤のテーマ,Hiro Saito Theme,43
+themes,name,後藤達俊のテーマ,Goto Theme,43
+themes,name,木戸修のテーマ,Osamu Kido Theme,43
+themes,name,木村健悟のテーマ,Kengo Kimura Theme,43
+themes,name,小林邦昭のテーマ,Kobayashi Theme,43
+themes,name,山本小鉄のテーマ,Yamamoto Theme,43
+themes,name,金本浩二のテーマ,Koji Kanemoto Theme,43
+themes,name,エル・サムライのテーマ,El Samurai Theme,43
+themes,name,ＡＫＩＲＡのテーマ,AKIRA Theme,43
+themes,name,タイガーマスクのテーマ,Tiger Mask Theme,43
+themes,name,田中稔のテーマ,Minoru Tanaka Theme,43
+themes,name,ジェットのテーマ,Jet Theme,43
+themes,name,垣原賢人のテーマ,Kakihara Theme,43
+themes,name,成瀬昌由のテーマ,Naruse Theme,43
+themes,name,邪道外道のテーマ,Jado & Gedo Theme,43
+themes,name,井上亘のテーマ,Wataru Inoue Theme,43
+themes,name,竹村豪氏のテーマ,Takemura Theme,43
+themes,name,スコット・ノートンのテーマ,Scott Norton Theme,43
+themes,name,ジョシュ・バーネットのテーマ,Josh Barnett Theme,43
+themes,name,マイク・バートンのテーマ,Mike Barton Theme,43
+themes,name,ジム・スティールのテーマ,Jim Steele Theme,43
+themes,name,ブラック・タイガーのテーマ,Black Tiger Theme,43
+themes,name,ヤングライオンのテーマ,Young Lion Theme,43
+themes,name,小橋健太のテーマ１,Kobashi Theme 1,43
+themes,name,小橋健太のテーマ１（Ｃ）,Kobashi Theme 1 (C),43
+themes,name,小橋健太のテーマ２,Kobashi Theme 2,43
+themes,name,小橋健太のテーマ２（Ｃ）,Kobashi Theme 2 (C),43
+themes,name,田上明のテーマ,Taue Theme,43
+themes,name,田上明のテーマ（Ｃ）,Taue Theme (C),43
+themes,name,秋山準のテーマ,Akiyama Theme,43
+themes,name,秋山準のテーマ（Ｃ）,Akiyama Theme (C),43
+themes,name,斎藤彰俊のテーマ,A. Saito Theme,43
+themes,name,ワイルドⅡのテーマ,Wild II Theme,43
+themes,name,森嶋猛のテーマ,Morishima Theme,43
+themes,name,力皇猛のテーマ,Takeshi Rikio Theme,43
+themes,name,小川良成のテーマ,Ogawa Theme,43
+themes,name,本田多聞のテーマ,Tamon Honda Theme,43
+themes,name,佐野巧真のテーマ,Takuma Sano Theme,43
+themes,name,泉田純のテーマ,Jun Izumida Theme,43
+themes,name,井上雅央のテーマ１,Masao Inoue Theme 1,43
+themes,name,井上雅央のテーマ2,Inoue Theme 2,43
+themes,name,池田大輔のテーマ,Daisuke Ikeda Theme,43
+themes,name,モハメド・ヨネのテーマ,Mohammed Yone Theme,43
+themes,name,志賀賢太郎のテーマ,Kentaro Shiga Theme,43
+themes,name,川畑輝鎮のテーマ,Kawabata Theme,43
+themes,name,金丸義信のテーマ,Kanemaru Theme,43
+themes,name,丸藤正道のテーマ,Marufuji Theme,43
+themes,name,菊地毅のテーマ,Kikuchi Theme,43
+themes,name,浅子覚のテーマ,Satoru Asako Theme,43
+themes,name,橋誠のテーマ,Makoto Hashi Theme,43
+themes,name,ＫＥＮＴＡのテーマ,KENTA Theme,43
+themes,name,杉浦貴のテーマ,Sugiura Theme,43
+themes,name,鈴木鼓太郎のテーマ,Kotaro Suzuki Theme,43
+themes,name,ラッシャー木村のテーマ,Rusher Kimura Theme,43
+themes,name,永源遙のテーマ,Haruka Eigen Theme,43
+themes,name,百田光雄のテーマ,Mitsuo Momota Theme,43
+themes,name,スコーピオのテーマ,Scorpio Theme,43
+themes,name,ハンク・フォレストのテーマ,Hank Forrest Theme,43
+themes,name,ドン・ローガンのテーマ,Don Logan Theme,43
+themes,name,武藤敬司のテーマ１,Mutoh Theme 1,43
+themes,name,武藤敬司のテーマ１（Ｃ）,Mutoh Theme 1 (C),43
+themes,name,武藤敬司のテーマ２,Mutoh Theme 2,43
+themes,name,武藤敬司のテーマ２（Ｃ）,Mutoh Theme 2 (C),43
+themes,name,黒師無双のテーマ,Kokushi Muso Theme,43
+themes,name,太陽ケアのテーマ,Taiyo Kea Theme,43
+themes,name,愚零斗孤士のテーマ,Great Koji Theme,43
+themes,name,ケンドー・カシンのテーマ,Kashin Theme,43
+themes,name,ケンドー・カシンのテーマ（手）,Kashin Theme (Clap),43
+themes,name,渕正信のテーマ,Fuchi Theme,43
+themes,name,馳浩のテーマ,Hase Theme,43
+themes,name,馳浩のテーマ（Ｃ）,Hase Theme (C),43
+themes,name,嵐のテーマ１,Arashi Theme 1,43
+themes,name,嵐のテーマ2,Arashi Theme 2,43
+themes,name,荒谷望誉のテーマ,Araya Theme,43
+themes,name,奥村茂雄のテーマ１,Okumura Theme 1,43
+themes,name,奥村茂雄のテーマ2,Okumura Theme 2,43
+themes,name,保坂秀樹のテーマ,Hideki Hosaka Theme,43
+themes,name,カズ・ハヤシのテーマ,Kaz Hayashi Theme,43
+themes,name,宮本和志のテーマ１,Miyamoto Theme 1,43
+themes,name,宮本和志のテーマ2,Miyamoto Theme 2,43
+themes,name,ターメリックのテーマ,Turmeric Theme,43
+themes,name,ビッグ・ジョン・テンタのテーマ,John Tenta Theme,43
+themes,name,ザ・グラジエーターのテーマ,The Gladiator Theme,43
+themes,name,ジョージ・ハインズのテーマ,George Hines Theme,43
+themes,name,あすなろ戦士のテーマ,Asunaro Theme,43
+themes,name,ショーグンのテーマ,Shogun Theme,43
+themes,name,ハシフ・カーンのテーマ,Hashif Khan Theme,43
+themes,name,田中将斗のテーマ,Masato Tanaka Theme,43
+themes,name,高岩竜一のテーマ,Takaiwa Theme,43
+themes,name,星川尚浩のテーマ,Hoshikawa Theme,43
+themes,name,佐藤耕平のテーマ,Kohei Sato Theme,43
+themes,name,崔リョウジのテーマ,Ryouji Sai Theme,43
+themes,name,黒毛和牛太のテーマ,Wagyuta Theme,43
+themes,name,富豪２夢路のテーマ,Yumeji Theme,43
+themes,name,佐々木義人のテーマ,Y. Sasaki Theme,43
+themes,name,"""山笠Z""""信介のテーマ""",Yamakasa Z Theme,43
+themes,name,高橋冬樹のテーマ１,Takahashi Theme 1,43
+themes,name,高橋冬樹のテーマ2,F. Takahashi Theme 2,43
+themes,name,坂田亘のテーマ,Wataru Sakata Theme,43
+themes,name,小笠原和彦のテーマ,Ogasawara Theme,43
+themes,name,葛西純のテーマ,Jun Kasai Theme,43
+themes,name,テングカイザーのテーマ,Tengu Kaiser Theme,43
+themes,name,ブレード・ハヤテのテーマ,Blade Hayate Theme,43
+themes,name,トム・ハワードのテーマ,Tom Howard Theme,43
+themes,name,プレデターのテーマ,Predator Theme,43
+themes,name,バット・サファリのテーマ,Bat Safari Theme,43
+themes,name,ＭＷＡのテーマ,MWA Theme,43
+themes,name,スティーブ・コリノのテーマ,Steve Corino Theme,43
+themes,name,Ｌｏｗｋｉのテーマ,Low Ki Theme,43
+themes,name,佐々木健介のテーマ１,K. Sasaki Theme 1,43
+themes,name,佐々木健介のテーマ2,Sasaki Theme 2,43
+themes,name,佐々木健介のテーマ2（手）,Sasaki Theme 2 (Clap),43
+themes,name,パワー・ウォリアーのテーマ,Power Warrior Theme,43
+themes,name,パワー・ウォリアーのテーマ（手）,Power Warrior (Clap),43
+themes,name,越中詩郎のテーマ１,Koshinaka Theme 1,43
+themes,name,越中詩郎のテーマ１（Ｃ）,Koshinaka 1 (C),43
+themes,name,越中詩郎のテーマ2,Koshinaka Theme 2,43
+themes,name,大森隆男のテーマ,Takao Omori Theme,43
+themes,name,マサ・サイトーのテーマ,Masa Saito Theme,43
+themes,name,ヤングマグマのテーマ,Young Magma Theme,43
+themes,name,船木誠勝のテーマ,Funaki Theme,43
+themes,name,鈴木みのるのテーマ,Suzuki Theme,43
+themes,name,近藤有己のテーマ,Kondo Theme,43
+themes,name,高橋義生のテーマ,Y. Takahashi Theme,43
+themes,name,菊田早苗のテーマ,Kikuta Theme,43
+themes,name,國奥麒樹真のテーマ,Kunioku Theme,43
+themes,name,渋谷修身のテーマ,Shibuya Theme,43
+themes,name,美濃輪育久のテーマ,Minowa Theme,43
+themes,name,謙吾のテーマ,Kengo Theme,43
+themes,name,ＫＥＩ山宮のテーマ,KEI Yamamiya Theme,43
+themes,name,ビクトリー武蔵のテーマ,Musashi Theme,43
+themes,name,ビクトリー武蔵のテーマ（手）,Musashi Theme (Clap),43
+themes,name,グレート司馬のテーマ,Great Shiba Theme,43
+themes,name,グレート司馬のテーマ（Ｃ）,Great Shiba (C),43
+themes,name,トミー・ボンバーのテーマ１,Tommy Bomber 1,43
+themes,name,トミー・ボンバーのテーマ2,Tommy Bomber Theme 2,43
+themes,name,野川裕也のテーマ,Yuya Nogawa Theme,43
+themes,name,梶田政之のテーマ,Kajita Theme,43
+themes,name,冴刃明のテーマ,Akira Saeba Theme,43
+themes,name,真田信久のテーマ,Sanada Theme,43
+themes,name,柏田一樹のテーマ,Kashiwada Theme,43
+themes,name,ウイニング亀村のテーマ,Kamemura Theme,43
+themes,name,室田鉄彦のテーマ,Murota Theme,43
+themes,name,WAKAゆきぐにのテーマ,WAKA Yukiguni Theme,43
+themes,name,スター・バイソンのテーマ,Star Bison Theme,43
+themes,name,セイバーのテーマ,Saber Theme,43
+themes,name,アックス・ドゥガンのテーマ,Axe Dugan Theme,43
+themes,name,ゴールデンハンマーのテーマ,Golden Hammer Theme,43
+themes,name,S・ジェイムスのテーマ,S. James Theme,43
+themes,name,S・ジェイムスのテーマ（手）,S. James (Clap),43
+themes,name,A・T・デンジャーのテーマ,A.T. Danger Theme,43
+themes,name,マスカラ兄弟のテーマ,Mascara Bros. Theme,43
+themes,name,テキサン兄弟のテーマ,Texan Bros. Theme,43
+themes,name,ビッグ・ザ・G・ブルのテーマ,Big the G. Bull Theme,43
+themes,name,G・ロシュモフのテーマ,G. Roshmoff Theme,43
+themes,name,D・シルバーＪｒ．のテーマ,D. Silver Jr. Theme,43
+themes,name,ハイパーKのテーマ,Hyper K Theme,43
+themes,name,ステイシー一族のテーマ,Stacy Clan Theme,43
+themes,name,ロシア軍団のテーマ,Russian Army Theme,43
+themes,name,ウォルフ・バーンのテーマ,Wolf Bahn Theme,43
+themes,name,マイク・オールマンのテーマ,Mike Allman Theme,43
+themes,name,ボーン・クライのテーマ,Bone Cry Theme,43
+themes,name,ケンタウロ・ボヘミアのテーマ,Centauro Bohemia,43
+themes,name,サム・ポップのテーマ,Sam Pop Theme,43
+themes,name,汎用テーマ１,Generic Theme 1,43
+themes,name,汎用テーマ2,Generic Theme 2,43
+themes,name,汎用テーマ3,Generic Theme 3,43
+themes,name,汎用テーマ4,Generic Theme 4,43
+themes,name,汎用テーマ5,Generic Theme 5,43
+themes,name,汎用テーマ6,Generic Theme 6,43
+themes,name,汎用テーマ7,Generic Theme 7,43
+themes,name,汎用テーマ8,Generic Theme 8,43
+themes,name,汎用テーマ9,Generic Theme 9,43
+themes,name,汎用テーマ10,Generic Theme 10,43
+themes,name,観月慶三のテーマ,Keizo Mizuki Theme,43

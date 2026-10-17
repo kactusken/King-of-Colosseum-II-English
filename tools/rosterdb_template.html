@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wrestler Database</title>
+<!--HEAD-->
+<style>
+/*COMMON_CSS*/
+/* Layout: header + tabs; the database is a filterable list beside a profile panel. Built by tools/rosterdb.py. */
+.view { overflow: auto; padding: 2px 4px 0 2px; }
+.view:focus { outline: none; }
+#db { display: grid; grid-template-columns: minmax(0, 400px) minmax(0, 1fr); gap: 12px; overflow: hidden; }
+.listcol { display: flex; flex-direction: column; gap: 8px; min-height: 0; min-width: 0; }
+.filters input[type="search"] { font: 14px var(--body); padding: 5px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--ink); flex: 1; min-width: 140px; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.seg button { font: 600 13px var(--body); border: 0; background: var(--surface); color: var(--muted); padding: 5px 10px; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
+.count { font-size: 12.5px; color: var(--muted); }
+ul.list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-height: 300px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+ul.list li { padding: 7px 12px; border-bottom: 1px solid var(--line); cursor: pointer; display: grid; grid-template-columns: 1fr auto; gap: 0 8px; }
+ul.list li:hover { background: var(--sunk); }
+ul.list li.sel { background: var(--accent-soft); box-shadow: inset 3px 0 0 var(--accent); }
+ul.list .nm { font-weight: 700; }
+ul.list .sub2 { font-size: 12.5px; color: var(--muted); grid-column: 1 / -1; }
+.lock { font: 700 11.5px/1 var(--body); border-radius: 4px; padding: 3px 6px 2px; white-space: nowrap; align-self: center; }
+.lock.shop { background: var(--hl-bg); color: var(--hl); border: 1px solid var(--hl); }
+.lock.never { background: var(--sunk); color: var(--muted); border: 1px dashed var(--muted); }
+
+article.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; overflow-y: auto; overflow-x: hidden; min-width: 0; padding: 18px 20px; display: flex; flex-direction: column; gap: 16px; }
+.panel > * { min-width: 0; flex-shrink: 0; }
+.panel h2 { font: 900 38px/1 var(--display); margin: 0; text-transform: uppercase; font-stretch: 62%; }
+.panel h3 { font: 700 14px var(--body); color: var(--ink); margin: 0 0 8px; }
+.panel p { margin: 0; }
+.nick { font-size: 15px; color: var(--muted); }
+.nick b { color: var(--ink); }
+.kick { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; font: 500 13px var(--body); color: var(--muted); }
+.ptag { font: 700 12.5px var(--body); color: var(--surface); background: var(--accent); border-radius: 4px; padding: 1px 6px; }
+.facts { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 6px; }
+.fact { background: var(--sunk); border-radius: 6px; padding: 6px 9px; }
+.fact .fk { font: 700 12px var(--body); color: var(--muted); }
+.fact .v { font: 700 15px var(--body); }
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+.bars { display: grid; grid-template-columns: max-content 1fr 22px; gap: 4px 10px; align-items: center; font-size: 13.5px; }
+.bar { height: 9px; background: var(--sunk); border-radius: 5px; overflow: hidden; border: 1px solid var(--line); }
+.bar i { display: block; height: 100%; background: var(--bc, var(--accent)); border-radius: 5px; }
+.bars .n { font-variant-numeric: tabular-nums; text-align: right; font-weight: 700; }
+.def .bar i { --bc: var(--p-ajpw); }
+dl.kv { display: grid; grid-template-columns: max-content 1fr; gap: 4px 14px; margin: 0; font-size: 13.5px; }
+dl.kv dt { color: var(--muted); }
+dl.kv dd { margin: 0; }
+.bad { color: var(--bad); font-weight: 700; }
+.good { color: var(--good); font-weight: 700; }
+ul.sp { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+ul.sp li { display: flex; gap: 10px; align-items: baseline; background: var(--sunk); border-radius: 6px; padding: 6px 10px; }
+ul.sp .k2 { font: 700 12px var(--body); color: var(--muted); width: 82px; flex: none; }
+ul.sp li.fin { background: var(--accent-soft); }
+ul.sp li.fin .k2 { color: var(--accent); }
+ul.sp .mv { font-weight: 700; }
+ul.sp .sl2 { font-size: 12px; color: var(--muted); margin-left: auto; text-align: right; }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; }
+.u { font: 600 12.5px var(--body); border: 1px solid var(--line); border-radius: 4px; padding: 1px 7px; background: var(--sunk); }
+details.ms > summary { cursor: pointer; font: 700 14px var(--body); color: var(--ink); list-style: none; }
+details.ms > summary::before { content: "▸ "; }
+details.ms[open] > summary::before { content: "▾ "; }
+.mgroups { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; margin-top: 10px; }
+.mgroup { border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; }
+.mgroup h4 { margin: 0 0 4px; font: 700 12.5px var(--body); }
+table.mt { font-size: 13px; width: 100%; }
+table.mt td { padding: 2px 6px 2px 0; border: 0; vertical-align: top; }
+table.mt td.sit { color: var(--muted); white-space: nowrap; width: 1%; }
+table.mt td.btn2 { white-space: nowrap; width: 1%; text-align: left; line-height: 0; }
+:root { --b-disc: #20252e; --b-ring: #20252e; --b-sq: #ff7ac6; --b-x: #8fb4ff; --b-o: #ff9a5c; --b-tri: #4fd1a5; --b-pad: #eef1f5; }
+:root[data-theme="dark"] { --b-disc: #2c3442; --b-ring: #4a5568; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --b-disc: #2c3442; --b-ring: #4a5568; } }
+svg.bi { width: 20px; height: 20px; vertical-align: middle; margin-right: 1px; }
+svg.bi.wide { width: 26px; }
+svg.bi text { font: 700 10px var(--body); fill: var(--b-pad); }
+.bplus { font: 700 12px/18px var(--body); color: var(--muted); margin: 0 1px; vertical-align: middle; }
+.bnote { font: 600 10.5px var(--body); color: var(--muted); vertical-align: middle; margin-left: 3px; }
+h4 .bi { width: 16px; height: 16px; }
+.legendb { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12.5px; color: var(--muted); margin-top: 6px; align-items: center; }
+.legendb span { display: inline-flex; align-items: center; gap: 3px; }
+table.mt tr.spc td { color: var(--accent); font-weight: 700; }
+.soul { font: 700 11px var(--body); background: #c8102e; color: #fff; border-radius: 3px; padding: 1px 4px; vertical-align: 2px; }
+.tagf { font: 700 11px var(--body); background: var(--accent); color: var(--accent-ink); border-radius: 3px; padding: 1px 4px; margin-left: 4px; }
+.jp { font-size: 12.5px; color: var(--muted); }
+@media (max-width: 900px) {
+  #db { grid-template-columns: minmax(0, 1fr); overflow: visible; }
+  ul.list { max-height: 45vh; flex: none; }
+}
+</style>
+
+<div class="app">
+  <header>
+    <h1>Wrestler <span>Database</span></h1>
+    <div class="sub">Every wrestler, costume and Edit Mode sample in King of Colosseum II, with stats, skills and full movesets, read from the game's own data.</div>
+    <button id="theme" type="button"></button>
+    <!--NAV-->
+  </header>
+  <nav class="tabs" role="tablist">
+    <button role="tab" id="t-db" aria-selected="true" aria-controls="db">Wrestlers</button>
+    <button role="tab" id="t-titles" aria-selected="false" aria-controls="titles">Titles &amp; teams</button>
+    <button role="tab" id="t-about" aria-selected="false" aria-controls="about">About the data</button>
+  </nav>
+
+  <section class="view" id="db" role="tabpanel">
+    <div class="listcol">
+      <div class="filters">
+        <div class="seg" id="kind" role="group" aria-label="List"></div>
+        <input type="search" id="q" placeholder="Search names, nicknames, moves" aria-label="Search">
+      </div>
+      <div class="filters">
+        <select id="f-promo" aria-label="Promotion"></select>
+        <select id="f-cls" aria-label="Weight class"></select>
+        <select id="f-lock" aria-label="Availability"></select>
+        <span class="count" id="count"></span>
+      </div>
+      <ul class="list" id="list"></ul>
+    </div>
+    <article class="panel" id="panel" aria-live="polite"></article>
+  </section>
+
+  <section class="view" id="titles" role="tabpanel" hidden>
+    <div class="wrap" id="titletext"></div>
+  </section>
+
+  <section class="view" id="about" role="tabpanel" hidden>
+    <div class="wrap"><div class="prose" id="abouttext"></div></div>
+  </section>
+</div>
+
+<script type="application/json" id="data">/*DATA*/</script>
+<script>
+(function () {
+"use strict";
+const D = JSON.parse(document.getElementById("data").textContent);
+const $ = s => document.querySelector(s);
+const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const W = D.wrestlers, T = D.templates, MOVES = D.moves, SLOTS = D.slots;
+/*THEME_JS*/
+let kind = "roster", cur = null, vi = 0;
+
+/* ---------- tabs */
+const TABS = ["db", "titles", "about"];
+function setTab(t) { TABS.forEach(k => { $("#t-" + k).setAttribute("aria-selected", k === t); $("#" + k).hidden = k !== t; }); }
+TABS.forEach(k => { $("#t-" + k).onclick = () => setTab(k); });
+
+/* ---------- list */
+const items = () => kind === "roster" ? W : T;
+function lockOf(x) {
+  if (kind === "roster") return x.never ? ["never", "Never unlocked"] : x.locked ? ["shop", x.shop.length ? `Shop ${x.shop[0].price}` : "Locked"] : null;
+  return x.locked ? ["shop", x.shop ? `Shop ${x.shop.price}` : "Locked"] : null;
+}
+function fill(sel, label, values) { sel.innerHTML = `<option value="">${label}</option>` + values.map(v => `<option>${esc(v)}</option>`).join(""); }
+function filters() {
+  const it = items();
+  if (kind === "roster") { fill($("#f-promo"), "All promotions", [...new Set(it.map(x => x.promotion))]); fill($("#f-cls"), "All weight classes", [...new Set(it.map(x => x.cls))]); }
+  else { fill($("#f-promo"), "All kinds", [...new Set(it.map(x => x.category))]); fill($("#f-cls"), "All weight classes", []); }
+  $("#f-cls").hidden = kind !== "roster";
+  $("#f-lock").innerHTML = `<option value="">Locked or not</option><option value="open">Available from the start</option><option value="locked">Locked</option>`;
+}
+function draw() {
+  const q = $("#q").value.trim().toLowerCase(), fp = $("#f-promo").value, fc = $("#f-cls").value, fl = $("#f-lock").value;
+  const rows = items().filter(x => (!fp || (kind === "roster" ? x.promotion : x.category) === fp) && (!fc || x.cls === fc)
+    && (!fl || (fl === "locked") === !!(x.locked || x.never))
+    && (!q || [x.name, x.name_jp, ...x.variants.flatMap(v => [v.nick, v.nick_jp, v.move_text, ...v.specials.map(s => MOVES[s[2]])])].join(" ").toLowerCase().includes(q)));
+  $("#count").textContent = `${rows.length} shown`;
+  $("#list").innerHTML = rows.map(x => { const l = lockOf(x);
+    return `<li data-id="${x.id}"${cur === x ? ' class="sel"' : ""}><span class="nm">${esc(x.name)}</span>${l ? `<span class="lock ${l[0]}">${esc(l[1])}</span>` : "<span></span>"}<span class="sub2">${esc(kind === "roster" ? `${x.promotion} · ${x.cls}${x.variants.length > 1 ? ` · ${x.variants.length} costumes` : ""}` : x.category)} <span class="jp" lang="ja">${esc(x.name_jp)}</span></span></li>`; }).join("");
+}
+$("#list").addEventListener("click", e => { const li = e.target.closest("li"); if (li) show(items().find(x => x.id == li.dataset.id), 0); });
+["#q"].forEach(s => $(s).addEventListener("input", draw));
+["#f-promo", "#f-cls", "#f-lock"].forEach(s => $(s).addEventListener("change", draw));
+function setKind(k) {
+  kind = k;
+  $("#kind").innerHTML = [["roster", "Roster"], ["templates", "Edit samples"]].map(([v, l]) => `<button type="button" data-v="${v}" aria-pressed="${v === kind}">${l}</button>`).join("");
+  filters(); draw(); show(items()[0], 0);
+}
+$("#kind").onclick = e => { const b = e.target.closest("button"); if (b) setKind(b.dataset.v); };
+
+/* ---------- profile */
+const age = b => b ? `${b.year}-${String(b.month).padStart(2, "0")}-${String(b.day).padStart(2, "0")}` : "Unknown";
+const SKILL = { recovery: "Recovery", recovery_bleeding: "Recovery (bleeding)", breathing: "Breathing", breathing_bleeding: "Breathing (bleeding)", spirit: "Spirit", spirit_bleeding: "Spirit (bleeding)", neck_durability: "Neck", arm_durability: "Arms", waist_durability: "Waist", leg_durability: "Legs", move_speed: "Move speed", post_climbing: "Turnbuckles", soul_buttons: "Soul buttons", critical: "Critical type", mode_special_skill: "Mode skill" };
+const tone = v => /Injured|Weak|Poor|Low/.test(v) ? "bad" : /Strong|Good|High/.test(v) ? "good" : "";
+function bars(obj, cls) { return `<div class="bars ${cls}">${Object.entries(obj).map(([k, n]) => `<span>${esc(k)}</span><span class="bar"><i style="width:${n * 10}%"></i></span><span class="n">${n}</span>`).join("")}</div>`; }
+const SPECIAL = { finisher: "Finisher", signature1: "Signature", signature2: "Signature", signature3: "Signature", signature4: "Signature" };
+/* Button codes (u16 after each move slot's name in table 1450), as the Edit Mode move screen
+   draws them (verified in game, 2026-10-16). ✚ = a direction on the D-pad; the Soul moves carry
+   the red 魂 icon. 999 = no button (entrance slots). docs/TECHNICAL.md "Wrestler data". */
+const BASE = { 0: "□", 1: "×", 2: "○", 3: "△", 6: "□×", 7: "△○", 24: "R1" };
+const BUTTON = Object.assign({}, BASE, {
+  8: "✚+□", 9: "✚+×", 10: "✚+○", 14: "✚+□×",
+  16: "R1+□", 17: "R1+×", 18: "R1+○", 19: "R1+△", 20: "R1+□×", 21: "R1+△○", 22: "R1+□×",
+  25: "R2", 26: "R2+✚", 27: "Right stick ▲", 28: "Right stick ◀", 29: "Right stick ▶", 30: "Right stick ▼" });
+const SOUL = c => c === 6 || c === 7 || c === 14 || c === 22;
+/* Button icons: one 18 px SVG per controller part, styled like the game's own (dark disc, coloured
+   symbol); a code is drawn as a sequence of them. */
+const GLYPH = {
+  sq: '<rect x="6" y="6" width="8" height="8" rx="0.5" fill="none" style="stroke:var(--b-sq)" stroke-width="1.8"/>',
+  x: '<path d="M6.3 6.3l7.4 7.4M13.7 6.3l-7.4 7.4" style="stroke:var(--b-x)" stroke-width="1.9" stroke-linecap="round"/>',
+  o: '<circle cx="10" cy="10" r="4.4" fill="none" style="stroke:var(--b-o)" stroke-width="1.8"/>',
+  tri: '<path d="M10 5.4l4.6 8.1H5.4z" fill="none" style="stroke:var(--b-tri)" stroke-width="1.7" stroke-linejoin="round"/>'
+};
+const disc = g => `<svg class="bi" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9.2" style="fill:var(--b-disc);stroke:var(--b-ring)" stroke-width="0.8"/>${GLYPH[g]}</svg>`;
+const DPAD = '<svg class="bi" viewBox="0 0 20 20" aria-hidden="true"><path d="M7.2 1.2h5.6v6h6v5.6h-6v6H7.2v-6h-6V7.2h6z" style="fill:var(--b-disc);stroke:var(--b-ring)" stroke-width="0.8"/><path d="M10 3l1.6 2.2H8.4zM10 17l1.6-2.2H8.4zM3 10l2.2-1.6v3.2zM17 10l-2.2-1.6v3.2z" style="fill:var(--b-pad)"/></svg>';
+const shoulder = t => `<svg class="bi wide" viewBox="0 0 26 20" aria-hidden="true"><rect x="0.6" y="2.6" width="24.8" height="14.8" rx="4.5" style="fill:var(--b-disc);stroke:var(--b-ring)" stroke-width="0.8"/><text x="13" y="13.6" text-anchor="middle">${t}</text></svg>`;
+const STICK_ROT = { up: 0, right: 90, down: 180, left: 270 };
+const stick = d => `<svg class="bi" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9.2" style="fill:var(--b-disc);stroke:var(--b-ring)" stroke-width="0.8"/><circle cx="10" cy="10" r="4.2" style="fill:none;stroke:var(--b-pad)" stroke-width="1.2" opacity=".55"/><path d="M10 2.6l2.8 3.6H7.2z" style="fill:var(--b-pad)" transform="rotate(${STICK_ROT[d]} 10 10)"/></svg>`;
+const PLUS = '<span class="bplus">+</span>';
+const FACE = { 0: ["sq"], 1: ["x"], 2: ["o"], 3: ["tri"], 6: ["sq", "x"], 7: ["tri", "o"] };
+const STICK_OF = { 27: "up", 28: "left", 29: "right", 30: "down" };
+const STICK_NAME = { up: "up", left: "left", right: "right", down: "down" };
+function buttonIcons(c) {
+  const face = f => f.map(disc).join("");
+  if (FACE[c]) return face(FACE[c]);
+  if (c >= 8 && c <= 15 && FACE[c - 8]) return DPAD + PLUS + face(FACE[c - 8]);
+  if (c >= 16 && c <= 22) return shoulder("R1") + PLUS + face([["sq"], ["x"], ["o"], ["tri"], ["sq", "x"], ["tri", "o"], ["sq", "x"]][c - 16]);
+  if (c === 24) return shoulder("R1");
+  if (c === 25) return shoulder("R2");
+  if (c === 26) return shoulder("R2") + PLUS + DPAD;
+  if (STICK_OF[c]) return stick(STICK_OF[c]) + `<span class="bnote">R-stick</span>`;
+  return "";
+}
+const buttonTitle = c => (BUTTON[c] || "").replace("✚", "D-pad ").replace("Right stick", "Right stick");
+function moveset(v) {
+  const spc = new Map(v.specials.map(s => [s[1], s[0]])), groups = new Map(), titles = new Map();
+  let shown = 0;
+  v.moves.forEach((m, k) => {
+    if (m < 0 || MOVES[m] === "Do Nothing") return;
+    const [name, label, btn, cat] = SLOTS[k];
+    let g = label || name;
+    if (cat >= 5 && cat <= 16) {   /* one set per Clutch Setting: the grapple chosen there picks it (0x163580) */
+      const set = v.moves[D.clutch_slots[cat - 5]];
+      if (set < 0 || MOVES[set] === "Do Nothing") return;
+      const gb = SLOTS[D.clutch_slots[cat - 5]][2];
+      g = `${cat <= 10 ? "Front" : "Rear"} grapple (${BUTTON[gb] || "?"}): ${MOVES[set]}`;
+      titles.set(g, `${cat <= 10 ? "Front" : "Rear"} grapple ${buttonIcons(gb)}: ${esc(MOVES[set])}`);
+    }
+    if (!groups.has(g)) groups.set(g, new Map());
+    const sit = groups.get(g);
+    const key = (BASE[btn] && name === BASE[btn]) || name === g ? "" : BASE[btn] ? name.replace(" " + BASE[btn], "") : name;   // grapple slots are named after their button
+    if (!sit.has(key)) sit.set(key, []);
+    sit.get(key).push([k, btn, m]);
+    shown++;
+  });
+  return `<details class="ms"><summary>Moveset: the ${shown} moves ${esc(v.name)} has</summary>
+    <p class="small muted" style="margin:8px 0 0">The move this wrestler uses in each situation, as set in Edit Mode's move list. Empty ("Do Nothing") slots are left out. Each grapple chosen under Clutch Settings has its own set of follow-ups, shown under that grapple's name. The finisher and signatures are highlighted. Buttons are shown as on the Edit Mode move screen.</p>
+    <div class="legendb"><span>${disc("sq")}${disc("x")}${disc("o")}${disc("tri")} face buttons</span><span>${DPAD} a direction held</span><span>${shoulder("R1")}${shoulder("R2")} shoulder buttons</span><span>${stick("up")} right stick</span><span><span class="soul">Soul</span> a Soul move (the game's red 魂 icon), using one of the wrestler's Soul buttons</span></div>
+    <div class="mgroups">${[...groups].map(([g, sit]) => `<div class="mgroup"><h4>${titles.get(g) || esc(g)}</h4><table class="mt">${[...sit].map(([name, list]) =>
+      list.map(([k, btn, m], n) => `<tr${spc.has(k) ? ' class="spc"' : ""}><td class="sit">${n === 0 ? esc(name) : ""}</td><td class="btn2" title="${esc(buttonTitle(btn))}">${buttonIcons(btn)}${SOUL(btn) ? ' <span class="soul" title="Soul move: the game marks it with a red 魂 (soul) icon">Soul</span>' : ""}</td><td>${esc(MOVES[m])}${spc.has(k) ? ` <span class="tagf">${spc.get(k) === "finisher" ? "Finisher" : "Signature"}</span>` : ""}</td></tr>`).join("")).join("")}</table></div>`).join("")}</div></details>`;
+}
+function show(x, i) {
+  if (!x) { $("#panel").innerHTML = ""; return; }
+  cur = x; vi = i;
+  document.querySelectorAll("#list li").forEach(li => li.classList.toggle("sel", li.dataset.id == x.id));
+  const v = x.variants[i] || x.variants[0], roster = kind === "roster";
+  const costumes = x.variants.length > 1 ? `<div class="seg" id="vsel">${x.variants.map((y, k) => `<button type="button" data-k="${k}" aria-pressed="${k === i}">Type ${y.type}${y.locked ? " 🔒" : ""}</button>`).join("")}</div>` : "";
+  const unlock = roster
+    ? (x.never ? `<p class="bad">Nothing in the game unlocks this wrestler (the translation's <span class="k">--unlocks all</span> option does).</p>`
+      : x.locked ? `<p>Locked at first. ${x.shop.length ? `Buy <b>${esc(x.shop[0].name)}</b> in the Secret Shop (${x.shop[0].price} souls).` : "Unlocked outside the shop (Kotetsu Yamamoto: finish the Dojo)."}</p>` : `<p>Available from the start.${x.shop.length ? ` Extra costumes: ${x.shop.map(s => `<b>${esc(s.name)}</b> (${s.price} souls)`).join(", ")}.` : ""}</p>`)
+    : (x.locked ? `<p>Locked at first. ${x.shop ? `Buy <b>${esc(x.shop.name)}</b> in the Secret Shop (${x.shop.price} souls).` : ""}</p>` : `<p>Available from the start.</p>`);
+  $("#panel").innerHTML = `
+    <div class="kick"><span class="ptag">${esc(roster ? x.promotion : x.category)}</span>${roster ? esc(x.cls) : ""}<span lang="ja">${esc(v.name_jp)}</span></div>
+    <h2>${esc(v.name)}</h2>
+    ${v.nick ? `<p class="nick">"${esc(v.nick)}"${v.move_text ? ` · <b>${esc(v.move_text)}</b>` : ""}</p>` : ""}
+    ${!roster && x.help ? `<p class="muted">${esc(x.help)}</p>` : ""}
+    ${costumes}
+    <div class="facts">
+      <div class="fact"><div class="fk">Height</div><div class="v">${v.height} cm</div></div>
+      <div class="fact"><div class="fk">Weight</div><div class="v">${v.weight} kg</div></div>
+      <div class="fact"><div class="fk">Born</div><div class="v">${age(v.birthday)}</div></div>
+      <div class="fact"><div class="fk">From</div><div class="v">${esc(v.nation)}</div></div>
+      <div class="fact"><div class="fk">Fight style</div><div class="v">${esc(v.style)}</div></div>
+      <div class="fact"><div class="fk">Popularity</div><div class="v">${esc(v.popularity)}</div></div>
+    </div>
+    <div><h3>Finisher &amp; signatures</h3><ul class="sp">${v.specials.map(([kd, slot, m]) => `<li${kd === "finisher" ? ' class="fin"' : ""}><span class="k2">${SPECIAL[kd]}</span><span class="mv">${esc(MOVES[m] || "?")}</span><span class="sl2">${esc(SLOTS[slot] ? SLOTS[slot][0] : "")}</span></li>`).join("")}</ul></div>
+    <div class="two"><div><h3>Offense</h3>${bars(v.offense, "off")}</div><div><h3>Defense</h3>${bars(v.defense, "def")}</div></div>
+    <div class="two"><div><h3>Skills</h3><dl class="kv">${Object.entries(v.skills).map(([k, val]) => `<dt>${esc(SKILL[k] || k)}</dt><dd class="${tone(String(val))}">${esc(val)}</dd>`).join("")}</dl>${v.match_skills.length ? `<p style="margin-top:8px"><span class="muted small">Match skills:</span> ${v.match_skills.map(esc).join(", ")}</p>` : ""}</div>
+      <div><h3>Profile</h3><dl class="kv"><dt>Build</dt><dd>${esc(v.build)}</dd><dt>Reversals (odds)</dt><dd>${esc(v.rev_odds)}</dd><dt>Reversals (moves)</dt><dd>${esc(v.rev_moves)}</dd><dt>Favourite colour</dt><dd>${esc(v.color)}</dd><dt>Voices</dt><dd>${v.voices.map(esc).join("<br>")}</dd><dt>Stance</dt><dd>${esc(v.stance)}</dd><dt>Body</dt><dd>${esc(v.body)}</dd><dt>Theme</dt><dd>${esc(v.theme)}</dd><dt>Entrance</dt><dd>${v.entrance.filter(Boolean).map(esc).join("<br>")}</dd></dl></div></div>
+    <div><h3>Availability</h3>${unlock}${roster && x.mm.length ? `<p class="small" style="margin-top:6px"><span class="muted">Match Maker rosters:</span> ${x.mm.map(esc).join(", ")}</p>` : ""}</div>
+    ${moveset(v)}`;
+  const vs = $("#vsel"); if (vs) vs.onclick = e => { const b = e.target.closest("button"); if (b) show(x, +b.dataset.k); };
+  try { history.replaceState(null, "", `#${kind}/${x.id}`); } catch (e) { /* file:// */ }
+}
+
+/* ---------- titles and teams */
+(function () {
+  const byName = {}; W.forEach(w => { byName[w.id] = w.name; });
+  const rows = D.titles.map(t => `<tr><td>${esc(t.campaign)}</td><td><b>${esc(t.name)}</b></td><td>${t.holders.map(h => h.map(esc).join(" &amp; ") || "-").join(" <span class='muted'>/</span> ")}</td><td>${t.shows.map((ok, k) => ok ? k + 1 : "").filter(Boolean).join(", ") || "None"}</td></tr>`).join("");
+  const teams = D.teams.map(t => `<tr><td><b>${esc(t.name)}</b></td><td>${t.members.map(id => byName[id] ? wlink(esc(byName[id]), "roster/" + id) : "#" + id).join(", ")}</td></tr>`).join("");
+  $("#titletext").innerHTML = `<div class="prose"><h2>Match Maker champions</h2><p>Each Match Maker campaign has its own belts. When a campaign starts the game picks one of three candidate champions at random. A champion is found by name, so "Tenzan" means whoever's name contains it. A belt can only be defended on the shows listed.</p></div>
+    <div class="tablebox"><table><thead><tr><th>Campaign</th><th>Title</th><th>Possible champions</th><th>Shows</th></tr></thead><tbody>${rows}</tbody></table></div>
+    <div class="prose"><h2>Elimination teams</h2><p>The ready-made teams for 5-on-5 Elimination matches.</p></div>
+    <div class="tablebox"><table><thead><tr><th>Team</th><th>Members</th></tr></thead><tbody>${teams}</tbody></table></div>`;
+})();
+
+/* ---------- about */
+$("#abouttext").innerHTML = `
+<h2>Where this comes from</h2>
+<p>Everything here is read from the game's own wrestler data: ${W.length} wrestlers with ${W.reduce((s, w) => s + w.variants.length, 0)} costumes (Type 1–4), and ${T.length} Edit Mode samples. The same data is used in every mode.</p>
+<ul>
+<li><b>Names</b> follow the English translation; Japanese names are shown alongside.</li>
+<li><b>Parameters</b> run 1–10. <b>Skills</b> are the Edit Mode labels (durability "Injured" is a real setting: Chono's neck, Fujinami's waist, Mutoh's legs).</li>
+<li><b>Moveset</b>: the move the wrestler uses in each of the game's 285 move slots (every situation and button Edit Mode lets you set), leaving out empty slots; the finisher and signatures are highlighted.</li>
+<li><b>Locked</b> wrestlers and costumes come from the Secret Shop (see <a class="sl" href="../secret-shop/">Secret Shop &amp; unlocks</a>). Spike Tomoki and the four Trainees are on the disc but nothing in the game unlocks them.</li>
+</ul>
+<p class="note">A few labels are decoded from the code without an in-game check yet: the direction of Recovery/Breathing/Spirit, Move speed and Turnbuckles, and the theme names (the game may pick the "(Clap)" version of a theme). The CPU logic settings aren't decoded.</p>
+<h2>Sources</h2>
+<p class="small muted">Built by <span class="k">tools/rosterdb.py</span>. Formats and addresses: docs/TECHNICAL.md, "Wrestler data".</p>`;
+
+/* ---------- start, and links from the other pages (#roster/<id>, #templates/<id>) */
+function fromHash() {
+  const hm = (location.hash || "").slice(1).split("/");
+  const k = hm[0] === "templates" ? "templates" : "roster";
+  setTab("db");
+  if (k !== kind || !cur) setKind(k);
+  if (hm[1]) { const x = items().find(y => y.id == hm[1]); if (x) { show(x, 0); const ul = $("#list"), li = ul.querySelector(`li[data-id="${x.id}"]`); if (li) ul.scrollTop = li.offsetTop - ul.offsetTop - ul.clientHeight / 3; } }
+}
+kind = "";
+fromHash();
+window.addEventListener("hashchange", fromHash);
+})();
+</script>

@@ -1,0 +1,78 @@
+/* Shared by the reference pages (tools/pagekit.py): colour tokens (light/dark), header, site nav,
+   tabs, chips, buttons, tables and prose. Page-specific colours (--p-*) live here too. */
+:root {
+  /* light: steel paper and navy ink; the accent is the game's tab orange, gold is the title belt */
+  --bg: #e6ebf3; --surface: #ffffff; --sunk: #eef2f8; --ink: #0d1a33; --muted: #4d5d78; --line: #c3cfe1;
+  --accent: #c2560c; --accent-soft: #fde9d8; --accent-ink: #ffffff; --good: #17734a; --bad: #b42318; --hl: #8a6100; --hl-bg: #fff2cc;
+  --tab: #e8781f; --tab-ink: #10203f; --band: #0f2347; --band-ink: #f3f6fb;
+  --p-njpw: #c2412d; --p-noah: #127a55; --p-ajpw: #2563b0; --p-zero1: #b06200; --p-wj: #6d45a8; --p-pancrase: #5a6573;
+  --display: "Archivo", "Arial Narrow", "Helvetica Neue", sans-serif;
+  --body: "Archivo", "Noto Sans JP", "Segoe UI", system-ui, sans-serif;
+  --mono: var(--body);
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  /* dark: the game's menu blue */
+  --bg: #091731; --surface: #10244a; --sunk: #0c1d3d; --ink: #edf2fa; --muted: #9db0d0; --line: #24406f;
+  --accent: #ff9440; --accent-soft: #3a2614; --accent-ink: #10203f; --good: #5fd391; --bad: #ff7b72; --hl: #f5c451; --hl-bg: #33290f;
+  --tab: #f08a2c; --tab-ink: #10203f; --band: #06112a; --band-ink: #f3f6fb;
+  --p-njpw: #ff7f66; --p-noah: #4fd1a0; --p-ajpw: #6fb0ff; --p-zero1: #ffb347; --p-wj: #b99bff; --p-pancrase: #9db0d0;
+  color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #091731; --surface: #10244a; --sunk: #0c1d3d; --ink: #edf2fa; --muted: #9db0d0; --line: #24406f;
+  --accent: #ff9440; --accent-soft: #3a2614; --accent-ink: #10203f; --good: #5fd391; --bad: #ff7b72; --hl: #f5c451; --hl-bg: #33290f;
+  --tab: #f08a2c; --tab-ink: #10203f; --band: #06112a; --band-ink: #f3f6fb;
+  --p-njpw: #ff7f66; --p-noah: #4fd1a0; --p-ajpw: #6fb0ff; --p-zero1: #ffb347; --p-wj: #b99bff; --p-pancrase: #9db0d0;
+  color-scheme: dark; }
+
+html, body { height: 100%; }
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { background: var(--bg); color: var(--ink); margin: 0; font: 15px/1.5 var(--body); font-variant-numeric: tabular-nums; }
+:lang(ja), [lang="ja"] { font-family: "Noto Sans JP", var(--body); }
+.app { display: flex; flex-direction: column; height: 100%; padding: 0 16px 16px; gap: 10px; }
+/* Header: a dark band across the top, the title in heavy condensed type */
+header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 18px; margin: 0 -16px; padding: 10px 16px 12px; background: var(--band); color: var(--band-ink); }
+h1 { font: 900 34px/0.95 var(--display); font-stretch: 62%; letter-spacing: .005em; text-transform: uppercase; margin: 0; }
+h1 span { color: inherit; }
+.sub { color: #a9b8d3; font-size: 14px; max-width: 80ch; }
+#theme { margin-left: auto; align-self: center; font: 600 13px var(--body); border: 1px solid #36507e; background: transparent; color: var(--band-ink); border-radius: 999px; padding: 4px 12px; cursor: pointer; }
+/* Tabs: the game's orange slanted tab header for the open one */
+nav.tabs { display: flex; gap: 2px; border-bottom: 3px solid var(--tab); flex-wrap: wrap; padding-left: 4px; }
+nav.tabs button { font: 700 15px var(--body); font-stretch: 85%; background: none; border: 0; color: var(--muted); padding: 7px 20px 6px; cursor: pointer; clip-path: polygon(10px 0, calc(100% - 10px) 0, 100% 100%, 0 100%); }
+nav.tabs button:hover { color: var(--ink); background: var(--sunk); }
+nav.tabs button[aria-selected="true"] { color: var(--tab-ink); background: var(--tab); }
+button:focus-visible, a:focus-visible, select:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.view { flex: 1; min-height: 0; }
+.chip { font: 600 13px var(--body); border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 4px 11px 4px 9px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+.chip .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--c); }
+.chip[aria-pressed="true"] { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+.btn { font: 600 13px var(--body); border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+.btn:hover { border-color: var(--ink); }
+.btn[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
+a.sl { color: var(--ink); font-weight: 600; text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 2px; cursor: pointer; }
+.muted { color: var(--muted); }
+.small { font-size: 13px; }
+/* Tables and prose */
+.wrap { max-width: 1180px; display: grid; gap: 16px; padding-bottom: 24px; }
+.filters { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.filters select { font: 14px var(--body); padding: 4px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--ink); }
+.tablebox { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+th { font: 700 13px var(--body); color: var(--muted); position: sticky; top: 0; background: var(--surface); }
+td.n { font-variant-numeric: tabular-nums; white-space: nowrap; text-align: right; }
+tr.first td { border-top: 2px solid var(--line); }
+.prose { max-width: 72ch; display: grid; gap: 10px; }
+.prose h2 { font: 900 30px/1 var(--display); font-stretch: 62%; text-transform: uppercase; margin: 12px 0 0; }
+.prose p, .prose li { margin: 0; }
+.prose ol, .prose ul { margin: 0; padding-left: 22px; display: grid; gap: 4px; }
+.prose table { font-size: 14px; }
+.k { font: 600 13px ui-monospace, Menlo, monospace; background: var(--sunk); border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; }
+nav.site { display: flex; flex-wrap: wrap; gap: 4px 18px; font: 600 13px var(--body); width: 100%; order: -1; padding-bottom: 6px; }
+nav.site a { color: #a9b8d3; text-decoration: none; }
+nav.site a:hover { color: var(--band-ink); }
+nav.site a[aria-current="page"] { color: var(--tab); }
+.note { border-left: 3px solid var(--line); padding: 2px 0 2px 12px; color: var(--muted); font-size: 13.5px; }
+@media (max-width: 900px) { .app { height: auto; min-height: 100%; } }
+a.wl { color: inherit; text-decoration: underline dotted; text-decoration-color: var(--muted); text-underline-offset: 3px; }
+a.wl:hover { text-decoration-style: solid; text-decoration-color: var(--accent); }

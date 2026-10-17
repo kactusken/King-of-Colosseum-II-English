@@ -1,0 +1,4 @@
+# build.py and make_patches.py need only Python 3.9+ (and the xdelta3 program for patches).
+# These are for the optional tools (render, edit, compare, contact, disassembler):
+Pillow>=10
+capstone>=5

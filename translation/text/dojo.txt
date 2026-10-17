@@ -1,0 +1,2999 @@
+# Dojo mode: the trainers' dialogue, one block per page (Kotetsu Yamamoto; Kantaro Hoshino
+# teaches the weapons lessons). KC2FIRE.000 entry 1455 - see tools/dojo.py.
+# @ <first record> <speaker> <next = waits for a button | section = a menu or exercise follows>
+# One EN line per JP line at most (fewer is fine). Each line: at most 41 characters
+# and 636 px (python3 tools/dojo.py verify). Stored full-width; 「 」 mark yellow text
+# (brackets shown); R1 L1 R2 L2 ○ △ □ × are drawn as button icons.
+# limit lines=3 chars=41
+
+@ 0 Yamamoto next
+JP 本日より、貴様の面倒を見ることになった、
+JP トレーナーの「山本　小鉄」だ！
+EN From today on, I'm in charge of you.
+EN I'm your trainer, Kotetsu Yamamoto!
+
+@ 3 Yamamoto next
+JP いいか、プロレスとは鍛え抜いた己の肉体と精神、
+JP そして、持てる技術の全てをぶつけ凌ぎあう競技だ。
+EN Listen! Pro wrestling means throwing your
+EN forged body, spirit and skill at a foe!
+
+@ 6 Yamamoto next
+JP そのルールは、相手から「３カウント」を奪うか、
+JP または、「ギブアップ」させるかで決着がつく。
+EN The rules: you win by taking a 3 count
+EN or by making your opponent give up.
+
+@ 9 Yamamoto next
+# [glossary-ok] スキル = the stats here
+JP レスラーには、「体力／精神力／呼吸」のスキルが設定され、
+JP それらが低下すると、「３カウント」をとられ易くなってしまう。
+EN Wrestlers have Stamina, Spirit, Breath.
+EN When they drop, you're easier to pin.
+
+@ 12 Yamamoto next
+JP また、レスラーの「各部位（首／腕／腰／脚）」には「耐久度」があり、
+JP それらが低下すると、「ギブアップ」し易くなってしまうぞ。
+EN And each part (neck/arm/waist/leg) has
+EN Durability. Low means you'll tap sooner!
+
+@ 15 Yamamoto next
+JP これらのパラメータは、画面上には表示されないからな、
+JP レスラーの微妙な動きの変化で状態を感じ取るんだ。
+EN None of these stats are shown on screen,
+EN so read them from how the wrestler moves.
+
+@ 18 Yamamoto next
+JP 例えば、「ダメージ」が大きいと「ピヨリ（行動不能状態）」が長くなり、
+JP 「呼吸」が乱れると「ファイティングポーズ」が取れなくなる。
+EN Heavy damage keeps you Dazed longer,
+EN and bad Breath stops your fighting pose.
+
+@ 21 Yamamoto next
+JP 画面上のレスラーから発せられる信号をキャッチし、
+JP 的確に行動する事が、プロとしての絶対条件だ。
+EN Catch the signals the wrestlers give off
+EN and act on them. That's a pro's duty!
+
+@ 24 Yamamoto next
+JP まずは多くの経験を積み重ねて、
+JP その感覚を掴みとるんだ、いいなっ！！
+EN Rack up plenty of experience first,
+EN and get a feel for it. Got that?!
+
+@ 27 Yamamoto next
+JP さて、お喋りはここまでにして・・・、
+JP 早速、練習を始めるとしよう。
+EN Well, enough chit-chat...
+EN Let's get your training started.
+
+@ 30 Yamamoto next
+JP いいか、この俺がプロレスの基礎を叩きこんでやるから、
+JP へこたれずに、最後までついてくるんだぞっ！！
+EN Listen, I'll pound the basics into you,
+EN so don't quit. Stick with me to the end!!
+
+@ 33 Yamamoto section
+JP では、学びたい項目を選べ！
+EN Now, pick what you want to learn!
+
+@ 35 Yamamoto next
+JP レスラーは一日にして成らずだ。
+JP 日々精進を怠るんじゃないぞ！！
+EN A wrestler isn't made in a day.
+EN Never slack on your daily training!!
+
+@ 38 Yamamoto section
+JP で、今日は何を学びたいんだ？
+EN So, what do you want to learn today?
+
+@ 40 Yamamoto next
+JP 強くなりたかったらもっと努力しろ！！
+JP 成功とは、努力の上に成り立つものだ。
+EN If you want to get strong, work harder!!
+EN Success is built on hard work.
+
+@ 43 Yamamoto section
+JP で、今日は何を学びたいんだ？
+EN So, what do you want to learn today?
+
+@ 45 Yamamoto next
+JP 行き詰った時は無心になって汗をかけ！！
+JP 迷いを断ち切れば道は開ける。
+EN Stuck? Empty your mind and sweat it out!!
+EN Cut out doubt and the way will open.
+
+@ 48 Yamamoto section
+JP で、今日は何を学びたいんだ？
+EN So, what do you want to learn today?
+
+@ 50 Yamamoto section
+JP 次は何を学びたいんだ？
+EN What do you want to learn next?
+
+@ 52 Yamamoto next
+JP いいか、まずは「基本動作」や「リングの仕組み」を覚えろ。
+EN Listen! First, basic moves and the ring.
+
+@ 54 Yamamoto section
+JP 「ロープ」や「コーナーポスト」を使った動きはプロレスの基本だ。
+JP しっかりと、自分の頭と体に叩き込むんだぞ。
+EN Moving with the ropes and corner posts
+EN is basic. Drill it into body and mind!
+
+@ 57 Yamamoto next
+JP まずは、「ロープワーク」の仕方を教える。
+EN First, I'll teach you Rope Work.
+
+@ 59 Yamamoto next
+JP 相手に向かって走るのが「ホーミングダッシュ：△ボタン」だ。
+EN Running at your foe is a Homing Dash: △.
+
+@ 61 Yamamoto next
+JP 任意方向へ走るのが「ロープダッシュ：方向キー＋△ボタン」だ。
+EN A Rope Dash (Direction + △) runs any way.
+
+@ 63 Yamamoto next
+JP この２種類をうまく使い分ければ、動きにメリハリができる。
+EN Mix the two well and you'll move sharp.
+
+@ 65 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 67 Yamamoto next
+JP 「ロープリバウンド」を「３回成功」させろ！
+EN Succeed at "Rope Rebound" 3 times!
+
+@ 69 Yamamoto section
+JP 「ロープ方向」の「方向キー＋△ボタン」を押せ！
+EN Press Direction + △ toward the ropes!
+
+@ 71 Yamamoto next
+JP よし、次は「ロープストップ」の仕方を教える。
+EN Good. Next, I'll teach you the Rope Stop.
+
+@ 73 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 75 Yamamoto next
+JP 「ロープストップ」を「３回成功」させろ！
+EN Succeed at "Rope Stop" 3 times!
+
+@ 77 Yamamoto section
+JP 「ダッシュ」で「ロープリバウンド」する前に「△ボタン」を押せ！
+JP 「△ボタン」を「連打」すると止まり易いぞ。
+EN Dashing, press △ before the rope rebound!
+EN Mash △ and you'll stop more easily.
+
+@ 80 Yamamoto next
+JP よし、次は「呼吸困難」について教える。
+EN Good. Now I'll teach you Breathlessness.
+
+@ 82 Yamamoto next
+JP ここは黙って、俺の指示通りにやってみろ。
+EN Shut up and do exactly as I say.
+
+@ 84 Yamamoto next
+JP この俺が止めるまで、「ロープワーク」を継続させろ！
+EN Keep up the Rope Work until I say stop!
+
+@ 86 Yamamoto section
+JP 「ロープ方向」の「方向キー＋△ボタン」を押せ！
+EN Press Direction + △ toward the ropes!
+
+@ 88 Yamamoto next
+JP ふふ・・・どうだ苦しいだろう？
+EN Heh... Hurts, doesn't it?
+
+@ 90 Yamamoto next
+JP 今のお前は「呼吸困難」で動けない状態にある。
+EN You're Breathless now and can't move.
+
+@ 92 Yamamoto next
+JP 「呼吸」は、走ったり、技を仕掛けると「消費」するから、
+JP 苦しい時は「Ｌ１ボタン」を押し続けて「呼吸回復」しろ。
+EN Running and using moves uses up Breath,
+EN so when it hurts, hold L1 to recover it.
+
+@ 95 Yamamoto next
+JP 放っておけば、今のような「行動不能状態」になるぞ。
+EN Ignore it and you'll end up helpless!
+
+@ 97 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 99 Yamamoto next
+JP 「呼吸」を「完全回復」させろ！
+EN Recover your Breath completely!
+
+@ 101 Yamamoto section
+JP 「Ｌ１ボタン」を押し続けろ！
+EN Hold L1!
+
+@ 103 Yamamoto next
+JP よし、次は「場外への出方」を教える。
+EN Good. Next, how to leave the ring.
+
+@ 105 Yamamoto next
+JP いいか、リングの仕組みを覚えるという事は、
+JP プロレスを表現する上で重要な基本となる。
+EN Look, learning how the ring works
+EN is a key basic of pro wrestling.
+
+@ 108 Yamamoto next
+JP 基本を知らずして発展はないからな、
+JP キッチリと頭に叩き込んでおけよ！
+EN No growth without knowing the basics,
+EN so drill it into your head!
+
+@ 111 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 113 Yamamoto next
+JP リング内から「場外」へ出てみろ！
+EN Go from inside the ring to the outside!
+
+@ 115 Yamamoto section
+JP エプロン際から「方向キー＋△ボタン」を押し続けろ！
+EN At the apron edge, hold Direction + △!
+
+@ 117 Yamamoto next
+JP よし、次は「リングへの入り方」を教える。
+EN Good. Next, how to enter the ring.
+
+@ 119 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 121 Yamamoto next
+JP 場外から「リング内」へ戻れ！
+EN Get back into the ring from outside!
+
+@ 123 Yamamoto section
+JP リング際から「方向キー＋△ボタン」を押し続けろ！
+EN At the ring edge, hold Direction + △!
+
+@ 125 Yamamoto next
+JP よし、次は「エプロンへの出方」を教える。
+EN Good. Next, how to get onto the apron.
+
+@ 127 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 129 Yamamoto next
+JP リング内から「エプロン」へ出てみろ！
+EN Go from inside the ring onto the apron!
+
+@ 131 Yamamoto section
+JP エプロン際から「方向キー＋△ボタン」を軽く押せ！
+EN At the apron edge, tap Direction + △!
+
+@ 133 Yamamoto next
+JP よし、次は「エプロンから場外への降り方」を教える。
+EN Good. Next: from the apron to the floor.
+
+@ 135 Yamamoto next
+JP 今はやらんでもいいが、「方向キー＋△ボタン」で、
+JP 「エプロン上」から「ポストに登る」ことも可能だぞ。
+EN No need now, but with Direction + △
+EN you can climb a post from the apron too.
+
+@ 138 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 140 Yamamoto section
+JP エプロン上で「方向キー＋△ボタン」を押せ！
+EN On the apron, press Direction + △!
+
+@ 142 Yamamoto next
+JP よし、次は「ダッシュイン」の仕方を教える。
+EN Good. Next, I'll teach you the Dash In.
+
+@ 144 Yamamoto next
+JP いいか、お前がリングに入るところを狙って
+JP 相手が攻撃を仕掛けてくる場合もある。
+EN Listen. Your foe may attack you
+EN just as you're getting into the ring.
+
+@ 147 Yamamoto next
+JP だが、このアクションを使えば、
+JP 素早くリング内に戻ることができる。
+EN But with this action,
+EN you can get back in fast.
+
+@ 150 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 152 Yamamoto section
+JP 「ロープダッシュ（方向キー＋△ボタン）」後に、
+JP 「Ｒ１ボタン」を押し続けろ！
+EN After a Rope Dash (Direction + △),
+EN hold R1!
+
+@ 155 Yamamoto next
+JP よし、次は「ダッシュアウト」の仕方を教える。
+EN Good. Next, I'll teach you the Dash Out.
+
+@ 157 Yamamoto next
+JP ダメージを負った相手が場外へ逃げた場合、
+JP 素早く場外へ出て追撃したい時に重宝するぞ。
+EN When a hurt foe escapes to the outside,
+EN it's handy for chasing him down fast.
+
+@ 160 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 162 Yamamoto section
+JP 「ロープダッシュ（方向キー＋△ボタン）」後に、
+JP 「Ｒ１ボタン」を押し続けろ！
+EN After a Rope Dash (Direction + △),
+EN hold R1!
+
+@ 165 Yamamoto next
+JP よし、次は「ポストの登り方」を教える。
+EN Good. Next, how to climb the post.
+
+@ 167 Yamamoto next
+JP いいか、ポスト上からの飛び技を仕掛ける場合、
+JP ポストに登っていなければ使うことはできないぞ。
+EN Listen. You can't do dives off the post
+EN unless you've climbed it first.
+
+@ 170 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 172 Yamamoto section
+JP ポストに向かって「方向キー＋△ボタン」を押せ！
+EN Face the post and press Direction + △!
+
+@ 174 Yamamoto next
+JP よし、次は「ポストの降り方」を教える。
+EN Good. Next, how to climb down.
+
+@ 176 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 178 Yamamoto section
+JP まずは「方向キー＋△ボタン」でポストに登り、
+JP その後、「方向キー下」を押してポストから降りろ！
+EN Climb the post with Direction + △,
+EN then press Down to climb off!
+
+@ 181 Yamamoto next
+JP よし、次は「ポストの駆け登り方」を教える。
+EN Good. Next, how to run up the post.
+
+@ 183 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 185 Yamamoto section
+JP ポストに向かって
+JP 「方向キー＋△ボタン」を押し続けろ！
+EN Facing the post,
+EN hold Direction + △!
+
+@ 188 Yamamoto next
+JP どうだ、色々な動きが出来るからワクワクするだろう？
+EN Well? All these moves are exciting, huh?
+
+@ 190 Yamamoto next
+JP リングの仕組みを熟知して有効に活用できれば
+JP 引き出しも多くなり、洗練された試合が展開できる。
+EN Know the ring inside out and use it,
+EN you'll gain tricks and wrestle in style.
+
+@ 193 Yamamoto next
+JP ただし、純粋なプロレスラー以外の選手、
+JP 特に「格闘系」の選手はポストに登らないぞ。
+EN But fighters who aren't pure pros,
+EN especially MMA types, don't climb posts.
+
+@ 196 Yamamoto next
+JP まぁ、選手の闘い方には個々に特徴がある
+JP ということをよく覚えておくんだな。
+EN Well, every wrestler has his own style.
+EN Remember that, got it?
+
+@ 199 Yamamoto next
+JP ・・・ってコラッ！！
+JP カッタルそうな面をするんじゃないよ。
+EN ...Hey!!
+EN Don't give me that bored look!
+
+@ 202 Yamamoto next
+JP いいか、練習というのは地味ではあるものの、
+JP そこで得た経験は確実にお前の血肉、骨となる。
+EN Look, training may be dull, but what
+EN you gain becomes your flesh and bone.
+
+@ 205 Yamamoto next
+JP プロであろうがアマチュアであろうが関係なく、
+JP 基礎からミッチリ叩き込むのが「俺流」のやり方だ！！
+EN Pro or amateur, it doesn't matter.
+EN Drilling the basics is MY way!!
+
+@ 208 Yamamoto next
+# [glossary-ok] なし is part of a sentence
+JP 何度も言うが、基礎を知らずして発展はなしだ。
+JP 決して、忘れるんじゃないぞぉ・・・。
+EN I'll say it again: no basics, no growth.
+EN Don't you ever forget it...
+
+@ 211 Yamamoto section
+JP よし、「ベーシックアクション」に関してはこんなところだ。
+EN Good. That's it for Basic Actions.
+
+@ 213 Yamamoto next
+JP 立った状態で行える「スタンディングアクション」はどれも重要だ。
+EN Every Standing Action is important.
+
+@ 215 Yamamoto section
+JP 「立ち技」「ダッシュ技」「キャッチ＆ガード」など・・・、
+JP これらを身に付ければ、実力は格段にアップするぞ。
+EN Standing, dash, catch & guard moves...
+EN Master them and you'll get far stronger.
+
+@ 218 Yamamoto next
+JP まずは、「立ち技」の仕方を教える。
+EN First, I'll teach you standing moves.
+
+@ 220 Yamamoto next
+JP いいか、「立ち技」は便利な攻撃だが・・・、
+EN Listen, standing moves are handy, but...
+
+@ 222 Yamamoto next
+JP 技により、相手に与える「効果」や「間合い」のとり方が
+JP それぞれ異なる場合があるから十分に注意しろ。
+EN their effect on the foe and their range
+EN can differ by move, so be careful.
+
+@ 225 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 227 Yamamoto next
+JP まずは、「立ち技」を「３回成功」させろ！
+EN First, land "Standing" moves 3 times!
+
+@ 229 Yamamoto section
+JP 相手に接近して「□／×／○ボタン」、
+JP 又は「方向キー＋（□／×／○ボタン）」を押せ！
+EN Get close and press □/×/○,
+EN or Direction + (□/×/○)!
+
+@ 232 Yamamoto next
+JP よし、次は「立ち技（魂）」の仕方を教える。
+EN Good. Next, "Standing (Soul)" moves.
+
+@ 234 Yamamoto next
+JP 「魂技」は、通常の技よりも強力なのだが、
+JP 使用する度に「魂」を「１個消費」してしまうぞ。
+EN Soul moves are stronger than normal ones,
+EN but each use spends 1 Soul.
+
+@ 237 Yamamoto next
+JP 使用回数に制限があるから、画面に表示される
+JP 「魂ボタン」の残数をチェックして使いどころを考えろ。
+EN Uses are limited. Check the Soul count
+EN on screen and choose when to use them.
+
+@ 240 Yamamoto next
+JP また、「魂」は「クラッチ技」「ダッシュ技」等でも使えるが、
+JP 「魂技」を装備していない選手の場合は使えないからな。
+EN Soul also works for clutch or dash moves,
+EN but only if he has Soul moves equipped.
+
+@ 243 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 245 Yamamoto next
+JP 「立ち技（魂）」を「３回成功」させろ！
+EN Land "Standing (Soul)" 3 times!
+
+@ 247 Yamamoto section
+JP 相手に接近して「□＋×ボタン」、
+JP 又は「方向キー＋（□＋×ボタン）」を押せ！
+EN Get close and press □ + ×,
+EN or Direction + (□ + ×)!
+
+@ 250 Yamamoto next
+JP よし、次は「ガード」の仕方を教える。
+EN Good. Next, I'll teach you to Guard.
+
+@ 252 Yamamoto next
+JP いいか、攻撃と同じように防御も大切だからな、
+JP タフなレスラーといえども、危険な攻撃は「ガード」しろ。
+EN Defense matters as much as offense.
+EN Tough or not, Guard the dangerous stuff.
+
+@ 255 Yamamoto next
+JP ただし「呼吸が乱れた状態」で攻撃を「ガード」すると、
+JP たまに「ガードクラッシュ（無防備状態）」が発生し、
+JP 相手に攻撃の隙を与えてしまうから注意しろ。
+EN But Guard when your Breath is ragged
+EN and you'll sometimes get a Guard Crush,
+EN leaving you wide open. Watch it!
+
+@ 259 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 261 Yamamoto next
+JP 「ガード」を「３回成功」させろ！
+EN Succeed at "Guard" 3 times!
+
+@ 263 Yamamoto section
+JP 相手が攻撃してくる前に「Ｒ２ボタン」を押し続けろ！
+EN Hold R2 before your foe attacks!
+
+@ 265 Yamamoto next
+JP よし、次は「キャッチ」の仕方を教える。
+EN Good. Next, I'll teach you the Catch.
+
+@ 267 Yamamoto next
+JP 相手の攻撃を「キャッチ」して反撃に転じるんだ。
+EN Catch your foe's attack and counter!
+
+@ 269 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 271 Yamamoto next
+JP 「キャッチ」を「３回成功」させろ！
+EN Succeed at "Catch" 3 times!
+
+@ 273 Yamamoto section
+JP 相手の攻撃が「ヒットする瞬間」に合わせて、
+JP 「Ｒ２ボタン（又は、方向キー＋Ｒ２ボタン）」を押せ！
+EN Right as the attack is about to land,
+EN press R2 (or Direction + R2)!
+
+@ 276 Yamamoto next
+JP よし、次は「ホーミングダッシュ技」の仕方を教える。
+EN Good. Next, Homing Dash moves.
+
+@ 278 Yamamoto next
+JP いいか、ダッシュアクションは「ロープダッシュ」と
+JP 「ホーミングダッシュ」の２種類があり、技も異なる。
+EN Listen. There are two dash actions:
+EN Rope Dash and Homing Dash. Moves differ.
+
+@ 281 Yamamoto next
+JP それぞれの特徴を見極め、有効に使い分けるんだ。
+EN Learn what each does and use them well.
+
+@ 283 Yamamoto next
+JP まずは「ホーミングダッシュ技」の仕方を教える。
+JP これは「オート操作」で相手に向かっていく攻撃だ。
+EN First, Homing Dash moves.
+EN They charge your foe automatically.
+
+@ 286 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 288 Yamamoto next
+JP 「ホーミングダッシュ技」を「３回成功」させろ！
+EN Land "Homing Dash Moves" 3 times!
+
+@ 290 Yamamoto section
+JP 「ホーミングダッシュ（△ボタン）中」に、
+JP 「□／×／○／□＋×ボタン」を押せ！
+EN During a Homing Dash (△),
+EN press □/×/○/□+×!
+
+@ 293 Yamamoto next
+JP よし、次は「ロープダッシュ技」の仕方を教える。
+EN Good. Next, Rope Dash moves.
+
+@ 295 Yamamoto next
+JP これは、「任意操作」で相手に向かっていく攻撃だ。
+EN You steer these at your foe yourself.
+
+@ 297 Yamamoto next
+JP 「ホーミングダッシュ」よりも操作は難しくはなるが、
+JP 自由度が高い分、よりアクティブな攻めが可能になる。
+EN They're harder to control than Homing,
+EN but freer, so you can attack more boldly.
+
+@ 300 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 302 Yamamoto next
+JP 「ロープダッシュ技」を「３回成功」させろ！
+EN Land "Rope Dash Moves" 3 times!
+
+@ 304 Yamamoto section
+JP 「ロープダッシュ（方向キー＋△ボタン）中」に、
+JP 「□／×／○／□＋×ボタン」を押せ！
+EN During a Rope Dash (Direction + △),
+EN press □/×/○/□+×!
+
+@ 307 Hoshino next
+JP ふふん、お前、知りたいのか・・・？
+EN Heh, you wanna know, do ya...?
+
+@ 309 Hoshino next
+JP 「凶器の使い方」を知りたいのだろう？
+EN You wanna learn to use weapons, right?
+
+@ 311 Hoshino next
+JP ふふふ、よしよし・・・。
+EN Heh heh heh, good, good...
+
+@ 313 Hoshino next
+JP 泣く子も黙る「魔界倶楽部の総裁」である
+JP この「星野　勘太郎」が直々に教えてやろう！
+EN The dreaded Boss of the Makai Club,
+EN Kantaro Hoshino, will teach you himself!
+
+@ 316 Hoshino next
+JP いいかぁ、凶器が欲しい時は「場外の鉄柵」を物色しろ！
+JP きっと、良い物が見つかるはずだぞぉ・・・ふふふ。
+EN Want a weapon? Rummage by the barrier!
+EN You'll find something nice... heh heh.
+
+@ 319 Hoshino next
+JP では俺の指示に従って、ビッシビシ！　やれッ！
+EN Do as I say! Bishi-bishi! Go on!
+
+@ 321 Hoshino next
+JP 「凶器を拾う（場外）」を「３回成功」させろ！
+EN Get a weapon outside 3 times!
+
+@ 323 Hoshino section
+JP 「場外の鉄柵」に密着して「方向キー＋Ｒ１ボタン」を押せ！
+EN Hug the barrier and press Direction + R1!
+
+@ 325 Hoshino next
+JP お前も魔界の血が騒いできたんじゃねぇかぁ・・・？
+EN Your Makai blood's boilin' now, eh...?
+
+@ 327 Hoshino next
+JP よしよし、次は「凶器を拾う」の仕方を教えてやる。
+EN Good, good. Next, picking up weapons.
+
+@ 329 Hoshino next
+JP いいかぁ、凶器ってのは非常に頼もしいアイテムだが、
+JP コイツを持っている時には一部の行動が制約される。
+EN Listen, a weapon's a mighty fine item,
+EN but holding one locks out some moves.
+
+@ 332 Hoshino next
+JP 使いどころを間違えると諸刃の剣になるから注意しろ。
+EN Misuse it and it cuts both ways. Careful.
+
+@ 334 Hoshino next
+JP では俺の指示に従って、ビッシビシ！　やれッ！
+EN Do as I say! Bishi-bishi! Go on!
+
+@ 336 Hoshino next
+JP 「凶器を拾う」を「３回成功」させろ！
+EN Pick up a weapon 3 times!
+
+@ 338 Hoshino next
+JP 「凶器を拾う」時は、凶器に近づいて「Ｒ１ボタン」、
+JP 「凶器を捨てる」時は、「Ｒ１ボタン」を押せ！
+EN Pick up: get near a weapon and press R1.
+EN Drop it: press R1!
+
+@ 341 Hoshino section
+JP また、相手が凶器を持っている場合には、
+JP 打撃をヒットさせれば装備を外せるぞ。
+EN And if your foe has a weapon,
+EN land a strike and he'll drop it.
+
+@ 344 Hoshino next
+JP よしよし、次は「凶器攻撃」の仕方を教えてやる。
+EN Good, good. Next, weapon attacks.
+
+@ 346 Hoshino next
+JP いいかぁ、試合で形勢が不利になったら
+JP 迷うことなく凶器を拾いに行くんだぞ！
+EN Listen, when the match turns against you,
+EN go get a weapon, no hesitation!
+
+@ 349 Hoshino next
+JP それでもって情け無用に相手をブチのめし、
+JP 二度と逆らえないように血の海に沈めてやれッ！！
+EN Then beat your foe without mercy,
+EN and drown him in a sea of blood!!
+
+@ 352 Hoshino next
+JP では俺の指示に従って、ビッシビシ！　やれッ！
+EN Do as I say! Bishi-bishi! Go on!
+
+@ 354 Hoshino next
+JP 「凶器攻撃」を「３回成功」させろ！
+EN Land "Weapon Hit" 3 times!
+
+@ 356 Hoshino section
+JP 何らかの凶器類を携帯している時、
+JP 「□ボタン（小）／×ボタン（中）／○ボタン（大）」を押せ！
+EN While holding any weapon, press
+EN □ (light), × (mid) or ○ (heavy)!
+
+@ 359 Hoshino next
+JP ・・・ふふふ、俺の睨んだ通り、
+JP いい悪人面になってきたじゃねぇかぁ？
+EN ...Heh heh, just as I figured,
+EN you're gettin' a nice villain's face, eh?
+
+@ 362 Hoshino next
+JP よしよし、次は「走り凶器攻撃」の仕方を教えてやる。
+EN Good, good. Next, dash weapon attacks.
+
+@ 364 Hoshino next
+JP いいかぁ、凶器攻撃にも緩急が必要だ。
+EN Listen, weapon attacks need pacing too.
+
+@ 366 Hoshino next
+JP 相手が隙を見せようものなら大胆に突進して、
+JP 凶器攻撃でドタマを叩き割ってやれッ！！
+EN If your foe shows an opening, charge in
+EN and crack his skull open with a weapon!!
+
+@ 369 Hoshino next
+JP では俺の指示に従って、ビッシビシ！　やれッ！
+EN Do as I say! Bishi-bishi! Go on!
+
+@ 371 Hoshino next
+JP 「走り凶器攻撃」を「３回成功」させろ！
+EN Land "Dash Weapon Hit" 3 times!
+
+@ 373 Hoshino section
+JP 何らかの「凶器類を携帯」している時、
+JP 「ダッシュ中」に「□／×／○ボタン」を押せ！
+EN While holding a weapon,
+EN press □/×/○ during a dash!
+
+@ 376 Hoshino next
+JP よしよし、次は「凶器攻撃のキャッチ」の仕方を教えてやる。
+EN Good, good. Next, catching weapon hits.
+
+@ 378 Hoshino next
+JP いいかぁ、相手がどんなに強力な凶器を持ち込んできても、
+JP 攻撃を「キャッチ」して奪ってしまえばコチラの武器になる。
+EN However nasty a weapon your foe brings,
+EN catch his attack and it's YOURS to use.
+
+@ 381 Hoshino next
+JP ただし、凶器攻撃には「小・中・大」の３パターンがあり、
+JP 個々のモーションスピードも異なるから注意しろ。
+EN But weapon attacks come light/mid/heavy,
+EN each at a different speed. Watch out.
+
+@ 384 Hoshino next
+JP では俺の指示に従って、ビッシビシ！　やれッ！
+EN Do as I say! Bishi-bishi! Go on!
+
+@ 386 Hoshino next
+JP 「凶器攻撃キャッチ」を「３回成功」させろ！
+EN Succeed at "Weapon Catch" 3 times!
+
+@ 388 Hoshino section
+JP 相手の凶器攻撃が「ヒットする瞬間」に合わせて、
+JP タイミングよく「Ｒ２ボタン」を押せ！
+EN Right as his weapon is about to hit,
+EN press R2 with good timing!
+
+@ 391 Hoshino next
+JP ふふふ、よしよし次は・・・
+EN Heh heh, good, good. Next up...
+
+@ 393 Hoshino next
+JP ぬぅッ！！！
+EN Nngh!!!
+
+@ 395 Hoshino next
+JP 残念だが、俺の魔界講座はこれまでだッ！
+EN Too bad, my Makai lessons end here!
+
+@ 397 Yamamoto next
+JP ・・・・・・・・・・。
+EN ..........
+
+@ 399 Yamamoto next
+JP おい、星野と何を話してたんだ・・・？
+EN Hey, what were you and Hoshino up to...?
+
+@ 401 Yamamoto next
+JP 奴に何を吹き込まれたかは知らんが、
+JP 試合で凶器なんか使うんじゃないぞ・・・。
+EN Whatever he filled your head with,
+EN don't you use weapons in a match...
+
+@ 404 Yamamoto next
+JP 男だったら正々堂々と闘うんだ、いいなッ！！
+EN If you're a man, fight fair. Got it?!
+
+@ 406 Yamamoto next
+JP ・・・まぁ、いい。
+EN ...Well, never mind.
+
+@ 408 Yamamoto next
+JP いいか、「スタンディングアクション」はクラッチ技へのつなぎ
+JP の他にも、奇襲攻撃を行いたい場合にも有効となる。
+EN Standing Actions lead into clutch moves,
+EN and work well for surprise attacks too.
+
+@ 411 Yamamoto next
+JP まぁ、コレに頼りすぎると見切られる恐れもあるが・・・、
+JP 隙あらば積極的に狙っていった方がいいな、うん。
+EN Rely on them too much and he'll read you,
+EN but if you see an opening, go for it!
+
+@ 414 Yamamoto next
+JP それから、お客さんに対する「アピール」も忘れるなよ。
+EN And don't forget to Taunt for the crowd.
+
+@ 416 Yamamoto next
+JP 「右スティック（上／下／左／右）」を倒せば、
+JP 色々な「アピール」が行えるから試してみるといい。
+EN Tilt the right stick (up/down/left/right)
+EN to do all kinds of taunts. Try it.
+
+@ 419 Yamamoto next
+JP 試合展開に応じて使えば、お客さんもきっと喜ぶぞ！
+EN Use them in the flow. The fans love it!
+
+@ 421 Yamamoto section
+JP よし、「スタンディングアクション」に関してはこんなところだ。
+EN Good. That's it for Standing Actions.
+
+@ 423 Yamamoto next
+JP いいか、相手が「ダウン状態」にある時は、
+JP こちらが一方的に攻めることができる。
+EN Listen. While your foe is down,
+EN you can attack him one-sidedly.
+
+@ 426 Yamamoto section
+JP 少ないチャンスを有効に活用する為にも、
+JP この「ダウンアクション」をしっかり覚えるんだ。
+EN To make the most of rare chances,
+EN learn these Down Actions well.
+
+@ 429 Yamamoto next
+JP まずは、「ダウン技」の仕方を教える。
+EN First, I'll teach you down moves.
+
+@ 431 Yamamoto next
+JP いいか、相手が「ダウン状態」になっている時、
+JP 「打撃技／絞め技／関節技／フォール技」等の
+JP 「ダウン技」での攻撃が可能になる。
+EN Listen. When your foe is down,
+EN strikes, chokes, locks and pins
+EN become possible as down moves.
+
+@ 435 Yamamoto next
+JP だが、選手によって使える技が異なるから注意しろ。
+EN But moves differ by wrestler. Careful.
+
+@ 437 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 439 Yamamoto next
+JP 「ダウン技」を「３回成功」させろ！
+EN Land "Down Moves" 3 times!
+
+@ 441 Yamamoto section
+JP 相手（ダウン中）の「頭側／腕側／足側」で、
+JP 「□／×／○／□＋×ボタン」を押せ！
+EN At a downed foe's head, arm or legs,
+EN press □/×/○/□+×!
+
+@ 444 Yamamoto next
+JP よし、次は「フォール／絞め／関節技」の「解除方法」を教える。
+EN Good. Next, letting go of pins and holds.
+
+@ 446 Yamamoto next
+JP いいか、お前が仕掛けた「フォール／絞め／関節技」は、
+JP 自分の意思で任意に「解除」することができるぞ。
+EN Look, a pin, choke or lock you apply,
+EN you can release whenever you choose.
+
+@ 449 Yamamoto next
+JP まぁ・・・、決して特別な技術ではないが、
+JP フィニッシュに拘りたい時に使うといい。
+EN Well... it's no special skill,
+EN but handy to win with your finisher.
+
+@ 452 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 454 Yamamoto section
+JP 「フォール／絞め／関節技」中に「×ボタン」を押せ！
+EN Press × during a pin, choke or lock!
+
+@ 456 Yamamoto next
+JP よし、次は「フォールの返し方」を教える。
+EN Good. Next, kicking out of pins.
+
+@ 458 Yamamoto next
+JP いいか、「フォール体勢」に入るとレフェリーが「カウント」をとり始め、
+JP 「３カウント以内」にフォールを返せないとお前の「負け」になる。
+EN In a pin, the referee starts counting.
+EN Fail to kick out before 3 and you LOSE.
+
+@ 461 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 463 Yamamoto section
+JP 「□／×／○／△ボタン」を連打しろ！
+EN Mash □/×/○/△!
+
+@ 465 Yamamoto next
+JP よし、次は「絞め／関節技の外し方」を教える
+EN Good. Next, escaping chokes and locks.
+
+@ 467 Yamamoto next
+JP いいか、「寝技の体勢」に入るとレフェリーの「チェック」が入り、
+JP 「ギブアップ」する前に技を外せないとお前の「負け」になる。
+EN In a mat hold, the referee checks you.
+EN Escape before you give up, or you LOSE.
+
+@ 470 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 472 Yamamoto next
+JP 相手に「絞め／関節技」を仕掛けられたら、
+JP 「□／×／○／△ボタン」を連打しろ！
+EN When your foe puts on a choke or lock,
+EN mash □/×/○/△!
+
+@ 475 Yamamoto section
+JP 「方向キー（ロープ方向）」を押しながら連打すれば、
+JP 「ロープブレイク」の方向へ逃れられる事も可能だ。
+EN Mash while holding Direction to the ropes
+EN to crawl toward a Rope Break.
+
+@ 478 Yamamoto next
+JP よし、次は「ダウンダッシュ技」の仕方を教える。
+EN Good. Next, down dash moves.
+
+@ 480 Yamamoto next
+JP いいか、相手がダウン状態になっている時、
+JP ダッシュを併用した「ダウンダッシュ攻撃」が可能だ。
+EN Listen. When your foe is down,
+EN you can attack him with a dash too.
+
+@ 483 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 485 Yamamoto next
+JP 「ダウンダッシュ技」を「３回成功」させろ！
+EN Land "Down Dash Moves" 3 times!
+
+@ 487 Yamamoto section
+JP 「ダッシュ（ホーミング／ロープ）中」に、
+JP 「□／×／○／□＋×ボタン」を押せ！
+EN During a dash (homing/rope),
+EN press □/×/○/□+×!
+
+@ 490 Yamamoto next
+JP よし、次は「相手の転がし方」を教える。
+EN Good. Next, turning your foe over.
+
+@ 492 Yamamoto next
+JP このアクションを使えば「ダウン状態」の相手を
+JP 「仰向け／うつ伏せ」に向きを変更できるぞ。
+EN This action lets you flip a downed foe
+EN face-up or face-down.
+
+@ 495 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 497 Yamamoto next
+JP 「相手を転がす」を「３回成功」させろ！
+EN Succeed at "Turn Over" 3 times!
+
+@ 499 Yamamoto section
+JP 相手（ダウン中）の「腕側」で「Ｒ１ボタン＋△ボタン」を押せ！
+EN At a downed foe's arm, press R1 + △!
+
+@ 501 Yamamoto next
+JP よし、次は「相手の引きずり方」を教える。
+EN Good. Next, dragging your foe.
+
+@ 503 Yamamoto next
+JP このアクションを使えば、「ロープへ逃げる相手」を
+JP 「技が決め易い位置まで移動」させることができる。
+EN With this, a foe crawling to the ropes
+EN can be dragged where your moves land.
+
+@ 506 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 508 Yamamoto next
+JP 「相手を引きずる」を「３回成功」させろ！
+EN Succeed at "Dragging" 3 times!
+
+@ 510 Yamamoto section
+JP 相手（ダウン中）の「頭側／足側」で、「△ボタン」を押せ！
+EN At a downed foe's head or feet, press △!
+
+@ 512 Yamamoto next
+JP よし、次は「相手のまたぎ方」を教える。
+EN Good. Next, stepping over your foe.
+
+@ 514 Yamamoto next
+JP このアクションを使えば、「ダウン状態」の相手に
+JP 行く手を塞がれても「またいで移動」できるぞ。
+EN With this, even if a downed foe blocks
+EN your path, you can step over him.
+
+@ 517 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 519 Yamamoto next
+JP 「相手をまたぐ」を「３回成功」させろ！
+EN Succeed at "Step Over" 3 times!
+
+@ 521 Yamamoto section
+JP 相手（ダウン中）の「腕側」で「方向キー」を押し続けろ！
+EN At a downed foe's arm, hold Direction!
+
+@ 523 Yamamoto next
+JP よし、次は「真横への引っ張り方」を教える。
+EN Good. Next, pulling your foe sideways.
+
+@ 525 Yamamoto next
+JP このアクションを使えば、「ダイビングボディプレス」や
+JP 「ムーンサルトプレス」等の「コーナー飛び技」が決め易くなる。
+EN This makes post dives like the Diving
+EN Body Press or Moonsault easier to land.
+
+@ 528 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 530 Yamamoto next
+JP 「相手を真横に引っ張る」を「３回成功」させろ！
+EN Succeed at "Pulling Sideways" 3 times!
+
+@ 532 Yamamoto section
+JP 相手（ダウン中）の「腕側」で「△ボタン」を押せ！
+EN At a downed foe's arm, press △!
+
+@ 534 Yamamoto next
+JP よし、次は「ローリング」の仕方を教える
+EN Good. Next, I'll teach you Rolling.
+
+@ 536 Yamamoto next
+JP このアクションを使えば、自分がダウン中の時、
+JP 真横に「ローリング」しながら移動できるぞ。
+EN With this, when you're down,
+EN you can roll sideways across the mat.
+
+@ 539 Yamamoto next
+JP 応用テクニックとして、
+JP 「エプロン際」で「ローリングアクション」をすれば、
+JP 「ローリングエスケープ（場外脱出）」も可能だ。
+EN As an advanced trick,
+EN roll at the apron edge
+EN for a Rolling Escape (out of the ring).
+
+@ 543 Yamamoto next
+JP ただし、「ローリング」には「時間制限」があるからな、
+JP リングの端から端まで移動できる訳じゃないぞ。
+EN But Rolling has a time limit,
+EN so you can't roll all the way across.
+
+@ 546 Yamamoto next
+JP また、似たようなフェイントアクションとして、
+JP 「□ボタン」を押し続けると「狸寝入り（ダウン維持）」が
+JP できるから実戦で試してみるといいだろう。
+EN Also, as a similar feint,
+EN hold □ to Play Possum (stay down).
+EN Try it out in a real match.
+
+@ 550 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 552 Yamamoto next
+JP 「ローリングエスケープ」を「３回成功」させろ！
+EN Do "Rolling Escape" 3 times!
+
+@ 554 Yamamoto section
+JP 自分が「仰向け／うつ伏せダウン中」に
+JP 「□ボタン＋方向キー（ロープ方向）」を押し続けろ！
+EN While down, face-up or face-down,
+EN hold □ + Direction toward the ropes!
+
+@ 557 Yamamoto next
+JP よし、次は「起き上がりフェイント」の仕方を教える。
+EN Good. Next, the Getting-Up Feint.
+
+@ 559 Yamamoto next
+JP 自分がダウン状態の時、「起き上がる瞬間（無防備）」を狙って、
+JP 相手が攻撃を仕掛けてきた時に使える「回避アクション」だ。
+EN When you're down and your foe goes for
+EN your helpless rise, use this to dodge.
+
+@ 562 Yamamoto next
+JP いいか、このフェイントを実行中は「無敵状態」になるが、
+JP フェイントを維持できる時間は限られているから注意しろ。
+EN You're invincible while feinting,
+EN but only for a short time. Careful.
+
+@ 565 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 567 Yamamoto next
+JP 「起き上がりフェイント」を「３回成功」させろ！
+EN Do the "Getting-Up Feint" 3 times!
+
+@ 569 Yamamoto section
+JP 自分が「仰向け／うつ伏せダウン中」に
+JP 「×ボタン」を押し続けろ！
+EN While down, face-up or face-down,
+EN hold ×!
+
+@ 572 Yamamoto next
+JP よし、次は「ギブアップ」の仕方を教える。
+EN Good. Next, how to give up.
+
+@ 574 Yamamoto next
+JP う～む、自ら敗北を認める事は好ましくはないが・・・、
+JP 試合の続行が危ういと感じた時は「ギブアップ」しろ。
+EN Hmm... I don't like admitting defeat, but
+EN if you can't go on, give up.
+
+@ 577 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 579 Yamamoto next
+JP 「自らギブアップ」を「１回成功」させろ！
+EN Succeed at "Giving Up" once!
+
+@ 581 Yamamoto section
+JP 「絞め技／関節技」を極められている時、
+JP 「Ｌ１＋Ｌ２＋Ｒ１＋Ｒ２ボタン」を「２秒間以上」押し続けろ！
+EN While caught in a choke or lock,
+EN hold L1+L2+R1+R2 for 2 seconds or more!
+
+@ 584 Yamamoto next
+JP いいか、ここで教えた「ダウンアクションＡ」には、
+JP 攻撃の他にも「様々な用途」を持つアクションがある。
+EN Listen. The Down Actions A I taught you
+EN include moves with uses beyond attacking.
+
+@ 587 Yamamoto next
+JP 特に「引きずる」「転がす」等のアクションは、
+JP ダウン状態の相手の「位置調整」に役立つぞ。
+EN Dragging and turning over, especially,
+EN help you position a downed foe.
+
+@ 590 Yamamoto next
+JP 「ダイビングボディプレス」や「ムーンサルトプレス」等の
+JP 「一部のポスト飛び技」は、「位置調整が必要」だからな。
+EN Post dives like the Diving Body Press
+EN or Moonsault need the foe positioned.
+
+@ 593 Yamamoto next
+JP その他にも、独自に創意工夫すれば、
+JP 様々な場面で役立つから覚えておくといい。
+EN Get creative on your own, and
+EN they'll help in all kinds of spots.
+
+@ 596 Yamamoto section
+JP よし、「ダウンアクションＡ」に関してはこんなところだ。
+EN Good. That's it for Down Actions A.
+
+@ 598 Yamamoto next
+JP いいか、「相手のダウン状態」を有効に活用する為の
+JP もう一つの攻撃方法が「引き起こし」からの攻撃だ。
+EN Another way to exploit a downed foe
+EN is attacking after a Pick-up.
+
+@ 601 Yamamoto next
+JP 「引き起こし」から、「クラッチ技」や「立ち技」の
+JP 攻撃に繋げたい時には重宝するアクションだ。
+EN A Pick-up is handy when you want to
+EN flow into clutch or standing moves.
+
+@ 604 Yamamoto section
+# [glossary-ok] あり is part of a sentence
+JP また、「引き起こし」には様々な種類があり、
+JP これらを覚えれば、試合展開の幅も広がるぞ。
+EN There are all kinds of Pick-ups;
+EN learn them and your matches open up.
+
+@ 607 Yamamoto next
+JP まずは、「引き起こし（通常）」の仕方を教える。
+EN First, I'll teach you a normal Pick-up.
+
+@ 609 Yamamoto next
+JP いいか、「ダウン状態」の相手を「引き起こす」と、
+JP 「ピヨリ（行動不能状態）」に陥る場合がある。
+EN Listen. Pick up a downed foe and
+EN he may end up Dazed (helpless).
+
+@ 612 Yamamoto next
+JP ダメージ量が大きい程、「ピヨリ（行動不能状態）」は長くなり、
+JP 大技を仕掛ける時間にも余裕が生まれ決め易くなるんだ。
+EN The more damage, the longer he's Dazed,
+EN giving you time to land a big move.
+
+@ 615 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 617 Yamamoto next
+JP 「引き起こし（通常）」を「３回成功」させろ！
+EN Do "Pick-up (Normal)" 3 times!
+
+@ 619 Yamamoto section
+JP 相手（ダウン中）の「頭側／足側」で、
+JP 「Ｒ１ボタン＋△ボタン」を押し続けろ！
+EN At a downed foe's head or feet,
+EN hold R1 + △!
+
+@ 622 Yamamoto next
+JP よし、今度は「引き起こし（半ダウン）」の仕方を教える。
+EN Good. Now, a Pick-up to sitting.
+
+@ 624 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 626 Yamamoto next
+JP 「引き起こし（半ダウン）」を「３回成功」させろ！
+EN Do "Pick-up (Sitting)" 3 times!
+
+@ 628 Yamamoto section
+JP 「仰向けダウン」している相手の「頭側」で、
+JP 「Ｒ１ボタン＋△ボタン」を押せ！
+EN At the head of a foe down face-up,
+EN press R1 + △!
+
+@ 631 Yamamoto next
+JP よし、次は「半ダウン技」の仕方を教える。
+EN Good. Next, Sitting moves.
+
+@ 633 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 635 Yamamoto next
+JP 「半ダウン技」を「３回成功」させろ！
+EN Land 3 "Sitting Moves"!
+
+@ 637 Yamamoto section
+JP 「半ダウン状態」の相手の「背中側」で、
+JP 「□／×／○／□＋×ボタン」を押せ！
+EN From behind a sitting foe,
+EN press □/×/○/□+×!
+
+@ 640 Yamamoto next
+JP よし、今度は「引き起こし（片膝ダウン）」の仕方を教える。
+EN Good. Now, a Pick-up to one knee.
+
+@ 642 Yamamoto next
+JP いいか、この「引き起こし（片膝ダウン）」特有の技である
+JP 「シャイニング・ウイザード」系の技を使う選手は覚えておけ。
+EN Listen. Shining Wizard-type moves need
+EN a Pick-up to one knee. Learn it well!
+
+@ 645 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 647 Yamamoto next
+JP 「引き起こし（片膝ダウン）」を「３回成功」させろ！
+EN Do "Pick-up (Kneeling)" 3 times!
+
+@ 649 Yamamoto section
+JP 「仰向けダウン状態」の相手の「足側」で、
+JP 「Ｒ１ボタン＋△ボタン」を押せ！
+EN At the feet of a foe down face-up,
+EN press R1 + △!
+
+@ 652 Yamamoto next
+JP よし、次は「片膝ダウン技」の仕方を教える。
+EN Good. Next, Kneeling moves.
+
+@ 654 Yamamoto next
+JP 「シャイニング・ウイザード」系の技の使い手は覚えておけ。
+EN Shining Wizard users, learn this one.
+
+@ 656 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 658 Yamamoto next
+JP 「片膝ダウン技」を「３回成功」させろ！
+EN Land 3 "Kneeling Moves"!
+
+@ 660 Yamamoto next
+JP 「片膝ダウン状態」の相手の「正面側」で、
+JP 「□／×／○／□＋×ボタン」を押せ！
+EN In front of a kneeling foe,
+EN press □/×/○/□+×!
+
+@ 663 Yamamoto section
+JP また、この時に「ダッシュ攻撃」を行うと、
+JP 「片膝ダッシュ技」ができる選手もいるぞ。
+EN Some wrestlers can also do a Kneeling
+EN Dash move if they dash in now.
+
+@ 666 Yamamoto next
+JP よし、今度は「引き起こし（四つんばい）」の仕方を教える。
+EN Good. Now, a Pick-up to all fours.
+
+@ 668 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 670 Yamamoto next
+JP 「引き起こし（四つんばい）」を「３回成功」させろ！
+EN Do "Pick-up (All Fours)" 3 times!
+
+@ 672 Yamamoto section
+JP 「うつ伏せダウン状態」の相手の「頭側／足側」で、
+JP 「Ｒ１ボタン＋△ボタン」を押せ！
+EN At the head or feet of a foe face-down,
+EN press R1 + △!
+
+@ 675 Yamamoto next
+JP よし、次は「四つんばいダウン技」の仕方を教える。
+EN Good. Next, All-Fours moves.
+
+@ 677 Yamamoto next
+JP 通常のダウン攻撃と同じ様なモノだから簡単だ。
+EN Just like normal down attacks. Easy.
+
+@ 679 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 681 Yamamoto next
+JP 「四つんばいダウン技」を「３回成功」させろ！
+EN Land 3 "All-Fours Moves"!
+
+@ 683 Yamamoto section
+JP 「四つんばいダウン状態」の相手の「頭側／腕側／足側」で、
+JP 「□／×／○／□＋×ボタン」を押せ！
+EN Foe on all fours: at his head/arm/feet,
+EN press □/×/○/□+×!
+
+@ 686 Yamamoto next
+JP 「片膝や半ダウン」等の「特殊な引き起こし」は、
+JP 特定の選手以外はあまり必要ないかもなぁ・・・。
+EN Special Pick-ups like kneeling or sitting
+EN only matter for certain wrestlers...
+
+@ 689 Yamamoto next
+JP だが一見ムダと思えるようなアクションも、
+JP 「試合を魅せる」上で役に立つ場合もあるぞ。
+EN But even moves that look pointless
+EN can help you put on a great show.
+
+@ 692 Yamamoto section
+JP よし、「ダウンアクションＢ」に関してはこんなところだ。
+EN Good. That's it for Down Actions B.
+
+@ 694 Yamamoto next
+JP 「トップロープ飛びアクション」は、ポスト上から行う攻撃だ。
+EN Top Rope Dives are attacks from the post.
+
+@ 696 Yamamoto next
+JP いいか、「トップロープ飛びアクション」は、
+JP 「相手の状態」に応じて「技を使い分ける」必要がある。
+EN Listen. With Top Rope Dives you must
+EN pick the move to suit your foe's state.
+
+@ 699 Yamamoto next
+JP 例えば・・・、
+EN For example...
+
+@ 701 Yamamoto next
+JP 「ダイビングボディプレス」や「エルボードロップ」等の「プレス技」は、
+JP 「ダウン飛び技」と言い、「ダウン状態」の相手に有効だ。
+EN Diving Body Press, Elbow Drop and such
+EN are Down Dives: good on a downed foe.
+
+@ 704 Yamamoto next
+JP 「スレッジハンマー」や「ミサイルキック」等の「打撃技」は、
+JP 「立ち飛び技」と言い、「立ち状態（ピヨリ）」の相手に有効だ。
+EN Strikes like Sledgehammer or Missile Kick
+EN are Standing Dives: good on a Dazed foe.
+
+@ 707 Yamamoto next
+JP という具合に、「相手の状態（立ち／ダウン）」を
+JP 考慮した技の選択が必要になるんだ。
+EN That's how you must pick moves by
+EN your foe's state (standing or down).
+
+@ 710 Yamamoto section
+JP 飛び技を得意とする選手にとっては必須項目だから、
+JP あとで困らない様に、この辺はしっかり覚えておけよ。
+EN It's a must for high flyers,
+EN so learn it now or you'll regret it.
+
+@ 713 Yamamoto next
+JP まずは、「ダウン状態」の相手に対する
+JP 「ダウン飛び技（正面登り）」の仕方を教える。
+EN First, against a downed foe:
+EN Down Dives, climbing from the front.
+
+@ 716 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 718 Yamamoto next
+JP 「ダウン飛び技（正面登り）」を「３回成功」させろ！
+EN Land 3 "Down Dives (Front)"!
+
+@ 720 Yamamoto section
+JP 「コーナーポスト」に登り、「○／□＋×ボタン」を押せ！
+EN Climb the corner post and press ○/□+×!
+
+@ 722 Yamamoto next
+JP よし、次は「ピヨリ（行動不能状態）」の相手に対する
+JP 「立ち飛び技」の仕方を教える。
+EN Good. Next, against a Dazed foe:
+EN Standing Dives.
+
+@ 725 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 727 Yamamoto next
+JP 「立ち飛び技」を「３回成功」させろ！
+EN Land 3 "Standing Dives"!
+
+@ 729 Yamamoto section
+JP 「コーナーポスト」に登り、「□／×ボタン」を押せ！
+EN Climb the corner post and press □/×!
+
+@ 731 Yamamoto next
+JP よし、次は「ダウン飛び技（背面登り）」の仕方を教える。
+EN Good. Next, Down Dives (Back).
+
+@ 733 Yamamoto next
+JP 「ダウン飛び技（背面登り）」を成功させる為には、
+JP 「相手の向き（ダウン状態）」をポストに向かって
+JP 「仰向け／水平」にしておかねばならん。
+EN To land a Down Dive (Back),
+EN your downed foe must lie face-up
+EN and straight out from the post.
+
+@ 737 Yamamoto next
+JP ちょっと難しいが、しっかり覚えておけ。
+EN It's a bit tricky, but learn it well.
+
+@ 739 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 741 Yamamoto next
+JP 「ダウン飛び技（背面登り）」を「３回成功」させろ！
+EN Do "Down Dives (Back)" 3 times!
+
+@ 743 Yamamoto next
+JP 「ポスト方向」の「方向キー」を「押し続け」、
+JP 「□／×／○／□＋×ボタン」を押せ！
+EN Hold Direction toward the post,
+EN and press □/×/○/□+×!
+
+@ 746 Yamamoto next
+JP 相手の「向きを調整」したい場合は、
+JP 「引きずる」「真横に引っ張る」等のアクションを活用しろ。
+EN To adjust which way your foe lies,
+EN drag him or pull him sideways.
+
+@ 749 Yamamoto section
+JP 「ある程度の誤差」が有っても「技は決まる」が、
+JP なるべく「水平」にする事を意識していれば、
+JP 必然的にミスも少なくなるはずだぞ。
+EN Moves land even if he's a bit off,
+EN but if you aim to keep him straight,
+EN you'll make fewer mistakes.
+
+@ 753 Yamamoto next
+JP いいか、コーナーポストから飛び技を狙う時には、
+JP 「距離と状態」を見極めることを忘れるんじゃないぞ。
+EN When diving off the corner post,
+EN never forget to judge distance and state.
+
+@ 756 Yamamoto section
+JP よし、「トップロープ飛びアクション」に関してはこんなところだ。
+EN Good. That's it for Top Rope Dives.
+
+@ 758 Yamamoto next
+JP 「クラッチアクション」は、プロレスにおける基本であり、
+JP 試合を組み立てる上で最も重要なアクションになる。
+EN Clutch Actions are pro wrestling basics
+EN and the key to building a match.
+
+@ 761 Yamamoto next
+JP 各クラッチ成功後、選手が「腰を落とす瞬間」に
+JP 「タイミング良くボタン操作」を実行することで
+JP 様々な「組み技」が仕掛けられるぞ。
+EN After a clutch, press buttons right
+EN as the wrestler sinks his hips
+EN to pull off all kinds of grapples.
+
+@ 765 Yamamoto next
+JP ただし、「クラッチアクション」の種類は多種多彩で、
+JP その全てをマスターするのは容易ではない。
+EN But there are many Clutch Actions,
+EN and mastering them all isn't easy.
+
+@ 768 Yamamoto next
+JP 従って、これから俺が教える「基本的なクラッチ」、
+JP 「タイアップクラッチ」と「ジャーマンクラッチ」をマスターしろ。
+EN So master the basic clutches I'll teach:
+EN the Tie-Up Clutch and German Clutch.
+
+@ 771 Yamamoto section
+JP それ以外の「クラッチアクション」については、
+JP 自分のペースでジックリと覚えていけばいい。
+EN As for the other Clutch Actions,
+EN learn them at your own pace.
+
+@ 774 Yamamoto next
+JP よし、まずは「全選手共通」の「相手正面」から仕掛ける
+JP 「タイアップクラッチ」の仕方から教えるぞ。
+EN Good. First, a clutch all wrestlers have,
+EN from the front: the Tie-Up Clutch.
+
+@ 777 Yamamoto next
+JP 「タイアップクラッチ」は他の「正面クラッチ」と異なり、
+JP 「通常のクラッチ技」の他に「ハンマースルー」や
+JP 「フロントヘッドロック」等の「特殊アクション」も行える。
+EN Unlike other front clutches, the Tie-Up
+EN allows clutch moves plus an Irish Whip,
+EN Front Headlock and other special actions.
+
+@ 781 Yamamoto next
+JP つまり、「正面クラッチの基本」と呼べるクラッチであり、
+JP 「試合を組み立てる」上で最も「多目的に使用」される
+JP 「重要なクラッチ」でもあることも頭に入れておけ。
+EN It's the basic front clutch, the one
+EN used most, and for the most purposes,
+EN in building a match. Remember that.
+
+@ 785 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 787 Yamamoto next
+JP 「タイアップクラッチ」を「３回成功」させろ！
+EN Do "Tie-Up Clutch" 3 times!
+
+@ 789 Yamamoto section
+JP 「相手正面」から接近し、「Ｒ１ボタン＋△ボタン」を押せ！
+EN From his front, get close, press R1 + △!
+
+@ 791 Yamamoto next
+JP よし、次は「タイアップクラッチ技」の仕方を教える。
+EN Good. Next, Tie-Up Clutch moves.
+
+@ 793 Yamamoto next
+JP いいか、各種「正面クラッチアクション」に移行した後、
+JP 選手が「腰を落とす瞬間」に「画面がフラッシュ」する。
+EN After any front clutch, the screen
+EN flashes as the wrestler sinks his hips.
+
+@ 796 Yamamoto next
+JP そのタイミングを見極めて各種ボタンを
+JP 入力すれば技が決まるぞ。
+EN Read that timing and press a button
+EN to land your move.
+
+@ 799 Yamamoto next
+JP だが、「タイミング勝負」に負けてしまった場合は、
+JP 逆に「クラッチ返し技」で相手の反撃を受ける。
+EN But if you lose the timing battle,
+EN he'll hit back with a clutch reversal.
+
+@ 802 Yamamoto next
+JP それから、序盤では「中技・大技」が決まり難い上に、
+JP 自動で相手の技を切り返す「オート返し技」が発生し、
+JP 思わぬ反撃を食らってしまう場合があるからな。
+EN Early on, mid and big moves rarely land,
+EN and auto reversals can kick in,
+EN hitting you with a surprise counter.
+
+@ 806 Yamamoto next
+JP ゆえに、「小技→中技→大技」という流れをイメージして、
+JP 「技の組み立て」をよく考えて構築する事が大切なんだ。
+EN So picture a flow: small, mid, big,
+EN and think hard about building your moves.
+
+@ 809 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 811 Yamamoto next
+JP 「タイアップクラッチ技」を「３回成功」させろ！
+EN Land 3 "Tie-Up Clutch Moves"!
+
+@ 813 Yamamoto section
+JP 「相手正面」から「タイアップクラッチ（Ｒ１ボタン＋△ボタン）」後、
+JP 「□／×／△／○／□＋×／△＋○ボタン」を押せ！
+EN From the front, Tie-Up Clutch (R1 + △),
+EN then press □/×/△/○/□+×/△+○!
+
+@ 816 Yamamoto next
+JP よし、次は「フロントヘッドロック」の仕方を教える。
+EN Good. Next, the Front Headlock.
+
+@ 818 Yamamoto next
+JP これは、相手を一時的に「拘束」して、
+JP 好きな位置まで「連行」できる「拘束アクション」だ。
+EN This briefly restrains your foe
+EN so you can haul him where you want.
+
+@ 821 Yamamoto next
+JP リング中央での決着や、コーナー技を決めたい時など、
+JP 「立ち位置を調節」したい時に役立つだろう。
+EN Use it to finish mid-ring, set up corner
+EN moves, or whenever you need to move him.
+
+@ 824 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 826 Yamamoto next
+JP 「フロントヘッドロック」を「３回成功」させろ！
+EN Do "Front Headlock" 3 times!
+
+@ 828 Yamamoto section
+JP 「タイアップクラッチ（ＴＣ）」成功後、
+JP タイミングよく「Ｒ２ボタン」を押せ！
+EN After a Tie-Up Clutch (TC),
+EN press R2 with good timing!
+
+@ 831 Yamamoto next
+JP よし、次は「相手の回転させ方」を教える。
+EN Good. Next, spinning your foe around.
+
+@ 833 Yamamoto next
+JP これは、「ピヨリ（行動不能状態）」の相手を「正面／背面」へと、
+JP 「向きを変更」させる事ができる便利なアクションだ。
+EN This turns a Dazed foe to face you,
+EN or away from you. Very handy.
+
+@ 836 Yamamoto next
+JP このアクションを使えば・・・、
+JP 容易に相手の「バック（背面）」をとることができ、
+JP 余裕をもって「確実な攻撃」が仕掛けられるぞ。
+EN With this action...
+EN you can easily get behind your foe
+EN and attack safely and surely.
+
+@ 840 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 842 Yamamoto next
+JP 「相手を回転させる」を「３回成功」させろ！
+EN Succeed at "Spin Opponent" 3 times!
+
+@ 844 Yamamoto section
+JP 「ピヨリ（行動不能状態）」の相手に近づき「Ｒ３ボタン」を押せ！
+EN Get close to a Dazed foe and press R3!
+
+@ 846 Yamamoto next
+JP よし、次は「全選手共通」の「相手背面」から仕掛ける
+JP 「ジャーマンクラッチ」の仕方を教えるぞ。
+EN Good. Next, a clutch all wrestlers have,
+EN from behind: the German Clutch.
+
+@ 849 Yamamoto next
+JP いいか、各種「背面クラッチアクション」に移行した後、
+JP 選手が「腰を落とす瞬間」に画面が「フラッシュ」する。
+EN After any rear clutch, the screen
+EN flashes as the wrestler sinks his hips.
+
+@ 852 Yamamoto next
+JP そのタイミングを見極めて各種ボタンを
+JP 入力すれば技が決まるぞ。
+EN Read that timing and press a button
+EN to land your move.
+
+@ 855 Yamamoto next
+JP だが、「タイミング勝負」に負けてしまった場合は、
+JP 逆に「クラッチ返し技」で相手の反撃を受ける。
+EN But if you lose the timing battle,
+EN he'll hit back with a clutch reversal.
+
+@ 858 Yamamoto next
+JP それから、序盤では「中技・大技」が決まり難い上に、
+JP 自動で相手の技を切り返す「オート返し技」が発生し、
+JP 思わぬ反撃を食らってしまう場合があるからな。
+EN Early on, mid and big moves rarely land,
+EN and auto reversals can kick in,
+EN hitting you with a surprise counter.
+
+@ 862 Yamamoto next
+JP ゆえに、「小技→中技→大技」という流れをイメージして、
+JP 技の組み立てをよく考えて構築する事が大切なんだ。
+EN So picture a flow: small, mid, big,
+EN and think hard about building your moves.
+
+@ 865 Yamamoto next
+JP 「タイアップクラッチ」が「正面クラッチの基本」ならば、
+JP 「ジャーマンクラッチ」は「背面クラッチの基本」と言える。
+EN If the Tie-Up is the basic front clutch,
+EN the German Clutch is the basic rear one.
+
+@ 868 Yamamoto next
+JP 後で泣きをみる前に必ずマスターしておくんだぞ！
+EN Master it now before you end up in tears!
+
+@ 870 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 872 Yamamoto next
+JP 「ジャーマンクラッチ技」を「３回成功」させろ！
+EN Do "German Clutch Moves" 3 times!
+
+@ 874 Yamamoto section
+JP 「相手背面」から「ジャーマンクラッチ（Ｒ１ボタン＋△ボタン）」後に
+JP 「□／×／△／○／□＋×／△＋○ボタン」を押せ！
+EN From behind, German Clutch (R1 + △),
+EN then press □/×/△/○/□+×/△+○!
+
+@ 877 Yamamoto next
+JP よし、次は「羽交い締め」の仕方を教える。
+EN Good. Next, the Full Nelson.
+
+@ 879 Yamamoto next
+JP これは、相手を一時的に「拘束」できるアクションで、
+JP タッグマッチにおいての「分断作戦」や「連係攻撃」を
+JP 行いたい時に役立つだろう。
+EN This briefly restrains your foe, useful
+EN in tag matches to split the other team
+EN or set up combo attacks.
+
+@ 883 Yamamoto next
+JP ただし、相手がまだ元気な時は「拘束時間」が短くなるぞ。
+EN But it won't hold as long on a fresh foe.
+
+@ 885 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 887 Yamamoto next
+JP 「羽交い締め」を「３回成功」させろ！
+EN Do "Full Nelson" 3 times!
+
+@ 889 Yamamoto section
+JP 「ジャーマンクラッチ」成功後、タイミングよく「Ｒ２ボタン」を押せ！
+EN After a German Clutch, press R2 in time!
+
+@ 891 Yamamoto next
+JP よし、次は「掴み技（リング内から）」の仕方を教える。
+EN Good. Next, Ring Grapples.
+
+@ 893 Yamamoto next
+JP これは、「リング内」から「エプロン上」にいる
+JP 相手に仕掛ける「特殊クラッチアクション」だ。
+EN This is a special clutch you put on
+EN a foe on the apron from inside the ring.
+
+@ 896 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 898 Yamamoto next
+JP 「掴み技（リング内から）」を「３回成功」させろ！
+EN Succeed at "Ring Grapples" 3 times!
+
+@ 900 Yamamoto next
+JP 「エプロン上」の相手に「Ｒ１＋△ボタン」成功後、
+JP 「□／×／△／○／□＋×ボタン」を押せ！
+EN Grab a foe on the apron with R1 + △,
+EN then press □/×/△/○/□+×!
+
+@ 903 Yamamoto section
+JP ちなみに掴み方は・・・、
+JP 「Ｒ１＋（□／×／○／□＋×／△＋○ボタン）」でも可能だ。
+EN By the way, you can also grab...
+EN with R1 + (□/×/○/□+×/△+○).
+
+@ 906 Yamamoto next
+JP よし、今度は「掴み技（エプロン上から）」の仕方を教える。
+EN Good. Now, Apron Grapples.
+
+@ 908 Yamamoto next
+JP これは、「エプロン上」から「リング内」にいる
+JP 相手を仕掛ける「特殊クラッチアクション」だ。
+EN This is a special clutch you put on
+EN a foe in the ring from the apron.
+
+@ 911 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 913 Yamamoto next
+JP 「掴み技（エプロン上から）」を「３回成功」させろ！
+EN Succeed at "Apron Grapples" 3 times!
+
+@ 915 Yamamoto section
+JP 「リング内」の相手に「Ｒ１＋△ボタン」成功後、
+JP 「□／×／△／○／□＋×ボタン」を押せ！
+EN Grab a foe in the ring with R1 + △,
+EN then press □/×/△/○/□+×!
+
+@ 918 Yamamoto next
+JP いいか、どんな「クラッチ」に対しても的確に対応できねば、
+JP 強豪たちを相手に互角以上に渡り合うことなど不可能だ。
+EN Listen. Unless you can handle any clutch,
+EN you'll never match the big boys.
+
+@ 921 Yamamoto next
+JP 全ての「クラッチアクション」をマスターしてやるっ！！
+JP というぐらいの欲を出して頑張らんとな・・・うん。
+EN "I'll master every Clutch Action!!"
+EN That's the hunger you need... yeah.
+
+@ 924 Yamamoto section
+JP よし、「クラッチアクション」に関してはこんなところだ。
+EN Good. That's it for Clutch Actions.
+
+@ 926 Yamamoto next
+JP ここで教える「ハンマースルーアクション」は、
+JP 「クラッチアクション」と同じくプロレス特有の基本動作だ。
+EN The Irish Whip Actions I'll teach here
+EN are pro wrestling basics, like clutches.
+
+@ 929 Yamamoto next
+JP いいか、「カウンター技」や「雪崩式技」等のシチュエーションは、
+JP この「ハンマースルーアクション」を起点に発生するからな。
+EN Listen. Counters, avalanche moves and
+EN such all start from an Irish Whip.
+
+@ 932 Yamamoto section
+JP 「ハンマースルーアクション」の活用方法を覚えて試合に役立てろ。
+EN Learn to use Irish Whips in your matches.
+
+@ 934 Yamamoto next
+JP まずは、通常の「ハンマースルー」の仕方を教える。
+EN First, a normal Irish Whip.
+
+@ 936 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 938 Yamamoto next
+JP 「ハンマースルー」を「３回成功」させろ！
+EN Do "Irish Whip" 3 times!
+
+@ 940 Yamamoto section
+JP 「タイアップクラッチ」成功後、
+JP 「方向キー（ロープ方向）」を押しながら
+JP タイミングよく「Ｒ１ボタン」を軽く押せ！
+EN After a Tie-Up Clutch,
+EN hold Direction toward the ropes
+EN and tap R1 with good timing!
+
+@ 944 Yamamoto next
+JP よし、次は「カウンター技」の仕方を教える。
+EN Good. Next, counter moves.
+
+@ 946 Yamamoto next
+JP まず、「ハンマースルー」で相手をロープに振り、
+JP 戻ってきたところで、タイミングよく「カウンター技」を決めろ。
+EN First, Irish Whip your foe to the ropes,
+EN then hit a counter as he comes back.
+
+@ 949 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 951 Yamamoto next
+JP 「カウンター技」を「３回成功」させろ！
+EN Do "Counter Moves" 3 times!
+
+@ 953 Yamamoto section
+JP 「ハンマースルー」成功後、タイミングよく
+JP 「Ｒ１ボタン＋（□／×／○／□＋×ボタン）」を押せ！
+EN After an Irish Whip, with good timing,
+EN press R1 + (□/×/○/□+×)!
+
+@ 956 Yamamoto next
+JP よし、次は「対角線ハンマースルー」の仕方を教える。
+EN Good. Next, the Diagonal Irish Whip.
+
+@ 958 Yamamoto next
+JP いいか、相手を「コーナーポスト」にぶつけると、
+JP 一定時間「行動不能状態（体力による）」にできる。
+EN Listen. Slam your foe into a corner post
+EN and he's stuck a while (by his Stamina).
+
+@ 961 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 963 Yamamoto next
+JP 「対角線ハンマースルー」を「３回成功」させろ！
+EN Do "Diagonal Irish Whip" 3 times!
+
+@ 965 Yamamoto section
+JP 「タイアップクラッチ」成功後、「コーナーポスト方向」の
+JP 「方向キー＋Ｒ１ボタン」を軽く押せ！
+EN After a Tie-Up Clutch, tap Direction
+EN (toward a corner) + R1!
+
+@ 968 Yamamoto next
+JP よし、次は「対角線ダッシュ技」の仕方を教える。
+EN Good. Next, Diagonal Dash moves.
+
+@ 970 Yamamoto next
+JP まず、「対角線ハンマースルー」で相手を「コーナーダウン」させ、
+JP その隙を突いて「対角線ダッシュ攻撃」を仕掛けるんだ。
+EN First, Irish Whip him into the corner,
+EN then hit him with a Diagonal Dash attack.
+
+@ 973 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 975 Yamamoto next
+JP 「対角線ダッシュ技」を「３回成功」させろ！
+EN Do "Diagonal Dash" 3 times!
+
+@ 977 Yamamoto section
+JP 「対角線ハンマースルー」で相手を「コーナーダウン」させ、
+JP 「□／×／○／□＋×ボタン」を押せ！
+EN Irish Whip your foe into the corner,
+EN then press □/×/○/□+×!
+
+@ 980 Yamamoto next
+JP よし、次は「コーナーダウン技」の仕方を教える。
+EN Good. Next, Corner Down moves.
+
+@ 982 Yamamoto next
+JP まず、「対角線ハンマースルー」で相手を「コーナーダウン」させ、
+JP その隙を突いて「コーナーダウン技」を仕掛けるんだ。
+EN First, Irish Whip him into the corner,
+EN then hit him with a Corner Down move.
+
+@ 985 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 987 Yamamoto next
+JP 「コーナーダウン技」を「３回成功」させろ！
+EN Do "Corner Down Moves" 3 times!
+
+@ 989 Yamamoto section
+JP 「対角線ハンマースルー」で相手を「コーナーダウン」させ、
+JP 「コーナーダウン状態」の相手に近づいてから、
+JP 「□／×／○／□＋×ボタン」を押せ！
+EN Irish Whip your foe into the corner,
+EN get close while he's slumped there,
+EN then press □/×/○/□+×!
+
+@ 993 Yamamoto next
+JP よし、次は「コーナー組み技」の仕方を教える。
+EN Good. Next, Corner Grapples.
+
+@ 995 Yamamoto next
+JP 「コーナー組み技」とは、コーナーポスト上から様々な
+JP 組み技を仕掛ける事から、俗に「雪崩式技」と呼ばれ、
+JP プロレス技の中でも最も危険な荒技とされている。
+EN Corner Grapples are grapples done off the
+EN corner post, known as avalanche moves,
+EN the most dangerous moves in wrestling.
+
+@ 999 Yamamoto next
+JP まず、「対角線ハンマースルー」で相手を「コーナーダウン」させ、
+JP その隙を突いて「コーナー組み技」を仕掛けるんだ。
+EN First, Irish Whip him into the corner,
+EN then put on a Corner Grapple.
+
+@ 1002 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1004 Yamamoto next
+JP 「コーナー組み技」を「３回成功」させろ！
+EN Do "Corner Grapples" 3 times!
+
+@ 1006 Yamamoto section
+JP 「対角線ハンマースルー」で「コーナーダウン」させ、
+JP 「コーナーダウン状態」の相手に近づいてから、
+JP 「Ｒ１ボタン＋（□／×／○／□＋×ボタン）」を押せ！
+EN Irish Whip your foe into the corner,
+EN get close while he's slumped there,
+EN then press R1 + (□/×/○/□+×)!
+
+@ 1010 Yamamoto next
+JP よし、次は「コーナー逆さ吊り」の仕方を教える。
+EN Good. Next, the Tree of Woe.
+
+@ 1012 Yamamoto next
+JP これは、相手を「コーナーポスト」に「逆さ吊り」にして、
+JP 「行動不能状態（一定時間）」にする「拘束アクション」だ。
+EN This hangs your foe upside down in the
+EN corner, helpless for a while.
+
+@ 1015 Yamamoto next
+JP 主にタッグマッチで「相手チームを分断」したい時、
+JP 非常に有効となるアクションだから覚えておくといい。
+EN It's very useful in tag matches when
+EN you want to split up the other team.
+
+@ 1018 Yamamoto next
+JP まず、「対角線ハンマースルー」で相手を「コーナーダウン」させ、
+JP その隙を突いて「コーナー逆さ吊り」を仕掛けるんだ。
+EN First, Irish Whip him into the corner,
+EN then put him in the Tree of Woe.
+
+@ 1021 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1023 Yamamoto next
+JP 「コーナー逆さ吊り」を「３回成功」させろ！
+EN Succeed at "Tree of Woe" 3 times!
+
+@ 1025 Yamamoto section
+JP 「対角線ハンマースルー」で「コーナーダウン」させ、
+JP 「コーナーダウン状態」の相手に近づいてから、
+JP 「Ｒ１ボタン＋△ボタン」を押せ！
+EN Irish Whip your foe into the corner,
+EN get close while he's slumped there,
+EN then press R1 + △!
+
+@ 1029 Yamamoto section
+JP よし、「ハンマースルーアクションＡ」に関してはこんなところだ。
+EN Good. That's it for Irish Whip Actions A.
+
+@ 1031 Yamamoto next
+JP いいか、ここで教える「ハンマースルーアクションＢ」は、
+JP 「リング外（場外）」の相手に対する攻撃を確実に
+JP 成功させる為に必要なテクニックだ。
+EN Listen. Irish Whip Actions B are the
+EN skills you need to make attacks on a foe
+EN outside the ring work every time.
+
+@ 1035 Yamamoto section
+JP ここで学んだことをキッチリ覚えておけば、
+JP つまらない怪我もしなくなるだろう。
+EN Learn this well and you won't get
+EN hurt doing something stupid.
+
+@ 1038 Yamamoto next
+JP よし、まずは「ハンマースルー（場外）」の仕方を教える。
+EN Good. First, the Irish Whip (Outside).
+
+@ 1040 Yamamoto next
+JP いいか、「ハンマースルー（場外）」で相手を場外に放り出すと、
+JP 相手は「行動不能状態（一定時間）」になるんだ。
+EN Listen. Irish Whip your foe outside,
+EN and he's helpless for a while.
+
+@ 1043 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1045 Yamamoto next
+JP 「ハンマースルー（場外）」を「３回成功」させろ！
+EN Do "Irish Whip (Outside)" 3 times!
+
+@ 1047 Yamamoto next
+JP 「タイアップクラッチ」成功後、
+JP 「Ｒ１ボタン」を押し続けろ！
+EN After a Tie-Up Clutch,
+EN hold R1!
+
+@ 1050 Yamamoto next
+JP ・・・っと、これはオマケ情報だが、
+EN ...Oh, and here's a bonus tip:
+
+@ 1052 Yamamoto next
+JP 「タイアップクラッチ」成功後、
+JP 「方向キー（自分背面）＋Ｒ１ボタン」を押すと、
+JP 相手を「エプロン上に放り出す」ことも可能だ。
+EN After a Tie-Up Clutch,
+EN press Direction (away from him) + R1
+EN to throw your foe onto the apron.
+
+@ 1056 Yamamoto section
+JP 「エプロンから断崖技」を使える選手は覚えておけ。
+EN Learn this if you use apron-edge moves.
+
+@ 1058 Yamamoto next
+JP よし、次は「場外飛び技（プランチャ）」の仕方を教える。
+EN Good. Next, the Plancha dive.
+
+@ 1060 Yamamoto next
+JP いいか、「リング内」から「場外」にいる相手に対して、
+JP ロープの反動を利用した「場外飛び技」を仕掛ける。
+EN Listen. From inside the ring, use the
+EN ropes' spring to dive at a foe outside.
+
+@ 1063 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1065 Yamamoto next
+JP 「場外飛び技（プランチャ）」を「３回成功」させろ！
+EN Succeed at "Dive (Plancha)" 3 times!
+
+@ 1067 Yamamoto section
+JP 「ハンマースルー（場外）」で相手を場外に放り出し、
+JP 「エプロン際」から場外にいる相手方向に向かって
+JP 「方向キー＋（□／×／○／□＋×ボタン）」を押せ！
+EN Throw him out with an Irish Whip,
+EN then at the apron edge, facing him,
+EN press Direction + (□/×/○/□+×)!
+
+@ 1071 Yamamoto next
+JP よし、次は「場外飛び技（トペ）」の仕方を教える。
+EN Good. Next, the Tope dive.
+
+@ 1073 Yamamoto next
+JP いいか、「エプロン際」から「場外」にいる相手に対して、
+JP ダッシュを利用した「場外飛び技（トペ）」を仕掛ける！
+EN Listen. From the ring's edge, dash and
+EN dive at a foe outside: the Tope!
+
+@ 1076 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1078 Yamamoto next
+JP 「場外飛び技（トペ）」を「３回成功」させろ！
+EN Succeed at "Dive (Tope)" 3 times!
+
+@ 1080 Yamamoto section
+JP 「ハンマースルー（場外）」で相手を場外に放り出し、
+JP 「ロープダッシュ」で「ロープリバウンド」中に、
+JP 「□／×／○／□＋×ボタン」を押し続けろ！
+EN Throw him out with an Irish Whip,
+EN Rope Dash, and during the rebound,
+EN hold □/×/○/□+×!
+
+@ 1084 Yamamoto next
+JP よし、今度は「エプロン技（エプロンダッシュ）」の仕方を教える。
+EN Good. Now, the Apron Dash.
+
+@ 1086 Yamamoto next
+JP いいか、「エプロン上」から「場外」にいる相手に対して、
+JP ダッシュを利用した「エプロンダッシュ技」を仕掛ける。
+EN Listen. From the apron, dash at
+EN a foe outside: an Apron Dash move.
+
+@ 1089 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1091 Yamamoto next
+JP 「エプロン技（エプロンダッシュ）」を「３回成功」させろ！
+EN Succeed at "Apron Dash" 3 times!
+
+@ 1093 Yamamoto next
+JP 「ハンマースルー（場外）」で相手を場外に放り出す。
+JP 又は「ドロップキック／ラリアット」などの「立ち技（大）」で
+JP 相手を場外に落とし・・・、
+EN Throw him out with an Irish Whip,
+EN or knock him out with a big standing move
+EN like a Dropkick or Lariat...
+
+@ 1097 Yamamoto next
+JP 「エプロン上」で「相手方向」に「ロープダッシュ」しつつ、
+JP 「□／×／○／□＋×ボタン」を押せ！
+EN Then Rope Dash toward him on the apron,
+EN and press □/×/○/□+×!
+
+@ 1100 Yamamoto section
+JP 「エプロン技（エプロンダッシュ）」は「十分な間合い」が必要になる。
+JP 従って、「素早く的確なボタン操作」を心がけるんだぞ。
+EN An Apron Dash needs plenty of room,
+EN so press your buttons fast and sure!
+
+@ 1103 Yamamoto next
+JP よし、今度は「エプロン技（スワンダイブ）」の仕方を教える。
+EN Good. Now, the Springboard.
+
+@ 1105 Yamamoto next
+JP いいか、「エプロン上」から「リング内」にいる相手に対して、
+JP ロープの反動を利用した「エプロン技（スワンダイブ）」を仕掛ける。
+EN Listen. From the apron, use the ropes'
+EN spring to hit a foe inside: Springboard!
+
+@ 1108 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1110 Yamamoto next
+JP 「エプロン技（スワンダイブ）」を「３回成功」させろ！
+EN Succeed at "Springboard" 3 times!
+
+@ 1112 Yamamoto next
+JP まず、「ハンマースルー（リング内）」で相手をリング内に戻し、
+JP 「エプロン」に登って「ピヨリ（行動不能状態）」になるのを待て！
+EN First, Irish Whip him back into the ring,
+EN get on the apron, wait till he's Dazed!
+
+@ 1115 Yamamoto next
+JP 相手が立ち上がり、「ピヨリ（行動不能状態）」であることを
+JP 確認して、「×／○／□＋×ボタン」を押せ！
+EN When he's up and Dazed (helpless),
+EN press ×/○/□+×!
+
+@ 1118 Yamamoto section
+JP まぁ、相手が正常の状態でも技は当てられるが・・・、
+JP 「ピヨリ（行動不能状態）」を狙った方が成功し易いんだ。
+EN Well, it lands on a healthy foe too...
+EN but it works better if he's Dazed.
+
+@ 1121 Yamamoto next
+JP どうだ、「ハンマースルー」の重要性が理解できたろ？
+EN Well? Now you see why Irish Whips matter.
+
+@ 1123 Yamamoto next
+JP いいか、「飛び技」を主体とする選手は、
+JP この辺をしっかりマスターしないと駄目だぞ。
+EN Listen. Wrestlers who rely on dives
+EN had better master all this.
+
+@ 1126 Yamamoto section
+JP よし、「ハンマースルーアクションＢ」に関してはこんなところだ。
+EN Good. That's it for Irish Whip Actions B.
+
+@ 1128 Yamamoto next
+JP 「グラウンドクラッチ」は、「ダウン状態」の相手に対して
+JP 「グラウンドの攻防」を仕掛ける為のアクションだ。
+EN Ground Clutches start a mat battle
+EN against a downed foe.
+
+@ 1131 Yamamoto section
+JP いいか、このアクションは「寝技」が得意な選手にとって、
+JP とても重要な項目になるから、しっかり覚えていけよ。
+EN Listen. This is vital for wrestlers good
+EN on the mat, so learn it well.
+
+@ 1134 Yamamoto next
+JP グラウンドの展開に移行する方法は色々あるが、
+JP ここでは「走りタックルからの移行」の仕方を教える。
+EN There are many ways onto the mat,
+EN but here I'll teach the Running Tackle.
+
+@ 1137 Yamamoto next
+JP また、状況によっては「クラッチ」や「キャッチ」から
+JP 「グラウンドクラッチ」の展開に移行する場合もあるぞ。
+EN Depending on the situation, clutches or
+EN catches can lead to Ground Clutches too.
+
+@ 1140 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1142 Yamamoto next
+JP 「走りタックル」を「３回成功」させろ！
+EN Do "Running Tackle" 3 times!
+
+@ 1144 Yamamoto section
+JP 「ホーミングダッシュ」後、「□ボタン」を押せ！
+EN After a Homing Dash, press □!
+
+@ 1146 Yamamoto next
+JP よし、次は「がぶり」の仕方を教える。
+EN Good. Next, the Facelock.
+
+@ 1148 Yamamoto next
+JP 今度は、逆に相手が「走りタックル」を仕掛けてきた時、
+JP それを押し潰し、「がぶり（反撃体勢）」に移行する方法だ。
+EN This time, when your foe tackles you,
+EN crush it into a Facelock (counter).
+
+@ 1151 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1153 Yamamoto next
+JP 「がぶり」を「３回成功」させろ！
+EN Do "Facelock" 3 times!
+
+@ 1155 Yamamoto section
+JP 相手が「走りタックル」を仕掛けてきた時、
+JP タイミングよく「Ｒ２ボタン」を押せ！
+EN When your foe charges in with a tackle,
+EN press R2 with good timing!
+
+@ 1158 Yamamoto next
+JP よし、次は「ガードポジション技」の仕方を教える。
+EN Good. Next, Guard Position moves.
+
+@ 1160 Yamamoto next
+JP いいか、「グラウンドポジション」に含まれる体勢には、
+JP 「ガードポジション／マウント／がぶり／バックマウント」など
+JP その種類は多彩であるが・・・・・・、
+EN Listen. Ground positions come in
+EN many kinds: Guard, Mount, Facelock,
+EN Back Mount and so on...
+
+@ 1164 Yamamoto next
+JP ここでは基本的な「ガードポジション」を教えておくぞ。
+EN Here I'll teach the basic Guard Position.
+
+@ 1166 Yamamoto next
+JP 各ポジションの体勢からは、「技を仕掛ける」他に、
+JP 「クラッチを外す」「ポジションチェンジ」等が行える。
+EN From each position you can attack,
+EN break the clutch, change position, etc.
+
+@ 1169 Yamamoto next
+JP まぁ、初めは複雑で戸惑うと思うが・・・、
+EN Well, it'll seem confusing at first...
+
+@ 1171 Yamamoto next
+JP 通常の「クラッチアクション」と同じく、「タイミング」さえ
+JP マスターしていれば、どんなポジションにも対応できる。
+EN But as with normal clutches, once you've
+EN got the timing, you can handle any spot.
+
+@ 1174 Yamamoto next
+JP それから、各種「クラッチアクション」に移行後、選手が
+JP 「腰を落とす瞬間」に「画面がフラッシュ」する。
+EN And after any clutch, the screen
+EN flashes as the wrestler sinks his hips.
+
+@ 1177 Yamamoto next
+JP そのタイミングを見極めて各種ボタンを
+JP 入力すれば技が決まるぞ。
+EN Read that timing and press a button
+EN to land your move.
+
+@ 1180 Yamamoto next
+JP だが、「タイミング勝負」に負けてしまった場合は
+JP 逆に「クラッチ返し技」で相手の反撃を受けるぞ。
+EN But if you lose the timing battle,
+EN he'll hit back with a clutch reversal.
+
+@ 1183 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1185 Yamamoto next
+JP 「ガードポジション技」を「３回成功」させろ！
+EN Do "Guard Position" 3 times!
+
+@ 1187 Yamamoto section
+JP 「走りタックル」から「ガードポジション」に移行し、タイミングよく
+JP 「□／×／△／○／□＋×／△＋○／Ｒ１ボタン」を押せ！
+EN Go from Running Tackle into Guard and
+EN time □/×/△/○/□+×/△+○/R1!
+
+@ 1190 Yamamoto next
+JP 今回は、「グラウンドクラッチ」の基本的な事柄を教えたが、
+JP どんなポジションでも的確に対応できる様にならねば、
+JP 「グラウンドの攻防」を制することは難しいな・・・。
+EN I've taught you Ground Clutch basics,
+EN but unless you can handle any position,
+EN you'll struggle to win on the mat...
+
+@ 1194 Yamamoto next
+JP 全てのポジションをマスターしてやるっ！！！
+EN "I'll master every position!!!"
+
+@ 1196 Yamamoto next
+JP という位の欲を出して頑張らんとな・・・うん。
+EN That's the hunger you need... yeah.
+
+@ 1198 Yamamoto section
+JP よし、「グラウンドクラッチ」に関してはこんなところだ。
+EN Good. That's it for Ground Clutches.
+
+@ 1200 Yamamoto next
+JP いいか、「タッグマッチ」は「シングルマッチ」とは異なり、
+JP 二人一組のチームが協力して闘うことになる。
+EN Listen. A Tag Match isn't a Single Match:
+EN two-man teams fight together.
+
+@ 1203 Yamamoto next
+JP 二人のチームワークがバラバラだったらどうだ・・・？
+JP それぞれの能力が全く発揮できなくなる。
+EN What if the two can't work together...?
+EN Neither can show what he's got.
+
+@ 1206 Yamamoto next
+JP せっかくタッグは二人で闘うんだから、その力を２倍・・・、
+JP いや３倍以上に高められる様なチームにならんと駄目だ。
+EN Two of you fight a tag, so be a team
+EN that's twice... no, three times stronger!
+
+@ 1209 Yamamoto section
+JP より高いチームワークを実現させる為にも、
+JP ここで「タッグアクション」をしっかり覚えておくんだぞ。
+EN To build better teamwork,
+EN learn these Tag Actions well.
+
+@ 1212 Yamamoto next
+JP よし、まずは「タッチ」の仕方を教える。
+EN Good. First, how to tag.
+
+@ 1214 Yamamoto next
+JP これは、「エプロン待機中」の「パートナー（味方）」と
+JP 「タッチ（交代）」して「試合権利」を渡したい時に使うアクションだ。
+EN This lets you tag your partner waiting
+EN on the apron and make him the legal man.
+
+@ 1217 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1219 Yamamoto next
+JP 「タッチ」を「３回成功」させろ！
+EN Do "Tag" 3 times!
+
+@ 1221 Yamamoto next
+JP 「エプロン待機中」の「パートナーがいる方向」の
+JP 「方向キー＋Ｌ１ボタン」を押せ！
+EN Press Direction (toward your partner on
+EN the apron) + L1!
+
+@ 1224 Yamamoto section
+JP ただし、「試合権利のある選手」が「リング内」におり、
+JP パートナーが「エプロンに待機」していなければ
+JP 「タッチ」を行うことはできない。
+EN But you can only tag if the legal man
+EN is inside the ring and your partner
+EN is waiting on the apron.
+
+@ 1228 Yamamoto next
+JP よし、次は「手招き＆タッチ」の仕方を教える。
+EN Good. Next, Beckon & Tag.
+
+@ 1230 Yamamoto next
+JP これは、「試合権利のあるパートナー（ＣＯＭ）」を
+JP 呼び寄せて「タッチ（交代）」したい時に使うアクションだ。
+EN This calls your legal CPU partner over
+EN so you can tag in.
+
+@ 1233 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1235 Yamamoto next
+JP 「手招き＆タッチ」を「３回成功」させろ！
+EN Do "Beckon & Tag" 3 times!
+
+@ 1237 Yamamoto section
+JP 「エプロン待機中」に、「△ボタン」を押せ！
+EN While waiting on the apron, press △!
+
+@ 1239 Yamamoto next
+JP よし、次は「タッチ（強制）」の仕方を教える。
+EN Good. Next, the forced tag.
+
+@ 1241 Yamamoto next
+JP これは、「試合権利のあるパートナー（ＣＯＭ）」と
+JP 「タッチ（強制交代）」したい時に使えるアクションだ。
+EN This lets you force a tag with your
+EN legal CPU partner.
+
+@ 1244 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1246 Yamamoto next
+JP 「タッチ（強制）」を「３回成功」させろ！
+EN Do "Tag (Forced)" 3 times!
+
+@ 1248 Yamamoto section
+JP 「エプロン待機中」、パートナー（ＣＯＭ）が
+JP 近くにいる時に「Ｌ１ボタン」を押せ！
+EN On the apron, when your CPU partner
+EN is close, press L1!
+
+@ 1251 Yamamoto next
+JP よし、次は「カット攻撃」の仕方を教える。
+EN Good. Next, cut attacks.
+
+@ 1253 Yamamoto next
+JP これは、特定の技で「拘束」されている「パートナー」を
+JP 救出したい時に使える攻撃アクションだ。
+EN This attack frees your partner
+EN when he's caught in a hold.
+
+@ 1256 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1258 Yamamoto next
+JP 「カット攻撃」を「３回成功」させろ！
+EN Do "Cut Attacks" 3 times!
+
+@ 1260 Yamamoto section
+JP 拘束されている「パートナー」に近づき、
+JP 「□／×／○ボタン」を押せ！
+EN Get close to your trapped partner
+EN and press □/×/○!
+
+@ 1263 Yamamoto next
+JP よし、次は「ダッシュカット攻撃」の仕方を教える。
+EN Good. Next, the Dash Cut Attack.
+
+@ 1265 Yamamoto next
+JP これは、拘束されているパートナーを
+JP 素早く救出したい時に使える攻撃アクションだ。
+EN This attack frees a trapped partner
+EN fast.
+
+@ 1268 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1270 Yamamoto next
+JP 「ダッシュカット攻撃」を「３回成功」させろ！
+EN Do "Dash Cut Attack" 3 times!
+
+@ 1272 Yamamoto section
+JP 「ダッシュ（ホーミング／ロープ）」中、
+JP 「□／×／○ボタン」を押せ！
+EN During a dash (homing/rope),
+EN press □/×/○!
+
+@ 1275 Yamamoto next
+JP よし、次は「ターゲットチェンジ」の仕方を教える。
+EN Good. Next, Switch Target.
+
+@ 1277 Yamamoto next
+JP これは、「ターゲット」を切り替えられるアクションだ。
+EN This switches who you're targeting.
+
+@ 1279 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1281 Yamamoto next
+JP 「ターゲットチェンジ」を「３回成功」させろ！
+EN Do "Switch Target" 3 times!
+
+@ 1283 Yamamoto section
+JP 「Ｌ２ボタン」を押せ！
+EN Press L2!
+
+@ 1285 Yamamoto next
+JP よし、次は「ツープラトン技（正面）」の仕方を教える。
+EN Good. Next, Double Team moves (Front).
+
+@ 1287 Yamamoto next
+JP これは、タッグマッチの真骨頂でもある
+JP 二人が協力して仕掛ける「協力攻撃」だ。
+EN These are the heart of the Tag Match:
+EN team attacks you pull off together.
+
+@ 1290 Yamamoto next
+JP リング上で「２対１の状況」になった時、
+JP 相手の「正面」から「二人」で近づいて
+JP 特定ボタンを押す事で実行できる。
+EN When it's 2-on-1 in the ring,
+EN both of you approach his front
+EN and press the right button.
+
+@ 1294 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1296 Yamamoto next
+JP 「ツープラトン技（正面）」を「３回成功」させろ！
+EN Do "Double Team (Front)" 3 times!
+
+@ 1298 Yamamoto section
+JP 「相手正面」から近づき、「□ボタン」を押せ！
+EN Approach his front and press □!
+
+@ 1300 Yamamoto next
+JP よし、次は「ツープラトン技（背面）」の仕方を教える。
+EN Good. Next, Double Team moves (Rear).
+
+@ 1302 Yamamoto next
+JP 今度は相手の「背面」から仕掛ける「協力攻撃」だ。
+EN This time it's a team attack from behind.
+
+@ 1304 Yamamoto next
+JP リング上で「２対１の状況」になった時、
+JP 相手の「背面」から「二人」で近づいて
+JP 特定ボタンを押す事で実行できる。
+EN When it's 2-on-1 in the ring,
+EN both of you approach his back
+EN and press the right button.
+
+@ 1308 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1310 Yamamoto next
+JP 「ツープラトン技（背面）」を「３回成功」させろ！
+EN Do "Double Team (Rear)" 3 times!
+
+@ 1312 Yamamoto section
+JP 「相手背面」から近づき、「□ボタン」を押せ！
+EN Approach his back and press □!
+
+@ 1314 Yamamoto next
+JP よし、次は「ツープラトン技（コーナー）」の仕方を教える。
+EN Good. Next, Double Team moves (Corner).
+
+@ 1316 Yamamoto next
+JP これは、「コーナーダウン中」の相手に仕掛ける「協力攻撃」だ。
+EN It's a team attack on a cornered foe.
+
+@ 1318 Yamamoto next
+JP まず、相手チームの選手を「自軍チーム側」の
+JP 「コーナーポスト」に「コーナーダウン」させるんだ。
+EN First, whip an enemy into the corner
+EN post on your own team's side.
+
+@ 1321 Yamamoto next
+JP 次に「コーナーダウン中」の相手に近づき、
+JP 特定ボタンを押す事で実行できるぞ。
+EN Then get close to the slumped foe
+EN and press the right button.
+
+@ 1324 Yamamoto next
+JP ただし、「パートナー（味方）」が「自軍チーム側」の
+JP 「エプロン上」に待機していないと駄目だぞ！
+EN But your partner must be waiting on
+EN the apron on your side, or it won't work!
+
+@ 1327 Yamamoto next
+JP では、俺の指示に従って実際にやってみろ。
+EN Now do it for real. Follow my orders!
+
+@ 1329 Yamamoto next
+JP 「ツープラトン技（コーナー）」を「３回成功」させろ。
+EN Do "Double Team (Corner)" 3 times!
+
+@ 1331 Yamamoto section
+JP 「コーナーダウン状態」の相手に近づき、
+JP 「□＋×ボタン」を押せ！
+EN Get close to the slumped foe,
+EN and press □ + ×!
+
+@ 1334 Hoshino next
+JP ・・・・・・・・。
+EN ........
+
+@ 1336 Hoshino next
+JP ・・・・・・・・・・・・ふふん。
+EN ............Heh.
+
+@ 1338 Hoshino next
+JP なになにぃ・・・、「引っ張り落とし方（リング内から）」か？
+EN Oho... pulling foes out of the ring, eh?
+
+@ 1340 Hoshino next
+JP うむ、魔界倶楽部に必要なテクニックの一つだな。
+EN Yes, a must-have skill for Makai Club.
+
+@ 1342 Hoshino next
+JP よしよし、この俺が鬼の居ぬ間に教えてやろう。
+EN While the cat's away, I'll teach you.
+
+@ 1344 Hoshino next
+JP これは、主にセコンドである俺の仕事でもあるが、
+JP タッグマッチでも生きるアクションだから覚えておけ。
+EN This is mostly my job as a second, but
+EN it's useful in tag matches too. Learn it.
+
+@ 1347 Hoshino next
+JP リング内にいる相手の足を掴んで場外へ
+JP 引っ張り出すという素晴らしいテクニックだ。
+EN You grab the leg of a foe in the ring
+EN and yank him outside. Beautiful!
+
+@ 1350 Hoshino next
+JP では俺の指示に従って、ビッシビシ！　やれッ！
+EN Do as I say! Bishi-bishi! Go on!
+
+@ 1352 Hoshino next
+JP 「引っ張り落とす（リング内から）」を「３回成功」させろ！
+EN Do "Pull Down (from the Ring)" 3 times!
+
+@ 1354 Hoshino section
+JP 「リング上」の相手に近づき、
+JP 「相手側の方向キー＋（Ｒ１ボタン＋△ボタン）」を押せ！
+EN Get close to a foe in the ring and press
+EN Direction (toward him) + (R1 + △)!
+
+@ 1357 Hoshino next
+JP よしよし、次は「引っ張り落とし方（エプロンから）」を教える。
+EN Good, good. Next, from the apron.
+
+@ 1359 Hoshino next
+JP これは、エプロン上にいる相手の足を掴んで場外へ
+JP 引っ張り出すという、素晴らしいテクニックだ。
+EN You grab the leg of a foe on the apron
+EN and yank him outside. Beautiful!
+
+@ 1362 Hoshino next
+JP では俺の指示に従って、ビッシビシ！　やれッ！
+EN Do as I say! Bishi-bishi! Go on!
+
+@ 1364 Hoshino next
+JP 「引っ張り落とす（エプロンから）」を「３回成功」させろ！
+EN Succeed at "Pull Down (Apron)" 3 times!
+
+@ 1366 Hoshino section
+JP 「エプロン上」の相手に近づき、
+JP 「相手側の方向キー＋（Ｒ１ボタン＋△ボタン）」を押せ！
+EN Get close to a foe on the apron, press
+EN Direction (toward him) + (R1 + △)!
+
+@ 1369 Hoshino next
+JP よしよし、次は「相手のこかし方（ダッシュ中）」を教える。
+EN Good, good. Next, tripping a dashing foe.
+
+@ 1371 Hoshino next
+JP これは、ロープリバウンド中の相手の足を掴んで
+JP コケさせるという、上級テクニックの一つだ。
+EN You grab a foe's leg on the rope rebound
+EN and trip him. An advanced technique!
+
+@ 1374 Hoshino next
+JP まぁ、ちょっと難しいかもしれんが・・・、
+JP へこたれずに根気よくチャレンジしてみろ。
+EN Well, it might be a bit hard...
+EN but don't give up, keep at it.
+
+@ 1377 Hoshino next
+JP では俺の指示に従って、ビッシビシ！　やれッ！
+EN Do as I say! Bishi-bishi! Go on!
+
+@ 1379 Hoshino next
+JP 「相手をこかす（ダッシュ中）」を「３回成功」させろ！
+EN Succeed at "Trip (Dashing)" 3 times!
+
+@ 1381 Hoshino next
+JP 「ロープリバウンド中」の相手に近づき、
+JP 「相手側の方向キー＋（Ｒ１ボタン＋△ボタン）」を押せ！
+EN Get close to a foe on the rope rebound,
+EN press Direction (toward him) + (R1 + △)!
+
+@ 1384 Hoshino section
+JP 「ロープストップ」の練習時のタイミングを思い出し、
+JP 「ロープリバウンド直前」で操作を行うんだぞ！！
+EN Remember your Rope Stop timing, and
+EN do it just before the rebound!!
+
+@ 1387 Hoshino next
+JP よしよし、次は「デットリードライブ」の仕方を教える。
+EN Good, good. Next, the Deadly Drive.
+
+@ 1389 Hoshino next
+JP これは、コーナーポストに待機中の相手を捕まえて、
+JP そこからリング内に叩き落とすアクションだ。
+EN You grab a foe waiting on the corner post
+EN and slam him down into the ring.
+
+@ 1392 Hoshino next
+JP では俺の指示に従って、ビッシビシ！　やれッ！
+EN Do as I say! Bishi-bishi! Go on!
+
+@ 1394 Hoshino next
+JP 「デットリードライブ」を「３回成功」させろ！
+EN Do "Deadly Drive" 3 times!
+
+@ 1396 Hoshino section
+JP 「コーナーポスト上」にいるの相手に近づき、
+JP 「コーナーポスト方向」の「方向キー＋（□／×／○ボタン）」を押せ！
+EN Get close to a foe up on the corner post,
+EN press Direction (to the post) + (□/×/○)!
+
+@ 1399 Hoshino next
+JP ふふん、どうだ魔界倶楽部に入れば、
+JP こんな楽しい悪行が毎日楽しめるぞぉ！
+EN Heh, join the Makai Club and
+EN you'll enjoy evil like this every day!
+
+@ 1402 Hoshino next
+JP 俺たちは、これからもプロレス界をビッシビシ！！
+JP シバキ倒してやるからなぁッ！！
+EN We'll keep beating the wrestling world
+EN down, bishi-bishi!!
+
+@ 1405 Hoshino next
+JP お前も必ず魔界に来いよ！　待ってるぞッ！！
+EN You come to Makai too! I'll be waiting!!
+
+@ 1407 Yamamoto next
+JP ・・・・・・・・。
+EN ........
+
+@ 1409 Yamamoto next
+JP ・・・・・・・・・・・・。
+EN ............
+
+@ 1411 Yamamoto next
+JP ったく、また星野の奴か・・・、
+JP チョロチョロといらん事ばかり教えおって。
+EN Hoshino again, eh...
+EN Always teaching stuff nobody needs.
+
+@ 1414 Yamamoto next
+JP まぁいい・・・。
+EN Well, whatever...
+
+@ 1416 Yamamoto next
+JP いいか、「タッグマッチ」は「チームワーク」が命だ。
+EN Listen. Teamwork is life in a Tag Match.
+
+@ 1418 Yamamoto next
+JP 個々の能力を最大限に発揮できれば、
+JP お前たちのチーム力は何倍にもなるんだ。
+EN Get the most out of each of you,
+EN and your team gets many times stronger.
+
+@ 1421 Yamamoto next
+JP その為にも、「タッグアクション」は確実にマスターしておけ。
+EN So make sure you master Tag Actions.
+
+@ 1423 Yamamoto section
+JP よし、「タッグアクション」に関してはこんなところだ。
+EN Good. That's it for Tag Actions.
+
+@ 1425 Yamamoto next
+JP ・・・おい、どうだ？
+JP そろそろ自分の力を試してみたくなったろう？
+EN ...Hey, how about it?
+EN Itching to test yourself now?
+
+@ 1428 Yamamoto next
+JP ・・・ふむ、そんなお前の希望を叶えてやる為に
+JP この俺が直々にテストをしてやる事にしたぞ。
+EN ...Hmph. To grant that wish of yours,
+EN I'll test you myself.
+
+@ 1431 Yamamoto section
+JP さぁ、試合の準備をしてリングに上がれ！
+EN Now get ready and get in the ring!
+
+@ 1433 Yamamoto next
+JP いいか、この試合のルールは簡単だ。
+EN Listen. The rules are simple.
+
+@ 1435 Yamamoto next
+JP 俺か、お前のどちらかが「３カウント」を奪うか、
+JP 「ギブアップ」させるかで決着がつく。
+EN One of us takes a 3 count
+EN or makes the other give up.
+
+@ 1438 Yamamoto next
+JP リングアウトや時間切れによる決着方法はない。
+JP 俺をブチのめす以外にはな・・・。
+EN No finishes by ring-out or time limit.
+EN Only by beating me down...
+
+@ 1441 Yamamoto next
+JP では、さっさとリングに上がれ！
+EN Now get in the ring, quick!
+
+@ 1443 Yamamoto section
+JP 未熟でもいい・・・、今のお前にできる、
+JP 精一杯のプロレス魂を俺にぶつけてみろっ！
+EN It's fine if you're green... Show me
+EN all the wrestling soul you've got now!
+
+@ 1446 Yamamoto next
+JP うむ・・・、合格だ！
+JP よくぞ、俺の厳しい指導に耐えたな！
+EN Hmm... You pass!
+EN You survived my tough training!
+
+@ 1449 Yamamoto next
+JP もはや、お前に教えてやれる事は何もない・・・。
+EN There's nothing left I can teach you...
+
+@ 1451 Yamamoto next
+JP だがな、プロレスというのは底知れず奥が深く、
+JP ここで補足できなかったアクションが他にもある。
+EN But pro wrestling runs endlessly deep,
+EN and there are actions I couldn't cover.
+
+@ 1454 Yamamoto next
+# [glossary-ok] 解説書 = the manual
+JP それらのアクションは「解説書」に書いてあるから、
+JP 必要に応じて試合に役立てるんだ。
+EN They're in the manual, so use them
+EN in your matches as you need them.
+
+@ 1457 Yamamoto next
+JP いいか、道に迷ったらいつでも俺のところへ来い！
+JP この俺が、もう一度お前にプロレス魂を叩き込んでやるからな！
+EN Listen, if you ever lose your way, come!
+EN I'll pound wrestling soul into you again!
+
+@ 1460 Yamamoto next
+JP ・・・・・・・・それにしても、
+EN ........Still,
+
+@ 1462 Yamamoto next
+JP お前のガッツ溢れるファイトのおかげで、
+JP この俺の消えかけた闘志に火が付いちまったようだ・・・。
+EN your gutsy fighting has lit a fire
+EN under my fading fighting spirit...
+
+@ 1465 Yamamoto next
+JP こうなった以上は、俺もトコトン闘い続けるぞぉっ！！
+EN Now I'll keep fighting to the very end!!
+
+@ 1467 Yamamoto next
+JP いいか、今後は師匠も弟子も関係ないからなぁ、
+JP リングで会う時は一人のファイターとして闘おうぞ！！
+EN From now on, no master and no pupil;
+EN in the ring, we fight as equals!!
+
+@ 1470 Yamamoto next
+JP 覚悟しておけよ、未来のチャンピオン！！
+EN Be ready, future champion!!
+
+@ 1472 Yamamoto next
+JP ふふふ・・・・・・・・、
+JP では、これにて全練習を終了するっ！！！
+EN Heh heh heh........
+EN That ends all your training!!!
+
+@ 1476 Yamamoto next
+JP 駄目だっ！！
+JP まるで話にならんではないかっ！！
+EN No good!!
+EN That was pathetic!!
+
+@ 1479 Yamamoto next
+JP こんな試合をしているようじゃ、
+JP 恥ずかしくて、とてもプロとは呼べんぞっ！！
+EN Fighting a match like that,
+EN I'm ashamed to call you a pro!!
+
+@ 1482 Yamamoto section
+JP もう一度、勉強し直してこいっ！！！
+EN Go back and study it all again!!!
+
+@ 1484 Yamamoto next
+JP ここでは、プロレスの練習が自由にできる。
+EN Here you can practice wrestling freely.
+
+@ 1486 Yamamoto section
+JP 今ならお前の貸切だから、好きに使っていいぞ。
+EN It's all yours now. Use it as you like.
+
+@ 1488 Yamamoto next
+JP いいか、試合画面で「スタートボタン」を押すと、
+JP お前の好きな様に「練習環境」が「設定」できるぞ。
+EN Listen. Press START in a match
+EN to set up practice however you like.
+
+@ 1491 Yamamoto section
+JP さぁ、納得いくまで汗を流していけ！
+EN Now, sweat till you're satisfied!
+
+@ 1493 Yamamoto section
+JP なんだ、もう終わりか・・・？
+EN What, done already...?

@@ -1,0 +1,16102 @@
+# Wrestler names, costume parts, theme music titles.
+# KC2FIRE.000 entry 2010 - see tools/tables.py.
+# Letters are stored full-width (2 bytes), spaces as 1 byte. Keep names about as wide as the Japanese.
+
+@ 0
+JP 藤波　辰爾
+EN Tatsumi Fujinami
+
+@ 1
+JP 藤波　辰巳“ＭドラゴンＶｅｒ”
+EN T. Fujinami "M Dragon"
+
+@ 2
+JP 蝶野　正洋
+EN Masahiro Chono
+
+@ 3
+JP 蝶野　正洋“夏男Ｖｅｒ”
+EN M. Chono "Summer Man"
+
+@ 4
+JP 永田　裕志
+EN Yuji Nagata
+
+@ 5
+JP 中西　学
+EN Manabu Nakanishi
+
+@ 6
+JP 中西　学“０２Ｖｅｒ”
+EN M. Nakanishi "02"
+
+@ 7
+JP 天山　広吉
+EN Hiroyoshi Tenzan
+
+@ 8
+JP 天山　広吉“０２Ｖｅｒ”
+EN H. Tenzan "02"
+
+@ 9
+JP ツノ天山　広吉“０２Ｖｅｒ”
+EN Horned H. Tenzan "02"
+
+@ 10
+JP 安田　忠夫
+EN Tadao Yasuda
+
+@ 11
+JP 安田　忠夫“０２Ｖｅｒ”
+EN Tadao Yasuda "02"
+
+@ 12
+JP 飯塚　高史
+EN Takashi Iizuka
+
+@ 13
+JP 西村　修
+EN Osamu Nishimura
+
+@ 14
+JP 西村　修“０２Ｖｅｒ”
+EN O. Nishimura "02"
+
+@ 15
+JP 吉江　豊
+EN Yutaka Yoshie
+
+@ 16
+JP 吉江　豊“０２Ｖｅｒ”
+EN Yutaka Yoshie "02"
+
+@ 17
+JP 吉江　豊“短髪Ｖｅｒ”
+EN Y. Yoshie "Short"
+
+@ 18
+JP 真壁　伸也
+EN Shinya Makabe
+
+@ 19
+JP 棚橋　弘至
+EN Hiroshi Tanahashi
+
+@ 20
+JP 棚橋　弘至“０２Ｖｅｒ”
+EN H. Tanahashi "02"
+
+@ 21
+JP 棚橋　弘至“０１Ｖｅｒ”
+EN H. Tanahashi "01"
+
+@ 22
+JP 棚橋　弘至“０４Ｖｅｒ”
+EN H. Tanahashi "04"
+
+@ 23
+JP 中邑　真輔
+EN Shinsuke Nakamura
+
+@ 24
+JP 中邑　真輔“ＩＷＧＰＶｅｒ”
+EN S. Nakamura "IWGP"
+
+@ 25
+JP ブルー・ウルフ
+EN Blue Wolf
+
+@ 26
+JP ブルー・ウルフ“０１Ｖｅｒ”
+EN Blue Wolf "01"
+
+@ 27
+JP 星野　勘太郎
+EN Kantaro Hoshino
+
+@ 28
+JP 村上　和成
+EN Kazunari Murakami
+
+@ 29
+JP 柳澤　龍志
+EN Ryushi Yanagisawa
+
+@ 30
+JP 魔界１号
+EN Makai #1
+
+@ 31
+JP 魔界２号
+EN Makai #2
+
+@ 32
+JP 柴田　勝頼
+EN Katsuyori Shibata
+
+@ 33
+JP 魔界４号
+EN Makai #4
+
+@ 34
+JP 魔界４号“０３ｖｅｒ”
+EN Makai #4 "03"
+
+@ 35
+JP 長井　満也
+EN Mitsuya Nagai
+
+@ 36
+JP 長井　満也“髪ありＶｅｒ”
+EN Mitsuya Nagai "Hair"
+
+@ 37
+JP 魔界５号
+EN Makai #5
+
+@ 38
+JP 魔界５号“０３ｖｅｒ”
+EN Makai #5 "03"
+
+@ 39
+JP 小原　道由
+EN Michiyoshi Ohara
+
+@ 40
+JP 後藤　達俊
+EN Tatsutoshi Goto
+
+@ 41
+JP ヒロ斎藤
+EN Hiro Saito
+
+@ 42
+JP 獣神サンダー・ライガー
+EN Jushin Liger
+
+@ 43
+JP 獣神サンダー・ライガーＶｅｒ２
+EN Jushin Liger 2
+
+@ 44
+# [glossary-ok] title or wrestler name in its own words
+JP 対ヘビー級用ライガー
+EN Liger (vs. Heavies)
+
+@ 45
+JP エル・サムライ
+EN El Samurai
+
+@ 46
+JP 金本　浩二
+EN Koji Kanemoto
+
+@ 47
+JP ＡＫＩＲＡ
+EN AKIRA
+
+@ 48
+JP ＡＫＩＲＡ“０１Ｖｅｒ”
+EN AKIRA "01"
+
+@ 49
+JP 野上　彰
+EN Akira Nogami
+
+@ 50
+JP 田中　稔
+EN Minoru Tanaka
+
+@ 51
+JP 成瀬　昌由
+EN Masayuki Naruse
+
+@ 52
+JP 垣原　賢人
+EN Masahito Kakihara
+
+@ 53
+JP 邪道
+EN Jado
+
+@ 54
+JP 外道
+EN Gedo
+
+@ 55
+JP 井上　亘
+EN Wataru Inoue
+
+@ 56
+JP 井上　亘“０１Ｖｅｒ”
+EN Wataru Inoue "01"
+
+@ 57
+JP 井上　亘マスク
+EN W. Inoue Mask
+
+@ 58
+JP 竹村　豪氏
+EN Katsushi Takemura
+
+@ 59
+JP 竹村　豪氏“０２Ｖｅｒ”
+EN K. Takemura "02"
+
+@ 60
+JP 竹村　豪氏“坊主Ｖｅｒ”
+EN K. Takemura "Shaved"
+
+@ 61
+JP 矢野　通
+EN Toru Yano
+
+@ 62
+JP 田口　隆祐
+EN Ryusuke Taguchi
+
+@ 63
+JP 山本　尚文
+EN Naofumi Yamamoto
+
+@ 64
+JP 長尾　浩志
+EN Hiroshi Nagao
+
+@ 65
+JP 後藤　洋央紀
+EN Hirooki Goto
+
+@ 66
+JP 坂口　征二
+EN Seiji Sakaguchi
+
+@ 67
+JP 木村　健悟
+EN Kengo Kimura
+
+@ 68
+JP 木戸　修
+EN Osamu Kido
+
+@ 69
+JP 山崎　一夫
+EN Kazuo Yamazaki
+
+@ 70
+JP Ｓ・Ｓ・マシン
+EN S.S. Machine
+
+@ 71
+JP 平田　淳嗣
+EN Junji Hirata
+
+@ 72
+JP 小林　邦昭
+EN Kuniaki Kobayashi
+
+@ 73
+JP 山本　小鉄
+EN Kotetsu Yamamoto
+
+@ 74
+JP スコット・ノートン
+EN Scott Norton
+
+@ 75
+JP ジョシュ・バーネット
+EN Josh Barnett
+
+@ 76
+JP マイク・バートン
+EN Mike Barton
+
+@ 77
+JP マイク・バートン“０２Ｖｅｒ”
+EN Mike Barton "02"
+
+@ 78
+JP ジム・スティール“短髪Ｖｅｒ”
+EN Jim Steele "Short"
+
+@ 79
+JP ブラック・タイガー
+EN Black Tiger
+
+@ 80
+JP ブラック・キャット
+EN Black Cat
+
+@ 81
+JP 三沢　光晴
+EN Mitsuharu Misawa
+
+@ 82
+JP 三沢　光晴“超世代Ｖｅｒ”
+EN M. Misawa "Super Gen."
+
+@ 83
+JP 小橋　建太
+EN Kenta Kobashi
+
+@ 84
+JP 小橋　健太“四天王Ｖｅｒ”
+EN K. Kobashi "4 Pillars"
+
+@ 85
+JP 小橋　健太“超世代Ｖｅｒ”
+EN K. Kobashi "Chosedai"
+
+@ 86
+JP 田上　明
+EN Akira Taue
+
+@ 87
+JP 田上　明“聖鬼軍Ｖｅｒ”
+EN A. Taue "Holy Demon"
+
+@ 88
+JP 秋山　準
+EN Jun Akiyama
+
+@ 89
+JP 秋山　準“金髪Ｖｅｒ”
+EN Jun Akiyama "Blond"
+
+@ 90
+JP 小川　良成
+EN Yoshinari Ogawa
+
+@ 91
+JP 小川　良成“長髪Ｖｅｒ”
+EN Y. Ogawa "Long Hair"
+
+@ 92
+JP 力皇　猛
+EN Takeshi Rikio
+
+@ 93
+JP 森嶋　猛
+EN Takeshi Morishima
+
+@ 94
+JP 本田　多聞
+EN Tamon Honda
+
+@ 95
+JP 本田　多聞“髭なしＶｅｒ”
+EN Tamon Honda "No Beard"
+
+@ 96
+JP 井上　雅央
+EN Masao Inoue
+
+@ 97
+JP 佐野　巧真
+EN Takuma Sano
+
+@ 98
+JP 斎藤　彰俊
+EN Akitoshi Saito
+
+@ 99
+JP 泉田　純
+EN Jun Izumida
+
+@ 100
+JP ＩＺＵ
+EN IZU
+
+@ 101
+JP 池田　大輔
+EN Daisuke Ikeda
+
+@ 102
+JP 志賀　賢太郎
+EN Kentaro Shiga
+
+@ 103
+JP モハメド・ヨネ
+EN Mohammed Yone
+
+@ 104
+JP モハメド・ヨネ“アフロＶｅｒ”
+EN Mohammed Yone "Afro"
+
+@ 105
+JP 杉浦　貴
+EN Takashi Sugiura
+
+@ 106
+JP 川畑　輝鎮
+EN Terushige Kawabata
+
+@ 107
+JP 青柳　政司
+EN Masashi Aoyagi
+
+@ 108
+JP 菊地　毅
+EN Tsuyoshi Kikuchi
+
+@ 109
+JP 菊地　毅“超世代ｖｅｒ”
+EN Kikuchi "Super Gen."
+
+@ 110
+JP 金丸　義信
+EN Yoshinobu Kanemaru
+
+@ 111
+JP 金丸　義信“０２ｖｅｒ”
+EN Y. Kanemaru "02"
+
+@ 112
+JP 丸藤　正道
+EN Naomichi Marufuji
+
+@ 113
+JP チャップス丸藤　正道１
+EN Chaps N. Marufuji 1
+
+@ 114
+JP 丸藤　正道“０２ｖｅｒ”
+EN N. Marufuji "02"
+
+@ 115
+JP チャップス丸藤　正道２
+EN Chaps N. Marufuji 2
+
+@ 116
+JP 橋　誠
+EN Makoto Hashi
+
+@ 117
+JP ＫＥＮＴＡ
+EN KENTA
+
+@ 118
+JP ＫＥＮＴＡ“オレンジＶｅｒ”
+EN KENTA "Orange"
+
+@ 119
+JP 鈴木　鼓太郎
+EN Kotaro Suzuki
+
+@ 120
+JP 浅子　覚
+EN Satoru Asako
+
+@ 121
+JP ラッシャー木村
+EN Rusher Kimura
+
+@ 122
+JP 永源　遙
+EN Haruka Eigen
+
+@ 123
+JP 百田　光雄
+EN Mitsuo Momota
+
+@ 124
+JP マイティ井上
+EN Mighty Inoue
+
+@ 125
+JP スコーピオ
+EN Scorpio
+
+@ 126
+JP スコーピオ“０４Ｖｅｒ”
+EN Scorpio "04"
+
+@ 127
+JP リチャード・スリンガー
+EN Richard Slinger
+
+@ 128
+JP 武藤　敬司
+EN Keiji Mutoh
+
+@ 129
+JP 武藤　敬司“ＮＢＭＶｅｒ”
+EN Keiji Mutoh "NBM"
+
+@ 130
+JP 武藤　敬司“バク進Ｖｅｒ”
+EN K. Mutoh "Bakushin"
+
+@ 131
+JP グレート・ムタ
+EN Great Muta
+
+@ 132
+JP グレート・ムタ“ジェイソンＶｅｒ”
+EN Great Muta "Jason"
+
+@ 133
+JP グレート・ムタ“レトロＶｅｒ”
+EN Great Muta "Retro"
+
+@ 134
+JP ムタズキン
+EN Muta Hood
+
+@ 135
+JP ムタグレーズキン
+EN Muta Gray Hood
+
+@ 136
+JP ムタドクロズキン
+EN Muta Skull Hood
+
+@ 137
+JP ムタメカズキン
+EN Muta Mecha Hood
+
+@ 138
+JP ムタスパイダーズキン
+EN Muta Spider Hood
+
+@ 139
+JP 黒師無双
+EN Kokushi Muso
+
+@ 140
+JP カサ黒師無双
+EN Kokushi Muso (Kasa)
+
+@ 141
+JP 川田　利明
+EN Toshiaki Kawada
+
+@ 142
+JP 小島　聡
+EN Satoshi Kojima
+
+@ 143
+JP 仮面小島　聡
+EN Masked S. Kojima
+
+@ 144
+JP 愚零斗孤士
+EN Great Koji
+
+@ 145
+JP 愚零斗孤士ズキン
+EN Great Koji Hood
+
+@ 146
+JP 太陽ケア
+EN Taiyo Kea
+
+@ 147
+JP 太陽ケア“髪ありＶｅｒ”
+EN Taiyo Kea "Hair"
+
+@ 148
+JP 渕　正信
+EN Masanobu Fuchi
+
+@ 149
+JP 馳　浩
+EN Hiroshi Hase
+
+@ 150
+JP 馳　浩“イエローＶｅｒ”
+EN H. Hase "Yellow"
+
+@ 151
+JP 嵐
+EN Arashi
+
+@ 152
+JP 荒谷　望誉
+EN Nobutaka Araya
+
+@ 153
+JP 荒谷　望誉“０４Ｖｅｒ”
+EN Nobutaka Araya "04"
+
+@ 154
+JP ケンドー・カシン
+EN Kendo Kashin
+
+@ 155
+JP ケンドー・カシン“０１Ｖｅｒ”
+EN Kendo Kashin "01"
+
+@ 156
+JP ケンドー・カシン“０２Ｖｅｒ”
+EN Kendo Kashin "02"
+
+@ 157
+JP 奥村　茂雄
+EN Shigeo Okumura
+
+@ 158
+JP 平井　伸和
+EN Nobukazu Hirai
+
+@ 159
+JP 本間　朋晃
+EN Tomoaki Honma
+
+@ 160
+JP 宮本　和志
+EN Kazushi Miyamoto
+
+@ 161
+JP 宮本　和志“０１Ｖｅｒ”
+EN K. Miyamoto "01"
+
+@ 162
+JP カズ・ハヤシ
+EN Kaz Hayashi
+
+@ 163
+JP カズ・ハヤシ“スキンＶｅｒ”
+EN Kaz Hayashi "Skin"
+
+@ 164
+JP カズ・ハヤシ“短髪Ｖｅｒ”
+EN Kaz Hayashi "Short"
+
+@ 165
+JP カズ・ハヤシ“長髪Ｖｅｒ”
+EN Kaz Hayashi "Long"
+
+@ 166
+JP 土方　隆司
+EN Ryuji Hijikata
+
+@ 167
+JP 石狩　太一
+EN Taichi Ishikari
+
+@ 168
+JP 河野　真幸
+EN Masayuki Kono
+
+@ 169
+JP ビッグ・ジョン・テンタ
+EN Big John Tenta
+
+@ 170
+JP ザ・グラジエーター
+EN The Gladiator
+
+@ 171
+JP ギガンテス
+EN Gigantes
+
+@ 172
+JP ジョージ・ハインズ
+EN George Hines
+
+@ 173
+JP 保坂　秀樹
+EN Hideki Hosaka
+
+@ 174
+JP 保坂　秀樹“短髪Ｖｅｒ”
+EN H. Hosaka "Short"
+
+@ 175
+JP ディー・ロウ・ブラウン
+EN D'Lo Brown
+
+@ 176
+JP ブキャナン
+EN Buchanan
+
+@ 177
+JP ジャマール
+EN Jamal
+
+@ 178
+JP 橋本　真也
+EN Shinya Hashimoto
+
+@ 179
+JP 橋本　真也ハチマキ１
+EN Hashimoto Band 1
+
+@ 180
+JP 橋本　真也“ＩＷＧＰＶｅｒ”
+EN S. Hashimoto "IWGP"
+
+@ 181
+JP 橋本　真也ハチマキ２
+EN Hashimoto Band 2
+
+@ 182
+JP ハシフ・カーン
+EN Hashif Khan
+
+@ 183
+JP ハシフ・カーン帽子
+EN Hashif Khan Hat
+
+@ 184
+JP ＳＨＯＧＵＮ
+EN SHOGUN
+
+@ 185
+JP 大谷　晋二郎
+EN Shinjiro Otani
+
+@ 186
+JP 田中　将斗
+EN Masato Tanaka
+
+@ 187
+JP 高岩　竜一
+EN Ryuji Takaiwa
+
+@ 188
+JP 星川　尚浩
+EN Naohiro Hoshikawa
+
+@ 189
+JP 佐藤　耕平
+EN Kohei Sato
+
+@ 190
+JP 佐藤　耕平“０２ｖｅｒ”
+EN Kohei Sato "02"
+
+@ 191
+JP テングカイザー
+EN Tengu Kaiser
+
+@ 192
+JP 坂田　亘
+EN Wataru Sakata
+
+@ 193
+JP 横井　宏考
+EN Hirotaka Yokoi
+
+@ 194
+JP 小笠原　和彦
+EN Kazuhiko Ogasawara
+
+@ 195
+JP 崔　リョウジ
+EN Ryoji Sai
+
+@ 196
+JP 富豪２夢路
+EN Fugo 2 Yumeji
+
+@ 197
+JP 富豪２夢路“０２ｖｅｒ”
+EN Fugo 2 Yumeji "02"
+
+@ 198
+JP 黒毛和牛太
+EN Kuroge Wagyuta
+
+@ 199
+JP 葛西　純
+EN Jun Kasai
+
+@ 200
+JP 佐々木　義人
+EN Yoshihito Sasaki
+
+@ 201
+JP 佐々木　義人“０２ｖｅｒ”
+EN Y. Sasaki "02"
+
+@ 202
+JP 山笠Ｚ”信介
+EN Yamakasa Z Shinsuke
+
+@ 203
+JP 高橋　冬樹
+EN Fuyuki Takahashi
+
+@ 204
+JP 高橋　冬樹“坊主ｖｅｒ”
+EN Takahashi "Shaved"
+
+@ 205
+JP トム・ハワード
+EN Tom Howard
+
+@ 206
+JP ザ・プレデター
+EN The Predator
+
+@ 207
+JP スティーブ・コリノ
+EN Steve Corino
+
+@ 208
+JP Ｃ・Ｗ・アンダーソン
+EN C.W. Anderson
+
+@ 209
+JP キング・ジョー
+EN King Joe
+
+@ 210
+JP キング・アダモ
+EN King Adamo
+
+@ 211
+JP Ｌｏｗｋｉ
+EN Low Ki
+
+@ 212
+JP ヴァンサック・アシッド
+EN Vansack Acid
+
+@ 213
+JP 長州　力
+EN Riki Choshu
+
+@ 214
+JP 長州　力“革命Ｖｅｒ”
+EN Riki Choshu "Rev."
+
+@ 215
+JP 石井　智宏
+EN Tomohiro Ishii
+
+@ 216
+JP 宇和野　貴史
+EN Takashi Uwano
+
+@ 217
+JP 和田　城功
+EN Joko Wada
+
+@ 218
+JP マサ・サイトー
+EN Masa Saito
+
+@ 219
+JP 保永　昇男
+EN Norio Honaga
+
+@ 220
+JP 高山　善廣
+EN Yoshihiro Takayama
+
+@ 221
+JP 高山　善廣“０２ｖｅｒ”
+EN Y. Takayama "02"
+
+@ 222
+JP 天龍　源一郎
+EN Genichiro Tenryu
+
+@ 223
+JP 佐々木　健介
+EN Kensuke Sasaki
+
+@ 224
+JP 佐々木　健介“スキンＶｅｒ”
+EN K. Sasaki "Skinhead"
+
+@ 225
+JP 佐々木　健介“ＩＷＧＰＶｅｒ”
+EN Kensuke Sasaki "IWGP"
+
+@ 226
+JP 佐々木　健介“ハセケンＶｅｒ”
+EN K. Sasaki "Hase-Ken"
+
+@ 227
+JP バンダナ佐々木　健介
+EN Bandana K. Sasaki
+
+@ 228
+JP 佐々木　健介“０４Ｖｅｒ”
+EN Kensuke Sasaki "04"
+
+@ 229
+JP パワー・ウォリアー
+EN Power Warrior
+
+@ 230
+JP 大森　隆男
+EN Takao Omori
+
+@ 231
+JP 大森　隆男“ノーフィアーＶｅｒ”
+EN Takao Omori "No Fear"
+
+@ 232
+JP 大森　隆男“海外Ｖｅｒ”
+EN Takao Omori "Abroad"
+
+@ 233
+JP 大森　隆男“あすなろＶｅｒ”
+EN Takao Omori "Asunaro"
+
+@ 234
+JP 大森　隆男“０４Ｖｅｒ”
+EN Takao Omori "04"
+
+@ 235
+JP 越中　詩郎
+EN Shiro Koshinaka
+
+@ 236
+JP 中嶋　勝彦
+EN Katsuhiko Nakajima
+
+@ 237
+JP 田村　潔司
+EN Kiyoshi Tamura
+
+@ 238
+JP 田村　潔司“男だＶｅｒ”
+EN K. Tamura "Otoko da"
+
+@ 239
+JP レッドシューズ海野
+EN Red Shoes Unno
+
+@ 240
+JP 田山　正雄
+EN Masao Tayama
+
+@ 241
+JP 田中　秀和
+EN Hidekazu Tanaka
+
+@ 242
+JP 西永　秀一
+EN Shuichi Nishinaga
+
+@ 243
+JP 仲田　龍
+EN Ryu Nakata
+
+@ 244
+JP 和田　京平
+EN Kyohei Wada
+
+@ 245
+JP 木原　文人
+EN Fumihito Kihara
+
+@ 246
+JP 阿部　真輔
+EN Shinsuke Abe
+
+@ 247
+JP オッキー沖田
+EN Okky Okita
+
+@ 248
+JP タイガー服部
+EN Tiger Hattori
+
+@ 249
+JP 会津　義幸
+EN Yoshiyuki Aizu
+
+@ 250
+JP 暁
+EN Akatsuki
+
+@ 251
+JP 明田　幸三
+EN Kozo Aketa
+
+@ 252
+JP アステカ・ジュニア
+EN Azteca Jr.
+
+@ 253
+JP 後月　正成
+EN Masanari Shitsuki
+
+@ 254
+JP 安藤　障二
+EN Shoji Ando
+
+@ 255
+JP ＩＳＡＭＩ
+EN ISAMI
+
+@ 256
+JP 石原　冬威
+EN Toi Ishihara
+
+@ 257
+JP ウイニング亀村
+EN Winning Kamemura
+
+@ 258
+JP えぼすさん
+EN Ebosu-san
+
+@ 259
+JP おいしんぼ仮面
+EN Oishinbo Mask
+
+@ 260
+JP 大坪　一樹
+EN Kazuki Otsubo
+
+@ 261
+JP 沖田　勝志
+EN Katsushi Okita
+
+@ 262
+JP 梶井　直久
+EN Naohisa Kajii
+
+@ 263
+JP 梶田　政之
+EN Masayuki Kajita
+
+@ 264
+JP 梶田　ミツル
+EN Mitsuru Kajita
+
+@ 265
+JP 柏田　一樹
+EN Kazuki Kashiwada
+
+@ 266
+JP 梶原　丈
+EN Jo Kajiwara
+
+@ 267
+JP 河山　龍次
+EN Ryuji Kawayama
+
+@ 268
+JP 河本　信宏
+EN Nobuhiro Kawamoto
+
+@ 269
+JP 神崎　仁水
+EN Jinsui Kanzaki
+
+@ 270
+JP 金城　久志
+EN Hisashi Kaneshiro
+
+@ 271
+JP 楠田　政美
+EN Masami Kusuda
+
+@ 272
+JP 倉仲　武博
+EN Takehiro Kuranaka
+
+@ 273
+JP グラン・マリポーサ
+EN Gran Mariposa
+
+@ 274
+JP グレート司馬
+EN Great Shiba
+
+@ 275
+JP 黒光
+EN Kokko
+
+@ 276
+JP ザ・ミステリアス・カグラ
+EN Mysterious Kagura
+
+@ 277
+JP 冴刃　明
+EN Akira Saeba
+
+@ 278
+JP 榊　四五朗
+EN Shigoro Sakaki
+
+@ 279
+JP 佐岳　雅之
+EN Masayuki Satake
+
+@ 280
+JP 佐川　哲
+EN Satoshi Sagawa
+
+@ 281
+JP サクソン春樹
+EN Saxon Haruki
+
+@ 282
+JP 桜木“ジェット”旅人
+EN T. "Jet" Sakuragi
+
+@ 283
+JP 真田　伸久
+EN Nobuhisa Sanada
+
+@ 284
+JP ＺＹＭＡ
+EN ZYMA
+
+@ 285
+JP ジェット
+EN Jet
+
+@ 286
+JP 下山　龍飛
+EN Ryuhi Shimoyama
+
+@ 287
+JP Ｓ・ドルフィン
+EN S. Dolphin
+
+@ 288
+JP デルタ
+EN Delta
+
+@ 289
+JP トミー・ボンバー
+EN Tommy Bomber
+
+@ 290
+JP 豊田　みつる
+EN Mitsuru Toyoda
+
+@ 291
+JP 怒乱　音羽
+EN Doran Otowa
+
+@ 292
+JP 梨田　秀吉
+EN Hideyoshi Nashida
+
+@ 293
+JP 野川　裕也
+EN Yuya Nogawa
+
+@ 294
+JP ハイチ
+EN Haichi
+
+@ 295
+JP 白鬼
+EN Shiro-Oni
+
+@ 296
+JP ハンター五条
+EN Hunter Gojo
+
+@ 297
+JP ビクトリー武蔵
+EN Victory Musashi
+
+@ 298
+JP 火野　まさる
+EN Masaru Hino
+
+@ 299
+JP ブレード・ハヤテ
+EN Blade Hayate
+
+@ 300
+JP ヘラクレス大月
+EN Hercules Otsuki
+
+@ 301
+JP 宝坂　大志
+EN Taishi Hosaka
+
+@ 302
+JP マスク・ド・パンサー
+EN Mask de Panther
+
+@ 303
+JP マスク・ド・パンサーⅢ
+EN Mask de Panther III
+
+@ 304
+JP マスク・ド・パンサーⅣ
+EN Mask de Panther IV
+
+@ 305
+JP マスター・トーゴー
+EN Master Togo
+
+@ 306
+JP 松木　光次郎
+EN Kojiro Matsuki
+
+@ 307
+JP Ｍｒ．芦屋
+EN Mr. Ashiya
+
+@ 308
+JP 観月　慶三
+EN Keizo Mizuki
+
+@ 309
+JP 観月　みつる
+EN Mitsuru Mizuki
+
+@ 310
+JP 室田　鉄彦
+EN Tetsuhiko Murota
+
+@ 311
+JP 室田　鉄彦
+EN Tetsuhiko Murota
+
+@ 312
+JP 矢吹　光世
+EN Mitsuyo Yabuki
+
+@ 313
+JP ランマル
+EN Ranmaru
+
+@ 314
+JP リック　西城
+EN Rick Saijo
+
+@ 315
+JP ＷＡＫＡゆきぐに
+EN WAKA Yukiguni
+
+@ 316
+JP ワルサーＫＹＯＴＯ
+EN Walther KYOTO
+
+@ 317
+JP アイアン・ブラスター
+EN Iron Blaster
+
+@ 318
+JP アックス・ドゥガン
+EN Axe Dugan
+
+@ 319
+JP アブドル・ザ・デンジャー
+EN Abdul the Danger
+
+@ 320
+JP アンドレィ・ジルバ
+EN Andrei Zilba
+
+@ 321
+JP ヴァイティング・パイソン
+EN Viting Python
+
+@ 322
+JP ヴォイス・ステイシー
+EN Voice Stacy
+
+@ 323
+JP ウォルフ・バーン
+EN Wolf Bahn
+
+@ 324
+JP エイジ・ナコタ
+EN Eiji Nakota
+
+@ 325
+JP エドワード・アイフル
+EN Edward Eiful
+
+@ 326
+JP カリー・マスク
+EN Curry Mask
+
+@ 327
+JP 帽子カリー・マスク
+EN Curry Mask (Hat)
+
+@ 328
+JP カルロス・クラウザー
+EN Carlos Krauser
+
+@ 329
+JP カルロス・ヒューストン
+EN Carlos Houston
+
+@ 330
+JP キース・ラーニング
+EN Keith Learning
+
+@ 331
+JP ギャランドゥー・リベラ
+EN Gallandoo Rivera
+
+@ 332
+JP クリントン・Ｌ・ジョンソン
+EN Clinton L. Johnson
+
+@ 333
+JP ケイン・ハーロック
+EN Kane Harlock
+
+@ 334
+JP ケリー・テキサン
+EN Kerry Texan
+
+@ 335
+JP ケリー・ボギー
+EN Kerry Bogey
+
+@ 336
+JP ケンタウロ・ボヘミア
+EN Centauro Bohemia
+
+@ 337
+JP ゴールデンハンマー
+EN Golden Hammer
+
+@ 338
+JP サム・ポップ
+EN Sam Pop
+
+@ 339
+JP Ｇ・Ｏ＝ブライト
+EN G. O'Bright
+
+@ 340
+JP ジェネラル・ボルドー
+EN General Bordeaux
+
+@ 341
+JP ジェネラル・ボルドー
+EN General Bordeaux
+
+@ 342
+JP ジミー・ミラン
+EN Jimmy Milan
+
+@ 343
+JP ジャイアント・ロシュモフ
+EN Giant Roshmoff
+
+@ 344
+JP ジャクソン・フレージア
+EN Jackson Frazier
+
+@ 345
+JP ジョン・ピース
+EN John Peace
+
+@ 346
+JP スター・バイソン
+EN Star Bison
+
+@ 347
+JP スティル・ジェイムス
+EN Still James
+
+@ 348
+JP スモール・スタミナ
+EN Small Stamina
+
+@ 349
+JP セイバー
+EN Saber
+
+@ 350
+JP ダイナミック・キッド
+EN Dynamic Kid
+
+@ 351
+JP ダン・ダダーン
+EN Dan Dadaan
+
+@ 352
+JP ダン・ダダーン
+EN Dan Dadaan
+
+@ 353
+JP チーター・カール
+EN Cheetah Carl
+
+@ 354
+JP チョータ・ポポビッチ
+EN Chota Popovich
+
+@ 355
+JP ディック・スレンダー
+EN Dick Slender
+
+@ 356
+JP ドン・アンダーソン
+EN Don Anderson
+
+@ 357
+JP ドン・ローガン
+EN Don Logan
+
+@ 358
+JP ナイト・ブラスター
+EN Night Blaster
+
+@ 359
+JP ニクソン・ステイシー
+EN Nixon Stacy
+
+@ 360
+JP ネイマン・ショーンズ
+EN Neiman Shones
+
+@ 361
+JP ネモ
+EN Nemo
+
+@ 362
+JP バット・サファリ
+EN Bat Safari
+
+@ 363
+JP バッファロー・ルイス
+EN Buffalo Lewis
+
+@ 364
+JP ハリー・テキサンＪｒ．
+EN Harry Texan Jr.
+
+@ 365
+JP ハンク・フォレスト
+EN Hank Forest
+
+@ 366
+JP ビッグ・ザ・グレート・ブル
+EN Big the Great Bull
+
+@ 367
+JP ビッグ・スタミナ
+EN Big Stamina
+
+@ 368
+JP ビッグベア・ワイリー
+EN Bigbear Wiley
+
+@ 369
+JP ブランチ・ノルディック
+EN Branch Nordic
+
+@ 370
+JP ブリッツ・フォン・エルリック
+EN Blitz von Elric
+
+@ 371
+JP ブレンダン・クランク
+EN Brendan Crank
+
+@ 372
+JP ブレンダン・ダイモス
+EN Brendan Deimos
+
+@ 373
+JP ベイク・ゲルハルト
+EN Bake Gerhardt
+
+@ 374
+JP ベイビー・バッドエッジ
+EN Baby Badedge
+
+@ 375
+JP ベーム・シュトゥルム
+EN Behm Sturm
+
+@ 376
+JP ヘッド・ステイシー
+EN Head Stacy
+
+@ 377
+JP ヘラクレス・アレビン
+EN Hercules Alevin
+
+@ 378
+JP ホーネット・ゴースト
+EN Hornet Ghost
+
+@ 379
+JP ポール・サバンナ
+EN Paul Savanna
+
+@ 380
+JP ボーン・クライ
+EN Bone Cry
+
+@ 381
+JP ボス・ドッケン
+EN Boss Dokken
+
+@ 382
+JP マイク・アント
+EN Mike Ant
+
+@ 383
+JP マイク・オールマン
+EN Mike Allman
+
+@ 384
+JP マイク・ベアー
+EN Mike Bear
+
+@ 385
+JP マスカラ・イーグル
+EN Mascara Eagle
+
+@ 386
+JP マスカラ・イーグルＪｒ．
+EN Mascara Eagle Jr.
+
+@ 387
+JP マスカラ・コンドル
+EN Mascara Condor
+
+@ 388
+JP マッスル・モンスター
+EN Muscle Monster
+
+@ 389
+JP マッド・タイガー
+EN Mad Tiger
+
+@ 390
+JP ミクロ・プロポリス
+EN Micro Propolis
+
+@ 391
+JP ミスターフェイク
+EN Mister Fake
+
+@ 392
+JP ミステリーマン
+EN Mystery Man
+
+@ 393
+JP ムハンマド・ダリ
+EN Muhammad Dali
+
+@ 394
+JP ライアン・ステイシー
+EN Ryan Stacy
+
+@ 395
+JP ランドル・ロビィコフ
+EN Randall Robikoff
+
+@ 396
+JP リカルド・マローナ
+EN Ricardo Marona
+
+@ 397
+JP ルガール・ロブハンキン
+EN Rugal Robhankin
+
+@ 398
+JP レオモンド・スパイキー
+EN Leomond Spiky
+
+@ 399
+JP レッドデビル・パスカ
+EN Red Devil Pasca
+
+@ 400
+JP レビン・ガッシュ
+EN Levin Gash
+
+@ 401
+JP ロシアンエンペラー・ピョートル
+EN Russian Emp. Pyotr
+
+@ 402
+JP ロナウド・トバル
+EN Ronaldo Tobal
+
+@ 403
+JP ワイルド・ファントム
+EN Wild Phantom
+
+@ 404
+JP 宇宙人
+EN Alien
+
+@ 405
+JP オオカミ
+EN Wolf
+
+@ 406
+JP かっぱ
+EN Kappa
+
+@ 407
+JP 空手家
+EN Karateka
+
+@ 408
+JP くま
+EN Bear
+
+@ 409
+JP 侍
+EN Samurai
+
+@ 410
+JP サル
+EN Monkey
+
+@ 411
+JP 女子レスラー
+EN Female Wrestler
+
+@ 412
+JP バードマスク
+EN Bird Mask
+
+@ 413
+JP ひょう
+EN Leopard
+
+@ 414
+JP ライオン
+EN Lion
+
+@ 415
+JP ライダーマスク
+EN Rider Mask
+
+@ 416
+JP 船木　誠勝
+EN Masakatsu Funaki
+
+@ 417
+JP 船木　誠勝“１９９４Ｖｅｒ”
+EN M. Funaki "1994"
+
+@ 418
+JP 近藤　有己
+EN Yuki Kondo
+
+@ 419
+JP 鈴木　みのる“髪Ｖｅｒ”
+EN Minoru Suzuki "Hair"
+
+@ 420
+JP 高橋　義生
+EN Yoshiki Takahashi
+
+@ 421
+JP 國奥　麒樹真
+EN Kiuma Kunioku
+
+@ 422
+JP 渋谷　修身
+EN Osami Shibuya
+
+@ 423
+JP 謙吾
+EN Kengo
+
+@ 424
+JP 山宮　恵一郎
+EN Keiichiro Yamamiya
+
+@ 425
+JP 菊田　早苗
+EN Sanae Kikuta
+
+@ 426
+JP 郷野　聡寛
+EN Akihiro Gono
+
+@ 427
+JP 佐々木　有生
+EN Yuki Sasaki
+
+@ 428
+JP 廣戸　聡一
+EN Soichi Hiroto
+
+@ 429
+JP ストロング
+EN Strong
+
+@ 430
+JP テクニック
+EN Technique
+
+@ 431
+JP アマレス
+EN Amateur
+
+@ 432
+JP パワー
+EN Power
+
+@ 433
+JP ルチャ
+EN Lucha
+
+@ 434
+JP シューティング
+EN Shooting
+
+@ 435
+JP ミステリアス
+EN Mysterious
+
+@ 436
+JP 骨法
+EN Koppo
+
+@ 437
+JP 柔術
+EN Jiu-Jitsu
+
+@ 438
+JP ボクシング
+EN Boxing
+
+@ 439
+JP 総合系
+EN MMA
+
+@ 440
+JP フリーファイター
+EN Free Fighter
+
+@ 441
+JP グラウンド
+EN Ground
+
+@ 442
+JP ノーマル（細）
+EN Normal (Thin)
+
+@ 443
+JP ノーマル（中）
+EN Normal (Mid)
+
+@ 444
+JP ノーマル（太）
+EN Normal (Thick)
+
+@ 445
+JP デブ（中）
+EN Heavy (Mid)
+
+@ 446
+JP デブ（太）
+EN Heavy (Thick)
+
+@ 447
+JP マッスル
+EN Muscle
+
+@ 448
+JP ジャイアント
+EN Giant
+
+@ 449
+JP グッドシェイプ
+EN Good Shape
+
+@ 450
+JP レボリューション
+EN Revolution
+
+@ 451
+JP クラッシャー
+EN Crusher
+
+@ 452
+JP レスラーマッスル
+EN Wrestler Muscle
+
+@ 453
+JP ダイナミック
+EN Dynamic
+
+@ 454
+JP セイバー
+EN Saber
+
+@ 455
+JP ＳＳ
+EN SS
+
+@ 456
+JP Ｓ
+EN S
+
+@ 457
+JP Ｍ
+EN M
+
+@ 458
+JP Ｌ
+EN L
+
+@ 459
+JP ＬＬ
+EN LL
+
+@ 460
+JP ノーマル
+EN Normal
+
+@ 461
+JP 柔道着
+EN Judo Gi
+
+@ 462
+JP パンタロン
+EN Pantaloons
+
+@ 463
+JP 忍者
+EN Ninja
+
+@ 464
+JP もんぺ
+EN Monpe
+
+@ 465
+JP 裾入れジーンズ
+EN Tucked-In Jeans
+
+@ 466
+JP ジャージ
+EN Track Pants
+
+@ 467
+JP トランクス
+EN Trunks
+
+@ 468
+JP 総裁スーツ
+EN Chairman Suit
+
+@ 469
+JP ケロ
+EN Kero
+
+@ 470
+JP 木原
+EN Kihara
+
+@ 471
+JP なし
+EN None
+
+@ 472
+JP あり
+EN Yes
+
+@ 473
+JP 裸
+EN Bare
+
+@ 474
+JP レスラーボディ
+EN Wrestler Body
+
+@ 475
+JP デブボディ
+EN Heavy Body
+
+@ 476
+JP ジャイアントボディ
+EN Giant Body
+
+@ 477
+JP グッドシェイプボディ
+EN Good Shape Body
+
+@ 478
+JP レスラーマッチョボディ
+EN Wrestler Macho Body
+
+@ 479
+JP 格闘家ボディ
+EN Fighter Body
+
+@ 480
+JP 格闘家ボディ腹筋無し
+EN Fighter Body No Abs
+
+@ 481
+JP 格闘家マッチョボディ
+EN Fighter Macho Body
+
+@ 482
+JP 薄い胸毛
+EN Light Chest Hair
+
+@ 483
+JP 濃い胸毛
+EN Thick Chest Hair
+
+@ 484
+JP 傷跡
+EN Scars
+
+@ 485
+JP 薄い胸毛マッチョボディ
+EN Macho, Light Hair
+
+@ 486
+JP 濃い胸毛マッチョボディ
+EN Macho, Thick Hair
+
+@ 487
+JP 濃い胸毛格闘マッチョボディ
+EN Hairy Fighter Macho
+
+@ 488
+JP レスラーＭ胸
+EN Wrestler M Chest
+
+@ 489
+JP レスラーＭグッドシェイプボディ
+EN Wrestler M Good Shape
+
+@ 490
+JP レスラーＭレスラーボディ
+EN Wrestler M Wrestler
+
+@ 491
+JP レスラーＭ薄い胸毛
+EN Wrestler M Lt. Hair
+
+@ 492
+JP レスラーＭ濃い胸毛
+EN Wrestler M Hairy
+
+@ 493
+JP エンペラー胸
+EN Emperor Chest
+
+@ 494
+JP エンペラー薄い胸毛
+EN Emperor Light Hair
+
+@ 495
+JP エンペラー濃い胸毛
+EN Emperor Thick Hair
+
+@ 496
+JP 三沢ボディ
+EN Misawa Body
+
+@ 497
+JP 小橋ボディ
+EN Kobashi Body
+
+@ 498
+JP 森嶋ボディ
+EN Morishima Body
+
+@ 499
+JP 田上ボディ
+EN Taue Body
+
+@ 500
+JP 武藤ボディ
+EN Mutoh Body
+
+@ 501
+JP 本間ボディ
+EN Honma Body
+
+@ 502
+JP 橋本ボディ
+EN Hashimoto Body
+
+@ 503
+JP 天龍ボディ
+EN Tenryu Body
+
+@ 504
+JP 高山ボディ
+EN Takayama Body
+
+@ 505
+JP 上山ボディ
+EN Ueyama Body
+
+@ 506
+JP ビーストボディ
+EN Beast Body
+
+@ 507
+JP 脱臼テーピング
+EN Dislocation Taping
+
+@ 508
+JP 星ペイント１
+EN Star Paint 1
+
+@ 509
+JP 星ペイント２
+EN Star Paint 2
+
+@ 510
+JP お経ペイント
+EN Sutra Paint
+
+@ 511
+JP ライガーペイント
+EN Liger Paint
+
+@ 512
+JP 黒師ペイント
+EN Kokushi Paint
+
+@ 513
+JP 孤士ペイント
+EN Koji Paint
+
+@ 514
+JP アメリカンタトゥー
+EN American Tattoo
+
+@ 515
+JP 翼タトゥー
+EN Wing Tattoo
+
+@ 516
+JP ジーザスタトゥー
+EN Jesus Tattoo
+
+@ 517
+JP 和風タトゥー
+EN Japanese Tattoo
+
+@ 518
+JP 獅子タトゥー
+EN Lion Tattoo
+
+@ 519
+JP 肩タトゥー
+EN Shoulder Tattoo
+
+@ 520
+JP 邪道タトゥー
+EN Jado Tattoo
+
+@ 521
+JP エンセンタトゥー
+EN Enson Tattoo
+
+@ 522
+JP スコーピオタトゥー
+EN Scorpio Tattoo
+
+@ 523
+JP 彰俊タトゥー
+EN Akitoshi Tattoo
+
+@ 524
+JP 青柳タトゥー
+EN Aoyagi Tattoo
+
+@ 525
+JP Ｌｏｗｋｉタトゥー
+EN Low Ki Tattoo
+
+@ 526
+JP 横井タトゥー
+EN Yokoi Tattoo
+
+@ 527
+JP 耕平タトゥー
+EN Kohei Tattoo
+
+@ 528
+JP 葛西ボディー
+EN Kasai Body
+
+@ 529
+JP ハワードタトゥー
+EN Howard Tattoo
+
+@ 530
+JP アダモボディー
+EN Adamo Body
+
+@ 531
+JP 長南タトゥー
+EN Chonan Tattoo
+
+@ 532
+JP ワンショルダー
+EN One-Shoulder
+
+@ 533
+JP デブワンショルダー
+EN Heavy One-Shoulder
+
+@ 534
+JP デブラインワンショルダー
+EN Heavy Line 1-Strap
+
+@ 535
+JP 破れワンショルダー
+EN Torn One-Shoulder
+
+@ 536
+JP 無地タンクトップ
+EN Plain Tank Top
+
+@ 537
+JP あきなしタンクトップ
+EN Closed Tank Top
+
+@ 538
+JP 背中あきタンクトップ
+EN Open-Back Tank Top
+
+@ 539
+JP 縁取りタンクトップ１
+EN Trimmed Tank Top 1
+
+@ 540
+JP 縁取りタンクトップ２
+EN Trimmed Tank Top 2
+
+@ 541
+JP ラインタンクトップ１
+EN Line Tank Top 1
+
+@ 542
+JP ラインタンクトップ２
+EN Line Tank Top 2
+
+@ 543
+JP 爆破防護服
+EN Bomb Suit
+
+@ 544
+JP 蝶野タンクトップ
+EN Chono Tank Top
+
+@ 545
+JP サムライタンクトップ１
+EN Samurai Tank Top 1
+
+@ 546
+JP サムライタンクトップ２
+EN Samurai Tank Top 2
+
+@ 547
+JP セイバータンクトップ１
+EN Saber Tank Top 1
+
+@ 548
+JP セイバータンクトップ２
+EN Saber Tank Top 2
+
+@ 549
+JP ギガンテスタンクトップ
+EN Gigantes Tank Top
+
+@ 550
+JP ＲＯ＆Ｄタンクトップ
+EN RO&D Tank Top
+
+@ 551
+JP ＲＯ＆Ｄ太陽タンクトップ
+EN RO&D Taiyo Tank Top
+
+@ 552
+JP ジャマールタンクトップ
+EN Jamal Tank Top
+
+@ 553
+JP ＩＳＡＭＩタンクトップ
+EN ISAMI Tank Top
+
+@ 554
+JP エンペラーＳタンクトップ１
+EN Emperor S Tank Top 1
+
+@ 555
+JP エンペラーＳタンクトップ２
+EN Emperor S Tank Top 2
+
+@ 556
+JP クロニクルタンクトップ
+EN Chronicle Tank Top
+
+@ 557
+JP ドルフィンタンクトップ
+EN Dolphin Tank Top
+
+@ 558
+JP ファイヤータンクトップ
+EN Fire Tank Top
+
+@ 559
+JP テンタタンクトップ
+EN Tenta Tank Top
+
+@ 560
+JP Ｂ・タイガータンクトップ
+EN B. Tiger Tank Top
+
+@ 561
+JP ジェットタンクトップ
+EN Jet Tank Top
+
+@ 562
+JP カリータンクトップ
+EN Curry Tank Top
+
+@ 563
+JP アマレスタイツ１
+EN Singlet 1
+
+@ 564
+JP アマレスタイツ２
+EN Singlet 2
+
+@ 565
+JP アマレス吉江１
+EN Yoshie Singlet 1
+
+@ 566
+JP アマレス吉江２
+EN Yoshie Singlet 2
+
+@ 567
+JP ワンショルダー吉江
+EN Yoshie 1-Shoulder
+
+@ 568
+JP アマレスノートン１
+EN Norton Singlet 1
+
+@ 569
+JP アマレスノートン２
+EN Norton Singlet 2
+
+@ 570
+JP アマレスノートン３
+EN Norton Singlet 3
+
+@ 571
+JP アマレス多聞
+EN Tamon Singlet
+
+@ 572
+JP アマレス泉田
+EN Izumida Singlet
+
+@ 573
+JP アマレス荒谷
+EN Araya Singlet
+
+@ 574
+JP アマレス保坂
+EN Hosaka Singlet
+
+@ 575
+JP アマレスアンダーソン
+EN Anderson Singlet
+
+@ 576
+JP アマレスサファリ
+EN Safari Singlet
+
+@ 577
+JP ワンショルダー富豪
+EN Fugo One-Shoulder
+
+@ 578
+JP アマレススタミナ
+EN Stamina Singlet
+
+@ 579
+JP アマレスジェイムス
+EN James Singlet
+
+@ 580
+JP アマレスDシルバー
+EN D. Silver Singlet
+
+@ 582
+JP アマレスギガント
+EN Gigant Singlet
+
+@ 583
+JP アマレスクロニクル
+EN Chronicle Singlet
+
+@ 584
+JP アマレスアレビン
+EN Alevin Singlet
+
+@ 585
+JP アマレスブライト
+EN Bright Singlet
+
+@ 586
+JP アマレス星マーク
+EN Star Singlet
+
+@ 587
+JP アマレスＵＳＡ
+EN USA Singlet
+
+@ 588
+JP ライガースーツ１
+EN Liger Suit 1
+
+@ 589
+JP ライガースーツ２
+EN Liger Suit 2
+
+@ 590
+JP 新日ジャージ
+EN New Japan Jersey
+
+@ 591
+JP 長袖シャツ
+EN Long-Sleeve Shirt
+
+@ 592
+JP パンサーキングスーツ
+EN Panther King Suit
+
+@ 593
+JP カニスーツ
+EN Crab Suit
+
+@ 594
+JP ガンガンスーツ
+EN Gangan Suit
+
+@ 595
+JP 蝶野ベルトボディ１
+EN Chono Belt Body 1
+
+@ 596
+JP 蝶野ベルトボディ２
+EN Chono Belt Body 2
+
+@ 597
+JP 天山ベルトボディ
+EN Tenzan Belt Body
+
+@ 598
+JP 金丸ベルトボディ
+EN Kanemaru Belt Body
+
+@ 599
+JP 荒谷ベルトボディ
+EN Araya Belt Body
+
+@ 600
+JP 保坂ベルトボディ
+EN Hosaka Belt Body
+
+@ 601
+JP デンジャーベルトボディ
+EN Danger Belt Body
+
+@ 602
+JP ベルトボディ
+EN Belt Body
+
+@ 603
+JP ベルト＆シャツボディ
+EN Belt & Shirt Body
+
+@ 604
+JP 肩サポーター
+EN Shoulder Brace
+
+@ 605
+JP 無地Ｔシャツ
+EN Plain T-Shirt
+
+@ 606
+JP チビＴシャツ
+EN Tight T-Shirt
+
+@ 607
+JP 新日Ｔシャツ
+EN New Japan T-Shirt
+
+@ 608
+JP ナガタロックＴシャツ
+EN Nagata Lock T-Shirt
+
+@ 609
+JP Ｔ２０００　Ｔシャツ
+EN T2000 T-Shirt
+
+@ 610
+JP Ｔ２０００ジャンプスーツ
+EN T2000 Jumpsuit
+
+@ 611
+JP Ｇ－ｅｇｇｓ　Ｔシャツ
+EN G-eggs T-Shirt
+
+@ 612
+JP 中西Ｔシャツ
+EN Nakanishi T-Shirt
+
+@ 613
+JP 棚橋タンクトップ
+EN Tanahashi Tank Top
+
+@ 614
+JP 中邑Ｔシャツ
+EN Nakamura T-Shirt
+
+@ 615
+JP バーネットＴシャツ
+EN Barnett T-Shirt
+
+@ 616
+JP 金本Ｔシャツ
+EN Kanemoto T-Shirt
+
+@ 617
+JP 魔界倶楽部Ｔシャツ
+EN Makai Club T-Shirt
+
+@ 618
+JP 魔界倶楽部タンクトップ
+EN Makai Club Tank Top
+
+@ 619
+JP 破悧魔王’ＺＴシャツ
+EN Harimao'Z T-Shirt
+
+@ 620
+JP 大和魂Ｔシャツ
+EN Yamato Damashii Tee
+
+@ 621
+JP クレイジードッグスＴシャツ
+EN Crazy Dogs T-Shirt
+
+@ 622
+JP 飯塚Ｔシャツ
+EN Iizuka T-Shirt
+
+@ 623
+JP 田中稔Ｔシャツ
+EN Minoru Tanaka Tee
+
+@ 624
+JP バートンＴシャツ
+EN Barton T-Shirt
+
+@ 625
+JP キングオブザヒルズＴシャツ
+EN King of the Hills
+
+@ 626
+JP ストロングスタイルＴシャツ
+EN Strong Style Tee
+
+@ 627
+JP ノアＴシャツ
+EN NOAH T-Shirt
+
+@ 628
+JP バーニングＴシャツ
+EN Burning T-Shirt
+
+@ 629
+JP ウェーブＴシャツ
+EN Wave T-Shirt
+
+@ 630
+JP スターネスＴシャツ
+EN Starness T-Shirt
+
+@ 631
+JP 田上Ｔシャツ
+EN Taue T-Shirt
+
+@ 632
+JP ＷＩＬＤⅡＴシャツ
+EN WILD II T-Shirt
+
+@ 633
+JP 池田Ｔシャツ
+EN Ikeda T-Shirt
+
+@ 634
+JP 佐野Ｔシャツ
+EN Sano T-Shirt
+
+@ 635
+JP 金丸Ｔシャツ
+EN Kanemaru T-Shirt
+
+@ 636
+JP ＫＥＮＴＡ　Ｔシャツ
+EN KENTA T-Shirt
+
+@ 637
+JP 鼓太郎Ｔシャツ
+EN Kotaro T-Shirt
+
+@ 638
+JP 橋Ｔシャツ
+EN Hashi T-Shirt
+
+@ 639
+JP 男前Ｔシャツ
+EN Otokomae T-Shirt
+
+@ 640
+JP 色男Ｔシャツ
+EN Irootoko T-Shirt
+
+@ 641
+JP 全日Ｔシャツ
+EN All Japan T-Shirt
+
+@ 642
+JP 武藤Ｔシャツ
+EN Mutoh T-Shirt
+
+@ 643
+JP 川田Ｔシャツ
+EN Kawada T-Shirt
+
+@ 644
+JP 小島Ｔシャツ
+EN Kojima T-Shirt
+
+@ 645
+JP プロムナードＴシャツ
+EN Promenade T-Shirt
+
+@ 646
+JP ＢＡＴＴ　Ｔシャツ
+EN BATT T-Shirt
+
+@ 647
+JP 太陽Ｔシャツ１
+EN Taiyo T-Shirt 1
+
+@ 648
+JP 太陽Ｔシャツ２
+EN Taiyo T-Shirt 2
+
+@ 649
+JP 渕Ｔシャツ
+EN Fuchi T-Shirt
+
+@ 650
+JP 馳Ｔシャツ
+EN Hase T-Shirt
+
+@ 651
+JP ぬるま湯Ｔシャツ
+EN Nurumayu T-Shirt
+
+@ 652
+JP ターメリックＴシャツ１
+EN Turmeric T-Shirt 1
+
+@ 653
+JP ターメリックＴシャツ２
+EN Turmeric T-Shirt 2
+
+@ 654
+JP ハインズＴシャツ
+EN Hines T-Shirt
+
+@ 655
+JP ＺＥＲＯ－ＯＮＥ　Ｔシャツ
+EN ZERO-ONE T-Shirt
+
+@ 656
+JP 大谷Ｔシャツ
+EN Otani T-Shirt
+
+@ 657
+JP サファリ　Ｔシャツ
+EN Safari T-Shirt
+
+@ 658
+JP ＷＪ　Ｔシャツ
+EN WJ T-Shirt
+
+@ 659
+JP 長州Ｔシャツ
+EN Choshu T-Shirt
+
+@ 660
+JP ＷＡＲ　Ｔシャツ
+EN WAR T-Shirt
+
+@ 661
+JP レボリューションＴシャツ
+EN Revolution T-Shirt
+
+@ 662
+JP 恐れ知らずＴシャツ１
+EN Fearless T-Shirt 1
+
+@ 663
+JP 恐れ知らずＴシャツ２
+EN Fearless T-Shirt 2
+
+@ 664
+JP Ｕ－ＦＩＬＥ　Ｔシャツ
+EN U-FILE T-Shirt
+
+@ 665
+JP パンクラスＴシャツ１
+EN Pancrase T-Shirt 1
+
+@ 666
+JP パンクラスＴシャツ２
+EN Pancrase T-Shirt 2
+
+@ 667
+JP 近藤Ｔシャツ
+EN Kondo T-Shirt
+
+@ 668
+JP 船木Ｔシャツ
+EN Funaki T-Shirt
+
+@ 669
+JP グラバカＴシャツ
+EN Grabaka T-Shirt
+
+@ 670
+JP 鬼Ｔシャツ
+EN Oni T-Shirt
+
+@ 671
+JP 柏田Ｔシャツ
+EN Kashiwada T-Shirt
+
+@ 672
+JP ＺＹＭＡタンクトップ
+EN ZYMA Tank Top
+
+@ 673
+JP 梶田Ｔシャツ
+EN Kajita T-Shirt
+
+@ 674
+JP ケンタウロＴシャツ
+EN Centauro T-Shirt
+
+@ 675
+JP 野川Ｔシャツ１
+EN Nogawa T-Shirt 1
+
+@ 676
+JP 野川Ｔシャツ２
+EN Nogawa T-Shirt 2
+
+@ 677
+JP 柔道着
+EN Judo Gi
+
+@ 678
+JP 柔術着
+EN Jiu-Jitsu Gi
+
+@ 679
+JP ノアジャージ
+EN NOAH Jersey
+
+@ 680
+JP 維震軍胴着
+EN Ishin-gun Dogi
+
+@ 681
+JP 忍者コスチューム
+EN Ninja Costume
+
+@ 682
+JP 全日ジャージ
+EN All Japan Jersey
+
+@ 683
+JP 汎用ジャージ１
+EN Plain Jersey 1
+
+@ 684
+JP 汎用ジャージ２
+EN Plain Jersey 2
+
+@ 685
+JP ラインジャージ
+EN Line Jersey
+
+@ 686
+JP スーツ
+EN Suit
+
+@ 687
+JP 総裁スーツ
+EN Chairman Suit
+
+@ 688
+JP ＺＥＲＯ－ＯＮＥレフリーシャツ
+EN ZERO-ONE Ref Shirt
+
+@ 689
+JP ＷＪ　レフリーシャツ
+EN WJ Referee Shirt
+
+@ 690
+JP 菊田柔術着
+EN Kikuta Jiu-Jitsu Gi
+
+@ 691
+JP アマレスロトンド
+EN Rotondo Singlet
+
+@ 692
+JP ボロボロ着
+EN Rags
+
+@ 693
+JP 新日レフリーシャツ
+EN New Japan Ref Shirt
+
+@ 694
+JP 全日レフリーシャツ
+EN All Japan Ref Shirt
+
+@ 695
+JP ノアレフリーシャツ
+EN NOAH Referee Shirt
+
+@ 696
+JP ステイシージャージ
+EN Stacy Jersey
+
+@ 697
+JP えぼすスーツ
+EN Ebosu Suit
+
+@ 698
+JP パンクラスレフリーシャツ
+EN Pancrase Ref Shirt
+
+@ 699
+JP ケロ胸
+EN Kero Chest
+
+@ 700
+JP 木原胸
+EN Kihara Chest
+
+@ 701
+JP 仲田胸
+EN Nakata Chest
+
+@ 702
+JP フライＴシャツ
+EN Frye T-Shirt
+
+@ 703
+JP 美濃輪Ｔシャツ
+EN Minowa T-Shirt
+
+@ 704
+JP 裏ハラＴシャツ１
+EN Urahara T-Shirt 1
+
+@ 705
+JP 裏ハラＴシャツ２
+EN Urahara T-Shirt 2
+
+@ 706
+JP 梨田柔道着
+EN Nashida Judo Gi
+
+@ 707
+JP 総裁スーツ
+EN Chairman Suit
+
+@ 708
+JP 裸
+EN Bare
+
+@ 709
+JP エルボーパッド
+EN Elbow Pad
+
+@ 710
+JP 肘サポーター
+EN Elbow Pad
+
+@ 711
+JP パッド＆サポーター
+EN Pads & Braces
+
+@ 712
+JP 腕バンド１
+EN Armband 1
+
+@ 713
+JP 腕バンド２
+EN Armband 2
+
+@ 714
+JP 腕バンド３
+EN Armband 3
+
+@ 715
+JP 腕バンド４
+EN Armband 4
+
+@ 716
+JP ランマルリスト
+EN Ranmaru Wrist
+
+@ 717
+JP ジェットリスト
+EN Jet Wrist
+
+@ 718
+JP テングリスト
+EN Tengu Wrist
+
+@ 719
+JP 腕毛
+EN Arm Hair
+
+@ 720
+JP 傷跡
+EN Scars
+
+@ 721
+JP お経ペイント
+EN Sutra Paint
+
+@ 722
+JP ライガーペイント
+EN Liger Paint
+
+@ 723
+JP 黒師ペイント
+EN Kokushi Paint
+
+@ 724
+JP ジーザスタトゥー
+EN Jesus Tattoo
+
+@ 725
+JP 和風タトゥー
+EN Japanese Tattoo
+
+@ 726
+JP エンセンタトゥー
+EN Enson Tattoo
+
+@ 727
+JP アダモタトゥー
+EN Adamo Tattoo
+
+@ 728
+JP ギガンテスタトゥー
+EN Gigantes Tattoo
+
+@ 729
+JP ファイヤータトゥー
+EN Fire Tattoo
+
+@ 730
+JP テンタタトゥー
+EN Tenta Tattoo
+
+@ 731
+JP ライガースーツ１
+EN Liger Suit 1
+
+@ 732
+JP ライガースーツ２
+EN Liger Suit 2
+
+@ 733
+JP えぼすスーツ
+EN Ebosu Suit
+
+@ 734
+JP 長袖シャツ
+EN Long-Sleeve Shirt
+
+@ 735
+JP 肩サポーター
+EN Shoulder Brace
+
+@ 736
+JP 柔道着
+EN Judo Gi
+
+@ 737
+JP 柔術着
+EN Jiu-Jitsu Gi
+
+@ 738
+JP 菊田柔術着
+EN Kikuta Jiu-Jitsu Gi
+
+@ 739
+JP 維震軍胴着
+EN Ishin-gun Dogi
+
+@ 740
+JP ボロボロ着
+EN Rags
+
+@ 741
+JP 忍者コスチューム
+EN Ninja Costume
+
+@ 742
+JP 新日ジャージ
+EN New Japan Jersey
+
+@ 743
+JP ノアジャージ
+EN NOAH Jersey
+
+@ 744
+JP 全日ジャージ
+EN All Japan Jersey
+
+@ 745
+JP 汎用ジャージ１
+EN Plain Jersey 1
+
+@ 746
+JP 汎用ジャージ２
+EN Plain Jersey 2
+
+@ 747
+JP ラインジャージ
+EN Line Jersey
+
+@ 748
+JP スーツ
+EN Suit
+
+@ 749
+JP 総裁スーツ
+EN Chairman Suit
+
+@ 750
+JP 新日レフリーシャツ
+EN New Japan Ref Shirt
+
+@ 751
+JP 全日レフリーシャツ
+EN All Japan Ref Shirt
+
+@ 752
+JP ノアレフリーシャツ
+EN NOAH Referee Shirt
+
+@ 753
+JP ステイシージャージ
+EN Stacy Jersey
+
+@ 754
+JP パンクラスレフリーシャツ
+EN Pancrase Ref Shirt
+
+@ 755
+JP ケロ肘
+EN Kero Elbow
+
+@ 756
+JP 木原肘
+EN Kihara Elbow
+
+@ 757
+JP 仲田肘
+EN Nakata Elbow
+
+@ 758
+JP 梨田柔道着
+EN Nashida Judo Gi
+
+@ 759
+JP 総裁スーツ
+EN Chairman Suit
+
+@ 760
+JP 裸
+EN Bare
+
+@ 761
+JP エルボーパッド
+EN Elbow Pad
+
+@ 762
+JP 肘サポーター
+EN Elbow Pad
+
+@ 763
+JP パッド＆サポーター
+EN Pads & Braces
+
+@ 764
+JP 腕バンド１
+EN Armband 1
+
+@ 765
+JP 腕バンド２
+EN Armband 2
+
+@ 766
+JP 腕バンド３
+EN Armband 3
+
+@ 767
+JP 腕バンド４
+EN Armband 4
+
+@ 768
+JP ランマルリスト
+EN Ranmaru Wrist
+
+@ 769
+JP ジェットリスト
+EN Jet Wrist
+
+@ 770
+JP テングリスト
+EN Tengu Wrist
+
+@ 771
+JP 腕毛
+EN Arm Hair
+
+@ 772
+JP 傷跡
+EN Scars
+
+@ 773
+JP お経ペイント
+EN Sutra Paint
+
+@ 774
+JP ライガーペイント
+EN Liger Paint
+
+@ 775
+JP 黒師ペイント
+EN Kokushi Paint
+
+@ 776
+JP ジーザスタトゥー
+EN Jesus Tattoo
+
+@ 777
+JP 和風タトゥー
+EN Japanese Tattoo
+
+@ 778
+JP エンセンタトゥー
+EN Enson Tattoo
+
+@ 779
+JP アダモタトゥー
+EN Adamo Tattoo
+
+@ 780
+JP ギガンテスタトゥー
+EN Gigantes Tattoo
+
+@ 781
+JP ファイヤータトゥー
+EN Fire Tattoo
+
+@ 782
+JP テンタタトゥー
+EN Tenta Tattoo
+
+@ 783
+JP ライガースーツ１
+EN Liger Suit 1
+
+@ 784
+JP ライガースーツ２
+EN Liger Suit 2
+
+@ 785
+JP えぼすスーツ
+EN Ebosu Suit
+
+@ 786
+JP 長袖シャツ
+EN Long-Sleeve Shirt
+
+@ 787
+JP 肩サポーター
+EN Shoulder Brace
+
+@ 788
+JP 柔道着
+EN Judo Gi
+
+@ 789
+JP 柔術着
+EN Jiu-Jitsu Gi
+
+@ 790
+JP 菊田柔術着
+EN Kikuta Jiu-Jitsu Gi
+
+@ 791
+JP 維震軍胴着
+EN Ishin-gun Dogi
+
+@ 792
+JP ボロボロ着
+EN Rags
+
+@ 793
+JP 忍者コスチューム
+EN Ninja Costume
+
+@ 794
+JP 新日ジャージ
+EN New Japan Jersey
+
+@ 795
+JP ノアジャージ
+EN NOAH Jersey
+
+@ 796
+JP 全日ジャージ
+EN All Japan Jersey
+
+@ 797
+JP 汎用ジャージ１
+EN Plain Jersey 1
+
+@ 798
+JP 汎用ジャージ２
+EN Plain Jersey 2
+
+@ 799
+JP ラインジャージ
+EN Line Jersey
+
+@ 800
+JP スーツ
+EN Suit
+
+@ 801
+JP 総裁スーツ
+EN Chairman Suit
+
+@ 802
+JP 新日レフリーシャツ
+EN New Japan Ref Shirt
+
+@ 803
+JP 全日レフリーシャツ
+EN All Japan Ref Shirt
+
+@ 804
+JP ノアレフリーシャツ
+EN NOAH Referee Shirt
+
+@ 805
+JP ステイシージャージ
+EN Stacy Jersey
+
+@ 806
+JP パンクラスレフリーシャツ
+EN Pancrase Ref Shirt
+
+@ 807
+JP ケロ肘
+EN Kero Elbow
+
+@ 808
+JP 木原肘
+EN Kihara Elbow
+
+@ 809
+JP 仲田肘
+EN Nakata Elbow
+
+@ 810
+JP 梨田柔道着
+EN Nashida Judo Gi
+
+@ 811
+JP 総裁スーツ
+EN Chairman Suit
+
+@ 812
+JP 裸
+EN Bare
+
+@ 813
+JP ハーフリスト
+EN Half Wrist
+
+@ 814
+JP リストバンド
+EN Wristband
+
+@ 815
+JP テーピングリスト
+EN Taped Wrist
+
+@ 816
+JP ラインリスト
+EN Line Wrist
+
+@ 817
+JP ロングリストバンド
+EN Long Wristband
+
+@ 818
+JP テーピング
+EN Taping
+
+@ 819
+JP 蝶野リスト１
+EN Chono Wrist 1
+
+@ 820
+JP 蝶野リスト２
+EN Chono Wrist 2
+
+@ 821
+JP 井上リスト
+EN Inoue Wrist
+
+@ 822
+JP ヨネリスト
+EN Yone Wrist
+
+@ 823
+JP 橋リスト
+EN Hashi Wrist
+
+@ 824
+JP ムタリスト１
+EN Muta Wrist 1
+
+@ 825
+JP ムタリスト２
+EN Muta Wrist 2
+
+@ 826
+JP ムタリスト３
+EN Muta Wrist 3
+
+@ 827
+JP ムタリスト４
+EN Muta Wrist 4
+
+@ 828
+JP 黒師リスト
+EN Kokushi Wrist
+
+@ 829
+JP 孤士リスト
+EN Koji Wrist
+
+@ 830
+JP ギガンテスリスト
+EN Gigantes Wrist
+
+@ 831
+JP ＳＨＯＧＵＮリスト
+EN SHOGUN Wrist
+
+@ 832
+JP Ｕ系リスト
+EN U-Style Wrist
+
+@ 833
+JP ドルフィンリスト
+EN Dolphin Wrist
+
+@ 834
+JP カニリスト
+EN Crab Wrist
+
+@ 835
+JP ランマルリスト
+EN Ranmaru Wrist
+
+@ 836
+JP ジェットリスト
+EN Jet Wrist
+
+@ 837
+JP テングリスト
+EN Tengu Wrist
+
+@ 838
+JP 裸（指テ）
+EN Bare (F. Tape)
+
+@ 839
+JP ハーフリスト（指テ）
+EN Half Wrist+FT
+
+@ 840
+JP リストバンド（指テ）
+EN Wristband (F. Tape)
+
+@ 841
+JP テーピングリスト（指テ）
+EN Taped Wrist+FT
+
+@ 842
+JP ラインリスト（指テ）
+EN Line Wrist+FT
+
+@ 843
+JP ロングリストバンド（指テ）
+EN Long Band (F. Tape)
+
+@ 844
+JP テーピング（指テ）
+EN Taping (F. Tape)
+
+@ 845
+JP 蝶野リスト１（指テ）
+EN Chono 1 (F. Tape)
+
+@ 846
+JP 蝶野リスト２（指テ）
+EN Chono 2 (F. Tape)
+
+@ 847
+JP 井上リスト（指テ）
+EN Inoue (F. Tape)
+
+@ 848
+JP ヨネリスト（指テ）
+EN Yone (F. Tape)
+
+@ 849
+JP 橋リスト（指テ）
+EN Hashi (F. Tape)
+
+@ 850
+JP ムタリスト１（指テ）
+EN Muta 1 (F. Tape)
+
+@ 851
+JP ムタリスト２（指テ）
+EN Muta 2 (F. Tape)
+
+@ 852
+JP ムタリスト３（指テ）
+EN Muta 3 (F. Tape)
+
+@ 853
+JP ムタリスト４（指テ）
+EN Muta 4 (F. Tape)
+
+@ 854
+JP 黒師リスト（指テ）
+EN Kokushi (F. Tape)
+
+@ 855
+JP 孤士リスト（指テ）
+EN Koji (F. Tape)
+
+@ 856
+JP ギガンテスリスト（指テ）
+EN Gigantes (F. Tape)
+
+@ 857
+JP ＳＨＯＧＵＮリスト（指テ）
+EN SHOGUN (F. Tape)
+
+@ 858
+JP Ｕ系リスト（指テ）
+EN U-Style (F. Tape)
+
+@ 859
+JP ドルフィンリスト（指テ）
+EN Dolphin (F. Tape)
+
+@ 860
+JP カニリスト（指テ）
+EN Crab (F. Tape)
+
+@ 861
+JP ランマルリスト（指テ）
+EN Ranmaru (F. Tape)
+
+@ 862
+JP ジェットリスト（指テ）
+EN Jet Wrist (F. Tape)
+
+@ 863
+JP テングリスト（指テ）
+EN Tengu (F. Tape)
+
+@ 864
+JP 裸（甲テ）
+EN Bare (H. Tape)
+
+@ 865
+JP ハーフリスト（甲テ）
+EN Half Wrist+HT
+
+@ 866
+JP リストバンド（甲テ）
+EN Wristband (H. Tape)
+
+@ 867
+JP テーピングリスト（甲テ）
+EN Taped Wrist+HT
+
+@ 868
+JP ラインリスト（甲テ）
+EN Line Wrist+HT
+
+@ 869
+JP ロングリストバンド（甲テ）
+EN Long Band (H. Tape)
+
+@ 870
+JP テーピング（甲テ）
+EN Taping (H. Tape)
+
+@ 871
+JP 蝶野リスト１（甲テ）
+EN Chono 1 (H. Tape)
+
+@ 872
+JP 蝶野リスト２（甲テ）
+EN Chono 2 (H. Tape)
+
+@ 873
+JP 井上リスト（甲テ）
+EN Inoue (H. Tape)
+
+@ 874
+JP ヨネリスト（甲テ）
+EN Yone (H. Tape)
+
+@ 875
+JP 橋リスト（甲テ）
+EN Hashi (H. Tape)
+
+@ 876
+JP ムタリスト１（甲テ）
+EN Muta 1 (H. Tape)
+
+@ 877
+JP ムタリスト２（甲テ）
+EN Muta 2 (H. Tape)
+
+@ 878
+JP ムタリスト３（甲テ）
+EN Muta 3 (H. Tape)
+
+@ 879
+JP ムタリスト４（甲テ）
+EN Muta 4 (H. Tape)
+
+@ 880
+JP 黒師リスト（甲テ）
+EN Kokushi (H. Tape)
+
+@ 881
+JP 孤士リスト（甲テ）
+EN Koji (H. Tape)
+
+@ 882
+JP ギガンテスリスト（甲テ）
+EN Gigantes (H. Tape)
+
+@ 883
+JP ＳＨＯＧＵＮリスト（甲テ）
+EN SHOGUN (H. Tape)
+
+@ 884
+JP Ｕ系リスト（甲テ）
+EN U-Style (H. Tape)
+
+@ 885
+JP ドルフィンリスト（甲テ）
+EN Dolphin (H. Tape)
+
+@ 886
+JP カニリスト（甲テ）
+EN Crab (H. Tape)
+
+@ 887
+JP 葛西テーピング
+EN Kasai Taping
+
+@ 888
+JP コリノテーピング
+EN Corino Taping
+
+@ 889
+JP ランマルリスト（甲テ）
+EN Ranmaru (H. Tape)
+
+@ 890
+JP ジェットリスト（甲テ）
+EN Jet Wrist (H. Tape)
+
+@ 891
+JP テングリスト（甲テ）
+EN Tengu (H. Tape)
+
+@ 892
+JP オープンフィンガーグローブ
+EN Open-Finger Gloves
+
+@ 893
+JP オープンフィンガーグローブ（毛）
+EN Open-Finger (Hair)
+
+@ 894
+JP ボクシンググローブ
+EN Boxing Gloves
+
+@ 895
+JP ボクシンググローブ（毛）
+EN Boxing Gloves +Hair
+
+@ 896
+JP 新日グローブ
+EN New Japan Gloves
+
+@ 897
+JP 新日グローブ（毛）
+EN NJPW Gloves (Hair)
+
+@ 898
+JP ＤＡＲＫグローブ
+EN DARK Gloves
+
+@ 899
+JP ＤＡＲＫグローブ（毛）
+EN DARK Gloves (Hair)
+
+@ 900
+JP ＢＬＡＤＥグローブ
+EN BLADE Gloves
+
+@ 901
+JP ＢＬＡＤＥグローブ（毛）
+EN BLADE Gloves (Hair)
+
+@ 902
+JP ジャマールグローブ
+EN Jamal Gloves
+
+@ 903
+JP ジャマールグローブ（毛）
+EN Jamal Gloves (Hair)
+
+@ 904
+JP セイバーグローブ
+EN Saber Gloves
+
+@ 905
+JP セイバーグローブ（毛）
+EN Saber Gloves (Hair)
+
+@ 906
+JP 忍者コスチューム
+EN Ninja Costume
+
+@ 907
+JP 手袋
+EN Gloves
+
+@ 908
+JP 手袋（毛）
+EN Gloves (Hair)
+
+@ 909
+JP 裸（毛）
+EN Bare (Hair)
+
+@ 910
+JP ハーフリスト（毛）
+EN Half Wrist (Hair)
+
+@ 911
+JP リストバンド（毛）
+EN Wristband (Hair)
+
+@ 912
+JP テーピングリスト（毛）
+EN Taped Wrist (Hair)
+
+@ 913
+JP ラインリスト（毛）
+EN Line Wrist (Hair)
+
+@ 914
+JP ロングリストバンド（毛）
+EN Long Band (Hair)
+
+@ 915
+JP テーピング（毛）
+EN Taping (Hair)
+
+@ 916
+JP 蝶野リスト１（毛）
+EN Chono 1 (Hair)
+
+@ 917
+JP 蝶野リスト２（毛）
+EN Chono 2 (Hair)
+
+@ 918
+JP 井上リスト（毛）
+EN Inoue Wrist (Hair)
+
+@ 919
+JP ヨネリスト（毛）
+EN Yone Wrist (Hair)
+
+@ 920
+JP 橋リスト（毛）
+EN Hashi Wrist (Hair)
+
+@ 921
+JP ムタリスト１（毛）
+EN Muta Wrist 1 (Hair)
+
+@ 922
+JP ムタリスト２（毛）
+EN Muta Wrist 2 (Hair)
+
+@ 923
+JP ムタリスト３（毛）
+EN Muta Wrist 3 (Hair)
+
+@ 924
+JP ムタリスト４（毛）
+EN Muta Wrist 4 (Hair)
+
+@ 925
+JP 黒師リスト（毛）
+EN Kokushi (Hair)
+
+@ 926
+JP 孤士リスト（毛）
+EN Koji Wrist (Hair)
+
+@ 927
+JP ギガンテスリスト（毛）
+EN Gigantes (Hair)
+
+@ 928
+JP ＳＨＯＧＵＮリスト（毛）
+EN SHOGUN Wrist (Hair)
+
+@ 929
+JP Ｕ系リスト（毛）
+EN U-Style (Hair)
+
+@ 930
+JP ドルフィンリスト（毛）
+EN Dolphin (Hair)
+
+@ 931
+JP カニリスト（毛）
+EN Crab Wrist (Hair)
+
+@ 932
+JP ランマルリスト（毛）
+EN Ranmaru (Hair)
+
+@ 933
+JP ジェットリスト（毛）
+EN Jet Wrist (Hair)
+
+@ 934
+JP テングリスト（毛）
+EN Tengu Wrist (Hair)
+
+@ 935
+JP 裸（毛＆指テ）
+EN Bare (Hair+F.Tape)
+
+@ 936
+JP ハーフリスト（毛＆指テ）
+EN Half Wrist+Hair+FT
+
+@ 937
+JP リストバンド（毛＆指テ）
+EN Wristband+Hair+FT
+
+@ 938
+JP テーピングリスト（毛＆指テ）
+EN Taped Wrist+Hair+FT
+
+@ 939
+JP ラインリスト（毛＆指テ）
+EN Line Wrist+Hair+FT
+
+@ 940
+JP ロングリストバンド（毛＆指テ）
+EN Long Band+Hair+FT
+
+@ 941
+JP テーピング（毛＆指テ）
+EN Taping+Hair+FT
+
+@ 942
+JP 蝶野リスト１（毛＆指テ）
+EN Chono 1+Hair+FT
+
+@ 943
+JP 蝶野リスト２（毛＆指テ）
+EN Chono 2+Hair+FT
+
+@ 944
+JP 井上リスト（毛＆指テ）
+EN Inoue+Hair+FT
+
+@ 945
+JP ヨネリスト（毛＆指テ）
+EN Yone (Hair+F.Tape)
+
+@ 946
+JP 橋リスト（毛＆指テ）
+EN Hashi+Hair+FT
+
+@ 947
+JP ムタリスト１（毛＆指テ）
+EN Muta 1+Hair+FT
+
+@ 948
+JP ムタリスト２（毛＆指テ）
+EN Muta 2+Hair+FT
+
+@ 949
+JP ムタリスト３（毛＆指テ）
+EN Muta 3+Hair+FT
+
+@ 950
+JP ムタリスト４（毛＆指テ）
+EN Muta 4+Hair+FT
+
+@ 951
+JP 黒師リスト（毛＆指テ）
+EN Kokushi+Hair+FT
+
+@ 952
+JP 孤士リスト（毛＆指テ）
+EN Koji (Hair+F.Tape)
+
+@ 953
+JP ギガンテスリスト（毛＆指テ）
+EN Gigantes+Hair+FT
+
+@ 954
+JP ＳＨＯＧＵＮリスト（毛＆指テ）
+EN SHOGUN (Hair+F.Tape)
+
+@ 955
+JP Ｕ系リスト（毛＆指テ）
+EN U-Style+Hair+FT
+
+@ 956
+JP ドルフィンリスト（毛＆指テ）
+EN Dolphin+Hair+FT
+
+@ 957
+JP カニリスト（毛＆指テ）
+EN Crab (Hair+F.Tape)
+
+@ 958
+JP ランマルリスト（毛＆指テ）
+EN Ranmaru+Hair+FT
+
+@ 959
+JP ジェットリスト（毛＆指テ）
+EN Jet (Hair+F.Tape)
+
+@ 960
+JP テングリスト（毛＆指テ）
+EN Tengu+Hair+FT
+
+@ 961
+JP 裸（毛＆甲テ）
+EN Bare (Hair+H.Tape)
+
+@ 962
+JP ハーフリスト（毛＆甲テ）
+EN Half Wrist+Hair+HT
+
+@ 963
+JP リストバンド（毛＆甲テ）
+EN Wristband+Hair+HT
+
+@ 964
+JP テーピングリスト（毛＆甲テ）
+EN Taped Wrist+Hair+HT
+
+@ 965
+JP ラインリスト（毛＆甲テ）
+EN Line Wrist+Hair+HT
+
+@ 966
+JP ロングリストバンド（毛＆甲テ）
+EN Long Band+Hair+HT
+
+@ 967
+JP テーピング（毛＆甲テ）
+EN Taping+Hair+HT
+
+@ 968
+JP 蝶野リスト１（毛＆甲テ）
+EN Chono 1+Hair+HT
+
+@ 969
+JP 蝶野リスト２（毛＆甲テ）
+EN Chono 2+Hair+HT
+
+@ 970
+JP 井上リスト（毛＆甲テ）
+EN Inoue+Hair+HT
+
+@ 971
+JP ヨネリスト（毛＆甲テ）
+EN Yone (Hair+H.Tape)
+
+@ 972
+JP 橋リスト（毛＆甲テ）
+EN Hashi+Hair+HT
+
+@ 973
+JP ムタリスト１（毛＆甲テ）
+EN Muta 1+Hair+HT
+
+@ 974
+JP ムタリスト２（毛＆甲テ）
+EN Muta 2+Hair+HT
+
+@ 975
+JP ムタリスト３（毛＆甲テ）
+EN Muta 3+Hair+HT
+
+@ 976
+JP ムタリスト４（毛＆甲テ）
+EN Muta 4+Hair+HT
+
+@ 977
+JP 黒師リスト（毛＆甲テ）
+EN Kokushi+Hair+HT
+
+@ 978
+JP 孤士リスト（毛＆甲テ）
+EN Koji (Hair+H.Tape)
+
+@ 979
+JP ギガンテスリスト（毛＆甲テ）
+EN Gigantes+Hair+HT
+
+@ 980
+JP ＳＨＯＧＵＮリスト（毛＆甲テ）
+EN SHOGUN (Hair+H.Tape)
+
+@ 981
+JP Ｕ系リスト（毛＆甲テ）
+EN U-Style+Hair+HT
+
+@ 982
+JP ドルフィンリスト（毛＆甲テ）
+EN Dolphin+Hair+HT
+
+@ 983
+JP カニリスト（毛＆甲テ）
+EN Crab (Hair+H.Tape)
+
+@ 984
+JP 葛西テーピング（毛）
+EN Kasai Taping (Hair)
+
+@ 985
+JP コリノテーピング（毛）
+EN Corino Taping +Hair
+
+@ 986
+JP ランマルリスト（毛＆甲テ）
+EN Ranmaru+Hair+HT
+
+@ 987
+JP ジェットリスト（毛＆甲テ）
+EN Jet (Hair+H.Tape)
+
+@ 988
+JP テングリスト（毛＆甲テ）
+EN Tengu+Hair+HT
+
+@ 989
+JP ライガーリスト１
+EN Liger Wrist 1
+
+@ 990
+JP ライガーリスト２
+EN Liger Wrist 2
+
+@ 991
+JP 長袖リスト
+EN Long Sleeve
+
+@ 992
+JP えぼすスーツ
+EN Ebosu Suit
+
+@ 993
+JP ライガーリスト１（指テ）
+EN Liger 1 (F. Tape)
+
+@ 994
+JP ライガーリスト２（指テ）
+EN Liger 2 (F. Tape)
+
+@ 995
+JP 長袖リスト（指テ）
+EN Sleeve (F. Tape)
+
+@ 996
+JP えぼすスーツ（指テ）
+EN Ebosu Suit+FT
+
+@ 997
+JP ライガーリスト１（甲テ）
+EN Liger 1 (H. Tape)
+
+@ 998
+JP ライガーリスト２（甲テ）
+EN Liger 2 (H. Tape)
+
+@ 999
+JP 長袖リスト（甲テ）
+EN Sleeve (H. Tape)
+
+@ 1000
+JP えぼすスーツ（甲テ）
+EN Ebosu Suit+HT
+
+@ 1001
+JP ライガーリスト１（毛）
+EN Liger 1 (Hair)
+
+@ 1002
+JP ライガーリスト２（毛）
+EN Liger 2 (Hair)
+
+@ 1003
+JP 長袖リスト（毛）
+EN Long Sleeve (Hair)
+
+@ 1004
+JP えぼすスーツ（毛）
+EN Ebosu Suit (Hair)
+
+@ 1005
+JP ライガーリスト１（毛＆指テ）
+EN Liger 1+Hair+FT
+
+@ 1006
+JP ライガーリスト２（毛＆指テ）
+EN Liger 2+Hair+FT
+
+@ 1007
+JP 長袖リスト（毛＆指テ）
+EN Sleeve+Hair+FT
+
+@ 1008
+JP えぼすスーツ（毛＆指テ）
+EN Ebosu Suit+Hair+FT
+
+@ 1009
+JP ライガーリスト１（毛＆甲テ）
+EN Liger 1+Hair+HT
+
+@ 1010
+JP ライガーリスト２（毛＆甲テ）
+EN Liger 2+Hair+HT
+
+@ 1011
+JP 長袖リスト（毛＆甲テ）
+EN Sleeve+Hair+HT
+
+@ 1012
+JP えぼすスーツ（毛＆甲テ）
+EN Ebosu Suit+Hair+HT
+
+@ 1013
+JP アダモリスト（毛）
+EN Adamo Wrist (Hair)
+
+@ 1014
+JP アダモリスト（毛＆指テ）
+EN Adamo+Hair+FT
+
+@ 1015
+JP アダモリスト（毛＆甲テ）
+EN Adamo+Hair+HT
+
+@ 1016
+JP ケロ手
+EN Kero Hand
+
+@ 1017
+JP 木原手
+EN Kihara Hand
+
+@ 1018
+JP 総裁スーツ
+EN Chairman Suit
+
+@ 1019
+JP 裸
+EN Bare
+
+@ 1020
+JP ハーフリスト
+EN Half Wrist
+
+@ 1021
+JP リストバンド
+EN Wristband
+
+@ 1022
+JP テーピングリスト
+EN Taped Wrist
+
+@ 1023
+JP ラインリスト
+EN Line Wrist
+
+@ 1024
+JP ロングリストバンド
+EN Long Wristband
+
+@ 1025
+JP テーピング
+EN Taping
+
+@ 1026
+JP 蝶野リスト１
+EN Chono Wrist 1
+
+@ 1027
+JP 蝶野リスト２
+EN Chono Wrist 2
+
+@ 1028
+JP 井上リスト
+EN Inoue Wrist
+
+@ 1029
+JP ヨネリスト
+EN Yone Wrist
+
+@ 1030
+JP 橋リスト
+EN Hashi Wrist
+
+@ 1031
+JP ムタリスト１
+EN Muta Wrist 1
+
+@ 1032
+JP ムタリスト２
+EN Muta Wrist 2
+
+@ 1033
+JP ムタリスト３
+EN Muta Wrist 3
+
+@ 1034
+JP ムタリスト４
+EN Muta Wrist 4
+
+@ 1035
+JP 黒師リスト
+EN Kokushi Wrist
+
+@ 1036
+JP 孤士リスト
+EN Koji Wrist
+
+@ 1037
+JP ギガンテスリスト
+EN Gigantes Wrist
+
+@ 1038
+JP ＳＨＯＧＵＮリスト
+EN SHOGUN Wrist
+
+@ 1039
+JP Ｕ系リスト
+EN U-Style Wrist
+
+@ 1040
+JP ドルフィンリスト
+EN Dolphin Wrist
+
+@ 1041
+JP カニリスト
+EN Crab Wrist
+
+@ 1042
+JP ランマルリスト
+EN Ranmaru Wrist
+
+@ 1043
+JP ジェットリスト
+EN Jet Wrist
+
+@ 1044
+JP テングリスト
+EN Tengu Wrist
+
+@ 1045
+JP 裸（指テ）
+EN Bare (F. Tape)
+
+@ 1046
+JP ハーフリスト（指テ）
+EN Half Wrist+FT
+
+@ 1047
+JP リストバンド（指テ）
+EN Wristband (F. Tape)
+
+@ 1048
+JP テーピングリスト（指テ）
+EN Taped Wrist+FT
+
+@ 1049
+JP ラインリスト（指テ）
+EN Line Wrist+FT
+
+@ 1050
+JP ロングリストバンド（指テ）
+EN Long Band (F. Tape)
+
+@ 1051
+JP テーピング（指テ）
+EN Taping (F. Tape)
+
+@ 1052
+JP 蝶野リスト１（指テ）
+EN Chono 1 (F. Tape)
+
+@ 1053
+JP 蝶野リスト２（指テ）
+EN Chono 2 (F. Tape)
+
+@ 1054
+JP 井上リスト（指テ）
+EN Inoue (F. Tape)
+
+@ 1055
+JP ヨネリスト（指テ）
+EN Yone (F. Tape)
+
+@ 1056
+JP 橋リスト（指テ）
+EN Hashi (F. Tape)
+
+@ 1057
+JP ムタリスト１（指テ）
+EN Muta 1 (F. Tape)
+
+@ 1058
+JP ムタリスト２（指テ）
+EN Muta 2 (F. Tape)
+
+@ 1059
+JP ムタリスト３（指テ）
+EN Muta 3 (F. Tape)
+
+@ 1060
+JP ムタリスト４（指テ）
+EN Muta 4 (F. Tape)
+
+@ 1061
+JP 黒師リスト（指テ）
+EN Kokushi (F. Tape)
+
+@ 1062
+JP 孤士リスト（指テ）
+EN Koji (F. Tape)
+
+@ 1063
+JP ギガンテスリスト（指テ）
+EN Gigantes (F. Tape)
+
+@ 1064
+JP ＳＨＯＧＵＮリスト（指テ）
+EN SHOGUN (F. Tape)
+
+@ 1065
+JP Ｕ系リスト（指テ）
+EN U-Style (F. Tape)
+
+@ 1066
+JP ドルフィンリスト（指テ）
+EN Dolphin (F. Tape)
+
+@ 1067
+JP カニリスト（指テ）
+EN Crab (F. Tape)
+
+@ 1068
+JP ランマルリスト（指テ）
+EN Ranmaru (F. Tape)
+
+@ 1069
+JP ジェットリスト（指テ）
+EN Jet Wrist (F. Tape)
+
+@ 1070
+JP テングリスト（指テ）
+EN Tengu (F. Tape)
+
+@ 1071
+JP 裸（甲テ）
+EN Bare (H. Tape)
+
+@ 1072
+JP ハーフリスト（甲テ）
+EN Half Wrist+HT
+
+@ 1073
+JP リストバンド（甲テ）
+EN Wristband (H. Tape)
+
+@ 1074
+JP テーピングリスト（甲テ）
+EN Taped Wrist+HT
+
+@ 1075
+JP ラインリスト（甲テ）
+EN Line Wrist+HT
+
+@ 1076
+JP ロングリストバンド（甲テ）
+EN Long Band (H. Tape)
+
+@ 1077
+JP テーピング（甲テ）
+EN Taping (H. Tape)
+
+@ 1078
+JP 蝶野リスト１（甲テ）
+EN Chono 1 (H. Tape)
+
+@ 1079
+JP 蝶野リスト２（甲テ）
+EN Chono 2 (H. Tape)
+
+@ 1080
+JP 井上リスト（甲テ）
+EN Inoue (H. Tape)
+
+@ 1081
+JP ヨネリスト（甲テ）
+EN Yone (H. Tape)
+
+@ 1082
+JP 橋リスト（甲テ）
+EN Hashi (H. Tape)
+
+@ 1083
+JP ムタリスト１（甲テ）
+EN Muta 1 (H. Tape)
+
+@ 1084
+JP ムタリスト２（甲テ）
+EN Muta 2 (H. Tape)
+
+@ 1085
+JP ムタリスト３（甲テ）
+EN Muta 3 (H. Tape)
+
+@ 1086
+JP ムタリスト４（甲テ）
+EN Muta 4 (H. Tape)
+
+@ 1087
+JP 黒師リスト（甲テ）
+EN Kokushi (H. Tape)
+
+@ 1088
+JP 孤士リスト（甲テ）
+EN Koji (H. Tape)
+
+@ 1089
+JP ギガンテスリスト（甲テ）
+EN Gigantes (H. Tape)
+
+@ 1090
+JP ＳＨＯＧＵＮリスト（甲テ）
+EN SHOGUN (H. Tape)
+
+@ 1091
+JP Ｕ系リスト（甲テ）
+EN U-Style (H. Tape)
+
+@ 1092
+JP ドルフィンリスト（甲テ）
+EN Dolphin (H. Tape)
+
+@ 1093
+JP カニリスト（甲テ）
+EN Crab (H. Tape)
+
+@ 1094
+JP 葛西テーピング
+EN Kasai Taping
+
+@ 1095
+JP コリノテーピング
+EN Corino Taping
+
+@ 1096
+JP ランマルリスト（甲テ）
+EN Ranmaru (H. Tape)
+
+@ 1097
+JP ジェットリスト（甲テ）
+EN Jet Wrist (H. Tape)
+
+@ 1098
+JP テングリスト（甲テ）
+EN Tengu (H. Tape)
+
+@ 1099
+JP オープンフィンガーグローブ
+EN Open-Finger Gloves
+
+@ 1100
+JP オープンフィンガーグローブ（毛）
+EN Open-Finger (Hair)
+
+@ 1101
+JP ボクシンググローブ
+EN Boxing Gloves
+
+@ 1102
+JP ボクシンググローブ（毛）
+EN Boxing Gloves +Hair
+
+@ 1103
+JP 新日グローブ
+EN New Japan Gloves
+
+@ 1104
+JP 新日グローブ（毛）
+EN NJPW Gloves (Hair)
+
+@ 1105
+JP ＤＡＲＫグローブ
+EN DARK Gloves
+
+@ 1106
+JP ＤＡＲＫグローブ（毛）
+EN DARK Gloves (Hair)
+
+@ 1107
+JP ＢＬＡＤＥグローブ
+EN BLADE Gloves
+
+@ 1108
+JP ＢＬＡＤＥグローブ（毛）
+EN BLADE Gloves (Hair)
+
+@ 1109
+JP ジャマールグローブ
+EN Jamal Gloves
+
+@ 1110
+JP ジャマールグローブ（毛）
+EN Jamal Gloves (Hair)
+
+@ 1111
+JP セイバーグローブ
+EN Saber Gloves
+
+@ 1112
+JP セイバーグローブ（毛）
+EN Saber Gloves (Hair)
+
+@ 1113
+JP 忍者コスチューム
+EN Ninja Costume
+
+@ 1114
+JP 手袋
+EN Gloves
+
+@ 1115
+JP 手袋（毛）
+EN Gloves (Hair)
+
+@ 1116
+JP 裸（毛）
+EN Bare (Hair)
+
+@ 1117
+JP ハーフリスト（毛）
+EN Half Wrist (Hair)
+
+@ 1118
+JP リストバンド（毛）
+EN Wristband (Hair)
+
+@ 1119
+JP テーピングリスト（毛）
+EN Taped Wrist (Hair)
+
+@ 1120
+JP ラインリスト（毛）
+EN Line Wrist (Hair)
+
+@ 1121
+JP ロングリストバンド（毛）
+EN Long Band (Hair)
+
+@ 1122
+JP テーピング（毛）
+EN Taping (Hair)
+
+@ 1123
+JP 蝶野リスト１（毛）
+EN Chono 1 (Hair)
+
+@ 1124
+JP 蝶野リスト２（毛）
+EN Chono 2 (Hair)
+
+@ 1125
+JP 井上リスト（毛）
+EN Inoue Wrist (Hair)
+
+@ 1126
+JP ヨネリスト（毛）
+EN Yone Wrist (Hair)
+
+@ 1127
+JP 橋リスト（毛）
+EN Hashi Wrist (Hair)
+
+@ 1128
+JP ムタリスト１（毛）
+EN Muta Wrist 1 (Hair)
+
+@ 1129
+JP ムタリスト２（毛）
+EN Muta Wrist 2 (Hair)
+
+@ 1130
+JP ムタリスト３（毛）
+EN Muta Wrist 3 (Hair)
+
+@ 1131
+JP ムタリスト４（毛）
+EN Muta Wrist 4 (Hair)
+
+@ 1132
+JP 黒師リスト（毛）
+EN Kokushi (Hair)
+
+@ 1133
+JP 孤士リスト（毛）
+EN Koji Wrist (Hair)
+
+@ 1134
+JP ギガンテスリスト（毛）
+EN Gigantes (Hair)
+
+@ 1135
+JP ＳＨＯＧＵＮリスト（毛）
+EN SHOGUN Wrist (Hair)
+
+@ 1136
+JP Ｕ系リスト（毛）
+EN U-Style (Hair)
+
+@ 1137
+JP ドルフィンリスト（毛）
+EN Dolphin (Hair)
+
+@ 1138
+JP カニリスト（毛）
+EN Crab Wrist (Hair)
+
+@ 1139
+JP ランマルリスト（毛）
+EN Ranmaru (Hair)
+
+@ 1140
+JP ジェットリスト（毛）
+EN Jet Wrist (Hair)
+
+@ 1141
+JP テングリスト（毛）
+EN Tengu Wrist (Hair)
+
+@ 1142
+JP 裸（毛＆指テ）
+EN Bare (Hair+F.Tape)
+
+@ 1143
+JP ハーフリスト（毛＆指テ）
+EN Half Wrist+Hair+FT
+
+@ 1144
+JP リストバンド（毛＆指テ）
+EN Wristband+Hair+FT
+
+@ 1145
+JP テーピングリスト（毛＆指テ）
+EN Taped Wrist+Hair+FT
+
+@ 1146
+JP ラインリスト（毛＆指テ）
+EN Line Wrist+Hair+FT
+
+@ 1147
+JP ロングリストバンド（毛＆指テ）
+EN Long Band+Hair+FT
+
+@ 1148
+JP テーピング（毛＆指テ）
+EN Taping+Hair+FT
+
+@ 1149
+JP 蝶野リスト１（毛＆指テ）
+EN Chono 1+Hair+FT
+
+@ 1150
+JP 蝶野リスト２（毛＆指テ）
+EN Chono 2+Hair+FT
+
+@ 1151
+JP 井上リスト（毛＆指テ）
+EN Inoue+Hair+FT
+
+@ 1152
+JP ヨネリスト（毛＆指テ）
+EN Yone (Hair+F.Tape)
+
+@ 1153
+JP 橋リスト（毛＆指テ）
+EN Hashi+Hair+FT
+
+@ 1154
+JP ムタリスト１（毛＆指テ）
+EN Muta 1+Hair+FT
+
+@ 1155
+JP ムタリスト２（毛＆指テ）
+EN Muta 2+Hair+FT
+
+@ 1156
+JP ムタリスト３（毛＆指テ）
+EN Muta 3+Hair+FT
+
+@ 1157
+JP ムタリスト４（毛＆指テ）
+EN Muta 4+Hair+FT
+
+@ 1158
+JP 黒師リスト（毛＆指テ）
+EN Kokushi+Hair+FT
+
+@ 1159
+JP 孤士リスト（毛＆指テ）
+EN Koji (Hair+F.Tape)
+
+@ 1160
+JP ギガンテスリスト（毛＆指テ）
+EN Gigantes+Hair+FT
+
+@ 1161
+JP ＳＨＯＧＵＮリスト（毛＆指テ）
+EN SHOGUN (Hair+F.Tape)
+
+@ 1162
+JP Ｕ系リスト（毛＆指テ）
+EN U-Style+Hair+FT
+
+@ 1163
+JP ドルフィンリスト（毛＆指テ）
+EN Dolphin+Hair+FT
+
+@ 1164
+JP カニリスト（毛＆指テ）
+EN Crab (Hair+F.Tape)
+
+@ 1165
+JP ランマルリスト（毛＆指テ）
+EN Ranmaru+Hair+FT
+
+@ 1166
+JP ジェットリスト（毛＆指テ）
+EN Jet (Hair+F.Tape)
+
+@ 1167
+JP テングリスト（毛＆指テ）
+EN Tengu+Hair+FT
+
+@ 1168
+JP 裸（毛＆甲テ）
+EN Bare (Hair+H.Tape)
+
+@ 1169
+JP ハーフリスト（毛＆甲テ）
+EN Half Wrist+Hair+HT
+
+@ 1170
+JP リストバンド（毛＆甲テ）
+EN Wristband+Hair+HT
+
+@ 1171
+JP テーピングリスト（毛＆甲テ）
+EN Taped Wrist+Hair+HT
+
+@ 1172
+JP ラインリスト（毛＆甲テ）
+EN Line Wrist+Hair+HT
+
+@ 1173
+JP ロングリストバンド（毛＆甲テ）
+EN Long Band+Hair+HT
+
+@ 1174
+JP テーピング（毛＆甲テ）
+EN Taping+Hair+HT
+
+@ 1175
+JP 蝶野リスト１（毛＆甲テ）
+EN Chono 1+Hair+HT
+
+@ 1176
+JP 蝶野リスト２（毛＆甲テ）
+EN Chono 2+Hair+HT
+
+@ 1177
+JP 井上リスト（毛＆甲テ）
+EN Inoue+Hair+HT
+
+@ 1178
+JP ヨネリスト（毛＆甲テ）
+EN Yone (Hair+H.Tape)
+
+@ 1179
+JP 橋リスト（毛＆甲テ）
+EN Hashi+Hair+HT
+
+@ 1180
+JP ムタリスト１（毛＆甲テ）
+EN Muta 1+Hair+HT
+
+@ 1181
+JP ムタリスト２（毛＆甲テ）
+EN Muta 2+Hair+HT
+
+@ 1182
+JP ムタリスト３（毛＆甲テ）
+EN Muta 3+Hair+HT
+
+@ 1183
+JP ムタリスト４（毛＆甲テ）
+EN Muta 4+Hair+HT
+
+@ 1184
+JP 黒師リスト（毛＆甲テ）
+EN Kokushi+Hair+HT
+
+@ 1185
+JP 孤士リスト（毛＆甲テ）
+EN Koji (Hair+H.Tape)
+
+@ 1186
+JP ギガンテスリスト（毛＆甲テ）
+EN Gigantes+Hair+HT
+
+@ 1187
+JP ＳＨＯＧＵＮリスト（毛＆甲テ）
+EN SHOGUN (Hair+H.Tape)
+
+@ 1188
+JP Ｕ系リスト（毛＆甲テ）
+EN U-Style+Hair+HT
+
+@ 1189
+JP ドルフィンリスト（毛＆甲テ）
+EN Dolphin+Hair+HT
+
+@ 1190
+JP カニリスト（毛＆甲テ）
+EN Crab (Hair+H.Tape)
+
+@ 1191
+JP 葛西テーピング（毛）
+EN Kasai Taping (Hair)
+
+@ 1192
+JP コリノテーピング（毛）
+EN Corino Taping +Hair
+
+@ 1193
+JP ランマルリスト（毛＆甲テ）
+EN Ranmaru+Hair+HT
+
+@ 1194
+JP ジェットリスト（毛＆甲テ）
+EN Jet (Hair+H.Tape)
+
+@ 1195
+JP テングリスト（毛＆甲テ）
+EN Tengu+Hair+HT
+
+@ 1196
+JP ライガーリスト１
+EN Liger Wrist 1
+
+@ 1197
+JP ライガーリスト２
+EN Liger Wrist 2
+
+@ 1198
+JP 長袖リスト
+EN Long Sleeve
+
+@ 1199
+JP えぼすスーツ
+EN Ebosu Suit
+
+@ 1200
+JP ライガーリスト１（指テ）
+EN Liger 1 (F. Tape)
+
+@ 1201
+JP ライガーリスト２（指テ）
+EN Liger 2 (F. Tape)
+
+@ 1202
+JP 長袖リスト（指テ）
+EN Sleeve (F. Tape)
+
+@ 1203
+JP えぼすスーツ（指テ）
+EN Ebosu Suit+FT
+
+@ 1204
+JP ライガーリスト１（甲テ）
+EN Liger 1 (H. Tape)
+
+@ 1205
+JP ライガーリスト２（甲テ）
+EN Liger 2 (H. Tape)
+
+@ 1206
+JP 長袖リスト（甲テ）
+EN Sleeve (H. Tape)
+
+@ 1207
+JP えぼすスーツ（甲テ）
+EN Ebosu Suit+HT
+
+@ 1208
+JP ライガーリスト１（毛）
+EN Liger 1 (Hair)
+
+@ 1209
+JP ライガーリスト２（毛）
+EN Liger 2 (Hair)
+
+@ 1210
+JP 長袖リスト（毛）
+EN Long Sleeve (Hair)
+
+@ 1211
+JP えぼすスーツ（毛）
+EN Ebosu Suit (Hair)
+
+@ 1212
+JP ライガーリスト１（毛＆指テ）
+EN Liger 1+Hair+FT
+
+@ 1213
+JP ライガーリスト２（毛＆指テ）
+EN Liger 2+Hair+FT
+
+@ 1214
+JP 長袖リスト（毛＆指テ）
+EN Sleeve+Hair+FT
+
+@ 1215
+JP えぼすスーツ（毛＆指テ）
+EN Ebosu Suit+Hair+FT
+
+@ 1216
+JP ライガーリスト１（毛＆甲テ）
+EN Liger 1+Hair+HT
+
+@ 1217
+JP ライガーリスト２（毛＆甲テ）
+EN Liger 2+Hair+HT
+
+@ 1218
+JP 長袖リスト（毛＆甲テ）
+EN Sleeve+Hair+HT
+
+@ 1219
+JP えぼすスーツ（毛＆甲テ）
+EN Ebosu Suit+Hair+HT
+
+@ 1220
+JP アダモリスト（毛）
+EN Adamo Wrist (Hair)
+
+@ 1221
+JP アダモリスト（毛＆指テ）
+EN Adamo+Hair+FT
+
+@ 1222
+JP アダモリスト（毛＆甲テ）
+EN Adamo+Hair+HT
+
+@ 1223
+JP ケロ手
+EN Kero Hand
+
+@ 1224
+JP 木原手
+EN Kihara Hand
+
+@ 1225
+JP 総裁スーツ
+EN Chairman Suit
+
+@ 1226
+JP ショートタイツ
+EN Short Tights
+
+@ 1227
+JP ヘソタイツ
+EN Navel Tights
+
+@ 1228
+JP ハイレグタイツ
+EN High-Cut Tights
+
+@ 1229
+JP ベルトタイツ
+EN Belted Tights
+
+@ 1230
+JP まわしタイツ
+EN Mawashi Tights
+
+@ 1231
+JP 横ラインタイツ
+EN Striped Tights
+
+@ 1232
+JP 花柄タイツ
+EN Floral Tights
+
+@ 1233
+JP ギザギザタイツ
+EN Zigzag Tights
+
+@ 1234
+JP 三角タイツ
+EN Triangle Tights
+
+@ 1235
+JP 星タイツ
+EN Star Tights
+
+@ 1236
+JP 豹柄タイツ
+EN Leopard Tights
+
+@ 1237
+JP 永田タイツ１
+EN Nagata Tights 1
+
+@ 1238
+JP 永田タイツ２
+EN Nagata Tights 2
+
+@ 1239
+JP 永田タイツ３
+EN Nagata Tights 3
+
+@ 1240
+JP 永田タイツ４
+EN Nagata Tights 4
+
+@ 1241
+JP 中邑タイツ
+EN Nakamura Tights
+
+@ 1242
+JP 棚橋タイツ
+EN Tanahashi Tights
+
+@ 1243
+JP 金本タイツ１
+EN Kanemoto Tights 1
+
+@ 1244
+JP 金本タイツ２
+EN Kanemoto Tights 2
+
+@ 1245
+JP 金本タイツ３
+EN Kanemoto Tights 3
+
+@ 1246
+JP 垣原タイツ
+EN Kakihara Tights
+
+@ 1247
+JP 邪道タイツ
+EN Jado Tights
+
+@ 1248
+JP 外道タイツ
+EN Gedo Tights
+
+@ 1249
+JP 竹村タイツ
+EN Takemura Tights
+
+@ 1250
+JP ウルフタイツ１
+EN Wolf Tights 1
+
+@ 1251
+JP ウルフタイツ２
+EN Wolf Tights 2
+
+@ 1252
+JP 小橋タイツ１
+EN Kobashi Tights 1
+
+@ 1253
+JP 小橋タイツ２
+EN Kobashi Tights 2
+
+@ 1254
+JP 秋山タイツ
+EN Akiyama Tights
+
+@ 1255
+JP 佐野タイツ
+EN Sano Tights
+
+@ 1256
+JP 雅央タイツ
+EN Masao Tights
+
+@ 1257
+JP 池田タイツ
+EN Ikeda Tights
+
+@ 1258
+JP 浅子タイツ
+EN Asako Tights
+
+@ 1259
+JP 橋タイツ１
+EN Hashi Tights 1
+
+@ 1260
+JP 橋タイツ２
+EN Hashi Tights 2
+
+@ 1261
+JP ＫＥＮＴＡタイツ
+EN KENTA Tights
+
+@ 1262
+JP 鼓太郎タイツ
+EN Kotaro Tights
+
+@ 1263
+JP 百田タイツ
+EN Momota Tights
+
+@ 1264
+JP フォレストタイツ１
+EN Forest Tights 1
+
+@ 1265
+JP フォレストタイツ２
+EN Forest Tights 2
+
+@ 1266
+JP ローガンタイツ
+EN Logan Tights
+
+@ 1267
+JP 太陽タイツ
+EN Taiyo Tights
+
+@ 1268
+JP モスマンタイツ
+EN Mothman Tights
+
+@ 1269
+JP ＢＡＴＴタイツ１
+EN BATT Tights 1
+
+@ 1270
+JP ＢＡＴＴタイツ２
+EN BATT Tights 2
+
+@ 1271
+JP 本間タイツ１
+EN Honma Tights 1
+
+@ 1272
+JP 本間タイツ２
+EN Honma Tights 2
+
+@ 1273
+JP ハヤシタイツ１
+EN Hayashi Tights 1
+
+@ 1274
+JP ハヤシタイツ２
+EN Hayashi Tights 2
+
+@ 1275
+JP テンタタイツ
+EN Tenta Tights
+
+@ 1276
+JP グラジエータータイツ
+EN Gladiator Tights
+
+@ 1277
+JP ギガンテスタイツ
+EN Gigantes Tights
+
+@ 1278
+JP ブキャナンタイツ
+EN Buchanan Tights
+
+@ 1279
+JP 大谷タイツ
+EN Otani Tights
+
+@ 1280
+JP 佐々木義人タイツ
+EN Y.Sasaki Tights
+
+@ 1281
+JP コリノタイツ
+EN Corino Tights
+
+@ 1282
+JP 大森タイツ
+EN Omori Tights
+
+@ 1283
+JP 日の丸タイツ
+EN Hinomaru Tights
+
+@ 1284
+JP 日本タイツ
+EN Japan Tights
+
+@ 1285
+JP プレートタイツ
+EN Plate Tights
+
+@ 1286
+JP ＡＶタイツ
+EN AV Tights
+
+@ 1287
+JP ＵＮＯタイツ
+EN UNO Tights
+
+@ 1288
+JP 室田タイツ
+EN Murota Tights
+
+@ 1289
+JP スパイキータイツ
+EN Spiky Tights
+
+@ 1290
+JP 高智タイツ
+EN Takachi Tights
+
+@ 1291
+JP ノーマルスパッツ
+EN Normal Spats
+
+@ 1292
+JP ラインスパッツ１
+EN Line Spats 1
+
+@ 1293
+JP ラインスパッツ２
+EN Line Spats 2
+
+@ 1294
+JP ラインスパッツ３
+EN Line Spats 3
+
+@ 1295
+JP ハンマースパッツ
+EN Hammer Spats
+
+@ 1296
+JP イニシャルスパッツ１
+EN Initial Spats 1
+
+@ 1297
+JP イニシャルスパッツ２
+EN Initial Spats 2
+
+@ 1298
+JP ラバースパッツ
+EN Rubber Spats
+
+@ 1299
+JP 目玉スパッツ
+EN Eyeball Spats
+
+@ 1300
+JP 鬼スパッツ１
+EN Oni Spats 1
+
+@ 1301
+JP 鬼スパッツ２
+EN Oni Spats 2
+
+@ 1302
+JP ロングスパッツ
+EN Long Spats
+
+@ 1303
+JP 永田スパッツ１
+EN Nagata Spats 1
+
+@ 1304
+JP 永田スパッツ２
+EN Nagata Spats 2
+
+@ 1305
+JP 中西スパッツ
+EN Nakanishi Spats
+
+@ 1306
+JP 真壁スパッツ１
+EN Makabe Spats 1
+
+@ 1307
+JP 真壁スパッツ２
+EN Makabe Spats 2
+
+@ 1308
+JP 棚橋スパッツ
+EN Tanahashi Spats
+
+@ 1309
+JP 柴田スパッツ
+EN Shibata Spats
+
+@ 1310
+JP 中邑スパッツ
+EN Nakamura Spats
+
+@ 1311
+JP ライガースパッツ
+EN Liger Spats
+
+@ 1312
+JP 金本スパッツ１
+EN Kanemoto Spats 1
+
+@ 1313
+JP 金本スパッツ２
+EN Kanemoto Spats 2
+
+@ 1314
+JP 成瀬スパッツ
+EN Naruse Spats
+
+@ 1315
+JP 稔スパッツ
+EN Minoru Spats
+
+@ 1316
+JP 小原スパッツ
+EN Ohara Spats
+
+@ 1317
+JP ウルフスパッツ
+EN Wolf Spats
+
+@ 1318
+JP 魔界スパッツ
+EN Makai Spats
+
+@ 1319
+JP 村上スパッツ１
+EN Murakami Spats 1
+
+@ 1320
+JP 村上スパッツ２
+EN Murakami Spats 2
+
+@ 1321
+JP 柳澤スパッツ
+EN Yanagisawa Spats
+
+@ 1322
+JP バーネットスパッツ
+EN Barnett Spats
+
+@ 1323
+JP 多聞スパッツ
+EN Tamon Spats
+
+@ 1324
+JP 力皇スパッツ１
+EN Rikio Spats 1
+
+@ 1325
+JP 力皇スパッツ２
+EN Rikio Spats 2
+
+@ 1326
+JP 力皇スパッツ３
+EN Rikio Spats 3
+
+@ 1327
+JP 志賀スパッツ
+EN Shiga Spats
+
+@ 1328
+JP 杉浦スパッツ
+EN Sugiura Spats
+
+@ 1329
+JP ヨネスパッツ
+EN Yone Spats
+
+@ 1330
+JP ＩＺＵスパッツ
+EN IZU Spats
+
+@ 1331
+JP バッファロースパッツ
+EN Buffalo Spats
+
+@ 1332
+JP 太陽スパッツ１
+EN Taiyo Spats 1
+
+@ 1333
+JP 太陽スパッツ２
+EN Taiyo Spats 2
+
+@ 1334
+JP 小島スパッツ
+EN Kojima Spats
+
+@ 1335
+JP 奥村スパッツ１
+EN Okumura Spats 1
+
+@ 1336
+JP 奥村スパッツ２
+EN Okumura Spats 2
+
+@ 1337
+JP 土方スパッツ
+EN Hijikata Spats
+
+@ 1338
+JP カシンスパッツ
+EN Kashin Spats
+
+@ 1339
+JP ＲＯ＆Ｄスパッツ
+EN RO&D Spats
+
+@ 1340
+JP 田中スパッツ１
+EN Tanaka Spats 1
+
+@ 1341
+JP 田中スパッツ２
+EN Tanaka Spats 2
+
+@ 1342
+JP 田中スパッツ３
+EN Tanaka Spats 3
+
+@ 1343
+JP 耕平スパッツ１
+EN Kohei Spats 1
+
+@ 1344
+JP 耕平スパッツ２
+EN Kohei Spats 2
+
+@ 1345
+JP 崔スパッツ
+EN Sai Spats
+
+@ 1346
+JP 星川スパッツ
+EN Hoshikawa Spats
+
+@ 1347
+JP 和牛太スパッツ１
+EN Wagyuta Spats 1
+
+@ 1348
+JP 和牛太スパッツ２
+EN Wagyuta Spats 2
+
+@ 1349
+JP 義人スパッツ
+EN Yoshihito Spats
+
+@ 1350
+JP キングジョースパッツ
+EN King Joe Spats
+
+@ 1351
+JP アシッドスパッツ
+EN Acid Spats
+
+@ 1352
+JP 健介スパッツ１
+EN Kensuke Spats 1
+
+@ 1353
+JP 健介スパッツ2
+EN Kensuke Spats 2
+
+@ 1355
+JP 健介スパッツ３
+EN Kensuke Spats 3
+
+@ 1356
+JP 健介迷彩スパッツ
+EN Kensuke Camo Spats
+
+@ 1357
+JP 高山スパッツ
+EN Takayama Spats
+
+@ 1358
+JP 中嶋スパッツ
+EN Nakajima Spats
+
+@ 1359
+JP 船木スパッツ
+EN Funaki Spats
+
+@ 1360
+JP みのるスパッツ
+EN Minoru Spats
+
+@ 1361
+JP 近藤スパッツ
+EN Kondo Spats
+
+@ 1362
+JP 菊田スパッツ
+EN Kikuta Spats
+
+@ 1363
+JP 義生スパッツ
+EN Yoshiki Spats
+
+@ 1364
+JP 渋谷スパッツ
+EN Shibuya Spats
+
+@ 1365
+JP 國奥スパッツ
+EN Kunioku Spats
+
+@ 1366
+JP 謙吾スパッツ
+EN Kengo Spats
+
+@ 1367
+JP 縦ラインスパッツ
+EN Vertical Line Spats
+
+@ 1368
+JP 佐々木スパッツ
+EN Sasaki Spats
+
+@ 1369
+JP 郷野スパッツ
+EN Gono Spats
+
+@ 1370
+JP 田村スパッツ１
+EN Tamura Spats 1
+
+@ 1371
+JP 田村スパッツ２
+EN Tamura Spats 2
+
+@ 1372
+JP 大久保スパッツ
+EN Okubo Spats
+
+@ 1373
+JP 佐々木（恭）スパッツ
+EN Sasaki (Kyo) Spats
+
+@ 1374
+JP パンクラススパッツ１
+EN Pancrase Spats 1
+
+@ 1375
+JP パンクラススパッツ２
+EN Pancrase Spats 2
+
+@ 1376
+JP パンクラススパッツ３
+EN Pancrase Spats 3
+
+@ 1377
+JP 柏田スパッツ
+EN Kashiwada Spats
+
+@ 1378
+JP 野川スパッツ
+EN Nogawa Spats
+
+@ 1379
+JP 梶田スパッツ１
+EN Kajita Spats 1
+
+@ 1380
+JP 梶田スパッツ２
+EN Kajita Spats 2
+
+@ 1381
+JP ゆきぐにスパッツ
+EN Yukiguni Spats
+
+@ 1382
+JP ミクロスパッツ
+EN Micro Spats
+
+@ 1383
+JP カリースパッツ
+EN Curry Spats
+
+@ 1384
+JP ドッケンスパッツ
+EN Dokken Spats
+
+@ 1385
+JP ケンタウロスパッツ１
+EN Centauro Spats 1
+
+@ 1386
+JP ケンタウロスパッツ２
+EN Centauro Spats 2
+
+@ 1387
+JP ビーストスパッツ
+EN Beast Spats
+
+@ 1388
+JP ジルバスパッツ
+EN Zilba Spats
+
+@ 1389
+JP Ｊスパッツ
+EN J Spats
+
+@ 1390
+JP ヒラヒラスパッツ
+EN Frilly Spats
+
+@ 1391
+JP 星条旗スパッツ
+EN Stars & Stripes
+
+@ 1392
+JP アマレスＵＳＡ
+EN USA Singlet
+
+@ 1393
+JP ショートジーンズ
+EN Short Jeans
+
+@ 1394
+JP ノーマルハーフ
+EN Normal Half
+
+@ 1395
+JP ゼブラハーフ１
+EN Zebra Half Tights 1
+
+@ 1396
+JP ゼブラハーフ２
+EN Zebra Half Tights 2
+
+@ 1397
+JP ゼブラハーフ３
+EN Zebra Half Tights 3
+
+@ 1398
+JP 天山ハーフ１
+EN Tenzan Half 1
+
+@ 1399
+JP 天山ハーフ２
+EN Tenzan Half 2
+
+@ 1400
+JP 天山ハーフ３
+EN Tenzan Half 3
+
+@ 1401
+JP 天山ハーフ４
+EN Tenzan Half 4
+
+@ 1402
+JP 天山ハーフ５
+EN Tenzan Half 5
+
+@ 1403
+JP 安田ハーフ
+EN Yasuda Half Tights
+
+@ 1404
+JP 小島ハーフ１
+EN Kojima Shorts 1
+
+@ 1405
+JP 小島ハーフ２
+EN Kojima Shorts 2
+
+@ 1406
+JP 小島ハーフ３
+EN Kojima Shorts 3
+
+@ 1407
+JP 小島ハーフ４
+EN Kojima Shorts 4
+
+@ 1408
+JP 小島ハーフ５
+EN Kojima Shorts 5
+
+@ 1409
+JP 荒谷ハーフ
+EN Araya Shorts
+
+@ 1410
+JP 平井ハーフ
+EN Hirai Shorts
+
+@ 1411
+JP 本間ハーフ
+EN Honma Shorts
+
+@ 1412
+JP 保坂ハーフ
+EN Hosaka Shorts
+
+@ 1413
+JP ジャマールハーフ
+EN Jamal Shorts
+
+@ 1414
+JP 健介ハーフ
+EN Kensuke Shorts
+
+@ 1415
+JP コマンドハーフ
+EN Commando Shorts
+
+@ 1416
+JP ハーフジーンズ
+EN Jean Shorts
+
+@ 1417
+JP ファイヤージーンズ
+EN Fire Jeans
+
+@ 1418
+JP ノーマルロングタイツ
+EN Plain Tights
+
+@ 1419
+JP ラインロングタイツ
+EN Striped Tights
+
+@ 1420
+JP ファイヤーロングタイツ
+EN Fire Tights
+
+@ 1421
+JP 星ロングタイツ
+EN Star Tights
+
+@ 1422
+JP 豹柄ロングタイツ
+EN Leopard Tights
+
+@ 1423
+JP ゼブラロングタイツ
+EN Zebra Tights
+
+@ 1424
+JP 蝶野ロングタイツ１
+EN Chono Tights 1
+
+@ 1425
+JP 蝶野ロングタイツ２
+EN Chono Tights 2
+
+@ 1426
+JP 蝶野ロングタイツ３
+EN Chono Tights 3
+
+@ 1427
+JP 蝶野ロングタイツ４
+EN Chono Tights 4
+
+@ 1428
+JP 蝶野ロングタイツ５
+EN Chono Tights 5
+
+@ 1429
+JP 棚橋ロングタイツ
+EN Tanahashi Tights
+
+@ 1430
+JP 中邑ロングタイツ１
+EN Nakamura Tights 1
+
+@ 1431
+JP 中邑ロングタイツ２
+EN Nakamura Tights 2
+
+@ 1432
+JP ライガーロングタイツ１
+EN Liger Tights 1
+
+@ 1433
+JP ライガーロングタイツ２
+EN Liger Tights 2
+
+@ 1434
+JP ライガーロングタイツ３
+EN Liger Tights 3
+
+@ 1435
+JP サムライロングタイツ１
+EN Samurai Tights 1
+
+@ 1436
+JP サムライロングタイツ２
+EN Samurai Tights 2
+
+@ 1437
+JP ヒロロングタイツ
+EN Hiro Tights
+
+@ 1438
+JP ＡＫＩＲＡロングタイツ１
+EN AKIRA Tights 1
+
+@ 1439
+JP ＡＫＩＲＡロングタイツ２
+EN AKIRA Tights 2
+
+@ 1440
+JP 垣原ロングタイツ
+EN Kakihara Tights
+
+@ 1441
+JP ウルフロングタイツ
+EN Wolf Tights
+
+@ 1442
+JP 後藤ロングタイツ
+EN Goto Tights
+
+@ 1443
+JP 小原ロングタイツ
+EN Kohara Tights
+
+@ 1444
+JP 平田ロングタイツ
+EN Hirata Tights
+
+@ 1445
+JP 矢野ロングタイツ１
+EN Yano Tights 1
+
+@ 1446
+JP 矢野ロングタイツ２
+EN Yano Tights 2
+
+@ 1447
+JP 山崎ロングタイツ１
+EN Yamazaki Tights 1
+
+@ 1448
+JP 山崎ロングタイツ２
+EN Yamazaki Tights 2
+
+@ 1449
+JP キャットロングタイツ
+EN Cat Tights
+
+@ 1450
+JP 邪道ロングタイツ
+EN Jado Tights
+
+@ 1451
+JP 長井ロングタイツ
+EN Nagai Tights
+
+@ 1452
+JP バートンロングタイツ１
+EN Barton Tights 1
+
+@ 1453
+JP バートンロングタイツ２
+EN Barton Tights 2
+
+@ 1454
+JP 三沢ロングタイツ１
+EN Misawa Tights 1
+
+@ 1455
+JP 三沢ロングタイツ２
+EN Misawa Tights 2
+
+@ 1456
+JP 三沢ロングタイツ３
+EN Misawa Tights 3
+
+@ 1457
+JP 佐野ロングタイツ
+EN Sano Tights
+
+@ 1458
+JP 金丸ロングタイツ１
+EN Kanemaru Tights 1
+
+@ 1459
+JP 金丸ロングタイツ２
+EN Kanemaru Tights 2
+
+@ 1460
+JP 金丸ロングタイツ３
+EN Kanemaru Tights 3
+
+@ 1461
+JP スコーピオロングタイツ１
+EN Scorpio Tights 1
+
+@ 1462
+JP スコーピオロングタイツ２
+EN Scorpio Tights 2
+
+@ 1463
+JP 雅央ロングタイツ
+EN Masao Tights
+
+@ 1464
+JP 菊地ロングタイツ１
+EN Kikuchi Tights 1
+
+@ 1465
+JP 菊地ロングタイツ２
+EN Kikuchi Tights 2
+
+@ 1466
+JP 菊地ロングタイツ３
+EN Kikuchi Tights 3
+
+@ 1467
+JP 川畑ロングタイツ１
+EN Kawabata Tights 1
+
+@ 1468
+JP 川畑ロングタイツ２
+EN Kawabata Tights 2
+
+@ 1469
+JP ＫＥＮＴＡロングタイツ
+EN KENTA Tights
+
+@ 1470
+JP ヨネロングタイツ１
+EN Yone Tights 1
+
+@ 1471
+JP ヨネロングタイツ２
+EN Yone Tights 2
+
+@ 1472
+JP 鼓太郎ロングタイツ
+EN Kotaro Tights
+
+@ 1473
+JP 武藤ロングタイツ１
+EN Mutoh Tights 1
+
+@ 1474
+JP 武藤ロングタイツ２
+EN Mutoh Tights 2
+
+@ 1475
+JP 武藤ロングタイツ３
+EN Mutoh Tights 3
+
+@ 1476
+JP 武藤ロングタイツ４
+EN Mutoh Tights 4
+
+@ 1477
+JP 武藤ロングタイツ５
+EN Mutoh Tights 5
+
+@ 1478
+JP 武藤ロングタイツ６
+EN Mutoh Tights 6
+
+@ 1479
+JP 武藤ロングタイツ７
+EN Mutoh Tights 7
+
+@ 1480
+JP 川田ロングタイツ１
+EN Kawada Tights 1
+
+@ 1481
+JP 川田ロングタイツ２
+EN Kawada Tights 2
+
+@ 1482
+JP 嵐ロングタイツ
+EN Arashi Tights
+
+@ 1483
+JP 平井ロングタイツ
+EN Hirai Tights
+
+@ 1484
+JP 保坂ロングタイツ
+EN Hosaka Tights
+
+@ 1485
+JP 土方ロングタイツ
+EN Hijikata Tights
+
+@ 1486
+JP ハヤシロングタイツ
+EN Hayashi Tights
+
+@ 1487
+JP ハインズロングタイツ
+EN Hines Tights
+
+@ 1488
+JP ハシフロングタイツ
+EN Hashif Tights
+
+@ 1489
+JP 田中ロングタイツ
+EN Tanaka Tights
+
+@ 1490
+JP サファリロングタイツ
+EN Safari Tights
+
+@ 1491
+JP Ｌｏｗｋｉロングタイツ
+EN Low Ki Tights
+
+@ 1492
+JP パワーロングタイツ１
+EN Power Tights 1
+
+@ 1493
+JP パワーロングタイツ２
+EN Power Tights 2
+
+@ 1494
+JP 石井ロングタイツ
+EN Ishii Tights
+
+@ 1495
+JP マサロングタイツ
+EN Masa Tights
+
+@ 1496
+JP 保永ロングタイツ
+EN Honaga Tights
+
+@ 1497
+JP セイバーロングタイツ
+EN Saber Tights
+
+@ 1498
+JP Ｂタイガーロングタイツ１
+EN B. Tiger Tights 1
+
+@ 1499
+JP Ｂタイガーロングタイツ２
+EN B. Tiger Tights 2
+
+@ 1500
+JP ゆきぐにロングタイツ
+EN Yukiguni Tights
+
+@ 1501
+JP 慶三ロングタイツ
+EN Keizo Tights
+
+@ 1502
+JP ２００ロングタイツ
+EN 200 Tights
+
+@ 1503
+JP アステカロングタイツ
+EN Azteca Tights
+
+@ 1504
+JP ドルフィンロングタイツ
+EN Dolphin Tights
+
+@ 1505
+JP リンピオロングタイツ
+EN Limpio Tights
+
+@ 1506
+JP カニロングタイツ
+EN Crab Tights
+
+@ 1507
+JP ドゥガンロングタイツ
+EN Dugan Tights
+
+@ 1508
+JP ガンガンロングタイツ
+EN Gangan Tights
+
+@ 1509
+JP ジェットロングタイツ
+EN Jet Tights
+
+@ 1510
+JP コマンドロングタイツ
+EN Commando Tights
+
+@ 1511
+JP クロニクルロングタイツ
+EN Chronicle Tights
+
+@ 1512
+JP パンサーロングタイツ１
+EN Panther Tights 1
+
+@ 1513
+JP パンサーロングタイツ２
+EN Panther Tights 2
+
+@ 1514
+JP アマレスタイツ１
+EN Singlet 1
+
+@ 1515
+JP アマレスタイツ２
+EN Singlet 2
+
+@ 1516
+JP アマレス吉江
+EN Yoshie Singlet
+
+@ 1517
+JP アマレス吉江２
+EN Yoshie Singlet 2
+
+@ 1518
+JP ラインワンショルダー
+EN Striped 1-Shoulder
+
+@ 1519
+JP アマレスノートン１
+EN Norton Singlet 1
+
+@ 1520
+JP アマレスノートン２
+EN Norton Singlet 2
+
+@ 1521
+JP アマレスノートン３
+EN Norton Singlet 3
+
+@ 1522
+JP アマレス多聞
+EN Tamon Singlet
+
+@ 1523
+JP アマレス泉田
+EN Izumida Singlet
+
+@ 1524
+JP アマレス荒谷
+EN Araya Singlet
+
+@ 1525
+JP アマレス保坂
+EN Hosaka Singlet
+
+@ 1526
+JP アマレスアンダーソン
+EN Anderson Singlet
+
+@ 1527
+JP アマレスサファリ
+EN Safari Singlet
+
+@ 1528
+JP ワンショルダー富豪
+EN Fugo One-Shoulder
+
+@ 1529
+JP アマレススタミナ
+EN Stamina Singlet
+
+@ 1530
+JP アマレスジェイムス
+EN James Singlet
+
+@ 1531
+JP アマレスワグナー
+EN Wagner Singlet
+
+@ 1532
+JP アマレスシルバ
+EN Silva Singlet
+
+@ 1533
+JP アマレスクロニクル
+EN Chronicle Singlet
+
+@ 1534
+JP アマレスアレビン
+EN Alevin Singlet
+
+@ 1535
+JP アマレスブライト
+EN Bright Singlet
+
+@ 1536
+JP アマレス星マーク
+EN Star Singlet
+
+@ 1537
+JP 柔道着
+EN Judo Gi
+
+@ 1538
+JP 柔術着
+EN Jiu-Jitsu Gi
+
+@ 1539
+JP 菊田柔術着
+EN Kikuta Jiu-Jitsu Gi
+
+@ 1540
+JP ボロボロ着
+EN Rags
+
+@ 1541
+JP 忍者コスチューム
+EN Ninja Costume
+
+@ 1542
+JP 新日ジャージ
+EN New Japan Jersey
+
+@ 1543
+JP ノアジャージ
+EN NOAH Jersey
+
+@ 1544
+JP 全日ジャージ
+EN All Japan Jersey
+
+@ 1545
+JP 汎用ジャージ１
+EN Plain Jersey 1
+
+@ 1546
+JP 汎用ジャージ２
+EN Plain Jersey 2
+
+@ 1547
+JP ラインジャージ
+EN Line Jersey
+
+@ 1548
+JP スーツ
+EN Suit
+
+@ 1549
+JP 総裁スーツ
+EN Chairman Suit
+
+@ 1550
+JP 井上もんぺ
+EN Inoue Monpe
+
+@ 1551
+JP カシンもんぺ１
+EN Kashin Monpe 1
+
+@ 1552
+JP カシンもんぺ２
+EN Kashin Monpe 2
+
+@ 1553
+JP テングもんぺ
+EN Tengu Monpe
+
+@ 1554
+JP ランマルもんぺ
+EN Ranmaru Monpe
+
+@ 1555
+JP パンタロン
+EN Pantaloons
+
+@ 1556
+JP ラインパンタロン
+EN Striped Pants
+
+@ 1557
+JP 迷彩ズボン１
+EN Camo Pants 1
+
+@ 1558
+JP 迷彩ズボン２
+EN Camo Pants 2
+
+@ 1559
+JP 迷彩ズボン３
+EN Camo Pants 3
+
+@ 1560
+JP ジーンズ
+EN Jeans
+
+@ 1561
+JP 邪道ジーンズ
+EN Jado Jeans
+
+@ 1562
+JP 皮パン
+EN Leather Pants
+
+@ 1563
+JP 空手胴着
+EN Karate Gi
+
+@ 1564
+JP Ｔ２０００ズボン
+EN T2000 Pants
+
+@ 1565
+JP Ｔ２０００ジャンプスーツ
+EN T2000 Jumpsuit
+
+@ 1566
+JP 小原パンタロン
+EN Kohara Pants
+
+@ 1567
+JP 井上パンタロン
+EN Inoue Pants
+
+@ 1568
+JP 竹村パンタロン
+EN Takemura Pants
+
+@ 1569
+JP 丸藤パンタロン１
+EN Marufuji Pants 1
+
+@ 1570
+JP 丸藤パンタロン２
+EN Marufuji Pants 2
+
+@ 1571
+JP 丸藤パンタロン３
+EN Marufuji Pants 3
+
+@ 1572
+JP 丸藤パンタロン４
+EN Marufuji Pants 4
+
+@ 1573
+JP 彰俊パンタロン１
+EN Akitoshi Pants 1
+
+@ 1574
+JP 彰俊パンタロン２
+EN Akitoshi Pants 2
+
+@ 1575
+JP 彰俊パンタロン３
+EN Akitoshi Pants 3
+
+@ 1576
+JP 青柳胴着
+EN Aoyagi Gi
+
+@ 1577
+JP ムタズボン１
+EN Muta Pants 1
+
+@ 1578
+JP ムタズボン２
+EN Muta Pants 2
+
+@ 1579
+JP ムタズボン３
+EN Muta Pants 3
+
+@ 1580
+JP ムタズボン４
+EN Muta Pants 4
+
+@ 1581
+JP ムタズボン５
+EN Muta Pants 5
+
+@ 1582
+JP ムタズボン６
+EN Muta Pants 6
+
+@ 1583
+JP 黒師ズボン
+EN Kokushi Pants
+
+@ 1584
+JP 孤士ズボン
+EN Koji Pants
+
+@ 1585
+JP 太陽パンタロン
+EN Kea Pants
+
+@ 1586
+JP 橋本パンタロン１
+EN Hashimoto Pants 1
+
+@ 1587
+JP 橋本パンタロン２
+EN Hashimoto Pants 2
+
+@ 1588
+JP ＳＨＯＧＵＮパンタロン
+EN SHOGUN Pantaloons
+
+@ 1589
+JP 葛西パンタロン
+EN Kasai Pants
+
+@ 1590
+JP 侍はかま
+EN Samurai Hakama
+
+@ 1591
+JP 中嶋パンタロン
+EN Nakajima Pants
+
+@ 1592
+JP お経ズボン
+EN Sutra Pants
+
+@ 1593
+JP 成仏ズボン
+EN Jobutsu Pants
+
+@ 1594
+JP えぼすズボン
+EN Ebosu Pants
+
+@ 1595
+JP ふわふわズボン
+EN Fluffy Pants
+
+@ 1596
+JP デンジャーパンタロン
+EN Danger Pants
+
+@ 1597
+JP ミツルパンタロン
+EN Mitsuru Pants
+
+@ 1598
+JP リベラパンタロン
+EN Rivera Pants
+
+@ 1599
+JP パンサーパンタロン
+EN Panther Pants
+
+@ 1600
+JP レッグウォーマー１
+EN Leg Warmers 1
+
+@ 1601
+JP レッグウォーマー２
+EN Leg Warmers 2
+
+@ 1602
+JP キックトランクス１
+EN Kick Trunks 1
+
+@ 1603
+JP キックトランクス２
+EN Kick Trunks 2
+
+@ 1604
+JP キックトランクス３
+EN Kick Trunks 3
+
+@ 1605
+JP キックトランクス４
+EN Kick Trunks 4
+
+@ 1606
+JP アダモキルト
+EN Adamo Kilt
+
+@ 1607
+JP 長南トランクス
+EN Chonan Trunks
+
+@ 1608
+JP ジョンソントランクス
+EN Johnson Trunks
+
+@ 1609
+JP ラインスパッツ４
+EN Striped Spats 4
+
+@ 1610
+JP ワンショルダー
+EN One-Shoulder
+
+@ 1611
+JP 谷津ハーフ
+EN Yatsu Shorts
+
+@ 1612
+JP ＺＥＲＯ－ＯＮＥレフリーズボン
+EN ZERO-ONE Ref Pants
+
+@ 1613
+JP スミヤバザルスパッツ
+EN Sumiyabazar Spats
+
+@ 1614
+JP 美濃輪スパッツ
+EN Minowa Spats
+
+@ 1615
+JP パンクラスレフリーズボン
+EN Pancrase Ref Pants
+
+@ 1616
+JP フライスパッツ
+EN Frye Spats
+
+@ 1617
+JP 健想スパッツ
+EN Kenzo Spats
+
+@ 1618
+JP 南原パンタロン
+EN Nanbara Pants
+
+@ 1619
+JP 新日レフリーズボン
+EN New Japan Ref Pants
+
+@ 1620
+JP 全日レフリーズボン
+EN All Japan Ref Pants
+
+@ 1621
+JP ノアレフリーズボン
+EN NOAH Referee Pants
+
+@ 1622
+JP アマレスワグナー
+EN Wagner Singlet
+
+@ 1623
+JP アマレスロトンド
+EN Rotondo Singlet
+
+@ 1624
+JP ヤンパンタロン
+EN Yang Pants
+
+@ 1625
+JP 健想ロングタイツ１
+EN Kenzo Tights 1
+
+@ 1626
+JP 健想ロングタイツ２
+EN Kenzo Tights 2
+
+@ 1627
+JP ケロ腰
+EN Kero Waist
+
+@ 1628
+JP 木原腰
+EN Kihara Waist
+
+@ 1629
+JP 仲田腰
+EN Nakata Waist
+
+@ 1630
+JP 梨田柔道着
+EN Nashida Judo Gi
+
+@ 1631
+JP 総裁スーツ
+EN Chairman Suit
+
+@ 1632
+JP ステイシージャージ
+EN Stacy Jersey
+
+@ 1633
+JP 裸
+EN Bare
+
+@ 1634
+JP ニーパット
+EN Knee Pat
+
+@ 1635
+JP ロゴ入りニーパット
+EN Logo Kneepads
+
+@ 1636
+JP ラインニーパット
+EN Striped Kneepads
+
+@ 1637
+JP 稲妻ニーパット
+EN Lightning Kneepads
+
+@ 1638
+JP ニーパット＆サポーター１
+EN Kneepad & Support 1
+
+@ 1639
+JP ニーパット＆サポーター２
+EN Kneepad & Support 2
+
+@ 1640
+JP ニーパット＆サポーター３
+EN Kneepad & Support 3
+
+@ 1641
+JP ニーパット＆サポーター４
+EN Kneepad & Support 4
+
+@ 1642
+JP 総合用ニーパット
+EN MMA Kneepads
+
+@ 1643
+JP ニーサポーター
+EN Knee Support
+
+@ 1644
+JP 大森サポーター
+EN Omori Support
+
+@ 1645
+JP テキサスサポーター
+EN Texas Support
+
+@ 1646
+JP サポーター＆テーピング
+EN Support & Taping
+
+@ 1647
+JP ニーブレス＆サポーター
+EN Brace & Support
+
+@ 1648
+JP ロングニーパット
+EN Long Kneepads
+
+@ 1649
+JP 靴下つきニーパット
+EN Kneepads with Socks
+
+@ 1650
+JP ニーテーピング
+EN Knee Taping
+
+@ 1651
+JP 棚橋ニーパット
+EN Tanahashi Kneepads
+
+@ 1652
+JP 吉江ニーパット
+EN Yoshie Kneepads
+
+@ 1653
+JP 中邑ニーパット
+EN Nakamura Kneepads
+
+@ 1654
+JP 垣原ニーパット
+EN Kakihara Kneepads
+
+@ 1655
+JP 小橋ニーパット
+EN Kobashi Kneepads
+
+@ 1656
+JP 橋ニーパット１
+EN Hashi Kneepads 1
+
+@ 1657
+JP 橋ニーパット２
+EN Hashi Kneepads 2
+
+@ 1658
+JP 志賀ニーパット
+EN Shiga Kneepads
+
+@ 1659
+JP 小島ニーパット１
+EN Kojima Kneepads 1
+
+@ 1660
+JP 小島ニーパット２
+EN Kojima Kneepads 2
+
+@ 1661
+JP 小島ニーパット３
+EN Kojima Kneepads 3
+
+@ 1662
+JP 小島ニーパッド４
+EN Kojima Kneepads 4
+
+@ 1663
+JP 本間ニーパット１
+EN Honma Kneepads 1
+
+@ 1664
+JP 本間ニーパット２
+EN Honma Kneepads 2
+
+@ 1665
+JP 奥村ニーパット
+EN Okumura Kneepads
+
+@ 1666
+JP ＢＡＴＴニーパット
+EN BATT Kneepads
+
+@ 1667
+JP テンタニーパット
+EN Tenta Kneepads
+
+@ 1668
+JP 大谷ニーパット
+EN Otani Kneepads
+
+@ 1669
+JP ドクターニーパット
+EN Doctor Kneepads
+
+@ 1670
+JP レガースニー
+EN Knee Guard
+
+@ 1671
+JP ショートレガースニー
+EN Short Knee Guard
+
+@ 1672
+JP 永田レガースニー１
+EN Nagata Knee Guard 1
+
+@ 1673
+JP 永田レガースニー２
+EN Nagata Knee Guard 2
+
+@ 1674
+JP 永田レガースニー３
+EN Nagata Knee Guard 3
+
+@ 1675
+JP 長井レガースニー
+EN Nagai Knee Guard
+
+@ 1676
+JP 金本レガースニー１
+EN Kanemoto Knee 1
+
+@ 1677
+JP 金本レガースニー２
+EN Kanemoto Knee 2
+
+@ 1678
+JP 金本レガースニー３
+EN Kanemoto Knee 3
+
+@ 1679
+JP 金本レガースニー４
+EN Kanemoto Knee 4
+
+@ 1680
+JP 垣原レガースニー
+EN Kakihara Knee Guard
+
+@ 1681
+JP 成瀬レガースニー
+EN Naruse Knee Guard
+
+@ 1682
+JP Ｇ－ｅｇｇｓレガースニー
+EN G-eggs Knee Guard
+
+@ 1683
+JP ウルフレガースニー
+EN Wolf Knee Guard
+
+@ 1684
+JP バーネットレガースニー
+EN Barnett Knee Guard
+
+@ 1685
+JP 太陽レガースニー１
+EN Kea Knee Guard 1
+
+@ 1686
+JP 太陽レガースニー２
+EN Kea Knee Guard 2
+
+@ 1687
+JP アシッドレガースニー
+EN Acid Knee Guard
+
+@ 1688
+JP 土方レガースニー
+EN Hijikata Knee Guard
+
+@ 1689
+JP 耕平レガースニー
+EN Kohei Knee Guard
+
+@ 1690
+JP エンセンタトゥー
+EN Enson Tattoo
+
+@ 1691
+JP ノーマルロングタイツ
+EN Plain Tights
+
+@ 1692
+JP ロングタイツ用ニーパット
+EN Tights Kneepads
+
+@ 1693
+JP ロングタイツ用レガースニー
+EN Tights Knee Guards
+
+@ 1694
+JP ラインロングタイツ
+EN Striped Tights
+
+@ 1695
+JP セイバーロングタイツ
+EN Saber Tights
+
+@ 1696
+JP クロニクルロングタイツ
+EN Chronicle Tights
+
+@ 1697
+JP ファイヤーロングタイツ
+EN Fire Tights
+
+@ 1698
+JP 三沢ロングタイツ１
+EN Misawa Tights 1
+
+@ 1699
+JP 三沢ロングタイツ２
+EN Misawa Tights 2
+
+@ 1700
+JP 三沢ロングタイツ３
+EN Misawa Tights 3
+
+@ 1701
+JP 武藤ロングタイツ１
+EN Mutoh Tights 1
+
+@ 1702
+JP 武藤ロングタイツ２
+EN Mutoh Tights 2
+
+@ 1703
+JP 川田ロングタイツ１
+EN Kawada Tights 1
+
+@ 1704
+JP 川田ロングタイツ２
+EN Kawada Tights 2
+
+@ 1705
+JP 蝶野ロングタイツ１
+EN Chono Tights 1
+
+@ 1706
+JP 蝶野ロングタイツ３
+EN Chono Tights 3
+
+@ 1707
+JP 蝶野ロングタイツ４
+EN Chono Tights 4
+
+@ 1708
+JP パワーロングタイツ１
+EN Power Tights 1
+
+@ 1709
+JP パンサーロングタイツ１
+EN Panther Tights 1
+
+@ 1710
+JP パンサーロングタイツ２
+EN Panther Tights 2
+
+@ 1711
+JP 星ロングタイツ
+EN Star Tights
+
+@ 1712
+JP ライガーロングタイツ１
+EN Liger Tights 1
+
+@ 1713
+JP ライガーロングタイツ２
+EN Liger Tights 2
+
+@ 1714
+JP ライガーロングタイツ３
+EN Liger Tights 3
+
+@ 1715
+JP Ｌｏｗｋｉロングタイツ
+EN Low Ki Tights
+
+@ 1716
+JP ゆきぐにロングタイツ
+EN Yukiguni Tights
+
+@ 1717
+JP ２００ロングタイツ
+EN 200 Tights
+
+@ 1718
+JP アステカロングタイツ
+EN Azteca Tights
+
+@ 1719
+JP ドルフィンロングタイツ
+EN Dolphin Tights
+
+@ 1720
+JP リンピオロングタイツ
+EN Limpio Tights
+
+@ 1721
+JP Ｂタイガーロングタイツ２
+EN B. Tiger Tights 2
+
+@ 1722
+JP サムライロングタイツ１
+EN Samurai Tights 1
+
+@ 1723
+JP サムライロングタイツ２
+EN Samurai Tights 2
+
+@ 1724
+JP カニロングタイツ
+EN Crab Tights
+
+@ 1725
+JP ヒロロングタイツ
+EN Hiro Tights
+
+@ 1726
+JP ガンガンロングタイツ
+EN Gangan Tights
+
+@ 1727
+JP 山崎ロングタイツ１
+EN Yamazaki Tights 1
+
+@ 1728
+JP 山崎ロングタイツ２
+EN Yamazaki Tights 2
+
+@ 1729
+JP 豹柄ロングタイツ
+EN Leopard Tights
+
+@ 1730
+JP ウルフロングタイツ
+EN Wolf Tights
+
+@ 1731
+JP 矢野ロングタイツ１
+EN Yano Tights 1
+
+@ 1732
+JP えぼすズボン
+EN Ebosu Pants
+
+@ 1733
+JP パンタロン
+EN Pantaloons
+
+@ 1734
+JP 橋本パンタロン１
+EN Hashimoto Pants 1
+
+@ 1735
+JP 橋本パンタロン２
+EN Hashimoto Pants 2
+
+@ 1736
+JP 柔道着
+EN Judo Gi
+
+@ 1737
+JP 侍はかま
+EN Samurai Hakama
+
+@ 1738
+JP ムタズボン１
+EN Muta Pants 1
+
+@ 1739
+JP ムタズボン２
+EN Muta Pants 2
+
+@ 1740
+JP ムタズボン３
+EN Muta Pants 3
+
+@ 1741
+JP ムタズボン４
+EN Muta Pants 4
+
+@ 1742
+JP 丸藤パンタロン１
+EN Marufuji Pants 1
+
+@ 1743
+JP お経ズボン
+EN Sutra Pants
+
+@ 1744
+JP 成仏ズボン
+EN Jobutsu Pants
+
+@ 1745
+JP 安田ハーフ
+EN Yasuda Half Tights
+
+@ 1746
+JP 新日ジャージ
+EN New Japan Jersey
+
+@ 1747
+JP 全日ジャージ
+EN All Japan Jersey
+
+@ 1748
+JP ランマルもんぺ
+EN Ranmaru Monpe
+
+@ 1749
+JP カシンもんぺ１
+EN Kashin Monpe 1
+
+@ 1750
+JP カシンもんぺ２
+EN Kashin Monpe 2
+
+@ 1751
+JP Ｔ２０００ズボン
+EN T2000 Pants
+
+@ 1752
+JP 迷彩ズボン１
+EN Camo Pants 1
+
+@ 1753
+JP ジーンズ
+EN Jeans
+
+@ 1754
+JP 邪道ジーンズ
+EN Jado Jeans
+
+@ 1755
+JP Ｔ２０００ジャンプスーツ
+EN T2000 Jumpsuit
+
+@ 1756
+JP 忍者コスチューム
+EN Ninja Costume
+
+@ 1757
+JP スーツ
+EN Suit
+
+@ 1758
+JP ボロボロ着
+EN Rags
+
+@ 1759
+JP 汎用ジャージ１
+EN Plain Jersey 1
+
+@ 1760
+JP 蝶野ロングタイツ２
+EN Chono Tights 2
+
+@ 1761
+JP 矢野ロングタイツ２
+EN Yano Tights 2
+
+@ 1762
+JP 金丸ロングタイツ３
+EN Kanemaru Tights 3
+
+@ 1763
+JP 柔術着
+EN Jiu-Jitsu Gi
+
+@ 1764
+JP ノアジャージ
+EN NOAH Jersey
+
+@ 1765
+JP 汎用ジャージ２
+EN Plain Jersey 2
+
+@ 1766
+JP 天山ハーフ１
+EN Tenzan Half 1
+
+@ 1767
+JP 天山ハーフ２
+EN Tenzan Half 2
+
+@ 1768
+JP 天山ハーフ３
+EN Tenzan Half 3
+
+@ 1769
+JP ゼブラハーフ１
+EN Zebra Half Tights 1
+
+@ 1770
+JP ゼブラハーフ２
+EN Zebra Half Tights 2
+
+@ 1771
+JP ジェットロングタイツ
+EN Jet Tights
+
+@ 1772
+JP 小原パンタロン
+EN Kohara Pants
+
+@ 1773
+JP ミツルパンタロン
+EN Mitsuru Pants
+
+@ 1774
+JP 後藤ロングタイツ
+EN Goto Tights
+
+@ 1775
+JP ＡＫＩＲＡロングタイツ２
+EN AKIRA Tights 2
+
+@ 1776
+JP パンサーパンタロン
+EN Panther Pants
+
+@ 1777
+JP 嵐ロングタイツ
+EN Arashi Tights
+
+@ 1778
+JP 武藤ロングタイツ５
+EN Mutoh Tights 5
+
+@ 1779
+JP 井上もんぺ
+EN Inoue Monpe
+
+@ 1780
+JP 金丸ロングタイツ２
+EN Kanemaru Tights 2
+
+@ 1781
+JP 丸藤パンタロン３
+EN Marufuji Pants 3
+
+@ 1782
+JP 雅央ロングタイツ
+EN Masao Tights
+
+@ 1783
+JP 天山ハーフ４
+EN Tenzan Half 4
+
+@ 1784
+JP 棚橋ロングタイツ
+EN Tanahashi Tights
+
+@ 1785
+JP 保坂ロングタイツ
+EN Hosaka Tights
+
+@ 1786
+JP 総裁スーツ
+EN Chairman Suit
+
+@ 1787
+JP 石井ロングタイツ
+EN Ishii Tights
+
+@ 1788
+JP 慶三ロングタイツ
+EN Keizo Tights
+
+@ 1789
+JP テングもんぺ
+EN Tengu Monpe
+
+@ 1790
+JP サファリロングタイツ
+EN Safari Tights
+
+@ 1791
+JP アマレスガファリ
+EN Ghaffari Singlet
+
+@ 1792
+JP 葛西パンタロン
+EN Kasai Pants
+
+@ 1793
+JP ＺＥＲＯ－ＯＮＥレフリーズボン
+EN ZERO-ONE Ref Pants
+
+@ 1794
+JP 雅央ロングタイツ
+EN Masao Tights
+
+@ 1795
+JP 保坂ハーフ
+EN Hosaka Shorts
+
+@ 1796
+JP ＳＨＯＧＵＮパンタロン
+EN SHOGUN Pantaloons
+
+@ 1797
+JP ハシフロングタイツ
+EN Hashif Tights
+
+@ 1798
+JP スコーピオロングタイツ２
+EN Scorpio Tights 2
+
+@ 1799
+JP 天山ハーフ５
+EN Tenzan Half 5
+
+@ 1800
+JP 川畑ロングタイツ１
+EN Kawabata Tights 1
+
+@ 1801
+JP ヨネロングタイツ１
+EN Yone Tights 1
+
+@ 1802
+JP 中邑ロングタイツ１
+EN Nakamura Tights 1
+
+@ 1803
+JP 菊地ロングタイツ３
+EN Kikuchi Tights 3
+
+@ 1804
+JP コマンドハーフ
+EN Commando Shorts
+
+@ 1805
+JP コマンドロングタイツ
+EN Commando Tights
+
+@ 1806
+JP 迷彩ズボン２
+EN Camo Pants 2
+
+@ 1807
+JP ステイシージャージ
+EN Stacy Jersey
+
+@ 1808
+JP ラインジャージ
+EN Line Jersey
+
+@ 1809
+JP パンクラスレフリーズボン
+EN Pancrase Ref Pants
+
+@ 1810
+JP 平井ハーフ
+EN Hirai Shorts
+
+@ 1811
+JP 武藤ロングタイツ３
+EN Mutoh Tights 3
+
+@ 1812
+JP パワーロングタイツ２
+EN Power Tights 2
+
+@ 1813
+JP ＡＫＩＲＡロングタイツ１
+EN AKIRA Tights 1
+
+@ 1814
+JP ハインズロングタイツ
+EN Hines Tights
+
+@ 1815
+JP 垣原ロングタイツ
+EN Kakihara Tights
+
+@ 1816
+JP 小原ロングタイツ
+EN Kohara Tights
+
+@ 1817
+JP ヨネロングタイツ２
+EN Yone Tights 2
+
+@ 1818
+JP 平田ロングタイツ
+EN Hirata Tights
+
+@ 1819
+JP マサロングタイツ
+EN Masa Tights
+
+@ 1820
+JP ゼブラロングタイツ
+EN Zebra Tights
+
+@ 1821
+JP 金丸ロングタイツ１
+EN Kanemaru Tights 1
+
+@ 1822
+JP スコーピオロングタイツ１
+EN Scorpio Tights 1
+
+@ 1823
+JP 佐野ロングタイツ
+EN Sano Tights
+
+@ 1824
+JP 黒師ズボン
+EN Kokushi Pants
+
+@ 1825
+JP ふわふわズボン
+EN Fluffy Pants
+
+@ 1826
+JP 南原パンタロン
+EN Nanbara Pants
+
+@ 1827
+JP デンジャーパンタロン
+EN Danger Pants
+
+@ 1828
+JP 新日レフリーズボン
+EN New Japan Ref Pants
+
+@ 1829
+JP 全日レフリーズボン
+EN All Japan Ref Pants
+
+@ 1830
+JP 彰俊パンタロン１
+EN Akitoshi Pants 1
+
+@ 1831
+JP 丸藤パンタロン２
+EN Marufuji Pants 2
+
+@ 1832
+JP ノアレフリーズボン
+EN NOAH Referee Pants
+
+@ 1833
+JP アマレス多聞
+EN Tamon Singlet
+
+@ 1834
+JP アマレスジェイムス
+EN James Singlet
+
+@ 1835
+JP アマレスロトンド
+EN Rotondo Singlet
+
+@ 1836
+JP ラインパンタロン
+EN Striped Pants
+
+@ 1837
+JP ハヤシロングタイツ
+EN Hayashi Tights
+
+@ 1838
+JP Ｂ・タイガーロングタイツ１
+EN B. Tiger Tights 1
+
+@ 1839
+JP 武藤ロングタイツ４
+EN Mutoh Tights 4
+
+@ 1840
+JP アマレス保坂
+EN Hosaka Singlet
+
+@ 1841
+JP 孤士ズボン
+EN Koji Pants
+
+@ 1842
+JP ヤンパンタロン
+EN Yang Pants
+
+@ 1843
+JP ムタズボン５
+EN Muta Pants 5
+
+@ 1844
+JP 竹村パンタロン
+EN Takemura Pants
+
+@ 1845
+JP 健想ロングタイツ１
+EN Kenzo Tights 1
+
+@ 1846
+JP 長井ロングタイツ
+EN Nagai Tights
+
+@ 1847
+JP バートンロングタイツ１
+EN Barton Tights 1
+
+@ 1848
+JP 蝶野ロングタイツ５
+EN Chono Tights 5
+
+@ 1849
+JP 健想ロングタイツ２
+EN Kenzo Tights 2
+
+@ 1850
+JP キャットロングタイツ
+EN Cat Tights
+
+@ 1851
+JP 保永ロングタイツ
+EN Honaga Tights
+
+@ 1852
+JP 菊地ロングタイツ１
+EN Kikuchi Tights 1
+
+@ 1853
+JP 川畑ロングタイツ２
+EN Kawabata Tights 2
+
+@ 1854
+JP Ｕレガースニー
+EN U Knee Guard
+
+@ 1855
+JP 邪道ロングタイツ
+EN Jado Tights
+
+@ 1856
+JP ＫＥＮＴＡロングタイツ
+EN KENTA Tights
+
+@ 1857
+JP ゼブラハーフ３
+EN Zebra Half Tights 3
+
+@ 1858
+JP 空手胴着
+EN Karate Gi
+
+@ 1859
+JP 皮パン
+EN Leather Pants
+
+@ 1860
+JP ファイヤージーンズ
+EN Fire Jeans
+
+@ 1861
+JP 彰俊パンタロン２
+EN Akitoshi Pants 2
+
+@ 1862
+JP 迷彩ズボン３
+EN Camo Pants 3
+
+@ 1863
+JP 菊地ロングタイツ２
+EN Kikuchi Tights 2
+
+@ 1864
+JP ムタズボン６
+EN Muta Pants 6
+
+@ 1865
+JP ケロ膝
+EN Kero Knee
+
+@ 1866
+JP 木原膝
+EN Kihara Knee
+
+@ 1867
+JP 仲田膝
+EN Nakata Knee
+
+@ 1868
+JP 力皇スパッツ３
+EN Rikio Spats 3
+
+@ 1869
+JP 田中ロングタイツ
+EN Tanaka Tights
+
+@ 1870
+JP 土方ロングタイツ
+EN Hijikata Tights
+
+@ 1871
+JP レッグウォーマー１
+EN Leg Warmers 1
+
+@ 1872
+JP レッグウォーマー２
+EN Leg Warmers 2
+
+@ 1873
+JP 青柳胴着
+EN Aoyagi Gi
+
+@ 1874
+JP 彰俊パンタロン３
+EN Akitoshi Pants 3
+
+@ 1875
+JP リベラパンタロン
+EN Rivera Pants
+
+@ 1876
+JP 井上パンタロン
+EN Inoue Pants
+
+@ 1877
+JP 梨田柔道着
+EN Nashida Judo Gi
+
+@ 1878
+JP 総裁スーツ
+EN Chairman Suit
+
+@ 1879
+JP 中邑ロングタイツ２
+EN Nakamura Tights 2
+
+@ 1880
+JP 丸藤パンタロン４
+EN Marufuji Pants 4
+
+@ 1881
+JP 荒谷ハーフ
+EN Araya Shorts
+
+@ 1882
+JP ドゥガンロングタイツ
+EN Dugan Tights
+
+@ 1883
+JP 太陽パンタロン
+EN Kea Pants
+
+@ 1884
+JP 平井ロングタイツ
+EN Hirai Tights
+
+@ 1885
+JP 中嶋パンタロン
+EN Nakajima Pants
+
+@ 1886
+JP 鼓太郎ロングタイツ
+EN Kotaro Tights
+
+@ 1887
+JP バートンロングタイツ２
+EN Barton Tights 2
+
+@ 1888
+JP 武藤ロングタイツ６
+EN Mutoh Tights 6
+
+@ 1889
+JP ジャマールハーフ
+EN Jamal Shorts
+
+@ 1890
+JP 武藤ロングタイツ７
+EN Mutoh Tights 7
+
+@ 1891
+JP 裸
+EN Bare
+
+@ 1892
+JP ニーパット
+EN Knee Pat
+
+@ 1893
+JP ロゴ入りニーパット
+EN Logo Kneepads
+
+@ 1894
+JP ラインニーパット
+EN Striped Kneepads
+
+@ 1895
+JP 稲妻ニーパット
+EN Lightning Kneepads
+
+@ 1896
+JP ニーパット＆サポーター１
+EN Kneepad & Support 1
+
+@ 1897
+JP ニーパット＆サポーター２
+EN Kneepad & Support 2
+
+@ 1898
+JP ニーパット＆サポーター３
+EN Kneepad & Support 3
+
+@ 1899
+JP ニーパット＆サポーター４
+EN Kneepad & Support 4
+
+@ 1900
+JP 総合用ニーパット
+EN MMA Kneepads
+
+@ 1901
+JP ニーサポーター
+EN Knee Support
+
+@ 1902
+JP 大森サポーター
+EN Omori Support
+
+@ 1903
+JP テキサスサポーター
+EN Texas Support
+
+@ 1904
+JP サポーター＆テーピング
+EN Support & Taping
+
+@ 1905
+JP ニーブレス＆サポーター
+EN Brace & Support
+
+@ 1906
+JP ロングニーパット
+EN Long Kneepads
+
+@ 1907
+JP 靴下つきニーパット
+EN Kneepads with Socks
+
+@ 1908
+JP ニーテーピング
+EN Knee Taping
+
+@ 1909
+JP 棚橋ニーパット
+EN Tanahashi Kneepads
+
+@ 1910
+JP 吉江ニーパット
+EN Yoshie Kneepads
+
+@ 1911
+JP 中邑ニーパット
+EN Nakamura Kneepads
+
+@ 1912
+JP 垣原ニーパット
+EN Kakihara Kneepads
+
+@ 1913
+JP 小橋ニーパット
+EN Kobashi Kneepads
+
+@ 1914
+JP 橋ニーパット１
+EN Hashi Kneepads 1
+
+@ 1915
+JP 橋ニーパット２
+EN Hashi Kneepads 2
+
+@ 1916
+JP 志賀ニーパット
+EN Shiga Kneepads
+
+@ 1917
+JP 小島ニーパット１
+EN Kojima Kneepads 1
+
+@ 1918
+JP 小島ニーパット２
+EN Kojima Kneepads 2
+
+@ 1919
+JP 小島ニーパット３
+EN Kojima Kneepads 3
+
+@ 1920
+JP 小島ニーパッド４
+EN Kojima Kneepads 4
+
+@ 1921
+JP 本間ニーパット１
+EN Honma Kneepads 1
+
+@ 1922
+JP 本間ニーパット２
+EN Honma Kneepads 2
+
+@ 1923
+JP 奥村ニーパット
+EN Okumura Kneepads
+
+@ 1924
+JP ＢＡＴＴニーパット
+EN BATT Kneepads
+
+@ 1925
+JP テンタニーパット
+EN Tenta Kneepads
+
+@ 1926
+JP 大谷ニーパット
+EN Otani Kneepads
+
+@ 1927
+JP ドクターニーパット
+EN Doctor Kneepads
+
+@ 1928
+JP レガースニー
+EN Knee Guard
+
+@ 1929
+JP ショートレガースニー
+EN Short Knee Guard
+
+@ 1930
+JP 永田レガースニー１
+EN Nagata Knee Guard 1
+
+@ 1931
+JP 永田レガースニー２
+EN Nagata Knee Guard 2
+
+@ 1932
+JP 永田レガースニー３
+EN Nagata Knee Guard 3
+
+@ 1933
+JP 長井レガースニー
+EN Nagai Knee Guard
+
+@ 1934
+JP 金本レガースニー１
+EN Kanemoto Knee 1
+
+@ 1935
+JP 金本レガースニー２
+EN Kanemoto Knee 2
+
+@ 1936
+JP 金本レガースニー３
+EN Kanemoto Knee 3
+
+@ 1937
+JP 金本レガースニー４
+EN Kanemoto Knee 4
+
+@ 1938
+JP 垣原レガースニー
+EN Kakihara Knee Guard
+
+@ 1939
+JP 成瀬レガースニー
+EN Naruse Knee Guard
+
+@ 1940
+JP Ｇ－ｅｇｇｓレガースニー
+EN G-eggs Knee Guard
+
+@ 1941
+JP ウルフレガースニー
+EN Wolf Knee Guard
+
+@ 1942
+JP バーネットレガースニー
+EN Barnett Knee Guard
+
+@ 1943
+JP 太陽レガースニー１
+EN Kea Knee Guard 1
+
+@ 1944
+JP 太陽レガースニー２
+EN Kea Knee Guard 2
+
+@ 1945
+JP 土方レガースニー
+EN Hijikata Knee Guard
+
+@ 1946
+JP 耕平レガースニー
+EN Kohei Knee Guard
+
+@ 1947
+JP アシッドレガースニー
+EN Acid Knee Guard
+
+@ 1948
+JP Ｕレガースニー
+EN U Knee Guard
+
+@ 1949
+JP ノーマルロングタイツ
+EN Plain Tights
+
+@ 1950
+JP ラインロングタイツ
+EN Striped Tights
+
+@ 1951
+JP セイバーロングタイツ
+EN Saber Tights
+
+@ 1952
+JP クロニクルロングタイツ
+EN Chronicle Tights
+
+@ 1953
+JP ファイヤーロングタイツ
+EN Fire Tights
+
+@ 1954
+JP 三沢ロングタイツ１
+EN Misawa Tights 1
+
+@ 1955
+JP 三沢ロングタイツ２
+EN Misawa Tights 2
+
+@ 1956
+JP 三沢ロングタイツ３
+EN Misawa Tights 3
+
+@ 1957
+JP 武藤ロングタイツ１
+EN Mutoh Tights 1
+
+@ 1958
+JP 武藤ロングタイツ２
+EN Mutoh Tights 2
+
+@ 1959
+JP 川田ロングタイツ１
+EN Kawada Tights 1
+
+@ 1960
+JP 川田ロングタイツ２
+EN Kawada Tights 2
+
+@ 1961
+JP 蝶野ロングタイツ１
+EN Chono Tights 1
+
+@ 1962
+JP 蝶野ロングタイツ３
+EN Chono Tights 3
+
+@ 1963
+JP 蝶野ロングタイツ４
+EN Chono Tights 4
+
+@ 1964
+JP パワーロングタイツ１
+EN Power Tights 1
+
+@ 1965
+JP パンサーロングタイツ１
+EN Panther Tights 1
+
+@ 1966
+JP パンサーロングタイツ２
+EN Panther Tights 2
+
+@ 1967
+JP 星ロングタイツ
+EN Star Tights
+
+@ 1968
+JP ライガーロングタイツ１
+EN Liger Tights 1
+
+@ 1969
+JP ライガーロングタイツ２
+EN Liger Tights 2
+
+@ 1970
+JP ライガーロングタイツ３
+EN Liger Tights 3
+
+@ 1971
+JP Ｌｏｗｋｉロングタイツ
+EN Low Ki Tights
+
+@ 1972
+JP ゆきぐにロングタイツ
+EN Yukiguni Tights
+
+@ 1973
+JP ２００ロングタイツ
+EN 200 Tights
+
+@ 1974
+JP アステカロングタイツ
+EN Azteca Tights
+
+@ 1975
+JP ドルフィンロングタイツ
+EN Dolphin Tights
+
+@ 1976
+JP リンピオロングタイツ
+EN Limpio Tights
+
+@ 1977
+JP Ｂタイガーロングタイツ２
+EN B. Tiger Tights 2
+
+@ 1978
+JP サムライロングタイツ１
+EN Samurai Tights 1
+
+@ 1979
+JP サムライロングタイツ２
+EN Samurai Tights 2
+
+@ 1980
+JP カニロングタイツ
+EN Crab Tights
+
+@ 1981
+JP ヒロロングタイツ
+EN Hiro Tights
+
+@ 1982
+JP ガンガンロングタイツ
+EN Gangan Tights
+
+@ 1983
+JP 山崎ロングタイツ１
+EN Yamazaki Tights 1
+
+@ 1984
+JP 山崎ロングタイツ２
+EN Yamazaki Tights 2
+
+@ 1985
+JP 豹柄ロングタイツ
+EN Leopard Tights
+
+@ 1986
+JP ウルフロングタイツ
+EN Wolf Tights
+
+@ 1987
+JP 矢野ロングタイツ１
+EN Yano Tights 1
+
+@ 1988
+JP えぼすズボン
+EN Ebosu Pants
+
+@ 1989
+JP パンタロン
+EN Pantaloons
+
+@ 1990
+JP 橋本パンタロン１
+EN Hashimoto Pants 1
+
+@ 1991
+JP 橋本パンタロン２
+EN Hashimoto Pants 2
+
+@ 1992
+JP 柔道着
+EN Judo Gi
+
+@ 1993
+JP 侍はかま
+EN Samurai Hakama
+
+@ 1994
+JP ムタズボン１
+EN Muta Pants 1
+
+@ 1995
+JP ムタズボン２
+EN Muta Pants 2
+
+@ 1996
+JP ムタズボン３
+EN Muta Pants 3
+
+@ 1997
+JP ムタズボン４
+EN Muta Pants 4
+
+@ 1998
+JP 丸藤パンタロン１
+EN Marufuji Pants 1
+
+@ 1999
+JP お経ズボン
+EN Sutra Pants
+
+@ 2000
+JP 成仏ズボン
+EN Jobutsu Pants
+
+@ 2001
+JP 安田ハーフ
+EN Yasuda Half Tights
+
+@ 2002
+JP 新日ジャージ
+EN New Japan Jersey
+
+@ 2003
+JP 全日ジャージ
+EN All Japan Jersey
+
+@ 2004
+JP ランマルもんぺ
+EN Ranmaru Monpe
+
+@ 2005
+JP カシンもんぺ１
+EN Kashin Monpe 1
+
+@ 2006
+JP カシンもんぺ２
+EN Kashin Monpe 2
+
+@ 2007
+JP Ｔ２０００ズボン
+EN T2000 Pants
+
+@ 2008
+JP 迷彩ズボン１
+EN Camo Pants 1
+
+@ 2009
+JP ジーンズ
+EN Jeans
+
+@ 2010
+JP 邪道ジーンズ
+EN Jado Jeans
+
+@ 2011
+JP Ｔ２０００ジャンプスーツ
+EN T2000 Jumpsuit
+
+@ 2012
+JP ロングタイツ用ニーパット
+EN Tights Kneepads
+
+@ 2013
+JP 忍者コスチューム
+EN Ninja Costume
+
+@ 2014
+JP スーツ
+EN Suit
+
+@ 2015
+JP ボロボロ着
+EN Rags
+
+@ 2016
+JP 汎用ジャージ１
+EN Plain Jersey 1
+
+@ 2017
+JP 蝶野ロングタイツ２
+EN Chono Tights 2
+
+@ 2018
+JP 矢野ロングタイツ２
+EN Yano Tights 2
+
+@ 2019
+JP 金丸ロングタイツ３
+EN Kanemaru Tights 3
+
+@ 2020
+JP 柔術着
+EN Jiu-Jitsu Gi
+
+@ 2021
+JP ノアジャージ
+EN NOAH Jersey
+
+@ 2022
+JP 汎用ジャージ２
+EN Plain Jersey 2
+
+@ 2023
+JP 天山ハーフ１
+EN Tenzan Half 1
+
+@ 2024
+JP 天山ハーフ２
+EN Tenzan Half 2
+
+@ 2025
+JP 天山ハーフ３
+EN Tenzan Half 3
+
+@ 2026
+JP ゼブラハーフ１
+EN Zebra Half Tights 1
+
+@ 2027
+JP ゼブラハーフ２
+EN Zebra Half Tights 2
+
+@ 2028
+JP ジェットロングタイツ
+EN Jet Tights
+
+@ 2029
+JP 小原パンタロン
+EN Kohara Pants
+
+@ 2030
+JP ミツルパンタロン
+EN Mitsuru Pants
+
+@ 2031
+JP エンセンタトゥー
+EN Enson Tattoo
+
+@ 2032
+JP 後藤ロングタイツ
+EN Goto Tights
+
+@ 2033
+JP ＡＫＩＲＡロングタイツ２
+EN AKIRA Tights 2
+
+@ 2034
+JP パンサーパンタロン
+EN Panther Pants
+
+@ 2035
+JP 嵐ロングタイツ
+EN Arashi Tights
+
+@ 2036
+JP 武藤ロングタイツ５
+EN Mutoh Tights 5
+
+@ 2037
+JP 井上もんぺ
+EN Inoue Monpe
+
+@ 2038
+JP 金丸ロングタイツ２
+EN Kanemaru Tights 2
+
+@ 2039
+JP 丸藤パンタロン３
+EN Marufuji Pants 3
+
+@ 2040
+JP 雅央ロングタイツ
+EN Masao Tights
+
+@ 2041
+JP 天山ハーフ４
+EN Tenzan Half 4
+
+@ 2042
+JP 棚橋ロングタイツ
+EN Tanahashi Tights
+
+@ 2043
+JP 保坂ロングタイツ
+EN Hosaka Tights
+
+@ 2044
+JP 総裁スーツ
+EN Chairman Suit
+
+@ 2045
+JP 石井ロングタイツ
+EN Ishii Tights
+
+@ 2046
+JP 慶三ロングタイツ
+EN Keizo Tights
+
+@ 2047
+JP テングもんぺ
+EN Tengu Monpe
+
+@ 2048
+JP サファリロングタイツ
+EN Safari Tights
+
+@ 2049
+JP アマレスガファリ
+EN Ghaffari Singlet
+
+@ 2050
+JP 葛西パンタロン
+EN Kasai Pants
+
+@ 2051
+JP ＺＥＲＯ－ＯＮＥレフリーズボン
+EN ZERO-ONE Ref Pants
+
+@ 2052
+JP 雅央ロングタイツ
+EN Masao Tights
+
+@ 2053
+JP 保坂ハーフ
+EN Hosaka Shorts
+
+@ 2054
+JP ＳＨＯＧＵＮパンタロン
+EN SHOGUN Pantaloons
+
+@ 2055
+JP ハシフロングタイツ
+EN Hashif Tights
+
+@ 2056
+JP スコーピオロングタイツ２
+EN Scorpio Tights 2
+
+@ 2057
+JP 天山ハーフ５
+EN Tenzan Half 5
+
+@ 2058
+JP 川畑ロングタイツ１
+EN Kawabata Tights 1
+
+@ 2059
+JP ヨネロングタイツ１
+EN Yone Tights 1
+
+@ 2060
+JP 中邑ロングタイツ１
+EN Nakamura Tights 1
+
+@ 2061
+JP 菊地ロングタイツ３
+EN Kikuchi Tights 3
+
+@ 2062
+JP コマンドハーフ
+EN Commando Shorts
+
+@ 2063
+JP コマンドロングタイツ
+EN Commando Tights
+
+@ 2064
+JP 迷彩ズボン２
+EN Camo Pants 2
+
+@ 2065
+JP ステイシージャージ
+EN Stacy Jersey
+
+@ 2066
+JP ラインジャージ
+EN Line Jersey
+
+@ 2067
+JP パンクラスレフリーズボン
+EN Pancrase Ref Pants
+
+@ 2068
+JP ロングタイツ用レガースニー
+EN Tights Knee Guards
+
+@ 2069
+JP 平井ハーフ
+EN Hirai Shorts
+
+@ 2070
+JP 武藤ロングタイツ３
+EN Mutoh Tights 3
+
+@ 2071
+JP パワーロングタイツ２
+EN Power Tights 2
+
+@ 2072
+JP ＡＫＩＲＡロングタイツ１
+EN AKIRA Tights 1
+
+@ 2073
+JP ハインズロングタイツ
+EN Hines Tights
+
+@ 2074
+JP 垣原ロングタイツ
+EN Kakihara Tights
+
+@ 2075
+JP 小原ロングタイツ
+EN Kohara Tights
+
+@ 2076
+JP ヨネロングタイツ２
+EN Yone Tights 2
+
+@ 2077
+JP 平田ロングタイツ
+EN Hirata Tights
+
+@ 2078
+JP マサロングタイツ
+EN Masa Tights
+
+@ 2079
+JP ゼブラロングタイツ
+EN Zebra Tights
+
+@ 2080
+JP 金丸ロングタイツ１
+EN Kanemaru Tights 1
+
+@ 2081
+JP スコーピオロングタイツ１
+EN Scorpio Tights 1
+
+@ 2082
+JP 佐野ロングタイツ
+EN Sano Tights
+
+@ 2083
+JP 黒師ズボン
+EN Kokushi Pants
+
+@ 2084
+JP ふわふわズボン
+EN Fluffy Pants
+
+@ 2085
+JP 南原パンタロン
+EN Nanbara Pants
+
+@ 2086
+JP デンジャーパンタロン
+EN Danger Pants
+
+@ 2087
+JP 新日レフリーズボン
+EN New Japan Ref Pants
+
+@ 2088
+JP 全日レフリーズボン
+EN All Japan Ref Pants
+
+@ 2089
+JP 彰俊パンタロン１
+EN Akitoshi Pants 1
+
+@ 2090
+JP 丸藤パンタロン２
+EN Marufuji Pants 2
+
+@ 2091
+JP ノアレフリーズボン
+EN NOAH Referee Pants
+
+@ 2092
+JP アマレス多聞
+EN Tamon Singlet
+
+@ 2093
+JP アマレスジェイムス
+EN James Singlet
+
+@ 2094
+JP アマレスロトンド
+EN Rotondo Singlet
+
+@ 2095
+JP ラインパンタロン
+EN Striped Pants
+
+@ 2096
+JP ハヤシロングタイツ
+EN Hayashi Tights
+
+@ 2097
+JP Ｂ・タイガーロングタイツ１
+EN B. Tiger Tights 1
+
+@ 2098
+JP 武藤ロングタイツ４
+EN Mutoh Tights 4
+
+@ 2099
+JP アマレス保坂
+EN Hosaka Singlet
+
+@ 2100
+JP 孤士ズボン
+EN Koji Pants
+
+@ 2101
+JP ヤンパンタロン
+EN Yang Pants
+
+@ 2102
+JP ムタズボン５
+EN Muta Pants 5
+
+@ 2103
+JP 竹村パンタロン
+EN Takemura Pants
+
+@ 2104
+JP 健想ロングタイツ１
+EN Kenzo Tights 1
+
+@ 2105
+JP 長井ロングタイツ
+EN Nagai Tights
+
+@ 2106
+JP バートンロングタイツ１
+EN Barton Tights 1
+
+@ 2107
+JP 蝶野ロングタイツ５
+EN Chono Tights 5
+
+@ 2108
+JP 健想ロングタイツ２
+EN Kenzo Tights 2
+
+@ 2109
+JP キャットロングタイツ
+EN Cat Tights
+
+@ 2110
+JP 保永ロングタイツ
+EN Honaga Tights
+
+@ 2111
+JP 菊地ロングタイツ１
+EN Kikuchi Tights 1
+
+@ 2112
+JP 川畑ロングタイツ２
+EN Kawabata Tights 2
+
+@ 2113
+JP 邪道ロングタイツ
+EN Jado Tights
+
+@ 2114
+JP ＫＥＮＴＡロングタイツ
+EN KENTA Tights
+
+@ 2115
+JP ゼブラハーフ３
+EN Zebra Half Tights 3
+
+@ 2116
+JP 空手胴着
+EN Karate Gi
+
+@ 2117
+JP 皮パン
+EN Leather Pants
+
+@ 2118
+JP ファイヤージーンズ
+EN Fire Jeans
+
+@ 2119
+JP 彰俊パンタロン２
+EN Akitoshi Pants 2
+
+@ 2120
+JP 迷彩ズボン３
+EN Camo Pants 3
+
+@ 2121
+JP 菊地ロングタイツ２
+EN Kikuchi Tights 2
+
+@ 2122
+JP ムタズボン６
+EN Muta Pants 6
+
+@ 2123
+JP ケロ膝
+EN Kero Knee
+
+@ 2124
+JP 木原膝
+EN Kihara Knee
+
+@ 2125
+JP 仲田膝
+EN Nakata Knee
+
+@ 2126
+JP 力皇スパッツ３
+EN Rikio Spats 3
+
+@ 2127
+JP 田中ロングタイツ
+EN Tanaka Tights
+
+@ 2128
+JP 土方ロングタイツ
+EN Hijikata Tights
+
+@ 2129
+JP レッグウォーマー１
+EN Leg Warmers 1
+
+@ 2130
+JP レッグウォーマー２
+EN Leg Warmers 2
+
+@ 2131
+JP 青柳胴着
+EN Aoyagi Gi
+
+@ 2132
+JP 彰俊パンタロン３
+EN Akitoshi Pants 3
+
+@ 2133
+JP リベラパンタロン
+EN Rivera Pants
+
+@ 2134
+JP 井上パンタロン
+EN Inoue Pants
+
+@ 2135
+JP 梨田柔道着
+EN Nashida Judo Gi
+
+@ 2136
+JP 総裁スーツ
+EN Chairman Suit
+
+@ 2137
+JP 中邑ロングタイツ２
+EN Nakamura Tights 2
+
+@ 2138
+JP 丸藤パンタロン４
+EN Marufuji Pants 4
+
+@ 2139
+JP 荒谷ハーフ
+EN Araya Shorts
+
+@ 2140
+JP ドゥガンロングタイツ
+EN Dugan Tights
+
+@ 2141
+JP 太陽パンタロン
+EN Kea Pants
+
+@ 2142
+JP 平井ロングタイツ
+EN Hirai Tights
+
+@ 2143
+JP 中嶋パンタロン
+EN Nakajima Pants
+
+@ 2144
+JP 鼓太郎ロングタイツ
+EN Kotaro Tights
+
+@ 2145
+JP バートンロングタイツ２
+EN Barton Tights 2
+
+@ 2146
+JP 武藤ロングタイツ６
+EN Mutoh Tights 6
+
+@ 2147
+JP ジャマールハーフ
+EN Jamal Shorts
+
+@ 2148
+JP 武藤ロングタイツ７
+EN Mutoh Tights 7
+
+@ 2149
+JP 裸足
+EN Barefoot
+
+@ 2150
+JP 足テーピング
+EN Foot Taping
+
+@ 2151
+JP ノーマルシューズ１
+EN Plain Shoes 1
+
+@ 2152
+JP ノーマルシューズ２
+EN Plain Shoes 2
+
+@ 2153
+JP ミドルシューズ
+EN Mid-Cut Shoes
+
+@ 2154
+JP ショートシューズ１
+EN Low-Cut Shoes 1
+
+@ 2155
+JP ショートシューズ２
+EN Low-Cut Shoes 2
+
+@ 2156
+JP ラインシューズ１
+EN Striped Shoes 1
+
+@ 2157
+JP ラインシューズ２
+EN Striped Shoes 2
+
+@ 2158
+JP ラインシューズ３
+EN Striped Shoes 3
+
+@ 2159
+JP ラインシューズ４
+EN Striped Shoes 4
+
+@ 2160
+JP ファイヤーシューズ
+EN Fire Shoes
+
+@ 2161
+JP サンダーシューズ
+EN Thunder Shoes
+
+@ 2162
+JP 悪魔シューズ
+EN Devil Shoes
+
+@ 2163
+JP ソックスシューズ
+EN Sock Shoes
+
+@ 2164
+JP 吉江シューズ１
+EN Yoshie Shoes 1
+
+@ 2165
+JP 吉江シューズ２
+EN Yoshie Shoes 2
+
+@ 2166
+JP 安田シューズ
+EN Yasuda Shoes
+
+@ 2167
+JP ウルフシューズ
+EN Wolf Shoes
+
+@ 2168
+JP 井上シューズ
+EN Inoue Shoes
+
+@ 2169
+JP 邪道シューズ
+EN Jado Shoes
+
+@ 2170
+JP 小橋シューズ
+EN Kobashi Shoes
+
+@ 2171
+JP 力皇シューズ
+EN Rikio Shoes
+
+@ 2172
+JP スコーピオシューズ
+EN Scorpio Shoes
+
+@ 2173
+JP 小島シューズ１
+EN Kojima Shoes 1
+
+@ 2174
+JP 小島シューズ２
+EN Kojima Shoes 2
+
+@ 2175
+JP 小島シューズ３
+EN Kojima Shoes 3
+
+@ 2176
+JP 馳シューズ
+EN Hase Shoes
+
+@ 2177
+JP ギカンテスシューズ
+EN Gigantes Shoes
+
+@ 2178
+JP 橋本シューズ
+EN Hashimoto Shoes
+
+@ 2179
+JP 大谷シューズ
+EN Otani Shoes
+
+@ 2180
+JP 富豪２シューズ
+EN Fugofugo Shoes
+
+@ 2181
+JP 健介シューズ１
+EN Kensuke Shoes 1
+
+@ 2182
+JP 健介シューズ２
+EN Kensuke Shoes 2
+
+@ 2183
+JP 健介シューズ３
+EN Kensuke Shoes 3
+
+@ 2184
+JP 天龍シューズ
+EN Tenryu Shoes
+
+@ 2185
+JP 大森シューズ
+EN Omori Shoes
+
+@ 2186
+JP セイバーシューズ
+EN Saber Shoes
+
+@ 2187
+JP スニーカー
+EN Sneakers
+
+@ 2188
+JP アマレスシューズ１
+EN Wrestling Shoes 1
+
+@ 2189
+JP アマレスシューズ２
+EN Wrestling Shoes 2
+
+@ 2190
+JP ジャマールシューズ
+EN Jamal Shoes
+
+@ 2191
+JP 多聞アマレスシューズ
+EN Tamon Amateur Shoes
+
+@ 2192
+JP ブーツ
+EN Boots
+
+@ 2193
+JP テキサスブーツ
+EN Texas Boots
+
+@ 2194
+JP 超獣ブーツ
+EN Beast Boots
+
+@ 2195
+JP 蝶野ブーツ１
+EN Chono Boots 1
+
+@ 2196
+JP 蝶野ブーツ２
+EN Chono Boots 2
+
+@ 2197
+JP 蝶野ブーツ３
+EN Chono Boots 3
+
+@ 2198
+JP 蝶野ブーツ４
+EN Chono Boots 4
+
+@ 2199
+JP ライガーブーツ
+EN Liger Boots
+
+@ 2200
+JP 天山ブーツ
+EN Tenzan Boots
+
+@ 2201
+JP ウルフブーツ
+EN Wolf Boots
+
+@ 2202
+JP パワーブーツ１
+EN Power Boots 1
+
+@ 2203
+JP パワーブーツ２
+EN Power Boots 2
+
+@ 2204
+JP カンフーシューズ
+EN Kung Fu Shoes
+
+@ 2205
+JP 足袋
+EN Tabi
+
+@ 2206
+JP テング足袋
+EN Tengu Tabi
+
+@ 2207
+JP 稲妻レガースシューズ
+EN Bolt Guard Shoes
+
+@ 2208
+JP レガース
+EN Shin Guards
+
+@ 2209
+JP ラインレガース
+EN Striped Guards
+
+@ 2210
+JP 永田レガース１
+EN Nagata Guards 1
+
+@ 2211
+JP 永田レガース２
+EN Nagata Guards 2
+
+@ 2212
+JP 永田レガース３
+EN Nagata Guards 3
+
+@ 2213
+JP 永田レガース４
+EN Nagata Guards 4
+
+@ 2214
+JP 村上レガース
+EN Murakami Guards
+
+@ 2215
+JP 長井レガース１
+EN Nagai Guards 1
+
+@ 2216
+JP 長井レガース２
+EN Nagai Guards 2
+
+@ 2217
+JP ウルフレガース
+EN Wolf Guards
+
+@ 2218
+JP 金本レガース１
+EN Kanemoto Guards 1
+
+@ 2219
+JP 金本レガース２
+EN Kanemoto Guards 2
+
+@ 2220
+JP 金本レガース３
+EN Kanemoto Guards 3
+
+@ 2221
+JP 金本レガース４
+EN Kanemoto Guards 4
+
+@ 2222
+JP 稔レガース
+EN Minoru Guards
+
+@ 2223
+JP 垣原レガース
+EN Kakihara Guards
+
+@ 2224
+JP ＡＫＩＲＡレガース
+EN AKIRA Guards
+
+@ 2225
+JP バーネットレガース
+EN Barnett Guards
+
+@ 2226
+JP Ｂ・タイガーレガース
+EN B. Tiger Guards
+
+@ 2227
+JP 佐野レガース
+EN Sano Guards
+
+@ 2228
+JP 金丸レガース
+EN Kanemaru Guards
+
+@ 2229
+JP ヨネレガース
+EN Yone Guards
+
+@ 2230
+JP 川田レガース１
+EN Kawada Guards 1
+
+@ 2231
+JP 川田レガース２
+EN Kawada Guards 2
+
+@ 2232
+JP 太陽レガース１
+EN Kea Guards 1
+
+@ 2233
+JP 太陽レガース２
+EN Kea Guards 2
+
+@ 2234
+JP ＢＡＴＴレガース
+EN BATT Guards
+
+@ 2235
+JP 土方レガース
+EN Hijikata Guards
+
+@ 2236
+JP ハシフレガース
+EN Hashif Guards
+
+@ 2237
+JP 耕平レガース１
+EN Kohei Guards 1
+
+@ 2238
+JP 耕平レガース２
+EN Kohei Guards 2
+
+@ 2239
+JP コリノレガース
+EN Corino Guards
+
+@ 2240
+JP Ｌｏｗｋｉレガース
+EN Low Ki Guards
+
+@ 2241
+JP アシッドレガース
+EN Acid Guards
+
+@ 2242
+JP 高山レガース
+EN Takayama Guards
+
+@ 2243
+JP 中嶋レガース
+EN Nakajima Guards
+
+@ 2244
+JP 田村レガース
+EN Tamura Guards
+
+@ 2245
+JP Ｕレガース
+EN U Guards
+
+@ 2246
+JP ドルフィンレガース
+EN Dolphin Guards
+
+@ 2247
+JP アステカレガース
+EN Azteca Guards
+
+@ 2248
+JP ＵＮＯレガース
+EN UNO Guards
+
+@ 2249
+JP パンサーシューズ１
+EN Panther Shoes 1
+
+@ 2250
+JP パンサーシューズ２
+EN Panther Shoes 2
+
+@ 2251
+JP ロングタイツ用シューズ１
+EN Shoes for Tights 1
+
+@ 2252
+JP ロングタイツ用シューズ２
+EN Shoes for Tights 2
+
+@ 2253
+JP ラインタイツ用シューズ
+EN Shoes (Striped)
+
+@ 2254
+JP 星タイツ用シューズ
+EN Shoes (Star)
+
+@ 2255
+JP ゼブラタイツ用シューズ
+EN Shoes (Zebra)
+
+@ 2256
+JP 棚橋ロングタイツ用シューズ
+EN Shoes (Tanahashi)
+
+@ 2257
+JP サムライタイツ１用シューズ
+EN Shoes (Samurai 1)
+
+@ 2258
+JP Ｂタイガータイツ２用シューズ
+EN Shoes (B. Tiger 2)
+
+@ 2259
+JP 三沢タイツ１＆２用シューズ
+EN Shoes (Misawa 1&2)
+
+@ 2260
+JP 三沢タイツ３用シューズ
+EN Shoes (Misawa 3)
+
+@ 2261
+JP 雅央ロングタイツ用シューズ
+EN Shoes (Masao)
+
+@ 2262
+JP 菊地ロングタイツ３用シューズ
+EN Shoes (Kikuchi 3)
+
+@ 2263
+JP 鼓太郎ロングタイツ用シューズ
+EN Shoes (Kotaro)
+
+@ 2264
+JP スコーピオロングタイツ２用シューズ
+EN Shoes (Scorpio 2)
+
+@ 2265
+JP 武藤タイツ１用シューズ
+EN Shoes (Mutoh 1)
+
+@ 2266
+JP 武藤タイツ３用シューズ
+EN Shoes (Mutoh 3)
+
+@ 2267
+JP 武藤タイツ５用シューズ
+EN Shoes (Mutoh 5)
+
+@ 2268
+JP 武藤タイツ６用シューズ
+EN Shoes (Mutoh 6)
+
+@ 2269
+JP 武藤タイツ７用シューズ
+EN Shoes (Mutoh 7)
+
+@ 2270
+JP 嵐ロングタイツ用シューズ
+EN Shoes (Arashi)
+
+@ 2271
+JP ハヤシタイツ用シューズ
+EN Shoes (Hayashi)
+
+@ 2272
+JP リンピオタイツ用シューズ
+EN Shoes (Limpio)
+
+@ 2273
+JP ドゥガンロングタイツ用シューズ
+EN Shoes (Dugan)
+
+@ 2274
+JP ガンガンタイツ用シューズ
+EN Shoes (Gangan)
+
+@ 2275
+JP 慶三タイツ用シューズ
+EN Shoes (Keizo)
+
+@ 2276
+JP 横井タトゥー
+EN Yokoi Tattoo
+
+@ 2277
+JP アダモタトゥー
+EN Adamo Tattoo
+
+@ 2278
+JP 高智シューズ
+EN Kochi Shoes
+
+@ 2279
+JP 健三タイツ２用シューズ
+EN Shoes (Kenzo 2)
+
+@ 2280
+JP 健三タイツ１用シューズ
+EN Shoes (Kenzo 1)
+
+@ 2281
+JP ケロ足
+EN Kero Feet
+
+@ 2282
+JP 木原足
+EN Kihara Feet
+
+@ 2283
+JP 仲田足
+EN Nakata Feet
+
+@ 2284
+JP 総裁スーツ用革靴
+EN Suit Shoes
+
+@ 2286
+JP 藤波　辰爾
+EN Tatsumi Fujinami
+
+@ 2287
+JP 藤波　辰巳“ＭドラゴンＶｅｒ”
+EN T. Fujinami "M Dragon"
+
+@ 2288
+JP 蝶野　正洋
+EN Masahiro Chono
+
+@ 2289
+JP 蝶野　正洋“夏男Ｖｅｒ”
+EN M. Chono "Summer Man"
+
+@ 2290
+JP 永田　裕志
+EN Yuji Nagata
+
+@ 2291
+JP 中西　学
+EN Manabu Nakanishi
+
+@ 2292
+JP 中西　学“０２Ｖｅｒ”
+EN M. Nakanishi "02"
+
+@ 2293
+JP 天山　広吉
+EN Hiroyoshi Tenzan
+
+@ 2294
+JP 天山　広吉“０２Ｖｅｒ”
+EN H. Tenzan "02"
+
+@ 2295
+JP ツノ天山　広吉“０２Ｖｅｒ”
+EN Horned H. Tenzan "02"
+
+@ 2296
+JP 安田　忠夫
+EN Tadao Yasuda
+
+@ 2297
+JP 安田　忠夫“０２Ｖｅｒ”
+EN Tadao Yasuda "02"
+
+@ 2298
+JP 飯塚　高史
+EN Takashi Iizuka
+
+@ 2299
+JP 西村　修
+EN Osamu Nishimura
+
+@ 2300
+JP 西村　修“０２Ｖｅｒ”
+EN O. Nishimura "02"
+
+@ 2301
+JP 吉江　豊
+EN Yutaka Yoshie
+
+@ 2302
+JP 吉江　豊“０２Ｖｅｒ”
+EN Yutaka Yoshie "02"
+
+@ 2303
+JP 吉江　豊“短髪Ｖｅｒ”
+EN Y. Yoshie "Short"
+
+@ 2304
+JP 真壁　伸也
+EN Shinya Makabe
+
+@ 2305
+JP 棚橋　弘至
+EN Hiroshi Tanahashi
+
+@ 2306
+JP 棚橋　弘至“０２Ｖｅｒ”
+EN H. Tanahashi "02"
+
+@ 2307
+JP 棚橋　弘至“０１Ｖｅｒ”
+EN H. Tanahashi "01"
+
+@ 2308
+JP 棚橋　弘至“０４Ｖｅｒ”
+EN H. Tanahashi "04"
+
+@ 2309
+JP 中邑　真輔
+EN Shinsuke Nakamura
+
+@ 2310
+JP 中邑　真輔“ＩＷＧＰＶｅｒ”
+EN S. Nakamura "IWGP"
+
+@ 2311
+JP ブルー・ウルフ
+EN Blue Wolf
+
+@ 2312
+JP ブルー・ウルフ“０１Ｖｅｒ”
+EN Blue Wolf "01"
+
+@ 2313
+JP 星野　勘太郎
+EN Kantaro Hoshino
+
+@ 2314
+JP 村上　和成
+EN Kazunari Murakami
+
+@ 2315
+JP 柳澤　龍志
+EN Ryushi Yanagisawa
+
+@ 2316
+JP 魔界１号
+EN Makai #1
+
+@ 2317
+JP 魔界２号
+EN Makai #2
+
+@ 2318
+JP 柴田　勝頼
+EN Katsuyori Shibata
+
+@ 2319
+JP 魔界４号
+EN Makai #4
+
+@ 2320
+JP 魔界４号“０３ｖｅｒ”
+EN Makai #4 "03"
+
+@ 2321
+JP 長井　満也
+EN Mitsuya Nagai
+
+@ 2322
+JP 長井　満也“髪ありＶｅｒ”
+EN Mitsuya Nagai "Hair"
+
+@ 2323
+JP 魔界５号
+EN Makai #5
+
+@ 2324
+JP 魔界５号“０３ｖｅｒ”
+EN Makai #5 "03"
+
+@ 2325
+JP 小原　道由
+EN Michiyoshi Ohara
+
+@ 2326
+JP 後藤　達俊
+EN Tatsutoshi Goto
+
+@ 2327
+JP ヒロ斎藤
+EN Hiro Saito
+
+@ 2328
+JP 獣神サンダー・ライガー
+EN Jushin Liger
+
+@ 2329
+JP 獣神サンダー・ライガーＶｅｒ２
+EN Jushin Liger 2
+
+@ 2330
+# [glossary-ok] title or wrestler name in its own words
+JP 対ヘビー級用ライガー
+EN Liger (vs. Heavies)
+
+@ 2331
+JP エル・サムライ
+EN El Samurai
+
+@ 2332
+JP 金本　浩二
+EN Koji Kanemoto
+
+@ 2333
+JP ＡＫＩＲＡ
+EN AKIRA
+
+@ 2334
+JP ＡＫＩＲＡ“０１Ｖｅｒ”
+EN AKIRA "01"
+
+@ 2335
+JP 野上　彰
+EN Akira Nogami
+
+@ 2336
+JP 田中　稔
+EN Minoru Tanaka
+
+@ 2337
+JP 成瀬　昌由
+EN Masayuki Naruse
+
+@ 2338
+JP 垣原　賢人
+EN Masahito Kakihara
+
+@ 2339
+JP 邪道
+EN Jado
+
+@ 2340
+JP 外道
+EN Gedo
+
+@ 2341
+JP 井上　亘
+EN Wataru Inoue
+
+@ 2342
+JP 井上　亘“０１Ｖｅｒ”
+EN Wataru Inoue "01"
+
+@ 2343
+JP 井上　亘マスク
+EN W. Inoue Mask
+
+@ 2344
+JP 竹村　豪氏
+EN Katsushi Takemura
+
+@ 2345
+JP 竹村　豪氏“０２Ｖｅｒ”
+EN K. Takemura "02"
+
+@ 2346
+JP 竹村　豪氏“坊主Ｖｅｒ”
+EN K. Takemura "Shaved"
+
+@ 2347
+JP 矢野　通
+EN Toru Yano
+
+@ 2348
+JP 田口　隆祐
+EN Ryusuke Taguchi
+
+@ 2349
+JP 山本　尚文
+EN Naofumi Yamamoto
+
+@ 2350
+JP 長尾　浩志
+EN Hiroshi Nagao
+
+@ 2351
+JP 後藤　洋央紀
+EN Hirooki Goto
+
+@ 2352
+JP 坂口　征二
+EN Seiji Sakaguchi
+
+@ 2353
+JP 木村　健悟
+EN Kengo Kimura
+
+@ 2354
+JP 木戸　修
+EN Osamu Kido
+
+@ 2355
+JP 山崎　一夫
+EN Kazuo Yamazaki
+
+@ 2356
+JP Ｓ・Ｓ・マシン
+EN S.S. Machine
+
+@ 2357
+JP 平田　淳嗣
+EN Junji Hirata
+
+@ 2358
+JP 小林　邦昭
+EN Kuniaki Kobayashi
+
+@ 2359
+JP 山本　小鉄
+EN Kotetsu Yamamoto
+
+@ 2360
+JP スコット・ノートン
+EN Scott Norton
+
+@ 2361
+JP ジョシュ・バーネット
+EN Josh Barnett
+
+@ 2362
+JP マイク・バートン
+EN Mike Barton
+
+@ 2363
+JP マイク・バートン“０２Ｖｅｒ”
+EN Mike Barton "02"
+
+@ 2364
+JP ジム・スティール“短髪Ｖｅｒ”
+EN Jim Steele "Short"
+
+@ 2365
+JP ブラック・タイガー
+EN Black Tiger
+
+@ 2366
+JP ブラック・キャット
+EN Black Cat
+
+@ 2367
+JP 三沢　光晴
+EN Mitsuharu Misawa
+
+@ 2368
+JP 三沢　光晴“超世代Ｖｅｒ”
+EN M. Misawa "Super Gen."
+
+@ 2369
+JP 小橋　建太
+EN Kenta Kobashi
+
+@ 2370
+JP 小橋　健太“四天王Ｖｅｒ”
+EN K. Kobashi "4 Pillars"
+
+@ 2371
+JP 小橋　健太“超世代Ｖｅｒ”
+EN K. Kobashi "Chosedai"
+
+@ 2372
+JP 田上　明
+EN Akira Taue
+
+@ 2373
+JP 田上　明“聖鬼軍Ｖｅｒ”
+EN A. Taue "Holy Demon"
+
+@ 2374
+JP 秋山　準
+EN Jun Akiyama
+
+@ 2375
+JP 秋山　準“金髪Ｖｅｒ”
+EN Jun Akiyama "Blond"
+
+@ 2376
+JP 小川　良成
+EN Yoshinari Ogawa
+
+@ 2377
+JP 小川　良成“長髪Ｖｅｒ”
+EN Y. Ogawa "Long Hair"
+
+@ 2378
+JP 力皇　猛
+EN Takeshi Rikio
+
+@ 2379
+JP 森嶋　猛
+EN Takeshi Morishima
+
+@ 2380
+JP 本田　多聞
+EN Tamon Honda
+
+@ 2381
+JP 本田　多聞“髭なしＶｅｒ”
+EN Tamon Honda "No Beard"
+
+@ 2382
+JP 井上　雅央
+EN Masao Inoue
+
+@ 2383
+JP 佐野　巧真
+EN Takuma Sano
+
+@ 2384
+JP 斎藤　彰俊
+EN Akitoshi Saito
+
+@ 2385
+JP 泉田　純
+EN Jun Izumida
+
+@ 2386
+JP ＩＺＵ
+EN IZU
+
+@ 2387
+JP 池田　大輔
+EN Daisuke Ikeda
+
+@ 2388
+JP 志賀　賢太郎
+EN Kentaro Shiga
+
+@ 2389
+JP モハメド・ヨネ
+EN Mohammed Yone
+
+@ 2390
+JP モハメド・ヨネ“アフロＶｅｒ”
+EN Mohammed Yone "Afro"
+
+@ 2391
+JP 杉浦　貴
+EN Takashi Sugiura
+
+@ 2392
+JP 川畑　輝鎮
+EN Terushige Kawabata
+
+@ 2393
+JP 青柳　政司
+EN Masashi Aoyagi
+
+@ 2394
+JP 菊地　毅
+EN Tsuyoshi Kikuchi
+
+@ 2395
+JP 菊地　毅“超世代ｖｅｒ”
+EN Kikuchi "Super Gen."
+
+@ 2396
+JP 金丸　義信
+EN Yoshinobu Kanemaru
+
+@ 2397
+JP 金丸　義信“０２ｖｅｒ”
+EN Y. Kanemaru "02"
+
+@ 2398
+JP 丸藤　正道
+EN Naomichi Marufuji
+
+@ 2399
+JP チャップス丸藤　正道１
+EN Chaps N. Marufuji 1
+
+@ 2400
+JP 丸藤　正道“０２ｖｅｒ”
+EN N. Marufuji "02"
+
+@ 2401
+JP チャップス丸藤　正道２
+EN Chaps N. Marufuji 2
+
+@ 2402
+JP 橋　誠
+EN Makoto Hashi
+
+@ 2403
+JP ＫＥＮＴＡ
+EN KENTA
+
+@ 2404
+JP ＫＥＮＴＡ“オレンジＶｅｒ”
+EN KENTA "Orange"
+
+@ 2405
+JP 鈴木　鼓太郎
+EN Kotaro Suzuki
+
+@ 2406
+JP 浅子　覚
+EN Satoru Asako
+
+@ 2407
+JP ラッシャー木村
+EN Rusher Kimura
+
+@ 2408
+JP 永源　遙
+EN Haruka Eigen
+
+@ 2409
+JP 百田　光雄
+EN Mitsuo Momota
+
+@ 2410
+JP マイティ井上
+EN Mighty Inoue
+
+@ 2411
+JP スコーピオ
+EN Scorpio
+
+@ 2412
+JP スコーピオ“０４Ｖｅｒ”
+EN Scorpio "04"
+
+@ 2413
+JP リチャード・スリンガー
+EN Richard Slinger
+
+@ 2414
+JP 武藤　敬司
+EN Keiji Mutoh
+
+@ 2415
+JP 武藤　敬司“ＮＢＭＶｅｒ”
+EN Keiji Mutoh "NBM"
+
+@ 2416
+JP 武藤　敬司“バク進Ｖｅｒ”
+EN K. Mutoh "Bakushin"
+
+@ 2417
+JP グレート・ムタ
+EN Great Muta
+
+@ 2418
+JP グレート・ムタ“ジェイソンＶｅｒ”
+EN Great Muta "Jason"
+
+@ 2419
+JP グレート・ムタ“レトロＶｅｒ”
+EN Great Muta "Retro"
+
+@ 2420
+JP ムタズキン
+EN Muta Hood
+
+@ 2421
+JP ムタグレーズキン
+EN Muta Gray Hood
+
+@ 2422
+JP ムタドクロズキン
+EN Muta Skull Hood
+
+@ 2423
+JP ムタメカズキン
+EN Muta Mecha Hood
+
+@ 2424
+JP ムタスパイダーズキン
+EN Muta Spider Hood
+
+@ 2425
+JP 黒師無双
+EN Kokushi Muso
+
+@ 2426
+JP カサ黒師無双
+EN Kokushi Muso (Kasa)
+
+@ 2427
+JP 川田　利明
+EN Toshiaki Kawada
+
+@ 2428
+JP 小島　聡
+EN Satoshi Kojima
+
+@ 2429
+JP 仮面小島　聡
+EN Masked S. Kojima
+
+@ 2430
+JP 愚零斗孤士
+EN Great Koji
+
+@ 2431
+JP 愚零斗孤士ズキン
+EN Great Koji Hood
+
+@ 2432
+JP 太陽ケア
+EN Taiyo Kea
+
+@ 2433
+JP 太陽ケア“髪ありＶｅｒ”
+EN Taiyo Kea "Hair"
+
+@ 2434
+JP 渕　正信
+EN Masanobu Fuchi
+
+@ 2435
+JP 馳　浩
+EN Hiroshi Hase
+
+@ 2436
+JP 馳　浩“イエローＶｅｒ”
+EN H. Hase "Yellow"
+
+@ 2437
+JP 嵐
+EN Arashi
+
+@ 2438
+JP 荒谷　望誉
+EN Nobutaka Araya
+
+@ 2439
+JP 荒谷　望誉“０４Ｖｅｒ”
+EN Nobutaka Araya "04"
+
+@ 2440
+JP ケンドー・カシン
+EN Kendo Kashin
+
+@ 2441
+JP ケンドー・カシン“０１Ｖｅｒ”
+EN Kendo Kashin "01"
+
+@ 2442
+JP ケンドー・カシン“０２Ｖｅｒ”
+EN Kendo Kashin "02"
+
+@ 2443
+JP 奥村　茂雄
+EN Shigeo Okumura
+
+@ 2444
+JP 平井　伸和
+EN Nobukazu Hirai
+
+@ 2445
+JP 本間　朋晃
+EN Tomoaki Honma
+
+@ 2446
+JP 宮本　和志
+EN Kazushi Miyamoto
+
+@ 2447
+JP 宮本　和志“０１Ｖｅｒ”
+EN K. Miyamoto "01"
+
+@ 2448
+JP カズ・ハヤシ
+EN Kaz Hayashi
+
+@ 2449
+JP カズ・ハヤシ“スキンＶｅｒ”
+EN Kaz Hayashi "Skin"
+
+@ 2450
+JP カズ・ハヤシ“短髪Ｖｅｒ”
+EN Kaz Hayashi "Short"
+
+@ 2451
+JP カズ・ハヤシ“長髪Ｖｅｒ”
+EN Kaz Hayashi "Long"
+
+@ 2452
+JP 土方　隆司
+EN Ryuji Hijikata
+
+@ 2453
+JP 石狩　太一
+EN Taichi Ishikari
+
+@ 2454
+JP 河野　真幸
+EN Masayuki Kono
+
+@ 2455
+JP ビッグ・ジョン・テンタ
+EN Big John Tenta
+
+@ 2456
+JP ザ・グラジエーター
+EN The Gladiator
+
+@ 2457
+JP ギガンテス
+EN Gigantes
+
+@ 2458
+JP ジョージ・ハインズ
+EN George Hines
+
+@ 2459
+JP 保坂　秀樹
+EN Hideki Hosaka
+
+@ 2460
+JP 保坂　秀樹“短髪Ｖｅｒ”
+EN H. Hosaka "Short"
+
+@ 2461
+JP ディー・ロウ・ブラウン
+EN D'Lo Brown
+
+@ 2462
+JP ブキャナン
+EN Buchanan
+
+@ 2463
+JP ジャマール
+EN Jamal
+
+@ 2464
+JP 橋本　真也
+EN Shinya Hashimoto
+
+@ 2465
+JP 橋本　真也ハチマキ１
+EN Hashimoto Band 1
+
+@ 2466
+JP 橋本　真也“ＩＷＧＰＶｅｒ”
+EN S. Hashimoto "IWGP"
+
+@ 2467
+JP 橋本　真也ハチマキ２
+EN Hashimoto Band 2
+
+@ 2468
+JP ハシフ・カーン
+EN Hashif Khan
+
+@ 2469
+JP ハシフ・カーン帽子
+EN Hashif Khan Hat
+
+@ 2470
+JP ＳＨＯＧＵＮ
+EN SHOGUN
+
+@ 2471
+JP 大谷　晋二郎
+EN Shinjiro Otani
+
+@ 2472
+JP 田中　将斗
+EN Masato Tanaka
+
+@ 2473
+JP 高岩　竜一
+EN Ryuji Takaiwa
+
+@ 2474
+JP 星川　尚浩
+EN Naohiro Hoshikawa
+
+@ 2475
+JP 佐藤　耕平
+EN Kohei Sato
+
+@ 2476
+JP 佐藤　耕平“０２ｖｅｒ”
+EN Kohei Sato "02"
+
+@ 2477
+JP テングカイザー
+EN Tengu Kaiser
+
+@ 2478
+JP 坂田　亘
+EN Wataru Sakata
+
+@ 2479
+JP 横井　宏考
+EN Hirotaka Yokoi
+
+@ 2480
+JP 小笠原　和彦
+EN Kazuhiko Ogasawara
+
+@ 2481
+JP 崔　リョウジ
+EN Ryoji Sai
+
+@ 2482
+JP 富豪２夢路
+EN Fugo 2 Yumeji
+
+@ 2483
+JP 富豪２夢路“０２ｖｅｒ”
+EN Fugo 2 Yumeji "02"
+
+@ 2484
+JP 黒毛和牛太
+EN Kuroge Wagyuta
+
+@ 2485
+JP 葛西　純
+EN Jun Kasai
+
+@ 2486
+JP 佐々木　義人
+EN Yoshihito Sasaki
+
+@ 2487
+JP 佐々木　義人“０２ｖｅｒ”
+EN Y. Sasaki "02"
+
+@ 2488
+JP 山笠Ｚ”信介
+EN Yamakasa Z Shinsuke
+
+@ 2489
+JP 高橋　冬樹
+EN Fuyuki Takahashi
+
+@ 2490
+JP 高橋　冬樹“坊主ｖｅｒ”
+EN Takahashi "Shaved"
+
+@ 2491
+JP トム・ハワード
+EN Tom Howard
+
+@ 2492
+JP ザ・プレデター
+EN The Predator
+
+@ 2493
+JP スティーブ・コリノ
+EN Steve Corino
+
+@ 2494
+JP Ｃ・Ｗ・アンダーソン
+EN C.W. Anderson
+
+@ 2495
+JP キング・ジョー
+EN King Joe
+
+@ 2496
+JP キング・アダモ
+EN King Adamo
+
+@ 2497
+JP Ｌｏｗｋｉ
+EN Low Ki
+
+@ 2498
+JP ヴァンサック・アシッド
+EN Vansack Acid
+
+@ 2499
+JP 長州　力
+EN Riki Choshu
+
+@ 2500
+JP 長州　力“革命Ｖｅｒ”
+EN Riki Choshu "Rev."
+
+@ 2501
+JP 石井　智宏
+EN Tomohiro Ishii
+
+@ 2502
+JP 宇和野　貴史
+EN Takashi Uwano
+
+@ 2503
+JP 和田　城功
+EN Joko Wada
+
+@ 2504
+JP マサ・サイトー
+EN Masa Saito
+
+@ 2505
+JP 保永　昇男
+EN Norio Honaga
+
+@ 2506
+JP 高山　善廣
+EN Yoshihiro Takayama
+
+@ 2507
+JP 高山　善廣“０２ｖｅｒ”
+EN Y. Takayama "02"
+
+@ 2508
+JP 天龍　源一郎
+EN Genichiro Tenryu
+
+@ 2509
+JP 佐々木　健介
+EN Kensuke Sasaki
+
+@ 2510
+JP 佐々木　健介“スキンＶｅｒ”
+EN K. Sasaki "Skinhead"
+
+@ 2511
+JP 佐々木　健介“ＩＷＧＰＶｅｒ”
+EN Kensuke Sasaki "IWGP"
+
+@ 2512
+JP 佐々木　健介“ハセケンＶｅｒ”
+EN K. Sasaki "Hase-Ken"
+
+@ 2513
+JP バンダナ佐々木　健介
+EN Bandana K. Sasaki
+
+@ 2514
+JP 佐々木　健介“０４Ｖｅｒ”
+EN Kensuke Sasaki "04"
+
+@ 2515
+JP パワー・ウォリアー
+EN Power Warrior
+
+@ 2516
+JP 大森　隆男
+EN Takao Omori
+
+@ 2517
+JP 大森　隆男“ノーフィアーＶｅｒ”
+EN Takao Omori "No Fear"
+
+@ 2518
+JP 大森　隆男“海外Ｖｅｒ”
+EN Takao Omori "Abroad"
+
+@ 2519
+JP 大森　隆男“あすなろＶｅｒ”
+EN Takao Omori "Asunaro"
+
+@ 2520
+JP 大森　隆男“０４Ｖｅｒ”
+EN Takao Omori "04"
+
+@ 2521
+JP 越中　詩郎
+EN Shiro Koshinaka
+
+@ 2522
+JP 中嶋　勝彦
+EN Katsuhiko Nakajima
+
+@ 2523
+JP 田村　潔司
+EN Kiyoshi Tamura
+
+@ 2524
+JP 田村　潔司“男だＶｅｒ”
+EN K. Tamura "Otoko da"
+
+@ 2525
+JP レッドシューズ海野
+EN Red Shoes Unno
+
+@ 2526
+JP 田山　正雄
+EN Masao Tayama
+
+@ 2527
+JP 田中　秀和
+EN Hidekazu Tanaka
+
+@ 2528
+JP 西永　秀一
+EN Shuichi Nishinaga
+
+@ 2529
+JP 仲田　龍
+EN Ryu Nakata
+
+@ 2530
+JP 和田　京平
+EN Kyohei Wada
+
+@ 2531
+JP 木原　文人
+EN Fumihito Kihara
+
+@ 2532
+JP 阿部　真輔
+EN Shinsuke Abe
+
+@ 2533
+JP オッキー沖田
+EN Okky Okita
+
+@ 2534
+JP タイガー服部
+EN Tiger Hattori
+
+@ 2535
+JP 会津　義幸
+EN Yoshiyuki Aizu
+
+@ 2536
+JP 暁
+EN Akatsuki
+
+@ 2537
+JP 明田　幸三
+EN Kozo Aketa
+
+@ 2538
+JP アステカ・ジュニア
+EN Azteca Jr.
+
+@ 2539
+JP 後月　正成
+EN Masanari Shitsuki
+
+@ 2540
+JP 安藤　障二
+EN Shoji Ando
+
+@ 2541
+JP ＩＳＡＭＩ
+EN ISAMI
+
+@ 2542
+JP 石原　冬威
+EN Toi Ishihara
+
+@ 2543
+JP ウイニング亀村
+EN Winning Kamemura
+
+@ 2544
+JP えぼすさん
+EN Ebosu-san
+
+@ 2545
+JP おいしんぼ仮面
+EN Oishinbo Mask
+
+@ 2546
+JP 大坪　一樹
+EN Kazuki Otsubo
+
+@ 2547
+JP 沖田　勝志
+EN Katsushi Okita
+
+@ 2548
+JP 梶井　直久
+EN Naohisa Kajii
+
+@ 2549
+JP 梶田　政之
+EN Masayuki Kajita
+
+@ 2550
+JP 梶田　ミツル
+EN Mitsuru Kajita
+
+@ 2551
+JP 柏田　一樹
+EN Kazuki Kashiwada
+
+@ 2552
+JP 梶原　丈
+EN Jo Kajiwara
+
+@ 2553
+JP 河山　龍次
+EN Ryuji Kawayama
+
+@ 2554
+JP 河本　信宏
+EN Nobuhiro Kawamoto
+
+@ 2555
+JP 神崎　仁水
+EN Jinsui Kanzaki
+
+@ 2556
+JP 金城　久志
+EN Hisashi Kaneshiro
+
+@ 2557
+JP 楠田　政美
+EN Masami Kusuda
+
+@ 2558
+JP 倉仲　武博
+EN Takehiro Kuranaka
+
+@ 2559
+JP グラン・マリポーサ
+EN Gran Mariposa
+
+@ 2560
+JP グレート司馬
+EN Great Shiba
+
+@ 2561
+JP 黒光
+EN Kokko
+
+@ 2562
+JP ザ・ミステリアス・カグラ
+EN Mysterious Kagura
+
+@ 2563
+JP 冴刃　明
+EN Akira Saeba
+
+@ 2564
+JP 榊　四五朗
+EN Shigoro Sakaki
+
+@ 2565
+JP 佐川　哲
+EN Satoshi Sagawa
+
+@ 2566
+JP サクソン春樹
+EN Saxon Haruki
+
+@ 2567
+JP 桜木“ジェット”旅人
+EN T. "Jet" Sakuragi
+
+@ 2568
+JP 真田　伸久
+EN Nobuhisa Sanada
+
+@ 2569
+JP 佐岳　雅之
+EN Masayuki Satake
+
+@ 2570
+JP ＺＹＭＡ
+EN ZYMA
+
+@ 2571
+JP ジェット
+EN Jet
+
+@ 2572
+JP 下山　龍飛
+EN Ryuhi Shimoyama
+
+@ 2573
+JP Ｓ・ドルフィン
+EN S. Dolphin
+
+@ 2574
+JP デルタ
+EN Delta
+
+@ 2575
+JP トミー・ボンバー
+EN Tommy Bomber
+
+@ 2576
+JP 豊田　みつる
+EN Mitsuru Toyoda
+
+@ 2577
+JP 怒乱　音羽
+EN Doran Otowa
+
+@ 2578
+JP 梨田　秀吉
+EN Hideyoshi Nashida
+
+@ 2579
+JP 野川　裕也
+EN Yuya Nogawa
+
+@ 2580
+JP ハイチ
+EN Haichi
+
+@ 2581
+JP 白鬼
+EN Shiro-Oni
+
+@ 2582
+JP ハンター五条
+EN Hunter Gojo
+
+@ 2583
+JP ビクトリー武蔵
+EN Victory Musashi
+
+@ 2584
+JP 火野　まさる
+EN Masaru Hino
+
+@ 2585
+JP ブレード・ハヤテ
+EN Blade Hayate
+
+@ 2586
+JP ヘラクレス大月
+EN Hercules Otsuki
+
+@ 2587
+JP 宝坂　大志
+EN Taishi Hosaka
+
+@ 2588
+JP マスク・ド・パンサー
+EN Mask de Panther
+
+@ 2589
+JP マスク・ド・パンサーⅢ
+EN Mask de Panther III
+
+@ 2590
+JP マスク・ド・パンサーⅣ
+EN Mask de Panther IV
+
+@ 2591
+JP マスター・トーゴー
+EN Master Togo
+
+@ 2592
+JP 松木　光次郎
+EN Kojiro Matsuki
+
+@ 2593
+JP Ｍｒ．芦屋
+EN Mr. Ashiya
+
+@ 2594
+JP 観月　慶三
+EN Keizo Mizuki
+
+@ 2595
+JP 観月　みつる
+EN Mitsuru Mizuki
+
+@ 2596
+JP 室田　鉄彦
+EN Tetsuhiko Murota
+
+@ 2597
+JP 室田　鉄彦
+EN Tetsuhiko Murota
+
+@ 2598
+JP 矢吹　光世
+EN Mitsuyo Yabuki
+
+@ 2599
+JP ランマル
+EN Ranmaru
+
+@ 2600
+JP リック　西城
+EN Rick Saijo
+
+@ 2601
+JP ＷＡＫＡゆきぐに
+EN WAKA Yukiguni
+
+@ 2602
+JP ワルサーＫＹＯＴＯ
+EN Walther KYOTO
+
+@ 2603
+JP アンドレィ・ジルバ
+EN Andrei Zilba
+
+@ 2604
+JP アイアン・ブラスター
+EN Iron Blaster
+
+@ 2605
+JP アックス・ドゥガン
+EN Axe Dugan
+
+@ 2606
+JP アブドル・ザ・デンジャー
+EN Abdul the Danger
+
+@ 2607
+JP ヴァイティング・パイソン
+EN Viting Python
+
+@ 2608
+JP ヴォイス・ステイシー
+EN Voice Stacy
+
+@ 2609
+JP ウォルフ・バーン
+EN Wolf Bahn
+
+@ 2610
+JP エイジ・ナコタ
+EN Eiji Nakota
+
+@ 2611
+JP エドワード・アイフル
+EN Edward Eiful
+
+@ 2612
+JP カリー・マスク
+EN Curry Mask
+
+@ 2613
+JP 帽子カリー・マスク
+EN Curry Mask (Hat)
+
+@ 2614
+JP カルロス・クラウザー
+EN Carlos Krauser
+
+@ 2615
+JP カルロス・ヒューストン
+EN Carlos Houston
+
+@ 2616
+JP キース・ラーニング
+EN Keith Learning
+
+@ 2617
+JP ギャランドゥー・リベラ
+EN Gallandoo Rivera
+
+@ 2618
+JP クリントン・Ｌ・ジョンソン
+EN Clinton L. Johnson
+
+@ 2619
+JP ケイン・ハーロック
+EN Kane Harlock
+
+@ 2620
+JP ケリー・テキサン
+EN Kerry Texan
+
+@ 2621
+JP ケリー・ボギー
+EN Kerry Bogey
+
+@ 2622
+JP ケンタウロ・ボヘミア
+EN Centauro Bohemia
+
+@ 2623
+JP ゴールデンハンマー
+EN Golden Hammer
+
+@ 2624
+JP サム・ポップ
+EN Sam Pop
+
+@ 2625
+JP Ｇ・Ｏ＝ブライト
+EN G. O'Bright
+
+@ 2626
+JP ジェネラル・ボルドー
+EN General Bordeaux
+
+@ 2627
+JP ジェネラル・ボルドー
+EN General Bordeaux
+
+@ 2628
+JP ジミー・ミラン
+EN Jimmy Milan
+
+@ 2629
+JP ジャイアント・ロシュモフ
+EN Giant Roshmoff
+
+@ 2630
+JP ジャクソン・フレージア
+EN Jackson Frazier
+
+@ 2631
+JP ジョン・ピース
+EN John Peace
+
+@ 2632
+JP スター・バイソン
+EN Star Bison
+
+@ 2633
+JP スティル・ジェイムス
+EN Still James
+
+@ 2634
+JP スモール・スタミナ
+EN Small Stamina
+
+@ 2635
+JP セイバー
+EN Saber
+
+@ 2636
+JP ダイナミック・キッド
+EN Dynamic Kid
+
+@ 2637
+JP ダン・ダダーン
+EN Dan Dadaan
+
+@ 2638
+JP ダン・ダダーン
+EN Dan Dadaan
+
+@ 2639
+JP チーター・カール
+EN Cheetah Carl
+
+@ 2640
+JP チョータ・ポポビッチ
+EN Chota Popovich
+
+@ 2641
+JP ディック・スレンダー
+EN Dick Slender
+
+@ 2642
+JP ドン・アンダーソン
+EN Don Anderson
+
+@ 2643
+JP ドン・ローガン
+EN Don Logan
+
+@ 2644
+JP ナイト・ブラスター
+EN Night Blaster
+
+@ 2645
+JP ニクソン・ステイシー
+EN Nixon Stacy
+
+@ 2646
+JP ネイマン・ショーンズ
+EN Neiman Shones
+
+@ 2647
+JP ネモ
+EN Nemo
+
+@ 2648
+JP バット・サファリ
+EN Bat Safari
+
+@ 2649
+JP バッファロー・ルイス
+EN Buffalo Lewis
+
+@ 2650
+JP ハリー・テキサンＪｒ．
+EN Harry Texan Jr.
+
+@ 2651
+JP ハンク・フォレスト
+EN Hank Forest
+
+@ 2652
+JP ビッグ・ザ・グレート・ブル
+EN Big the Great Bull
+
+@ 2653
+JP ビッグ・スタミナ
+EN Big Stamina
+
+@ 2654
+JP ビッグベア・ワイリー
+EN Bigbear Wiley
+
+@ 2655
+JP ブランチ・ノルディック
+EN Branch Nordic
+
+@ 2656
+JP ブリッツ・フォン・エルリック
+EN Blitz von Elric
+
+@ 2657
+JP ブレンダン・クランク
+EN Brendan Crank
+
+@ 2658
+JP ブレンダン・ダイモス
+EN Brendan Deimos
+
+@ 2659
+JP ベイク・ゲルハルト
+EN Bake Gerhardt
+
+@ 2660
+JP ベイビー・バッドエッジ
+EN Baby Badedge
+
+@ 2661
+JP ベーム・シュトゥルム
+EN Behm Sturm
+
+@ 2662
+JP ヘッド・ステイシー
+EN Head Stacy
+
+@ 2663
+JP ヘラクレス・アレビン
+EN Hercules Alevin
+
+@ 2664
+JP ホーネット・ゴースト
+EN Hornet Ghost
+
+@ 2665
+JP ポール・サバンナ
+EN Paul Savanna
+
+@ 2666
+JP ボーン・クライ
+EN Bone Cry
+
+@ 2667
+JP ボス・ドッケン
+EN Boss Dokken
+
+@ 2668
+JP マイク・アント
+EN Mike Ant
+
+@ 2669
+JP マイク・オールマン
+EN Mike Allman
+
+@ 2670
+JP マイク・ベアー
+EN Mike Bear
+
+@ 2671
+JP マスカラ・イーグル
+EN Mascara Eagle
+
+@ 2672
+JP マスカラ・イーグルＪｒ．
+EN Mascara Eagle Jr.
+
+@ 2673
+JP マスカラ・コンドル
+EN Mascara Condor
+
+@ 2674
+JP マッスル・モンスター
+EN Muscle Monster
+
+@ 2675
+JP マッド・タイガー
+EN Mad Tiger
+
+@ 2676
+JP ミクロ・プロポリス
+EN Micro Propolis
+
+@ 2677
+JP ミスターフェイク
+EN Mister Fake
+
+@ 2678
+JP ミステリーマン
+EN Mystery Man
+
+@ 2679
+JP ムハンマド・ダリ
+EN Muhammad Dali
+
+@ 2680
+JP ライアン・ステイシー
+EN Ryan Stacy
+
+@ 2681
+JP ランドル・ロビィコフ
+EN Randall Robikoff
+
+@ 2682
+JP リカルド・マローナ
+EN Ricardo Marona
+
+@ 2683
+JP ルガール・ロブハンキン
+EN Rugal Robhankin
+
+@ 2684
+JP レオモンド・スパイキー
+EN Leomond Spiky
+
+@ 2685
+JP レッドデビル・パスカ
+EN Red Devil Pasca
+
+@ 2686
+JP レビン・ガッシュ
+EN Levin Gash
+
+@ 2687
+JP ロシアンエンペラー・ピョートル
+EN Russian Emp. Pyotr
+
+@ 2688
+JP ロナウド・トバル
+EN Ronaldo Tobal
+
+@ 2689
+JP ワイルド・ファントム
+EN Wild Phantom
+
+@ 2690
+JP 宇宙人
+EN Alien
+
+@ 2691
+JP オオカミ
+EN Wolf
+
+@ 2692
+JP かっぱ
+EN Kappa
+
+@ 2693
+JP 空手家
+EN Karateka
+
+@ 2694
+JP くま
+EN Bear
+
+@ 2695
+JP 侍
+EN Samurai
+
+@ 2696
+JP サル
+EN Monkey
+
+@ 2697
+JP 女子レスラー
+EN Female Wrestler
+
+@ 2698
+JP バードマスク
+EN Bird Mask
+
+@ 2699
+JP ひょう
+EN Leopard
+
+@ 2700
+JP ライオン
+EN Lion
+
+@ 2701
+JP ライダーマスク
+EN Rider Mask
+
+@ 2702
+JP 船木　誠勝
+EN Masakatsu Funaki
+
+@ 2703
+JP 船木　誠勝“１９９４Ｖｅｒ”
+EN M. Funaki "1994"
+
+@ 2704
+JP 近藤　有己
+EN Yuki Kondo
+
+@ 2705
+JP 鈴木　みのる“髪Ｖｅｒ”
+EN Minoru Suzuki "Hair"
+
+@ 2706
+JP 高橋　義生
+EN Yoshiki Takahashi
+
+@ 2707
+JP 國奥　麒樹真
+EN Kiuma Kunioku
+
+@ 2708
+JP 渋谷　修身
+EN Osami Shibuya
+
+@ 2709
+JP 謙吾
+EN Kengo
+
+@ 2710
+JP 山宮　恵一郎
+EN Keiichiro Yamamiya
+
+@ 2711
+JP 菊田　早苗
+EN Sanae Kikuta
+
+@ 2712
+JP 郷野　聡寛
+EN Akihiro Gono
+
+@ 2713
+JP 佐々木　有生
+EN Yuki Sasaki
+
+@ 2714
+JP 廣戸　聡一
+EN Soichi Hiroto
+
+@ 2715
+JP なし
+EN None
+
+@ 2716
+JP 入場Ｔシャツ
+EN Entrance T-Shirt
+
+@ 2717
+JP 柔道着
+EN Judo Gi
+
+@ 2718
+JP エリ寝かしジャンパー
+EN Flat-Collar Jacket
+
+@ 2719
+JP ガウン
+EN Robe
+
+@ 2720
+JP 胸開きガウン
+EN Open Robe
+
+@ 2721
+JP フード付きガウン
+EN Hooded Robe
+
+@ 2722
+JP フサフサガウン
+EN Furry Robe
+
+@ 2723
+JP 羽織
+EN Haori
+
+@ 2724
+JP ショルダー
+EN Shoulder
+
+@ 2725
+JP チョッキ
+EN Vest
+
+@ 2726
+JP テキサスコスチューム
+EN Texas Costume
+
+@ 2727
+JP 腰巻
+EN Loincloth
+
+@ 2728
+JP パンサーマント
+EN Panther Cape
+
+@ 2729
+JP ライガーマント
+EN Liger Cape
+
+@ 2730
+JP 天山ガウン
+EN Tenzan Robe
+
+@ 2731
+JP 袖なしガウン
+EN Sleeveless Robe
+
+@ 2732
+JP フード付き胸開きガウン
+EN Hooded Open Robe
+
+@ 2733
+JP 黒師羽織
+EN Kokushi Haori
+
+@ 2734
+JP エリ付きガウン
+EN Collared Robe
+
+@ 2735
+JP スカジャン
+EN Souvenir Jacket
+
+@ 2736
+JP 革ジャン
+EN Leather Jacket
+
+@ 2737
+JP エリ立ちジャンパー
+EN High-Collar Jacket
+
+@ 2738
+JP 無地Ｔシャツ
+EN Plain T-Shirt
+
+@ 2739
+JP チビＴシャツ
+EN Tight T-Shirt
+
+@ 2740
+JP 新日Ｔシャツ
+EN New Japan T-Shirt
+
+@ 2741
+JP ナガタロックＴシャツ
+EN Nagata Lock T-Shirt
+
+@ 2742
+JP Ｔ２０００　Ｔシャツ
+EN T2000 T-Shirt
+
+@ 2743
+JP Ｔ２０００ジャンプスーツ
+EN T2000 Jumpsuit
+
+@ 2744
+JP Ｇ－ｅｇｇｓ　Ｔシャツ
+EN G-eggs T-Shirt
+
+@ 2745
+JP 中西Ｔシャツ
+EN Nakanishi T-Shirt
+
+@ 2746
+JP 棚橋タンクトップ
+EN Tanahashi Tank Top
+
+@ 2747
+JP 中邑Ｔシャツ
+EN Nakamura T-Shirt
+
+@ 2748
+JP バーネットＴシャツ
+EN Barnett T-Shirt
+
+@ 2749
+JP 金本Ｔシャツ
+EN Kanemoto T-Shirt
+
+@ 2750
+JP 魔界倶楽部Ｔシャツ
+EN Makai Club T-Shirt
+
+@ 2751
+JP 魔界倶楽部タンクトップ
+EN Makai Club Tank Top
+
+@ 2752
+JP 破悧魔王’ＺＴシャツ
+EN Harimao'Z T-Shirt
+
+@ 2753
+JP 大和魂Ｔシャツ
+EN Yamato Damashii Tee
+
+@ 2754
+JP クレイジードッグスＴシャツ
+EN Crazy Dogs T-Shirt
+
+@ 2755
+JP 飯塚Ｔシャツ
+EN Iizuka T-Shirt
+
+@ 2756
+JP 田中稔Ｔシャツ
+EN Minoru Tanaka Tee
+
+@ 2757
+JP バートンＴシャツ
+EN Barton T-Shirt
+
+@ 2758
+JP キングオブザヒルズＴシャツ
+EN King of the Hills
+
+@ 2759
+JP ストロングスタイルＴシャツ
+EN Strong Style Tee
+
+@ 2760
+JP ノアＴシャツ
+EN NOAH T-Shirt
+
+@ 2761
+JP バーニングＴシャツ
+EN Burning T-Shirt
+
+@ 2762
+JP ウェーブＴシャツ
+EN Wave T-Shirt
+
+@ 2763
+JP スターネスＴシャツ
+EN Starness T-Shirt
+
+@ 2764
+JP 田上Ｔシャツ
+EN Taue T-Shirt
+
+@ 2765
+JP ＷＩＬＤⅡＴシャツ
+EN WILD II T-Shirt
+
+@ 2766
+JP 池田Ｔシャツ
+EN Ikeda T-Shirt
+
+@ 2767
+JP 佐野Ｔシャツ
+EN Sano T-Shirt
+
+@ 2768
+JP 金丸Ｔシャツ
+EN Kanemaru T-Shirt
+
+@ 2769
+JP ＫＥＮＴＡ　Ｔシャツ
+EN KENTA T-Shirt
+
+@ 2770
+JP 鼓太郎Ｔシャツ
+EN Kotaro T-Shirt
+
+@ 2771
+JP 橋Ｔシャツ
+EN Hashi T-Shirt
+
+@ 2772
+JP 男前Ｔシャツ
+EN Otokomae T-Shirt
+
+@ 2773
+JP 色男Ｔシャツ
+EN Irootoko T-Shirt
+
+@ 2774
+JP 全日Ｔシャツ
+EN All Japan T-Shirt
+
+@ 2775
+JP 武藤Ｔシャツ
+EN Mutoh T-Shirt
+
+@ 2776
+JP 川田Ｔシャツ
+EN Kawada T-Shirt
+
+@ 2777
+JP 小島Ｔシャツ
+EN Kojima T-Shirt
+
+@ 2778
+JP プロムナードＴシャツ
+EN Promenade T-Shirt
+
+@ 2779
+JP ＢＡＴＴ　Ｔシャツ
+EN BATT T-Shirt
+
+@ 2780
+JP 太陽Ｔシャツ１
+EN Taiyo T-Shirt 1
+
+@ 2781
+JP 太陽Ｔシャツ２
+EN Taiyo T-Shirt 2
+
+@ 2782
+JP 渕Ｔシャツ
+EN Fuchi T-Shirt
+
+@ 2783
+JP 馳Ｔシャツ
+EN Hase T-Shirt
+
+@ 2784
+JP ぬるま湯Ｔシャツ
+EN Nurumayu T-Shirt
+
+@ 2785
+JP ターメリックＴシャツ１
+EN Turmeric T-Shirt 1
+
+@ 2786
+JP ターメリックＴシャツ２
+EN Turmeric T-Shirt 2
+
+@ 2787
+JP ハインズＴシャツ
+EN Hines T-Shirt
+
+@ 2788
+JP ＺＥＲＯ－ＯＮＥ　Ｔシャツ
+EN ZERO-ONE T-Shirt
+
+@ 2789
+JP 大谷Ｔシャツ
+EN Otani T-Shirt
+
+@ 2790
+JP サファリ　Ｔシャツ
+EN Safari T-Shirt
+
+@ 2791
+JP ＷＪ　Ｔシャツ
+EN WJ T-Shirt
+
+@ 2792
+JP 長州Ｔシャツ
+EN Choshu T-Shirt
+
+@ 2793
+JP ＷＡＲ　Ｔシャツ
+EN WAR T-Shirt
+
+@ 2794
+JP レボリューションＴシャツ
+EN Revolution T-Shirt
+
+@ 2795
+JP 恐れ知らずＴシャツ１
+EN Fearless T-Shirt 1
+
+@ 2796
+JP 恐れ知らずＴシャツ２
+EN Fearless T-Shirt 2
+
+@ 2797
+JP Ｕ－ＦＩＬＥ　Ｔシャツ
+EN U-FILE T-Shirt
+
+@ 2798
+JP パンクラスＴシャツ１
+EN Pancrase T-Shirt 1
+
+@ 2799
+JP パンクラスＴシャツ２
+EN Pancrase T-Shirt 2
+
+@ 2800
+JP 近藤Ｔシャツ
+EN Kondo T-Shirt
+
+@ 2801
+JP 船木Ｔシャツ
+EN Funaki T-Shirt
+
+@ 2802
+JP グラバカＴシャツ
+EN Grabaka T-Shirt
+
+@ 2803
+JP 鬼Ｔシャツ
+EN Oni T-Shirt
+
+@ 2804
+JP 柏田Ｔシャツ
+EN Kashiwada T-Shirt
+
+@ 2805
+JP ＺＹＭＡタンクトップ
+EN ZYMA Tank Top
+
+@ 2806
+JP 梶田Ｔシャツ
+EN Kajita T-Shirt
+
+@ 2807
+JP ケンタウロＴシャツ
+EN Centauro T-Shirt
+
+@ 2808
+JP 野川Ｔシャツ１
+EN Nogawa T-Shirt 1
+
+@ 2809
+JP 野川Ｔシャツ２
+EN Nogawa T-Shirt 2
+
+@ 2810
+JP フライＴシャツ
+EN Frye T-Shirt
+
+@ 2811
+JP 美濃輪Ｔシャツ
+EN Minowa T-Shirt
+
+@ 2812
+JP 裏ハラＴシャツ１
+EN Urahara T-Shirt 1
+
+@ 2813
+JP 裏ハラＴシャツ２
+EN Urahara T-Shirt 2
+
+@ 2814
+JP 入場専用柔道着
+EN Entrance Judo Gi
+
+@ 2815
+JP 入場専用柔術着
+EN Entrance BJJ Gi
+
+@ 2816
+# [glossary-ok] part name / commentary line, entrance implied
+JP 入場専用維震軍胴着
+EN Ishingun Gi
+
+@ 2817
+# [glossary-ok] part name / commentary line, entrance implied
+JP 入場専用梨田柔道着
+EN Nashida Judo Gi
+
+@ 2818
+# [glossary-ok] part name / commentary line, entrance implied
+JP 入場専用菊田柔術着
+EN Kikuta BJJ Gi
+
+@ 2819
+JP 無地エリ寝ジャンパー
+EN Plain Jacket
+
+@ 2820
+JP 藤波エリ寝ジャンパー
+EN Fujinami Jacket
+
+@ 2821
+JP 健介エリ寝ジャンパー
+EN Kensuke Jacket
+
+@ 2822
+JP マサエリ寝ジャンパー
+EN Masa Jacket
+
+@ 2823
+JP 小橋エリ寝ジャンパー
+EN Kobashi Jacket
+
+@ 2824
+JP 秋山エリ寝ジャンパー
+EN Akiyama Jacket
+
+@ 2825
+JP 田上エリ寝ジャンパー
+EN Taue Jacket
+
+@ 2826
+JP 鶴田エリ寝ジャンパー
+EN Tsuruta Jacket
+
+@ 2827
+JP 天龍エリ寝ジャンパー
+EN Tenryu Jacket
+
+@ 2828
+JP パンサーエリ寝ジャンパー
+EN Panther Jacket
+
+@ 2829
+JP 無地エリ立ちジャンパー
+EN Plain High Collar
+
+@ 2830
+JP 三沢エリ立ちジャンパー
+EN Misawa High Collar
+
+@ 2831
+JP 三沢レトロエリ立ちジャンパー
+EN Misawa Retro Collar
+
+@ 2832
+JP 大谷エリ立ちジャンパー
+EN Otani High Collar
+
+@ 2833
+JP 健介エリ立ちジャンパー
+EN Kensuke High Collar
+
+@ 2834
+JP エリ立ちスタジャン
+EN Varsity Jacket
+
+@ 2835
+JP 無地革ジャン
+EN Plain Leather
+
+@ 2836
+JP 健介革ジャン
+EN Kensuke Leather
+
+@ 2837
+JP 邪悪革ジャン
+EN Evil Leather
+
+@ 2838
+JP スカジャン
+EN Souvenir Jacket
+
+@ 2839
+JP 無地ガウン
+EN Plain Robe
+
+@ 2840
+JP 馬場ガウン
+EN Baba Robe
+
+@ 2841
+JP 無地着流し
+EN Plain Kimono
+
+@ 2842
+JP 藤波ガウン
+EN Fujinami Robe
+
+@ 2843
+JP 西村ガウン
+EN Nishimura Robe
+
+@ 2844
+JP 田上着流し
+EN Taue Kimono
+
+@ 2845
+JP 船木着流し
+EN Funaki Kimono
+
+@ 2846
+JP 船木ガウン
+EN Funaki Robe
+
+@ 2847
+JP みのるガウン
+EN Minoru Robe
+
+@ 2848
+JP 蝶野Ｔ２０００ガウン
+EN Chono T2000 Robe
+
+@ 2849
+JP 川田ガウン１
+EN Kawada Robe 1
+
+@ 2850
+JP 川田ガウン２
+EN Kawada Robe 2
+
+@ 2851
+JP 橋本ガウン１
+EN Hashimoto Robe 1
+
+@ 2852
+JP 橋本ガウン２
+EN Hashimoto Robe 2
+
+@ 2853
+JP 橋本ガウン３
+EN Hashimoto Robe 3
+
+@ 2854
+JP 天龍ガウン
+EN Tenryu Robe
+
+@ 2855
+JP 健想ガウン
+EN Kenzo Robe
+
+@ 2856
+JP 天山ガウン
+EN Tenzan Robe
+
+@ 2857
+JP ヒライガウン
+EN Hirai Robe
+
+@ 2858
+JP 越中ガウン
+EN Koshinaka Robe
+
+@ 2859
+JP 司馬ガウン
+EN Shiba Robe
+
+@ 2860
+JP 無地フードガウン
+EN Plain Hood Robe
+
+@ 2861
+JP ヒクソンフードガウン
+EN Rickson Hood Robe
+
+@ 2862
+JP 無地胸開きガウン
+EN Plain Open Robe
+
+@ 2863
+JP 蝶野胸開きガウン
+EN Chono Open Robe
+
+@ 2864
+JP 永田胸開きガウン
+EN Nagata Open Robe
+
+@ 2865
+JP 天山胸開きガウン１
+EN Tenzan Open Robe 1
+
+@ 2866
+JP 天山胸開きガウン２
+EN Tenzan Open Robe 2
+
+@ 2867
+JP 金本胸開きガウン
+EN Kanemoto Open Robe
+
+@ 2868
+JP 三沢胸開きガウン
+EN Misawa Open Robe
+
+@ 2869
+JP 丸藤胸開きガウン１
+EN Marufuji Robe 1
+
+@ 2870
+JP 丸藤胸開きガウン２
+EN Marufuji Robe 2
+
+@ 2871
+JP 武藤胸開きガウン１
+EN Mutoh Open Robe 1
+
+@ 2872
+JP 武藤胸開きガウン２
+EN Mutoh Open Robe 2
+
+@ 2873
+JP 武藤胸開きガウン３
+EN Mutoh Open Robe 3
+
+@ 2874
+JP 武藤胸開きガウン４
+EN Mutoh Open Robe 4
+
+@ 2875
+JP 小島胸開きガウン
+EN Kojima Open Robe
+
+@ 2876
+JP 健介胸開きガウン
+EN Kensuke Open Robe
+
+@ 2877
+JP 天龍胸開きガウン
+EN Tenryu Open Robe
+
+@ 2878
+JP 石井胸開きガウン
+EN Ishii Open Robe
+
+@ 2879
+JP ランマル胸開きガウン
+EN Ranmaru Open Robe
+
+@ 2880
+JP 無地フード胸開きガウン
+EN Hooded Open Robe
+
+@ 2881
+JP 武藤フード胸開きガウン
+EN Mutoh Hood Robe
+
+@ 2882
+JP 三沢フード胸開きガウン
+EN Misawa Hood Robe
+
+@ 2883
+JP 小橋フード胸開きガウン１
+EN Kobashi Hood Robe 1
+
+@ 2884
+JP 小橋フード胸開きガウン２
+EN Kobashi Hood Robe 2
+
+@ 2885
+JP 無地フサフサガウン
+EN Plain Fur Robe
+
+@ 2886
+JP 秋山フサフサガウン
+EN Akiyama Fur Robe
+
+@ 2887
+JP 武藤フサフサガウン
+EN Mutoh Fur Robe
+
+@ 2888
+JP ムタ羽織１
+EN Muta Haori 1
+
+@ 2889
+JP ムタ羽織２
+EN Muta Haori 2
+
+@ 2890
+JP ムタ羽織３
+EN Muta Haori 3
+
+@ 2891
+JP ムタ羽織４
+EN Muta Haori 4
+
+@ 2892
+JP ムタ羽織５
+EN Muta Haori 5
+
+@ 2893
+JP 孤士羽織
+EN Koji Haori
+
+@ 2894
+JP 仁水羽織
+EN Jinsui Haori
+
+@ 2895
+JP 無地チョッキ
+EN Plain Vest
+
+@ 2896
+JP 迷彩チョッキ
+EN Camo Vest
+
+@ 2897
+JP 毛皮チョッキ
+EN Fur Vest
+
+@ 2898
+JP 中西チョッキ
+EN Nakanishi Vest
+
+@ 2899
+JP 丸藤チョッキ
+EN Marufuji Vest
+
+@ 2900
+JP 彰俊チョッキ
+EN Akitoshi Vest
+
+@ 2901
+JP 小島チョッキ
+EN Kojima Vest
+
+@ 2902
+JP アンダーソンチョッキ
+EN Anderson Vest
+
+@ 2903
+JP 英国チョッキ
+EN British Vest
+
+@ 2904
+JP ドクロチョッキ
+EN Skull Vest
+
+@ 2905
+JP パワーショルダー
+EN Power Shoulders
+
+@ 2906
+JP テキサスコスチューム
+EN Texas Costume
+
+@ 2907
+JP キマラキルト
+EN Kimala Kilt
+
+@ 2908
+JP 無地マント
+EN Plain Cape
+
+@ 2909
+JP パンサーマント
+EN Panther Cape
+
+@ 2910
+JP ライガーマント
+EN Liger Cape
+
+@ 2911
+JP 天山ガウン
+EN Tenzan Robe
+
+@ 2912
+JP 無地袖なしガウン
+EN Plain Sleeveless
+
+@ 2913
+JP 蝶野袖なしガウン
+EN Chono Sleeveless
+
+@ 2914
+JP 成瀬袖なしガウン
+EN Naruse Sleeveless
+
+@ 2915
+JP 秋山袖なしガウン
+EN Akiyama Sleeveless
+
+@ 2916
+JP 嵐袖なしガウン
+EN Arashi Sleeveless
+
+@ 2917
+JP コリノ袖なしガウン
+EN Corino Sleeveless
+
+@ 2918
+JP 大森袖なしガウン
+EN Omori Sleeveless
+
+@ 2919
+JP 無地エリ付きガウン
+EN Plain Collar Robe
+
+@ 2920
+JP 蝶野エリ付きガウン
+EN Chono Collar Robe
+
+@ 2921
+JP 越中エリ付きガウン
+EN Koshinaka Collared
+
+@ 2922
+JP 黒師羽織
+EN Kokushi Haori
+
+@ 2923
+JP なし
+EN None
+
+@ 2924
+JP あり
+EN Yes
+
+@ 2925
+JP なし
+EN None
+
+@ 2926
+JP ＩＷＧＰヘビー
+EN IWGP Heavyweight
+
+@ 2927
+JP 旧ＩＷＧＰヘビー
+EN Old IWGP Heavy
+
+@ 2928
+JP ＩＷＧＰジュニア
+EN IWGP Junior
+
+@ 2929
+JP ＩＷＧＰタッグ
+EN IWGP Tag Team
+
+@ 2930
+JP ＩＷＧＰジュニアタッグ
+EN IWGP Junior Tag
+
+@ 2931
+JP 三冠ヘビー（三本巻き）
+EN Triple Crown Set
+
+@ 2932
+JP 三冠ヘビー（ＰＷＦ）
+EN PWF Heavyweight
+
+@ 2933
+JP 三冠ヘビー（ＵＮ）
+EN UN Heavyweight
+
+@ 2934
+JP 三冠ヘビー（インター）
+EN Intl. Heavyweight
+
+@ 2935
+# [glossary-ok] belt part name (PWF / International)
+JP 世界タッグ（ＰＷＦ）
+EN PWF World Tag
+
+@ 2936
+# [glossary-ok] belt part name (PWF / International)
+JP 世界タッグ（インター）
+EN Intl. Tag Team
+
+@ 2937
+JP 世界ジュニア
+EN World Junior
+
+@ 2938
+# [glossary-ok] belt part name, shortened
+JP アジアタッグ
+EN All Asia Tag
+
+@ 2939
+# [glossary-ok] belt part name, shortened
+JP アジアタッグ②
+EN All Asia Tag 2
+
+@ 2940
+JP キングオブパンクラス　無差別級
+EN KOP Openweight
+
+@ 2941
+JP キングオブパンクラス　ヘビー級
+EN KOP Heavyweight
+
+@ 2942
+# [glossary-ok] title name, shortened (Lt.)
+JP キングオブパンクラス　ライトヘビー級
+EN KOP Lt. Heavyweight
+
+@ 2943
+JP キングオブパンクラス　ミドル級
+EN KOP Middleweight
+
+@ 2944
+JP ＧＨＣヘビー
+EN GHC Heavyweight
+
+@ 2945
+JP ＧＨＣタッグ
+EN GHC Tag Team
+
+@ 2946
+JP ＧＨＣジュニアヘビー
+EN GHC Jr. Heavyweight
+
+@ 2947
+JP ＮＷＦヘビー
+EN NWF Heavyweight
+
+@ 2948
+JP ＧＨＣジュニアタッグ
+EN GHC Junior Tag
+
+@ 2949
+JP 天下一ヘビー
+EN Tenkaichi Heavy
+
+@ 2950
+JP 天下一タッグ
+EN Tenkaichi Tag Team
+
+@ 2951
+JP 天下一Ｊｒ．
+EN Tenkaichi Jr.
+
+@ 2952
+JP ＷＭＧヘビー
+EN WMG Heavyweight
+
+@ 2953
+JP ＷＭＧタッグ
+EN WMG Tag Team
+
+@ 2954
+JP キングオブパンクラス　ウェルター級
+EN KOP Welterweight
+
+@ 2955
+JP Ｕ－３０無差別級
+EN U-30 Openweight
+
+@ 2956
+JP なし
+EN None
+
+@ 2957
+JP チェーン
+EN Chain
+
+@ 2958
+JP ブルロープ
+EN Bull Rope
+
+@ 2959
+JP バット
+EN Bat
+
+@ 2960
+JP 竜殺し刀
+EN Dragon Slayer Sword
+
+@ 2961
+JP コジコジ刀
+EN Koji-Koji Sword
+
+@ 2962
+JP 木刀
+EN Bokken
+
+@ 2963
+JP 椅子
+EN Chair
+
+@ 2964
+JP 火祭り刀
+EN Fire Festival Sword
+
+@ 2965
+JP 破邪の小太刀
+EN Exorcist Blade
+
+@ 2966
+JP 大谷のぼり
+EN Otani Banner
+
+@ 2967
+JP タオル
+EN Towel
+
+@ 2968
+JP なし
+EN None
+
+@ 2969
+JP 炎の飛龍
+EN The Flaming Dragon
+
+@ 2970
+JP 昭和のラストチャレンジャー
+EN The Last Challenger
+
+@ 2971
+JP 右腕に全てを込めて
+EN All in the Right Arm
+
+@ 2972
+JP 唸れ豪腕リキラリアット
+EN Roar, Riki Lariat
+
+@ 2973
+JP 美しく、そして強くあれ
+EN Beautiful and Strong
+
+@ 2974
+JP プロレス・ラブ
+EN Pro Wrestling Love
+
+@ 2975
+JP クロスウイザード
+EN Cross Wizard
+
+@ 2976
+JP ２１世紀のミスタープロレス
+EN Mr. Puroresu 21
+
+@ 2977
+JP 華麗に決めてやる
+EN Finish in Style
+
+@ 2978
+JP 地獄へお連れいたしましょう
+EN Let Me Escort You to Hell
+
+@ 2979
+JP 首かっ切って見せます
+EN I'll Slit Your Throat
+
+@ 2980
+JP 拝ませて頂きます
+EN Let Me Bow to You
+
+@ 2981
+JP 全てを黒く塗り潰せ
+EN Paint It All Black
+
+@ 2982
+JP 夏はまかせろ、俺がＧ１男だ
+EN Summer's Mine, I'm Mr. G1
+
+@ 2983
+JP 己の道を突き進め
+EN Forge Your Own Path
+
+@ 2984
+JP 今、新たな刀を抜く時
+EN Drawing a New Sword
+
+@ 2985
+JP その全てをぶつけろ
+EN Give It Everything
+
+@ 2986
+JP 力こそ全て、叩き潰すのみ
+EN Power Is All, Crush Them
+
+@ 2987
+JP この試合に全てを賭ける
+EN All on This Match
+
+@ 2988
+JP 新時代の主役は俺だ
+EN The New Era Is Mine
+
+@ 2989
+JP プロレス界の革命児
+EN Wrestling Rebel
+
+@ 2990
+JP ザ・トップオブ・ジュニア
+EN Top of the Juniors
+
+@ 2991
+JP ジュニア最強の称号をひっさげ
+EN As the Strongest Junior
+
+@ 2992
+JP 最強外国人の称号を胸に
+EN Strongest Foreigner
+
+@ 2993
+JP その強さに文句無し
+EN Undeniably Strong
+
+@ 2994
+JP ミスター無我、今夜も無我満開
+EN Mr. Muga in Full Bloom
+
+@ 2995
+JP 巨星復活、世界の巨人
+EN The Giant Returns
+
+@ 2996
+JP 昭和の怪物、風雲昇り龍
+EN Rising Dragon of Showa
+
+@ 2997
+JP 世界の不沈艦
+EN Unsinkable Ship
+
+@ 2998
+JP 王道継承
+EN Royal Road Heir
+
+@ 2999
+JP 新日本プロレスの全てを背負い
+EN Carrying All of New Japan
+
+@ 3000
+JP 全日本プロレスの全てを背負い
+EN Carrying All of All Japan
+
+@ 3001
+JP 灼熱の太陽の如く
+EN Like a Blazing Sun
+
+@ 3002
+JP デンジャラスＫ
+EN Dangerous K
+
+@ 3003
+JP ＵＷＦ最後の継承者
+EN The Last Heir of UWF
+
+@ 3004
+JP 闘魂伝承
+EN Toukon Heir
+
+@ 3005
+JP アイアムプロレスラー
+EN I Am a Pro Wrestler
+
+@ 3006
+JP 新世紀、大巨人伝説
+EN New-Century Giant
+
+@ 3007
+JP 波瀾万丈の人生劇場
+EN A Stormy Life Story
+
+@ 3008
+JP 戦慄の暴走王
+EN Rampage King
+
+@ 3009
+JP その右肘に魂を宿し
+EN Soul in That Elbow
+
+@ 3010
+JP その魂を握りしめ
+EN Gripping His Soul
+
+@ 3011
+JP 燃え盛れ、バーニング
+EN Blaze On, Burning
+
+@ 3012
+JP 新世代革命児
+EN New-Gen Rebel
+
+@ 3013
+JP 恐れ知らずのノーフィアー
+EN The Fearless No Fear
+
+@ 3014
+JP 恐れ知らずのこの男
+EN This Fearless Man
+
+@ 3015
+JP 破壊なくして創造なし
+EN Destroy to Create
+
+@ 3016
+JP 破壊王
+EN Destroyer King
+
+@ 3017
+JP 不滅の闘魂
+EN Undying Toukon
+
+@ 3018
+JP 完全無欠の怪物
+EN Flawless Monster
+
+@ 3019
+JP ４５０戦無敗
+EN 450 Fights Unbeaten
+
+@ 3020
+JP 己の信ずるまま
+EN True to His Beliefs
+
+@ 3021
+JP 時は来た、天下は俺が取る
+EN Time's Come, Top's Mine
+
+@ 3022
+# [glossary-ok] nickname / commentary wording
+JP 戦慄のアルティメットチャンピオン
+EN Fearsome Ultimate Champ
+
+@ 3023
+JP そぴえ立つ、アパッチタワー
+EN Towering Apache Tower
+
+@ 3024
+JP アイアムＵＷＦ
+EN I Am UWF
+
+@ 3025
+JP ザ・ビースト野獣襲来
+EN The Beast Invades
+
+@ 3026
+JP 柔術マジシャン
+EN Jiu-Jitsu Magician
+
+@ 3027
+JP ファイティングビースト
+EN Fighting Beast
+
+@ 3028
+JP 野人よ、その力を解き放て
+EN Wild Man, Unleash It
+
+@ 3029
+JP ノーフィアー
+EN No Fear
+
+@ 3030
+JP 新日本のエースはこの男
+EN New Japan's Ace
+
+@ 3031
+JP 猪突猛牛、その角を突き立てろ
+EN Charging Bull, Gore Them
+
+@ 3032
+JP 豪腕継承、その右腕に魂を宿せ
+EN Heir to the Mighty Arm
+
+@ 3033
+JP 驚異のフライングタンク
+EN Amazing Flying Tank
+
+@ 3034
+JP ど真ん中
+EN Dead Center
+
+@ 3035
+JP 皇帝戦士
+EN Emperor Warrior
+
+@ 3036
+JP ど真ん中を突き進め
+EN Charge the Center
+
+@ 3037
+JP 超新星
+EN Supernova
+
+@ 3038
+JP スーパールーキー
+EN Super Rookie
+
+@ 3039
+JP 進化を続ける格闘超新星
+EN Evolving Supernova
+
+@ 3040
+JP ビッシビシいくぞ
+EN "Here I Come!"
+
+@ 3041
+JP 魔界の暴走テロリスト
+EN Makai Terrorist
+
+@ 3042
+JP 世紀末覇王、北斗の名のもとに
+EN Overlord in Hokuto's Name
+
+@ 3043
+JP アイアムど真ん中
+EN I Am Dead Center
+
+@ 3044
+JP 蒙古襲来
+EN Mongol Invasion
+
+@ 3045
+JP 生粋の大和魂
+EN Pure Yamato Spirit
+
+@ 3046
+JP ダイナミックＴ大噴火か
+EN Dynamic T Eruption?
+
+@ 3047
+JP 脅威の太鼓腹魔人
+EN Potbellied Demon
+
+@ 3048
+JP 殺戮グリーンベレー
+EN Killer Green Beret
+
+@ 3049
+JP 焼きつくせバーニングハート
+EN Burning Heart, Burn!
+
+@ 3050
+JP 振りかざせ、炎の刃
+EN Wield Fire Blade
+
+@ 3051
+JP 弾丸戦士
+EN Bullet Warrior
+
+@ 3052
+JP 鉄人、その魂を熱く燃やし
+EN Iron Man, Soul on Fire
+
+@ 3053
+JP 恐れ知らずの斧爆弾
+EN Fearless Axe Bomber
+
+@ 3054
+JP 箱舟を守護する番人
+EN Guardian of the Ark
+
+@ 3055
+JP 箱舟が誇る重戦車
+EN The Ark's Tank
+
+@ 3056
+JP プロレスファンタジー
+EN Wrestling Fantasy
+
+@ 3057
+JP 東北に夢を運べ
+EN Dreams to Tohoku
+
+@ 3058
+JP 黒船来襲
+EN Black Ships Arrive
+
+@ 3059
+JP 魔界から送り込まれた刺客
+EN Assassin Sent from Makai
+
+@ 3060
+JP 魔界の番長こと
+EN The Boss of Makai
+
+@ 3061
+JP 理不尽大王
+EN King of Unreason
+
+@ 3062
+JP 邪道
+EN Jado
+
+@ 3063
+JP 最強外国人の称号を胸に
+EN Strongest Foreigner
+
+@ 3064
+JP 黒のカリスマ
+EN Black Charisma
+
+@ 3065
+JP 新日本の総帥
+EN New Japan Chief
+
+@ 3066
+JP 極楽浄土
+EN Pure Land Paradise
+
+@ 3067
+JP 新日本の未来を背負え
+EN Carry NJPW's Future
+
+@ 3068
+JP 脅威のパワフルモンスター
+EN Powerful Monster
+
+@ 3069
+JP 流星に願いをかけろ
+EN Wish on a Meteor
+
+@ 3070
+JP ノアジュニア最強宣言
+EN NOAH's Best Junior
+
+@ 3071
+JP ジュニアのカリスマ
+EN The Junior Charisma
+
+@ 3072
+JP 伝説の虎戦士
+EN The Legendary Tiger
+
+@ 3073
+JP 揺るがぬ心、不動心
+EN Unshakable Heart
+
+@ 3074
+JP ハイブリッドの風が吹き荒れる
+EN A Hybrid Storm Blows
+
+@ 3075
+JP ＲＯＷＤＹ
+EN ROWDY
+
+@ 3076
+JP ぬるま湯とは言わせない
+EN Don't Call It Lukewarm
+
+@ 3077
+JP 王道番長
+EN Royal Road Boss
+
+@ 3078
+JP 激辛爆弾
+EN Super-Hot Bomb
+
+@ 3079
+JP その魂を熱く燃やし
+EN Soul on Fire
+
+@ 3080
+JP その一足が大地を揺るがす
+EN One Step Shakes the Earth
+
+@ 3081
+JP アンダー３０に未来を託せ
+EN Trust the Under-30
+
+@ 3082
+JP 喧嘩上等
+EN Bring On the Fight
+
+@ 3083
+JP 夏に舞え、青春バタフライ
+EN Summer Butterfly
+
+@ 3084
+JP オレンジクラッシュ
+EN Orange Crush
+
+@ 3085
+JP 柔の道は、男の道
+EN The Way of Judo
+
+@ 3086
+JP 策略仮面
+EN Scheming Mask
+
+@ 3087
+JP カボチャ星、王道州より
+EN From Pumpkin Star
+
+@ 3088
+JP 全てを凌駕する超人類
+EN Superhuman Above All
+
+@ 3089
+JP 極寒の皇帝
+EN The Frozen Emperor
+
+@ 3090
+JP 冷徹なるプロレスハンター
+EN Ice-Cold Hunter
+
+@ 3091
+JP 一族の誇りを背負い
+EN Pride of the Clan
+
+@ 3092
+JP ハイブリッドマスター
+EN Hybrid Master
+
+@ 3093
+JP 世界を征した寝技師
+EN Ground Conqueror
+
+@ 3094
+JP 海を越え超人がやってきた
+EN A Superman from Overseas
+
+@ 3095
+JP 驚異のＩＱレスラー
+EN Amazing IQ Wrestler
+
+@ 3096
+JP サムライ魂を胸に、やってやるって
+EN Samurai Soul, I'll Do It
+
+@ 3097
+JP ノアの盟主、その魂を握りしめ
+EN NOAH's Leader, Soul in Hand
+
+@ 3098
+JP ノーザンライト革命児
+EN Northern Rebel
+
+@ 3099
+JP ２１世紀の超獣
+EN 21st-Century Beast
+
+@ 3100
+JP 天下統一、ゼロワン道中記
+EN ZERO-ONE Conquest
+
+@ 3101
+JP なし
+EN None
+
+@ 3102
+JP ＤＲＡＧＯＮ　ＳＵＰＬＥＸ
+EN DRAGON SUPLEX
+
+@ 3103
+JP ＤＲＡＧＯＮ　ＳＵＰＬＥＸ（手）
+EN DRAGON SUPLEX (Clap)
+
+@ 3104
+JP ｎＷｏクラッシュ
+EN nWo CRASH
+
+@ 3105
+JP ｎＷｏクラッシュ（手）
+EN nWo CRASH (Clap)
+
+@ 3106
+JP ＭＩＳＳＩＯＮ　ＢＬＯＷ
+EN MISSION BLOW
+
+@ 3107
+JP ＭＩＳＳＩＯＮ　ＢＬＯＷ（Ｃ）
+EN MISSION BLOW (C)
+
+@ 3108
+JP テンザン～時空～
+EN TENZAN ~Jiku~
+
+@ 3109
+JP テンザン～時空～（手）
+EN Tenzan Jiku (Clap)
+
+@ 3110
+JP 怒りの獣神
+EN Angry Jushin
+
+@ 3111
+JP 怒りの獣神（手）
+EN Angry Jushin (Clap)
+
+@ 3112
+JP スパルタンＸ
+EN Spartan X
+
+@ 3113
+JP スパルタンＸ（Ｃ）
+EN Spartan X (C)
+
+@ 3114
+JP ＢＬＡＺＩＮ
+EN BLAZIN
+
+@ 3115
+JP ＢＬＡＺＩＮ（Ｃ）
+EN BLAZIN (C)
+
+@ 3116
+JP ＳＴＥＲＮＮＥＳＳ（ｔｙｐｅＣ）
+EN STERNNESS (type C)
+
+@ 3117
+JP ＳＴＥＲＮＮＥＳＳ（Ｃ）
+EN STERNNESS (C)
+
+@ 3118
+JP ＧＨＣヘビーのテーマ
+EN GHC Heavy Theme
+
+@ 3119
+JP ＴＲＡＮＳ　ＭＡＧＩＣ
+EN TRANS MAGIC
+
+@ 3120
+JP ＴＲＡＮＳ　ＭＡＧＩＣ（Ｃ）
+EN TRANS MAGIC (C)
+
+@ 3121
+JP ＭＵＴＡ
+EN MUTA
+
+@ 3122
+JP ＭＵＴＡ（手）
+EN MUTA (Clap)
+
+@ 3123
+JP Ｈｏｌｙ　Ｗａｒ　２１
+EN Holy War 21
+
+@ 3124
+JP Ｈｏｌｙ　Ｗａｒ　２１（Ｃ）
+EN Holy War 21 (C)
+
+@ 3125
+JP ＲＵＳＨ！！
+EN RUSH!!
+
+@ 3126
+JP ＲＵＳＨ！！（Ｃ）
+EN RUSH!! (C)
+
+@ 3127
+JP 爆勝宣言
+EN Bakusho Sengen
+
+@ 3128
+JP 爆勝宣言（Ｃ）
+EN Bakusho Sengen (C)
+
+@ 3129
+JP 前奏～爆勝宣言
+EN Bakusho Intro
+
+@ 3130
+JP 前奏～爆勝宣言（Ｃ）
+EN Bakusho Intro (C)
+
+@ 3131
+JP ＢＥＬＩＥＶＥ　Ｓ‐ＲＯＡＤ
+EN BELIEVE S-ROAD
+
+@ 3132
+JP ＢＥＬＩＥＶＥ　Ｓ‐ＲＯＡＤ（Ｃ）
+EN BELIEVE S-ROAD (C)
+
+@ 3133
+JP パワーホール
+EN Power Hall
+
+@ 3134
+JP パワーホール（Ｃ）
+EN Power Hall (C)
+
+@ 3135
+JP ＴＨＥ　ＷＯＲＬＤ
+EN THE WORLD
+
+@ 3136
+JP ＴＨＥ　ＷＯＲＬＤ（Ｃ）
+EN THE WORLD (C)
+
+@ 3137
+JP ＴＨＵＮＤＥＲ　ＳＴＯＲＭ
+EN THUNDER STORM
+
+@ 3138
+JP ＴＨＵＮＤＥＲ　ＳＴＯＲＭ（Ｃ）
+EN THUNDER STORM (C)
+
+@ 3139
+JP Ｄ－ＰＯＷＥＲ
+EN D-POWER
+
+@ 3140
+JP Ｄ－ＰＯＷＥＲ（Ｃ）
+EN D-POWER (C)
+
+@ 3141
+JP ＵＷＦメインテーマ
+EN UWF Main Theme
+
+@ 3142
+JP ＵＷＦメインテーマ（山崎）
+EN UWF Theme: Yamazaki
+
+@ 3143
+JP ＵＷＦメインテーマ（田村）
+EN UWF Theme: Tamura
+
+@ 3144
+JP ＦＬＡＭＥ　ＯＦ　ＭＩＮＤ
+EN FLAME OF MIND
+
+@ 3145
+JP ＦＬＡＭＥ　ＯＦ　ＭＩＮＤ（Ｃ）
+EN FLAME OF MIND (C)
+
+@ 3146
+JP 藤波辰巳のテーマ
+EN Fujinami Theme
+
+@ 3147
+JP 藤波辰巳のテーマ（手）
+EN Fujinami (Clap)
+
+@ 3148
+JP 蝶野正洋のテーマ
+EN Chono Theme
+
+@ 3149
+JP 蝶野正洋のテーマ（Ｃ）
+EN Chono Theme (C)
+
+@ 3150
+JP 中西学のテーマ
+EN Nakanishi Theme
+
+@ 3151
+JP 安田忠夫のテーマ１
+EN Yasuda Theme 1
+
+@ 3152
+JP 安田忠夫のテーマ２
+EN Yasuda Theme 2
+
+@ 3153
+JP 魔界倶楽部のテーマ
+EN Makai Club Theme
+
+@ 3154
+JP 飯塚高史のテーマ
+EN Iizuka Theme
+
+@ 3155
+JP 西村修のテーマ
+EN Nishimura Theme
+
+@ 3156
+JP 真壁伸也のテーマ
+EN Shinya Makabe Theme
+
+@ 3157
+JP 吉江豊のテーマ
+EN Yutaka Yoshie Theme
+
+@ 3158
+JP 棚橋弘至のテーマ
+EN Tanahashi Theme
+
+@ 3159
+JP 中邑真輔のテーマ
+EN Nakamura Theme
+
+@ 3160
+JP 柴田勝頼のテーマ１
+EN Shibata Theme 1
+
+@ 3161
+JP 柴田勝頼のテーマ２
+EN Shibata Theme 2
+
+@ 3162
+JP クレイジードッグスのテーマ
+EN Crazy Dogs Theme
+
+@ 3163
+JP 長井満也のテーマ
+EN Mitsuya Nagai Theme
+
+@ 3164
+JP ブルー・ウルフのテーマ
+EN Blue Wolf Theme
+
+@ 3165
+JP 平田淳嗣のテーマ
+EN Junji Hirata Theme
+
+@ 3166
+JP ヒロ斎藤のテーマ
+EN Hiro Saito Theme
+
+@ 3167
+JP 後藤達俊のテーマ
+EN Goto Theme
+
+@ 3168
+JP 木戸修のテーマ
+EN Osamu Kido Theme
+
+@ 3169
+JP 木村健悟のテーマ
+EN Kengo Kimura Theme
+
+@ 3170
+JP 小林邦昭のテーマ
+EN Kobayashi Theme
+
+@ 3171
+JP 山本小鉄のテーマ
+EN Yamamoto Theme
+
+@ 3172
+JP 金本浩二のテーマ
+EN Koji Kanemoto Theme
+
+@ 3173
+JP エル・サムライのテーマ
+EN El Samurai Theme
+
+@ 3174
+JP ＡＫＩＲＡのテーマ
+EN AKIRA Theme
+
+@ 3175
+JP 田中稔のテーマ
+EN Minoru Tanaka Theme
+
+@ 3176
+JP ジェットのテーマ
+EN Jet Theme
+
+@ 3177
+JP 垣原賢人のテーマ
+EN Kakihara Theme
+
+@ 3178
+JP 成瀬昌由のテーマ
+EN Naruse Theme
+
+@ 3179
+JP 邪道外道のテーマ
+EN Jado & Gedo Theme
+
+@ 3180
+JP 井上亘のテーマ
+EN Wataru Inoue Theme
+
+@ 3181
+JP 竹村豪氏のテーマ
+EN Takemura Theme
+
+@ 3182
+JP スコット・ノートンのテーマ
+EN Scott Norton Theme
+
+@ 3183
+JP ジョシュ・バーネットのテーマ
+EN Josh Barnett Theme
+
+@ 3184
+JP マイク・バートンのテーマ
+EN Mike Barton Theme
+
+@ 3185
+JP ブラック・キャットのテーマ
+EN Black Cat Theme
+
+@ 3186
+JP ブラック・タイガーのテーマ
+EN Black Tiger Theme
+
+@ 3187
+JP ヤングライオンのテーマ
+EN Young Lion Theme
+
+@ 3188
+JP 小橋建太のテーマ１
+EN Kobashi Theme 1
+
+@ 3189
+JP 小橋建太のテーマ１（Ｃ）
+EN Kobashi Theme 1 (C)
+
+@ 3190
+JP 小橋健太のテーマ２
+EN Kobashi Theme 2
+
+@ 3191
+JP 小橋健太のテーマ２（Ｃ）
+EN Kobashi Theme 2 (C)
+
+@ 3192
+JP 田上明のテーマ
+EN Taue Theme
+
+@ 3193
+JP 田上明のテーマ（Ｃ）
+EN Taue Theme (C)
+
+@ 3194
+JP 秋山準のテーマ
+EN Akiyama Theme
+
+@ 3195
+JP 秋山準のテーマ（Ｃ）
+EN Akiyama Theme (C)
+
+@ 3196
+JP 斎藤彰俊のテーマ
+EN A. Saito Theme
+
+@ 3197
+JP ＷＩＬＤⅡのテーマ
+EN WILD II Theme
+
+@ 3198
+JP 森嶋猛のテーマ
+EN Morishima Theme
+
+@ 3199
+JP 力皇猛のテーマ
+EN Takeshi Rikio Theme
+
+@ 3200
+JP 小川良成のテーマ
+EN Ogawa Theme
+
+@ 3201
+JP 本田多聞のテーマ
+EN Tamon Honda Theme
+
+@ 3202
+JP 佐野巧真のテーマ
+EN Takuma Sano Theme
+
+@ 3203
+JP 泉田純のテーマ
+EN Jun Izumida Theme
+
+@ 3204
+JP 井上雅央のテーマ１
+EN Masao Inoue Theme 1
+
+@ 3205
+JP 井上雅央のテーマ２
+EN Masao Inoue Theme 2
+
+@ 3206
+JP 池田大輔のテーマ
+EN Daisuke Ikeda Theme
+
+@ 3207
+JP モハメド・ヨネのテーマ
+EN Mohammed Yone Theme
+
+@ 3208
+JP 志賀賢太郎のテーマ
+EN Kentaro Shiga Theme
+
+@ 3209
+JP 川畑輝鎮のテーマ
+EN Kawabata Theme
+
+@ 3210
+JP 金丸義信のテーマ
+EN Kanemaru Theme
+
+@ 3211
+JP 丸藤正道のテーマ
+EN Marufuji Theme
+
+@ 3212
+JP 菊地毅のテーマ
+EN Kikuchi Theme
+
+@ 3213
+JP 浅子覚のテーマ
+EN Satoru Asako Theme
+
+@ 3214
+JP 橋誠のテーマ
+EN Makoto Hashi Theme
+
+@ 3215
+JP ＫＥＮＴＡのテーマ
+EN KENTA Theme
+
+@ 3216
+JP 杉浦貴のテーマ
+EN Sugiura Theme
+
+@ 3217
+JP 鈴木鼓太郎のテーマ
+EN Kotaro Suzuki Theme
+
+@ 3218
+JP ラッシャー木村のテーマ
+EN Rusher Kimura Theme
+
+@ 3219
+JP 永源遙のテーマ
+EN Haruka Eigen Theme
+
+@ 3220
+JP 百田光雄のテーマ
+EN Mitsuo Momota Theme
+
+@ 3221
+JP スコーピオのテーマ
+EN Scorpio Theme
+
+@ 3222
+JP ハンク・フォレストのテーマ
+EN Hank Forrest Theme
+
+@ 3223
+JP ドン・ローガンのテーマ
+EN Don Logan Theme
+
+@ 3224
+JP 武藤敬司のテーマ１
+EN Mutoh Theme 1
+
+@ 3225
+JP 武藤敬司のテーマ１（Ｃ）
+EN Mutoh Theme 1 (C)
+
+@ 3226
+JP 武藤敬司のテーマ２
+EN Mutoh Theme 2
+
+@ 3227
+JP 武藤敬司のテーマ２（Ｃ）
+EN Mutoh Theme 2 (C)
+
+@ 3228
+JP 黒師無双のテーマ
+EN Kokushi Muso Theme
+
+@ 3229
+JP 太陽ケアのテーマ
+EN Taiyo Kea Theme
+
+@ 3230
+JP 愚零斗孤士のテーマ
+EN Great Koji Theme
+
+@ 3231
+JP ケンドー・カシンのテーマ
+EN Kashin Theme
+
+@ 3232
+JP ケンドー・カシンのテーマ（手）
+EN Kashin Theme (Clap)
+
+@ 3233
+JP 渕正信のテーマ
+EN Fuchi Theme
+
+@ 3234
+JP 馳浩のテーマ
+EN Hase Theme
+
+@ 3235
+JP 馳浩のテーマ（Ｃ）
+EN Hase Theme (C)
+
+@ 3236
+JP 嵐のテーマ１
+EN Arashi Theme 1
+
+@ 3237
+JP 嵐のテーマ２
+EN Arashi Theme 2
+
+@ 3238
+JP 荒谷望誉のテーマ
+EN Araya Theme
+
+@ 3239
+JP 奥村茂雄のテーマ１
+EN Okumura Theme 1
+
+@ 3240
+JP 奥村茂雄のテーマ２
+EN Okumura Theme 2
+
+@ 3241
+JP 保坂秀樹のテーマ
+EN Hideki Hosaka Theme
+
+@ 3242
+JP カズ・ハヤシのテーマ
+EN Kaz Hayashi Theme
+
+@ 3243
+JP 宮本和志のテーマ１
+EN Miyamoto Theme 1
+
+@ 3244
+JP 宮本和志のテーマ２
+EN Miyamoto Theme 2
+
+@ 3245
+JP ターメリックのテーマ
+EN Turmeric Theme
+
+@ 3246
+JP ザ・グラジエーターのテーマ
+EN The Gladiator Theme
+
+@ 3247
+JP ギガンテスのテーマ
+EN Gigantes Theme
+
+@ 3248
+JP ジョージ・ハインズのテーマ
+EN George Hines Theme
+
+@ 3249
+JP あすなろ戦士のテーマ
+EN Asunaro Theme
+
+@ 3250
+JP ＳＨＯＧＵＮのテーマ
+EN SHOGUN Theme
+
+@ 3251
+JP ハシフ・カーンのテーマ
+EN Hashif Khan Theme
+
+@ 3252
+JP 田中将斗のテーマ
+EN Masato Tanaka Theme
+
+@ 3253
+JP 高岩竜一のテーマ
+EN Takaiwa Theme
+
+@ 3254
+JP 星川尚浩のテーマ
+EN Hoshikawa Theme
+
+@ 3255
+JP 佐藤耕平のテーマ
+EN Kohei Sato Theme
+
+@ 3256
+JP 崔リョウジのテーマ
+EN Ryouji Sai Theme
+
+@ 3257
+JP 黒毛和牛太のテーマ
+EN Wagyuta Theme
+
+@ 3258
+JP 富豪２夢路のテーマ
+EN Yumeji Theme
+
+@ 3259
+JP 佐々木義人のテーマ
+EN Y. Sasaki Theme
+
+@ 3260
+JP 山笠Ｚ”信介のテーマ
+EN Yamakasa Z Theme
+
+@ 3261
+JP 高橋冬樹のテーマ１
+EN Takahashi Theme 1
+
+@ 3262
+JP 高橋冬樹のテーマ２
+EN Takahashi Theme 2
+
+@ 3263
+JP 坂田亘のテーマ
+EN Wataru Sakata Theme
+
+@ 3264
+JP 小笠原和彦のテーマ
+EN Ogasawara Theme
+
+@ 3265
+JP 葛西純のテーマ
+EN Jun Kasai Theme
+
+@ 3266
+JP テングカイザーのテーマ
+EN Tengu Kaiser Theme
+
+@ 3267
+JP トム・ハワードのテーマ
+EN Tom Howard Theme
+
+@ 3268
+JP ザ・プレデターのテーマ
+EN The Predator Theme
+
+@ 3269
+JP スティーブ・コリノのテーマ
+EN Steve Corino Theme
+
+@ 3270
+JP Ｌｏｗｋｉのテーマ
+EN Low Ki Theme
+
+@ 3271
+JP 佐々木健介のテーマ１
+EN K. Sasaki Theme 1
+
+@ 3272
+JP 佐々木健介のテーマ２
+EN K. Sasaki Theme 2
+
+@ 3273
+JP 佐々木健介のテーマ２（手）
+EN K. Sasaki 2 (Clap)
+
+@ 3274
+JP パワー・ウォリアーのテーマ
+EN Power Warrior Theme
+
+@ 3275
+JP パワー・ウォリアーのテーマ（手）
+EN Power Warrior (Clap)
+
+@ 3276
+JP 越中詩郎のテーマ１
+EN Koshinaka Theme 1
+
+@ 3277
+JP 越中詩郎のテーマ１（Ｃ）
+EN Koshinaka 1 (C)
+
+@ 3278
+JP 越中詩郎のテーマ２
+EN Koshinaka Theme 2
+
+@ 3279
+JP 大森隆男のテーマ
+EN Takao Omori Theme
+
+@ 3280
+JP マサ・サイトーのテーマ
+EN Masa Saito Theme
+
+@ 3281
+JP ヤングマグマのテーマ
+EN Young Magma Theme
+
+@ 3282
+JP ビクトリー武蔵のテーマ
+EN Musashi Theme
+
+@ 3283
+JP ビクトリー武蔵のテーマ（手）
+EN Musashi Theme (Clap)
+
+@ 3284
+JP グレート司馬のテーマ
+EN Great Shiba Theme
+
+@ 3285
+JP グレート司馬のテーマ（Ｃ）
+EN Great Shiba (C)
+
+@ 3286
+JP トミー・ボンバーのテーマ１
+EN Tommy Bomber 1
+
+@ 3287
+JP トミー・ボンバーのテーマ２
+EN Tommy Bomber 2
+
+@ 3288
+JP 野川裕也のテーマ
+EN Yuya Nogawa Theme
+
+@ 3289
+JP 梶田政之のテーマ
+EN Kajita Theme
+
+@ 3290
+JP 冴刃明のテーマ
+EN Akira Saeba Theme
+
+@ 3291
+JP 真田信久のテーマ
+EN Sanada Theme
+
+@ 3292
+JP 柏田一樹のテーマ
+EN Kashiwada Theme
+
+@ 3293
+JP 観月みつるのテーマ
+EN Mitsuru Theme
+
+@ 3294
+JP 観月慶三のテーマ
+EN Keizo Mizuki Theme
+
+@ 3295
+JP ウイニング亀村のテーマ
+EN Kamemura Theme
+
+@ 3296
+JP 室田鉄彦のテーマ
+EN Murota Theme
+
+@ 3297
+JP ブレード・ハヤテのテーマ
+EN Blade Hayate Theme
+
+@ 3298
+JP ＷＡＫＡゆきぐにのテーマ１
+EN WAKA Yukiguni Theme 1
+
+@ 3299
+JP ＷＡＫＡゆきぐにのテーマ２
+EN WAKA Yukiguni Theme 2
+
+@ 3300
+JP マスク・ド・パンサーのテーマ
+EN Mask de Panther
+
+@ 3301
+JP スター・バイソンのテーマ
+EN Star Bison Theme
+
+@ 3302
+JP セイバーのテーマ
+EN Saber Theme
+
+@ 3303
+JP アックス・ドゥガンのテーマ
+EN Axe Dugan Theme
+
+@ 3304
+JP ゴールデンハンマーのテーマ
+EN Golden Hammer Theme
+
+@ 3305
+JP サム・ポップのテーマ
+EN Sam Pop Theme
+
+@ 3306
+JP ビッグ・ザ・Ｇ・ブルのテーマ
+EN Big the G Bull Theme
+
+@ 3307
+JP Ｇ・ロシュモフのテーマ
+EN G. Roshmov Theme
+
+@ 3308
+JP Ｓ・ジェイムスのテーマ
+EN S. James Theme
+
+@ 3309
+JP Ｓ・ジェイムスのテーマ（手）
+EN S. James Theme (Clap)
+
+@ 3310
+JP バット・サファリのテーマ
+EN Bat Safari Theme
+
+@ 3311
+JP アブドル・ザ・デンジャーのテーマ
+EN Abdul the Danger Theme
+
+@ 3312
+JP マスカラ兄弟のテーマ
+EN Mascara Bros. Theme
+
+@ 3313
+JP テキサン兄弟のテーマ
+EN Texan Bros. Theme
+
+@ 3314
+JP ウォルフ・バーンのテーマ
+EN Wolf Bahn Theme
+
+@ 3315
+JP マイク・オールマンのテーマ
+EN Mike Allman Theme
+
+@ 3316
+JP ボーン・クライのテーマ
+EN Bone Cry Theme
+
+@ 3317
+JP ケンタウロ・ボヘミアのテーマ
+EN Centauro Bohemia
+
+@ 3318
+JP ルチャドールのテーマ
+EN Luchador Theme
+
+@ 3319
+JP アメリカンレスラーのテーマ
+EN American Wrestler
+
+@ 3320
+JP ステイシー一族のテーマ
+EN Stacy Clan Theme
+
+@ 3321
+JP ロシア軍団のテーマ
+EN Russian Army Theme
+
+@ 3322
+JP ＭＷＡのテーマ
+EN MWA Theme
+
+@ 3323
+JP グラップラーのテーマ１
+EN Grappler Theme 1
+
+@ 3324
+JP グラップラーのテーマ２
+EN Grappler Theme 2
+
+@ 3325
+JP グラップラーのテーマ３
+EN Grappler Theme 3
+
+@ 3326
+JP ストライカーのテーマ１
+EN Striker Theme 1
+
+@ 3327
+JP ストライカーのテーマ２
+EN Striker Theme 2
+
+@ 3328
+JP ストライカーのテーマ３
+EN Striker Theme 3
+
+@ 3329
+JP バーリトゥーダーのテーマ１
+EN Vale Tudo Theme 1
+
+@ 3330
+JP バーリトゥーダーのテーマ２
+EN Vale Tudo Theme 2
+
+@ 3331
+JP バーリトゥーダーのテーマ３
+EN Vale Tudo Theme 3
+
+@ 3332
+JP 汎用テーマ１
+EN Generic Theme 1
+
+@ 3333
+JP 汎用テーマ２
+EN Generic Theme 2
+
+@ 3334
+JP 汎用テーマ３
+EN Generic Theme 3
+
+@ 3335
+JP 汎用テーマ４
+EN Generic Theme 4
+
+@ 3336
+JP 汎用テーマ５
+EN Generic Theme 5
+
+@ 3337
+JP 汎用テーマ６
+EN Generic Theme 6
+
+@ 3338
+JP 汎用テーマ７
+EN Generic Theme 7
+
+@ 3339
+JP 汎用テーマ８
+EN Generic Theme 8
+
+@ 3340
+JP 汎用テーマ９
+EN Generic Theme 9
+
+@ 3341
+JP 汎用テーマ１０
+EN Generic Theme 10
+
+@ 3342
+JP なし
+EN None
+
+@ 3343
+JP 藤波　辰爾１
+EN Tatsumi Fujinami 1
+
+@ 3344
+JP 藤波　辰爾２
+EN Tatsumi Fujinami 2
+
+@ 3345
+JP 蝶野　正洋１
+EN Masahiro Chono 1
+
+@ 3346
+JP 蝶野　正洋２
+EN Masahiro Chono 2
+
+@ 3347
+JP 永田　裕志
+EN Yuji Nagata
+
+@ 3348
+JP 中西　学
+EN Manabu Nakanishi
+
+@ 3349
+JP 天山　広吉
+EN Hiroyoshi Tenzan
+
+@ 3350
+JP 安田　忠夫１
+EN Tadao Yasuda 1
+
+@ 3351
+JP 安田　忠夫２
+EN Tadao Yasuda 2
+
+@ 3352
+JP 飯塚　高史
+EN Takashi Iizuka
+
+@ 3353
+JP 西村　修
+EN Osamu Nishimura
+
+@ 3354
+JP 吉江　豊
+EN Yutaka Yoshie
+
+@ 3355
+JP 真壁　伸也
+EN Shinya Makabe
+
+@ 3356
+JP 棚橋　弘至
+EN Hiroshi Tanahashi
+
+@ 3357
+JP 中邑　真輔
+EN Shinsuke Nakamura
+
+@ 3358
+JP ブルー・ウルフ
+EN Blue Wolf
+
+@ 3359
+JP 星野　勘太郎１
+EN Kantaro Hoshino 1
+
+@ 3360
+JP 星野　勘太郎２
+EN Kantaro Hoshino 2
+
+@ 3361
+JP 村上　和成
+EN Kazunari Murakami
+
+@ 3362
+JP 柳澤　龍志
+EN Ryushi Yanagisawa
+
+@ 3363
+JP 魔界１号
+EN Makai #1
+
+@ 3364
+JP 魔界２号
+EN Makai #2
+
+@ 3365
+JP 魔界４号
+EN Makai #4
+
+@ 3366
+JP 柴田　勝頼
+EN Katsuyori Shibata
+
+@ 3367
+JP 魔界５号
+EN Makai #5
+
+@ 3368
+JP 長井　満也
+EN Mitsuya Nagai
+
+@ 3369
+JP エンセン井上
+EN Enson Inoue
+
+@ 3370
+JP 小原　道由
+EN Michiyoshi Ohara
+
+@ 3371
+JP 後藤　達俊
+EN Tatsutoshi Goto
+
+@ 3372
+JP ヒロ斎藤
+EN Hiro Saito
+
+@ 3373
+JP 獣神サンダー・ライガー
+EN Jushin Liger
+
+@ 3374
+JP エル・サムライ
+EN El Samurai
+
+@ 3375
+JP 金本　浩二
+EN Koji Kanemoto
+
+@ 3376
+JP ＡＫＩＲＡ
+EN AKIRA
+
+@ 3377
+JP 田中　稔
+EN Minoru Tanaka
+
+@ 3378
+JP 成瀬　昌由
+EN Masayuki Naruse
+
+@ 3379
+JP 垣原　賢人
+EN Masahito Kakihara
+
+@ 3380
+JP 邪道
+EN Jado
+
+@ 3381
+JP 外道
+EN Gedo
+
+@ 3382
+JP 井上　亘
+EN Wataru Inoue
+
+@ 3383
+JP 竹村　豪氏
+EN Katsushi Takemura
+
+@ 3384
+JP 矢野　通
+EN Toru Yano
+
+@ 3385
+JP 田口　隆祐
+EN Ryusuke Taguchi
+
+@ 3386
+JP 山本　尚文
+EN Naofumi Yamamoto
+
+@ 3387
+JP 長尾　浩志
+EN Hiroshi Nagao
+
+@ 3388
+JP 後藤　洋央紀
+EN Hirooki Goto
+
+@ 3389
+JP 坂口　征二
+EN Seiji Sakaguchi
+
+@ 3390
+JP 木村　健悟
+EN Kengo Kimura
+
+@ 3391
+JP 木戸　修
+EN Osamu Kido
+
+@ 3392
+JP 山崎　一夫
+EN Kazuo Yamazaki
+
+@ 3393
+JP Ｓ・Ｓ・マシン
+EN S.S. Machine
+
+@ 3394
+JP 平田　淳嗣
+EN Junji Hirata
+
+@ 3395
+JP 小林　邦昭
+EN Kuniaki Kobayashi
+
+@ 3396
+JP 山本　小鉄
+EN Kotetsu Yamamoto
+
+@ 3397
+JP スコット・ノートン
+EN Scott Norton
+
+@ 3398
+JP ジョシュ・バーネット
+EN Josh Barnett
+
+@ 3399
+JP マイク・バートン
+EN Mike Barton
+
+@ 3400
+JP ジム・スティール
+EN Jim Steele
+
+@ 3401
+JP ドルゴルスレン・スミヤバザル
+EN D. Sumiyabazar
+
+@ 3402
+JP ブラック・タイガー
+EN Black Tiger
+
+@ 3403
+JP ブラック・キャット
+EN Black Cat
+
+@ 3404
+JP 三沢　光晴１
+EN Mitsuharu Misawa 1
+
+@ 3405
+JP 三沢　光晴２
+EN Mitsuharu Misawa 2
+
+@ 3406
+JP 小橋　建太１
+EN Kenta Kobashi 1
+
+@ 3407
+JP 小橋　建太２
+EN Kenta Kobashi 2
+
+@ 3408
+JP 田上　明
+EN Akira Taue
+
+@ 3409
+JP 秋山　準１
+EN Jun Akiyama 1
+
+@ 3410
+JP 秋山　準２
+EN Jun Akiyama 2
+
+@ 3411
+JP 小川　良成
+EN Yoshinari Ogawa
+
+@ 3412
+JP 力皇　猛
+EN Takeshi Rikio
+
+@ 3413
+JP 森嶋　猛
+EN Takeshi Morishima
+
+@ 3414
+JP 本田　多聞１
+EN Tamon Honda 1
+
+@ 3415
+JP 本田　多聞２
+EN Tamon Honda 2
+
+@ 3416
+JP 井上　雅央
+EN Masao Inoue
+
+@ 3417
+JP 佐野　巧真
+EN Takuma Sano
+
+@ 3418
+JP 斎藤　彰俊
+EN Akitoshi Saito
+
+@ 3419
+JP 泉田　純
+EN Jun Izumida
+
+@ 3420
+JP ＩＺＵ
+EN IZU
+
+@ 3421
+JP 池田　大輔
+EN Daisuke Ikeda
+
+@ 3422
+JP 志賀　賢太郎
+EN Kentaro Shiga
+
+@ 3423
+JP モハメド・ヨネ
+EN Mohammed Yone
+
+@ 3424
+JP 杉浦　貴
+EN Takashi Sugiura
+
+@ 3425
+JP 川畑　輝鎮
+EN Terushige Kawabata
+
+@ 3426
+JP 青柳　政司
+EN Masashi Aoyagi
+
+@ 3427
+JP 菊地　毅
+EN Tsuyoshi Kikuchi
+
+@ 3428
+JP 金丸　義信
+EN Yoshinobu Kanemaru
+
+@ 3429
+JP 丸藤　正道
+EN Naomichi Marufuji
+
+@ 3430
+JP 橋　誠
+EN Makoto Hashi
+
+@ 3431
+JP ＫＥＮＴＡ
+EN KENTA
+
+@ 3432
+JP 鈴木鼓太郎
+EN Kotaro Suzuki
+
+@ 3433
+JP 浅子　覚
+EN Satoru Asako
+
+@ 3434
+JP ラッシャー木村
+EN Rusher Kimura
+
+@ 3435
+JP 永源　遙
+EN Haruka Eigen
+
+@ 3436
+JP 百田　光雄
+EN Mitsuo Momota
+
+@ 3437
+JP マイティ井上
+EN Mighty Inoue
+
+@ 3438
+JP スコーピオ
+EN Scorpio
+
+@ 3439
+JP マイケル・モデスト
+EN Michael Modest
+
+@ 3440
+JP バイソン・スミス
+EN Bison Smith
+
+@ 3441
+JP ドノバン・モーガン
+EN Donovan Morgan
+
+@ 3442
+JP リチャード・スリンガー
+EN Richard Slinger
+
+@ 3443
+JP 武藤　敬司１
+EN Keiji Mutoh 1
+
+@ 3444
+JP 武藤　敬司２
+EN Keiji Mutoh 2
+
+@ 3445
+JP グレート・ムタ１
+EN The Great Muta 1
+
+@ 3446
+JP グレート・ムタ２
+EN The Great Muta 2
+
+@ 3447
+JP 黒師無双
+EN Kokushi Muso
+
+@ 3448
+JP 川田　利明
+EN Toshiaki Kawada
+
+@ 3449
+JP 小島　聡
+EN Satoshi Kojima
+
+@ 3450
+JP 愚零斗孤士
+EN Great Koji
+
+@ 3451
+JP 太陽ケア
+EN Taiyo Kea
+
+@ 3452
+JP 渕　正信
+EN Masanobu Fuchi
+
+@ 3453
+JP 馳　浩
+EN Hiroshi Hase
+
+@ 3454
+JP 嵐
+EN Arashi
+
+@ 3455
+JP 荒谷　望誉
+EN Nobutaka Araya
+
+@ 3456
+JP ケンドー・カシン
+EN Kendo Kashin
+
+@ 3457
+JP 奥村　茂雄
+EN Shigeo Okumura
+
+@ 3458
+JP 平井　伸和
+EN Nobukazu Hirai
+
+@ 3459
+JP 本間　朋晃
+EN Tomoaki Honma
+
+@ 3460
+JP 宮本　和志
+EN Kazushi Miyamoto
+
+@ 3461
+JP カズ・ハヤシ
+EN Kaz Hayashi
+
+@ 3462
+JP 土方　隆司
+EN Ryuji Hijikata
+
+@ 3463
+JP 石狩　太一
+EN Taichi Ishikari
+
+@ 3464
+JP 河野　真幸
+EN Masayuki Kono
+
+@ 3465
+JP ビッグ・ジョン・テンタ
+EN Big John Tenta
+
+@ 3466
+JP ザ・グラジエーター
+EN The Gladiator
+
+@ 3467
+JP ギガンテス
+EN Gigantes
+
+@ 3468
+JP ジョージ・ハインズ
+EN George Hines
+
+@ 3469
+JP 橋本　真也１
+EN Shinya Hashimoto 1
+
+@ 3470
+JP 橋本　真也２
+EN Shinya Hashimoto 2
+
+@ 3471
+JP ハシフ・カーン
+EN Hashif Khan
+
+@ 3472
+JP ＳＨＯＧＵＮ
+EN SHOGUN
+
+@ 3473
+JP 大谷　晋二郎
+EN Shinjiro Otani
+
+@ 3474
+JP 田中　将斗
+EN Masato Tanaka
+
+@ 3475
+JP 高岩　竜一
+EN Ryuji Takaiwa
+
+@ 3476
+JP 星川　尚浩
+EN Naohiro Hoshikawa
+
+@ 3477
+JP 佐藤　耕平
+EN Kohei Sato
+
+@ 3478
+JP テングカイザー
+EN Tengu Kaiser
+
+@ 3479
+JP 藤原　喜明
+EN Yoshiaki Fujiwara
+
+@ 3480
+JP 坂田　亘
+EN Wataru Sakata
+
+@ 3481
+JP 横井　宏考
+EN Hirotaka Yokoi
+
+@ 3482
+JP 小笠原　和彦
+EN Kazuhiko Ogasawara
+
+@ 3483
+JP 崔　リョウジ
+EN Ryoji Sai
+
+@ 3484
+JP 富豪２夢路
+EN Fugo 2 Yumeji
+
+@ 3485
+JP 保坂　秀樹
+EN Hideki Hosaka
+
+@ 3486
+JP 黒毛和牛太
+EN Kuroge Wagyuta
+
+@ 3487
+JP 葛西　純
+EN Jun Kasai
+
+@ 3488
+JP 佐々木　義人
+EN Yoshihito Sasaki
+
+@ 3489
+JP 山笠Ｚ”信介
+EN Yamakasa Z Shinsuke
+
+@ 3490
+JP 高橋　冬樹
+EN Fuyuki Takahashi
+
+@ 3491
+JP トム・ハワード
+EN Tom Howard
+
+@ 3492
+JP ザ・プレデター
+EN The Predator
+
+@ 3493
+JP マット・ガファリ
+EN Matt Ghaffari
+
+@ 3494
+JP スティーブ・コリノ
+EN Steve Corino
+
+@ 3495
+JP Ｃ・Ｗ・アンダーソン
+EN C.W. Anderson
+
+@ 3496
+JP キング・ジョー
+EN King Joe
+
+@ 3497
+JP キング・アダモ
+EN King Adamo
+
+@ 3498
+JP Ｌｏｗｋｉ
+EN Low Ki
+
+@ 3499
+JP ヴァンサック・アシッド
+EN Vansack Acid
+
+@ 3500
+JP 高山　善廣
+EN Yoshihiro Takayama
+
+@ 3501
+JP 長州　力１
+EN Riki Choshu 1
+
+@ 3502
+JP 長州　力２
+EN Riki Choshu 2
+
+@ 3503
+JP 天龍　源一郎１
+EN Genichiro Tenryu 1
+
+@ 3504
+JP 天龍　源一郎２
+EN Genichiro Tenryu 2
+
+@ 3505
+JP 天龍　源一郎３
+EN Genichiro Tenryu 3
+
+@ 3506
+JP 佐々木　健介１
+EN Kensuke Sasaki 1
+
+@ 3507
+JP 佐々木　健介２
+EN Kensuke Sasaki 2
+
+@ 3508
+JP パワー・ウォリアー
+EN Power Warrior
+
+@ 3509
+JP 大森　隆男１
+EN Takao Omori 1
+
+@ 3510
+JP 大森　隆男２
+EN Takao Omori 2
+
+@ 3511
+JP 越中　詩郎
+EN Shiro Koshinaka
+
+@ 3512
+JP 石井　智宏
+EN Tomohiro Ishii
+
+@ 3513
+JP 宇和野　貴史
+EN Takashi Uwano
+
+@ 3514
+JP 高智　政光
+EN Masamitsu Kochi
+
+@ 3515
+JP 中嶋　勝彦
+EN Katsuhiko Nakajima
+
+@ 3516
+JP マサ・サイトー
+EN Masa Saito
+
+@ 3517
+JP 保永　昇男
+EN Norio Honaga
+
+@ 3518
+JP 船木　誠勝
+EN Masakatsu Funaki
+
+@ 3519
+JP 鈴木　みのる１
+EN Minoru Suzuki 1
+
+@ 3520
+JP 鈴木　みのる２
+EN Minoru Suzuki 2
+
+@ 3521
+JP 近藤　有己
+EN Yuki Kondo
+
+@ 3522
+JP 高橋　義生
+EN Yoshiki Takahashi
+
+@ 3523
+JP 國奥　麒樹真
+EN Kiuma Kunioku
+
+@ 3524
+JP 渋谷　修身
+EN Osami Shibuya
+
+@ 3525
+JP 謙吾
+EN Kengo
+
+@ 3526
+JP ＫＥＩ　山宮
+EN KEI Yamamiya
+
+@ 3527
+JP 窪田　幸生
+EN Yukio Kubota
+
+@ 3528
+JP 菊田　早苗
+EN Sanae Kikuta
+
+@ 3529
+JP 郷野　聡寛
+EN Akihiro Gono
+
+@ 3530
+JP 佐々木　有生
+EN Yuki Sasaki
+
+@ 3531
+JP 石川　英司
+EN Eiji Ishikawa
+
+@ 3532
+JP 田村　潔司
+EN Kiyoshi Tamura
+
+@ 3533
+JP 上山　龍紀
+EN Ryuki Ueyama
+
+@ 3534
+JP 大久保　一樹
+EN Kazuki Okubo
+
+@ 3535
+JP 長南　亮
+EN Ryo Chonan
+
+@ 3536
+JP 佐々木　恭介
+EN Kyosuke Sasaki
+
+@ 3537
+JP ビクトリー武蔵
+EN Victory Musashi
+
+@ 3538
+JP グレート司馬
+EN Great Shiba
+
+@ 3539
+JP 冴刃　明
+EN Akira Saeba
+
+@ 3540
+JP 真田　伸久
+EN Nobuhisa Sanada
+
+@ 3541
+JP 柏田　一樹
+EN Kazuki Kashiwada
+
+@ 3542
+JP 沖田　勝志
+EN Katsushi Okita
+
+@ 3543
+JP 梨田　秀吉
+EN Hideyoshi Nashida
+
+@ 3544
+JP マスク・ド・パンサー
+EN Mask de Panther
+
+@ 3545
+JP ランマル
+EN Ranmaru
+
+@ 3546
+JP 神崎　仁水
+EN Jinsui Kanzaki
+
+@ 3547
+JP ブレード・ハヤテ
+EN Blade Hayate
+
+@ 3548
+JP ＺＹＭＡ
+EN ZYMA
+
+@ 3549
+JP えぼすさん
+EN Ebosu-san
+
+@ 3550
+JP 梶田　政之
+EN Masayuki Kajita
+
+@ 3551
+JP 金城　久志
+EN Hisashi Kaneshiro
+
+@ 3552
+JP 火野　まさる
+EN Masaru Hino
+
+@ 3553
+JP ザ・ミステリアス・カグラ
+EN Mysterious Kagura
+
+@ 3554
+JP サム・ポップ
+EN Sam Pop
+
+@ 3555
+JP スター・バイソン
+EN Star Bison
+
+@ 3556
+JP ビッグ・ザ・Ｇ・ブル
+EN Big the G Bull
+
+@ 3557
+JP Ｇ・Ｏ＝ブライト
+EN G. O'Bright
+
+@ 3558
+JP ケリー・テキサン
+EN Kerry Texan
+
+@ 3559
+JP ハリー・テキサンＪｒ．
+EN Harry Texan Jr.
+
+@ 3560
+JP マッド・タイガー
+EN Mad Tiger
+
+@ 3561
+JP ブラスターズ
+EN Blasters
+
+@ 3562
+JP ダイナミック・キッド
+EN Dynamic Kid
+
+@ 3563
+JP アックス・ドゥガン
+EN Axe Dugan
+
+@ 3564
+JP ジャイアント・ロシュモフ
+EN Giant Roshmoff
+
+@ 3565
+JP ミクロ・プロポリス
+EN Micro Propolis
+
+@ 3566
+JP アンドレィ・ジルバ
+EN Andrei Zilba
+
+@ 3567
+JP ケンタウロス・ボヘミア
+EN Centauros Bohemia
+
+@ 3568
+JP ヴォイス・ステイシー
+EN Voice Stacy
+
+@ 3569
+JP ヘッド・ステイシー
+EN Head Stacy
+
+@ 3570
+JP マイク・ベアー
+EN Mike Bear
+
+@ 3571
+JP ルガール・ロブハンキン
+EN Rugal Robhankin
+
+@ 3572
+JP マイク・オールマン
+EN Mike Allman
+
+@ 3573
+JP ケイン・ハーロック
+EN Kane Harlock
+
+@ 3574
+JP ベイビー・バッドエッジ
+EN Baby Badedge
+
+@ 3575
+JP ヘラクレス・アレビン
+EN Hercules Alevin
+
+@ 3576
+JP ベーム・シュトゥルム
+EN Behm Sturm
+
+@ 3577
+JP ポール・サバンナ
+EN Paul Savanna
+
+@ 3578
+JP ウォルフ・バーン
+EN Wolf Bahn
+
+@ 3579
+JP ランドル・ロビィコフ
+EN Randall Robikoff
+
+@ 3580
+JP ヤングライオン
+EN Young Lion
+
+@ 3581
+JP あすなろ戦士
+EN Asunaro Warrior
+
+@ 3582
+JP 若き航海士
+EN Young Navigator
+
+@ 3583
+JP 若き獅子
+EN Young Lion Cub
+
+@ 3584
+JP ヤングマグマ
+EN Young Magma
+
+@ 3585
+JP パンクラス
+EN Pancrase
+
+@ 3586
+JP Ｕ－ＦＩＬＥ
+EN U-FILE
+
+@ 3587
+JP 新人レスラー１
+EN Rookie Wrestler 1
+
+@ 3588
+JP 新人レスラー２
+EN Rookie Wrestler 2
+
+@ 3589
+JP 新人レスラー３
+EN Rookie Wrestler 3
+
+@ 3590
+# [glossary-ok] "midcard" in a part name
+JP 中堅レスラー１
+EN Midcard Wrestler 1
+
+@ 3591
+# [glossary-ok] "midcard" in a part name
+JP 中堅レスラー２
+EN Midcard Wrestler 2
+
+@ 3592
+JP ベテランレスラー１
+EN Veteran Wrestler 1
+
+@ 3593
+JP ベテランレスラー２
+EN Veteran Wrestler 2
+
+@ 3594
+JP デスマッチレスラー
+EN Deathmatcher
+
+@ 3595
+JP ジュニアヘビー１
+EN Junior Heavy 1
+
+@ 3596
+JP ジュニアヘビー２
+EN Junior Heavy 2
+
+@ 3597
+JP ジュニアヘビー３
+EN Junior Heavy 3
+
+@ 3598
+JP ジュニアヘビー４
+EN Junior Heavy 4
+
+@ 3599
+JP ジュニアヘビー５
+EN Junior Heavy 5
+
+@ 3600
+JP ヘビー１
+EN Heavyweight 1
+
+@ 3601
+JP ヘビー２
+EN Heavyweight 2
+
+@ 3602
+JP 外国人レスラー１
+EN Foreign Wrestler 1
+
+@ 3603
+JP 外国人レスラー２
+EN Foreign Wrestler 2
+
+@ 3604
+JP 外国人レスラー３
+EN Foreign Wrestler 3
+
+@ 3605
+JP 外国人レスラー４
+EN Foreign Wrestler 4
+
+@ 3606
+JP アメリカ１
+EN America 1
+
+@ 3607
+JP アメリカ２
+EN America 2
+
+@ 3608
+JP アメリカ３
+EN America 3
+
+@ 3609
+JP アメリカ４
+EN America 4
+
+@ 3610
+JP カナダ
+EN Canada
+
+@ 3611
+JP ヨーロッパ１
+EN Europe 1
+
+@ 3612
+JP ヨーロッパ２
+EN Europe 2
+
+@ 3613
+JP ロシア
+EN Russia
+
+@ 3614
+JP オランダ
+EN Holland
+
+@ 3615
+JP サモア
+EN Samoa
+
+@ 3616
+JP モンゴル
+EN Mongolia
+
+@ 3617
+JP 総合格闘家１
+EN MMA Fighter 1
+
+@ 3618
+JP 総合格闘家２
+EN MMA Fighter 2
+
+@ 3619
+JP ブラジリアン柔術１
+EN BJJ Fighter 1
+
+@ 3620
+JP ブラジリアン柔術２
+EN BJJ Fighter 2
+
+@ 3621
+JP キックボクサー
+EN Kickboxer
+
+@ 3622
+JP 空手家
+EN Karateka
+
+@ 3623
+JP ボクサー
+EN Boxer
+
+@ 3624
+JP 謎の男１
+EN Mystery Man 1
+
+@ 3625
+JP 謎の男２
+EN Mystery Man 2
+
+@ 3626
+JP メキシコ
+EN Mexico
+
+@ 3627
+JP 未確認生命体
+EN Unknown Lifeform
+
+@ 3628
+JP 動物
+EN Animal
+
+@ 3629
+JP メジャー級の選手
+EN Major Leaguer
+
+@ 3630
+JP マッチョ系
+EN Macho Type
+
+@ 3631
+JP 汎用１
+EN Generic 1
+
+@ 3632
+JP 汎用２
+EN Generic 2
+
+@ 3633
+JP 汎用３
+EN Generic 3
+
+@ 3634
+JP 汎用４
+EN Generic 4
+
+@ 3635
+JP 汎用５
+EN Generic 5
+
+@ 3636
+JP 汎用６
+EN Generic 6
+
+@ 3637
+JP 汎用７
+EN Generic 7
+
+@ 3638
+JP 汎用８
+EN Generic 8
+
+@ 3639
+JP 汎用９
+EN Generic 9
+
+@ 3640
+JP 汎用１０
+EN Generic 10
+
+@ 3641
+JP 汎用１１
+EN Generic 11
+
+@ 3642
+JP 汎用１２
+EN Generic 12
+
+@ 3643
+JP 汎用１３
+EN Generic 13
+
+@ 3644
+JP 汎用１４
+EN Generic 14
+
+@ 3645
+JP 汎用１５
+EN Generic 15
+
+@ 3646
+JP 汎用１６
+EN Generic 16
+
+@ 3647
+JP 汎用１７
+EN Generic 17
+
+@ 3648
+JP 汎用１８
+EN Generic 18
+
+@ 3649
+JP 汎用１９
+EN Generic 19
+
+@ 3650
+JP 汎用２０
+EN Generic 20
+
+@ 3651
+JP 汎用２１
+EN Generic 21
+
+@ 3652
+JP さぁ、１＋１が３にも４にもなる好タッグ、今日も阿吽の呼吸を見せつけていくのでありましょうか
+EN A team where 1 + 1 makes 3 or 4! Will they show their perfect teamwork again today?
+
+@ 3653
+JP さぁ、魅力的なユニットが姿を現しました。館内のファンも大声援を送っております
+EN A fascinating unit appears! The fans in the hall are cheering loudly!
+
+@ 3654
+JP さぁ、タッグの頂点を目指して手を組んだ男達。今入ってまいりました
+EN Men who teamed up for the top of the tag ranks. Here they come!
+
+@ 3655
+JP さぁ、ガッチリ手を組んだこの男達。果たしてどんな戦いを見せるのでありましょうか
+EN These men have joined forces tightly. What kind of fight will they show us?
+
+@ 3656
+JP さぁ、強烈なユニットが結成されました。その姿をいま現します。
+EN A fearsome unit has formed. Here they come now!
+
+@ 3657
+JP さぁ、強力なタッグが結成されました。いま二つの魂が一つになってまいります
+EN A powerful team has been formed. Now two souls are becoming one!
+
+@ 3658
+# [glossary-ok] part name / commentary line, entrance implied
+JP さぁ、プロレス界の至宝、こんじきに輝くＩＷＧＰベルトを腰に今チャンピオンが入場してまいります
+EN Wrestling's treasure, the golden IWGP belt at his waist: here comes the champion!
+
+@ 3659
+JP さぁ、その腰に輝くは伝説のＮＷＦ。ＮＷＦの新たな歴史はこの男が刻んでまいります
+EN At his waist shines the legendary NWF belt. This man writes its new history!
+
+@ 3660
+JP 腰に巻かれるベルトとともに、今二つの魂をひとつにして、チャンピオンチームが入ってまいりました
+EN Belts around their waists, two souls united as one, here come the champion team!
+
+@ 3661
+JP さぁ、ジュニアの頂点の証でありますこのベルトを腰に、今チャンピオンが入ってまいります
+EN Wearing the belt that marks the top junior, here comes the champion!
+
+@ 3662
+JP 腰に巻かれるベルトとともに、今二つの魂をひとつにして、チャンピオンチームが入ってまいりました
+EN Belts around their waists, two souls united as one, here come the champion team!
+
+@ 3663
+# [glossary-ok] option value name
+JP 通常の入場実況を再生
+EN Normal Entrance Call
+
+@ 3664
+# [glossary-ok] part name / commentary line, entrance implied
+JP グローバルオナードクラウン。世界規模の崇高なる王者が、ＧＨＣのベルトを腰に入場してまいります
+EN Global Honored Crown! The world's noble champion enters, GHC belt at his waist!
+
+@ 3665
+JP 腰に巻かれるベルトとともに、今二つの魂をひとつにして、チャンピオンチームが入ってまいりました
+EN Belts around their waists, two souls united as one, here come the champion team!
+
+@ 3666
+JP さぁ、ジュニアの頂点の証でありますこのベルトを腰に、今チャンピオンが入ってまいります
+EN Wearing the belt that marks the top junior, here comes the champion!
+
+@ 3667
+JP 腰に巻かれるベルトとともに、今二つの魂をひとつにして、チャンピオンチームが入ってまいりました
+EN Belts around their waists, two souls united as one, here come the champion team!
+
+@ 3668
+# [glossary-ok] title or wrestler name in its own words; commentary line, Triple Crown named
+JP ＰＷＦ、インター、ＵＮ、この三本のベルトを持つ王者、三冠ヘビー級チャンピオンが今入ってまいりました
+EN PWF, International, UN: holder of all three, the Triple Crown Champion enters!
+
+@ 3669
+JP 腰に巻かれるベルトとともに、今二つの魂をひとつにして、チャンピオンチームが入ってまいりました
+EN Belts around their waists, two souls united as one, here come the champion team!
+
+@ 3670
+JP さぁ、ジュニアの頂点の証でありますこのベルトを腰に、今チャンピオンが入ってまいります
+EN Wearing the belt that marks the top junior, here comes the champion!
+
+@ 3671
+JP 腰に巻かれるベルトとともに、今二つの魂をひとつにして、チャンピオンチームが入ってまいりました
+EN Belts around their waists, two souls united as one, here come the champion team!
+
+@ 3672
+# [glossary-ok] nickname / commentary wording
+JP 問答無用の天下一王者、いまチャンピオンが堂々の入場であります
+EN The undisputed Tenkaichi champ makes a grand entrance!
+
+@ 3673
+JP 腰に巻かれるベルトとともに、今二つの魂をひとつにして、チャンピオンチームが入ってまいりました
+EN Belts around their waists, two souls united as one, here come the champion team!
+
+@ 3674
+JP さぁ、ジュニアの頂点の証でありますこのベルトを腰に、今チャンピオンが入ってまいります
+EN Wearing the belt that marks the top junior, here comes the champion!
+
+@ 3675
+# [glossary-ok] part name / commentary line, entrance implied
+JP ＷＭＧワールド・マグマ・ザ・グレーテスト、プロレス界のド真ん中を突き進む王者が入場してまいります
+EN WMG, World Magma the Greatest! The champion at wrestling's dead center enters!
+
+@ 3676
+JP 腰に巻かれるベルトとともに、今二つの魂をひとつにして、チャンピオンチームが入ってまいりました
+EN Belts around their waists, two souls united as one, here come the champion team!
+
+@ 3677
+JP さぁ、ジュニアの頂点の証でありますこのベルトを腰に、今チャンピオンが入ってまいります
+EN Wearing the belt that marks the top junior, here comes the champion!
+
+@ 3678
+JP なし
+EN None
+
+@ 3679
+JP 藤波　辰爾
+EN Tatsumi Fujinami
+
+@ 3680
+JP 藤波　辰巳
+EN Tatsumi Fujinami
+
+@ 3681
+JP 蝶野　正洋
+EN Masahiro Chono
+
+@ 3682
+JP 永田　裕志
+EN Yuji Nagata
+
+@ 3683
+JP 中西　学
+EN Manabu Nakanishi
+
+@ 3684
+JP 天山　広吉
+EN Hiroyoshi Tenzan
+
+@ 3685
+JP 安田　忠夫
+EN Tadao Yasuda
+
+@ 3686
+JP 飯塚　高史
+EN Takashi Iizuka
+
+@ 3687
+JP 飯塚　孝之
+EN Takashi Iizuka
+
+@ 3688
+JP 西村　修
+EN Osamu Nishimura
+
+@ 3689
+JP 吉江　豊１５０㌔
+EN Yutaka Yoshie 150kg
+
+@ 3690
+JP 真壁　伸也
+EN Shinya Makabe
+
+@ 3691
+JP 棚橋　弘至
+EN Hiroshi Tanahashi
+
+@ 3692
+JP 中邑　真輔
+EN Shinsuke Nakamura
+
+@ 3693
+JP ブルー・ウルフ
+EN Blue Wolf
+
+@ 3694
+JP ドルゴルスレン・セルジブデ
+EN D. Serjbudee
+
+@ 3695
+JP 星野　勘太郎
+EN Kantaro Hoshino
+
+@ 3696
+JP 村上　和成
+EN Kazunari Murakami
+
+@ 3697
+JP 柳澤　龍志
+EN Ryushi Yanagisawa
+
+@ 3698
+JP 魔界１号
+EN Makai #1
+
+@ 3699
+JP 平田　淳嗣
+EN Junji Hirata
+
+@ 3700
+JP Ｓ・Ｓ・マシン
+EN S.S. Machine
+
+@ 3701
+JP 魔界２号
+EN Makai #2
+
+@ 3702
+JP 魔界４号
+EN Makai #4
+
+@ 3703
+JP 柴田　勝頼
+EN Katsuyori Shibata
+
+@ 3704
+JP 魔界５号
+EN Makai #5
+
+@ 3705
+JP 長井　満也
+EN Mitsuya Nagai
+
+@ 3706
+JP 小原　道由
+EN Michiyoshi Ohara
+
+@ 3707
+JP 後藤　達俊
+EN Tatsutoshi Goto
+
+@ 3708
+JP ヒロ斎藤
+EN Hiro Saito
+
+@ 3709
+JP 獣神サンダーライガー
+EN Jushin Liger
+
+@ 3710
+JP エル・サムライ
+EN El Samurai
+
+@ 3711
+JP 金本　浩二
+EN Koji Kanemoto
+
+@ 3712
+JP ＡＫＩＲＡ
+EN AKIRA
+
+@ 3713
+JP 野上　彰
+EN Akira Nogami
+
+@ 3714
+JP 田中　稔
+EN Minoru Tanaka
+
+@ 3715
+JP 成瀬　昌由
+EN Masayuki Naruse
+
+@ 3716
+JP 垣原　賢人
+EN Masahito Kakihara
+
+@ 3717
+JP 邪道
+EN Jado
+
+@ 3718
+JP 外道
+EN Gedo
+
+@ 3719
+JP 井上　亘
+EN Wataru Inoue
+
+@ 3720
+JP 竹村　豪氏
+EN Katsushi Takemura
+
+@ 3721
+JP 矢野　通
+EN Toru Yano
+
+@ 3722
+JP 田口　隆祐
+EN Ryusuke Taguchi
+
+@ 3723
+JP 山本　尚文
+EN Naofumi Yamamoto
+
+@ 3724
+JP 長尾　浩志
+EN Hiroshi Nagao
+
+@ 3725
+JP 後藤　洋央紀
+EN Hirooki Goto
+
+@ 3726
+JP 吉江　豊１２５㌔
+EN Yutaka Yoshie 125kg
+
+@ 3727
+JP 坂口　征二
+EN Seiji Sakaguchi
+
+@ 3728
+JP 木村　健悟
+EN Kengo Kimura
+
+@ 3729
+JP 木戸　修
+EN Osamu Kido
+
+@ 3730
+JP 山崎　一夫
+EN Kazuo Yamazaki
+
+@ 3731
+JP 小林　邦昭
+EN Kuniaki Kobayashi
+
+@ 3732
+JP 山本　小鉄
+EN Kotetsu Yamamoto
+
+@ 3733
+JP スコット・ノートン
+EN Scott Norton
+
+@ 3734
+JP ジョシュ・バーネット
+EN Josh Barnett
+
+@ 3735
+JP マイク・バートン
+EN Mike Barton
+
+@ 3736
+JP ジム・スティール
+EN Jim Steele
+
+@ 3737
+JP ドルゴルスレン・スミヤバザル
+EN D. Sumiyabazar
+
+@ 3738
+JP ブラックタイガー
+EN Black Tiger
+
+@ 3739
+JP ブラック・キャット
+EN Black Cat
+
+@ 3740
+JP 三沢　光晴
+EN Mitsuharu Misawa
+
+@ 3741
+JP 小橋　建太
+EN Kenta Kobashi
+
+@ 3742
+JP 田上　明
+EN Akira Taue
+
+@ 3743
+JP 秋山　準
+EN Jun Akiyama
+
+@ 3744
+JP 小川　良成
+EN Yoshinari Ogawa
+
+@ 3745
+JP 力皇　猛
+EN Takeshi Rikio
+
+@ 3746
+JP 森嶋　猛
+EN Takeshi Morishima
+
+@ 3747
+JP 本田　多聞
+EN Tamon Honda
+
+@ 3748
+JP 井上　雅央
+EN Masao Inoue
+
+@ 3749
+JP 佐野　巧真
+EN Takuma Sano
+
+@ 3750
+JP 佐野　なおき
+EN Naoki Sano
+
+@ 3751
+JP 斎藤　彰俊
+EN Akitoshi Saito
+
+@ 3752
+JP 泉田　純
+EN Jun Izumida
+
+@ 3753
+JP ＩＺＵ
+EN IZU
+
+@ 3754
+JP 池田　大輔
+EN Daisuke Ikeda
+
+@ 3755
+JP 志賀　賢太郎
+EN Kentaro Shiga
+
+@ 3756
+JP モハメド・ヨネ
+EN Mohammed Yone
+
+@ 3757
+JP 杉浦　貴
+EN Takashi Sugiura
+
+@ 3758
+JP 川畑　輝鎮
+EN Terushige Kawabata
+
+@ 3759
+JP 青柳　政司
+EN Masashi Aoyagi
+
+@ 3760
+JP 菊地　毅
+EN Tsuyoshi Kikuchi
+
+@ 3761
+JP 金丸　義信
+EN Yoshinobu Kanemaru
+
+@ 3762
+JP 丸藤　正道
+EN Naomichi Marufuji
+
+@ 3763
+JP 橋　誠
+EN Makoto Hashi
+
+@ 3764
+JP ＫＥＮＴＡ
+EN KENTA
+
+@ 3765
+JP 鈴木鼓太郎
+EN Kotaro Suzuki
+
+@ 3766
+JP 浅子　覚
+EN Satoru Asako
+
+@ 3767
+JP ラッシャー木村
+EN Rusher Kimura
+
+@ 3768
+JP 永源　遙
+EN Haruka Eigen
+
+@ 3769
+JP 百田　光雄
+EN Mitsuo Momota
+
+@ 3770
+JP マイティ井上
+EN Mighty Inoue
+
+@ 3771
+JP スコーピオ
+EN Scorpio
+
+@ 3772
+JP ハンク・フォレスト
+EN Hank Forest
+
+@ 3773
+JP ドン・ローガン
+EN Don Logan
+
+@ 3774
+JP バッファロー・ルイス
+EN Buffalo Lewis
+
+@ 3775
+JP リチャード・スリンガー
+EN Richard Slinger
+
+@ 3776
+JP 武藤　敬司１１５㌔
+EN Keiji Mutoh 115kg
+
+@ 3777
+JP 武藤　敬司１１０㌔
+EN Keiji Mutoh 110kg
+
+@ 3778
+JP グレート・ムタ１１５㌔
+EN Great Muta 115kg
+
+@ 3779
+JP グレート・ムタ１１０㌔
+EN Great Muta 110kg
+
+@ 3780
+JP 黒師無双
+EN Kokushi Muso
+
+@ 3781
+JP 川田　利明
+EN Toshiaki Kawada
+
+@ 3782
+JP 小島　聡
+EN Satoshi Kojima
+
+@ 3783
+JP 愚零斗孤士
+EN Great Koji
+
+@ 3784
+JP 太陽ケア１０６㌔
+EN Taiyo Kea 106kg
+
+@ 3785
+JP 渕　正信
+EN Masanobu Fuchi
+
+@ 3786
+JP 馳　浩
+EN Hiroshi Hase
+
+@ 3787
+JP 嵐
+EN Arashi
+
+@ 3788
+JP 荒谷　望誉
+EN Nobutaka Araya
+
+@ 3789
+JP 荒谷　信孝
+EN Nobutaka Araya
+
+@ 3790
+JP ケンドー・カシン
+EN Kendo Kashin
+
+@ 3791
+JP 奥村　茂雄
+EN Shigeo Okumura
+
+@ 3792
+JP 平井　伸和
+EN Nobukazu Hirai
+
+@ 3793
+JP クラッシャーバンバンヒライ
+EN Crusher Hirai
+
+@ 3794
+JP ミツ・ヒライＪｒ．
+EN Mitsu Hirai Jr.
+
+@ 3795
+JP 本間　朋晃
+EN Tomoaki Honma
+
+@ 3796
+JP 宮本　和志
+EN Kazushi Miyamoto
+
+@ 3797
+JP カズ・ハヤシ
+EN Kaz Hayashi
+
+@ 3798
+JP 土方　隆司
+EN Ryuji Hijikata
+
+@ 3799
+JP 石狩　太一
+EN Taichi Ishikari
+
+@ 3800
+JP 河野　真幸
+EN Masayuki Kono
+
+@ 3801
+JP ビッグ・ジョン・テンタ
+EN Big John Tenta
+
+@ 3802
+JP ザ・グラジエーター
+EN The Gladiator
+
+@ 3803
+JP ギガンテス
+EN Gigantes
+
+@ 3804
+JP ジョージ・ハインズ
+EN George Hines
+
+@ 3805
+JP 橋本　真也
+EN Shinya Hashimoto
+
+@ 3806
+JP ハシフ・カーン
+EN Hashif Khan
+
+@ 3807
+JP ＳＨＯＧＵＮ
+EN SHOGUN
+
+@ 3808
+JP 大谷　晋二郎
+EN Shinjiro Otani
+
+@ 3809
+JP Ｍｒ．ＯＴＡＮＩ
+EN Mr. OTANI
+
+@ 3810
+JP 田中　将斗
+EN Masato Tanaka
+
+@ 3811
+JP ＭＡＳＡ・ＴＡＮＡＫＡ
+EN MASA TANAKA
+
+@ 3812
+JP 高岩　竜一
+EN Ryuji Takaiwa
+
+@ 3813
+JP 星川　尚浩
+EN Naohiro Hoshikawa
+
+@ 3814
+JP 佐藤　耕平
+EN Kohei Sato
+
+@ 3815
+JP テングカイザー
+EN Tengu Kaiser
+
+@ 3816
+JP 梶原　丈
+EN Jo Kajiwara
+
+@ 3817
+JP 坂田　亘
+EN Wataru Sakata
+
+@ 3818
+JP 横井　宏考
+EN Hirotaka Yokoi
+
+@ 3819
+JP 小笠原　和彦
+EN Kazuhiko Ogasawara
+
+@ 3820
+JP 崔　リョウジ
+EN Ryoji Sai
+
+@ 3821
+JP 富豪２夢路
+EN Fugo 2 Yumeji
+
+@ 3822
+JP 富豪２亀路
+EN Fugofugo Kameji
+
+@ 3823
+JP 保坂　秀樹
+EN Hideki Hosaka
+
+@ 3824
+JP 黒毛和牛太
+EN Kuroge Wagyuta
+
+@ 3825
+JP オージー・ビーフ
+EN Aussie Beef
+
+@ 3826
+JP 葛西　純
+EN Jun Kasai
+
+@ 3827
+JP サル・ザ・マン
+EN Saru the Man
+
+@ 3828
+JP 佐々木　義人
+EN Yoshihito Sasaki
+
+@ 3829
+JP 山笠Ｚ”信介
+EN Yamakasa Z Shinsuke
+
+@ 3830
+JP 高橋　冬樹
+EN Fuyuki Takahashi
+
+@ 3831
+JP 太陽ケア１２０㌔
+EN Taiyo Kea 120kg
+
+@ 3832
+JP トム・ハワード
+EN Tom Howard
+
+@ 3833
+JP ザ・プレデター
+EN The Predator
+
+@ 3834
+JP バット・サファリ
+EN Bat Safari
+
+@ 3835
+JP スティーブ・コリノ
+EN Steve Corino
+
+@ 3836
+JP Ｃ・Ｗ・アンダーソン
+EN C.W. Anderson
+
+@ 3837
+JP キング・ジョー
+EN King Joe
+
+@ 3838
+JP キング・アダモ
+EN King Adamo
+
+@ 3839
+JP Ｌｏｗｋｉ
+EN Low Ki
+
+@ 3840
+JP ヴァンサック・アシッド
+EN Vansack Acid
+
+@ 3841
+JP 高山　善廣
+EN Yoshihiro Takayama
+
+@ 3842
+JP 長州　力
+EN Riki Choshu
+
+@ 3843
+JP 天龍　源一郎
+EN Genichiro Tenryu
+
+@ 3844
+JP 佐々木　健介１１５㌔
+EN K. Sasaki 115kg
+
+@ 3845
+JP 佐々木　健介１０２㌔
+EN K. Sasaki 102kg
+
+@ 3846
+JP パワー・ウォリアー
+EN Power Warrior
+
+@ 3847
+JP 大森　隆男
+EN Takao Omori
+
+@ 3848
+JP 越中　詩郎
+EN Shiro Koshinaka
+
+@ 3849
+JP 石井　智宏
+EN Tomohiro Ishii
+
+@ 3850
+JP 宇和野　貴史
+EN Takashi Uwano
+
+@ 3851
+JP サムライ・シロー
+EN Samurai Shiro
+
+@ 3852
+JP 中嶋　勝彦
+EN Katsuhiko Nakajima
+
+@ 3853
+JP 和田　城功
+EN Joko Wada
+
+@ 3854
+JP マサ・サイトー
+EN Masa Saito
+
+@ 3855
+JP 保永　昇男
+EN Norio Honaga
+
+@ 3856
+JP 船木　誠勝
+EN Masakatsu Funaki
+
+@ 3857
+JP 鈴木　みのる８５
+EN Minoru Suzuki 85kg
+
+@ 3858
+JP 鈴木　みのる１００
+EN Minoru Suzuki 100kg
+
+@ 3859
+JP 近藤　有己
+EN Yuki Kondo
+
+@ 3860
+JP 高橋　義生
+EN Yoshiki Takahashi
+
+@ 3861
+JP 國奥　麒樹真
+EN Kiuma Kunioku
+
+@ 3862
+JP 渋谷　修身
+EN Osami Shibuya
+
+@ 3863
+JP 謙吾
+EN Kengo
+
+@ 3864
+JP ＫＥＩ　山宮
+EN KEI Yamamiya
+
+@ 3865
+JP 山宮恵一郎
+EN Keiichiro Yamamiya
+
+@ 3866
+JP 窪田　幸生
+EN Yukio Kubota
+
+@ 3867
+JP 渡辺　大介
+EN Daisuke Watanabe
+
+@ 3868
+JP 菊田　早苗
+EN Sanae Kikuta
+
+@ 3869
+JP 郷野　聡寛
+EN Akihiro Gono
+
+@ 3870
+JP 佐々木　有生
+EN Yuki Sasaki
+
+@ 3871
+JP 石川　英司
+EN Eiji Ishikawa
+
+@ 3872
+JP 田村　潔司
+EN Kiyoshi Tamura
+
+@ 3873
+JP 下山　龍飛
+EN Ryuhi Shimoyama
+
+@ 3874
+JP 大坪　一樹
+EN Kazuki Otsubo
+
+@ 3875
+JP 暁
+EN Akatsuki
+
+@ 3876
+JP 観月　慶三
+EN Keizo Mizuki
+
+@ 3877
+JP ビクトリー武蔵
+EN Victory Musashi
+
+@ 3878
+JP 梶田　政之
+EN Masayuki Kajita
+
+@ 3879
+JP ジェット
+EN Jet
+
+@ 3880
+JP マスク・ド・パンサー
+EN Mask de Panther
+
+@ 3881
+JP マスク・ド・パンサーⅡ
+EN Mask de Panther II
+
+@ 3882
+JP マスク・ド・パンサーⅢ
+EN Mask de Panther III
+
+@ 3883
+JP マスク・ド・パンサーⅣ
+EN Mask de Panther IV
+
+@ 3884
+JP グレート司馬
+EN Great Shiba
+
+@ 3885
+JP トミー・ボンバー
+EN Tommy Bomber
+
+@ 3886
+JP 野川　裕也
+EN Yuya Nogawa
+
+@ 3887
+JP アックス・ノーガン
+EN Axe Nogan
+
+@ 3888
+JP 梶井　直久
+EN Naohisa Kajii
+
+@ 3889
+JP 会津　義幸
+EN Yoshiyuki Aizu
+
+@ 3890
+JP 沖田　勝志
+EN Katsushi Okita
+
+@ 3891
+JP サクソン春樹
+EN Saxon Haruki
+
+@ 3892
+JP ランマル
+EN Ranmaru
+
+@ 3893
+JP ハイチ
+EN Haichi
+
+@ 3894
+JP Ｍｒ．芦屋
+EN Mr. Ashiya
+
+@ 3895
+JP ウイニング亀村
+EN Winning Kamemura
+
+@ 3896
+JP 室田　鉄彦
+EN Tetsuhiko Murota
+
+@ 3897
+JP ブレード・ハヤテ
+EN Blade Hayate
+
+@ 3898
+JP 神崎　仁水
+EN Jinsui Kanzaki
+
+@ 3899
+JP 白鬼
+EN Shiro-Oni
+
+@ 3900
+JP ＷＡＫＡゆきぐに
+EN WAKA Yukiguni
+
+@ 3901
+JP 梶田　ミツル
+EN Mitsuru Kajita
+
+@ 3902
+JP リック　西城
+EN Rick Saijo
+
+@ 3903
+JP グラン・マリポーサ
+EN Gran Mariposa
+
+@ 3904
+JP 怒乱　音羽
+EN Doran Otowa
+
+@ 3905
+JP ＺＹＭＡ
+EN ZYMA
+
+@ 3906
+JP ワルサーＫＹＯＴＯ
+EN Walther KYOTO
+
+@ 3907
+JP 後月　正成
+EN Masanari Shitsuki
+
+@ 3908
+JP アステカ・ジュニア
+EN Azteca Jr.
+
+@ 3909
+JP Ｓ・ドルフィン
+EN S. Dolphin
+
+@ 3910
+JP 倉仲　武博
+EN Takehiro Kuranaka
+
+@ 3911
+JP デルタ
+EN Delta
+
+@ 3912
+JP ザ・ミステリアス・カグラ
+EN Mysterious Kagura
+
+@ 3913
+JP ハンター五条
+EN Hunter Gojo
+
+@ 3914
+JP マスター・トーゴー
+EN Master Togo
+
+@ 3915
+JP 榊　四五郎
+EN Shigoro Sakaki
+
+@ 3916
+JP ヘラクレス大月
+EN Hercules Otsuki
+
+@ 3917
+JP 石原　冬威
+EN Toi Ishihara
+
+@ 3918
+JP 楠田　政美
+EN Masami Kusuda
+
+@ 3919
+JP 佐川　哲
+EN Satoshi Sagawa
+
+@ 3920
+JP 河山　龍次
+EN Ryuji Kawayama
+
+@ 3921
+JP 安藤　障二
+EN Shoji Ando
+
+@ 3922
+JP ＩＳＡＭＩ
+EN ISAMI
+
+@ 3923
+JP 真田　伸久
+EN Nobuhisa Sanada
+
+@ 3924
+JP 柏田　一樹
+EN Kazuki Kashiwada
+
+@ 3925
+JP 梨田　秀吉１００㌔
+EN H. Nashida 100kg
+
+@ 3926
+JP 梨田　秀吉９２㌔
+EN H. Nashida 92kg
+
+@ 3927
+JP 河本　信宏
+EN Nobuhiro Kawamoto
+
+@ 3928
+JP 松木　光次郎
+EN Kojiro Matsuki
+
+@ 3929
+JP 冴刃　明
+EN Akira Saeba
+
+@ 3930
+JP 宝坂　大志
+EN Taishi Hosaka
+
+@ 3931
+JP 金城　久志
+EN Hisashi Kaneshiro
+
+@ 3932
+JP 桜木“ジェット”旅人
+EN T. "Jet" Sakuragi
+
+@ 3933
+JP 火野　まさる
+EN Masaru Hino
+
+@ 3934
+JP 佐岳　雅之
+EN Masayuki Satake
+
+@ 3935
+JP さだ・・・ｓａｎ
+EN Sada...san
+
+@ 3936
+JP えぼすさん
+EN Ebosu-san
+
+@ 3937
+JP 黒光
+EN Kokko
+
+@ 3938
+JP カルロス・クラウザー
+EN Carlos Krauser
+
+@ 3939
+JP ビッグ・ザ・グレート・ブル
+EN Big the Great Bull
+
+@ 3940
+JP ジャイアント・ロシュモフ
+EN Giant Roshmoff
+
+@ 3941
+JP スター・バイソン
+EN Star Bison
+
+@ 3942
+JP アブドル・ザ・デンジャー
+EN Abdul the Danger
+
+@ 3943
+JP アックス・ドゥガン
+EN Axe Dugan
+
+@ 3944
+JP ディック・スレンダー
+EN Dick Slender
+
+@ 3945
+JP ゴールデンハンマー
+EN Golden Hammer
+
+@ 3946
+JP サム・ポップ
+EN Sam Pop
+
+@ 3947
+JP セイバー
+EN Saber
+
+@ 3948
+JP ボーン・クライ
+EN Bone Cry
+
+@ 3949
+JP スティル・ジェイムス
+EN Still James
+
+@ 3950
+JP ハリー・テキサンＪｒ．
+EN Harry Texan Jr.
+
+@ 3951
+JP ケリー・テキサン
+EN Kerry Texan
+
+@ 3952
+JP マスカラ・コンドル
+EN Mascara Condor
+
+@ 3953
+JP マスカラ・イーグル
+EN Mascara Eagle
+
+@ 3954
+JP ブリッツ・フォン・エルリック
+EN Blitz von Elric
+
+@ 3955
+JP ダイナミック・キッド
+EN Dynamic Kid
+
+@ 3956
+JP マッド・タイガー
+EN Mad Tiger
+
+@ 3957
+JP Ｇ・Ｏ＝ブライト
+EN G. O'Bright
+
+@ 3958
+JP ナイト・ブラスター
+EN Night Blaster
+
+@ 3959
+JP アイアン・ブラスター
+EN Iron Blaster
+
+@ 3960
+JP マッスル・モンスター
+EN Muscle Monster
+
+@ 3961
+JP ワイルド・ファントム
+EN Wild Phantom
+
+@ 3962
+JP ビッグ・スタミナ
+EN Big Stamina
+
+@ 3963
+JP スモール・スタミナ
+EN Small Stamina
+
+@ 3964
+JP ジョン・ピース
+EN John Peace
+
+@ 3965
+JP ケリー・ボギー
+EN Kerry Bogey
+
+@ 3966
+JP ブレンダン・ダイモス
+EN Brendan Deimos
+
+@ 3967
+JP ブレンダン・クランク
+EN Brendan Crank
+
+@ 3968
+JP レビン・ガッシュ
+EN Levin Gash
+
+@ 3969
+JP カリー・マスク
+EN Curry Mask
+
+@ 3970
+JP ネイマン・ショーンズ
+EN Neiman Shones
+
+@ 3971
+JP ギャランドゥー・リベラ
+EN Gallandoo Rivera
+
+@ 3972
+JP レオモンド・スパイキー
+EN Leomond Spiky
+
+@ 3973
+JP エイジ・ナコタ
+EN Eiji Nakota
+
+@ 3974
+JP ニクソン・ステイシー
+EN Nixon Stacy
+
+@ 3975
+JP ヴォイス・ステイシー
+EN Voice Stacy
+
+@ 3976
+JP ケンタウロ・ボヘミア
+EN Centauro Bohemia
+
+@ 3977
+JP ケルベロス・ボヘミア
+EN Cerberus Bohemia
+
+@ 3978
+JP ロシアンエンペラー・ピョートル
+EN Russian Emp. Pyotr
+
+@ 3979
+JP アンドレィ・ジルバ
+EN Andrei Zilba
+
+@ 3980
+JP ミクロ・プロポリス
+EN Micro Propolis
+
+@ 3981
+JP クリントン・Ｌ・ジョンソン
+EN Clinton L. Johnson
+
+@ 3982
+JP ヘラクレス・アレビン
+EN Hercules Alevin
+
+@ 3983
+JP ルガール・ロブハンキン
+EN Rugal Robhankin
+
+@ 3984
+JP マイク・オールマン
+EN Mike Allman
+
+@ 3985
+JP ベイビー・バッドエッジ
+EN Baby Badedge
+
+@ 3986
+JP ヘッド・ステイシー
+EN Head Stacy
+
+@ 3987
+JP ライアン・ステイシー
+EN Ryan Stacy
+
+@ 3988
+JP ベイク・ゲルハルト
+EN Bake Gerhardt
+
+@ 3989
+JP チーター・カール
+EN Cheetah Carl
+
+@ 3990
+JP ホーネット・ゴースト
+EN Hornet Ghost
+
+@ 3991
+JP ホーネット・ビースト
+EN Hornet Beast
+
+@ 3992
+JP マイク・アント
+EN Mike Ant
+
+@ 3993
+JP ポール・サバンナ
+EN Paul Savanna
+
+@ 3994
+JP ブランチ・ノルディック
+EN Branch Nordic
+
+@ 3995
+JP ドン・アンダーソン
+EN Don Anderson
+
+@ 3996
+JP リカルド・マローナ
+EN Ricardo Marona
+
+@ 3997
+JP キース・ラーニング
+EN Keith Learning
+
+@ 3998
+JP ベーム・シュトゥルム
+EN Behm Sturm
+
+@ 3999
+JP ケイン・ハーロック
+EN Kane Harlock
+
+@ 4000
+JP ウォルフ・バーン
+EN Wolf Bahn
+
+@ 4001
+JP ランドル・ロビィコフ
+EN Randall Robikoff
+
+@ 4002
+JP エドワード・アイフル
+EN Edward Eiful
+
+@ 4003
+JP ボス・ドッケン
+EN Boss Dokken
+
+@ 4004
+JP マスカラ・イーグルＪｒ．
+EN Mascara Eagle Jr.
+
+@ 4005
+JP ジェネラル・ボルドー
+EN General Bordeaux
+
+@ 4006
+JP ネモ
+EN Nemo
+
+@ 4007
+JP ジャクソン・フレージア
+EN Jackson Frazier
+
+@ 4008
+JP マイク・ベアー
+EN Mike Bear
+
+@ 4009
+JP ダン・ダダーン
+EN Dan Dadaan
+
+@ 4010
+JP カルロス・ヒューストン
+EN Carlos Houston
+
+@ 4011
+JP ロナウド・トバル
+EN Ronaldo Tobal
+
+@ 4012
+JP レッドデビル・パスカ
+EN Red Devil Pasca
+
+@ 4013
+JP ムハンマド・ダリ
+EN Muhammad Dali
+
+@ 4014
+JP ビッグベア・ワイリー
+EN Bigbear Wiley
+
+@ 4015
+JP ミステリーマン
+EN Mystery Man
+
+@ 4016
+JP チョータ・ポポビッチ
+EN Chota Popovich
+
+@ 4017
+JP ヴァイティング・パイソン
+EN Viting Python
+
+@ 4018
+JP ディー・ロウ・ブラウン
+EN D'Lo Brown
+
+@ 4019
+JP ブキャナン
+EN Buchanan
+
+@ 4020
+JP ジャマール
+EN Jamal
+
+@ 4021
+JP エディットレスラー
+EN Edit Wrestler
+
+@ 4022
+JP オリジナルレスラー
+EN Original Wrestler

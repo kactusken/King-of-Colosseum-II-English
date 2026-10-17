@@ -1,0 +1,6416 @@
+# Match Maker dialogue: briefings, verdicts after a show, advice, loading tips.
+# KC2FIRE.000 entries 2853-2884 and 2901 - see tools/mmtalk.py (format, limits).
+# One block per distinct string; the id is where it first occurs, the rest are copies
+# that get the same English. Write the text only: ↓ ends a page and the English needs
+# as many pages as the Japanese; the build puts each page's tags (（笑）（怒）（気）
+# expression, （藤波）（井上） second speaker) back by itself. <...> = yellow text.
+# Limits: 3 lines a page (more only where the Japanese page has more), 624 px a line,
+# 191 bytes a page; tips (2901) 2 lines, 570 px, 127 bytes. python3 tools/mmtalk.py check
+
+@ 2853.0 also 2854.0 2855.0 2856.0 2857.0 2858.0 2860.0
+JP <マッチメイカー>とは．．．　↓
+JP プロレス興行の全対戦カードを決める、
+JP 興行において最も重要な役割を担う人物である。　↓
+JP 魅力的なマッチメイクで興行にお客さんを集め、
+JP 興行を通してお客さんに満足してもらうことが、
+JP <マッチメイカー>としての使命である。　↓
+JP 今回、 君にはそんなプロレス興行の仕掛け人とも言える
+JP <マッチメイカー>を身をもって体験してもらう。　↓
+JP ぜひ、 この体験からプロレスを<興行>という観点から、
+JP さらに深く知ってもらいたい。　↓
+JP それでは、 がんばってくれたまえ。　↓
+JP 健闘を祈る。
+EN So, what is a <Match Maker>?↓
+EN The Match Maker sets every match on a pro wrestling
+EN card, and holds the most important job in the whole
+EN show.↓
+EN A Match Maker's mission is to draw the fans in with
+EN great matchups, and to send them home happy with the
+EN show.↓
+EN This time, you will get to experience firsthand the role
+EN of the <Match Maker>, the mastermind behind the show.↓
+EN We hope this experience teaches you even more about
+EN pro wrestling, seen from the side of
+EN <promoting the show>.↓
+EN Well then, give it your best.↓
+EN Good luck.
+
+@ 2853.1 also 2854.1 2860.1
+JP <アイ　アム　チョーノ> ！　（気）↓
+JP 俺が現場監督の<蝶野正洋>だ。
+JP よろしくな。　↓
+JP 早速なんだが、
+JP お前に今度の<『 ＦＩＧＨＴＩＮＧ ＳＰＩＲＩＴ 』>
+JP <遊楽園ホール大会>のマッチメイクをしてもらう。　↓
+JP 遊楽園のファンは熱い奴等が多いからな。
+JP ホールが壊れるくらい盛り上がるカードを組むんだぞ。　↓
+JP <目標観客動員数>と<目標観客満足度>の
+JP 両方をクリアすることができたら、
+JP またお前を使ってやってもいいと思ってる。　↓
+JP その代わり、 しょっぱいカード組んだら、
+JP マット界から永久追放するぞ ！
+JP いいか、 分かったな ！　（気）
+EN <I AM CHONO>!↓
+EN I'm the field boss here, <Masahiro Chono>. Good to meet
+EN you.↓
+EN Let's get right to it. You're doing the matchmaking
+EN for our next show: <"FIGHTING SPIRIT">
+EN <at Yurakuen Hall>.↓
+EN The fans at Yurakuen are a hot-blooded bunch. Put
+EN together cards that'll blow the roof off the place!↓
+EN Hit both the <Attendance Goal> and the
+EN <Satisfaction Goal>, and maybe I'll use you again.↓
+EN But book me a lousy card, and you're banished from
+EN wrestling for life! Got it? You hear me?!
+
+@ 2853.2 also 2854.2 2860.2
+JP おいっ ！ よく聞け。　↓
+JP 今度は<『 ＳＴＲＯＮＧ ＥＮＥＲＧＹ 』>
+JP <名古屋体育館大会>のマッチメイクをやってもらう。　↓
+JP 名古屋には熱狂的なファンが大勢いるからな。
+JP 名古屋市内のファンを全部かき集められるような、
+JP どえらいカードを組むんだぞ ！　↓
+JP 分かったか ？　↓
+JP 満員にできなかったら、 即刻<クビ>だからな ！　↓
+JP 知恵振り絞って考えろ ！
+JP オラッ、 エーッ ！　（気）
+EN Hey! Listen up.↓
+EN This time you're doing the matchmaking for
+EN <"STRONG ENERGY"> <at Nagoya Gymnasium>.↓
+EN Nagoya's full of crazy-passionate fans. Give me a
+EN monster of a card that pulls in every fan in the whole
+EN city!↓
+EN Got that?↓
+EN If you can't fill the place, you're <fired> on the spot!↓
+EN Rack your brains! Orah! Yeah!
+
+@ 2853.3 also 2854.3 2860.3
+JP おいっ ！ よく聞け。　↓
+JP 今度の<日本武闘館大会>、
+JP <『 ＴＨＥ　ＣＲＵＳＨ 』>のマッチメイク．．．　↓
+JP お前にやってもらうことになった。　↓
+JP いいか。
+JP 伝統ある日本武闘館での大会だからな ！
+JP 半端なカード組むんじゃねえぞ。　（気）↓
+JP 最高のプロレスが見れるような最高のカードを
+JP 命懸けで考えるんだ ！（気）
+EN Hey! Listen up.↓
+EN Our next show at <Nippon Butokan>, <"THE CRUSH">... the
+EN matchmaking...↓
+EN ...is going to be your job.↓
+EN Understand this. Nippon Butokan is a place with
+EN history! Don't you dare book a half-baked card.↓
+EN Put your life on the line and come up with the best card
+EN for the best pro wrestling there is!
+
+@ 2853.4 also 2854.4 2860.4
+JP ここで重大発表がある。　↓
+JP 実はな、 次の<ドーム大会>で、
+JP 前回好評だった<『 ＵＬＴＩＭＡＴＥ　ＣＲＵＳＨ 』>を
+JP 再びやることに決定した。　↓
+JP それでな、
+JP その興行のマッチメイクを君にお願いしたいんだよ。　↓
+JP 新日本プロレスの命運の決まる大会だから、
+JP 失敗は絶対に許されない。　↓
+JP その責任を忘れないでくれ。　↓
+JP とにかく、 <バーリトゥード>と<プロレス>という
+JP ２つの<闘い>が表現できるマッチメイクを組んでほしい。　↓
+JP 俺から言うことはそれだけだ。　↓
+JP じゃあ、 しっかりやれよ。
+EN I've got a big announcement.↓
+EN At our next <Dome show>, we've decided to bring back
+EN <"ULTIMATE CRUSH">, which went over great last time.↓
+EN And I'd like you to do the matchmaking for that show.↓
+EN The future of New Japan Pro-Wrestling rides on this
+EN one, so failure is absolutely not an option.↓
+EN Don't forget that responsibility.↓
+EN Above all, I want matchmaking that shows off two
+EN kinds of <fighting>: <Vale Tudo> and <pro wrestling>.↓
+EN That's all I've got to say.↓
+EN Now go do it right.
+
+@ 2853.5 also 2854.5 2860.5
+JP やあやあ、 よろしくよろしく。
+JP よく来たね。（笑） （藤波）↓
+JP 僕が新日本プロレスの社長、
+JP <藤波辰爾>だよ。　（笑）（藤波）↓
+JP 君のことは蝶野から良く聞いているよ。　（笑）（藤波）↓
+JP 良くやってくれているみたいじゃないか。 うん。
+JP いいね。 うん。　（笑）（藤波）↓
+JP そんなこんなで、 君に今度再開することになった
+JP <『 無我興行 』>のね、 マッチメイクをね、
+JP お願いすることになったから、 うん。　（笑）（藤波）↓
+JP 僕も出るから、 よろしく頼むよ。
+JP うん。　（笑）（藤波）
+EN Hey there, hey there, nice to meet you! Glad you could
+EN make it.↓
+EN I'm the president of New Japan Pro-Wrestling,
+EN <Tatsumi Fujinami>.↓
+EN Chono's told me a lot about you.↓
+EN Sounds like you've been doing a fine job. Yeah. Very
+EN nice. Yeah.↓
+EN So anyway, we're bringing back our <"Muga show">, and
+EN we'd like you to, you know, do the matchmaking for it.
+EN Yeah.↓
+EN I'll be wrestling too, so I'm counting on you. Yeah.
+
+@ 2853.6 also 2854.6 2860.6
+JP ・・・。　↓
+JP お前には期待していたんだがな．．．。　↓
+JP 今回限りでお前は<クビ>だ ！
+JP 使えねえ奴は、
+JP この新日本に置いておくわけにはいかねえんだ ！　（怒）↓
+JP 分かったら、 さっさと出ていけ ！　（怒）↓
+JP オラーッ ！ エーッ ！　（怒）
+EN ...↓
+EN I had high hopes for you...↓
+EN As of today, you're <fired>! There's no place in New
+EN Japan for people who can't get the job done!↓
+EN Now get out of here!↓
+EN Orah! Yeah!
+
+@ 2853.7 also 2854.7 2860.7
+JP 君には本当に世話になったな。　↓
+JP おかげで、 どの興行も大成功だったよ。
+JP ありがとう。　（笑）↓
+JP だけどなあ、 これだけは忘れんじゃねえぞ。　↓
+JP アイム　<チョーノ>。　（気）↓
+JP アイ　アム　<チョーノ>。　（気）↓
+JP そう、 俺が<蝶野>だ ！ ！　（気）↓
+JP 俺が最強だ ！　（気）↓
+JP 俺だけ見てればいいんだ ！　（気）↓
+JP オラッ、 エーッ ！　（気）↓
+JP カマンッ ！　（気）↓
+JP それじゃあな。　（笑）
+EN You really came through for me.↓
+EN Thanks to you, every show was a huge success. Thank
+EN you.↓
+EN But don't you ever forget this.↓
+EN I'm <Chono>.↓
+EN I AM <CHONO>.↓
+EN That's right, I'm <Chono>!!↓
+EN I'm the strongest!↓
+EN Just keep your eyes on me!↓
+EN Orah! Yeah!↓
+EN C'mon!↓
+EN See ya.
+
+@ 2853.8 also 2854.8 2860.8
+JP おうっ、 そういえば重大な決定を
+JP お前に伝えることを忘れていたな。　↓
+JP 聞いて驚くなよ。　↓
+JP 実はな、 今回の興行で
+JP 急遽、 <坂口征二>さんと<山本小鉄>さんが
+JP 試合に出てくれることになったんだ ！　（笑）↓
+JP どうだ、 驚いたか ！？　↓
+JP こんなビッグサプライズは滅多に無いからな、
+JP 客が度肝を抜くようなマッチメイクをよろしく頼むぞ ！　（気）
+EN Oh yeah, I forgot to tell you about a big decision.↓
+EN Brace yourself.↓
+EN On short notice, <Seiji Sakaguchi> and <Kotetsu Yamamoto>
+EN have agreed to wrestle on this show!↓
+EN How about that, surprised?!↓
+EN A surprise this big doesn't come around often. Give me
+EN matchmaking that knocks the crowd's socks off!
+
+@ 2853.9 also 2854.9 2860.9
+JP おうっ、 そういえば大事なことを
+JP お前に伝えることを忘れていたな。　↓
+JP おいっ ！ よく聞け ！　（気）↓
+JP 実はな、 今回の興行で
+JP 急遽、 魔界倶楽部総裁の<星野勘太郎>さんが
+JP 試合に復帰してくれることになったんだ ！　（笑）↓
+JP どうだ、 凄いだろ ！？　↓
+JP こんなこと滅多に無いからな、
+JP 大胆なマッチメイクにしていいぞ ！
+EN Oh yeah, I forgot to tell you something important.↓
+EN Hey! Listen up!↓
+EN On short notice, Makai Club commander
+EN <Kantaro Hoshino> has agreed to come back for a match
+EN on this show!↓
+EN How about that, huh?!↓
+EN That hardly ever happens, so go ahead and get bold
+EN with the matchmaking!
+
+@ 2853.10 also 2854.10 2860.10
+JP おうっ、 そういえばビッグニュースを
+JP 伝えることを忘れていたな。　↓
+JP よく聞け ！　カマンッ ！ （気）↓
+JP 実はな、 今回の興行で急遽、
+JP アメリカからあの超大物レスラー．．．　↓
+JP <アックス・ドゥガン>が試合に出てくれることになったんだ ！　（笑）↓
+JP どうだ、 ビッグサプライズだろ ！ ？　（気）↓
+JP 滅多に参加してくれることのない超大物ゲストだからな。
+JP 丁重に扱うんだぞ ！　↓
+JP 駒は全て揃った。
+JP あとはマッチメイク次第だ。　↓
+JP 最高の興行にしてくれよ ！
+JP オラッ ！ エーッ ！　（気）
+EN Oh yeah, I forgot to tell you the big news.↓
+EN Listen up! C'mon!↓
+EN On short notice, the huge superstar from America...↓
+EN <Axe Dugan> has agreed to wrestle on this show!↓
+EN How about that for a big surprise?!↓
+EN A megastar guest like him almost never shows up.
+EN Treat him with respect!↓
+EN All the pieces are in place. The rest is up to your
+EN matchmaking.↓
+EN Make it the best show ever! Orah! Yeah!
+
+@ 2855.1
+JP 初めまして。
+JP プロレスリング ・ ノアの社長、 <三沢光晴>です。　↓
+JP どうぞ、 よろしく。　（笑）↓
+JP 今回、 まあ例外的なことなんだけど、
+JP うちの興行のマッチメイクを君に頼むことになったんだよね。　↓
+JP そういうわけで、 さっそく今度の<メイファ有明>大会
+JP <『 Ｔｈｅ Ｆｉｒｓｔ Ｎａｖｉｇａｔｉｏｎ 』>開幕戦の
+JP 対戦カードを組んでみてよ。　↓
+JP <目標観客動員数>と<目標観客満足度>の
+JP 両方を達成することができたら、
+JP 今後もお願いすることになると思うから。　↓
+JP うん。
+JP とりあえずがんばってほしいよね。
+EN Nice to meet you. I'm <Mitsuharu Misawa>, president of
+EN Pro Wrestling NOAH.↓
+EN Pleased to have you.↓
+EN This time - and it's kind of an exception - we've
+EN decided to have you do the matchmaking for our show.↓
+EN So go ahead and put together the card for the opening
+EN night of <"The First Navigation"> at <Meifa Ariake>.↓
+EN If you can reach both the <Attendance Goal> and the
+EN <Satisfaction Goal>, I think we'll keep asking you to do
+EN it.↓
+EN Yeah. Anyway, just give it your best, you know.
+
+@ 2855.2
+JP 今度は<札幌ホール>で行われる
+JP <『 Ｎａｖｉｇａｔｉｏｎ ｗｉｔｈ Ｂｒｅｅｚｅ 』>最終戦の
+JP マッチメイクをお願いするよ。　↓
+JP マッチメイクする時に一番大事なことは、
+JP ファンが見たいと思うカードを提供することだからね。
+JP うん。　↓
+JP どんなカードがファンに望まれているかを良く考えて、
+JP <アレ>してほしいよね。　↓
+JP それじゃあ、 よろしく。　（笑）
+EN Next, I'd like you to book the final night of
+EN <"Navigation with Breeze"> at <Sapporo Hall>.↓
+EN The most important thing in matchmaking is giving the
+EN fans the cards they want to see. Yeah.↓
+EN Think hard about what cards the fans are hoping for,
+EN and then, you know... do <the thing>.↓
+EN Well, I'm counting on you.
+
+@ 2855.3
+JP 次は大きな大会のマッチメイクをしてもらうよ。
+JP うん。　↓
+JP 実は、 次のツアーの最終興行でもある
+JP <日本武闘館大会> <『 ＧＲＥＡＴ ＶＯＹＡＧＥ 』>
+JP を君にお願いしたいんだよ。　↓
+JP 武闘館大会はうちの目玉興行だからね。　↓
+JP ハッキリ言って、 失敗は許されないから。 うん。
+JP 覚悟してやってほしいよね。　↓
+JP 武闘館で行うにふさわしい、
+JP <ファンが最も望むカード>を組んでみてよ。　↓
+JP よろしく頼むよ。
+EN Next, you'll be booking a big one. Yeah.↓
+EN Actually, I want you to handle the <Nippon Butokan> show
+EN <"GREAT VOYAGE">, the last show of the next tour.↓
+EN Butokan is our biggest event, you know.↓
+EN To be blunt, failure isn't an option. Yeah. Go in ready
+EN for that.↓
+EN Put together <the cards the fans want most>, the kind
+EN worthy of the Butokan.↓
+EN I'm counting on you.
+
+@ 2855.4
+JP いやぁ、 実は今度ノアで初めての試みを行うんだ．．．　↓
+JP まあ、 ぶっちゃけ<ドーム興行>をやるんだけどね。　（笑）↓
+JP これまでがんばってくれた君を信頼して、
+JP そのドーム興行のマッチメイクを任せようと思うんだ。
+JP 凄い話でしょ ？　（笑）↓
+JP 今回ドーム興行を行うにあたって、
+JP 他団体の選手や今までうちに上がったことがない選手にも
+JP 参加してもらうことになったからね。　↓
+JP 普段の興行ではありえないような夢の対戦カードを
+JP 組んでみるってことも可能だよね。　↓
+JP みんな君に期待しているから。
+JP 最高の興行になるように、 努力してほしいよね。　（笑）
+EN Well, actually, NOAH is about to try something for the
+EN first time...↓
+EN Honestly? We're doing a <Dome show>.↓
+EN You've worked hard for us, so I trust you with the
+EN matchmaking for that Dome show. Big news, huh?↓
+EN For this Dome show, we've got wrestlers from other
+EN promotions, and guys who've never been in our ring.↓
+EN So you could even put together dream matches that
+EN would never happen at a normal show.↓
+EN Everyone's counting on you. Do your best to make it
+EN the greatest show ever.
+
+@ 2855.5
+JP どうもどうも、
+JP 私が <選 ・ 手 ・ 会 ・ 長> の<井上雅央>です。（笑）（井上）↓
+JP いやいやいや～、
+JP 先生のお話は三沢社長からよ～く聞いてますよ。　（井上）↓
+JP <プロレス界の救世主>なんじゃないかって評判ですよ ！
+JP 本当、 お会いできて光栄だな～。　（笑）（井上）↓
+JP 今度、 <選手会長>である僕が中心になってやる
+JP <選手会興行>っていう画期的な大会があるので、
+JP ぜひ、 先生にお手伝いして頂きたいな～。　（笑）（井上）↓
+JP いつもより参加メンバーが少ないですけど、
+JP その分、 大胆で斬新なマッチメイクが必要なんですよ～。　（井上）↓
+JP そういうわけなんで、
+JP 先生に全面的にお任せしますから、
+JP ぜひともお願いしますよ～。　（笑）（井上）　↓
+JP 必ず、 盛り上がる興行にしてくださいよ。
+JP 失敗したら、 僕が怒られるんですからね ！　（井上）　↓
+JP とにかく、 よろしく頼みましたよ ！
+JP 先生 ！　（井上）
+EN Hello, hello! I'm <Masao Inoue>,
+EN <chairman of the wrestlers' association>!↓
+EN Oh my, oh my! President Misawa has told me so much
+EN about you, sir!↓
+EN They're saying you might be
+EN <the savior of pro wrestling>! What an honor to meet
+EN you!↓
+EN We're holding a groundbreaking event, the
+EN <Wrestlers' Association Show>, led by me, the <chairman>,
+EN and I'd love your help, sir!↓
+EN We have fewer wrestlers than usual, so we need bold,
+EN fresh matchmaking!↓
+EN So I'm leaving it all in your hands, sir! Please, I'm
+EN begging you!↓
+EN Make sure it's a hot show. If it flops, I'm the one who
+EN gets yelled at!↓
+EN Anyway, I'm counting on you, sir!
+
+@ 2855.6
+JP ・・・。　　（気）↓
+JP ハッキリ言って、
+JP 君に頼むのは今回で終わりにしたいんだよね。　（気）↓
+JP ちょっと、 今後ともうちでやってもらうには、
+JP 何て言うか<アレ>なんだよね．．．。　（気）↓
+JP まあ、 ご縁がなかったってことで．．．。　　（怒）↓
+JP そういうことなんで、
+JP お疲れ様 ！　（笑）
+EN ...↓
+EN To be blunt, I'd like this to be the last time we ask you.↓
+EN Having you keep working for us would be, how should I
+EN put it... a bit <you-know-what>...↓
+EN Well, let's just say it wasn't meant to be...↓
+EN So, that's that. Thanks for your hard work!
+
+@ 2855.7
+JP うん、
+JP 本当に良くがんばってくれたよね。　　（笑）↓
+JP どの会場も良く入っていたし、
+JP なによりうちのファンが満足してたよね。　（笑）↓
+JP 本当に助かったよ。
+JP ありがとう。　（笑）↓
+JP これで一旦、 君と仕事をするのはおしまいだけど、
+JP これからも我がプロレスリング ・ ノアの発展のために、
+JP 何かあったらぜひとも<アレ>してほしいよね。　↓
+JP その時が来たら、 またよろしく頼むよ。　↓
+JP また会えるのを楽しみにしているからね。　↓
+JP それじゃあ。　（笑）
+EN Yeah, you really did great work.↓
+EN Every venue drew well, and above all, our fans were
+EN happy.↓
+EN You were a huge help. Thank you.↓
+EN This is the end of our work together for now, but if
+EN anything comes up, I hope you'll <do the thing> for Pro
+EN Wrestling NOAH again.↓
+EN When that time comes, I'll be counting on you.↓
+EN I'm looking forward to seeing you again.↓
+EN Take care.
+
+@ 2855.8
+JP あっ、 そう言えば大事なことを言うのを忘れてたよ。　↓
+JP 今回の興行で、 しばらく欠場していた
+JP <ラッシャー木村>さんが復帰することに決まったよ。　↓
+JP 本人はやる気まんまんだからねえ、
+JP 木村さんの晴れの舞台を用意してあげてほしいよね。　↓
+JP そういうことなんで、 よろしくぅ。　（笑）
+EN Oh, right, I forgot to tell you something important.↓
+EN <Rusher Kimura>, who's been out for a while, is making
+EN his comeback at this show.↓
+EN He's raring to go, so set up a big moment for him, you
+EN know.↓
+EN So, I'm counting on you.
+
+@ 2855.9
+JP あっ、 そうだ。
+JP 大事な連絡を伝えるのを忘れていたよ。　↓
+JP 今回の武闘館興行に、
+JP 久々に<セイバー>が出場することになったんだよ。　↓
+JP 本人は恐ろしいくらいやる気になっているみたいだから、
+JP そのやる気に応えることのできるような対戦相手を
+JP 選んでほしいよね。　↓
+JP そういうことなんで、 よろしくぅ。　（笑）
+EN Oh, that's right. I forgot to pass on an important
+EN message.↓
+EN <Saber> is wrestling at this Butokan show for the first
+EN time in a long while.↓
+EN He seems scarily fired up, so pick him an opponent who
+EN can match that energy, you know.↓
+EN So, I'm counting on you.
+
+@ 2855.10
+JP そうだ ！　↓
+JP 言い忘れてたんだけど、
+JP 今回は記念すべきドーム興行ってことで、
+JP 隠し玉を用意してあるんだよねえ。　↓
+JP 実は．．．　↓
+JP あの<サム・ポップ>が参戦することになったんだよ ！
+JP 驚いたでしょ ！ ？　（笑）↓
+JP ハッキリ言って、 俺も驚いたよね。
+JP まさか、 本当に出てくれるとは思ってなかったからね。
+JP うん。　↓
+JP そんな感じで今回のドーム興行には
+JP かなり力を入れているから、
+JP マッチメイクの方もよろしく頼むよ。　（笑）
+EN Oh, right!↓
+EN I forgot to mention it, but since this is a historic Dome
+EN show, we've got a secret weapon ready.↓
+EN Actually...↓
+EN <Sam Pop> himself is joining the show! Surprised, huh!?↓
+EN To be honest, I was surprised too. I never thought he'd
+EN really come. Yeah.↓
+EN So we're putting a lot into this Dome show. I'm counting
+EN on you for the matchmaking.
+
+@ 2856.1
+JP 俺が全日本プロレスの社長の<武藤敬司>だ。
+JP よろしく ！　（気）↓
+JP さっそくで悪いんだけど、 次の<『 エキサイト・シリーズ 』>
+JP <遊楽園ホール大会>のマッチメイクを考えてくれないか ？
+JP よろしく頼むよ。　↓
+JP 俺は社長業とか取材とか麻雀とかで忙しいからさあ、
+JP 今回の興行は君に全て任せるよ。　↓
+JP だから、
+JP ホールが超満員になるような凄いカードを組んでくれよ。　↓
+JP <目標観客動員数>と<目標観客満足度>を
+JP 両方とも達成することができたら、
+JP 次の興行も君に任せようと思ってるからさあ。　↓
+JP とにかく期待してるから、
+JP がんばってくれよな。　↓
+JP よろしく ！　（気）
+EN I'm <Keiji Mutoh>, president of All Japan Pro Wrestling.
+EN Nice to meet you!↓
+EN Sorry to spring this on you, but could you do the
+EN matchmaking for the <"Excite Series"> show at
+EN <Yurakuen Hall>? I'm counting on you.↓
+EN I'm swamped with president stuff, interviews, mahjong,
+EN you know... so this show is all yours.↓
+EN So put together some killer cards that'll pack the Hall
+EN to the rafters.↓
+EN If you hit both the <Attendance Goal> and the
+EN <Satisfaction Goal>, I'm thinking I'll hand you the next
+EN show too.↓
+EN Anyway, I've got high hopes for you, so give it your
+EN best.↓
+EN Later!
+
+@ 2856.2
+JP じゃあ、 今度は<『 サマーアクション・シリーズ 』>の
+JP <関西体育館大会>のマッチメイクをお願いするよ。　↓
+JP 全日本ファンっていうのは、
+JP 試合内容を重視する人達が多いんだよ。　↓
+JP だから<これぞ全日本プロレス ！> っていうような、
+JP 試合がスイングする絶妙なカードを組んでくれよな。
+JP 頼むよ。　↓
+JP 君にかかっているからな。
+JP しょっぱいカード組んでくれんなよ。　↓
+JP 以上 ！　（気）
+EN Okay, next I'd like you to do the matchmaking for the
+EN <"Summer Action Series"> show at <Kansai Gymnasium>.↓
+EN All Japan fans, you know, are mostly the type who care
+EN about what happens in the ring.↓
+EN So give me cards that really click, the kind where
+EN people go <"Now THAT'S All Japan!"> I'm counting on you.↓
+EN It's all on you, man. Don't go giving me some lousy
+EN cards.↓
+EN That's all!
+
+@ 2856.3
+JP じゃあ今度はいよいよ、
+JP 伝統ある<日本武闘館>興行のマッチメイクをやってもらう。　↓
+JP 日本武闘館大会っていったら
+JP 全国の全日本プロレスファンが集まる
+JP ビッグでスペシャルなイベントなんだよ。　↓
+JP だから、 そんな俺達の大事なファンを
+JP 満足させることができるような
+JP ビッグな対戦カードが必要なんだよ ！　↓
+JP 武闘館を超満員にして、
+JP 全日本の勢いを取り戻そうぜ ！　（気）↓
+JP 失敗は絶対に許されないからな。　↓
+JP 頭使って、 よ～く考えてくれよ。　↓
+JP よろしく ！　（気）
+EN Okay, this is the big one. You're doing the matchmaking
+EN for our show at the legendary <Nippon Butokan>.↓
+EN A Butokan show is a big, special event that All Japan
+EN fans come to from all over the country.↓
+EN So we need big cards that'll satisfy those precious
+EN fans of ours!↓
+EN Let's pack the Butokan and get All Japan's momentum
+EN back!↓
+EN Failure is absolutely not an option.↓
+EN Use your head and think it through, okay?↓
+EN Later!
+
+@ 2856.4
+JP おい、 凄いニュースがあるぞ ！　（気）↓
+JP 今度、 新生全日本になって初めての
+JP <ドーム興行>が電撃的に決定したんだ。　（笑）↓
+JP 凄いだろ ！ ？　（気）↓
+JP 全日本らしい強豪外国人とか他団体の選手にも
+JP 出てもらってお祭り的な興行にするつもりだから、
+JP マッチメイクよろしく頼むぞ ！　↓
+JP ドームで最高のプロレスをやってさあ、
+JP <全日本プロレスここにあり ！> っていうところを
+JP 見せつけようぜ ！　（気）↓
+JP とにかく最高のカードを揃えてくれよ。
+EN Hey, I've got huge news!↓
+EN Out of nowhere, we've just booked the new All Japan's
+EN very first <Dome show>.↓
+EN Pretty amazing, right?!↓
+EN We'll bring in tough foreigners like All Japan always
+EN does, plus guys from other promotions, and make it a
+EN real festival. I'm counting on your matchmaking!↓
+EN Let's put on the best pro wrestling ever at the Dome
+EN and show 'em that
+EN <All Japan Pro Wrestling is right here!>↓
+EN Just get me the best cards you can.
+
+@ 2856.5
+JP おおいっ ！
+JP 遂に再開することが決まったぞ ！↓
+JP 何がって ？　↓
+JP <『 マッスル － １ 』>に決まってるだろ ！
+JP やるんだよ、 遂に ！　（気）↓
+JP 今回も君のセンスを信用して、 マッチメイクを任せるよ。 ↓
+JP 観客が度肝を抜くような<ファンタジー>なマッチメイクをしてくれよ。　↓
+JP <『 マッスル － １ 』>の未来はお前にかかっているんだ。　↓
+JP お前ならやれる ！　↓
+JP よろしく頼むぞ ！　（気）
+EN Hey! It's finally coming back!↓
+EN What is? Come on...↓
+EN <"Muscle-1">, what else! We're finally doing it!↓
+EN I'm trusting your sense again and leaving the
+EN matchmaking to you.↓
+EN Give me some <fantasy> matchmaking that'll blow the
+EN crowd away.↓
+EN The future of <"Muscle-1"> is in your hands.↓
+EN You can do it!↓
+EN I'm counting on you!
+
+@ 2856.6
+JP ちょっと聞いてほしいことがあるんだ．．．。　　（怒）↓
+JP 残念なんだけど、
+JP 君にマッチメイクを頼むのは今回で終わりにしたい。　　（怒）↓
+JP たぶん、 今後一切、 君に頼むことはないと思うから、
+JP 変な期待はしない方がいいよ。　（怒）　↓
+JP そういうことで、 お疲れサン。　↓
+JP 以上 ！　（気）
+EN There's something I need to tell you...↓
+EN Sorry, but I want this to be the last time I ask you to
+EN do the matchmaking.↓
+EN I doubt I'll ever ask you again, so don't get your hopes
+EN up.↓
+EN So yeah, thanks for your hard work.↓
+EN That's all!
+
+@ 2856.7
+JP いや～、　助かった。
+JP 本当に助かったよ。　　（笑）↓
+JP 君のおかげで、　<新生全日本プロレス>を
+JP 今まで以上に盛り上げることができたよ ！
+JP 本当にありがとう。　（笑）↓
+JP これで、　俺達の全日本プロレスは
+JP ますますヒートアップすること間違いないぜ ！　↓
+JP なあ ？　↓
+JP これからも俺、 <武藤敬司>と、
+JP プロレス界を大いに盛り上げるため．．．　↓
+JP 一緒に<バク進>しようぜ ！ ！　（気）↓
+JP 以上 ！
+EN Man, you really saved us. You really did.↓
+EN Thanks to you, the <new All Japan Pro Wrestling> is more
+EN fired up than ever! Thanks a lot.↓
+EN Now our All Japan Pro Wrestling is only gonna get
+EN hotter and hotter!↓
+EN Right?↓
+EN So from here on, let's join me, <Keiji Mutoh>, in firing up
+EN the whole wrestling world...↓
+EN ...and go <full speed ahead> together!!↓
+EN That's all!
+
+@ 2856.8
+JP そうだ、 そうだ。
+JP 言い忘れてたことがあった。　↓
+JP 実は今回の興行に、 俺の第３の人格である
+JP <黒師無双>が出ることになったんだ。　↓
+JP だからさあ、 この興行は絶対成功させような ！　↓
+JP 頼んだぞ ！　（気）
+EN Oh yeah, right. There's something I forgot to tell you.↓
+EN My third persona, <Kokushi Muso>, is gonna be on this
+EN show.↓
+EN So we've absolutely gotta make this show a success!↓
+EN I'm counting on you!
+
+@ 2856.9
+JP そういえば、
+JP 言い忘れてたことがあったんだ。　↓
+JP 実は今回の興行に、 俺の第２の人格である
+JP <グレート・ムタ>が出ることになったんだよ。　↓
+JP 俺も必死でがんばるからさあ、
+JP この興行も絶対成功させような ！　↓
+JP 頼んだぞ ！ （気）
+EN Oh, by the way, there's something I forgot to tell you.↓
+EN My second persona, <The Great Muta>, is gonna be on this
+EN show.↓
+EN I'll be giving it everything too, so let's make this show
+EN a success, no matter what!↓
+EN I'm counting on you!
+
+@ 2856.10
+JP そうだ、 もうひとつビッグニュースがあったんだ。　↓
+JP 今回のドーム興行のために、
+JP あの<スター・バイソン>が試合に復帰してくれる
+JP ことになったんだよ ！　（笑）↓
+JP これは凄えことだぞ ！ ！　（笑）↓
+JP 本人は体調もバッチリみたいだし、
+JP やる気も十分みたいだから
+JP 大胆なマッチメイクを組んでみてくれ。　↓
+JP それじゃあよろしく頼むぞ ！　（気）
+EN Oh right, there's one more piece of big news.↓
+EN For this Dome show, <Star Bison> himself is coming back
+EN to the ring!↓
+EN This is huge!!↓
+EN He says he's in perfect shape and raring to go, so try
+EN some bold matchmaking.↓
+EN Okay, I'm counting on you!
+
+@ 2857.1
+JP がははははははははは ！　（笑）↓
+JP 俺が<橋本真也>だ。 文句あるか ？　（気）↓
+JP お前、 ゼロワンのマッチメイクをしたいって ？　↓
+JP そんな簡単にできるわけないやろ ！　（怒）↓
+JP けどな、 お前がやることになっているみたいだから、
+JP しょうがないやろ。
+JP 今回だけやらせてみるか。　↓
+JP おい ！ じゃあ、やってみろ ！　（気）↓
+JP 次の<遊楽園ホール大会>の<『 ０１ Ｄｉｖｉｓｉｏｎ 』>は
+JP お前がマッチメイクするんだ ！　↓
+JP もし、 <目標観客動員数>と<目標観客満足度>の
+JP 両方を達成することができたら、
+JP またお前を使ってやろう。　↓
+JP その代わり、 達成できなかったら
+JP もう二度とゼロワンマットをまたがせないぞお。　（怒）↓
+JP 男やったらやってみろ ！　（気）↓
+JP がはははははははははははは ！　（笑）
+EN Gahahahahahahaha!↓
+EN I'm <Shinya Hashimoto>. Got a problem with that?↓
+EN So you wanna do the matchmaking for ZERO-ONE, huh?↓
+EN Like it's gonna be that easy!↓
+EN But hey, looks like you're gettin' the job anyway, so
+EN whaddaya gonna do. Guess I'll let ya have a go, just
+EN this once.↓
+EN Hey! Go on, then, show me what ya got!↓
+EN You're doin' the matchmaking for our next
+EN <Yurakuen Hall> show, <"01 Division">!↓
+EN If ya can hit both the <Attendance Goal> and the
+EN <Satisfaction Goal>, I'll use ya again.↓
+EN But if ya can't, you ain't ever settin' foot on a
+EN ZERO-ONE mat again!↓
+EN If you're a man, step up and do it!↓
+EN Gahahahahahahahahahaha!
+
+@ 2857.2
+JP それじゃあ、 今度の<関西体育館>で開催する
+JP <『 ＶＡＳＴ ＥＮＥＲＧＹ 』>のマッチメイク、
+JP お主に任せることにするぞ。　↓
+JP うちのファンは目が肥えている奴が多いからな。
+JP 半端なカードじゃあ、 観客は集まらないぞお。
+JP わかっておるか ？　↓
+JP ん ？　（気）↓
+JP ファンの目じゃなくて、 俺自身が肥えてるってか ？　↓
+JP がははははははははははははは ！　（笑）↓
+JP 面白いやろ ？　（気）↓
+JP とにかく頼んだ。
+JP 熱いマッチメイク、 期待しているぞお。　↓
+JP 以上 ！　（気）
+EN Alright then, I'm leavin' the matchmaking for
+EN <"VAST ENERGY"> at the <Kansai Gymnasium> to you.↓
+EN Our fans got a real appetite for good wrestling. A
+EN half-baked card ain't gonna pull in a crowd. Ya hear
+EN me?↓
+EN Hm?↓
+EN Ya sayin' the only one with an appetite around here is
+EN me?↓
+EN Gahahahahahahahahahahaha!↓
+EN Funny, right?↓
+EN Anyway, I'm countin' on ya. I want some red-hot
+EN matchmaking.↓
+EN That's all!
+
+@ 2857.3
+JP おいっ ！
+JP 次は物凄いぞお。　（気）↓
+JP ゼロワン名物、 <大江戸国技館大会><『 真世紀創造。 』>の
+JP マッチメイクをお前にやってもらうぞおおおおお ！　（怒）↓
+JP とにかく会場がデカイからな、 デカイ会場にふさわしい
+JP ビッグなカードを組んでくれ。　↓
+JP ん ？ ビッグなのは俺の腹だけで十分だって ？　↓
+JP がははははははははははははは ！　（笑）↓
+JP 言い過ぎやろ ！　↓
+JP とにかくこれは男と男の約束だからな。
+JP 絶対に成功させるんだぞ。　
+JP わかったな ？　↓
+JP せぇいやあああああ ！　（怒）
+EN Hey! The next one's gonna be HUGE.↓
+EN ZERO-ONE's big tradition, <"New Century Genesis"> at
+EN <Oedo Kokugikan>! And you're bookin' it, buddy!↓
+EN It's a giant venue, so gimme some giant cards to
+EN match.↓
+EN Hm? The only thing that needs to be giant is my belly?↓
+EN Gahahahahahahahahahahaha!↓
+EN That's goin' too far!↓
+EN Anyway, this is a promise between men. You make it a
+EN hit, no matter what. Got it?↓
+EN Seiyaaaaaah!
+
+@ 2857.4
+JP 時は来た ！　（気）↓
+JP 実はな．．．ゼロワン初の<川島球場興行>を
+JP やることになったんや。　↓
+JP 題して<『 真天地創造。 』> ！　（気）↓
+JP どうや ？　↓
+JP それでな、 これまでのお前の仕事振りを評価して、
+JP ゼロワンの命運をかけた今回の興行のマッチメイクを
+JP お前に託すことにしたんや。　↓
+JP ビビったやろ ！ ？
+JP たじろいだやろ ！ ？ （気）↓
+JP 今回の興行はゼロワンの原点である<対抗戦>がテーマだ。　↓
+JP そこでだ、 今まで絡んできた全ての団体に
+JP オファーを出しているからな。
+JP 今までありえなかった凄いメンツが揃うぞお。　↓
+JP そんな選手達を生かすも殺すも対戦カード次第やからな。
+JP 想像を絶するような凄いカードを組んでくれよ。　↓
+JP この興行を成功させたら、 みんなで宴会や ！　（笑）　↓
+JP お前にかかってるからな ！
+JP 死ぬ気でやれよ ！（怒）
+EN The time has come!↓
+EN Truth is... ZERO-ONE's runnin' its first ever
+EN <Kawashima Stadium show>.↓
+EN We're callin' it <"New World Genesis">!↓
+EN How 'bout that?↓
+EN So, after seein' how ya handled things so far, I'm
+EN trustin' ya with the matchmaking for a show
+EN ZERO-ONE's whole future rides on.↓
+EN Scared ya, didn't I?! Got ya shakin', huh?!↓
+EN The theme is <inter-promotional matches>, where
+EN ZERO-ONE started out.↓
+EN So I sent offers to every promotion we ever tangled
+EN with. We're gettin' a lineup nobody ever thought
+EN possible!↓
+EN Whether those guys shine or flop is all down to the
+EN cards. Gimme matchups beyond anybody's wildest
+EN dreams.↓
+EN Pull this off and we're all havin' a party!↓
+EN It's all on you! Do it like your life depends on it!
+
+@ 2857.5
+JP うっしゃ～ ！
+JP ガンガン行くぞ～ ！　（笑）　↓
+JP 今度は<『 ０１　ＷＯＲＬＤ 』>が復活じゃあああ ！　（笑）↓
+JP この興行にはアメリカからモンゴルまで、
+JP 世界各国の未確認強豪レスラーを大勢呼ぶからな。
+JP いつもと一味も二味も違った興行になるぞお。　↓
+JP まあ、 これまで以上に<楽しいプロレス>を
+JP お客さんに見せたいからな。　↓
+JP 楽しくなっちゃうようなマッチメイクにしてくれよ。　↓
+JP 思う存分やっちゃっていいぞ、 コノヤロー ！　（怒）
+EN Alriiight! Let's go all out!↓
+EN <"01 WORLD"> is back, baby!↓
+EN We're bringin' in a whole bunch of unknown tough guys
+EN from all over, from America to Mongolia. This show's
+EN gonna be a whole different beast.↓
+EN See, I wanna give the fans <fun pro wrestling>, more
+EN than ever.↓
+EN So make the matchmaking somethin' that's just plain
+EN fun.↓
+EN Go as wild as ya like, ya punk!
+
+@ 2857.6
+JP ．．．。　↓
+JP ハッキリ言ってやろうか ？ ↓
+JP ゼロワンに無駄な人材などいらん ！　↓
+JP つまり貴様は<クビ>ってことや ！　　（気）↓
+JP これが俺様のやり方なんや ！　↓
+JP 文句あるか ！ ？　（気）↓
+JP せぃやあああああああ ！ ！　（怒）
+EN .......↓
+EN Want me to put it straight?↓
+EN ZERO-ONE's got no room for dead weight!↓
+EN In other words, you're <fired>!↓
+EN That's how I do things!↓
+EN Got a problem with that?!↓
+EN Seiyaaaaaaaah!!
+
+@ 2857.7
+JP がはははははははははははははは ！　（笑）↓
+JP やってくれたな ！　（気）↓
+JP どの興行も満員で凄い盛り上がりだったぞおお ！　（怒）↓
+JP ここまでいろいろ協力ありがとうな。　
+JP 本当に助かったよ。　↓
+JP だがな．．． これで終わりじゃあないぞお。　（気）↓
+JP <プロレス界征服>を果たすまで、
+JP 俺たちの挑戦はこれからも続くんだからな。　↓
+JP まだまだお前にもやってもらうことは沢山あるぞお。
+JP 覚悟しろお ！　（怒）↓
+JP それじゃあ、 いってもいいですか～ ！　（気）↓
+JP スリー、　↓
+JP ツー、　↓
+JP ワンッ、　↓
+JP <ゼロ、> 　（怒）↓
+JP <ワンッ ！ ！ ！> 　（笑）↓
+JP ありがと～。　（笑）
+EN Gahahahahahahahahahahahahaha!↓
+EN Ya did it!↓
+EN Every show was packed and the place was rockin'!↓
+EN Thanks for all your help. Ya really saved us.↓
+EN But... this ain't over yet.↓
+EN Until we've <conquered the wrestling world>, our
+EN challenge keeps on goin'.↓
+EN There's still plenty more for you to do. Get ready!↓
+EN Alright, can I go for it?!↓
+EN Three,↓
+EN Two,↓
+EN One,↓
+EN <Zero,>↓
+EN <ONE!!!>↓
+EN Thank yaaa!
+
+@ 2857.8
+JP おうっ、 そういやあ、
+JP 大事なことを伝えるのを忘れていたぞお。　（怒）↓
+JP 今回の興行には文字どうりビッグ・ゲストな
+JP あの<バット・サファリ>の野郎が参戦してくれることになったんや ！　↓
+JP どうや、 ビックリしたやろ ！ ？　（気）↓
+JP まあ、 あいつはお客さん扱いしなくていいから、
+JP ゼロワンに侵略してきた外敵として．．．　↓
+JP いや、 地球に攻め込んできた人喰いモンスターだと思って
+JP 対戦カードを組んでくれ。　（気）↓
+JP 取って食われるなよ ！　（怒）
+EN Oh yeah, almost forgot to tell ya somethin' big.↓
+EN For this show, a big guest in every sense of the word,
+EN that <Bat Safari> bastard, is gonna fight for us!↓
+EN How 'bout that, surprised ya, didn't I?!↓
+EN Don't go treatin' him like a guest, though. Think of him
+EN as an invader comin' after ZERO-ONE...↓
+EN No, as a man-eatin' monster attackin' the Earth, and
+EN book him that way.↓
+EN Don't let him eat ya alive!
+
+@ 2857.9
+JP おうっ、 そうや ！　↓
+JP 今回の興行には物凄いゲストが参戦してくれることを
+JP 言い忘れていたぞお。　↓
+JP 今回の興行に、
+JP ついにあの<長州力>がやってくるぞおおおおおお ！　（怒）↓
+JP 必ず組めよ、 コラーッ ！　（気）↓
+JP 覚悟しろよ、 コラーッ ！　（怒）↓
+JP いつだってやってやるぞ ！
+JP タコ、 コラーッ ！　（気）↓
+JP まあ、 そういうことやからな。　↓
+JP ど真ん中なマッチメイクしてみろ ！
+JP この野郎おおおおお ！　（怒）
+EN Oh yeah, that's right!↓
+EN I forgot to tell ya, we got one amazing guest comin' to
+EN this show.↓
+EN For this show, <Riki Choshu> is finally comin' our way!↓
+EN You put him on the card, ya hear me?!↓
+EN Brace yourself, punk!↓
+EN I'll take him on anytime! Bring it, ya bum!↓
+EN So that's how it is.↓
+EN Show me some matchmaking right down the middle! Ya
+EN bastaaard!
+
+@ 2857.10
+JP そうだあああああ、
+JP 大事なことを伝えるのを忘れていたぞおおお。　（怒）↓
+JP 今回、 遂に．．．　↓
+JP ゼロワン最大にして、
+JP 最強の敵である．．．　↓
+JP あの．．．　↓
+JP <真田総統>の野郎が、
+JP 我がゼロワンのリングに攻め込んで来るぞおおおおお ！　！　（怒）↓
+JP あいつはなあ、 我がゼロワン、
+JP そして今のプロレス界の壊滅を目論んでいる
+JP ふざけた野郎やからな。↓
+JP 俺達の全精力を費やしてでも、
+JP ぶっ潰すんやあああああ ！ （怒）↓
+JP いいか、 絶対に負けるんじゃないぞお ！ （気）↓
+JP 返り討ちにしてやるんじゃああああああああ ！ ！ （怒）
+EN Ohhh yeah, I forgot to tell ya somethin' important.↓
+EN This time, at long last...↓
+EN ZERO-ONE's greatest... and strongest enemy...↓
+EN That...↓
+EN <Generalissimo Sanada> bastard is invadin' our
+EN ZERO-ONE ring!!↓
+EN That clown is schemin' to wipe out ZERO-ONE, and the
+EN whole wrestling world while he's at it.↓
+EN We're gonna crush him, even if it takes everything we
+EN got!↓
+EN Listen up, don't you dare lose!↓
+EN We're gonna send him packin'!!
+
+@ 2858.1
+JP おうっ、 よく来たな。
+JP もちろん知ってると思うが、 私がＷＪ専務の<永島>だ。
+JP よろしくな。　↓
+JP 今回、 君にはうちの<遊楽園ホール>での大会
+JP <『 ＭＡＧＭＡ０１ 』>のマッチメイクをしてもらいたい。　↓
+JP まあ、 百も承知だと思うが、
+JP 我がＷＪの目標は
+JP <プロレス界最強最大のマグマになる>ことだ。　↓
+JP そういうことだから、
+JP マグマが燃え盛るような熱い対戦カードを組んでくれ ！　↓
+JP もし、 <目標観客動員数>と<目標観客満足度>の
+JP 両方を達成することができたら、
+JP またお前を使ってやってもいいと思ってる。　↓
+JP そういうことだから、 よろしく頼んだぞ。
+EN Ah, there you are. I'm sure you already know me - I'm
+EN <Nagashima>, Executive Director of WJ. Good to meet
+EN you.↓
+EN This time I want you to do the matchmaking for our
+EN <"MAGMA01"> show at <Yurakuen Hall>.↓
+EN As you well know, WJ's goal is to
+EN <become the biggest, strongest magma in pro wrestling>.↓
+EN So give me hot match cards that set that magma
+EN blazing!↓
+EN If you can hit both the <Attendance Goal> and the
+EN <Satisfaction Goal>, I might just use you again.↓
+EN That's the deal. I'm counting on you.
+
+@ 2858.2
+JP 今度はなあ、 広島体育館での<『 ＭＡＧＭＡ０２ 』>の
+JP マッチメイクを考えてくれ。　↓
+JP ここらへんでマグマをドカンとぶち上げたいから、
+JP ホールが人で溢れかえるような、
+JP <ど真ん中>なカードを組んでくれよ。　↓
+JP 長州も君に期待しているからな。　↓
+JP 我々の顔に泥を塗るようなことはせんでくれよ。
+JP くれぐれもよろしく頼んだぞ。
+EN Next up, I want you to work out the matchmaking for
+EN <"MAGMA02"> at Hiroshima Gymnasium.↓
+EN It's time to make that magma erupt with a bang, so
+EN give me <dead center> cards that'll pack the place to the
+EN rafters.↓
+EN Choshu has high hopes for you too.↓
+EN Don't you go dragging our names through the mud. I'm
+EN counting on you.
+
+@ 2858.3
+JP よしっ ！
+JP たった今、 <大江戸国技館>を押さえたぞ ！　（怒）↓
+JP ここでＷＪ真夏のビッグマッチ、
+JP <『 ＭＡＧＭＡ０３ 』>をやることに決定だ ！　↓
+JP 当然マッチメイクは君に任せる。　↓
+JP 今の勢いに乗って我がＷＪは
+JP 業界の<ど真ん中>を突き進むぞ ！↓
+JP 団体の命運がかかった大一番だからな。
+JP プロレス界の歴史が変わるような凄いカードを組んでくれ。　↓
+JP 期待してるからな。
+JP がんばれよ。　（気）
+EN All right! I've just booked <Oedo Kokugikan>!↓
+EN That's where WJ holds its big midsummer show,
+EN <"MAGMA03">!↓
+EN Naturally, the matchmaking is all yours.↓
+EN We're riding high, and WJ is charging straight through
+EN the <dead center> of this business!↓
+EN The whole company's future rides on this one. Give me
+EN cards that'll change wrestling history.↓
+EN I'm expecting big things. Go get 'em.
+
+@ 2858.4
+JP ここで、 ビッグなお知らせがある。　↓
+JP 今度、 リキ・ナガシマ企画主催で<『 Ｘ－１ 』>という
+JP <究極の総合格闘技大会>を行うことになった。　↓
+JP 今度はその大会のマッチメイクをしてくれ。　↓
+JP これは全て<アルティメットマッチ>になるんだが、
+JP これに我がＷＪの選手も参加することになるから、
+JP 前代未聞の格闘技イベントになるぞ ！ ！　↓
+JP この大会で<逆方向のど真ん中>を行くつもりだから、
+JP 世間が度肝を抜くような凄いカードを組んでくれよ。　↓
+JP しっかりやれ ！　（気）
+EN I've got some big news.↓
+EN Riki Nagashima Promotions is putting on <"X-1">, the
+EN <ultimate mixed martial arts event>.↓
+EN And I want you to do the matchmaking for it.↓
+EN Every bout will be an <Ultimate Match>, and WJ's own
+EN wrestlers are taking part. It'll be a fight event like
+EN no other!!↓
+EN We're going <dead center in the opposite direction> with
+EN this one, so give me cards that'll knock the public flat.↓
+EN Do it right!
+
+@ 2858.5
+JP ．．．。　↓
+JP 全く、　困ったもんだよ。↓
+JP これだけのトップの選手が揃っておきながら、
+JP 肝心の興行が散々な結果になってしまうとはな．．．。　↓
+JP 正直言って、 この責任は全て君にあるとしか思えない。　（怒）↓
+JP そういうことなんで、
+JP 今後、 君にマッチメイクを頼むつもりはないから、
+JP ここはおとなしく、 お引取り願いたい。　↓
+JP いままで、 お疲れ様。　↓
+JP もう帰っていいんだぞ ！ ！　（怒）
+EN .......↓
+EN Honestly, what a mess.↓
+EN All these top stars on hand, and the shows still turn
+EN out a disaster...↓
+EN Frankly, I can't see this as anyone's fault but yours.↓
+EN So I won't be asking you to do our matchmaking
+EN anymore. Please leave quietly.↓
+EN Thanks for your work up to now.↓
+EN You can go home now!!
+
+@ 2858.6
+JP うん、 本当に良くやってくれたなあ ！　（笑）↓
+JP 君のおかげでどの興行でも、
+JP <ど真ん中な熱いマグマ>を感じることができたよ。　（笑）↓
+JP これで俺達のＷＪもまだまだ業界を引っ張っていけることが
+JP 証明できたんじゃないか ！
+JP なあ ！？　（笑）↓
+JP まあ、
+JP また何か機会があったらぜひ我がＷＪに協力してくれ。　↓
+JP 一緒にプロレス界の<ど真ん中>を走ろうじゃないか。　　（気）↓
+JP 本当にありがとうな。　（笑）↓
+JP それじゃあお疲れ様。　（笑）
+EN Yeah, you've really done a fine job!↓
+EN Thanks to you, every one of our shows had that
+EN <hot, dead center magma>.↓
+EN This proves our WJ can still lead the whole business!
+EN Am I right!?↓
+EN If the chance ever comes up again, I hope you'll lend WJ
+EN a hand.↓
+EN Let's run right through the <dead center> of pro
+EN wrestling together.↓
+EN Thank you, really.↓
+EN Well then, take care.
+
+@ 2858.7
+JP おうっ、 そうだ。　↓
+JP 言い忘れていたんだが、
+JP 今回特別ゲストとして、 あの伝説のレスラー．．．　↓
+JP <マスク ・ ド ・ パンサー>が
+JP 急遽参戦してくれることになったんだ。　　（笑）↓
+JP 彼は、 なかなか参戦してくれない<大物>選手だからな。　↓
+JP うちのリングでしか見れないような、
+JP <太っ腹>な対戦カードを組んでやってくれ。　（気）
+EN Oh, right.↓
+EN I forgot to tell you. As a special guest this time, the
+EN legendary wrestler...↓
+EN <Mask de Panther> has agreed to appear on short notice.↓
+EN He's a <big name> who hardly ever takes bookings.↓
+EN So be <generous> and give him cards you could only see
+EN in our ring.
+
+@ 2858.8
+JP おっと、 うっかりしていた。　↓
+JP 言い忘れていたんだが、
+JP 今回の興行に隠し玉として、
+JP 急遽、 あの<パワー ・ ウォリアー>を参戦させることになった。　　（笑）↓
+JP 一応、 今回限りの復活ということになる予定だから、
+JP 思い切ったマッチメイクにしてくれよ。　（気）
+EN Whoops, it slipped my mind.↓
+EN I forgot to tell you: as our secret weapon for this
+EN show, we've suddenly added none other than
+EN <Power Warrior>.↓
+EN It's supposed to be a one-time comeback, so go bold
+EN with the matchmaking.
+
+@ 2859.0
+JP <” マッチメイカー ”>とは．．．　↓
+JP 興行の全対戦カードを決める、
+JP 興行において最も重要な役割を担う人物である。　↓
+JP 魅力的なマッチメイクで興行にお客さんを集め、
+JP 興行を通してお客さんに満足してもらうことが、
+JP <” マッチメイカー ”>としての使命である。　↓
+JP 今回、君にはそんな興行の仕掛け人とも言える
+JP <” マッチメイカー ”>を身をもって体験してもらう。　↓
+JP ぜひ、この体験からパンクラスを<” 興行 ”>という観点から、
+JP さらに深く知ってもらいたい。　↓
+JP それでは、がんばってくれたまえ。　↓
+JP 健闘を祈る。
+EN So, what is a <"Match Maker">?↓
+EN The Match Maker sets every match on the card, and
+EN holds the most important job in the whole show.↓
+EN A Match Maker's mission is to draw the fans in with
+EN great matchups, and to send them home happy with the
+EN show.↓
+EN This time, you will get to experience firsthand the role
+EN of the <"Match Maker">, the mastermind behind the show.↓
+EN We hope this experience teaches you even more about
+EN Pancrase, seen from the side of <"promoting the show">.↓
+EN Well then, give it your best.↓
+EN Good luck.
+
+@ 2859.1
+JP どうもどうも、こんにちは。
+JP 私はパンクラス代表取締役の<尾崎允実>と申します。
+JP どうぞよろしくお願いします。　（笑）↓
+JP すでにお話は聞いていると思いますが、
+JP 今回あなたに次の<遊楽園ホール大会>の
+JP マッチメイクをお願いしたいのですよ。　↓
+JP 選手たちはこの大会のために必死に練習をしてます。　↓
+JP 選手達のやる気に答えられるようなマッチメイクを
+JP 組んでやって下さい。　↓
+JP みんなで力を合せて、
+JP ぜひとも次の大会を成功させましょう。　（笑）　↓
+JP それではよろしくお願いします。　
+EN Hello, hello, how do you do? My name is <Masami Ozaki>,
+EN representative director of Pancrase. It is a pleasure
+EN to meet you.↓
+EN I believe you have already heard, but I would like to
+EN ask you to handle the matchmaking for our next
+EN <Yurakuen Hall event>.↓
+EN Our fighters are training desperately hard for this
+EN event.↓
+EN I would be most grateful if you could put together a
+EN card worthy of their enthusiasm.↓
+EN Let us all work together and make the next event a
+EN great success.↓
+EN I look forward to working with you.
+
+@ 2859.2
+JP どうもどうも、次回の興行の日程が決まりましたよ。　↓
+JP 次は<神奈川文化体育館>で興行です。
+JP いや～、興奮しますね～。　（笑）↓
+JP ここは結構大きい会場ですからねえ。
+JP 思い切って他団体さんや外国人選手に
+JP 沢山オファーを出していますから、期待してくださいよ。　↓
+JP 当然、マッチメイクはあなたにお任せしますから、
+JP お客さんが沢山入るような凄いカードを組んでください。　↓
+JP 重要な大会ですからね、失敗は許しませんよ。　↓
+JP それではがんばってください ！ （笑）
+EN Hello, hello. The date for our next show has been set.↓
+EN This time we will be holding the show at
+EN <Kanagawa Culture Gymnasium>. Oh, how exciting!↓
+EN It is quite a large venue, you see. We have boldly sent
+EN out many offers to other promotions and foreign
+EN fighters, so do look forward to it.↓
+EN Naturally, the matchmaking is in your hands. Please
+EN put together amazing cards that will pack the house.↓
+EN This is an important event, so failure is not an option.↓
+EN Well then, please do your best!
+
+@ 2859.3
+JP いやいやいや、大変ですよ ！　↓
+JP 次回興行に、<大江戸国技館>が決定しましたよ。
+JP これは凄いことですよ～ ！　（笑）↓
+JP なにしろ一万人以上入る会場ですから、
+JP 我がパンクラスの命運がかかっていると言っても
+JP 過言ではないくらいの大会ですよお。　↓
+JP 普段出ないような大物も呼んでいますから、
+JP マッチメイクの方、バッチリ頼みましたよ。　↓
+JP 絶対に成功させましょう。
+JP それではよろしく ！　（笑）
+EN Oh my, oh my, this is big news!↓
+EN Our next show will be held at <Oedo Kokugikan>. This is
+EN truly remarkable!↓
+EN It is a venue that holds over 10,000 people, so it would
+EN be no exaggeration to say the fate of Pancrase rests
+EN on this event.↓
+EN We have invited some big names who rarely appear, so I
+EN am counting on you for the matchmaking.↓
+EN Let us make this a success, no matter what. I am
+EN counting on you!
+
+@ 2859.4
+JP 実はですねえ。
+JP 今度、<『 ＤＡＲＫ 』>という、うちが全面的に協力している
+JP 格闘技イベントがあるのですが、　↓
+JP その代表の方から、ぜひ次の<『 ＤＡＲＫ 』>のマッチメイクを、
+JP あなたにやってもらいたいという依頼を受けたんですよ。　（笑）↓
+JP まあ、そのイベントはマスクマンが出たり、
+JP うちの方向性とはちょっと異なったことをやっている
+JP 大会なんですが、　↓
+JP 格闘界の大物も数多く参戦するみたいですので、
+JP 格闘技界を盛り上げるためにも、
+JP ここはひとつ引き受けてやってください。　↓
+JP あなたなら、必ず成功させると信じています。　↓
+JP それでは、がんばってください。　（笑）
+EN Actually, you see... There is an MMA event called
+EN <"DARK"> that we support fully,↓
+EN and its representative has asked specifically for you
+EN to handle the matchmaking of the next <"DARK">.↓
+EN Now, it is an event with masked fighters and such, a
+EN little different from the direction we take, but↓
+EN many big names from the fight world are taking part,
+EN so for the sake of the fight world, please do take it on.↓
+EN I am sure you will make it a success.↓
+EN Well then, please do your best.
+
+@ 2859.5
+JP ．．．。　（怒）↓
+JP あなたには期待していたのですが．．．。　（怒）↓
+JP 厳しいことを言うようですけど、
+JP あまりこの仕事には向いていないのかもしれませんねえ。　（怒）↓
+JP 申し訳ないのですが、
+JP 次回からは別な方にお願いするつもりですので、
+JP もう来てくださらなくて結構です。　（怒）↓
+JP どうぞお引取りください。　（怒）
+EN ...↓
+EN I had such high hopes for you...↓
+EN Forgive me for being blunt, but perhaps this line of
+EN work is not quite for you.↓
+EN I am sorry, but I intend to ask someone else from now
+EN on, so there is no need for you to come back.↓
+EN Kindly see yourself out.
+
+@ 2859.6
+JP いや～、素晴らしい ！　（笑）↓
+JP よくぞ、ここまで大会を盛り上げてくださいました。
+JP 選手共々あなたに感謝しています。　（笑）↓
+JP これで一旦、あなたと仕事をするのはおしまいですが、
+JP これからも我がパンクラスの発展のために、
+JP 何かあったら協力していただきたい ！　↓
+JP その時が来ましたら、
+JP なにとぞよろしくお願いします。　（笑）↓
+JP それではまたお会いましょう。　（笑）↓
+JP さいなら。
+JP さいなら。
+JP さいなら。　（笑）
+EN Oh, splendid!↓
+EN Thank you for making our events such a success. The
+EN fighters and I are all grateful to you.↓
+EN This concludes our work together for now, but should
+EN anything come up, I would ask for your help again for
+EN the growth of Pancrase!↓
+EN When that time comes, I do hope we can count on you.↓
+EN Well then, until we meet again.↓
+EN Goodbye.
+EN Goodbye.
+EN Goodbye.
+
+@ 2859.7
+JP すいません。
+JP 言い忘れていたことがひとつありました。　↓
+JP 今回の興行には特別に新日本プロレスさんから、
+JP <獣神サンダー・ライガー>選手が
+JP 参戦してくれることになりました。　↓
+JP なかなか無いことですので、
+JP 思い切ったマッチメイクをよろしくお願いしますよ。
+EN I am sorry. There was one thing I forgot to tell you.↓
+EN For this show, as a special favor, <Jushin Liger> from
+EN New Japan Pro-Wrestling will be taking part.↓
+EN This does not happen often, so please be bold with your
+EN matchmaking.
+
+@ 2859.8
+JP すいません。すいません。
+JP 言い忘れていたことがひとつありました。　↓
+JP 今回は記念すべき興行ということで、
+JP 海外武者修行中の<火野輪>くんが
+JP 凱旋試合をしてくれることになったんですよ ！（笑）↓
+JP つきましては、本人もやる気ですので、
+JP 思いっきり試合ができるような対戦相手との
+JP 試合を組んでください。　↓
+JP よろしくお願いしますよ。　（笑）↓
+EN I am sorry, so sorry. There was one thing I forgot to
+EN tell you.↓
+EN Since this is a memorial show, young <Nobuhito Hinowa>,
+EN who has been training overseas, will have his
+EN homecoming match!↓
+EN He is very fired up, so please give him an opponent he
+EN can really go all out against.↓
+EN I am counting on you.↓
+EN 
+
+@ 2861.0 also 2862.0 2868.0
+JP オイッ ！ 凄いじゃないか ！ （笑）　↓
+JP こんなに盛り上がる興行は滅多にないぞ ！　（笑）↓
+JP 俺は物凄くうれしいぞ。　（笑）↓
+JP アイ　アム　<チョーノ> ！ 　（気）　↓
+JP 次も頼むぞ。
+JP オラッ、 エーッ ！　（気）
+EN Hey! That was amazing!↓
+EN Shows this hot don't come along often!↓
+EN I'm really, really happy.↓
+EN I AM <CHONO>!↓
+EN I'm counting on you next time too. Orah! Yeah!
+
+@ 2861.1 also 2862.1 2868.1
+JP 凄くいい興行だったぞ ！
+JP オラッ、 エーッ ！　（気）↓
+JP 俺が求めているのはこういう<熱>のある興行なんだよ。　（笑）↓
+JP この調子でよろしく頼むぞ。
+JP わかったか ！
+JP エーッ ！　（気）
+EN That was a great show! Orah! Yeah!↓
+EN A show with <heat> like this is exactly what I'm after.↓
+EN Keep it up just like this. Got that? Yeah!
+
+@ 2861.2 also 2862.2 2868.2
+JP やるじゃないか。
+JP 初めてにしては上出来だぞ。　↓
+JP だが、 お前ならもっと出来たはずだ。　↓
+JP 期待しているからな。 　↓
+JP 次はもっとがんばれよ ！ ↓
+JP ファイトだ ！
+JP オラッ、 エーッ ！　（気）
+EN Not bad. Pretty good for your first time.↓
+EN But I know you could've done better.↓
+EN I'm expecting a lot from you.↓
+EN Work harder next time!↓
+EN Fight! Orah! Yeah!
+
+@ 2861.3 also 2862.3 2868.3
+JP う～ん、
+JP 正直言って、 いまいちの興行だったな。　↓
+JP うちのスターを揃えたんだぞ ！
+JP どういうことだ ！ ？
+JP エーッ ！ コラーッ！ （怒）　↓
+JP まあ、 次はがんばるんだぞ。
+EN Hmm... Honestly, that show was kind of a letdown.↓
+EN I gave you our stars! What's the deal?! Yeah?! You
+EN punk!↓
+EN Well, try harder next time.
+
+@ 2861.4 also 2861.10 2861.22 2862.4 2862.10 2862.22 2868.4 2868.10 2868.22 2869.4 2870.4 2876.4
+JP オイッ ！ どうした ？
+JP この結果はどういうことだ ！ ？　（怒）　↓
+JP 本気でやってるのか ？　（怒）　↓
+JP もっと頭使え ！ 頭 ！
+JP ガッデェム、 エーッ ！　（怒）
+EN Hey! What happened? What's the meaning of this
+EN result?!↓
+EN Are you even trying?↓
+EN Use your head! Your head! Goddamn! Yeah!
+
+@ 2861.5 also 2862.5 2868.5 2869.5 2870.5 2876.5
+JP オイッ ！ ふざけんな ！
+JP テメー、 コラッ、 エーッ ！　（怒）　↓
+JP 俺が誰だか分かってるのか ！ ？ （怒）↓
+JP <蝶野正洋>だぞ ！　（怒）　↓
+JP ぶちのめされてえのか ！
+JP ガッデェェェム ！ エーッ ！　（怒）
+EN Hey! Are you kidding me?! You punk! Hey! Yeah!↓
+EN Do you even know who I am?!↓
+EN I'm <Masahiro Chono>!↓
+EN You want me to knock you flat?! Goddaaaamn! Yeah!
+
+@ 2861.6 also 2862.6 2868.6 2869.6 2870.6 2876.6
+JP オイッ ！ やったじゃないか ！　（笑）↓
+JP 正真正銘の<超満員>だ ！
+JP オラッ、 エーッ ！　（気）　↓
+JP こんだけ盛り上がる興行は滅多にお目にかかれないぞ ！　（笑）　↓
+JP アイ　アム　<チョーノ> ！ 　（気）　↓
+JP 本当、 最高の気分だな。 　（笑）
+EN Hey! You did it!↓
+EN A genuine <packed house>! Orah! Yeah!↓
+EN You don't get to see shows this hot very often!↓
+EN I AM <CHONO>!↓
+EN Man, I feel fantastic.
+
+@ 2861.7 also 2862.7 2868.7
+JP オイッ ！
+JP すごくいい興行だったぞ、 エーッ ！　（気）↓
+JP 観客がみんな<ジャックオフ>してたな。　（笑）↓
+JP 本当によくやった ！
+JP オラッ、 エーッ ！　（気）
+EN Hey! That was a great show, yeah!↓
+EN The whole crowd was <jacked up>.↓
+EN You did really well! Orah! Yeah!
+
+@ 2861.8 also 2862.8 2868.8
+JP なかなかいい興行だったぞ。　↓
+JP だが、 お前ならもっと出来たはずだ。　↓
+JP 期待しているからな。 ↓
+JP もっとがんばれ ！
+JP オラッ、 エーッ ！　（気）
+EN That was a pretty good show.↓
+EN But I know you could've done better.↓
+EN I'm expecting a lot from you.↓
+EN Work harder! Orah! Yeah!
+
+@ 2861.9 also 2862.9 2868.9
+JP う～ん、 いまいちの出来だな。　↓
+JP うちのトップスターを揃えたんだぞ ！
+JP どういうことだ ！ ？
+JP エーッ ！ コラーッ！ （怒）　↓
+JP まあ、 次は何とかしてくれよ。
+EN Hmm, that wasn't much good.↓
+EN I gave you our top stars! What's the deal?! Yeah?! You
+EN punk!↓
+EN Well, do something about it next time.
+
+@ 2861.11 also 2861.17 2861.23 2862.11 2862.17 2862.23 2868.11 2868.17 2868.23 2869.11 2869.17 2870.11 2870.17 2876.11 2876.17
+JP オイッ ！ ふざけんな ！
+JP テメー、 コラッ、 エーッ ！　（怒）　↓
+JP 俺が誰だか分かってるのか ！ ？ （怒）↓
+JP <蝶野正洋>だぞ ！　（怒）　↓
+JP ぶっ殺されてえのか ！
+JP ガッデェェェム ！ エーッ ！　（怒）
+EN Hey! Are you kidding me?! You punk! Hey! Yeah!↓
+EN Do you even know who I am?!↓
+EN I'm <Masahiro Chono>!↓
+EN You want me to kill you?! Goddaaaamn! Yeah!
+
+@ 2861.12 also 2862.12 2868.12
+JP オイッ ！ 凄いじゃないか ！
+JP フルハウスじゃねえか ！ エーッ ！　（気）↓
+JP それに、 こんなに会場がヒートした興行は今までなかったぞ ！　（笑）↓
+JP 俺は最高だ。 （気）↓
+JP だが、 お前は２番目に最高だぞ ！
+JP オラッ、 エーッ ！　（笑）
+EN Hey! That was amazing! A full house! Yeah!↓
+EN And I've never seen a show with the building this hot!↓
+EN I'm the best.↓
+EN But you're the second best! Orah! Yeah!
+
+@ 2861.13 also 2862.13 2868.13
+JP 凄くいい興行だったぞ ！
+JP オラッ、 エーッ ！　（気）↓
+JP 俺が求めていたのは、
+JP こういう選手と観客が一体になるような熱い興行なんだよ ！　（笑）↓
+JP この調子だ ！
+JP ガンガン行け ！ オラッ、 エーッ ！　（気）
+EN That was a great show! Orah! Yeah!↓
+EN What I wanted was a hot show like this, where the
+EN wrestlers and the fans become one!↓
+EN Keep it up! Go all out! Orah! Yeah!
+
+@ 2861.14 also 2862.14 2868.14
+JP おうっ、 なかなかいい興行だったな ！　↓
+JP けどな、 俺はもっと上を目指しているんだ ！　 （気）↓
+JP もっと盛り上げろ ！ （気）↓
+JP もっと客をヒートさせろ ！ （気）↓
+JP それが新日本プロレスだ ！
+JP エーッ ！ 　（気）
+EN Oh, that was a pretty good show!↓
+EN But I'm aiming higher than that!↓
+EN Get them more fired up!↓
+EN Get the crowd even hotter!↓
+EN That's what New Japan Pro-Wrestling is! Yeah!
+
+@ 2861.15 also 2862.15 2868.15
+JP う～ん、 いまいちな興行だったな。　↓
+JP うちのスターを揃えたんだぞ ！
+JP どういうことだ ！
+JP エーッ ！ コラーッ！ （怒）　↓
+JP 説明しろ ！
+JP オラーッ、 カマンッ ！　（怒）
+EN Hmm, that show was kind of a letdown.↓
+EN I gave you our stars! What's the deal! Yeah! You punk!↓
+EN Explain yourself! Orah! C'mon!
+
+@ 2861.16 also 2862.16 2868.16
+JP オイ ！ どうした ！
+JP この結果はどういうことだ ！ ？　（怒）↓
+JP テメーの力はそんなもんか ？　（怒）↓
+JP 俺は<蝶野>だ ！
+JP 俺を怒らすんじゃねえ ！
+JP ガッデム ！　エー ！（怒）
+EN Hey! What happened! What's the meaning of this
+EN result?!↓
+EN Is that all you've got?↓
+EN I'm <Chono>! Don't make me angry! Goddamn! Yeah!
+
+@ 2861.18 also 2862.18 2868.18 2869.18 2870.18 2876.18
+JP おいっ ！
+JP あんだけ広いドームが人で溢れかえっていたぞ ！　（笑）↓
+JP 凄いじゃないか、 オラッ、エーッ ！　（気）↓
+JP それに <闘い> が感じられるような
+JP 素晴らしい試合ばかりだったぞ。　（笑）↓
+JP 俺は最高だ。 （気）↓
+JP だが、 お前はもっと最高だぞ ！
+JP オラッ、 エーッ ！　（笑）
+EN Hey! That huge Dome was overflowing with people!↓
+EN That's amazing! Orah! Yeah!↓
+EN And every match was a great one, where you could feel
+EN the <fight>.↓
+EN I'm the best.↓
+EN But you're even better! Orah! Yeah!
+
+@ 2861.19 also 2862.19 2868.19
+JP おいっ ！
+JP いい興行だったぞ、 オラッ、エーッ ！　（気）↓
+JP 観客がみんな<ジャックオフ>してたな。　（笑）↓
+JP 最高だ。　（笑）↓
+JP とにかく良くやった ！
+JP オラッ、 エーッ ！　（気）
+EN Hey! Good show! Orah! Yeah!↓
+EN The whole crowd was <jacked up>.↓
+EN Awesome.↓
+EN Anyway, nice work! Orah! Yeah!
+
+@ 2861.20 also 2862.20 2868.20
+JP おうっ、 良くやってくれたな ！　（笑）↓
+JP ドームにこれだけの人を集めてくれたんだからな。　（笑）↓
+JP いい仕事してくれたな ！　↓
+JP お疲れ様だ ！
+JP オラーッ ！ エーッ ！　（気）
+EN Well, you did a great job!↓
+EN You packed the Dome with this many people, after all.↓
+EN Good work!↓
+EN Thanks for all your hard work! Orah! Yeah!
+
+@ 2861.21 also 2862.21 2868.21
+JP う～ん、 いまいちの出来だな。　↓
+JP うちのスターを揃えたんだぞ ！
+JP どういうことだ ！
+JP エーッ ！　（怒）　↓
+JP 説明しろ ！
+JP オラーッ、 カマンッ ！　（怒）
+EN Hmm, that wasn't much good.↓
+EN I gave you our stars! What's the deal! Yeah!↓
+EN Explain yourself! Orah! C'mon!
+
+@ 2861.24 also 2862.24 2868.24
+JP いや～、 良かったね～。
+JP 本当に良かったね～。　（笑）（藤波）↓
+JP お客さんも一杯入ったし、
+JP お客さんに納得してもらえるような
+JP <無我>なファイトも見せることができたと思うよ。　（笑）（藤波）↓
+JP うん、 君のおかげだね。
+JP うん、 本当にありがとうね。　（笑）（藤波）
+EN Well now, that was great. Really great.↓
+EN The place was full, and I think we showed the fans the
+EN kind of <Muga> fighting that really satisfies them.↓
+EN Yeah, it's all thanks to you. Yeah, thank you so much.
+
+@ 2861.25 also 2862.25 2868.25
+JP う～ん、 良かったんじゃないのかな～。　（笑）（藤波）↓
+JP 見事に<無我>らしい試合を見せることができたし、
+JP 実にいい興行だったと僕は思うよ。　（笑）（藤波）↓
+JP いや～、 よくがんばってくれたね～。
+JP ありがとうね～。（笑）（藤波）
+EN Well, I'd say that went pretty well.↓
+EN We showed them true <Muga>-style matches, and I think
+EN it was a really fine show.↓
+EN Well now, you worked really hard. Thank you.
+
+@ 2861.26 also 2862.26 2868.26
+JP う～ん、 いい興行だったんじゃないのかな～。　（笑）（藤波）↓
+JP みんな、本当に良くがんばってくれたよね～。　（笑）（藤波）↓
+JP 無我を再開することができて、
+JP 僕は本当にうれしいよ～。　（笑）（藤波）
+EN Well, I'd say that was a good show.↓
+EN Everyone worked really hard, didn't they?↓
+EN I'm so happy we could bring Muga back.
+
+@ 2861.27 also 2862.27 2868.27
+JP ちょ、ちょっとこんな興行じゃあ、選手に申し訳ないよ。　（怒）（藤波）↓
+JP もうちょっと何とかしてほしかったな～。
+JP 残念だな～。（藤波）
+EN W-wait, a show like this... I feel bad for the wrestlers.↓
+EN I wish you'd done a bit better. That's too bad.
+
+@ 2861.28 also 2862.28 2868.28
+JP お、俺たちは、殺し合いをやってるわけじゃないんだ ！　（怒）（藤波）↓
+JP ダ、ダメじゃないか～、
+JP こんな興行にして～。　（怒）（藤波）↓
+JP 俺は怒っているぞ～ ！
+JP 本当だぞ～。　（怒）（藤波）
+EN W-we're not out there trying to kill each other!↓
+EN Th-this won't do... making a show like this...↓
+EN I'm angry! I really am!
+
+@ 2861.29 also 2862.29 2868.29
+JP ど、どういうことだいっ ！ ？　（怒）（藤波）↓
+JP こ、こんなヒドイ興行は初めてだ ！　（怒）（藤波）↓
+JP こ、こんな興行やめてやる～。　（怒）（藤波）
+EN Wh-what is this?!↓
+EN I-I've never seen such an awful show!↓
+EN I-I'm calling this show off!
+
+@ 2863.0 also 2871.0
+JP うん。 良かったねえ。　（笑）↓
+JP ハッキリ言って、
+JP この会場でこんな凄い興行は、 今までなかったよね。　（笑）↓
+JP 興奮していつも以上に汗かいちゃったよ。　（笑）↓
+JP うん。 これからもこの勢いでいきたいね。
+JP また、 次も君にお願いしたいよね。　（笑）
+EN Yeah. That was good.↓
+EN To be blunt, this venue has never seen a show this
+EN great.↓
+EN I got so excited I sweated more than usual.↓
+EN Yeah. Let's keep this momentum going. I'd like you to do
+EN the next one too.
+
+@ 2863.1
+JP うん。 凄くいい興行だったよ。 （笑）↓
+JP 会場の盛り上がりも凄かったしね。　（笑）↓
+JP 君、 なかなかセンスいいじゃん。
+JP 次もがんばってよ。　（笑）
+EN Yeah. That was a really good show.↓
+EN The crowd was really into it, too.↓
+EN You've got pretty good instincts. Keep it up next time.
+
+@ 2863.2
+JP うん。
+JP 初めてやったわりには良かったんじゃないかな。　↓
+JP とりあえず、 合格点はあげられるけど、
+JP 正直もっと盛り上がってもっていう部分もあるよね。
+EN Yeah. For your first time, I'd say that was pretty
+EN good.↓
+EN You pass for now, but honestly, it could've been a bit
+EN hotter.
+
+@ 2863.3
+JP う～ん．．．。
+JP まあ、 ギリギリ合格ってとこかな。　↓
+JP マッチメイクする時はもっとファンの気持ちになって
+JP 考えなくちゃダメだよね。　↓
+JP とりあえず、 次もあるとは思うけど、
+JP もっとがんばってもらわないと<アレ>だよね。
+EN Hmm... Well, I'd say you just barely passed.↓
+EN When you book, you need to think more like the fans.↓
+EN I think there'll be a next time, but you'll need to try
+EN harder, or it'll be kind of <you-know-what>.
+
+@ 2863.4
+JP 今回の興行はちょっとアレだね．．．。　（怒）↓
+JP 普通ありえないね、こんなヒドい興行は。　（怒）↓
+JP 君に任せたのが間違いだったのかな．．．。　（怒）
+EN This show was a little... you know...↓
+EN You don't normally see a show this bad.↓
+EN Maybe leaving it to you was a mistake...
+
+@ 2863.5
+JP ・・・・・・。　↓
+JP こんなヒドい興行、 今までになかったよね．．．。　（怒）↓
+JP ハッキリ言って、 情けないよね。　（怒）
+EN ......↓
+EN We've never had a show this bad...↓
+EN To be blunt, it's pathetic.
+
+@ 2863.6 also 2871.6
+JP うん。 凄く良かったよ ！　（笑）↓
+JP ハッキリ言って、
+JP この会場でこんな良い興行は今までなかったよね。　（笑）↓
+JP うん。 選手たちも自信がついたと思うし。
+JP ほんと、 君に頼んで正解だったよね。　（笑）
+EN Yeah. That was great!↓
+EN To be blunt, this venue has never seen a show this
+EN good.↓
+EN Yeah. I think the wrestlers gained some confidence, too.
+EN Asking you was the right call.
+
+@ 2863.7
+JP うん。 凄くいい興行だったと思うよ。
+JP お客さんもかなり喜んでくれたみたいだからね。　↓
+JP 結構やるじゃん。　　（笑）↓
+JP この調子で次もよろしく頼むよ。　（笑）
+EN Yeah. I think that was a really good show. The fans
+EN seemed pretty happy.↓
+EN Not bad at all.↓
+EN Keep it up next time.
+
+@ 2863.8
+JP 今回の興行もなかなか良かったんじゃないかな。　↓
+JP 点数をつけるなら、 ７０点ってとこだよね。　↓
+JP 一応合格点だけど、
+JP 正直もっと盛り上げてほしかったよね。
+EN This show was pretty good too, I'd say.↓
+EN If I had to score it, about 70 points.↓
+EN It's a pass, but honestly, I wanted it to be hotter.
+
+@ 2863.9 also 2863.15
+JP う～ん．．．。
+JP まあ、 ギリギリ合格ってとこかな。　↓
+JP マッチメイクする時はもっとファンの気持ちになって
+JP 考えなくちゃダメだよね。　↓
+JP 次があるかは分からないけど、
+JP もっとがんばってもらわないと困るよね。
+EN Hmm... Well, I'd say you just barely passed.↓
+EN When you book, you need to think more like the fans.↓
+EN I don't know if there'll be a next time, but you'll need
+EN to try harder.
+
+@ 2863.10
+JP 今回の興行はちょっとアレだよね．．．。　（怒）↓
+JP ちょっとありえないね、 こんなキツい興行は。　（怒）↓
+JP 君に任せたのが間違いだったのかな．．．。　（怒）
+EN This show was a little... you know...↓
+EN You don't really see a show this rough.↓
+EN Maybe leaving it to you was a mistake...
+
+@ 2863.11
+JP ・・・・・・。　↓
+JP こんなヒドい興行、 今までになかったよね。　（怒）↓
+JP 今すぐにでも錦糸町に行って、
+JP やけ酒あおりたい気分だよね。　（怒）
+EN ......↓
+EN We've never had a show this bad.↓
+EN I feel like heading straight to Kinshicho and drowning
+EN my sorrows.
+
+@ 2863.12 also 2871.12
+JP うん。 凄く良かったよ ！
+JP 凄い盛り上がりで、 思わず涙ぐんじゃったよね。　（笑）↓
+JP これも君のがんばりと、
+JP うちの選手とファンとスタッフみんなのおかげだよね。　（笑）↓
+JP うん。
+JP 次はもっと大きな会場でこの感動を味わいたいよね。　（笑）
+EN Yeah. That was great! The crowd was so hot, I almost
+EN teared up.↓
+EN That's thanks to your hard work, and to our wrestlers,
+EN fans and staff.↓
+EN Yeah. Next time I want to feel this in an even bigger
+EN venue.
+
+@ 2863.13
+JP うん。 凄くいい興行だったんじゃないかな。
+JP 会場も凄い盛り上がってたみたいだしね。　 （笑）↓
+JP こんな雰囲気で試合をする選手は幸せだよね。　 （笑）↓
+JP うん。
+JP 次はもっと大きな会場でこの感動を味わいたいよね。　（笑）
+EN Yeah. I think that was a really good show. The venue
+EN was really rocking.↓
+EN Wrestlers are lucky to fight in an atmosphere like
+EN that.↓
+EN Yeah. Next time I want to feel this in an even bigger
+EN venue.
+
+@ 2863.14
+JP なかなかいい興行だったじゃん！　 （笑）↓
+JP やっぱり、 武闘館興行はいいよねえ。　↓
+JP お客さんにも「ノアのプロレスって面白いじゃん」
+JP って思ってもらえたんじゃないのかなあ。　 （笑）↓
+JP うん。
+JP 次はもっと大きな会場でこの感動を味わえたらいいよね。　（笑）
+EN That was a pretty good show!↓
+EN Butokan shows really are the best.↓
+EN I bet the fans walked away thinking, "NOAH's
+EN wrestling is pretty fun."↓
+EN Yeah. It'd be nice to feel this in an even bigger venue
+EN next time.
+
+@ 2863.16
+JP 今回の興行はちょっとアレだね．．．。
+JP 普通ありえないね、
+JP 武闘館でこんな盛り上がらない興行なんて。（怒）↓
+JP 君に任せたのがアレだったのかな．．．。　（怒）
+EN This show was a little... you know... You don't normally
+EN see a Butokan show this flat.↓
+EN Maybe leaving it to you was kind of <you-know-what>...
+
+@ 2863.17 also 2871.17
+JP ・・・・・・。　（怒）↓
+JP 武闘館でこんなヒドい興行、
+JP 今までになかったぞ ！　（怒）↓
+JP ハッキリ言って、 怒ってるよ ！ ！　（怒）
+EN ......↓
+EN We've never had a show this bad at the Butokan!↓
+EN To be blunt, I'm angry!!
+
+@ 2863.18 also 2871.18
+JP うん。 ノア史上最高の興行にすることができたよ ！　（笑）↓
+JP ハッキリ言って、 ドーム興行でのここまでの
+JP 盛り上がりは本当に凄いことだよね。　（笑）↓
+JP うん。 君の協力のおかげだよ。
+JP 選手全員を代表して君に感謝したいよね。　（笑）
+EN Yeah. We made it the greatest show in NOAH history!↓
+EN To be blunt, getting a Dome show this hot is really
+EN something.↓
+EN Yeah. It's thanks to your help. On behalf of all our
+EN wrestlers, thank you.
+
+@ 2863.19
+JP うん。 大成功だよ ！　（笑）↓
+JP この広いドームにこれだけたくさんお客さんが入って、
+JP なおかつこれだけ盛り上がればねえ。　（笑）↓
+JP 君は本当に才能あると思うよ。
+JP まじで関心しちゃったよね。　（笑）
+EN Yeah. A huge success!↓
+EN Packing this huge Dome with so many fans, and getting
+EN them this fired up...↓
+EN I really think you've got talent. Seriously, I'm
+EN impressed.
+
+@ 2863.20
+JP うん。
+JP 今回のドーム興行は成功と言っていいんじゃないかな。　（笑）↓
+JP 選手やスタッフも満足しているみたいだし、
+JP なによりもお客さんが満足してくれたみたいだからね。↓
+JP これも君の協力のおかげだよね。　（笑）
+EN Yeah. I think we can call this Dome show a success.↓
+EN The wrestlers and staff seem happy, and more than
+EN anything, the fans seem satisfied.↓
+EN That's thanks to your help.
+
+@ 2863.21
+JP ハッキリ言って、 いまいちの盛り上がりだったよね。　↓
+JP ドーム興行でこの結果はちょっと苦しいなあ。
+JP 残念だね．．．。
+EN To be blunt, the crowd never really got going.↓
+EN That result is tough to swallow for a Dome show. Too
+EN bad...
+
+@ 2863.22
+JP 今回の興行はちょっとアレだよね．．．。
+JP まずいよね、 せっかくのドーム興行でこの結果は。　（怒）↓
+JP 君に任せたのがちょっと違かったのかな．．．。　（怒）
+EN This show was a little... you know... This result for our
+EN big Dome show is bad news.↓
+EN Maybe leaving it to you was a bit off...
+
+@ 2863.23
+JP 今回の興行は選手はみんな期待していだけにね．．．。
+JP この結果はゆるされないよね。　（怒）↓
+JP ハッキリ言って、 怒り心頭だよね。　（怒）
+EN The wrestlers were all expecting so much from this
+EN show... This result is unforgivable.↓
+EN To be blunt, I'm furious.
+
+@ 2863.24 also 2871.24
+JP いや～、 先生 ！
+JP 素晴らしい ！ 本当に素晴らしい ！　（笑）（井上）↓
+JP 本当に理想的で最高の興行でしたよ ！　（笑）（井上）↓
+JP 感動で武者震いが止まりませんよ～。　（笑）（井上）↓
+JP ご協力、 本当にありがとうございました。　（笑）（井上）↓
+JP おりゃ～ ！（笑）　（井上）
+EN Oh, sir! Wonderful! Truly wonderful!↓
+EN That was a perfect show, the best ever!↓
+EN I'm so moved, I can't stop shaking!↓
+EN Thank you so much for your help!↓
+EN Orryaaah!
+
+@ 2863.25
+JP どうも、 どうも、 どうも～。（笑）（井上）↓
+JP 先生のおかげで、
+JP 選手会興行も無事成功させることができました。（笑）（井上）↓
+JP 私は非常にうれしい ！
+JP 本当にありがとうございます ！（笑）　（井上）
+EN Thank you, thank you, thank you!↓
+EN Thanks to you, sir, the Wrestlers' Association Show
+EN was a success!↓
+EN I am extremely happy! Thank you so much!
+
+@ 2863.26
+JP なるほど、 なるほど。
+JP まあ、 なかなか良い興行だったんじゃないですかねえ。　（井上）↓
+JP ご協力ありがとうございました～。（井上）
+EN I see, I see. Well, I'd say that was a pretty good show.↓
+EN Thank you for your help!
+
+@ 2863.27 also 2871.27
+JP う～ん。
+JP なんか全体的にマッタリとしてしまいましたねえ。　（井上）↓
+JP こういう雰囲気も嫌いじゃないんですけど．．．。
+JP たぶん秋山からキツく言われるんだろうな～。（井上）
+EN Hmm. The whole thing felt kind of sleepy.↓
+EN I don't hate that kind of mood, but... Akiyama's
+EN probably gonna chew me out.
+
+@ 2863.28
+JP いやいや、 何ともコメントしづらい結果ですねえ。
+JP 選手会長としては非常に心苦しいですよ．．．。　（怒）（井上）↓
+JP とりあえず、 今回の興行は無かったってことで．．．。（井上）
+EN Oh dear, that's a hard result to comment on. As
+EN chairman, it really pains me...↓
+EN For now, let's just pretend this show never happened...
+
+@ 2863.29
+JP 無理、  無理、  無理 ！
+JP こんな結果ありえないって ！　（怒）（井上）↓
+JP これじゃあ、 選手会長としてのメンツが丸潰れだよ ！　（怒）　　（井上）
+EN No way, no way, no way! This result can't be happening!↓
+EN Now I've lost all face as chairman of the wrestlers'
+EN association!
+
+@ 2864.0 also 2872.0
+JP いいよ、 いいよ、 いいよ ！
+JP 本当、 最高だったよ ！　（笑）↓
+JP 俺が求めていたのはこういう熱い興行だよ ！　（笑）↓
+JP いや～、 最高の気分だ ！　（笑）　↓
+JP ぜひ、 次も君に頼みたいね。
+EN Nice, nice, nice! That was seriously the best!↓
+EN A hot show like this is exactly what I was looking for!↓
+EN Man, I feel fantastic!↓
+EN I'd love for you to handle the next one too.
+
+@ 2864.1
+JP いや～、 良かったねえ。　（笑）↓
+JP これぐらいお客さんが入って、
+JP 満足感も高い興行なら文句ないよなあ。　（笑）↓
+JP とにかくお疲れさん ！　（笑）
+EN Man, that was great.↓
+EN A packed house like this and a show this satisfying?
+EN I've got no complaints.↓
+EN Anyway, nice work!
+
+@ 2864.2
+JP うん、 初めてにしてはいい結果なんじゃないかな。　↓
+JP これくらいの結果が残せれば、 十分合格点でしょ。　↓
+JP だけどこれくらいで満足してもらっちゃ困るよ。
+JP 俺達の最終目標はもっと高いからね。
+EN Yeah, for your first time, I'd call that a good result.↓
+EN With results like this, you pass with room to spare.↓
+EN But don't get too satisfied with this. Our final goal is
+EN way higher.
+
+@ 2864.3
+JP 初めてやったにしてはまあまあの結果かな。　↓
+JP ただし、 次やったらこんなもんじゃ認めないぞ。　↓
+JP もっとかんばれ ！
+JP 以上 ！　（気）
+EN For a first try, I guess that's an okay result.↓
+EN But next time, I won't settle for something like this.↓
+EN Work harder! That's all!
+
+@ 2864.4 also 2872.4
+JP 今回の興行はちょっといただけないなあ．．．。　（怒）↓
+JP 選手たちはみんながんばっているんだからさあ。
+JP 君がしっかりしてくれないと困るよ。　（怒）
+EN This show was kinda hard to swallow...↓
+EN The guys are all working their tails off, you know. I
+EN need you to get it together.
+
+@ 2864.5 also 2872.5
+JP おいおいおいおい ！
+JP 何てことしてくれたんだよ ！　（怒）↓
+JP あんだけ選手が出た興行なのに、 この結果かよ ！ ？
+JP 勘弁してくれよ．．．。　（怒）
+EN Whoa, whoa, whoa, whoa! What did you do?!↓
+EN That many wrestlers on the show, and THIS is the
+EN result?! Gimme a break...
+
+@ 2864.6 also 2872.6
+JP 本当凄えよなあ。
+JP こんだけ最高の興行をプロデュースしてくれんだもんなあ ！　（笑）↓
+JP 俺が求めていたのは、
+JP まさに今回みたいなハジけた興行なんだよ ！　（笑）↓
+JP いや～、 本当に良かったよ ！　（笑）↓
+JP 次もよろしく ！　（気）
+EN Seriously, that was amazing. You produced the best
+EN show ever!↓
+EN A wild, explosive show like this one is exactly what I
+EN was looking for!↓
+EN Man, that was really great!↓
+EN See you next time!
+
+@ 2864.7
+JP うん、 いい興行だったぞ ！　（笑）↓
+JP こんだけお客さんが入ってくれたら、
+JP 俺たち本当にやる気が出るよな。　（笑）↓
+JP 良くやった ！
+JP お疲れ ！　（気）
+EN Yeah, that was a good show!↓
+EN When this many people show up, it really gets us fired
+EN up.↓
+EN Good job! Nice work!
+
+@ 2864.8
+JP うん、 いいじゃないかな。
+JP これくらいの結果が残せれば、 十分合格点でしょ。　↓
+JP だけど、 これくらいで満足してもらっちゃ困るよ。　↓
+JP 俺達の目標は株式上場だからね。
+EN Yeah, I'd say that's pretty good. With results like this,
+EN you pass with room to spare.↓
+EN But don't get too satisfied with this.↓
+EN Our goal is to go public on the stock market, you know.
+
+@ 2864.9
+JP 今回の興行はまあまあだったな。　↓
+JP もっと俺を唸らすようなアイデアがほしかったな。　↓
+JP 以上 ！　（気）
+EN This show was so-so.↓
+EN I wanted some ideas that'd really make me go "Whoa."↓
+EN That's all!
+
+@ 2864.10 also 2872.10
+JP 今回の興行はヒドかったなあ．．．。　（怒）↓
+JP 選手たちはみんな必死でがんばっているんだからさあ。
+JP 君がしっかりしてくれないと困るんだよ．．．。　（怒）
+EN This show was awful...↓
+EN The guys are all working their tails off, you know. I
+EN need you to get it together...
+
+@ 2864.11
+JP ダメダメダメ ！
+JP こんな興行ありえないよ ！　（怒）↓
+JP あんだけ選手が出た興行なのにこの結果かよ ！ ？
+JP 麻雀やる気も失せたよ。　（怒）
+EN No, no, no! A show like this is unthinkable!↓
+EN That many wrestlers on the show, and THIS is the
+EN result?! I'm not even in the mood for mahjong now.
+
+@ 2864.12 also 2872.12
+JP いいよ、 いいよ、 いいよ ！　（笑）↓
+JP 本当、 最高の武闘館興行だったよ ！　（笑）↓
+JP 俺が求めていたのはこういう熱い興行だよ ！　（笑）↓
+JP いや～、
+JP 社長やってて本当によかったよ ！　（笑）
+EN Nice, nice, nice!↓
+EN That was seriously the best Butokan show ever!↓
+EN A hot show like this is exactly what I was looking for!↓
+EN Man, I'm really glad I became president!
+
+@ 2864.13
+JP うん、 いい興行だったんじゃない ！　（笑）↓
+JP これだけ満足感の高い興行ができれば
+JP 全日本プロレスの未来も明るいよ ！　（笑）↓
+JP お前、 本当に凄え奴だな ！　（笑）
+EN Yeah, I'd call that a good show!↓
+EN If we can put on shows this satisfying, All Japan Pro
+EN Wrestling has a bright future!↓
+EN You're seriously something else, man!
+
+@ 2864.14
+JP まあ、 ギリギリ合格ってとこだな。　↓
+JP けど、 武闘館なんだから、
+JP もっと凄い興行にしてほしかったってところが本音だな。　↓
+JP とりあえずお疲れ ！
+EN Well, you barely passed.↓
+EN But honestly, it's the Butokan, so I wanted something
+EN way more amazing.↓
+EN Anyway, nice work!
+
+@ 2864.15 also 2872.15
+JP おいおいっ！
+JP こんな結果じゃあ、 終われねえよ ！　（怒）↓
+JP 武闘館興行でこれじゃあちょっとキツイよなあ。　　（怒）↓
+JP 選手達に会わす顔がないよ．．．。　（怒）↓
+EN Hey, hey! We can't end on a result like this!↓
+EN This is pretty rough for a Butokan show.↓
+EN I can't face the guys after this...↓
+EN 
+
+@ 2864.16
+JP 今回の興行はぜんぜんダメだろ ！　（怒）↓
+JP 選手たちはみんな必死に全日本を盛り上げようと
+JP がんばっているんだからさあ。　（怒）↓
+JP 君がしっかりしてやってくれないと困るよ．．．。　（怒）
+EN This show was no good at all!↓
+EN The guys are all busting their tails to fire up All
+EN Japan, you know.↓
+EN I need you to get it together...
+
+@ 2864.17 also 2872.17
+JP ダメダメダメ ！
+JP こんな興行ありえないよ ！　（怒）↓
+JP あんだけ選手が出た興行なのにこの結果かよ ！ ？
+JP うちの団体を潰す気かよ．．．。　（怒）
+EN No, no, no! A show like this is unthinkable!↓
+EN That many wrestlers on the show, and THIS is the
+EN result?! You trying to sink our company?...
+
+@ 2864.18 also 2872.18
+JP 遂にやっちまったぜ ！　（笑）↓
+JP 念願のドーム興行を大成功させちまったぜ ！　（気）↓
+JP 新生全日本プロレスがここまで来たかと思うと、
+JP 感慨深いよな～。　（笑）↓
+JP まじで最高の気分だよ。
+JP よっしゃ～ ！ ！　（気）
+EN We finally did it!↓
+EN Our dream Dome show was a smash hit!↓
+EN When I think how far the new All Japan Pro Wrestling
+EN has come, it really gets to me, man.↓
+EN I seriously feel fantastic. All riiight!!
+
+@ 2864.19
+JP うん、 本当にいい興行だったよ。　（笑）↓
+JP このバカでかいドームで、
+JP これだけ凄え興行ができれば、
+JP 俺たちの全日本プロレスの未来は本当に明るいよ ！　（笑）↓
+JP とにかくお疲れさん ！　（気）
+EN Yeah, that was a really good show.↓
+EN If we can put on a show this awesome in this giant
+EN Dome, our All Japan Pro Wrestling has a seriously
+EN bright future!↓
+EN Anyway, nice work!
+
+@ 2864.20
+JP う～ん、
+JP なかなかいい興行だったんじゃない ？　↓
+JP 多少不満は残るけど、
+JP 目標は達成してくれたからなあ。　↓
+JP うん、　良くやってくれたよ　！
+JP お疲れ様　！　（笑）
+EN Hmm, I'd call that a pretty good show, wouldn't you?↓
+EN I'm not totally happy with it, but you did hit the goals.↓
+EN Yeah, nice job! Good work!
+
+@ 2864.21 also 2872.21
+JP ドーム興行にしてはいまいちだったな。　↓
+JP 相当豪華なメンツを揃えたはずなんだけどなあ．．．。
+JP この結果はねえよなあ．．．。　（怒）
+EN That was pretty meh for a Dome show.↓
+EN We put together a seriously stacked lineup... A result
+EN like this just doesn't cut it...
+
+@ 2864.22 also 2872.22
+JP ．．．。
+JP 何か急に力が抜けたよ。　（怒）↓
+JP せっかくドーム興行に向けてみんな準備してきたのにさあ、
+JP この結果はねえよなあ．．．。　（怒）↓
+JP 選手とファンには本当に申し訳ないことをしたよ。　（怒）
+EN ...... All of a sudden I just feel drained.↓
+EN Everybody worked so hard getting ready for the Dome
+EN show, and this is what we get...↓
+EN I really let down the wrestlers and the fans.
+
+@ 2864.23
+JP おいおいおいおい！
+JP 何てことしてくれたんだよ ！　（怒）↓
+JP せっかくのドーム興行なのに何だこの結果は ！
+JP 俺、 もう社長やっていく自信なくしたよ．．．。　（怒）
+EN Whoa, whoa, whoa, whoa! What did you do?!↓
+EN Our big Dome show, and what kind of result is this?!
+EN I've lost all confidence in being president...
+
+@ 2864.24 also 2872.24
+JP これだよ ！
+JP これがファンタジーファイトの理想形だよ ！　（笑）↓
+JP 君のおかげでついに見つけたよ ！
+JP ありがとう ！↓
+JP <『 マッスル － １ 』> はまだまだ死んじゃいねえぜ ！　（気）
+EN This is it! This is the ideal fantasy fight!↓
+EN Thanks to you, I finally found it! Thank you!↓
+EN <"Muscle-1"> ain't dead yet!
+
+@ 2864.25
+JP うん。
+JP 良かったんじゃない<『 マッスル － １ 』>  ！　（笑）↓
+JP やればできるんだよ。
+JP これからも続けようぜ ！　（笑）↓
+JP <『 マッスル － １ 』> はプロレスの未来だ ！　↓
+JP 以上 ！　（気）
+EN Yeah. <"Muscle-1"> turned out pretty good, huh!↓
+EN See, we can do it when we try. Let's keep it going!↓
+EN <"Muscle-1"> is the future of pro wrestling!↓
+EN That's all!
+
+@ 2864.26
+JP まあ、 良かったんじゃないのかなあ。　↓
+JP 本音を言うともっと上手くやれたと思うんだけど、
+JP まあ、 次回はもっと良くできるっていう手ごたえは
+JP 感じられたよね。
+EN Well, I guess that was pretty good.↓
+EN Honestly, I think it could've gone better, but at least I
+EN got the feeling we can do even better next time.
+
+@ 2864.27 also 2872.27
+JP こんな中途半端な内容じゃあダメだ ！　（怒）↓
+JP また、 バッシングの餌食にあうぞ ！　（怒）
+EN A half-baked show like this is no good!↓
+EN We'll get torn to pieces by the critics again!
+
+@ 2864.28 also 2872.28
+JP な、 何なんだこれは ！ ？
+JP <『 マッスル － １ 』> はプロレスごっこじゃねえんだぞ ！　（怒）↓
+JP ふざけるな ！　（怒）
+EN Wh-what the hell is this?! <"Muscle-1"> isn't playtime!↓
+EN Don't mess with me!
+
+@ 2864.29 also 2872.29
+JP おいおいおいおい ！
+JP 何てことしてくれたんだよ ！　（怒）↓
+JP 再出発した<『 マッスル － １ 』>をこんなダメ興行にしやがって ！（怒）↓
+JP もうフォローしきれねえよ．．．。　（怒）
+EN Whoa, whoa, whoa, whoa! What did you do?!↓
+EN You turned the comeback <"Muscle-1"> into a total flop!↓
+EN I can't cover for this anymore...
+
+@ 2865.0
+JP おおおおおおしっ ！ いいぞおおおおお ！
+JP 超満員やあ ！　最高の興行やああ ！（笑）↓
+JP 俺はこんな熱い興行を求めていたんだよ。
+JP 本当だぞお。　（笑）↓
+JP この勢いでこれからも突き進むぞお ！ ↓
+JP 押忍 ！ ！　（気）
+EN Ohhh yeah! Awesome! A packed house! The best show
+EN ever!↓
+EN This is the kinda hot show I've been waitin' for. I mean
+EN it!↓
+EN We're gonna keep chargin' ahead like this!↓
+EN Osu!!
+
+@ 2865.1
+JP がははははははは。　（笑）　↓
+JP 満員。 満員。 うれしいぞお。　（笑）↓
+JP これこそゼロワンの本当の力や ！　（笑）↓
+JP このまま突き進むぞお ！
+JP 押忍 ！ ！　（気）
+EN Gahahahahaha.↓
+EN Full house. Full house. I'm a happy man.↓
+EN This is the real power of ZERO-ONE!↓
+EN We're chargin' right ahead! Osu!!
+
+@ 2865.2
+JP うむ。 なかなかの興行やったぞお。　↓
+JP でも、 こんなんで満足してもらっちゃ困るんや。　↓
+JP ゼロワンの本当のパワーはこんなもんやないからな。　↓
+JP 俺はもっともっと会場を爆発させたいんや ！ （気）↓
+JP トコトンやるぞお ！（怒）
+EN Hm. Not a bad show at all.↓
+EN But don't go gettin' satisfied with this.↓
+EN This ain't the real power of ZERO-ONE.↓
+EN I wanna blow the roof off the place even more!↓
+EN We're goin' all the way!
+
+@ 2865.3
+JP う～む。
+JP まずまずの興行やったなあ。　↓
+JP 俺達はもっとファンの記憶に残るプロレスがしたいんや。　↓
+JP それにはもっとお前の協力が必要なんだよ。　↓
+JP まあ、 次はもっと凄い興行を目指そうやないか。
+EN Hmmm. A so-so show.↓
+EN We wanna put on wrestling the fans won't ever forget.↓
+EN And for that, we need more help from you.↓
+EN Well, let's aim for an even bigger show next time.
+
+@ 2865.4
+JP おい、 こらああああ！
+JP 何なんやこの結果はあ ！ ？
+JP 貴様の力はこんなもんなのかあ ！ ？　（怒）↓
+JP ええい、 俺はこんな興行認めないぞおお ！　（怒）
+EN Hey, whaddaya think you're doin'?! What the hell is this
+EN result?! Is this all ya got?!↓
+EN Bah, I ain't acceptin' a show like this!
+
+@ 2865.5
+JP おおい！
+JP この結果はなんやあああ ！　（怒）↓
+JP 絶対に許さんぞお。
+JP お前のことは絶対にゆるさんぞおお ！　（怒）↓
+JP せいやあああ！　（怒）
+EN Heyyy! What's with this result?!↓
+EN I'll never forgive this. I'll never forgive you!↓
+EN Seiyaaah!
+
+@ 2865.6 also 2873.6
+JP おおおおおおしっ ！ いいぞおおおおお ！
+JP 超満員やあ ！　最高の興行やああ ！（笑）　↓
+JP 俺はこんな熱い興行を求めていたんだよ。　↓
+JP 本当に、 本当だぞお。　（気）　↓
+JP 俺はこんな熱い興行ができて、 本当に幸せや ！　（笑）↓
+JP 俺はこれからもゼロワンを絶対に離さないぞおおおお ！　（怒）
+EN Ohhh yeah! Awesome! A packed house! The best show
+EN ever!↓
+EN This is the kinda hot show I've been waitin' for.↓
+EN Really, I mean it.↓
+EN I'm a truly happy man, puttin' on a show this hot!↓
+EN I'm never lettin' go of ZERO-ONE, never!
+
+@ 2865.7
+JP がははははははは。　（笑）↓
+JP 満員。 満員。 うれしいぞお。　（笑）↓
+JP これこそゼロワンの力や ！
+JP そして、 俺の力やあ ！　（気）↓
+JP このまま全国制覇やあ ！
+JP 行くぞおお ！ ！　（怒）
+EN Gahahahahaha.↓
+EN Full house. Full house. I'm a happy man.↓
+EN This is the power of ZERO-ONE! And MY power!↓
+EN Next up, the whole country! Let's goooo!!
+
+@ 2865.8
+JP む～ん。 まずまずの興行やったなあ。　↓
+JP でも、 こんなんで満足してもらっちゃ困るぞ。　↓
+JP 俺はもっともっと会場を爆発させたいんや ！　（気）
+EN Hmmm. A decent show.↓
+EN But don't go gettin' satisfied with this.↓
+EN I wanna blow the roof off the place even more!
+
+@ 2865.9
+JP む～ん。 いまいちの興行やったなあ。　↓
+JP 俺はもっとプロレスでハッスルしたいんや。　↓
+JP 今日はファンに申し訳ない。
+EN Hmmm. Kind of a weak show.↓
+EN I wanna hustle harder in pro wrestling.↓
+EN Today I owe the fans an apology.
+
+@ 2865.10 also 2873.10
+JP なにが、 こらじゃ、 このバカヤロー ！ （怒）↓
+JP 何なんやこの結果はあ ！ ？　（怒）↓
+JP 貴様の力はこんなもんなのかあ ！ ？
+JP ええい、 俺はこんな興行認めないぞおお ！　（怒）
+EN What're ya sayin' "hey" to me for, ya idiot!↓
+EN What the hell is this result?!↓
+EN Is this all ya got?! Bah, I ain't acceptin' a show like
+EN this!
+
+@ 2865.11 also 2873.11
+JP おおい ！
+JP この結果はなんなんや ！　こらああああ ！（怒）↓
+JP 絶対に許さんぞお。
+JP お前のことは絶対にゆるさんぞおお ！　
+JP こらああああああ ！（怒）↓
+JP せいやあああ ！　（怒）
+EN Heyyy! What's with this result?! Hey, you!↓
+EN I'll never forgive this. I'll never forgive you! Heyyyy!↓
+EN Seiyaaah!
+
+@ 2865.12 also 2873.12
+JP おおおおおおしっ ！ いいぞおおおおお ！
+JP 国技館が超満員やあ ！　（笑）　↓
+JP いいか ？
+JP この勢いでこれからもハッスルするぞお ！　（気）　↓
+JP よ～し ！ 　（気）↓
+JP ハッスル ！ ハッスル ！ ！　（怒）
+EN Ohhh yeah! Awesome! The Kokugikan is packed!↓
+EN Ya hear me? We're gonna keep hustlin' just like this!↓
+EN Alriiight!↓
+EN Hustle! Hustle!!
+
+@ 2865.13
+JP よおおおし、 いい興行やったぞおお ！　（笑）↓
+JP 会場は満員だったし、
+JP お客さんも十分満足してくれたやろ。　（笑）↓
+JP ゼロワンここにありぃ ！　（気）↓
+JP どうや ！　（怒）
+EN Alriiight, that was a good show!↓
+EN The place was full, and I bet the fans went home happy.↓
+EN ZERO-ONE is here to stay!↓
+EN How 'bout that!
+
+@ 2865.14
+JP む～ん。 なかなかいい興行ではあったけど、
+JP ハッキリ言って、 物足りん ！
+JP 何か物足りないんや。 ↓
+JP いい線いってるんやけど、
+JP もっと熱い興行に出来たはずやぞお。 ↓
+JP 俺は欲深いぞお ！ ↓
+JP もっと上を上を目指すんやあ ！　（怒）
+EN Hmmm. It was a pretty good show, but to put it
+EN straight, it ain't enough! Somethin's missin'.↓
+EN You were on the right track, but it coulda been a whole
+EN lot hotter.↓
+EN I'm a greedy man!↓
+EN We gotta keep aimin' higher and higher!
+
+@ 2865.15 also 2873.15
+JP 何の印象も残らない興行やないか、
+JP こらあああ ！　　（怒）↓
+JP 俺はこういう中途半端な興行が一番嫌いなんや ！　（怒）↓
+JP しっかりしろお ！　（気）
+EN A show that leaves no impression at all, ya punk!↓
+EN Half-baked shows like this are what I hate most!↓
+EN Get it together!
+
+@ 2865.16 also 2873.16
+JP こんな結果になった理由がお前にわかるか ？　↓
+JP お前には、 プロレスに対する情熱が足りないんや ！　（怒）↓
+JP お前には失望したぞ ！　（気）
+EN You know why it turned out like this?↓
+EN You ain't got enough passion for pro wrestling!↓
+EN You've let me down!
+
+@ 2865.17 also 2873.17
+JP こらああああああああ ！
+JP これはどういうことや ！ ？　（怒）↓
+JP 俺は夢を見ているのかあ ？
+JP 悪夢を見ているのかあ ？　（怒）↓
+JP 何だこらあああああ ！ ？　（怒）
+EN Hey, you! What's the meaning of this?!↓
+EN Am I dreamin'? Is this a nightmare?↓
+EN What the hell is thiiis?!
+
+@ 2865.18 also 2873.18
+JP よっしゃ、 いいぞおおおおお ！
+JP 正真正銘の超満員やあ ！　（笑）↓
+JP ゼロワンのプロレスにお客さんも酔いしれてたぞお。　↓
+JP ここまで、 本当によくがんばってくれたなあ ！　↓
+JP お前がこの星の一等賞や ！　（気）↓
+JP これでマット界のど真ん中は俺達のもんや ！　（怒）
+EN Alright, awesome! A real, honest-to-goodness sellout!↓
+EN The fans were drunk on ZERO-ONE wrestling.↓
+EN You really worked hard to get us here!↓
+EN You're number one on this planet!↓
+EN Now the dead center of the wrestling world belongs to
+EN us!
+
+@ 2865.19
+JP よおおし、 ゼロワンらしい熱い興行やったぞおお ！　（笑）↓
+JP 会場は満員だったし、
+JP お客さんも満足してくれたやろ。　（笑）↓
+JP 本当に良くやってくれたなあ ！ 　↓
+JP 誰がなんと言おうと、
+JP お前は本物の男やあああ ！　（怒）
+EN Alriiight, that was a red-hot show, ZERO-ONE style!↓
+EN The place was full, and I bet the fans went home happy.↓
+EN Ya really did a great job!↓
+EN No matter what anybody says, you're a real man!
+
+@ 2865.20
+JP うむ。 良かったぞお。 ↓
+JP この広い会場をこんだけの人で埋め尽くしてくれたんやからな。　↓
+JP みんなの力を合わせれば、
+JP こんだけ凄い興行ができるんやなあ ！　（気）↓
+JP ゼロワンのプロレスは最高やああああ ！ ！ （笑）
+EN Yeah. That was good.↓
+EN Ya filled this huge place with this many people, after
+EN all.↓
+EN When we all pull together, we can put on a show this
+EN amazing!↓
+EN ZERO-ONE wrestling is the greatest!!
+
+@ 2865.21 also 2873.21
+JP 最高ですかー ！ ？　（笑）↓
+JP って全然最高じゃねえぞ、 このヤロー ！　（怒）↓
+JP 中途半端な興行なんて意味無いんじゃあああ ！　（怒）
+EN Are ya feelin' great?!↓
+EN 'Cause I sure ain't, ya punk!↓
+EN A half-baked show means nothin'!
+
+@ 2865.22 also 2873.22
+JP なんじゃこりゃあ ！ ？
+JP 何なんじゃこりゃあああ ！ ？　（怒）↓
+JP みんな一生懸命やってるんや。
+JP これじゃあせっかくの興行が台無しじゃあああ ！　（怒）
+EN What's this?! What the hell is thiiis?!↓
+EN Everybody's givin' it their all. A show like this ruins
+EN everything!
+
+@ 2865.23
+JP おおい ！
+JP この結果はなんやあああ ！　（怒）↓
+JP 絶対に許さんぞお。
+JP お前のことは絶対にゆるさんぞおおお ！　（怒）↓
+JP せいやあああ ！　（怒）
+EN Heyyy! What's with this result?!↓
+EN I'll never forgive this. I'll never forgive you!↓
+EN Seiyaaah!
+
+@ 2865.24
+JP おお、 そうか。 ハッスルしまくったんか ！
+JP それはそれはうれしいぞお。　（笑）↓
+JP これもプロレスや ！
+JP これもゼロワンのプロレスなんや ！　↓
+JP 文句あるかあ ！（気）↓
+JP がはははははははははは ！　（笑）
+EN Oh, really? Ya hustled like crazy! That makes me real
+EN happy.↓
+EN This is pro wrestling too! This is ZERO-ONE
+EN wrestling!↓
+EN Got a problem with that?!↓
+EN Gahahahahahahahaha!
+
+@ 2865.25
+JP がはははははははははは ！　（笑）↓
+JP 良かったぞお。
+JP 楽しかったぞお。　（笑）↓
+JP プロレスってのはこういう戦いもできることが強みやな。　（笑）
+EN Gahahahahahahahaha!↓
+EN That was good. That was fun.↓
+EN That's the strength of pro wrestling, it can be a fight
+EN like this too.
+
+@ 2865.26
+JP おおっし。 なかなかの興行やったぞお。　↓
+JP 大ハッスルとはいかないまでも、
+JP 中ハッスルぐらいはいけたんやないか ？↓
+JP もっとやらせろ ！（気）↓
+JP がはははははははははは ！　（笑）
+EN Alright. That was a pretty good show.↓
+EN Maybe not a big hustle, but we got at least a medium
+EN hustle, right?↓
+EN Let me have more!↓
+EN Gahahahahahahahaha!
+
+@ 2865.27
+JP 最高ですかー ！ ？　（気）↓
+JP って全然最高じゃねえぞ、このヤロー ！　（怒）↓
+JP 中途半端な興行なんて意味無いんじゃあああ ！
+JP せやああ ！　（怒）
+EN Are ya feelin' great?!↓
+EN 'Cause I sure ain't, ya punk!↓
+EN A half-baked show means nothin'! Seyaaah!
+
+@ 2865.28 also 2873.28
+JP なんじゃこりゃあ ！ ？
+JP 何なんじゃこりゃあああ ！ ？　（怒）↓
+JP みんな一生懸命やってるんや。
+JP せっかくの興行が台無しじゃあああ ！　（怒）↓
+JP いやだあ ！　（怒）
+EN What's this?! What the hell is thiiis?!↓
+EN Everybody's givin' it their all. This ruins the whole
+EN show!↓
+EN Noooo!
+
+@ 2865.29 also 2873.29
+JP せぃやあああ ！
+JP これはどういうことや ！ ？　（怒）↓
+JP 貴様、 プロレスをなめとるんと違うか ？　（怒）↓
+JP こんな結果、 絶対に許さんぞおおお ！　↓
+JP 成敗じゃあああ ！ ！　（怒）
+EN Seiyaaah! What's the meaning of this?!↓
+EN Are you makin' a fool outta pro wrestling?↓
+EN I'll never forgive a result like this!↓
+EN You're gonna pay for thiiis!!
+
+@ 2866.0 also 2874.0
+JP おうっ、 凄えじゃねえか ！　（笑）　↓
+JP こんなに凄え興行は、
+JP 滅多にお目にかかれないぞ。　（笑）　↓
+JP まさに<ど真ん中>を行くマグマ燃え盛る熱い興行だったぞ。（笑）↓
+JP 本当に良くやった ！　
+JP 次もよろしく頼んだぞ。　（笑）
+EN Whoa, that was something else!↓
+EN You don't get to see a show this great very often.↓
+EN That was a red-hot, <dead center> show with the magma
+EN blazing.↓
+EN You did a great job! Keep it up next time.
+
+@ 2866.1
+JP <グレイト> ！　（笑）↓
+JP お前さん、 なかなかやるじゃねえか ！
+JP お客さんもよく入ったし、 試合も盛り上がったよ。　（笑）↓
+JP いやあ、 期待以上の興行だったよ。
+JP 良くやった ！　（笑）
+EN <Great>!↓
+EN You're pretty good, aren't you! A big crowd, and the
+EN matches really got going.↓
+EN Man, that show beat my expectations. Well done!
+
+@ 2866.2
+JP おうっ、 なかなかいい興行だったぞ。　↓
+JP まあ、 不満な点は多々あるが、
+JP 初めてやった割には良くやってくれたんじゃないか。　↓
+JP まあ、 次はもっといい興行ができるように
+JP がんばってくれよ。
+EN Well, that was a pretty good show.↓
+EN I've got plenty of complaints, but for a first try you
+EN did all right.↓
+EN Work hard so you can put on an even better show next
+EN time.
+
+@ 2866.3
+JP う～ん、 正直いまいちな興行だったな。　↓
+JP こんだけスター選手を揃えたんだから、
+JP もっと熱い、 WJらしい興行にできたと思うんだがな．．．。↓
+JP まあ、 初めてだからしょうがないがな、
+JP 次、 外したらその先はないと思え ！（怒）
+EN Hmm, honestly, that show was so-so.↓
+EN With this many stars on hand, I think it could have been
+EN hotter, more WJ...↓
+EN Well, it was your first time, so it can't be helped. But
+EN miss again and you're done!
+
+@ 2866.4 also 2874.4
+JP おいおいおい ！
+JP 何なんだ今回の興行は ！
+JP 貴様、 本気でやってるのか ！ ？　（怒）↓
+JP 長州も激怒していたぞ ！
+JP 覚悟しろ ！　（怒）
+EN Hey, hey, hey! What the hell was that show!? Are you
+EN even trying!?↓
+EN Choshu is furious too! Get ready!
+
+@ 2866.5 also 2874.5
+JP おい ！ お前、 <ヒットマン>か ！ ？
+JP もしくは、 ＷＪを潰すために来た破壊工作員か ？　（怒）↓
+JP こんな結果許されないぞ ！　（怒）
+EN Hey! Are you a <hitman>!? Or a saboteur sent to wreck
+EN WJ?↓
+EN A result like this won't be forgiven!
+
+@ 2866.6
+JP 最高だったねえ。　（笑）　↓
+JP 凄く良い興行だったねえ ！　（笑）　↓
+JP まさに<ど真ん中>を行くマグマ燃え盛る熱い興行だったぞ。（笑）↓
+JP 長州も喜んでたよ。　（笑）↓
+JP 本当に良くやった ！　（笑）
+EN That was the best.↓
+EN A really great show!↓
+EN That was a red-hot, <dead center> show with the magma
+EN blazing.↓
+EN Choshu was happy too.↓
+EN You did a great job!
+
+@ 2866.7
+JP <ど真ん中> ！　（笑）　↓
+JP お客さんもよく入ったし、 試合も盛り上がったんじゃないか。　（笑）↓
+JP いやあ、 予想以上のいい興行になったよ。　（笑）↓
+JP お前さん、 なかなかできるなあ ！　（笑）
+EN <Dead center>!↓
+EN A big crowd, and the matches really got going, didn't
+EN they?↓
+EN Man, that show turned out better than I expected.↓
+EN You really know what you're doing!
+
+@ 2866.8
+JP なかなかいい興行だったんじゃないかな。　↓
+JP 不満点は多々あるが、
+JP 目標を達成してくれたんだから良しとしよう。　↓
+JP 次回はもっといい興行にしてほしいな。
+EN I'd say that was a pretty good show.↓
+EN I've got plenty of complaints, but you hit the goals, so
+EN I'll let it slide.↓
+EN I'd like an even better show next time.
+
+@ 2866.9
+JP う～ん、 正直いまいちな興行だったな。　↓
+JP ギリギリ合格点はやれるが、
+JP もっと熱いWJらしい興行にしてほしかったな。
+EN Hmm, honestly, that show was so-so.↓
+EN It just barely passes, but I wanted something hotter,
+EN more WJ.
+
+@ 2866.10 also 2874.10
+JP おい貴様 ！
+JP 今回の結果はどういうことだ ！　（怒）↓
+JP こんな結果でやっていけるわけないだろ ！　（怒）↓
+JP ちくしょう ！　（怒）
+EN Hey, you! What's the meaning of this result!↓
+EN We can't keep going with results like this!↓
+EN Damn it!
+
+@ 2866.11 also 2874.11
+JP おい ！ お前、 <ヒットマン>か ！ ？　（怒）↓
+JP そうじゃなかったら、
+JP ＷＪを潰すために来たテロリストか ？　（怒）↓
+JP こんな結果じゃあ許されないぞ ！　（怒）
+EN Hey! Are you a <hitman>!?↓
+EN If not, then you're a terrorist sent to wreck WJ?↓
+EN A result like this won't be forgiven!
+
+@ 2866.12 also 2874.12
+JP 凄かったねえ。　（笑）　↓
+JP 凄く良い興行だったねえ ！　（笑） ↓
+JP まさに<ど真ん中>を行くマグマ燃え盛る熱い興行だったねえ。（笑）↓
+JP あの長州も、 珍しく喜んでたよ。　（笑）↓
+JP 本当に良くやってくれた ！　（笑）
+EN That was amazing.↓
+EN A really great show!↓
+EN That was a red-hot, <dead center> show with the magma
+EN blazing.↓
+EN Even Choshu was happy, for once.↓
+EN You really did a great job!
+
+@ 2866.13
+JP いい興行だったねえ。
+JP お客さんもよく入ったし、 試合も盛り上がったよ。　（笑）↓
+JP いやあ、 期待以上の興行だったよ。　（笑）↓
+JP <グッジョブ> ！　（笑）
+EN That was a good show. A big crowd, and the matches
+EN really got going.↓
+EN Man, that show beat my expectations.↓
+EN <Good job>!
+
+@ 2866.14 also 2866.20
+JP なかなかいい興行だったぞ。　↓
+JP 本音を言うと、
+JP 団体の命運を賭けた興行だったから、
+JP もっと盛り上げてほしかったけどな。　↓
+JP まあ、 目標を達成してくれたからいいだろう。　↓
+JP 良くやった ！
+EN That was a pretty good show.↓
+EN To be honest, the company's future was riding on it, so
+EN I wanted it even hotter.↓
+EN Still, you hit the goals, so that's fine.↓
+EN Well done!
+
+@ 2866.15
+JP う～ん、 期待していたわりにはいまいちだったな。　↓
+JP メンツは最高だったはずなんだけどなあ。　↓
+JP やっぱり、 マッチメイクが良くなかったんじゃないか。
+EN Hmm, that was so-so, given what I expected.↓
+EN The lineup should have been the best there is.↓
+EN Must have been the matchmaking that let it down.
+
+@ 2866.16 also 2874.16
+JP おいおいおい ！
+JP 何なんだ今回の興行は ！　（怒）↓
+JP 貴様、 本気でやってるのか ！ ？　（怒）↓
+JP 長州も激怒していたぞ ！
+JP 覚悟しろ ！　（怒）
+EN Hey, hey, hey! What the hell was that show!↓
+EN Are you even trying!?↓
+EN Choshu is furious too! Get ready!
+
+@ 2866.17 also 2874.17
+JP おい ！ お前、 <ヒットマン>か ！ ？
+JP もしくは、 うちの団体にとり憑いた疫病神か ？　（怒）↓
+JP こんな結果、
+JP 長州が黙ってないぞ ！　（怒）
+EN Hey! Are you a <hitman>!? Or some jinx haunting our
+EN company?↓
+EN With a result like this, Choshu won't keep quiet!
+
+@ 2866.18 also 2874.18
+JP これだよ ！
+JP こんな熱い興行を求めていたんだよ ！ ！　（笑）↓
+JP まさに究極の闘いを見せることができたんじゃないか ？　（笑）↓
+JP 長州も喜んでたぞ。 　（笑）↓
+JP 本当に良くやった ！　（笑）
+EN This is it! This is the hot show I wanted!!↓
+EN Didn't we just show them the ultimate fight?↓
+EN Choshu was happy too.↓
+EN You did a great job!
+
+@ 2866.19
+JP <サプライズ> ！ 　（笑）↓
+JP いいぞ ！ 良くやった ！
+JP お客さんもよく入ったし、
+JP 試合も最高に盛り上がったな。　（笑）↓
+JP 大成功といっていいんじゃないか ？　（笑）
+EN <Surprise>!↓
+EN Good stuff! Well done! A big crowd, and the matches
+EN were red hot.↓
+EN I'd call that a huge success, wouldn't you?
+
+@ 2866.21 also 2874.21
+JP う～ん。
+JP こんなんじゃ、 究極の闘いとはいえんな。　↓
+JP もっと激しいファイトを期待していたんだが．．．。
+JP 正直期待ハズレだな。　（怒）
+EN Hmm. You can't call this the ultimate fight.↓
+EN I was hoping for a much fiercer fight... Honestly, a
+EN letdown.
+
+@ 2866.22 also 2874.22
+JP おいおい ！ こんな結果じゃあ、 選手に申し訳ないよ。
+JP 選手は命をかけて
+JP アルティメットに挑戦したんだぞ ！　（怒）↓
+JP これじゃあ選手達に会わせる顔がないよ．．．。　（怒）
+EN Hey, hey! A result like this isn't fair to the wrestlers.
+EN They put their lives on the line to take on the Ultimate
+EN rules!↓
+EN I can't even look the wrestlers in the eye after this...
+
+@ 2866.23
+JP おい ！ 貴様あ ！
+JP 何てことしてくれたんだ ！　（怒）↓
+JP こんなヒドい興行、
+JP 過去に無かったぞ ！　（怒）↓
+JP どうしてくれるんだ ！
+JP 責任取ってくれ ！　（怒）
+EN Hey! You! What have you done!↓
+EN There has never been a show this awful!↓
+EN What are you going to do about it! Take responsibility!
+
+@ 2867.0 also 2875.0
+JP いや～、 私はうれしい。
+JP こんな沢山のお客様と素晴らしい試合が見れて ！　（笑）↓
+JP 今日の大会は完璧です ！
+JP 本当にありがとう ！　（笑）
+EN Oh, I am so happy. Such a big crowd, and such wonderful
+EN fights!↓
+EN Today's event was perfect! Thank you so very much!
+
+@ 2867.1
+JP いや～、 素晴らしい興行でした ！　
+JP 選手達も満足げな表情をしていましたし、大成功ですね。　（笑）↓
+JP うれしいですねえ。
+JP 最高ですねえ。　（笑）
+EN Oh, what a wonderful show! The fighters all looked
+EN satisfied too. A great success.↓
+EN How delightful. Simply the best.
+
+@ 2867.2
+JP いや～、 私も熱くなりましたよ。
+JP なかなかいい興行でしたよ、本当に。　（笑）↓
+JP この調子で、 次もよろしくお願いしますよ。　（笑）
+EN Oh, even I got fired up. It was a very good show, truly.↓
+EN Please keep it up next time as well.
+
+@ 2867.3
+JP う～ん、 正直この結果は残念ですね～。　↓
+JP もっともっとお客さんが入って、
+JP 盛り上がってほしかったですね。　↓
+JP まあ、これからです ！
+EN Hmm, to be honest, this result is a shame.↓
+EN I would have liked a much bigger crowd, and much more
+EN excitement.↓
+EN Well, there is still time!
+
+@ 2867.4 also 2867.10 2875.4
+JP あらららら。やってしまいましたね。
+JP これだけの人気選手が揃っているのにこの結果とは．．．。　↓
+JP ちょっと、頭痛がしてきました．．．。　（怒）
+EN Oh dear, oh dear. You have done it now. With so many
+EN popular fighters, and this is the result...↓
+EN I seem to be getting a headache...
+
+@ 2867.5 also 2867.11
+JP ．．．。
+JP この結果はどういうことですか ？　↓
+JP あなたには失望しました．．．。　（怒）
+EN ... What is the meaning of this result?↓
+EN You have disappointed me...
+
+@ 2867.6
+JP いや～、 私は感動しております。
+JP こんな沢山のお客様と素晴らしい試合が見れて ！　（笑）↓
+JP 今日の大会は文句のつけようがないです ！
+JP 本当にありがとう ！　（笑）
+EN Oh, I am deeply moved. Such a big crowd, and such
+EN wonderful fights!↓
+EN There is nothing to fault in today's event! Thank you
+EN so very much!
+
+@ 2867.7
+JP いや～、 とても素晴らしい興行でした ！　
+JP 選手達も満足げな表情をしていましたし、 大成功ですね。　（笑）↓
+JP うれしいですねえ。
+JP 満足ですねえ。　（笑）
+EN Oh, what a truly wonderful show! The fighters all
+EN looked satisfied too. A great success.↓
+EN How delightful. I am very satisfied.
+
+@ 2867.8
+JP いや～、 私も熱くなりましたよ。
+JP なかなかいい興行でしたよ、 本当に。　（笑）↓
+JP まあ、 もっと良くできたとは思いますけど．．．。
+EN Oh, even I got fired up. It was a very good show, truly.↓
+EN Although I do think it could have been even better...
+
+@ 2867.9
+JP う～ん、 正直この結果は残念ですね。
+JP もっともっとお客さんが入って、
+JP 盛り上がってほしかったですね。
+EN Hmm, to be honest, this result is a shame. I would have
+EN liked a much bigger crowd, and much more excitement.
+
+@ 2867.12
+JP いや～、 うれしい。私は本当にうれしいです。
+JP こんな沢山のお客様と記念興行ができるなんて ！　（笑）↓
+JP 今日の大会は完璧です ！
+JP 選手一同に代わって感謝します。
+JP 本当にありがとう ！　（笑）
+EN Oh, I am happy. I am truly happy. To hold a memorial
+EN show with such a big crowd!↓
+EN Today's event was perfect! On behalf of all our
+EN fighters, thank you. Thank you so very much!
+
+@ 2867.13
+JP いや～、 素晴らしい興行でした ！
+JP 選手達も満足げな表情をしていましたし、
+JP 大成功と言っていいんではないでしょうか。　（笑）↓
+JP うれしいですねえ。
+JP 記念に残る大会になりましたねえ。　（笑）
+EN Oh, what a wonderful show! The fighters all looked
+EN satisfied too. I think we can call it a great success.↓
+EN How delightful. It will be an event to remember.
+
+@ 2867.14
+JP う～ん、 なかなかいい興行だとは思うんですけど．．．。　↓
+JP せっかくの記念興行ですから、
+JP もっと盛り上げてほしかったですねえ．．．。
+EN Hmm, I do think it was a fairly good show, but...↓
+EN It was our memorial show, after all. I wish it had been
+EN more exciting...
+
+@ 2867.15
+JP まあ、 悪くは無かったんですが、
+JP 記念興行でこの結果は厳しいですね。　↓
+JP もっと、 選手達の期待に答えてほしかったです。
+JP はい。　（怒）
+EN Well, it was not bad, but this result is tough to accept
+EN for a memorial show.↓
+EN I wish you had lived up to the fighters' expectations.
+EN Yes.
+
+@ 2867.16
+JP あらららら。やってしまいましたね。
+JP こんな大舞台でこんなヒドイ結果になるとは．．．。　↓
+JP もうフォローしきれませんねえ．．．。　（怒）
+EN Oh dear, oh dear. You have done it now. Such a terrible
+EN result on such a big stage...↓
+EN I cannot cover for you any longer...
+
+@ 2867.17 also 2875.17
+JP この結果はどういうことですか ？　↓
+JP ．．．。
+JP もうあなたとはお話したくありません．．．。　（怒）
+EN What is the meaning of this result?↓
+EN ... I have nothing more to say to you...
+
+@ 2867.18
+JP いや～、 素晴らしい ！
+JP 非の打ち所がない、 本当に素晴らしい興行でした ！　（笑）↓
+JP 今回は過去最高の興行と言っても、
+JP いいんじゃないですかねえ。　（笑）↓
+JP 試合の評判もいいですし、
+JP あなたのおかげですね～。
+JP はい。　（笑）
+EN Oh, splendid! A flawless, truly splendid show!↓
+EN I think we may call this our best show ever.↓
+EN The fights are getting rave reviews, and it is all
+EN thanks to you. Yes.
+
+@ 2867.19
+JP いや～、 素晴らしい興行でした ！
+JP 良い試合が続きましたし、お客さんも入りました。　（笑）↓
+JP うれしいですねえ。
+JP 大成功ですねえ。　（笑）
+EN Oh, what a wonderful show! One good fight after
+EN another, and a fine crowd too.↓
+EN How delightful. A great success.
+
+@ 2867.20
+JP う～ん、 なかなかいい興行だったとは思うんですけど．．．。
+JP ちょっと物足りなかったですねえ。　↓
+JP まあ、よくがんばりましたかねえ．．．。
+EN Hmm, I do think it was a fairly good show, but it felt a
+EN little lacking.↓
+EN Well, I suppose you did your best...
+
+@ 2867.21 also 2875.21
+JP ちょと、 この結果はいただけないですねえ。
+JP 試合をした選手達がかわいそうですよ。　↓
+JP あなた、 反省してくださいよ。　（怒）
+EN Now, this result is rather unacceptable. I feel sorry
+EN for the fighters who fought.↓
+EN Please reflect on this.
+
+@ 2867.22
+JP まずいですねえ。非常にまずいですねえ。
+JP 代表の期待に答えられないとは．．．。　↓
+JP もうフォローしきれませんねえ．．．。　（怒）
+EN This is bad. This is very bad. To fail to meet the
+EN director's expectations...↓
+EN I cannot cover for you any longer...
+
+@ 2867.23 also 2875.23
+JP ．．．。
+JP 一体どうしたんですか、この結果は ？　↓
+JP あなたには本当に失望しました．．．。　（怒）
+EN ... What on earth happened with this result?↓
+EN You have truly disappointed me...
+
+@ 2869.0 also 2870.0 2876.0
+JP オイッ ！ 凄いじゃないか ！ （笑）　↓
+JP こんなに盛り上がる興行は滅多にないぞ ！　（笑）↓
+JP 俺は物凄くうれしいぞ。　（笑）↓
+JP アイ　アム　チョーノ ！ 　（気）　↓
+JP 次も頼むぞ。
+JP オラッ、 エーッ ！　（気）
+EN Hey! That was amazing!↓
+EN Shows this hot don't come along often!↓
+EN I'm really, really happy.↓
+EN I AM CHONO!↓
+EN I'm counting on you next time too. Orah! Yeah!
+
+@ 2869.1 also 2870.1 2876.1
+JP ・・・。　↓
+JP お前、 この結果はどういうことだ ？　（怒）↓
+JP 動員数と満足度の両方が納得いく結果を残してこそ、
+JP 初めて成功と言えるんだぞ ！　（怒）↓
+JP 当然、 お前には責任取ってもらうぞ ！
+JP 覚悟しろ ！ カマンッ ！　（気）
+EN ...↓
+EN Hey, what's the meaning of this result?↓
+EN A show only counts as a success when both the
+EN attendance and the satisfaction are where they should
+EN be!↓
+EN Of course, you're taking responsibility for this! Brace
+EN yourself! C'mon!
+
+@ 2869.2 also 2870.2 2876.2
+JP なかなかいい興行だったんだけどな．．．。
+JP 正直言って、 俺には物足りないんだよ。 ↓
+JP 何が物足りないかはテメエのオツムでよく考えろ ！　（怒）↓
+JP 分かったか ！
+JP オラッ、 エーッ ！　（気）
+EN It was a pretty good show, but... honestly, it's not
+EN enough for me.↓
+EN Use that brain of yours and figure out what was
+EN missing!↓
+EN Got it? Orah! Yeah!
+
+@ 2869.3 also 2870.3 2876.3
+JP う～ん、 いまいちの興行だったな。　↓
+JP うちのスターを揃えたんだぞ ！
+JP どういうことだ ！
+JP エーッ ！ コラーッ ！ （怒）　↓
+JP 説明しろ ！
+JP オラーッ、 カマンッ ！　（怒）
+EN Hmm, that show was kind of a letdown.↓
+EN I gave you our stars! What's the deal! Yeah! You punk!↓
+EN Explain yourself! Orah! C'mon!
+
+@ 2869.7 also 2870.7 2876.7
+JP ・・・。　↓
+JP お前、 この結果はどういうことだ？　（怒）↓
+JP 動員数と満足度の両方が納得いく結果を残してこそ、
+JP 初めて成功と言えるんだぞ ！　（怒）↓
+JP 当然、 お前には責任取ってもらうぞ ！
+JP 覚悟しろ ！ カマンッ ！　（気）
+EN ...↓
+EN Hey, what's the meaning of this result?↓
+EN A show only counts as a success when both the
+EN attendance and the satisfaction are where they should
+EN be!↓
+EN Of course, you're taking responsibility for this! Brace
+EN yourself! C'mon!
+
+@ 2869.8 also 2870.8 2876.8
+JP なかなかいい興行だったんだけどな．．．。
+JP 正直言って、 物足りないんだよ。 ↓
+JP 何が物足りないかはテメエのオツムでよく考えろ ！　（怒）
+EN It was a pretty good show, but... honestly, it's not
+EN enough.↓
+EN Use that brain of yours and figure out what was
+EN missing!
+
+@ 2869.9 also 2870.9 2876.9
+JP う～ん、 いまいちの出来だな。　↓
+JP うちのスターを揃えたんだぞ ！
+JP どういうことだ ！
+JP エーッ ！ コラーッ ！ （怒）　↓
+JP 説明しろ ！
+JP オラーッ、 カマンッ ！　（怒）
+EN Hmm, that wasn't much good.↓
+EN I gave you our stars! What's the deal! Yeah! You punk!↓
+EN Explain yourself! Orah! C'mon!
+
+@ 2869.10 also 2870.10 2876.10
+JP オイッ ！ どうした ？
+JP この情けない結果はどういうことだ ！ ？　（怒）　↓
+JP 貴様、 本気でやってるんか ？　（怒）　↓
+JP いいかげんにしろ ！
+JP ガッデェム、 エーッ ！　（怒）
+EN Hey! What happened? What's the meaning of this
+EN pathetic result?!↓
+EN Are you even trying?↓
+EN Knock it off! Goddamn! Yeah!
+
+@ 2869.12 also 2870.12 2876.12
+JP オイッ ！ 凄いじゃないか ！
+JP フルハウスじゃねえか ！ エーッ ！　（気）↓
+JP それに、 こんなに会場がヒートした興行は今までなかったぞ ！　（笑）↓
+JP 俺は最高だ。 （気）↓
+JP だが、 お前も２番目に最高だぞ ！
+JP オラッ、 エーッ ！　（笑）
+EN Hey! That was amazing! A full house! Yeah!↓
+EN And I've never seen a show with the building this hot!↓
+EN I'm the best.↓
+EN But you're the second best too! Orah! Yeah!
+
+@ 2869.13 also 2870.13 2876.13
+JP ・・・。　↓
+JP お前、 このふざけた結果はどういうことだ？　（怒）↓
+JP 動員数と満足度の両方が納得いく結果を残してこそ、
+JP 初めて成功と言えるんだぞ！　（怒）↓
+JP 当然、 お前には責任取ってもらうぞ ！
+JP 覚悟しろ ！ カマンッ ！　（気）
+EN ...↓
+EN Hey, what's the meaning of this ridiculous result?↓
+EN A show only counts as a success when both the
+EN attendance and the satisfaction are where they should
+EN be!↓
+EN Of course, you're taking responsibility for this! Brace
+EN yourself! C'mon!
+
+@ 2869.14 also 2870.14 2876.14
+JP なかなかいい興行だったんだけどな．．．。
+JP 正直言って、 物足りないんだよ。 ↓
+JP 何が物足りないかはテメエのオムツ．．． ↓
+JP いやっ、 オツム使ってよ～く考えてみろ ！　（怒）
+EN It was a pretty good show, but... honestly, it's not
+EN enough.↓
+EN Use that brain-diaper of yours...↓
+EN No, I mean use that BRAIN of yours and figure out
+EN what was missing!
+
+@ 2869.15 also 2870.15 2876.15
+JP う～ん、 いまいちの出来だな。　↓
+JP うちのスターを揃えたんだぞ ！
+JP どういうことだ ！
+JP エーッ ！ コラーッ！ （怒）　↓
+JP 説明しろ ！
+JP オラーッ、 カマンッ ！　（怒）
+EN Hmm, that wasn't much good.↓
+EN I gave you our stars! What's the deal! Yeah! You punk!↓
+EN Explain yourself! Orah! C'mon!
+
+@ 2869.16 also 2870.16 2876.16
+JP オイ ！ どうした ！
+JP このひどい結果はどういうことだ ！ ？　（怒）↓
+JP テメーの力はそんなもんか ？　（怒）↓
+JP 俺は<蝶野>だ ！
+JP 俺を怒らすんじゃねえ ！
+JP ガッデム ！　エー ！（怒）
+EN Hey! What happened! What's the meaning of this awful
+EN result?!↓
+EN Is that all you've got?↓
+EN I'm <Chono>! Don't make me angry! Goddamn! Yeah!
+
+@ 2869.19 also 2870.19 2876.19
+JP お前・・・。　↓
+JP この結果はどういうことだ？　（怒）↓
+JP 動員数と満足度の両方が納得いく結果を残してこそ、
+JP 初めていい興行と言えるんだぞ ！　（怒）↓
+JP 当然、 お前には責任取ってもらうぞ ！
+JP 覚悟しろ ！ カマンッ ！　（気）
+EN You...↓
+EN What's the meaning of this result?↓
+EN A show is only a good show when both the attendance
+EN and the satisfaction are where they should be!↓
+EN Of course, you're taking responsibility for this! Brace
+EN yourself! C'mon!
+
+@ 2869.20 also 2870.20 2876.20
+JP 非常に残念な結果になったな。　↓
+JP 健闘したとは思うんだが、
+JP 今回は大事なドーム興行だったからな。　↓
+JP 新日本って会社は、 こんな結果じゃ納得してくれないんだよ。
+JP 
+EN That's a real shame.↓
+EN I think you put up a good fight, but this was a big
+EN Dome show.↓
+EN A company like New Japan won't settle for results like
+EN these.
+
+@ 2869.21 also 2870.21 2876.21
+JP 貴様．．．。　↓
+JP この落とし前、 どうつけるつもりだ ！　（怒）　↓
+JP あれほど大事な興行だと言ったじゃないか ！ 　（怒）　↓
+JP どういうことだ ！
+JP エーッ ！　（怒）　↓
+JP ただじゃ済まさねえぞ ！
+JP オラーッ、 カマンッ ！　（怒）
+EN You...↓
+EN How are you going to make up for this?!↓
+EN I told you how important this show was!↓
+EN What's the deal! Yeah!↓
+EN You won't get off easy! Orah! C'mon!
+
+@ 2869.22 also 2870.22 2876.22
+JP オイッ ！ 貴様いいかげんにしろよ ！
+JP こんな酷い興行はいままで見たことねえぞ ！（怒）↓
+JP 最悪の気分だ ！（怒）↓
+JP 俺の前から消え失せろ ！
+JP ファックオフ ！（怒）
+EN Hey! You've got to be kidding me! I've never seen a
+EN show this bad!↓
+EN I feel like garbage!↓
+EN Get out of my sight! Fuck off!
+
+@ 2869.23 also 2870.23 2876.23
+JP ．．．。　↓
+JP ファックオフ ！（怒）
+EN ...↓
+EN Fuck off!
+
+@ 2869.24 also 2870.24 2876.24
+JP いや～、良かったね～。
+JP 本当に良かったね～。　（笑）（藤波）↓
+JP お客さんも一杯入ったし、
+JP お客さんに納得してもらえるような
+JP <無我>なファイトも見せることができたと思うよ。　（笑）（藤波）↓
+JP うん、君のおかげだね。
+JP うん、本当にありがとうね。　（笑）（藤波）
+EN Well now, that was great. Really great.↓
+EN The place was full, and I think we showed the fans the
+EN kind of <Muga> fighting that really satisfies them.↓
+EN Yeah, it's all thanks to you. Yeah, thank you so much.
+
+@ 2869.25 also 2870.25 2876.25
+JP ちょっと、 ちょっと ！
+JP こ、 こんな結果はありえないよ～ ！　（怒）（藤波）↓
+JP がんばったのは認めるけど、
+JP こんな偏った結果じゃあダメだよ～ ！（怒）（藤波）↓
+JP 困ったなあ．．．。 （藤波）
+EN H-hold on, hold on! Th-these results can't be right!↓
+EN I know you worked hard, but results this lopsided just
+EN won't do!↓
+EN Oh, what a mess...
+
+@ 2869.26 also 2870.26 2876.26
+JP う～ん、 いい興行だとは思うんだけどねえ．．．。
+JP 何が足りなかったのかな～。　（藤波）↓
+JP 何なんだろうね～？（藤波）
+EN Well, I think it was a good show, but... I wonder what
+EN was missing.↓
+EN What could it be?
+
+@ 2869.27 also 2870.27 2876.27
+JP ちょ、 ちょっとこんな興行じゃあ、
+JP 選手に申し訳ないよ。　（怒）（藤波）↓
+JP もうちょっと何とかしてほしかったな～。
+JP 残念だな～。（藤波）
+EN W-wait, a show like this... I feel bad for the wrestlers.↓
+EN I wish you'd done a bit better. That's too bad.
+
+@ 2869.28 also 2870.28 2876.28
+JP わ、 我々は、 殺し合いをやってるわけじゃないんだ ！　（怒）（藤波）↓
+JP 俺は認めないよ！ 　（怒）（藤波）　↓
+JP <無我>の名にかけても、
+JP こんなお粗末な興行を認めるわけにはいかないんだよ ！　（怒）（藤波）
+EN W-we're not out there trying to kill each other!↓
+EN I won't accept this!↓
+EN In the name of <Muga>, I can't accept a show this sloppy!
+
+@ 2869.29 also 2870.29 2876.29
+JP ど、 どういうことだいっ ！ ？　（怒）（藤波）↓
+JP こ、 こんなヒドイ興行は初めてだ ！　（怒）（藤波）↓
+JP こ、 こんな興行やめてやる～。　（怒）（藤波）
+EN Wh-what is this?!↓
+EN I-I've never seen such an awful show!↓
+EN I-I'm calling this show off!
+
+@ 2871.1
+JP ・・・。　（怒）↓
+JP ぶっちゃけ、
+JP こういう結果が一番評価しづらいんだよね．．．。　（怒）↓
+JP まあ、 がんばったとは思うんだけど、
+JP 何ていうかねえ。　（怒）↓
+JP 困った結果になっちゃったよね．．．。（怒）
+EN ...↓
+EN Honestly, this kind of result is the hardest to judge...↓
+EN Well, I think you tried hard, but how should I put it...↓
+EN It turned out kind of awkward...
+
+@ 2871.2
+JP う～ん。
+JP 初めてやったわりには良かったとは思うんだけど．．．。　↓
+JP ハッキリ言って、 合格点には達していないよね。
+JP 残念なんだけど．．．。
+EN Hmm. For your first time, I think it was okay, but...↓
+EN To be blunt, it didn't reach a passing grade. Too bad...
+
+@ 2871.3
+JP ぶっちゃけ、 今回の興行はいまいちだったよね。　↓
+JP カードはファンの気持ちになって考えなくちゃダメだよ。　↓
+JP まあ、 次は無いかな．．．。
+EN Honestly, this show was so-so.↓
+EN You have to think about the cards the way the fans
+EN would.↓
+EN Well, I don't think there'll be a next time...
+
+@ 2871.4
+JP 今回の興行はちょっと<アレ>だね．．．。　（怒）↓
+JP 普通ありえないね、こんなヒドい興行は。　（怒）↓
+JP 君に任せたのが間違いだったのかな．．．。　（怒）
+EN This show was a little... <you-know-what>...↓
+EN You don't normally see a show this bad.↓
+EN Maybe leaving it to you was a mistake...
+
+@ 2871.5
+JP ・・・・・・。　（怒）↓
+JP こんなヒドい興行、 今までになかったよね．．．。　（怒）↓
+JP ハッキリ言って、 情けないよね。　（怒）
+EN ......↓
+EN We've never had a show this bad...↓
+EN To be blunt, it's pathetic.
+
+@ 2871.7
+JP ・・・。　↓
+JP ぶっちゃけ、
+JP こういう結果が一番つらいんだよね．．．。　↓
+JP まあ、 がんばったとは思うんだけど、
+JP 何ていうか<アレ>だよねえ。　↓
+JP 困った<アレ>になっちゃったよねえ．．．。
+EN ...↓
+EN Honestly, this kind of result is the hardest to take...↓
+EN Well, I think you tried hard, but it's kind of
+EN <you-know-what>.↓
+EN It turned into an awkward <you-know-what>...
+
+@ 2871.8
+JP う～ん。
+JP ハッキリ言って、 残念な結果だよね．．．。　↓
+JP 君のがんばりは認めるけど、
+JP 目標に達してないからね．．．。　↓
+JP 今回の興行の評価は低いよ。
+EN Hmm. To be blunt, it's a disappointing result...↓
+EN I'll give you credit for trying, but you didn't reach the
+EN goals...↓
+EN This show gets a low rating.
+
+@ 2871.9
+JP ぶっちゃけ、
+JP 今回はいまいちな<アレ>だったよね。　↓
+JP ハッキリ言って、
+JP 対戦カードはファンの気持ちになって考えなくちゃダメだよね。↓
+JP 今回はそういう気持ちが足りなかったんじゃないのかな．．．。
+EN Honestly, this was a so-so <you-know-what>.↓
+EN To be blunt, you have to think about the cards the way
+EN the fans would.↓
+EN This time, I think that feeling was missing...
+
+@ 2871.10
+JP 今回の興行はちょっと<アレ>だよね．．．。　（怒）↓
+JP ちょっとありえないね、 こんなキツい興行は。　（怒）↓
+JP 君に任せたのが間違いだったのかな．．．。　（怒）
+EN This show was a little... <you-know-what>...↓
+EN You don't really see a show this rough.↓
+EN Maybe leaving it to you was a mistake...
+
+@ 2871.11
+JP ・・・・・・。　（怒）↓
+JP こんなヒドい興行、 今までになかったよね。　（怒）↓
+JP 今すぐにでもススキノに行って、
+JP やけ酒あおりたい気分だよね。　（怒）
+EN ......↓
+EN We've never had a show this bad.↓
+EN I feel like heading straight to Susukino and drowning
+EN my sorrows.
+
+@ 2871.13
+JP ・・・。　↓
+JP ぶっちゃけ、
+JP こういう結果が一番評価しづらいんだよね．．．。　↓
+JP まあ、 がんばったとは思うんだけど、
+JP 何ていうかねえ。　↓
+JP まあ、　満足いく興行とはいえないよね．．．。
+EN ...↓
+EN Honestly, this kind of result is the hardest to judge...↓
+EN Well, I think you tried hard, but how should I put it...↓
+EN Well, you can't call it a satisfying show...
+
+@ 2871.14
+JP う～ん。
+JP ハッキリ言って、 残念な結果になったよね．．．。　↓
+JP がんばりは認めるけど、
+JP 目標に達してないからね。　↓
+JP 今回の興行の評価は低いよ。
+EN Hmm. To be blunt, it turned out disappointing...↓
+EN I'll give you credit for trying, but you didn't reach the
+EN goals.↓
+EN This show gets a low rating.
+
+@ 2871.15
+JP ぶっちゃけ、 今回は微妙だったね。　（怒）↓
+JP 大事な興行だったんだけどなあ．．．。　（怒）
+EN Honestly, this one was iffy.↓
+EN And it was such an important show, too...
+
+@ 2871.16
+JP 今回の興行はちょっと<アレ>だね．．．。（怒）↓
+JP 普通ありえないね、
+JP 武闘館でこんな盛り上がらない興行なんて。（怒）↓
+JP 君に任せたのが<アレ>だったのかな．．．。　（怒）
+EN This show was a little... <you-know-what>...↓
+EN You don't normally see a Butokan show this flat.↓
+EN Maybe leaving it to you was kind of <you-know-what>...
+
+@ 2871.19
+JP う～ん。 惜しかったねえ。
+JP もう少しで目標に届いたんだけどねえ。　↓
+JP まあ、 ドームでの興行でこれだけの結果を出したことは
+JP 凄いと思うけど、 もう少しがんばってほしかったよね。
+EN Hmm. So close. You almost reached the goals.↓
+EN Getting this kind of result at a Dome show is
+EN impressive, but I wish you'd pushed a little harder.
+
+@ 2871.20
+JP う～ん。
+JP まずまずの結果ではあるんだけどねえ．．．。　（怒）↓
+JP せっかく力を入れたドーム興行なんだからねえ．．．。　（怒）↓
+JP もう少し盛り上がっても良かったんじゃないの ？ （怒）↓
+JP 厳しい結果だよね．．．。（怒）
+EN Hmm. It's a decent result, but...↓
+EN This was the Dome show we put so much into...↓
+EN Couldn't it have been a bit hotter?↓
+EN That's a tough result...
+
+@ 2871.21
+JP ハッキリ言って、 いまいちの盛り上がりだったよね。　（怒）↓
+JP ドーム興行でこの結果はちょっと苦しいなあ。　（怒）↓
+JP 残念だね．．．。　（怒）
+EN To be blunt, the crowd never really got going.↓
+EN That result is tough to swallow for a Dome show.↓
+EN Too bad...
+
+@ 2871.22
+JP 今回の興行はちょっと<アレ>だよね．．．。
+JP まずいよね、 せっかくのドーム興行でこの結果は。　（怒）↓
+JP 君に任せたのが間違いだったのかな．．．。　（怒）
+EN This show was a little... <you-know-what>... This result
+EN for our big Dome show is bad news.↓
+EN Maybe leaving it to you was a mistake...
+
+@ 2871.23
+JP 今回の興行は選手みんなが期待していただけにね．．．。　（怒）↓
+JP この結果はゆるされないよね。　（怒）↓
+JP ハッキリ言って、 怒り心頭だよね。　（怒）
+EN The wrestlers were all expecting so much from this
+EN show...↓
+EN This result is unforgivable.↓
+EN To be blunt, I'm furious.
+
+@ 2871.25
+JP うむむむむむ。
+JP これは 困りましたねえ．．．。　（井上）↓
+JP 非常に惜しいんですけどねえ。
+JP ちょっと目標に及びませんでしたねえ。　（笑）（井上）
+EN Hmmmmm. Well, this is a problem...↓
+EN It was so close, but we just fell short of the goals.
+
+@ 2871.26
+JP なるほど～。
+JP こういう結果になりましたかあ。　（井上）↓
+JP とりあえず、 ご協力ありがとうございました。　（笑）（井上）
+EN I see! So that's how it turned out.↓
+EN Anyway, thank you for your help.
+
+@ 2871.28
+JP いやいや、 何ともコメントしづらい結果ですねえ。
+JP 選手会長としては非常に心苦しいですよ．．．。　（怒）（井上）↓
+JP とりあえず、
+JP 今回の興行は無かったってことで．．．。（井上）
+EN Oh dear, that's a hard result to comment on. As
+EN chairman, it really pains me...↓
+EN For now, let's just pretend this show never happened...
+
+@ 2871.29
+JP 無理、 無理、 無理 ！
+JP こんな結果ありえないって ！　（怒）（井上）↓
+JP これじゃあ、 選手会長としてのメンツが丸潰れだよ ！　（怒）　　（井上）
+EN No way, no way, no way! This result can't be happening!↓
+EN Now I've lost all face as chairman of the wrestlers'
+EN association!
+
+@ 2872.1
+JP う～ん。 結果は悪くないんだけどさあ。
+JP ちょっと違うんだよねえ．．．。　↓
+JP まあ、 俺も手探りな状態なんだけどさあ、
+JP プロっていうのはお客さんが求めているものを
+JP 提供しなくちゃあダメなんだよ。　↓
+JP 言ってる意味分かる ？
+EN Hmm. The result's not bad, but... it's not quite it, you
+EN know...↓
+EN I'm still feeling my way too, but pros have to give the
+EN fans what they want.↓
+EN Get what I'm saying?
+
+@ 2872.2
+JP いや～。 いい線いってるんだけどねえ。　↓
+JP 俺の求めるレベルにはまだ達していねえんだよなあ．．．。
+JP 
+EN Man, you're on the right track.↓
+EN But it's still not at the level I'm looking for...
+
+@ 2872.3
+JP ちょっと、 今回の興行は外したかな．．．。　↓
+JP 初めてだから仕方がないとも言えるけど、
+JP 俺達はプロなんだからさあ、
+JP それをしっかりサポートしてくんないと困るんだよなあ。↓
+JP 分かるだろ ？
+EN Looks like this show kinda missed...↓
+EN It's your first time, so I get it, but we're pros, you
+EN know. I need you to back us up properly.↓
+EN You get it, right?
+
+@ 2872.7
+JP う～ん。 結果は決して悪くないんだけどさあ。
+JP ちょっと違うんだよねえ．．．。　↓
+JP まあ、 俺達も手探り状態なんだけどさあ、
+JP 俺達プロのレスラーはお客さんが求めているものを
+JP パフォーマンスしなくちゃあダメなんだよなあ。　↓
+JP 言ってる意味分かる ？
+EN Hmm. The result's not bad at all, but... it's not quite it,
+EN you know...↓
+EN We're still feeling our way too, but as pro wrestlers we
+EN have to perform what the fans want.↓
+EN Get what I'm saying?
+
+@ 2872.8
+JP いや～。 いい線いってるんだけどねえ。　↓
+JP 俺の求めるレベルにはまだ達していないんだよ。
+JP 残念だなあ．．．。
+JP 
+EN Man, you're on the right track.↓
+EN But it's still not at the level I'm looking for. Too bad...
+
+@ 2872.9
+JP おいおいおい ！
+JP こんな結果じゃあ、 ぜんぜんダメだぞ ！　（怒）↓
+JP 俺達はプロなんだからさあ、
+JP それをしっかりサポートしてくんないと困るんだよなあ。　（怒）↓
+JP 分かるだろ ？
+EN Whoa, whoa, whoa! A result like this is no good at all!↓
+EN We're pros, you know. I need you to back us up properly.↓
+EN You get it, right?
+
+@ 2872.11
+JP ダメダメダメ ！
+JP こんな興行ありえないよ ！　（怒）↓
+JP あんだけ選手が出た興行なのにこの結果かよ ！ ？　（怒）↓
+JP 麻雀やる気も失せたよ。　（怒）
+EN No, no, no! A show like this is unthinkable!↓
+EN That many wrestlers on the show, and THIS is the
+EN result?!↓
+EN I'm not even in the mood for mahjong now.
+
+@ 2872.13
+JP う～ん。 結果は決して悪くないんだけどさあ。
+JP ちょっと違うんだよねえ．．．。　↓
+JP まあ、 俺も手探りな状態なんだけどさあ、
+JP 俺たちレスラーはお客さんが求めているものを
+JP 見せなくちゃあダメなんだよなあ。　↓
+JP 残念だよなあ．．．。
+EN Hmm. The result's not bad at all, but... it's not quite it,
+EN you know...↓
+EN I'm still feeling my way too, but we wrestlers have to
+EN show the fans what they want.↓
+EN Too bad...
+
+@ 2872.14
+JP うん、 まあこれくらいできれば悪くはないんだけど、
+JP 伝統ある武闘館興行だからねえ．．．。　　（怒）↓
+JP うちのファンは全然納得していないと思うぞ。　（怒）
+EN Yeah, well, I guess that's not bad, but this is the
+EN legendary Butokan, you know...↓
+EN I bet our fans aren't satisfied at all.
+
+@ 2872.16
+JP 今回の興行はぜんぜんダメだろ ！　（怒）↓
+JP 選手たちはみんな必死に全日本を盛り上げようと
+JP がんばっているんだからさあ。　（怒）↓
+JP 君がしっかりしてくれないと困るよ．．．。　（怒）
+EN This show was no good at all!↓
+EN The guys are all busting their tails to fire up All
+EN Japan, you know.↓
+EN I need you to get it together...
+
+@ 2872.19
+JP 結果は悪くないんだけどさあ。
+JP ちょっと違うんだよねえ．．．。　↓
+JP プロレス興行っていうのは、
+JP お客さんが求めているものを提供しなくちゃあダメなんだよ。　↓
+JP 違うか ？
+EN The result's not bad, but... it's not quite it, you know...↓
+EN A wrestling show has to give the fans what they want.↓
+EN Am I wrong?
+
+@ 2872.20
+JP う～ん、 微妙な結果だなあ。　↓
+JP 記念的なドームでの興行でこの結果はちょっとなあ．．．。　↓
+JP もっと良く出来たんじゃないか ？
+EN Hmm, that's a so-so result.↓
+EN For our milestone Dome show, this result is kind of...↓
+EN Couldn't you have done better?
+
+@ 2872.23
+JP おいおいおいおい ！
+JP 何てことしてくれたんだよ ！　（怒）↓
+JP せっかくのドーム興行なのに何だこの結果は ！
+JP 俺、 もう社長やっていく自信なくしたよ．．．。　（怒）
+EN Whoa, whoa, whoa, whoa! What did you do?!↓
+EN Our big Dome show, and what kind of result is this?!
+EN I've lost all confidence in being president...
+
+@ 2872.25
+JP 結構、 いい感じだったんだけどなあ．．．。　↓
+JP まあまあ、 良くやったとは思うんだけど、
+JP 俺の理想の<『 マッスル － １ 』>はこんなもんじゃないんだよ。　↓
+JP 残念だけど、 これじゃあ成功とはいえないな。
+EN It felt pretty good, but...↓
+EN Well, I think you did fine, but my ideal <"Muscle-1"> is
+EN way more than this.↓
+EN Too bad, but I can't call this a success.
+
+@ 2872.26
+JP いまいち乗り切れなかったかなあ。
+JP やろうとしていることはわかるんだけどね．．．。　↓
+JP まあ、 可能性は感じられたかな．．． ？
+EN Didn't quite get into the groove, did it. I get what you
+EN were going for, though...↓
+EN Well, I guess I saw some potential...?
+
+@ 2873.0
+JP おおおおおおしっ ！ いいぞおおおおお ！
+JP 超満員やあ ！　最高の興行やああ ！（笑）↓
+JP 俺はこんな熱い興行を求めていたんだよ。
+JP 本当だぞお。　（笑）↓
+JP この勢いでこれからも突き進むぞお ！
+JP 押忍 ！ ！　（気）
+EN Ohhh yeah! Awesome! A packed house! The best show
+EN ever!↓
+EN This is the kinda hot show I've been waitin' for. I mean
+EN it!↓
+EN We're gonna keep chargin' ahead like this! Osu!!
+
+@ 2873.1
+JP いやあ、 惜しい、 実に惜しいぞお。　↓
+JP だがな、 駄目なもんは駄目や ！ ！　（気）↓
+JP ゼロワンには結果が必要なんだよ。
+JP だから、 今回の興行は認めん ！　（怒）
+EN Man, so close. Real close.↓
+EN But no is no!!↓
+EN ZERO-ONE needs results. So I ain't acceptin' this
+EN show!
+
+@ 2873.2
+JP む～ん。
+JP 悪くない興行だったんやけどなあ。　↓
+JP 正直言って、 こんなもんじゃ俺には物足りないぞお。　↓
+JP 俺は会場が爆発するような興行にしたいんや ！
+EN Hmmm. It wasn't a bad show.↓
+EN But honestly, this ain't nearly enough for me.↓
+EN I want a show that blows the roof off the place!
+
+@ 2873.3
+JP む～ん。
+JP いまいちの興行やったなあ。　↓
+JP 俺はもっとファンの記憶に残るプロレスがしたいんや。　↓
+JP ゼロワンはこんなもんやないやろ ！（怒）
+EN Hmmm. Kind of a weak show.↓
+EN We wanna put on wrestling the fans won't ever forget.↓
+EN ZERO-ONE is better than this!
+
+@ 2873.4
+JP おい、 こらああああ ！ ！
+JP 何なんやこの結果はああああああ ！ ？　（怒）↓
+JP 貴様の力はこんなもんなのかあ ！ ？　（怒）↓
+JP ええい、 俺はこんな興行認めないぞおおお ！ ！　（怒）
+EN Hey, whaddaya think you're doin'?!! What the hell is
+EN this result?!↓
+EN Is this all ya got?!↓
+EN Bah, I ain't acceptin' a show like this!!
+
+@ 2873.5
+JP おおおおおおおい ！ ！
+JP この結果はなんやあああああ ！ ！　（怒）↓
+JP 絶対に許さんぞお。
+JP お前のことは絶対にゆるさんぞおお ！　（怒）↓
+JP せいやああああああああ ！ ！　（怒）
+EN Heyyyyy!! What's with this result?!!↓
+EN I'll never forgive this. I'll never forgive you!↓
+EN Seiyaaaaaaah!!
+
+@ 2873.7
+JP いやあ、 惜しい、 実に惜しいぞお。　↓
+JP だがな、 駄目なもんは駄目なんや ！ ！　（怒）↓
+JP ゼロワンは結果が全てなんだよ。
+JP だから、 今回の興行は認めん ！　（怒）
+EN Man, so close. Real close.↓
+EN But no is no!!↓
+EN For ZERO-ONE, results are everything. So I ain't
+EN acceptin' this show!
+
+@ 2873.8
+JP む～ん。 悪くない興行だったんやけどなあ。　↓
+JP 正直言って、 こんなもんじゃ俺様は満腹にならんぞお。　↓
+JP 俺は会場中のお客さんがイっちゃうような興行を
+JP 目指しているんや ！　（怒）　↓
+JP 今日はだめっ ！　（気）
+EN Hmmm. It wasn't a bad show.↓
+EN But honestly, this ain't gonna fill my belly.↓
+EN I'm aimin' for a show that sends every last fan in the
+EN place over the edge!↓
+EN Today's a no-go!
+
+@ 2873.9
+JP む～ん。 いまいちの興行やったなあ。　↓
+JP 俺はもっともっとプロレスでハッスルしたいんや。　↓
+JP 今日は来てくれたお客さんに申し訳ない。　↓
+JP お客さん、 すまん ！　（気）
+EN Hmmm. Kind of a weak show.↓
+EN I wanna hustle way, way harder in pro wrestling.↓
+EN I owe the fans who came today an apology.↓
+EN Folks, I'm sorry!
+
+@ 2873.13
+JP いやあ、 惜しい、 実に惜しいぞお。　↓
+JP だがな、 駄目なもんは駄目や ！ ！　（怒）↓
+JP ゼロワンには結果が必要なんだよ。
+JP だから、 今回の興行は認めん ！
+EN Man, so close. Real close.↓
+EN But no is no!!↓
+EN ZERO-ONE needs results. So I ain't acceptin' this
+EN show!
+
+@ 2873.14
+JP む～ん。 悪くない興行だったんやけどなあ。　↓
+JP 正直言って、 こんなもんじゃ物足りないよなあ。　↓
+JP 俺はもっと極上なプロレス興行を目指しているんや ！　（怒）↓
+JP 今日は全然だめっ ！ ！　（気）
+EN Hmmm. It wasn't a bad show.↓
+EN But honestly, this ain't nearly enough.↓
+EN I'm aimin' for a pro wrestling show that's top-notch!↓
+EN Today's a total no-go!!
+
+@ 2873.19
+JP 駄目なものは駄目なんだ、 コノヤローッ ！ ！　↓　（怒）↓
+JP 記念すべき興行やったからな。
+JP こんなもんじゃ、 選手もお客さんも納得いかないやろ。　↓
+JP プロレスってのは難しいものなんだよなあ．．．。
+EN No is no, ya punk!!↓
+EN ↓
+EN This was a big milestone show. A result like this won't
+EN satisfy the wrestlers or the fans.↓
+EN Pro wrestling sure is a tough business...
+
+@ 2873.20
+JP なんとも評価しづらい結果になったな。　↓
+JP 決して悪くはないが、
+JP 俺はもっと上を目指してるんや。　（怒）↓
+JP まだまだこんなもんじゃないやろ。
+EN Tough result to rate.↓
+EN It ain't bad by any means, but I'm aimin' higher.↓
+EN We're nowhere near done yet.
+
+@ 2873.23
+JP おおい ！
+JP この結果はなんやあああ ！　（怒）↓
+JP 絶対に許さんぞお。
+JP お前のことは絶対にゆるさんぞおおお ！　（怒）↓
+JP せいやああああああああ ！ ！　（怒）
+EN Heyyy! What's with this result?!↓
+EN I'll never forgive this. I'll never forgive you!↓
+EN Seiyaaaaaaah!!
+
+@ 2873.24
+JP おお、 そうか。 盛り上がったんか ！
+JP それはうれしいぞお。　（笑）↓
+JP これもプロレスや ！
+JP これもゼロワンのプロレスなんや ！　↓
+JP 文句あるかあ ！（気）↓
+JP がはははははははははは。　（笑）
+EN Oh, really? The place went wild! That makes me happy.↓
+EN This is pro wrestling too! This is ZERO-ONE
+EN wrestling!↓
+EN Got a problem with that?!↓
+EN Gahahahahahahahaha.
+
+@ 2873.25
+JP 残念なんだが、 駄目なものは駄目だな。　↓
+JP 前回やった時はこんなもんやなかったぞ ！　↓
+JP こんだけのメンツを集めたんだから、
+JP 最高に盛り上がらなくちゃ、 おかしいやろ ！　↓
+JP だめっ ！　（気）
+EN Too bad, but no is no.↓
+EN It wasn't like this last time!↓
+EN With a lineup like this, the place shoulda gone nuts!↓
+EN No good!
+
+@ 2873.26
+JP なんとも評価しづらい結果やな。 ↓
+JP 決して悪くはないが、 俺はもっと上を目指してるんや。　↓
+JP ゼロワンのプロレスはこんなもんじゃないやろ ！（怒）↓
+JP カーッ ！（気）
+EN Tough result to rate.↓
+EN It ain't bad by any means, but I'm aimin' higher.↓
+EN ZERO-ONE wrestling is better than this!↓
+EN Kaaah!
+
+@ 2873.27
+JP 元気ですかー ！ ？　（笑）↓
+JP って全然元気じゃねえぞ、 バカヤロー ！　（怒）↓
+JP こんなミミズのしょんべんみたいな興行なんて、
+JP 意味無いんじゃあああああ ！　（怒）↓
+JP せいやあああああ ！　（怒）
+EN Are ya fired up?!↓
+EN 'Cause I sure ain't, ya idiot!↓
+EN A show as feeble as a worm takin' a leak means nothin'!↓
+EN Seiyaaaaah!
+
+@ 2874.1 also 2874.13
+JP 残念なんだがねえ。
+JP 目標にはちょっと及ばなかったねえ。　↓
+JP プロレス興行っていうのはむずかしいものだぞ。
+JP 今日は勉強になったな。
+EN It's a shame. You fell a little short of the goals.↓
+EN Putting on a wrestling show is hard work. You learned
+EN something today.
+
+@ 2874.2 also 2874.14
+JP まあ、 なかなかいい興行ではあったんだけどなあ．．．。　↓
+JP これだけスター選手が揃っているんだから、
+JP もう少し、 なんとかなったんじゃないのか ？
+EN Well, it was a pretty good show, but...↓
+EN With all these stars on hand, couldn't you have done a
+EN bit better?
+
+@ 2874.3
+JP う～ん、 正直いまいちな興行だったな。　↓
+JP こんだけスター選手を揃えたんだから、
+JP もっと熱い、 WJらしい興行にできたと思うんだがな．．．。↓
+JP う～む．．．。
+EN Hmm, honestly, that show was so-so.↓
+EN With this many stars on hand, I think it could have been
+EN hotter, more WJ...↓
+EN Hmmm...
+
+@ 2874.6
+JP 凄かったねえ。
+JP 凄く良い興行だったねえ ！
+JP まさにど真ん中を行くマグマ燃え盛る熱い興行だったねえ。（笑）↓
+JP 長州も喜んでたよ。　（笑）↓
+JP 本当に良くやった ！　（笑）
+EN That was amazing. A really great show! A red-hot,
+EN dead center show with the magma blazing.↓
+EN Choshu was happy too.↓
+EN You did a great job!
+
+@ 2874.7
+JP 残念なんだがねえ。
+JP 目標にはちょっと及ばなかったねえ。　↓
+JP プロレス興行っていうのはむずかしいものだぞ。
+JP 今日はいい社会勉強になったな。
+EN It's a shame. You fell a little short of the goals.↓
+EN Putting on a wrestling show is hard work. That was a
+EN good lesson in the real world.
+
+@ 2874.8
+JP まあ、 なかなかいい興行ではあったんだけどな．．．。　↓
+JP これだけスター選手が揃っているんだから、
+JP もう少し、 なんとかなったんじゃないのか ？
+EN Well, it was a pretty good show, but...↓
+EN With all these stars on hand, couldn't you have done a
+EN bit better?
+
+@ 2874.9
+JP う～ん、 いまいちな興行だったぞ。　↓
+JP うちの選手達ならもっとなんとかなったと思うんだけどな。　↓
+JP こんな不完全燃焼のまま終われねえぞ ！　（怒）
+EN Hmm, that show was so-so.↓
+EN I think our wrestlers could have done a lot better.↓
+EN I can't end it on a fizzle like this!
+
+@ 2874.15
+JP う～ん、 正直いまいちな興行だったな。　↓
+JP もっと熱いWJらしい興行にしてほしかったな。　↓
+JP う～む．．．。
+EN Hmm, honestly, that show was so-so.↓
+EN I wanted something hotter, more WJ.↓
+EN Hmmm...
+
+@ 2874.19
+JP 非常に残念なんだがねえ。
+JP 目標にはちょっと及ばなかったねえ。　↓
+JP 興行っていうのは難しいものなんだよ。
+JP 身にしみて分かっただろ ？
+EN It's a real shame. You fell a little short of the goals.↓
+EN Shows are hard to run. Now you know it firsthand,
+EN right?
+
+@ 2874.20
+JP う～ん、 期待していたわりにはいまいちだったな。　↓
+JP 最高のメンツを揃えたはずなんだけどなあ。　↓
+JP やっぱり、 マッチメイクが良くなかったんじゃないか。
+EN Hmm, that was so-so, given what I expected.↓
+EN I thought I'd put together the best lineup there is.↓
+EN Must have been the matchmaking that let it down.
+
+@ 2874.23
+JP おい ！ 貴様あ ！
+JP 何てことしてくれたんだ ！　（怒）↓
+JP こんなヒドい興行、 記憶にないぞ ！　（怒）↓
+JP どうしてくれるんだ ！
+JP 責任取ってくれ ！　（怒）
+EN Hey! You! What have you done!↓
+EN I can't remember a show this awful!↓
+EN What are you going to do about it! Take responsibility!
+
+@ 2875.1
+JP いやはや、 なんとも惜しい結果ですけどねえ、
+JP 興行としては今回はちょっといただけなかったですねえ。　↓
+JP これはちょっと．．．。　↓
+JP 残念ですねえ．．．。
+EN Well, well. It is a near miss, but as a show, this one was
+EN rather unacceptable.↓
+EN This is a little...↓
+EN Such a shame...
+
+@ 2875.2 also 2875.14
+JP なるほど、 こういう結果になりましたか．．．。
+JP 興行というものは本当に難しいですよねえ。　↓
+JP やるからには、 しっかり結果を残してほしかったです。
+JP はい。
+EN I see, so this is how it turned out... Promoting a show
+EN really is difficult, is it not?↓
+EN Once you take it on, I wanted you to deliver results.
+EN Yes.
+
+@ 2875.3
+JP う～ん、 正直この結果は残念ですね～。　↓
+JP もっともっとお客さんが入って、
+JP 盛り上がってほしかったですね。
+EN Hmm, to be honest, this result is a shame.↓
+EN I would have liked a much bigger crowd, and much more
+EN excitement.
+
+@ 2875.5
+JP ．．．。
+JP この結果はどういうことですか ？　（怒）↓
+JP あなたには失望しました．．．。　（怒）
+EN ... What is the meaning of this result?↓
+EN You have disappointed me...
+
+@ 2875.6
+JP いや～、私はうれしい。
+JP こんな沢山のお客様と素晴らしい試合が見れて ！　（笑）↓
+JP 今日の大会は完璧です ！
+JP 本当にありがとう ！　（笑）
+EN Oh, I am so happy. Such a big crowd, and such wonderful
+EN fights!↓
+EN Today's event was perfect! Thank you so very much!
+
+@ 2875.7 also 2875.13 2875.19
+JP いやはや、 なんとも惜しい結果ですけどねえ、
+JP 興行としては今回はちょっといただけなかったですねえ。　↓
+JP 残念ですねえ．．．。
+EN Well, well. It is a near miss, but as a show, this one was
+EN rather unacceptable.↓
+EN Such a shame...
+
+@ 2875.8
+JP なるほど、 こういう結果になりましたか．．．。
+JP 興行というものは本当に難しいですよねえ。　↓
+JP 何がいけなかったのですかねえ．．．。
+EN I see, so this is how it turned out... Promoting a show
+EN really is difficult, is it not?↓
+EN I wonder what went wrong...
+
+@ 2875.9
+JP う～ん、 正直意外な結果ですねえ。　↓
+JP もっとお客さんが入って、
+JP 盛り上がるかと思ったんですけど．．．。　↓
+JP 非常に残念です。　（怒）
+EN Hmm, to be honest, this result is unexpected.↓
+EN I thought we would draw a bigger crowd and more
+EN excitement...↓
+EN It is a great shame.
+
+@ 2875.10
+JP あらららら。 やってしまいましたね。
+JP これだけの人気選手が揃っているのにこの結果とは．．．。　↓
+JP ちょっと、 頭痛がしてきました．．．。　（怒）
+EN Oh dear, oh dear. You have done it now. With so many
+EN popular fighters, and this is the result...↓
+EN I seem to be getting a headache...
+
+@ 2875.11
+JP あなた．．．。　（怒）↓
+JP この結果はどういうことですか ？　（怒）↓
+JP あなたには本当に失望しました．．．。　（怒）
+EN You...↓
+EN What is the meaning of this result?↓
+EN You have truly disappointed me...
+
+@ 2875.12
+JP いや～、うれしい。私は本当にうれしいです。
+JP こんな沢山のお客様と記念興行ができるなんて ！　（笑）↓
+JP 今日の大会は完璧です ！
+JP 選手一同に代わって感謝します。
+JP 本当にありがとう ！　（笑）
+EN Oh, I am happy. I am truly happy. To hold a memorial
+EN show with such a big crowd!↓
+EN Today's event was perfect! On behalf of all our
+EN fighters, thank you. Thank you so very much!
+
+@ 2875.15
+JP う～ん、 記念興行でこの結果は厳しいですね。　↓
+JP 命をかけて試合している選手達に申し訳ない。
+JP 残念です．．．。　（怒）
+EN Hmm, this result is tough to accept for a memorial
+EN show.↓
+EN I feel sorry for the fighters who put their lives on the
+EN line. Such a shame...
+
+@ 2875.16
+JP あらららら。 やってしまいましたね。
+JP こんな大舞台でこんなヒドイ結果になるとは．．．。　↓
+JP もうフォローしきれませんねえ．．．。　（怒）
+EN Oh dear, oh dear. You have done it now. Such a terrible
+EN result on such a big stage...↓
+EN I cannot cover for you any longer...
+
+@ 2875.18
+JP いや～、本当に素晴らしい興行でした ！
+JP 今回は過去最高の興行なんじゃないですかねえ。　（笑）↓
+JP 試合の評判もいいですし、
+JP あなたのおかげですね～。
+JP はい。　（笑）
+EN Oh, what a truly wonderful show! This may well be our
+EN best show ever.↓
+EN The fights are getting rave reviews, and it is all
+EN thanks to you. Yes.
+
+@ 2875.20
+JP なるほど、 こういう結果になりましたか．．．。　↓
+JP 興行というものは本当に難しいものなんです ！　↓
+JP 今回はそのことが身にしみて感じることができましたね。
+EN I see, so this is how it turned out...↓
+EN Promoting a show really is a difficult thing!↓
+EN This time, I think you have learned that firsthand.
+
+@ 2875.22
+JP まずいですねえ。 非常にまずいですねえ。
+JP 代表の期待に答えられないとは．．．。　↓
+JP もうフォローしきれませんねえ．．．。　（怒）
+EN This is bad. This is very bad. To fail to meet the
+EN director's expectations...↓
+EN I cannot cover for you any longer...
+
+@ 2877.0 also 2878.0 2884.0
+JP 何が聞きたいんだ ？
+JP 言ってみろ ！
+EN What do you want to know? Spit it out!
+
+@ 2877.1 also 2878.1 2884.1
+JP うんうん。
+JP 何が聞きたいんだい ？　（笑）（藤波）
+EN Yeah, yeah. What would you like to know?
+
+@ 2877.2 also 2878.2 2884.2
+JP おいっ ！　よく聞け ！　↓
+JP マッチメイクは俺みたいな<人気の高いレスラー>ほど、
+JP 後ろの試合に組むんだ ！　↓
+JP これは基本だ ！　オラッ、 エーッ ！　（気）
+EN Hey! Listen up!↓
+EN In matchmaking, the more <popular a wrestler> is, like me,
+EN the later in the card he goes!↓
+EN That's the basics! Orah! Yeah!
+
+@ 2877.3 also 2878.3 2884.3
+JP 実力差がありすぎる選手同士のシングルマッチを
+JP 組むのはやめとけ。　↓
+JP 結果が最初から見えているようなカードじゃあ
+JP 面白くないからな ！　↓
+JP 分かったか ！
+JP オラッ、 エーッ ！　（気）
+EN Don't book singles matches between wrestlers whose
+EN skill levels are miles apart.↓
+EN A card where you know the result from the start is no
+EN fun!↓
+EN Got it? Orah! Yeah!
+
+@ 2877.4 also 2878.4 2884.4
+JP タイトルマッチだからといって、
+JP 別にメインイベントに組む必要はないぞ。　↓
+JP タイトルマッチ以上にいいカードを組めるんだったら、
+JP そのカードをメインに組んだ方がいいからな。　↓
+JP 頼むぞ ！
+JP オラッ、 エーッ ！　（気）
+EN Just because it's a title match doesn't mean it has to
+EN be the main event.↓
+EN If you can book a better card than the title match, put
+EN that one on top instead.↓
+EN Counting on you! Orah! Yeah!
+
+@ 2877.5 also 2878.5 2884.5
+JP <以前組んだ対戦カードと同じカードは組むんじゃないぞ。>　↓
+JP 今まで組んだことの無い、
+JP 新鮮なカードを組まなきゃダメだ ！　↓
+JP 絶対に忘れんな ！　
+JP エーッ ！　（気）
+EN <Don't book a match card you've already booked before.>↓
+EN You've got to book fresh cards that have never been
+EN done!↓
+EN Don't you ever forget it! Yeah!
+
+@ 2877.6 also 2878.6 2884.6
+JP <団体対抗戦>っていうのはな、
+JP 観客動員数を大きく増やすことができる要素だから
+JP 必ず組むんだぞ ！　↓
+JP <新日本の選手> 対 <他団体の選手>という形式のカード
+JP にすれば対抗戦となる。　↓
+JP フリーの選手と新日本の選手を当てても対抗戦に
+JP ならないから気をつけろ ！　（気）
+EN <Inter-promotional matches> can seriously boost
+EN attendance, so always book some!↓
+EN A card of <a New Japan wrestler> vs.
+EN <a wrestler from another promotion> makes it
+EN inter-promotional.↓
+EN Careful: putting a freelancer against a New Japan
+EN wrestler doesn't count!
+
+@ 2877.7 also 2878.7 2884.7
+JP タイトルを持っている選手には、
+JP なるべくタイトルマッチを組んでやるんだ ！　↓
+JP やっぱり客は、 タイトルマッチを見たがるからな。　↓
+JP ただし、 タイトルマッチにふさわしいカードじゃなきゃ、
+JP 意味がないぞ ！　↓
+JP 分かったか ？
+JP オラッ、 エーッ ！　（気）
+EN Give the wrestlers who hold titles a title match
+EN whenever you can!↓
+EN The fans always want to see title matches.↓
+EN But it means nothing unless the card is worthy of a
+EN title match!↓
+EN Got it? Orah! Yeah!
+
+@ 2877.8 also 2878.8 2884.8
+JP おいっ！
+JP 大事な事を教えてやるから、良く聞け ！（気）↓
+JP <今回の興行には選手を全員使う必要はない。>↓
+JP 気持ち的には全員に出てほしいんだが、
+JP 年に数回しかない大事な興行だからな．．．。　↓
+JP ファンが見たい試合を優先して提供するんだ ！　↓
+JP 興行の成功はお前にかかっているぞ ！
+JP カマンッ ！　（気）
+EN Hey! I'm going to tell you something important, so
+EN listen up!↓
+EN <You don't have to use every wrestler on this show.>↓
+EN I'd like everyone to wrestle, but this is a big show
+EN that only happens a few times a year...↓
+EN Give the fans the matches they want to see first!↓
+EN The success of this show is on you! C'mon!
+
+@ 2877.9 also 2878.9 2884.9
+JP 今回採用した<ULTIMATE　CRUSHルール>とは、
+JP 顔面へのパンチやチョーク攻撃が許される
+JP かなりハードな総合格闘技ルールなんだよ。　↓
+JP このルールで組む試合には、
+JP なるべく総合格闘技の経験のある格闘系の選手を
+JP 出した方がいいな。　↓
+JP レスラーを選択する画面でタイプを変えると、
+JP グローブをつけて現れる選手がいるから、
+JP なるべくそういう選手を出すんだ ！
+EN The <ULTIMATE CRUSH rules> we're using this time are
+EN pretty hard MMA rules that allow punches to the face
+EN and chokes.↓
+EN For matches under these rules, try to use fighters
+EN with MMA experience.↓
+EN Some wrestlers show up wearing gloves when you
+EN change their type on the wrestler select screen. Use
+EN them!
+
+@ 2877.10 also 2878.10 2884.10
+JP メインイベントには最後を締めるのにふさわしい、
+JP うちのトップの選手を出すんだぞ。　↓
+JP やっぱり興行の締めには、
+JP 俺みたいなスター選手を見たいだろうからな。　↓
+JP 分かったか ！ ？
+JP エーッ ！　（気）
+EN Put one of our top guys in the main event, someone fit
+EN to close the show.↓
+EN At the end of a show, everybody wants to see a star
+EN like me.↓
+EN Got it?! Yeah!
+
+@ 2877.11 also 2878.11 2884.11
+JP どんな対戦カードを組めば名勝負が生まれるか ？　↓
+JP これは、 ハッキリ言って、
+JP やってみなけりゃ分からないっていうのが本音だ。　↓
+JP しかし ！　↓
+JP これだけは確実に言える。　↓
+JP 実力の近い選手同士の試合。
+JP これはいい試合になる確率が高いぞ ！　↓
+JP しっかり、 覚えておけ！
+JP オラーッ、 エーッ ！　（気）
+EN What kind of card makes a classic match?↓
+EN Honestly, the truth is you don't know until you try.↓
+EN But!↓
+EN There's one thing I can tell you for sure.↓
+EN A match between wrestlers of similar skill has a good
+EN chance of being a great one!↓
+EN Remember that! Orah! Yeah!
+
+@ 2877.12 also 2878.12 2884.12
+JP 無我興行らしい、 卓越したグラウンドテクニックが
+JP 見せれるようなカードを組んでほしいね。
+JP うん。　（笑）（藤波）
+EN I'd like cards that show off superb ground technique,
+EN the way a Muga show should. Yeah.
+
+@ 2877.13 also 2878.13 2884.13
+JP タイトルマッチを組むときは、
+JP 赤コーナーをチャンピオン、
+JP 青コーナーを挑戦者にするんだぞ。　↓
+JP しっかり頭に叩き込んでおけよ！
+JP いいか ？ 分かったな ！　（気）
+EN When you book a title match, put the champion in the
+EN red corner and the challenger in the blue corner.↓
+EN Get that drilled into your head! Okay? Got it!
+
+@ 2877.14 also 2878.14 2884.14
+JP Ｕ－３０無差別級のタイトルマッチには
+JP 年齢が３０歳以下の選手しか挑戦できないんだ。　↓
+JP 当然俺のような３０歳を過ぎた選手は
+JP 挑戦できないから気をつけろ ！　（気）
+EN Only wrestlers aged 30 or under can challenge for the
+EN U-30 Openweight title.↓
+EN Naturally, guys over 30 like me can't challenge for it,
+EN so watch out!
+
+@ 2877.15 also 2878.15 2884.15
+JP 観客の満足度を得るにはどうしたらいいかって ？　↓
+JP 自分が新日本プロレスの観客だったら、
+JP どんな試合が面白いか、
+JP どんな試合が見たいかってことを考えるんだ ！　↓
+JP そうすれば自ずと答えは出るだろ。　↓
+JP よく考えてみろ ！
+JP オラッ、 エーッ ！　（気）
+EN How do you win over the crowd, you ask?↓
+EN Imagine you're a New Japan Pro-Wrestling fan. Think
+EN about what matches would be fun, and what matches
+EN you'd want to see!↓
+EN Do that and the answer will come to you.↓
+EN Think it over! Orah! Yeah!
+
+@ 2877.16 also 2878.16 2884.16
+JP しょうがねえ、
+JP 今回は特別に新日本プロレスのファンが
+JP どんなプロレスを求めているか教えてやろう。　↓
+JP 新日本プロレスのスタイルは
+JP 一般的には<ストロングスタイル>と言われている。　↓
+JP ストロングスタイルとはレスリングの技術をベースに、
+JP <投げ> ・ <打撃> ・ <関節技>といったあらゆる技を駆使して
+JP 試合を組み立て、　↓
+JP どんなスタイルの相手と対戦しても、
+JP 相手に合わせることができる
+JP 完全無欠のプロレスをすることだ ！　↓
+JP バーリトゥーダーとやろうが、
+JP キックボクサーとやろうが、 力士とやろうが
+JP 必ず勝つのがストロングスタイルなんだ ！　↓
+JP どうだ、 分かったか ！ ？
+JP エーッ、 コラッ ！　（気）
+EN Fine, just this once I'll tell you what kind of wrestling
+EN New Japan Pro-Wrestling fans want.↓
+EN New Japan's style is generally known as <Strong Style>.↓
+EN Strong Style means building matches on a base of
+EN wrestling, using every kind of technique: <throws>,
+EN <strikes>, <submissions>...↓
+EN ...and wrestling a flawless style that can adapt to any
+EN opponent, whatever their style!↓
+EN Vale Tudo fighter, kickboxer or sumo wrestler, Strong
+EN Style always wins!↓
+EN Well? Got it?! Yeah! You punk!
+
+@ 2877.17 also 2878.17 2884.17
+JP うちのプロレスは
+JP よく<”過激なプロレス”>っていう言い方をされているな。　↓
+JP 観客が見ていて血が騒ぐような、
+JP 危険な香りのする試合っていうことだな。　↓
+JP どんな試合をすれば
+JP 観客がエキサイトするかってことを考えれば、
+JP 自ずと答えは出るんじゃないか。　↓
+JP まあ、 お前の足りない頭で
+JP よーく、 考えてみるんだな。
+EN Our wrestling often gets called
+EN <"radical pro wrestling">.↓
+EN That means matches that get the fans' blood pumping,
+EN with a whiff of danger.↓
+EN Think about what kind of match gets the crowd
+EN excited, and the answer should come to you.↓
+EN Well, go think it over real hard with that little brain
+EN of yours.
+
+@ 2877.18 also 2878.18 2884.18
+JP うちの西村や藤波社長がやっている
+JP <”無我”>というプロレスのスタイルも
+JP ストロングスタイルの一部と言えるな。　↓
+JP <”無我”> スタイルを簡単に説明すると、
+JP 脚や腕などの関節の取り合いを中心とした、
+JP グラウンドテクニック重視のプロレスなんだ。　↓
+JP 一見地味なスタイルなんだが、
+JP そういう攻防を楽しむファンも結構多いから
+JP 侮っちゃダメだぞ。
+EN The <"Muga"> style that Nishimura and President
+EN Fujinami wrestle is also a part of Strong Style.↓
+EN Put simply, <"Muga"> is a ground-technique style built
+EN around fighting for the joints of the arms and legs.↓
+EN It looks plain at first, but plenty of fans love that
+EN kind of back-and-forth, so don't underestimate it.
+
+@ 2877.19 also 2878.19 2884.19
+JP プロレスっていうものはなあ、
+JP レフェリーが５カウント数える間なら
+JP 何をやっても許される特殊な競技なんだ。　↓
+JP そういう<ルールの盲点を突いた攻撃>っていうのもなあ、
+JP うちのファンには結構受けがいいんだよ。　↓
+JP これも覚えておけ ！　（気）
+EN Pro wrestling is a special sport where anything goes,
+EN as long as the referee is still counting to 5.↓
+EN Moves that <exploit blind spots in the rules> like that go
+EN over pretty well with our fans.↓
+EN Remember that too!
+
+@ 2877.20 also 2878.20 2884.20
+JP 試合を見ているファンの目を飽きさせちゃ駄目だ。 ↓
+JP 選手の動きが長く止まったり、
+JP ダラダラ続くような試合展開は止めてほしい。　↓
+JP まあ、 プロとしては当然だけどな。
+EN Don't let the fans watching get bored.↓
+EN No matches where the wrestlers stop moving for ages
+EN or just drag on and on.↓
+EN Well, any pro should know that.
+
+@ 2877.21 also 2878.21 2884.21
+JP プロレスっていうものはなあ、
+JP <技を受けて相手の良さを引き出す>ってことも
+JP 重要だということを覚えておけ ！　↓
+JP 自分ばかりいいカッコしようとしている奴は、
+JP プロレスラーとして失格だな。　↓
+JP 分かったか ？
+JP オラッ ！ エーッ ！　（気）
+EN In pro wrestling, remember it's also important to
+EN <take moves and bring out the best in your opponent>!↓
+EN A guy who only tries to make himself look good is a
+EN failure as a pro wrestler.↓
+EN Got it? Orah! Yeah!
+
+@ 2877.22 also 2878.22 2884.22
+JP 試合を決める<フィニッシュの仕方>にこだわることも
+JP プロレスラーとして大事なことだ。　↓
+JP 自分の得意とする流れにもっていき、
+JP <魂を込めた必殺技>で試合を決める。　↓
+JP そういう試合をしてくれたら、
+JP ファンも喜んでくれるんじゃないかな。
+EN Caring about <how you finish> a match is also important
+EN for a pro wrestler.↓
+EN Steer the match your way, and finish it with a
+EN <finisher full of soul>.↓
+EN Wrestle a match like that and the fans will love it.
+
+@ 2877.23 also 2878.23 2884.23
+JP 対抗戦に出る奴は必ず勝たなきゃ駄目だ。　↓
+JP 新日本のレスラーたるもの、
+JP 他団体の選手に負けることは絶対に許されない。　↓
+JP それが<ストロングスタイル>の掟だ。　↓
+JP 分かったか ！
+JP オラッ ！ エーッ ！　（気）
+EN Anyone in an inter-promotional match has got to win.↓
+EN A New Japan wrestler is never allowed to lose to a
+EN wrestler from another promotion.↓
+EN That's the law of <Strong Style>.↓
+EN Got it? Orah! Yeah!
+
+@ 2877.24 also 2878.24 2884.24
+JP <ストロングスタイル>っていうのは、
+JP レスリングが基本にあるもんなんだ。↓
+JP だから、 <関節技>や<絞め技>といったグラウンド技術と
+JP 相手の両肩をマットにつけて３カウントフォールを狙う、
+JP <丸め込み>の技術が重視されるんだ。↓
+JP ちゃんとメモしておけよ ！
+JP いいか ！ ？　（気）
+EN <Strong Style> is built on a base of wrestling.↓
+EN So it values ground skills like <submissions> and <chokes>,
+EN and the skill of <rolling up> your man to pin both
+EN shoulders for 3.↓
+EN Write that down! Okay?!
+
+@ 2877.25 also 2878.25 2884.25
+JP お客さんは<”無我”>のプロレスを見に来ているんです ！　（気）（藤波）↓
+JP やっぱり、 <”無我”>らしいグラウンド技術中心のプロレスを
+JP 選手達にやってほしいと思います。　（笑）（藤波）
+EN The fans come to see <"Muga"> wrestling!↓
+EN I really want the wrestlers to wrestle ground-based
+EN matches, the way <"Muga"> should be.
+
+@ 2877.26 also 2878.26 2884.26
+JP プロレスラーたるもの、
+JP <必殺技>は大事に使わなきゃダメだ。　↓
+JP いつでもどこでも乱発していたら、
+JP その<必殺技>の価値は下がっちまうからな。　↓
+JP ここぞって時に豪快に決めて、
+JP 勝利をもぎ取ることができれば、
+JP それこそが本当の<必殺技>と言えるだろうな。
+EN A pro wrestler has to use his <finisher> with care.↓
+EN Throw it out anytime, anywhere, and that <finisher> loses
+EN its value.↓
+EN Hit it big at the decisive moment and snatch the win.
+EN That's a true <finisher>.
+
+@ 2877.27 also 2878.27 2884.27
+JP <ULTIMATE　CRUSHルール>の試合に出る選手には、
+JP バーリトゥードの試合だからといって、
+JP ルールに縛られないでほしいな。　↓
+JP ここは新日本プロレスのリングなんだ。　↓
+JP 変にルールを意識せず、
+JP 普段通りの自分のスタイルを出していった方が
+JP ファンも喜んでくれるだろ。　↓
+JP ただし、 やるからには必ず勝てよ。　↓
+JP それがストロングスタイルだ ！
+JP いいか ！ ？　（気）
+EN For the wrestlers in <ULTIMATE CRUSH rules> matches:
+EN just because it's Vale Tudo, don't get hung up on the
+EN rules.↓
+EN This is the New Japan Pro-Wrestling ring.↓
+EN Forget the rules and wrestle your usual style. The
+EN fans will love it more.↓
+EN But if you're doing it, you'd better win.↓
+EN That's Strong Style! Okay?!
+
+@ 2877.28 also 2878.28 2884.28
+JP マッチメイク時に △ を押すと、
+JP 対戦カードを自動的に設定することができる。　↓
+JP 絶対に忘れんじゃねえぞ ！　（気）
+EN Press △ while matchmaking to set up the match cards
+EN automatically.↓
+EN Don't you ever forget it!
+
+@ 2877.29 also 2878.29 2884.29
+JP レスラーを選択する画面で □ を押すと、
+JP そのレスラーの人気と階級と
+JP 所有しているタイトルが確認できる。　↓
+JP マッチメイクの時、参考にしろ ！
+JP いいか ！　（気）
+EN Press □ on the wrestler select screen to check that
+EN wrestler's popularity, weight class and titles.↓
+EN Use it when you do your matchmaking! Okay!
+
+@ 2877.30 also 2878.30 2884.30
+JP <興行情報>は必ず確認しろ。　↓
+JP 特に<マッチメイクルール>には絶対服従だからな。　↓
+JP 必ず見ろよ ！ （気）
+EN Always check the <Show Info>.↓
+EN Especially the <Match Rules>. You obey those, no matter
+EN what.↓
+EN Make sure you look!
+
+@ 2877.31 also 2878.31 2884.31
+JP 当たり前のことなんだが、
+JP 選手の<人気>っていうのはな、
+JP 観客動員数に影響する大事な要素なんだ。　↓
+JP だから、 選手１人１人の人気は
+JP なるべく把握しておいた方がいいな。　↓
+JP あと、 選手の人気は試合の勝敗や試合内容によって
+JP 増減するから、 気をつけるんだ ！
+JP 分かったか ！ ？　（気）
+EN It's obvious, but a wrestler's <popularity> is a big
+EN factor in attendance.↓
+EN So try to keep track of each wrestler's popularity.↓
+EN And popularity goes up and down with wins, losses and
+EN how good the matches are, so watch out! Got it?!
+
+@ 2877.32 also 2878.32 2884.32
+JP 前回の興行で組んだ対戦カードや
+JP 観客動員数をチェックしたい場合は、
+JP <興行記録>の中の<過去の興行>を選ぶんだ ！　↓
+JP しっかり目に焼きつけるんだぞ ！
+EN To check the cards and attendance of your last shows,
+EN choose <Past Shows> under <Show Records>!↓
+EN Burn it into your memory!
+
+@ 2877.33 also 2878.33 2884.33
+JP お客さんには、 新日本での試合の裏には
+JP このような素晴らしいテクニックで成立している
+JP ということを、 知ってもらいたいんです ！　（気）（藤波）
+EN I want the fans to know that behind the matches in New
+EN Japan, there's wonderful technique like this holding it
+EN all up!
+
+@ 2877.34 also 2878.34 2884.34
+JP 分かりやすいように、
+JP うちのチャンピオンの名前をレスラー選択画面で
+JP <黄色い文字>に変えておいてやったぞ。　↓
+JP 俺からのささやかな心遣いだ。 （笑）↓
+JP うれしく思え ！
+JP オラッ、 エーッ ！　（気）
+EN To make things easy, I changed our champions' names to
+EN <yellow letters> on the wrestler select screen.↓
+EN Just a little favor from me.↓
+EN Be grateful! Orah! Yeah!
+
+@ 2877.35 also 2878.35 2884.35
+JP 選手の<階級>はタイトルマッチをマッチメイクする時に
+JP 関係してくる大事な要素だ。　↓
+JP 階級がジュニアヘビー級の選手は、
+JP ヘビー級のベルトには挑戦できず、　↓
+JP 階級がヘビー級の選手は
+JP ジュニアヘビー級のベルトには挑戦できない。　↓
+JP ただし、 階級がフリーの選手は
+JP どの階級のベルトにも挑戦できる。　↓
+JP それと、 階級が表記されていないタッグベルトには
+JP どの階級の選手でも挑戦できる。　↓
+JP これも頭に入れておけ ！　（気）
+EN A wrestler's <weight class> matters a lot when you book
+EN title matches.↓
+EN Junior Heavyweight wrestlers can't challenge for
+EN Heavyweight belts,↓
+EN and Heavyweight wrestlers can't challenge for Junior
+EN Heavyweight belts.↓
+EN But Freelance wrestlers can challenge for a belt in
+EN any weight class.↓
+EN And tag belts with no weight class shown are open to
+EN wrestlers of any class.↓
+EN Get that into your head too!
+
+@ 2877.36 also 2878.36 2884.36
+JP 欠場している選手もいるから気をつけろ ！　↓
+JP 欠場している選手はマッチメイクを組めないし、
+JP レスラー情報も見れないからな。　↓
+JP 俺だってスーパーマンじゃないんだから、
+JP 怪我することだってあるんだ ！　
+JP 分かったか、 エーッ ！ （気）
+EN Watch out, some wrestlers are out injured!↓
+EN You can't book wrestlers who are sidelined, and you
+EN can't see their wrestler info either.↓
+EN Even I'm not Superman. I get hurt sometimes too! Got
+EN it? Yeah!
+
+@ 2879.0
+JP うん。
+JP 何を説明しようか ？
+EN Yeah. What should I explain?
+
+@ 2879.1
+JP はい。
+JP 何でしょう ？　（井上）
+EN Yes, sir. What is it?
+
+@ 2879.2
+JP う～ん、 とりあえずマッチメイクする時に
+JP 気をつけてほしいことを言おうかな。　↓
+JP まあ、 なるべくでいいんだけど、
+JP <人気の高い選手>ほど、
+JP 後の試合に組んでほしいよね。　↓
+JP 興行が徐々に盛り上がっていく感じが理想かな。
+EN Hmm, I guess I'll tell you what to watch out for when
+EN you book.↓
+EN Well, as far as you can, put <the more popular wrestlers>
+EN in the later matches.↓
+EN Ideally, the show should build up bit by bit.
+
+@ 2879.3
+JP あとは．．．
+JP 実力差がありすぎる選手同士のシングルマッチを
+JP 組むのは止めといた方がいいと思うよね。　↓
+JP 結果が最初から見え見えのカードじゃあ
+JP ちょっと<アレ>っていうのもあるからね。
+EN And also... I'd steer clear of singles matches between
+EN wrestlers whose skill is too far apart.↓
+EN A card where the result is obvious from the start is a
+EN bit <you-know-what>.
+
+@ 2879.4
+JP タイトルマッチを組む場合、
+JP 本来ならメインイベントにもっていくべきだとは思うけど、　↓
+JP タイトルマッチ以上にいいカード、
+JP つまりファンが望むカードを組むことができるなら、
+JP そのカードをメインに組んでもいいと思うよ。　↓
+JP とにかく、 ファンが見たいと思うカードほど
+JP 後にもってくるっていうことが重要かな。
+EN When you book a title match, normally I think it should
+EN go in the main event, but...↓
+EN if you can put together a card that's better than the
+EN title match - one the fans want more - it's fine to
+EN make that the main event.↓
+EN Anyway, the key is to put the cards the fans want to
+EN see most toward the end.
+
+@ 2879.5
+JP <以前組んだカードと同じカードは組んでほしくない>よね。　↓
+JP なるべくなら、 今まで組んだことの無い、
+JP 新鮮なカードを組んでほしいよね。
+EN I'd rather you
+EN <didn't book the same cards you've booked before>.↓
+EN As far as you can, book fresh cards you've never done
+EN before.
+
+@ 2879.6
+JP ぶっちゃけ、 <団体対抗戦>を組むと、
+JP 今までノアを見たことのないような、
+JP 他団体のファンも会場に来てくれるから、　↓
+JP 組めるなら組んでほしいよね。　↓
+JP <他団体の選手> 対 <ノアの選手>という形式のカード
+JP にすれば団体対抗戦なるからね。　↓
+JP フリーの選手とノアの選手を当てても対抗戦に
+JP ならないから気をつけてほしいよね。
+EN Honestly, if you book <inter-promotional matches>, fans
+EN of other promotions who've never seen NOAH show up
+EN too,↓
+EN so book them if you can.↓
+EN A card of <a wrestler from another promotion> vs.
+EN <a NOAH wrestler> makes it an inter-promotional match.↓
+EN Putting a Freelance wrestler against a NOAH
+EN wrestler doesn't count, so be careful.
+
+@ 2879.7
+JP タイトルを持っている選手には
+JP なるべくタイトルマッチを組んであげた方がいいよね。　↓
+JP 俺がファンだったら、
+JP タイトルマッチを見たいと思うからね。　↓
+JP ただし、
+JP タイトルマッチにふさわしいカードを
+JP 組んでほしいよね。
+EN It's best to give title holders title matches when you
+EN can.↓
+EN If I were a fan, I'd want to see title matches.↓
+EN But make sure the card is worthy of a title match.
+
+@ 2879.8
+JP ＧＨＣタイトルへの挑戦者には、
+JP 挑戦者として恥ずかしくない実力と人気を
+JP 兼ね備えた選手を選んでほしいよね。　↓
+JP <”崇高なる王者”>への挑戦だからね。　↓
+JP 誰でも挑戦できたらおかしいよね。　（笑）
+EN For a GHC title challenger, pick a wrestler with the
+EN skill and popularity to be a respectable challenger.↓
+EN They're challenging the <"Sublime Champion"> after all.↓
+EN It'd be weird if just anyone could challenge.
+
+@ 2879.9
+JP うちのファンが見たいカードは
+JP いい試合が期待できるカードだと思うよね。　↓
+JP まあ、 それを知るためにはうちの選手のことを
+JP よく研究してほしいよね。
+EN I think the cards our fans want to see are the ones
+EN that promise a good match.↓
+EN Well, to figure those out, you'll have to study our
+EN wrestlers closely.
+
+@ 2879.10
+JP メインイベント、
+JP つまり興行の一番最後の試合には
+JP うちの<一番人気の選手>を出してほしいよね。　↓
+JP 最後に盛り上がった方が興行的にも締まるからね。　↓
+JP やっぱり、
+JP <締まり>は重要だからね。　（笑）
+EN For the main event - the very last match of the show
+EN - put out our <most popular wrestler>.↓
+EN Ending on a high note wraps up the show nicely.↓
+EN After all, a good <finish> matters.
+
+@ 2879.11
+JP ぶっちゃけ、 いい試合が期待できるカードっていうのは、
+JP <実力が近い者同士>の対戦だと思うよね。　↓
+JP まあ、 分かっているとは思うけど、
+JP 一応ね。
+EN Honestly, I think the cards that promise a good match
+EN are <wrestlers close in skill> facing each other.↓
+EN Well, I'm sure you know that, but just in case.
+
+@ 2879.12
+JP アドバイスなんて、 めっそうもございませんよ。　（井上）↓
+JP もう本当、 あなたの思うがまま、
+JP 自由に組んじゃっていいですから。　（井上）↓
+JP そういうことなんで、
+JP どうか、 よろしくお願いしますよ。　（井上）
+EN Advice? Oh, I wouldn't dream of it, sir.↓
+EN Really, book it however you like. Total freedom.↓
+EN So, please, I'm counting on you.
+
+@ 2879.13
+JP しつこいですね～。　（井上）↓
+JP アドバイスなんて、
+JP 無理って言ってるじゃないですか ！　（井上）↓
+JP 無理、 無理、 無理～ ！　（怒）（井上）
+EN You're persistent, aren't you!↓
+EN I told you, advice is impossible!↓
+EN No way, no way, no waaay!
+
+@ 2879.14
+JP タイトルマッチのカードを組みたい場合は、
+JP 赤コーナーをチャンピオン、
+JP 青コーナーを挑戦者にしなきゃダメだよね。　↓
+JP 結構大事なことだから、
+JP しっかり覚えていてほしいよね。
+EN When you want to book a title match, you have to put
+EN the champion in the red corner and the challenger in
+EN the blue corner.↓
+EN It's pretty important, so remember it well.
+
+@ 2879.15
+JP ハッキリ言って、 うちのファンの目は厳しいよね。　↓
+JP それでね、
+JP 選手達がうちのリングで試合をする時は、
+JP 次の２点のことを心がけてほしいよね。　↓
+JP １つ目はあたりまえなんだけど、
+JP <いい試合をする>こと。　↓
+JP もうひとつはプロレスにしかできない
+JP <お客さんが驚くような動きをする>こと。　↓
+JP とりあえず、 この２つのことは
+JP 最低限、 意識してほしいよね。
+EN To be blunt, our fans have sharp eyes.↓
+EN So when wrestlers fight in our ring, I want them to
+EN keep 2 things in mind.↓
+EN The first is obvious: <have a good match>.↓
+EN The other is <moves that amaze the crowd>, the kind only
+EN pro wrestling can do.↓
+EN Anyway, at the very least, keep those 2 things in mind.
+
+@ 2879.16
+JP ファンに納得してもらうためにも、
+JP 決着はリングの中で決めてほしいよね。　↓
+JP まあ、 これは最低限のルールだと思うよ。
+EN To satisfy the fans, the match should be decided inside
+EN the ring.↓
+EN Well, I think that's the bare minimum rule.
+
+@ 2879.17
+JP ファンがどんな試合を求めているかってことは、
+JP なかなか難しい問題だよね。　↓
+JP 俺が個人的に思うことは、
+JP どんな状況でも<白熱したいい試合>をすれば、
+JP お客さんは満足してくれると思うよね。　↓
+JP 試合に負けそうになっても、
+JP 決して諦めずに向かっていくような姿勢をみせることで、
+JP お客さんは感動してくれんじゃないかな。　↓
+JP 基本的に選手達には自由にやらせてるけど、
+JP そういう意識をもって試合をしてほしいよね。
+EN What kind of match the fans want is a pretty tough
+EN question.↓
+EN Personally, I think if you have a <heated, good match> no
+EN matter what, the crowd will be satisfied.↓
+EN Even when you're about to lose, showing you never
+EN give up and keep coming will move the crowd, I think.↓
+EN Basically I let the wrestlers do as they like, but I want
+EN them to wrestle with that mindset.
+
+@ 2879.18
+JP うちのプロレスっていうのは、
+JP <技を受けて相手の良さを引き出す>ってことが
+JP かなり重要な要素になるんだよね。　↓
+JP 自分ばかり目立とうとする選手には、
+JP ハッキリ言って、 なってほしくないよね。　
+EN In our style of wrestling,
+EN <taking moves to bring out your opponent's best> is a
+EN really important part.↓
+EN To be blunt, I don't want wrestlers who only try to
+EN make themselves look good.
+
+@ 2879.19
+JP うちの選手はみんな受身が上手いよね。　↓
+JP だから、 その受身の技術を披露できるような
+JP 試合展開があるといいんじゃないかなあ。　↓
+JP チャンスがあれば、 多少<危険な技>をかけても
+JP いいと思うよ。　↓
+JP あとはリング内外問わず、
+JP <会場の至る所を利用した技>をやると
+JP お客さんは驚いてくれると思うよね。　↓
+JP まあ、 とにかくプロレスにしかできない動きや
+JP 攻防があるとお客さんは満足するんじゃないのかな。
+EN All our guys are great at taking bumps.↓
+EN So it'd be good to have matches where they can show
+EN off that skill.↓
+EN If there's a chance, it's fine to use some
+EN <dangerous moves>.↓
+EN Also, in the ring or out of it,
+EN <moves that use every part of the venue> will amaze the
+EN crowd.↓
+EN Well, anyway, the crowd is happy when there are moves
+EN and exchanges only pro wrestling can do.
+
+@ 2879.20
+JP 試合の決め方にこだわるってことは、
+JP プロレスラーとしては大事なことだよね。　↓
+JP 自分の得意とする流れにもっていき、
+JP <魂を込めた必殺技>で試合を決めると、
+JP きっとお客さんは喜ぶよね。
+EN Caring about how you finish a match is important for a
+EN pro wrestler.↓
+EN Steer the match your way and win it with a
+EN <finisher full of soul>, and the crowd will love it.
+
+@ 2879.21
+JP お客さんが見ていて驚くような
+JP <派手な技>っていうのも結構大事だよね。　↓
+JP プロレスっていうのは、
+JP やっちゃ駄目っていう制限が少ない競技だからね。　↓
+JP ポストから飛んでもいいし、
+JP 場外へ相手を投げたりすることも可能だよね。　
+EN <Flashy moves> that surprise the crowd matter a lot too.↓
+EN Pro wrestling is a sport with few limits on what you
+EN can't do.↓
+EN You can fly off the top rope, or even throw your
+EN opponent to the floor.
+
+@ 2879.22
+JP 対抗戦に出る選手には、
+JP なんとしても勝ってほしいよね。　↓
+JP まあ、 それ以上にいい試合をするってことが
+JP 大事なんだけどね。　↓
+JP でも、 気持ち的には勝ってうちのファンに
+JP 喜んでほしいよね。
+EN I want the wrestlers in inter-promotional matches to
+EN win, no matter what.↓
+EN Well, having a good match matters even more than
+EN that.↓
+EN But in my heart, I want them to win and make our fans
+EN happy.
+
+@ 2879.23
+JP 試合中、 自分だけ目立とうとすることは
+JP あんまりやってほしくないよね。　↓
+JP 楽しいプロレスっていうのはありだけど、
+JP 自己満足でやっているような試合は
+JP ハッキリ言って、 好きじゃないよね。
+EN I'd rather wrestlers didn't try to hog the spotlight
+EN during a match.↓
+EN Fun wrestling is fine, but to be blunt, I don't like
+EN self-indulgent matches.
+
+@ 2879.24
+JP そうですね～。
+JP 選手会興行ですからね～。　（井上）↓
+JP とりあえず、 普段あまり見れないような
+JP カードと試合内容にしてもいいと思いますよ。　（井上）↓
+JP いつもと一味違う楽しい雰囲気になるような
+JP 興行を目指してほしいですね～。　（井上）
+EN Let me see... It's the Wrestlers' Association Show,
+EN after all.↓
+EN I think it's fine to go with cards and matches you don't
+EN usually get to see.↓
+EN Aim for a show with a fun mood that's a little
+EN different from usual!
+
+@ 2879.25
+JP 基本的には選手には自由にやってもらっているけど、
+JP 最低限のことは守って試合してほしいよね。　↓
+JP 今流行の総合格闘技の真似事をしたり、
+JP 凶器攻撃で試合を滅茶苦茶にしたりするような行為は
+JP あまりやってほしくないよね。　↓
+JP プロレスラーにしか出来ない技と技術を使って
+JP 試合をやる方が、 やっぱカッコいいと思うし、
+JP ファンもそれを望んでいると思うよ。
+EN Basically I let the wrestlers do as they like, but they
+EN should follow the bare minimum.↓
+EN Copying the MMA that's trendy these days, or wrecking
+EN a match with weapon attacks, isn't something I want to
+EN see.↓
+EN Using moves and skills only a pro wrestler can pull off
+EN is way cooler, and I think that's what the fans want.
+
+@ 2879.26
+JP マッチメイクの時に △ を押すと、
+JP 対戦カードを自動的に設定することができるんだよね。　↓
+JP とりあえずその機能を使ってカードを組んでから、
+JP 変更を加えてマッチメイクしてもいいんじゃない ？
+EN Press △ while matchmaking and the cards are set
+EN automatically.↓
+EN Why not build a card with that first, then tweak it?
+
+@ 2879.27
+JP レスラーを選択する画面で □ を押すと、
+JP そのレスラーの人気 ・ 階級 ・ 所有タイトルが確認できる。　↓
+JP マッチメイクの時に参考になるから、
+JP とりあえず確認してほしいよね。
+EN Press □ on the wrestler select screen to see that
+EN wrestler's popularity, weight class and titles held.↓
+EN It helps with matchmaking, so take a look.
+
+@ 2879.28
+JP <興行情報>は必ず見ておいてほしいよね。　↓
+JP この中の<マッチメイクルール>は絶対厳守だから、
+JP 必ず確認してほしいよね。
+EN Be sure to look at the <Show Info>.↓
+EN The <Match Rules> in there must be followed, so always
+EN check them.
+
+@ 2879.29
+JP 選手の<人気>は直接観客動員数に影響する大事な
+JP 要素だから、 常にチェックしておいた方がいいよね。　↓
+JP あと、 選手の人気は試合の勝敗や試合内容によって
+JP 増減するってことも、 覚えておいてほしいよね。
+EN A wrestler's <popularity> directly affects attendance, so
+EN keep an eye on it.↓
+EN Also remember that popularity goes up and down with
+EN wins, losses and how good the matches are.
+
+@ 2879.30
+JP 前回の興行で組んだ対戦カードや
+JP 観客動員数をチェックしたい場合は、
+JP <興行記録>の中の<過去の興行>を選べばいいよ。
+EN To check the match cards or attendance of past shows,
+EN choose <Past Shows> under <Show Records>.
+
+@ 2879.31
+JP うちは新聞に載るような大きな話題は少ないけど、
+JP <生>で見に来ているファンに喜んでもらえるような
+JP 試合内容で勝負したいよね。　↓
+JP やっぱり、 <生>はいいよね。
+JP 最高だよね。　（笑）
+EN We don't get many big headlines in the papers, but we
+EN want to win people over with matches that please the
+EN fans who come <live>.↓
+EN Yeah, <live> is the best. Really the best.
+
+@ 2879.32
+JP アドバイスなんて、 めっそうもございませんよ。　（井上）↓
+JP もう本当、 自由に組んじゃっていいですから。
+JP どうか、 よろしくお願いしますよ。　（井上）
+EN Advice? Oh, I wouldn't dream of it, sir.↓
+EN Really, book it however you like. Please, I'm counting
+EN on you.
+
+@ 2879.33
+JP しつこいですね～。　（井上）↓
+JP アドバイスなんて、
+JP 無理って言ってるじゃないですか～ ！　（怒）（井上）
+EN You're persistent, aren't you!↓
+EN I told you, advice is impossible!
+
+@ 2879.34
+JP 分かりやすいように、 レスラー選択画面で
+JP ベルトを持つチャンピオンの名前を
+JP <黄色い文字>に変えておいたからね。　↓
+JP それを参考にして<アレ>してほしいよね。
+EN To make it easy, I've turned the names of belt-holding
+EN champions on the wrestler select screen <yellow>.↓
+EN Use that as a guide and, you know... <do the thing>.
+
+@ 2879.35
+JP 選手の<階級>はタイトルマッチを組む時に
+JP 関係してくる大事な要素なんだよね。　↓
+JP 階級がジュニアヘビー級の選手は、
+JP ヘビー級のベルトには挑戦できず、　↓
+JP 階級がヘビー級の選手は
+JP ジュニアヘビー級のベルトには挑戦できないんだ。　↓
+JP ただし、 階級がフリーの選手は
+JP どの階級のベルトにも挑戦できるし、　↓
+JP 階級が表記されていないタッグベルトには
+JP どの階級の選手でも挑戦できるんだよね。　↓
+JP ちょっと複雑だけど、
+JP なるべく覚えておいてほしいよね。
+EN A wrestler's <weight class> matters when you book title
+EN matches.↓
+EN Junior Heavyweights can't challenge for heavyweight
+EN belts,↓
+EN and Heavyweights can't challenge for junior
+EN heavyweight belts.↓
+EN But Freelance wrestlers can challenge for a belt in
+EN any class,↓
+EN and wrestlers of any class can challenge for tag belts
+EN with no class listed.↓
+EN It's a bit complicated, but try to remember it.
+
+@ 2879.36
+JP マッチメイクする時に、
+JP 怪我や病気で試合に出られない選手は
+JP リストから外しているから気をつけてほしいよね。
+JP 
+EN When you book, wrestlers out with injuries or illness
+EN are taken off the list, so watch out for that.
+
+@ 2880.0
+JP 何だい ？
+JP 何でも聞いてくれよ。
+EN What's up? Ask me anything.
+
+@ 2880.1
+JP マッチメイクは<人気が高い選手>ほど、
+JP 後ろの試合に組むんだぞ。　↓
+JP これはマッチメイクの基本中の基本だからな。
+EN In matchmaking, the more <popular a wrestler> is, the
+EN later on the card his match goes.↓
+EN That's the most basic rule of matchmaking.
+
+@ 2880.2
+JP 実力差が離れすぎている選手同士のシングルマッチは
+JP 組まない方がいいと思うな。　↓
+JP 最初から結果が見え見えのカードじゃあさあ、
+JP お客さんの興味も半減するだろうからな。
+EN I'd stay away from singles matches between guys
+EN whose skill levels are way too far apart.↓
+EN If everyone knows the result from the start, the fans
+EN lose half their interest.
+
+@ 2880.3
+JP タイトルマッチを組む場合は、
+JP 別にメインイベントにしなくてもいいからな。　↓
+JP タイトルマッチ以上に魅力的なカードを組めるんだったら、
+JP そっちのカードをメインに組んだ方がいいよ。
+JP 
+EN When you book a title match, it doesn't have to be the
+EN main event.↓
+EN If you can put together a card that's more exciting
+EN than the title match, make that the main event instead.
+
+@ 2880.4
+JP <以前組んだカードと同じカードは組んじゃだめだぞ ！>　↓
+JP 今まで組んだことの無い、 新鮮なカードを頼むよ。　↓
+JP よろしく ！　（気）
+EN <Don't book the same card you've booked before!>↓
+EN Give me fresh cards that have never been put
+EN together.↓
+EN Later!
+
+@ 2880.5
+JP <団体対抗戦>を発表すると、
+JP 相手の団体のファンも多く来てくれるから、
+JP 必ず組んでくれよな。　↓
+JP <他団体の選手> 対 <全日本の選手>という形式のカード
+JP にすれば団体対抗戦になるから。　↓
+JP フリーの選手と全日本の選手を当てても対抗戦に
+JP ならないから気をつけてくれよな。
+EN Announce an <inter-promotional match> and lots of the
+EN other promotion's fans show up too, so make sure you
+EN book one.↓
+EN Make it a card of <other promotion's wrestler> vs.
+EN <All Japan wrestler> and it's an inter-promotional match.↓
+EN Putting a freelancer against an All Japan wrestler
+EN doesn't count as inter-promotional, so watch out.
+
+@ 2880.6
+JP タイトルを持っている選手には、
+JP なるべくタイトルマッチを組んでやった方がいいぞ。　↓
+JP タイトルマッチは特別な試合だから、
+JP それだけお客さんの注目も集まるからね。　↓
+JP 正直、 タイトルが懸かった試合だと、
+JP 俺もいつも以上に体が動いちゃうからね。　（笑）↓
+JP そういうことで、
+JP よろしく ！　（気）
+EN Try to give wrestlers who hold titles a title match.↓
+EN A title match is special, so it draws that much more
+EN attention from the fans.↓
+EN Honestly, when there's a title on the line, even I move
+EN better than usual.↓
+EN So yeah, I'm counting on you!
+
+@ 2880.7
+JP 参加人数が奇数になってしまった場合は、
+JP １試合だけトリプルスレッドマッチか
+JP ハンディキャップマッチを組めばいいぞ。　↓
+JP ジュニア３選手によるトリプルスレッドマッチや
+JP 大型外国人対ジュニア２人のハンディ戦なんて
+JP 結構面白いと思うぞ。
+EN If you end up with an odd number of wrestlers, book one
+EN Triple Threat Match or Handicap Match.↓
+EN A Triple Threat with 3 juniors, or a handicap match of
+EN a big foreigner vs. 2 juniors, could be pretty fun.
+
+@ 2880.8
+JP 今回は大物外国人選手とか、
+JP 他団体の選手もいろいろ出てもらうんだけどさあ。　↓
+JP 興行の締め、 つまりメインイベントには
+JP うちの選手が出る試合を組んでくれよな。　↓
+JP 当たり前のことだとは思うけど、
+JP 大事なことだからさあ、
+JP 頭に入れておいてくれよな。
+EN This time we've got big-name foreigners and lots of
+EN guys from other promotions coming in.↓
+EN But for the close of the show, the main event, give me
+EN a match with our own guys in it.↓
+EN It's kind of obvious, but it's important, so keep it in
+EN mind.
+
+@ 2880.9
+JP メインイベントには最後を締めるのにふさわしい、
+JP うちのトップスター選手を出してくれよな。　↓
+JP まあ、 俺が出れば間違いないだろうけどな。　（笑）
+EN For the main event, put out our top stars, guys fit to
+EN close the show.↓
+EN Well, if I'm in it, you can't go wrong.
+
+@ 2880.10
+JP いい試合が期待できるカードを組みたいなら、
+JP <実力が近い者同士>を対戦させればいいと思うよ。　↓
+JP 大体そういう奴等は、 ライバル意識があるから、
+JP 意地のぶつかり合いになって、
+JP 熱くていい試合になるんだよなあ。　↓
+JP まあ、 俺だったら蝶野とブッチャーの２人が
+JP 最高のライバルと言えるな。　（笑）
+EN If you want a card that promises a good match, I'd say
+EN pit <evenly matched> guys against each other.↓
+EN Guys like that usually see each other as rivals, so
+EN their pride clashes and you get a hot, great match.↓
+EN For me, Chono and Butcher are the best rivals there
+EN are.
+
+@ 2880.11
+JP <『 マッスル － １ 』>っていうのはさあ、
+JP 普段の全日本プロレスでは見れないような、
+JP 夢のような対戦カードを実現させる舞台なんだよ。　↓
+JP だからさあ、 ファンのみんなに夢を見せるためにも、
+JP 目を疑うような常識ハズレなカードを組めばいいんだ ！　↓
+JP 分かったな ！ ？　（気）
+EN <"Muscle-1"> is the stage for dream cards you'd never
+EN see on a regular All Japan show.↓
+EN So to give the fans a dream, book some crazy cards
+EN they won't believe their eyes at!↓
+EN Got it?!
+
+@ 2880.12
+JP タイトルマッチを組む場合は、
+JP 赤コーナーをチャンピオン、
+JP 青コーナーを挑戦者にしなきゃダメなんだ。　↓
+JP プロレスを愛しているなら、
+JP これくらい知っててもらわないと困るぞ。　↓
+JP よろしく ！　（気）
+EN When you book a title match, the champion has to be in
+EN the red corner and the challenger in the blue corner.↓
+EN If you love pro wrestling, you should know at least
+EN that much.↓
+EN Later!
+
+@ 2880.13
+JP 今の全日本プロレスのファンが
+JP どんな試合が見たいかって？　↓
+JP なかなか難しい問題ではあるけど、
+JP これだけは言えるよな。　↓
+JP 全日本は<プロレスらしいプロレス>を
+JP 売りにしていきたいってことだ。　↓
+JP 俺達は格闘家には真似することができない動きで、
+JP お客さんを魅了したい。　↓
+JP つまり俺達にしかできない、
+JP <プロフェッショナルなプロレス>を見せたいんだよ。　↓
+JP だから、 そんな俺達の一級品のプロレスを
+JP お客さんに見てほしいよな。
+EN What kind of matches do today's All Japan fans want to
+EN see?↓
+EN That's a tough one, but I can tell you this much.↓
+EN All Japan wants to sell
+EN <wrestling that feels like real pro wrestling>.↓
+EN We want to win fans over with moves martial artists
+EN could never copy.↓
+EN In other words, we want to show the
+EN <professional wrestling> only we can do.↓
+EN So I want the fans to see our first-class pro
+EN wrestling.
+
+@ 2880.14
+# [glossary-ok] dialogue wording
+JP 新生全日本プロレスの目指すプロレスは、
+JP お客さんが心から喜んでくれるような
+JP <一番プロレスらしいプロレス>だね。　↓
+JP ただ、 お客さんが喜んでくれるには
+JP どういう試合をすればいいかっていうのを
+JP 言葉で説明するのは難しいよな。　↓
+JP 俺が特に感じていることは、
+JP 全日本のお客さんっていうのは、
+JP 真面目に試合を見てくれる人達が多いから、　↓
+JP お互いの技を全て出し合って、
+JP 体力の続く限り戦い続けるような
+JP <身体を削った試合>は文句なしに受けるよね。　↓
+JP あとは、 全日本らしい<明るさ>というか、
+JP <華やかさ>が感じられる試合っていうのが
+JP 好まれるんじゃないのかなと思うんだよ。　↓
+JP とりあえず、 そんなとこかな。
+EN What the new All Japan aims for is
+EN <the most pro wrestling-like pro wrestling>, the kind
+EN that makes fans truly happy.↓
+EN But putting into words what kind of matches make the
+EN fans happy is tough.↓
+EN What I really feel is that a lot of All Japan fans watch
+EN matches seriously, so...↓
+EN <Grueling matches> where both guys throw everything
+EN they've got and fight as long as they can stand go
+EN over every time.↓
+EN Plus, I think they like matches with that All Japan
+EN <brightness>, that <flashiness>, you know.↓
+EN Anyway, that's about it.
+
+@ 2880.15
+JP 全日本らしい華やかなプロレスをするには、
+JP なるべく見た目が分かりやすい<派手な技>や
+JP 動きをしてほしいよな。　↓
+JP 地味でチマチマした技はお客さんが見ても
+JP 分かりづらいだろうから、
+JP 選手達にはあまり多用してほしくないな。
+EN To put on flashy All Japan-style wrestling, I want to
+EN see <big, showy moves> and action that's easy to follow.↓
+EN Dull little moves are hard for the fans to follow, so I'd
+EN rather the guys didn't use them much.
+
+@ 2880.16
+JP 試合の決着は、 お客さんが納得するように
+JP リングの中で着けてほしいよな。　↓
+JP まあ、 ハプニング的な試合を楽しむファンも
+JP 中にはいるみたいだけど、　↓
+JP 基本的には<３カウント>か<ギブアップ>で
+JP 完全決着をつけてほしいよな。
+EN I want matches decided in the ring, in a way that
+EN satisfies the fans.↓
+EN Well, some fans seem to enjoy matches where crazy
+EN stuff happens, but...↓
+EN Basically, I want a clean finish, by <3-count> or
+EN <submission>.
+
+@ 2880.17
+JP 俺達は一生懸命 <プロレスらしいプロレス> を
+JP お客さんに見せたいからさあ、　↓
+JP 他の団体みたいに中途半端に格闘技を
+JP 取り入れたような試合はやりたくねえんだよ。　↓
+JP そこを考えてほしいよな。
+EN We're working hard to show the fans
+EN <wrestling that feels like real pro wrestling>, so...↓
+EN We don't want matches that half-heartedly mix in MMA
+EN like other promotions do.↓
+EN Keep that in mind.
+
+@ 2880.18
+JP お客さんを楽しませるためには、
+JP ただ黙々と試合をこなすだけでなく、
+JP たまにファンに<アピール>することも必要だぞ。　↓
+JP まあ、 やりすぎるのもくどいだろうから、
+JP ここだっていうタイミングの時に
+JP カッコよくアピールするのが理想だな。　↓
+JP 俺みたいにな ！　（気）
+EN To entertain the fans, you can't just quietly grind
+EN through matches. Now and then you've gotta
+EN <play to the crowd>.↓
+EN Overdoing it gets old, though, so the ideal is to pose
+EN and look cool at just the right moment.↓
+EN Like me!
+
+@ 2880.19
+JP プロレスっていうのはさあ、
+JP <技を受けて相手の良さを引き出す>ってことが
+JP 重要っていう特殊な競技なわけなんだよ。　↓
+JP 自分だけカッコつけようとか、
+JP そういう風に選手には思ってほしくないよな。
+EN Pro wrestling is a special sport where it's important
+EN to <take the other guy's moves and bring out his best>.↓
+EN I don't want the guys thinking they should be the only
+EN one who looks cool.
+
+@ 2880.20
+JP 俺的には最もこだわっていることなんだけど、
+JP <試合の決め方>、 <終わらせ方>っていうものに
+JP 全日本の選手にはこだわってほしいよな。　↓
+JP 自分の得意とする流れにもっていき、
+JP <魂を込めた必殺技>で華麗に試合を決める。　↓
+JP こういうことにこだわることで、
+JP 見ている人の感動と興奮を呼ぶことが
+JP できるんじゃないかな。
+EN This is what I care about most: I want All Japan
+EN wrestlers to care about <how they win> and
+EN <how they end a match>.↓
+EN Steer the match into your own flow, then finish it in
+EN style with a <finisher full of soul>.↓
+EN I think caring about stuff like that is what thrills and
+EN moves the people watching.
+
+@ 2880.21
+JP 対抗戦に出る全日本の選手には、
+JP なんとかがんばって、 試合に勝ってほしいよな。　↓
+JP 団体のプライドがかかっている試合だからさあ。
+JP 無残な負け方だけはしてほしくないよな。
+EN I want All Japan wrestlers in inter-promotional
+EN matches to fight hard and win, somehow.↓
+EN Our promotion's pride is on the line. I just don't want to
+EN see them lose miserably.
+
+@ 2880.22
+# [glossary-ok] move/taunt name, "taunt" implied
+JP <『 マッスル－１ 』>が目指すプロレスは
+JP 一言で表すと<ファンタジーファイト>だな。　↓
+JP どんな試合をすればいいかを
+JP 一言で説明するのは難しいけど、↓
+JP とにかく普段プロレスを見ないような人達にも
+JP アピールするような試合っていうか、
+JP 分かりやすい試合をやってもらいたいよな。↓
+JP とにかく面白くて、 派手で、
+JP 楽しいプロレスをやってほしいね。
+EN In a word, the wrestling <"Muscle-1"> aims for is
+EN <fantasy fights>.↓
+EN It's hard to explain in a word what kind of matches you
+EN need, but...↓
+EN Basically, matches that appeal even to people who don't
+EN usually watch wrestling, matches anyone can follow.↓
+EN Just give me fun, flashy, entertaining wrestling.
+
+@ 2880.23
+JP マッチメイク時に △ を押すと、
+JP 対戦カードを自動的に設定することができる。　↓
+JP とりあえずそれを使ってカードを組んでから
+JP 変更を加えてやればいいんじゃないか。
+EN During matchmaking, press △ to set up the match
+EN cards automatically.↓
+EN You could use that to build the cards first, then make
+EN changes from there.
+
+@ 2880.24
+JP レスラーを選択する画面で □ を押すと、
+JP そのレスラーの人気 ・ 階級 ・ 所有タイトルが確認できる。　↓
+JP マッチメイクを組むときに参考になるから、
+JP 一応確認しといてくれよな。
+EN On the wrestler select screen, press □ to see a
+EN wrestler's popularity, weight class and titles held.↓
+EN It's handy for matchmaking, so take a look.
+
+@ 2880.25
+JP <興行情報>は必ず見ておいてくれよな。　↓
+JP 特に<マッチメイクルール>は絶対厳守だから、
+JP 注意してくれよ。
+EN Make sure you check the <Show Info>.↓
+EN The <Match Rules> especially have to be followed to the
+EN letter, so be careful.
+
+@ 2880.26
+JP 選手の<人気>は直接観客動員数に影響する大事な要素だ。
+JP １人１人の人気はなるべく把握しておいた方がいいぞ。　↓
+JP あと、 選手の人気は試合の勝敗や試合内容によって
+JP 増減するから、 気をつけてくれよ。
+EN A wrestler's <popularity> directly affects attendance.
+EN Try to keep track of each one's popularity.↓
+EN Also, popularity goes up and down with wins, losses and
+EN how good the matches are, so be careful.
+
+@ 2880.27
+JP 前回の興行で組んだ対戦カードや
+JP 観客動員数をチェックしたい場合は、
+JP <興行記録>の中の<過去の興行>を選べばいいんだ。
+EN To check the cards you booked or the attendance of
+EN past shows, go to <Show Records> and pick <Past Shows>.
+
+@ 2880.28
+JP 見やすいように、 レスラー選択画面で
+JP チャンピオンの名前を<黄色い文字>に
+JP 変えておいたぞ。　↓
+JP いろいろサポートしてやるから、
+JP しっかり興行を盛り上げてくれよな。
+EN To make it easier to see, I changed the champions'
+EN names to <yellow> on the wrestler select screen.↓
+EN I'll back you up all the way, so make this show a hit.
+
+@ 2880.29
+JP 選手の<階級>はタイトルマッチをマッチメイクする時に
+JP 関係してくる大事な要素なんだ。　↓
+JP 階級がジュニアヘビー級の選手は、
+JP ヘビー級のベルトには挑戦できなくて、　↓
+JP 階級がヘビー級の選手は
+JP ジュニアヘビー級のベルトには挑戦できない。　↓
+JP ただし、 階級がフリーの選手は
+JP どの階級のベルトにも挑戦できるし、　↓
+JP 階級が表記されていないタッグのベルトなんかには
+JP どの階級の選手でも挑戦できるんだよね。　↓
+JP ちょっと難しいかもしれないけど、
+JP 覚えておいてくれよな。
+EN A wrestler's <weight class> matters when you book title
+EN matches.↓
+EN Junior heavyweights can't challenge for heavyweight
+EN belts...↓
+EN ...and heavyweights can't challenge for junior
+EN heavyweight belts.↓
+EN But Freelance wrestlers can challenge for a belt in
+EN any weight class...↓
+EN ...and anyone can challenge for tag belts that don't
+EN list a weight class.↓
+EN It might be a bit tricky, but keep it in mind.
+
+@ 2880.30
+JP <『 マッスル － １ 』>の未来はお前にかかっているんだ。　↓
+JP お前ならやれる ！　↓
+JP よろしく頼むぞ ！　（気）
+EN The future of <"Muscle-1"> is in your hands.↓
+EN You can do it!↓
+EN I'm counting on you!
+
+@ 2880.31
+JP 怪我や病気で興行に出れない選手は
+JP マッチマイク時のレスラーリストから外しているから、
+JP 気をつけてほしいね。
+EN Wrestlers out with injuries or illness are taken off the
+EN wrestler list for matchmaking, so keep that in mind.
+
+@ 2881.0
+JP おう ！
+JP 何でも聞いてくれ ！
+EN Yo! Ask me anything!
+
+@ 2881.1
+JP マッチメイクする時は、 <人気の高い選手>ほど
+JP 後ろの試合に組むんやぞ ！　（気）↓
+JP つまり俺は毎回メインということやな。　↓
+JP がははははははは ！　（笑）
+EN When ya book the matches, put the
+EN <more popular wrestlers> later on the card!↓
+EN Which means I'm in the main event every time.↓
+EN Gahahahahaha!
+
+@ 2881.2
+JP 実力差がありすぎる選手同士のシングルマッチは
+JP 組まない方が利口やな。　↓
+JP 結果が最初から見え見えなカードじゃあ、
+JP うちの客は納得しないんや ！　（気）
+EN Smart move is not to book singles matches between
+EN guys whose skill is way too far apart.↓
+EN If everybody can see how it ends from the start, our
+EN fans ain't gonna buy it!
+
+@ 2881.3
+JP タイトルマッチだからといって、
+JP メインイベントに組む必要はないぞお。　↓
+JP タイトルマッチより面白いカードが組めるんなら、
+JP そのカードをメインに組んだ方が客も喜ぶやろ ！
+EN Just 'cause it's a title match, don't mean it's gotta be
+EN the main event.↓
+EN If ya can put together a card more fun than the title
+EN match, the fans'll be happier with that in the main!
+
+@ 2881.4
+JP <以前組んだカードと同じカードを組んじゃあダメやぞお ！>　↓
+JP お客さんだったら、
+JP 毎回新鮮なカードが見たいやろ ！ ↓
+JP 俺も若くて新鮮な蜜の方が好みやぞ ！　（笑）
+EN <Don't book a card you've booked before!>↓
+EN If you were a fan, you'd wanna see fresh cards every
+EN time!↓
+EN Me, I like my women young and fresh too!
+
+@ 2881.5
+JP <団体対抗戦>は動員数を大きく増やすことができるから、
+JP 必ず組むんやぞお ！　（気）↓
+JP <他団体の選手> 対 <ゼロワンの選手>という形式のカード
+JP にすれば対抗戦になるんや。　↓
+JP フリーの選手とゼロワンの選手を当てても、
+JP 対抗戦にはならんから、 気をつけるんやぞお。
+EN <Inter-promotional matches> can really boost the
+EN attendance, so make sure ya book 'em!↓
+EN Book <another promotion's wrestler> vs.
+EN <a ZERO-ONE wrestler> and that's an inter-promotional
+EN match.↓
+EN Puttin' a Freelance wrestler against a ZERO-ONE guy
+EN don't count, so watch out.
+
+@ 2881.6
+JP タイトルを持っている選手には、
+JP なるべくタイトルマッチを組んでやってくれよ。　↓
+JP タイトルマッチは客の注目度が抜群に増すからな。　↓
+JP つまり、 お客さんがたんまりと来てくれるってことや ！
+JP どうや ！ 凄いやろ ！ （気）
+EN If a guy holds a title, try to give him a title match.↓
+EN Title matches get the fans' attention like nothin' else.↓
+EN In other words, the fans come pourin' in! How 'bout
+EN that! Pretty great, huh!
+
+@ 2881.7
+JP 今回の興行は無理に全員使わなくてもいいぞお。　↓
+JP 気持ち的には全員出したいんやけどな、
+JP 選手が沢山いるんやから、 仕方ないやろ！　（気）
+EN Ya don't gotta force everybody onto this show.↓
+EN I'd like to use 'em all, but we got so many wrestlers, it
+EN can't be helped!
+
+@ 2881.8
+JP うちのリングにはなあ、
+JP フリーの選手や他団体の選手みたいな
+JP いろんな選手に上がってもらっているんやけどな、　↓
+JP 興行の最後にはうちの所属の選手に
+JP 締めてもらわなきゃ困るぞ。　↓
+JP 分かってんだろうな、
+JP この野郎 ！　（気）
+EN Listen, we got all kinds of guys comin' into our ring,
+EN Freelance guys, guys from other promotions...↓
+EN But at the end of the show, it's gotta be one of our own
+EN guys closin' it out.↓
+EN You know that, right, ya punk!
+
+@ 2881.9
+JP メインには最後を締めるのにふさわしい、
+JP うちの一番人気の選手を出すんやぞお。　↓
+JP 最後に会場を最高に盛り上げたいからな。　↓
+JP 覚えておけよお ！　（気）
+EN For the main event, send out our most popular guy,
+EN someone worthy of closin' the show.↓
+EN At the end, I want the place goin' as crazy as it gets.↓
+EN Don't you forget it!
+
+@ 2881.10
+JP お客さんなら、 誰でも熱い試合、
+JP 面白い試合が見たいんやないかなあ。　↓
+JP だから、 そんな期待が持てるようなカードを組めば、
+JP お客さんも見に来てくれるやろ。　↓
+JP 一番いいのは、
+JP 実力が近い者同士を戦わせることやな。　↓
+JP これは何気に重要な事やぞお。
+EN Any fan wants to see hot matches, fun matches, right?↓
+EN So if ya book cards that get 'em excited for that,
+EN they'll come out to see it.↓
+EN Best thing to do is put guys with similar skill against
+EN each other.↓
+EN That's more important than ya'd think.
+
+@ 2881.11
+JP お前にこれ以上教えることは何もないやろ。　（気）↓
+JP 今までのように、
+JP 自信もってやってみろ！　（怒）
+EN There ain't nothin' more I can teach ya.↓
+EN Just keep goin' like you've been, with confidence!
+
+@ 2881.12
+JP そうか、
+JP タイトルマッチが組みたいんか。　↓
+JP そうしたらな、
+JP 赤コーナーをチャンピオン、
+JP 青コーナーを挑戦者にしてカードを組むんや。　↓
+JP まあこれはプロレス界の常識やからな。
+JP 憶えておいて損はないぞお。
+EN So, ya wanna book a title match?↓
+EN Then put the champion in the red corner and the
+EN challenger in the blue corner.↓
+EN That's just common sense in pro wrestling. Won't hurt
+EN to remember it.
+
+@ 2881.13
+JP うちのファンが何を求めているかなんて細かいことは、
+JP ハッキリ言って分からん ！　↓
+JP 俺はただプロレス界を面白くしたい、
+JP プロレスの強さを世間に見せつけたいんや ！　（気）↓
+JP そういうわけで、 うちに出ている選手たちには
+JP 自由にやってもらっている。　↓
+JP 何でもありなのがゼロワンのプロレスなんや ！　（怒）↓
+JP まあ、 そういうオモチャ箱的な所が
+JP ファンに受けているのかもしれんな。
+EN The little details of what our fans want? Honestly, I
+EN got no clue!↓
+EN I just wanna make pro wrestling fun, and show the
+EN world how strong pro wrestling is!↓
+EN That's why I let the guys who wrestle for us do
+EN whatever they want.↓
+EN Anything goes, that's ZERO-ONE wrestling!↓
+EN Maybe that toy box feel is what the fans love about
+EN us.
+
+@ 2881.14
+JP 難しいことはよう分からんが、
+JP これだけはハッキリ言える。　↓
+JP お客さんは<喧嘩>が見たいんや ！
+JP <ルールを越えたプロレス>が見たいんや ！　（気）↓
+JP お前は見たくないか ？　↓
+JP 俺は見たいぞ ！　（怒）
+EN I don't get the complicated stuff, but I can tell ya this
+EN for sure.↓
+EN The fans wanna see a <real fight>! They wanna see
+EN <pro wrestling beyond the rules>!↓
+EN Don't you wanna see that?↓
+EN I sure do!
+
+@ 2881.15
+JP 今、 ゼロワンにはフリーのレスラー達も
+JP 沢山上がっているんやけどな、
+JP 彼らのスタイルも結構人気があるぞ。　↓
+JP メジャーではまずやらないような
+JP <ルールを無視した戦い方>が受けているんやな。　↓
+JP まあ、 うちのリングは何でもありが売りやから、
+JP ファンが喜んでくれるならいくらでもやっていいぞ ！　（笑）
+EN We got lots of Freelance wrestlers in ZERO-ONE right
+EN now, and their style is pretty popular.↓
+EN The fans love their <rule-breakin' way of fightin'>,
+EN stuff the big promotions would never do.↓
+EN Well, anything goes is what our ring's all about, so if
+EN the fans love it, go nuts!
+
+@ 2881.16
+JP プロレスっちゅうもんは、
+JP お客さんを楽しませるって気持ちも大事やな。　↓
+JP タイミングを見てお客さんに<アピール>したり、
+JP 自分の<得意な技>を披露することは
+JP なんだかんだ言っても大事なことなんや。
+EN In pro wrestling, wantin' to entertain the fans matters
+EN too.↓
+EN <Taunting> the crowd at the right moment, showin' off
+EN your <signature moves>... say what ya like, that stuff
+EN matters.
+
+@ 2881.17
+JP ゼロワンのリングでは、 勝敗が着いても
+JP 戦いは終わってなんかいないんや ！　↓
+JP 試合で納得がいかなかったら
+JP 試合後でもどんどん相手につっかかっていけ ！　（怒）↓
+JP ゼロワンのレスラーならそれくらいの気持ちを
+JP もっていてほしいものやな。
+EN In the ZERO-ONE ring, the fight ain't over just 'cause
+EN somebody won!↓
+EN If ya didn't like how the match went, go right after the
+EN other guy, even after the match!↓
+EN A ZERO-ONE wrestler oughta have that kinda fire.
+
+@ 2881.18
+JP 俺たちはプロレスラーや。
+JP プロのレスラーなら、 試合の流れが
+JP 止まってしまうようなことをしたらあかん ！　（怒）↓
+JP 体が動き続ける限りは休むことなく
+JP 精一杯試合をし続けてほしいんや。
+EN We're pro wrestlers. A real pro don't do stuff that
+EN stops the flow of a match!↓
+EN As long as your body can move, I want ya wrestlin' all
+EN out, no breaks.
+
+@ 2881.19
+JP おおい ！ 良く聞けえぇい ！　（怒）↓
+JP プロレスっていうものはなあ、
+JP <技を受けて相手の良さを引き出す>ってことも
+JP 重要やということをよぉく覚えておくんやぞお ！　（気）↓
+JP 素人が簡単に真似出来るようなもんじゃないんや ！　↓
+JP 分かったか ！ ？
+EN Heyyy! Listen up!↓
+EN In pro wrestling,
+EN <takin' moves to bring out the best in your opponent>
+EN matters too, and don't you forget it!↓
+EN That ain't somethin' any amateur can just copy!↓
+EN Got it?!
+
+@ 2881.20
+JP レスラーなら試合を決めるフィニッシュの仕方に
+JP こだわることも重要なことやな。　↓
+JP 自分の得意とする流れにもっていき、
+JP <魂を込めた必殺技>で試合を決めるんや ！　↓
+JP そうすればファンも喜んでくれるやろ。
+EN A wrestler oughta care about how he finishes a match,
+EN too.↓
+EN Bring it into your own flow, then end it with a
+EN <finisher with your soul in it>!↓
+EN Do that, and the fans'll love it.
+
+@ 2881.21
+JP 対抗戦に出る奴はとりあえず勝たなきゃダメや。　↓
+JP まあ、 試合に負ける時もあるやろうが、
+JP 勝負では負けたらあかんぞお ！　（気）↓
+JP それがゼロワンのレスラーとしての使命やな。
+JP お前も覚えておくんやぞ。
+EN Whoever goes into an inter-promotional match has
+EN gotta win, period.↓
+EN Sure, sometimes ya lose the match, but ya can't lose
+EN the fight!↓
+EN That's the duty of a ZERO-ONE wrestler. You
+EN remember that too.
+
+@ 2881.22
+JP 今回の興行はお祭りや ！
+JP ゼロワン流のプロレス祭りや ！　（笑）↓
+JP 試合内容がどうこう細かいことを俺からは言わん ！　↓
+JP いつも通りのゼロワンのプロレスをするだけや ！　（笑）↓
+JP せいやああああ ！　（怒）
+EN This show is a festival! A ZERO-ONE style wrestling
+EN festival!↓
+EN I ain't gonna nitpick about how the matches go!↓
+EN We just do ZERO-ONE wrestling, same as always!↓
+EN Seiyaaaaah!
+
+@ 2881.23
+JP マッチメイク時になあ、 △ を押すと、
+JP 対戦カードを自動的に設定することができるんや。　↓
+JP どうや、 凄いやろ ！ ？　（気）
+EN When you're doin' the matchmaking, press △ and it sets
+EN the match cards for ya automatically.↓
+EN How 'bout that, pretty great, huh?!
+
+@ 2881.24
+JP レスラーを選択する画面で □ を押すとなあ、
+JP そいつの人気 ・ 階級 ・ 所有タイトルが確認できるんや。　↓
+JP マッチメイクの時、 参考にしろお ！　（気）
+EN On the wrestler select screen, press □ to see a guy's
+EN popularity, weight class and titles.↓
+EN Use it when you're doin' the matchmaking!
+
+@ 2881.25
+JP <興行情報>は必ず確認するんやぞ。
+JP そして、 ここにある<マッチメイクルール>は必ず守るんだ。　↓
+JP 絶対やぞ ！　（気）
+EN Always check the <Show Info>. And always follow the
+EN <Match Rules> in there.↓
+EN I mean it!
+
+@ 2881.26
+JP 選手の<人気>は観客動員数に影響する大事な
+JP 要素やから、 まめにチェックしておけ ！　↓
+JP あと、 選手の人気は
+JP 試合の勝敗や試合内容によって増減するんや。
+JP これも覚えておけ ！
+EN A wrestler's <popularity> affects the attendance big
+EN time, so keep checkin' it!↓
+EN Also, popularity goes up and down with wins, losses and
+EN how good the match was. Remember that too!
+
+@ 2881.27
+JP 前回の興行で組んだ対戦カードや
+JP 観客動員数をチェックしたい場合は、
+JP <興行記録>の中の<過去の興行>を選ぶんやぞ。
+EN If ya wanna check the cards or attendance from your
+EN last shows, pick <Past Shows> under <Show Records>.
+
+@ 2881.28
+JP 分かりやすいように、 レスラー選択画面で
+JP チャンピオンの名前を<黄色い文字>に
+JP 変えておいてやったぞお。　↓
+JP これは俺からのプレゼントや ！
+JP うれしいやろ ！　（気）
+EN To make it easier, I changed the champions' names on
+EN the wrestler select screen to <yellow letters>.↓
+EN That's my present to you! Happy, right?!
+
+@ 2881.29
+JP 選手の<階級>はなあ、
+JP タイトルマッチをマッチメイクする時に
+JP 関係してくる大事な要素なんだぞお。　↓
+JP 階級がジュニアヘビー級の選手は、
+JP ヘビー級のベルトには挑戦できず、　↓
+JP 階級がヘビー級の選手は
+JP ジュニアヘビー級のベルトには挑戦できんのだ。　↓
+JP ただし、 階級がフリーの選手は
+JP どの階級のベルトにも挑戦できるし、　↓
+JP 階級が表記されていないタッグのベルトには
+JP どの階級の選手でも挑戦できるんだぞお。　↓
+JP ややこしいやろ ！　（気）
+EN A wrestler's <weight class> matters when you're bookin'
+EN title matches.↓
+EN Junior heavyweights can't challenge for heavyweight
+EN belts,↓
+EN and heavyweights can't challenge for junior
+EN heavyweight belts.↓
+EN But a Freelance wrestler can challenge for a belt in
+EN any class,↓
+EN and tag belts with no class listed are open to
+EN wrestlers of any class.↓
+EN Complicated, huh!
+
+@ 2881.30
+JP <アサショウリュウ ！>　↓
+JP <キラー ・ カーン ！>　（気）↓
+JP <ハシフ ・ カーン ！>　（怒）↓
+JP <ジンギス ・ カーン ！>　（笑）
+EN <Asashoryu!>↓
+EN <Killer Khan!>↓
+EN <Hashif Khan!>↓
+EN <Genghis Khan!>
+
+@ 2881.31
+JP 怪我や病気で試合に出れる状態でない選手は、
+JP リストから外しているぞお。↓
+JP まあ、 本当は全員出してやりたいんだが、
+JP 出れないんだから、しょうがないやろ ！（怒）
+EN Guys who're injured or sick and can't wrestle are off
+EN the list.↓
+EN I'd like to put 'em all out there, but if they can't go,
+EN they can't go!
+
+@ 2882.0
+JP うん。
+JP 何が聞きたいのか言ってみたまえ。
+EN Mm. Go on, tell me what you want to know.
+
+@ 2882.1
+JP マッチメイクは長州のような<人気の高いレスラー>ほど、
+JP 後ろの試合に組むんだぞ。　↓
+JP これは基本だからな。
+JP 覚えておけ。
+EN In matchmaking, the more <popular the wrestler> - like
+EN Choshu - the later in the card his match goes.↓
+EN That's the basics. Remember it.
+
+@ 2882.2
+JP 実力差がありすぎる選手同士のシングルマッチを
+JP 組むのはやめといた方がいいな。　↓
+JP 結果が最初から見えているようなカードじゃあ
+JP お客さんはあまりうれしくないだろうからな。　↓
+JP まあ、 そんなことを言っている余裕もないんだが．．．。
+EN Better not book singles matches between wrestlers
+EN whose abilities are too far apart.↓
+EN A card where you know the result from the start won't
+EN make the fans very happy.↓
+EN Mind you, we're hardly in a position to be picky...
+
+@ 2882.3
+JP タイトルマッチだからといって、
+JP 別にメインイベントに組む必要はないぞ。　↓
+JP タイトルマッチ以上にいいカードを組めるんだったら、
+JP そのカードをメインに組んだ方がいいからな。
+EN Just because it's a title match doesn't mean it has to
+EN be the main event.↓
+EN If you can make a card that's better than the title
+EN match, put that one on top instead.
+
+@ 2882.4
+JP <以前組んだカードと同じ対戦カードを組むのは
+JP やめておいた方がいいぞ。>　↓
+JP なるべく、 新鮮なカードを組んでくれ。
+JP 分かったな ？
+EN <Better not repeat a match card you've booked before.>↓
+EN Make the cards as fresh as you can. Got it?
+
+@ 2882.5
+JP <団体対抗戦>は観客動員数を大きく増やすことが
+JP できるから、 何がなんでも組むんだぞ ！　（怒）↓
+JP <他団体の選手> 対 <ＷＪの選手>という形式のカードが
+JP 団体対抗戦ということになる。　↓
+JP フリーの選手とＷＪの選手を当てても対抗戦にはならないからな。
+JP 気をつけるんだぞ。
+EN <Inter-promotional matches> can boost attendance a lot,
+EN so book them no matter what!↓
+EN A card of <wrestler from another promotion> vs.
+EN <WJ wrestler> counts as an inter-promotional match.↓
+EN Putting a Freelance wrestler against a WJ wrestler
+EN doesn't count, so watch out.
+
+@ 2882.6
+JP タイトルを持っている選手には、
+JP タイトルマッチを組んでやるんだぞ。　↓
+JP やっぱりタイトルマッチを組んだ方が
+JP 客が入ってくれるからな。
+EN If a wrestler holds a title, give him a title match.↓
+EN Title matches bring in the customers, after all.
+
+@ 2882.7
+JP 今回の興行はなあ、
+JP 無理に選手全員を使わなくてもいいぞお。　↓
+JP とにかく会場が客でいっぱいになるような、
+JP 凄いカードを組んでくれればそれでいい。　↓
+JP よろしく頼んだぞ。
+JP 
+EN For this show, you don't have to force every wrestler
+EN onto the card.↓
+EN Just give me great cards that fill the place to the
+EN brim. That's all I ask.↓
+EN I'm counting on you.
+
+@ 2882.8
+JP 今回の興行でも他団体の選手やフリーの選手に
+JP 出てもらう予定なんだが、
+JP ひとつお前に忠告しておくぞ。　↓
+JP ここはあくまでＷＪのリングだからな、
+JP メインイベントにはうちの所属選手の試合を組むんだぞ。　↓
+JP 忘れるなよ。
+EN We're having wrestlers from other promotions and
+EN Freelancers on this show too, but let me give you one
+EN warning.↓
+EN This is WJ's ring, first and last, so the main event
+EN goes to a match between our own wrestlers.↓
+EN Don't forget it.
+
+@ 2882.9
+JP 興行のメインイベントにはな、
+JP 最後を締めるのにふさわしい、
+JP うちのトップ選手を出してくれよな。　↓
+JP まあ、 長州が出れば間違いないだろうけどな。　（笑）
+EN For the main event, use our top wrestlers - the ones
+EN fit to close the show.↓
+EN Well, you can't go wrong if Choshu's in it.
+
+@ 2882.10
+JP まあ、 言わなくても分かると思うんだが、
+JP 実力が近い選手同士の試合は
+JP 単純に白熱したいい試合になることが多いよな。　↓
+JP うちの団体の選手のことを良く研究して、
+JP マッチメイクを考えるんだぞ。
+EN I'm sure I don't have to tell you, but matches between
+EN wrestlers of similar ability usually turn into heated,
+EN good matches.↓
+EN Study our wrestlers well and plan your matchmaking.
+
+@ 2882.11
+JP とにかく観客がハラハラドキドキするような、
+JP 考えられなかったようなカードを決めてくれ。　↓
+JP おもいっきりやれ ！　（怒）
+EN Just give me cards nobody could have imagined, ones
+EN that keep the crowd on the edge of their seats.↓
+EN Go all out!
+
+@ 2882.12
+JP タイトルマッチを組む場合はな、
+JP 赤コーナーをチャンピオン、
+JP 青コーナーを挑戦者にしなきゃダメだ。　↓
+JP 大事な興行だからな。
+JP タイトルマッチを組んで、 必ず盛り上げてくれよ。
+EN When you book a title match, you have to put the
+EN champion in the red corner and the challenger in the
+EN blue corner.↓
+EN It's an important show. Book title matches and make
+EN sure the place gets hot.
+
+@ 2882.13
+JP ファンがＷＪのプロレスに何を求めているかって ？　↓
+JP それが分かれば、 こんなに苦労せんわ ！　（怒）↓
+JP しかしだな、 ＷＪのプロレスは選手と選手の
+JP 熱いぶつかり合いが売りといえると思うぞ。　↓
+JP 小細工なしの力と力のぶつかり合いが、
+JP お客さんのハートを掴むんではないかと
+JP 私は思うんだが、 どうかな ？
+EN What do fans want from WJ wrestling?↓
+EN If I knew that, I wouldn't be having such a hard time!↓
+EN But still, I'd say WJ's selling point is wrestlers
+EN crashing into each other, all heart.↓
+EN No gimmicks, just power against power - I think that's
+EN what grabs the fans' hearts. Don't you?
+
+@ 2882.14
+JP うちの団体の売りは、 なんと言っても
+JP 各団体から集めたチャンピオン級の
+JP スター選手が揃っているところだな。　↓
+JP 彼らは小細工なしの<パワーファイト>が売りだからな、
+JP 下手に技術をひけらかすような試合をするんじゃなく、　↓
+JP 全身で相手にぶつかっていくような試合を
+JP ファンは望んでいるんじゃないかと思うぞ。
+EN What sells our company, above all, is our lineup of
+EN champion-class stars gathered from every promotion.↓
+EN They're all about no-gimmick <power fighting>, so don't
+EN have them show off their technique.↓
+EN I think the fans want matches where they throw their
+EN whole bodies at each other.
+
+@ 2882.15
+JP うちの選手達にはＷＪという名に恥じないような
+JP <力強いプロレス>をしてほしいんだ。　↓
+JP 試合中、 中途半端な格闘技の技術を披露したり、
+JP 変にお客さんに媚びることはせんでほしい。　↓
+JP もっとガッチガチの熱いプロレスをやってほしいな。
+EN I want our wrestlers to do <powerful pro wrestling>
+EN worthy of the WJ name.↓
+EN I don't want half-baked martial arts moves in the
+EN middle of a match, or sucking up to the crowd.↓
+EN I want them to do rock-hard, red-hot pro wrestling.
+
+@ 2882.16
+JP <長州>と<天龍>。
+JP この２人はＷＪの２大巨頭だ。　↓
+JP 彼らのプロレスがＷＪを代表するスタイルと
+JP 言っていいだろう。　↓
+JP 彼らのプロレスを良く研究すれば、
+JP ＷＪがファンに何を求められているかが分かるだろう。
+EN <Choshu> and <Tenryu>. Those two are the twin pillars of
+EN WJ.↓
+EN You could say their wrestling is WJ's signature style.↓
+EN Study their wrestling well, and you'll see what the
+EN fans want from WJ.
+
+@ 2882.17
+JP ＷＪは昔ながらのプロレススタイルを大事にしたい。　↓
+JP 肉体と肉体のぶつかり合いが基本だが、
+JP 時には<荒っぽいファイト>も大事だぞ。　↓
+JP 観客が興奮して卒倒しそうなくらい
+JP 熱い試合があってもいいんじゃないかな。
+EN WJ wants to treasure the old-school style of pro
+EN wrestling.↓
+EN The basics are body crashing into body, but sometimes
+EN a <rough fight> matters too.↓
+EN Why not have a match so hot the crowd nearly faints
+EN from the excitement?
+
+@ 2882.18
+JP あまりＷＪのリングであれはダメ、
+JP これはダメと言いたくはないんだが、　↓
+JP <中途半端な格闘技テクニック>を使ってみたり、
+JP <無意味なアピール>を繰り返すことだけは
+JP やってほしくないな。　↓
+JP 選手達には鍛え上げた己の肉体だけを使って、
+JP 小細工なしのプロレスをやってほしいんだ。
+EN I don't like laying down a lot of dos and don'ts in the WJ
+EN ring, but...↓
+EN the one thing I don't want is wrestlers trying
+EN <half-baked martial arts technique> or doing
+EN <pointless taunts> over and over.↓
+EN I want the wrestlers to use nothing but the bodies they
+EN forged, and wrestle with no gimmicks.
+
+@ 2882.19
+JP プロレスってものは、 他の格闘技と違って
+JP <相手の技を受ける>ってことも大事なんだぞ。　↓
+JP 相手の技を体のど真ん中で、
+JP しっかりと受け止めることができる奴が、
+JP 本当の<ど真ん中戦士>と呼ぶことができると思うぞ。
+EN Unlike other combat sports, in pro wrestling
+EN <taking your opponent's moves> matters too.↓
+EN A man who can take his opponent's moves square in the
+EN dead center of his body - he's a true
+EN <dead center warrior>.
+
+@ 2882.20
+JP 試合を決めるフィニッシュの仕方にこだわることも
+JP プロレスラーとして大事なことだと思うぞ。　↓
+JP 自分の得意とする流れにもっていき、
+JP <魂を込めた必殺技>で相手をぶちのめすんだ ！　↓
+JP そうすればファンも納得するんじゃないか。
+EN As a pro wrestler, caring about how you finish a match
+EN matters too.↓
+EN Steer the match your way and crush your opponent with
+EN a <finisher full of soul>!↓
+EN Do that, and the fans will be satisfied.
+
+@ 2882.21
+JP 対抗戦に出るうちの選手には
+JP なんとか勝ってほしいものだな。　↓
+JP プロレス界の<ど真ん中>を行くには
+JP 他の団体に弱みを見せてはダメだ。　↓
+JP 意地でも相手団体の選手をぶちのめすんだぞ ！　↓
+JP 分かったな ！　（怒）
+EN I really want our wrestlers in inter-promotional
+EN matches to win.↓
+EN To go through the <dead center> of pro wrestling, you
+EN can't show weakness to other promotions.↓
+EN Crush the other side's wrestlers, out of sheer pride!↓
+EN Got it!
+
+@ 2882.22
+JP 今回の興行では究極のアルティメットマッチを
+JP 見せて欲しいんだ。　↓
+JP 細かいことはつべこべ言わん ！　↓
+JP とにかく、 うちの選手がどんな戦い方でも
+JP 通用することをリング上で証明してほしいな。　↓
+JP 以上。
+EN For this show, I want you to show us the most ultimate
+EN of Ultimate Matches.↓
+EN I won't nitpick the details!↓
+EN Just prove in the ring that our wrestlers can win any
+EN kind of fight.↓
+EN That's all.
+
+@ 2882.23
+JP マッチメイク時に △ を押すと、
+JP 対戦カードを自動的に設定することができる。　↓
+JP まあ、 実際に試してみるんだな。
+EN Press △ while matchmaking, and the match cards are
+EN set up automatically.↓
+EN Go ahead and try it.
+
+@ 2882.24
+JP レスラーを選択する画面で □ を押すと、
+JP そのレスラーの人気 ・ 階級 ・ 所有タイトルが確認できる。　↓
+JP マッチメイクの時 、 参考にしてみるんだな。
+EN Press □ on the wrestler select screen to see that
+EN wrestler's popularity, weight class and titles held.↓
+EN Use it for reference when you make the matches.
+
+@ 2882.25
+JP <興行情報>は必ず確認しろよ。
+JP 特に<マッチメイクルール>は絶対厳守だからな。　↓
+JP 必ず守るんだぞ。　↓
+JP 分かったな。
+EN Always check the <Show Info>. The <Match Rules> above all
+EN must be obeyed.↓
+EN You follow them, no exceptions.↓
+EN Got it?
+
+@ 2882.26
+JP 選手の<人気>は直接観客動員数に影響する
+JP 大事な要素だから、１人１人の人気は常に
+JP 確認した方がいいな。　↓
+JP あと、 選手の人気は試合の勝敗や試合内容によって
+JP 増減するからな。　↓
+JP くれぐれも注意するんだぞ。
+EN A wrestler's <popularity> directly affects attendance, so
+EN keep checking each wrestler's popularity.↓
+EN Also, popularity goes up and down with wins, losses and
+EN how the matches go.↓
+EN Be very careful about that.
+
+@ 2882.27
+JP 前回の興行で組んだ対戦カードや
+JP 観客動員数をチェックしたい場合は、
+JP <興行記録>の中の<過去の興行>を選べばいいぞ。
+EN To check the match cards and attendance of past
+EN shows, choose <Past Shows> under <Show Records>.
+
+@ 2882.28
+JP 見やすいように、 レスラー選択画面で
+JP チャンピオンの名前を<黄色い文字>に
+JP 変えておいてやったからな。　↓
+JP 俺ができることはやってやるが、
+JP 後はお前の力でしっかりやるんだぞ。　↓
+JP 長州も見てるからな。
+EN To make them easy to spot, I've had the champions'
+EN names shown in <yellow letters> on the wrestler select
+EN screen.↓
+EN I'll do what I can, but the rest is up to you.↓
+EN Choshu's watching too.
+
+@ 2882.29
+JP 選手の<階級>はタイトルマッチをマッチメイクする時に
+JP 関係してくる大事な要素だ。　↓
+JP 階級がジュニアヘビー級の選手は、
+JP ヘビー級のベルトには挑戦できず、　↓
+JP 階級がヘビー級の選手は
+JP ジュニアヘビー級のベルトには挑戦できない。　↓
+JP ただし、 階級がフリーの選手は
+JP どの階級のベルトにも挑戦できるし、　↓
+JP 階級が表記されていないタッグベルトには
+JP どの階級の選手でも挑戦できるんだな。　↓
+JP 今日はいい勉強になっただろ。　（笑）
+EN A wrestler's <weight class> matters when you book title
+EN matches.↓
+EN Junior Heavyweights can't challenge for the
+EN heavyweight belts,↓
+EN and Heavyweights can't challenge for the junior
+EN heavyweight belts.↓
+EN But Freelance wrestlers can challenge for a belt in
+EN any class,↓
+EN and any wrestler can challenge for a tag belt with no
+EN class listed.↓
+EN Learned something today, huh?
+
+@ 2882.30
+JP 今回の<『 Ｘ－１ 』>はな、格闘界とか芸能界とかな
+JP 各界の著名人をたくさん招待しているからな。　↓
+JP まあ、 誰が来るか分からないけど、
+JP そんな奴らにプロレスラーの底力を見せてやるんだ ！　（気）↓
+JP 目に物見せてやれ ！（怒）
+EN For this <"X-1">, we've invited lots of big names from
+EN martial arts, showbiz and all over.↓
+EN Who knows who'll turn up, but show them what pro
+EN wrestlers are really made of!↓
+EN Make them never forget it!
+
+@ 2882.31
+JP 怪我や病気の選手は興行を欠場するから、
+JP マッチメイク時のレスラーリストから外しておいたぞ。　↓
+JP こんな状態だから本当は全員に出てほしいんだが、
+JP そうもいかないところが辛いよな．．．。
+EN Injured or sick wrestlers miss the show, so I've taken
+EN them off the wrestler list for matchmaking.↓
+EN In a pinch like this I'd want everyone to play, but
+EN that's not how it goes. It's tough...
+
+@ 2883.0
+JP はい。
+JP 何が知りたいのですか？
+EN Yes. What would you like to know?
+
+@ 2883.1
+JP マッチメイクをする時は<人気がある選手>を
+JP 後ろの方に試合に組んでいただきたいですね。　↓
+JP これはまあ、なんと言いますか、
+JP 基本ですね。
+EN When you do the matchmaking, I would like you to place
+EN the <popular fighters> later on the card.↓
+EN This is, how shall I put it... the basics.
+
+@ 2883.2
+JP 実力差があまりにもかけ離れている選手同士の
+JP 対戦っていうのは、まずありえませんね。　↓
+JP 最初から結果が分かっているような試合では
+JP お客さんも期待できないでしょうからね。
+EN A fight between two fighters whose skill is too far
+EN apart is simply out of the question.↓
+EN If the result is clear from the start, the fans will
+EN have nothing to look forward to.
+
+@ 2883.3
+JP タイトルマッチを組む時は
+JP 特にメインイベントしなくても結構です。　↓
+JP それ以上に魅力的なカードがありましたら、
+JP そのカードをメインに組んだ方がいいですよ。
+EN When you set up a title match, it need not be the main
+EN event.↓
+EN If there is a more appealing card, it is better to make
+EN that one the main event.
+
+@ 2883.4
+JP <以前組んだカードと同じ対戦カードを組むのは
+JP なるべく避けてください。>　↓
+JP お客さんも今まで見ていない新鮮なカードが
+JP 見たいでしょうから、よろしくお願いします。
+EN <Please try not to repeat>
+EN <a card you have booked before.>↓
+EN The fans will want to see fresh cards they have never
+EN seen, so I am counting on you.
+
+@ 2883.5
+JP <団体対抗戦>はぜひ組んで頂きたいですね。　↓
+JP やはり、他の団体のファンの方などが
+JP たくさんいらっしゃいますからね。　↓
+JP <他団体の選手> 対 <パンクラスの選手>という形式のカード
+JP にすれば対抗戦になりますから。　↓
+JP フリーの選手とパンクラスの選手を当てても
+JP 対抗戦になりませんから、気をつけてください。
+EN I would very much like you to book
+EN <inter-promotional matches>.↓
+EN After all, a great many fans of other promotions come
+EN to our shows.↓
+EN A card of <another promotion's fighter> vs.
+EN <a Pancrase fighter> makes an inter-promotional match.↓
+EN Matching a freelance fighter against a Pancrase
+EN fighter does not count, so please be careful.
+
+@ 2883.6
+JP タイトルを所有している選手には、
+JP なるべくタイトルマッチを組んでやってください。　↓
+JP タイトルマッチはお客さんの注目が集まりますし、
+JP 興行的にも盛り上がりますからね。　（笑）
+EN Please give our title holders title matches whenever
+EN possible.↓
+EN Title matches draw the fans' attention, and they liven
+EN up the show, too.
+
+@ 2883.7
+JP 今回の興行では他団体の選手にも
+JP 多く参加していただける予定なんですけど、↓
+JP メインイベントにはうちの所属選手が出る試合を
+JP 組んでいただきたいですね。
+EN Many fighters from other promotions will be taking
+EN part in this show,↓
+EN but I would like the main event to feature one of our
+EN own fighters.
+
+@ 2883.8
+JP 興行の最後の試合には、
+JP やはり一番人気の選手を出していただきたいですね。　↓
+JP 興行の締めですから、
+JP お客さんが一番期待する試合を組んでいただきたい。　↓
+JP よろしくお願いしますよ。
+EN For the last match of the show, I would like you to use
+EN the most popular fighters.↓
+EN It closes the show, so please book the fight the fans
+EN are most looking forward to.↓
+EN I am counting on you.
+
+@ 2883.9
+JP 対戦カードを考える時、
+JP 実力が近い選手同士を当てるということが
+JP 大事かもしれませんね。　↓
+JP そうすることで、結末の予想できない
+JP 白熱した好勝負が期待できますからね。
+EN When planning a card, it may be important to match
+EN fighters of similar skill.↓
+EN That way, you can expect a heated, close fight whose
+EN outcome no one can predict.
+
+@ 2883.10
+JP パンクラスの興行ではないですけど、
+JP 今まで培ってきた経験を活かすことができましたら、
+JP きっと成功させることができると信じています。　↓
+JP あなたなら、きっと大丈夫ですよ。　↓
+JP がんばってください。
+EN This is not a Pancrase show, but if you make use of the
+EN experience you have gained so far, I am sure you can
+EN make it a success.↓
+EN You will be fine, I know it.↓
+EN Please do your best.
+
+@ 2883.11
+JP 分かっているとは思いますが、
+JP うちは<真剣勝負>を売りにしている団体です。　↓
+JP 選手には強さを追求した試合を心掛けて
+JP もらっています。　↓
+JP プロとして魅せることも大事ですが、
+JP それ以前の基本的な <”試合に勝つ”> ということに
+JP こだわったファイトをしてもらいたいですね。
+EN As I am sure you know, we are a promotion built on
+EN <real fights>.↓
+EN We ask our fighters to fight in pursuit of true
+EN strength.↓
+EN Entertaining as professionals matters too, but first I
+EN want them to fight with the basics in mind:
+EN <"winning the fight">.
+
+@ 2883.12
+# [glossary-ok] dialogue wording
+JP うちには色々なタイプのお客さんが見に来ていますが、
+JP みなさんが一番期待していることは、　
+JP <試合の勝敗をハッキリ着けること>だと思います。　↓
+JP なかなか難しいことだとは思いますが、
+JP 選手には判定決着ではなく、
+JP <ギブアップ>か<ＫＯ>で勝敗を決めてほしいですね。
+EN All kinds of fans come to see us, but I think what they
+EN all want most is <a clear winner in every fight>.↓
+EN I know it is not easy, but I would like the fighters to
+EN win not by decision, but by <submission> or <KO>.
+
+@ 2883.13
+JP うちの選手達はみんな一生懸命練習することで、
+JP 総合格闘技の高い技術をもっています。　↓
+JP 詳しいお客さんはそんな<高度な技術>を使った
+JP 攻防を見たいと思っているのではないでしょうか。
+JP 
+EN Our fighters all train very hard, and have a high level
+EN of MMA skill.↓
+EN I think knowledgeable fans want to see fights that use
+EN such <advanced technique>.
+
+@ 2883.14
+JP パンクラスは真剣勝負ですので、
+JP 試合開始早々にいきなり試合が決まって
+JP しまうこともあります。　↓
+JP いわゆる <”秒殺”> といわれるものですが、
+JP そういった試合もうちのファンの方には
+JP 支持されていると思います。
+EN Pancrase is real fighting, so sometimes a fight ends
+EN just as it begins.↓
+EN The so-called <"instant win">. I believe our fans support
+EN fights like that, too.
+
+@ 2883.15
+JP プロレスを否定するつもりはありませんが、
+JP うちのリングではいわゆるプロレス的な、
+JP ルールを越えた行動はやってほしくありません。　↓
+JP お客さんもそういうことは望んでいませんでしょうし、
+JP まあ当然のことですけどね。
+EN I do not mean to put down pro wrestling, but in our ring
+EN I do not want any pro wrestling-style action that
+EN breaks the rules.↓
+EN The fans would not want that either. Well, it goes
+EN without saying.
+
+@ 2883.16
+JP うちの興行ではないので、
+JP どんな試合が求められているかは
+JP よく分からないですね～。　↓
+JP まあ、一つだけ言えることは
+JP レベルの高いバーリトゥードマッチを見せることが
+JP 大事だということです。　↓
+JP この考えはうちのリングと一緒だと思いますよ。
+EN It is not our show, so I do not really know what kind of
+EN fights are wanted.↓
+EN Well, one thing I can say is that it is important to show
+EN high-level Vale Tudo matches.↓
+EN I think that idea is the same as in our ring.
+
+@ 2883.17
+JP マッチメイクの時に △ を押すと、
+JP 対戦カードを自動的に設定することができるんですよ。　↓
+JP その機能を使うことはあなた次第ですけど．．．　↓
+JP 最終的にはご自分で考えたカードが一番だと
+JP 私は思いますよ。
+JP 
+EN If you press △ when matchmaking, you can set the
+EN match cards automatically.↓
+EN Whether you use that is up to you...↓
+EN But in the end, I think the cards you think up yourself
+EN are the best.
+
+@ 2883.18
+JP レスラーを選択する画面で □ を押すと、
+JP そのレスラーの人気・階級・所有タイトル
+JP といった情報が確認できます。　↓
+JP マッチメイクする時には、
+JP ぜひ参考にしてみてください。
+EN If you press □ on the wrestler select screen, you can
+EN check a wrestler's popularity, weight class and titles
+EN held.↓
+EN Please use it for reference when matchmaking.
+
+@ 2883.19
+JP <興行情報>は必ず見てくださいね。　↓
+JP 特に<マッチメイクルール>は絶対厳守なので、
+JP 注意してください。　↓
+JP よろしくお願いします。
+EN Please be sure to read the <Show Info>.↓
+EN In particular, the <Match Rules> must be followed
+EN strictly, so please be careful.↓
+EN I am counting on you.
+
+@ 2883.20
+JP 選手の<人気>は興行の観客動員数に影響する
+JP 大事な要素ですので、レスラー情報画面で
+JP 確認しておいてください。　↓
+JP また、選手の人気は試合の勝敗や試合内容によって
+JP 増減することも、覚えておいてください。
+EN A fighter's <popularity> is an important factor in a
+EN show's attendance, so please check it on the wrestler
+EN info screen.↓
+EN Also, please remember that popularity rises and falls
+EN with wins, losses and the quality of the fights.
+
+@ 2883.21
+JP 前回の興行で組んだ対戦カードや
+JP 観客動員数をチェックしたい場合は、
+JP <興行記録>の中の<過去の興行>を選んでください。　↓
+JP 非常に便利ですよ～。
+EN If you want to check the cards or attendance of past
+EN shows, select <Past Shows> in <Show Records>.↓
+EN It is very handy.
+
+@ 2901.0
+JP マッチメイカーに登場する選手は、 エディットモード内の
+JP デフォルトレスラーエディットのデータが反映される
+EN Wrestlers in Match Maker use the data from
+EN Default Wrestler Edit in Edit Mode
+
+@ 2901.1
+JP タッグマッチよりシングルマッチを組んだ方が
+JP 観客をより多く集めることができる
+EN Booking Single Matches instead of Tag Matches
+EN draws a bigger crowd
+
+@ 2901.2
+JP どれか１つの興行で高い総合評価を得ることができると
+JP スペシャルな隠し興行で遊ぶことができる
+EN Earn a high Overall Rating on any one show
+EN to unlock a special hidden show
+
+@ 2901.3
+JP 選手の人気は試合に勝つことと、
+JP 高い観客満足度を得ることによって上がっていく
+EN A wrestler's popularity rises by winning matches
+EN and earning high crowd satisfaction
+
+@ 2901.4
+JP 興行で高い総合評価を得ると、次回の興行に
+JP 普通では登場しないビッグな隠しレスラーが出る
+EN A high Overall Rating on a show brings a big
+EN hidden wrestler to the next show
+
+@ 2901.5
+JP しょっぱい試合しかしない選手は、
+JP デフォルトレスラーエディットでＣＯＭロジックを調整せよ
+EN Wrestlers who only put on lousy matches? Adjust
+EN their CPU Logic in Default Wrestler Edit
+
+@ 2901.6
+JP 高い観客満足度を得るにはどうすれば良いかは
+JP アドバイスの試合評価に耳を傾けろ
+EN To learn how to earn high crowd satisfaction,
+EN listen to the match rating tips in Advice
+
+@ 2901.7
+JP 観客を集めるための３大要素は、
+JP 人気者同士の対戦 ・ タイトルマッチ ・ 対抗戦だ
+EN The 3 keys to drawing a crowd: stars vs. stars,
+EN title matches and inter-promotional matches

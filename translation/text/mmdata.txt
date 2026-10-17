@@ -1,0 +1,456 @@
+# Match Maker shows (KC2FIRE.000 2805-2812) - see tools/mmdata.py.
+# Shows: name, goal, venue (only venues the executable has no key for; the others follow
+# elf.txt), crowd, notes (several lines). Drawn by a routine that takes ASCII letters, digits,
+# spaces and + - * / , . ' : ; ( ) - other symbols go in full-width. No " or %.
+# max= is the room in bytes.
+
+@ name.1 max=127 in 2805-2806
+# [keep] show name already in English letters
+JP ＦＩＧＨＴＩＮＧ　ＳＰＩＲＩＴ
+
+@ goal.1 max=127 in 2805-2806
+JP ストロングスタイルを見せつけろ ！
+EN Show them Strong Style!
+
+@ notes.1 max=255 in 2805-2806
+JP ① 参加可能な全選手を使うこと
+JP ② ＩＷＧＰタッグ選手権試合を組んでよい
+JP ③ 他のタイトルマッチを組んではいけない
+JP ④４試合目・５試合目は必ずタッグマッチを組むこと
+EN ① Use every available wrestler
+EN ② IWGP Tag Team title matches OK
+EN ③ No other title matches
+EN ④ Bouts 4 and 5 must be tag matches
+
+@ name.2 max=127 in 2805-2806
+# [keep] show name already in English letters
+JP ＳＴＲＯＮＧ　ＥＮＥＲＧＹ
+
+@ goal.2 max=127 in 2805-2806
+JP ジュニアを盛り上げろ ！
+EN Get the juniors fired up!
+
+@ venue.1 max=31 in 2805-2806,2809
+JP 名古屋体育館
+EN Nagoya Gym
+
+@ notes.2 max=255 in 2805-2806
+JP ① 参加可能な全選手を使うこと
+JP ② ＩＷＧＰジュニアヘビー級選手権試合を組んでよい
+JP ③ ＩＷＧＰジュニアタッグ選手権試合を組んでよい
+JP ④ 他のタイトルマッチを組んではいけない
+EN ① Use every available wrestler
+EN ② IWGP Jr. Heavyweight title matches OK
+EN ③ IWGP Jr. Tag Team title matches OK
+EN ④ No other title matches
+
+@ name.3 max=127 in 2805-2806
+# [keep] show name already in English letters
+JP ＴＨＥ　ＣＲＵＳＨ
+
+@ goal.3 max=127 in 2805-2806
+JP 新日本プロレスを外敵から守れ ！
+EN Repel New Japan's invaders!
+
+@ notes.3 max=255 in 2805-2806
+JP ① ＩＷＧＰヘビー級選手権試合を組んでよい
+JP ② ＮＷＦヘビー級選手権試合を組んでよい
+JP ③ 他のタイトルマッチを組んではいけない
+EN ① IWGP Heavyweight title matches OK
+EN ② NWF Heavyweight title matches OK
+EN ③ No other title matches
+
+@ name.4 max=127 in 2805-2806
+# [keep] show name already in English letters
+JP ＵＬＴＩＭＡＴＥ　ＣＲＵＳＨ
+
+@ goal.4 max=127 in 2805-2806
+JP 新日本最強を証明せよ ！
+EN Prove New Japan is No. 1!
+
+@ notes.4 max=255 in 2805-2806
+JP ① ULTIMATE　CRUSHルールの試合を組んでよい
+JP ② 全てのタイトルマッチを自由に組んでよい
+EN ① Ultimate Crush Rules matches OK
+EN ② Any title match may be booked
+
+@ name.5 max=127 in 2805-2806
+JP 無我興行
+EN Muga Show
+
+@ goal.5 max=127 in 2805-2806
+JP 原点回帰
+EN Back to the roots
+
+@ notes.5 max=255 in 2805-2806
+JP ① 全て無我ルールの試合を組むこと
+JP ② タイトルマッチを組んではいけない
+EN ① All matches under Muga Rules
+EN ② No title matches
+
+@ name.6 max=127 in 2807
+# [keep] show name already in English letters
+JP Ｔｈｅ　Ｆｉｒｓｔ　Ｎａｖｉｇａｔｉｏｎ
+
+@ goal.6 max=127 in 2807
+JP お客さんを満足させる
+EN Keep the fans happy
+
+@ notes.6 max=255 in 2807
+JP ① 参加可能な全選手を使うこと
+JP ②４試合目・５試合目は必ずタッグマッチを組むこと
+JP ③ タイトルマッチを組んではいけない
+EN ① Use every available wrestler
+EN ② Bouts 4 and 5 must be tag matches
+EN ③ No title matches
+
+@ name.7 max=127 in 2807
+# [keep] show name already in English letters
+JP Ｎａｖｉｇａｔｉｏｎ　ｗｉｔｈ　Ｂｒｅｅｚｅ
+
+@ goal.7 max=127 in 2807
+JP ノアのジュニアを盛り上げろ ！
+EN Get NOAH's juniors fired up!
+
+@ venue.2 max=31 in 2807
+JP 札幌ホール
+EN Sapporo Hall
+
+@ notes.7 max=255 in 2807
+JP ① 参加可能な全選手を使うこと
+JP ② ＧＨＣジュニアヘビー級選手権試合を組んでよい
+JP ③ ＧＨＣジュニアタッグ選手権試合を組んでよい
+JP ④ 他のタイトルマッチを組んではいけない
+EN ① Use every available wrestler
+EN ② GHC Jr. Heavyweight title matches OK
+EN ③ GHC Jr. Tag Team title matches OK
+EN ④ No other title matches
+
+@ name.8 max=127 in 2807
+# [keep] show name already in English letters
+JP GREAT　VOYAGE
+
+@ goal.8 max=127 in 2807
+JP 最高のプロレスを魅せろ ！
+EN Show them the best wrestling!
+
+@ notes.8 max=255 in 2807
+JP ① 参加可能な全選手を使うこと
+JP ② ＧＨＣヘビー級選手権試合を組んでよい
+JP ③ ＧＨＣタッグ選手権試合を組んでよい
+JP ④ 他のタイトルマッチを組んではいけない
+EN ① Use every available wrestler
+EN ② GHC Heavyweight title matches OK
+EN ③ GHC Tag Team title matches OK
+EN ④ No other title matches
+
+@ name.9 max=127 in 2807
+# [keep] show name already in English letters
+JP ＤＥＰＡＲＴＵＲＥ
+
+@ goal.9 max=127 in 2807
+JP 夢のカードを実現させよ
+EN Make the dream cards happen
+
+@ notes.9 max=255 in 2807-2810
+JP 全てのタイトルマッチを自由に組んでよい
+EN Any title match may be booked
+
+@ name.10 max=127 in 2807
+JP 選手会興行
+EN Wrestlers' Assoc. Show
+
+@ goal.10 max=127 in 2807-2808
+JP 楽しいプロレス
+EN Fun wrestling
+
+@ notes.10 max=255 in 2807
+JP ① 全試合ｼﾝｸﾞﾙﾏｯﾁ１５分一本勝負にすること
+JP ② タイトルマッチを組んではいけない
+EN ① All bouts: singles, 15 min., one fall
+EN ② No title matches
+
+@ name.11 max=127 in 2808
+JP エキサイト・シリーズ
+EN Excite Series
+
+@ goal.11 max=127 in 2808
+JP 明るいプロレス
+EN Upbeat wrestling
+
+@ notes.11 max=255 in 2808
+JP ① 参加可能な全選手を使う
+JP ② アジアタッグ選手権試合を組んでよい
+JP ③ 他のタイトルマッチを組んではいけない
+JP ④４試合目・５試合目は必ずタッグマッチを組むこと
+EN ① Use every available wrestler
+EN ② All Asia Tag Team title matches OK
+EN ③ No other title matches
+EN ④ Bouts 4 and 5 must be tag matches
+
+@ name.12 max=127 in 2808
+JP サマーアクション・シリーズ
+EN Summer Action Series
+
+@ venue.3 max=31 in 2808-2809
+JP 関西体育館
+EN Kansai Gym
+
+@ notes.12 max=255 in 2808
+JP ① 参加可能な全選手を使うこと
+JP ② 世界タッグ選手権試合を組んでよい
+JP ③ 他のタイトルマッチを組んではいけない
+EN ① Use every available wrestler
+EN ② World Tag Team title matches OK
+EN ③ No other title matches
+
+@ name.13 max=127 in 2808
+# [keep] show name already in English letters
+JP ＲＥ－ＢＩＲＴＨ×ＲＥ－ＶＥＲＳＥ
+
+@ goal.12 max=127 in 2808
+JP 激しいプロレス
+EN Hard-hitting wrestling
+
+@ notes.13 max=255 in 2808
+# [glossary-ok] title or wrestler name in its own words; title rules note; commentary line, Triple Crown named
+JP ① 参加可能な全選手を使うこと
+JP ② 三冠ヘビー級選手権試合を組んでよい
+JP ③ 世界ジュニアヘビー級選手権試合を組んでよい
+JP ④ 他のタイトルマッチを組んではいけない
+EN ① Use every available wrestler
+EN ② Triple Crown title matches OK
+EN ③ World Junior title matches OK
+EN ④ No other title matches
+
+@ name.14 max=127 in 2808
+JP 王道新世紀
+EN Odo New Century
+
+@ goal.13 max=127 in 2808
+JP 新しいプロレス
+EN A new kind of wrestling
+
+@ name.15 max=127 in 2808
+JP マッスル ー １
+EN Muscle-1
+
+@ goal.14 max=127 in 2808
+JP ファンタジーファイト
+EN Fantasy fights
+
+@ notes.14 max=255 in 2808
+JP ① 全試合アメリカンルールで試合を組むこと
+JP ② タイトルマッチを組んではいけない
+EN ① All matches under American Rules
+EN ② No title matches
+
+@ name.16 max=127 in 2809
+# [keep] show name already in English letters
+JP ０１　Ｄｉｖｉｓｉｏｎ
+
+@ goal.15 max=127 in 2809
+JP 客を腹の底から楽しませろ！
+EN Thrill the crowd to the core!
+
+@ notes.15 max=255 in 2809
+JP ① 参加可能な全選手を使うこと
+JP ② タイトルマッチを組んではいけない
+EN ① Use every available wrestler
+EN ② No title matches
+
+@ name.17 max=127 in 2809
+# [keep] show name already in English letters
+JP VAST　ENERGY
+
+@ goal.16 max=127 in 2809
+JP 客を徹底的に満足させろ！
+EN Leave the crowd satisfied!
+
+@ notes.16 max=255 in 2809
+JP ① 参加可能な全選手を使うこと
+JP ② 天下一Jr.選手権試合を組んでよい
+JP ③ 他のタイトルマッチを組んではいけない
+EN ① Use every available wrestler
+EN ② Tenkaichi Jr. title matches OK
+EN ③ No other title matches
+
+@ name.18 max=127 in 2809
+JP 真世紀創造。
+EN New Century Genesis
+
+@ goal.17 max=127 in 2809
+JP 対抗戦を過激に盛り上げろ！
+EN Fire up the promotion war!
+
+@ notes.17 max=255 in 2809
+JP ① 天下一タッグ選手権試合を組んでよい
+JP ② 他のタイトルマッチを組んではいけない
+EN ① Tenkaichi Tag Team title matches OK
+EN ② No other title matches
+
+@ name.19 max=127 in 2809
+JP 真天地創造。
+EN New World Genesis
+
+@ goal.18 max=127 in 2809
+JP 究極のドリームマッチを実現させろ！
+EN Book the ultimate dream match!
+
+@ name.20 max=127 in 2809
+# [keep] show name already in English letters
+JP ０１　ＷＯＲＬＤ
+
+@ goal.19 max=127 in 2809
+JP 世界のプロレスでハッスルせよ！
+EN Hustle with world wrestling!
+
+@ notes.18 max=255 in 2809
+JP  タイトルマッチを組んではいけない
+EN  No title matches
+
+@ name.21 max=127 in 2810
+# [keep] show name already in English letters
+JP ＭＡＧＭＡ０１
+
+@ goal.20 max=127 in 2810
+JP ど真ん中プロレス
+EN Dead-center wrestling
+
+@ notes.19 max=255 in 2810
+JP ① 参加可能な全選手を使うこと
+JP ② ＷＭＧタッグ選手権試合を組んでよい
+JP ③ 他のタイトルマッチを組んではいけない
+EN ① Use every available wrestler
+EN ② WMG Tag Team title matches OK
+EN ③ No other title matches
+
+@ name.22 max=127 in 2810
+# [keep] show name already in English letters
+JP ＭＡＧＭＡ０２
+
+@ goal.21 max=127 in 2810
+JP 究極のど真ん中プロレス
+EN Ultimate dead-center wrestling
+
+@ venue.4 max=31 in 2810
+JP 広島体育館
+EN Hiroshima Gym
+
+@ notes.20 max=255 in 2810
+JP ① 参加可能な全選手を使うこと
+JP ② ＷＭＧヘビー級選手権試合を組んでよい
+JP ③ 他のタイトルマッチを組んではいけない
+EN ① Use every available wrestler
+EN ② WMG Heavyweight title matches OK
+EN ③ No other title matches
+
+@ name.23 max=127 in 2810
+# [keep] show name already in English letters
+JP ＭＡＧＭＡ０３
+
+@ goal.22 max=127 in 2810
+JP 目ン玉飛び出るようなストロングスタイル
+EN Eye-popping Strong Style
+
+@ name.24 max=127 in 2810
+# [keep] show name already in English letters
+JP X-1
+
+@ goal.23 max=127 in 2810
+JP 究極のVTマッチ
+EN The ultimate Vale Tudo match
+
+@ venue.5 max=31 in 2810-2811
+JP 神奈川文化体育館
+EN Kanagawa Gym
+
+@ notes.21 max=255 in 2810
+JP ① 全てバーリトゥードルールで組むこと
+JP ② タイトルマッチを組んではいけない
+EN ① All matches under Vale Tudo Rules
+EN ② No title matches
+
+@ name.25 max=127 in 2811
+JP ＳＰＲＩＴ　ＴＯＵＲ
+EN SPIRIT TOUR
+
+@ goal.24 max=127 in 2811
+JP アグレッシブな試合をしろ ！
+EN Fight aggressive matches!
+
+@ notes.22 max=255 in 2811
+JP ① 全てパンクラスルールで組むこと
+JP ② ＫＯＰウェルター級タイトルマッチを組んで良い
+JP ③ ＫＯＰミドル級タイトルマッチを組んで良い
+JP ④ 他のタイトルマッチを組んではいけない
+EN ① All matches under Pancrase Rules
+EN ② KOP Welterweight title matches OK
+EN ③ KOP Middleweight title matches OK
+EN ④ No other title matches
+
+@ name.26 max=127 in 2811
+# [keep] show name already in English letters
+JP ＨＹＢＲＩＤ　ＴＯＵＲ
+
+@ goal.25 max=127 in 2811
+JP ハイブリッドを極めろ ！
+EN Master the hybrid style!
+
+@ notes.23 max=255 in 2811
+JP ① 全てパンクラスルールで組むこと
+JP ② ＫＯＰライトヘビー級タイトルマッチを組んでよい
+JP ③ ＫＯＰヘビー級タイトルマッチを組んでよい
+JP ④ 他のタイトルマッチを組んではいけない
+EN ① All matches under Pancrase Rules
+EN ② KOP Light Heavyweight title matches OK
+EN ③ KOP Heavyweight title matches OK
+EN ④ No other title matches
+
+@ name.27 max=127 in 2811
+JP １０周年記念大会
+EN 10th Anniversary Show
+
+@ goal.26 max=127 in 2811
+JP パンクラス最強を決めよ ！
+EN Find Pancrase's strongest!
+
+@ notes.24 max=255 in 2811
+JP ① 全てパンクラスルールで組むこと
+JP ② 全てのタイトルマッチを自由に組んでよい
+EN ① All matches under Pancrase Rules
+EN ② Any title match may be booked
+
+@ name.28 max=127 in 2811
+# [keep] show name already in English letters
+JP ＤＡＲＫ２００４
+
+@ goal.27 max=127 in 2811
+JP 外敵を倒せ ！
+EN Defeat the invaders!
+
+@ notes.25 max=255 in 2811
+JP ① 全てヴァーリトゥードルールで組むこと
+JP ② タイトルマッチを組んではいけない
+EN ① All matches under Vale Tudo Rules
+EN ② No title matches
+
+@ name.29 max=127 in 2812
+JP フリー興行
+EN Free Show
+
+@ goal.28 max=127 in 2812
+JP なし
+EN None
+
+@ venue.6 max=31 in 2812
+JP 任意
+EN Any
+
+@ crowd.1 max=0 in 2812
+JP 任意
+EN Any
+
+@ notes.26 max=255 in 2812
+JP なし
+EN None

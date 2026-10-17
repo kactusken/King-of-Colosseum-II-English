@@ -1,0 +1,135 @@
+japanese,english,notes
+キャンセル,Cancel,
+はい,Yes,[exact]
+いいえ,No,
+設定終了,Done,
+クイックセーブ,Quick Save,
+クイックロード,Quick Load,
+クイックデリート,Quick Delete,
+セーブ,Save | Saving | save,
+ロード,Load,
+あり,On | Yes,"setting value; ""Yes"" in yes/no questions; [exact]"
+なし,Off | None,"setting value; ""None"" when it means no item; [exact]"
+自動進行,Auto Mode,series: CPU plays the matches
+順位表,Standings,
+エントリー,Entry,
+ＣＯＭ,CPU,COM on its own (1P/COM) stays as drawn
+プレイヤー,Player,
+赤コーナー,Red Corner,
+青コーナー,Blue Corner,
+チャンピオン,Champion,
+挑戦者,Challenger,
+はじめから,New Game,
+続きから,Continue,
+エキシビションマッチ,Exhibition Match,
+サバイバルロード,Survival Road,
+マッチメイカー,Match Maker,
+タイトルマッチ,Title Match | title,
+シリーズモード,Series Mode,
+エディット,Edit,
+道場,Dojo,プロレス道場 = Pro Wrestling Dojo
+オプション,Options,
+魂の殿堂,Hall of Souls,
+シングルマッチ,Single Match | singles match,
+タッグマッチ,Tag Match,
+ハンディキャップマッチ,Handicap Match,
+トリプルスレッドマッチ,Triple Threat Match,
+バトルロイヤル,Battle Royal,
+イリミネーションマッチ,Elimination Match,
+勝ち抜き戦,Gauntlet Match,
+総当たり戦,Round Robin,
+綱引き,Tug of War,
+セコンド,Second,ringside second
+リーグ戦,League,
+トーナメント,Tournament,
+優勝決定戦,Playoff Final,
+代表者決定戦,Representative Playoff | Rep. Playoff,
+公式戦,League Match,
+選手権試合,Championship | title match,
+準決勝,Semifinal,
+決勝,Final,
+先鋒,1st,elimination order: senpo
+次鋒,2nd,jiho
+中堅,3rd,chuken
+副将,4th,fukusho
+大将,Captain,taisho
+プロレスルール,Pro Wrestling Rules,
+バーリトゥード,Vale Tudo,
+無我,Muga,
+ランバージャック,Lumberjack,
+ロープブレイク,Rope Break,
+ダウンカウント,Down Count,
+場外カウント,Ring-out Count,
+反則カウント,Foul Count,
+クリティカル,Critical,
+判定,Judge,"setting label; ""decision"" in sentences"
+花道,Ramp,
+入場,Intros | entrance,"setting label; ""entrance"" in sentences"
+実況,Caller,"setting label; ""play-by-play"" in sentences"
+解説,Color,"setting label; ""color commentator"" in sentences"
+リングアナ,Ring Announcer,
+レフェリー,Referee,
+ファン層,Crowd,
+試合会場,Venue,
+新日本プロレス,New Japan Pro-Wrestling | New Japan,short: New Japan
+プロレスリング・ノア,Pro Wrestling NOAH | NOAH,short: NOAH
+全日本プロレス,All Japan Pro Wrestling | All Japan,short: All Japan
+パンクラス,Pancrase | KOP,
+ヘビー級,Heavyweight,
+ジュニアヘビー級,Junior Heavyweight | Jr. Heavyweight,
+ライトヘビー級,Light Heavyweight,
+ミドル級,Middleweight,
+ウェルター級,Welterweight,
+無差別級,Openweight,
+スーパーヘビー級,Super Heavyweight,
+三冠ヘビー級,Triple Crown Heavyweight,
+アジアタッグ,All Asia Tag Team,
+世界タッグ,World Tag Team,
+天下一,Tenkaichi,
+キング・オブ・パンクラシスト,King of Pancrase,
+Ｇ１クライマックス,G1 Climax,
+ベスト・オブ・ザ・スーパーＪｒ.,Best of the Super Juniors,
+チャンピオンカーニバル,Champion Carnival,
+火祭り,Fire Festival | Fire Sword,
+世界最強タッグ決定リーグ戦,Real World Tag League,
+最強者決定,Strongest Wrestler,
+スパイクドーム,Spike Dome,faithful (user decision)
+日本武闘館,Nippon Butokan,
+大江戸国技館,Oedo Kokugikan,
+臨海コロシアム,Rinkai Colosseum,
+遊楽園ホール,Yurakuen Hall,
+メイファ有明,Meifa Ariake,
+千駄ヶ谷体育館,Sendagaya Gymnasium,
+川島球場,Kawashima Stadium,
+地方会場,Regional Venue,
+レスラータイプ,Wrestler Type,[exact]
+プロフィール,Profile,
+レスラーメイク,Appearance,wrestler make = looks
+スキル,Skills | skills | Skill,
+パラメータ,Parameters | parameters | stats,
+技装備,Moveset,
+ＣＯＭロジック,CPU Logic,
+ファイトスタイル,Fight Style,
+必殺技,Finisher,
+得意技,Signature Move,
+ピヨリ,Dazed,stunned state
+呼吸困難,Breathless | Breathlessness,
+体力,Stamina,
+精神力,Spirit,
+所属団体,Promotion,
+階級,Weight Class | weight class,
+ニックネーム,Nickname,
+戦いの歴史,Battle History,the wrestler record feature
+未完の大器,Rough Diamond,rank title
+学生プロレス並,Backyard Wrestler,rank title
+闘魂,Toukon,
+半ダウン,Sitting,down state (seated)
+片膝ダウン,Kneeling | kneeling | one knee,down state
+四つんばい,All Fours | all fours | All-Fours,down state
+引き起こし,Pick-up | Pick Up | pick up | pull,lifting a downed opponent
+ハンマースルー,Irish Whip | IW,
+ガードクラッシュ,Guard Crush,
+ローリングエスケープ,Rolling Escape,
+タイアップクラッチ,Tie-Up Clutch | TC,
+ツープラトン,Double Team | Team-Up,
+アピール,Taunt | taunt | Pose | pose,

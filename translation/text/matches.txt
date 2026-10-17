@@ -1,0 +1,280 @@
+# Match types, title matches, tournaments, rounds.
+# KC2FIRE.000 entry 1445 (strings) / 1446 (offsets) - see tools/pools.py.
+# Letters are stored full-width (2 bytes), spaces and new lines as 1 byte; keep %d codes.
+# A block's lines are the string's lines; a final empty line is a trailing new line.
+
+@ 0
+JP エキシビジョンマッチ
+EN Exhibition Match
+
+@ 1
+JP イリミネーションマッチ
+EN Elimination Match
+
+@ 2
+JP タイトルマッチ
+EN Title Match
+
+@ 3
+JP シリーズモード
+EN Series Mode
+
+@ 4
+JP シングルマッチ
+EN Single Match
+
+@ 5
+JP シングルマッチ
+EN Single Match
+
+@ 6
+JP タッグマッチ
+EN Tag Match
+
+@ 7
+JP ハンディキャップマッチ
+EN Handicap Match
+
+@ 8
+JP トリプルスレッドマッチ
+EN Triple Threat Match
+
+@ 9
+JP バトルロイヤル
+EN Battle Royal
+
+@ 10
+JP イリミネーションマッチ
+EN Elimination Match
+
+@ 11
+JP ＩＷＧＰヘビー級選手権試合
+EN IWGP Heavyweight Championship
+
+@ 12
+JP ＮＷＦヘビー級選手権試合
+EN NWF Heavyweight Championship
+
+@ 13
+JP ＩＷＧＰタッグ選手権試合
+EN IWGP Tag Team Championship
+
+@ 14
+JP ＩＷＧＰジュニアヘビー級選手権試合
+EN IWGP Junior Heavyweight Championship
+
+@ 15
+JP ＩＷＧＰジュニアタッグ選手権試合
+EN IWGP Junior Tag Team Championship
+
+@ 16
+JP Ｕ－３０無差別級選手権試合
+EN U-30 Openweight Championship
+
+@ 17
+JP ＧＨＣヘビー級選手権試合
+EN GHC Heavyweight Championship
+
+@ 18
+JP ＧＨＣタッグ選手権試合
+EN GHC Tag Team Championship
+
+@ 19
+JP ＧＨＣジュニアヘビー級選手権試合
+EN GHC Junior Heavyweight Championship
+
+@ 20
+JP ＧＨＣジュニアタッグ選手権試合
+EN GHC Junior Tag Team Championship
+
+@ 21
+JP 三冠ヘビー級選手権試合
+EN Triple Crown Heavyweight Championship
+
+@ 22
+JP 世界タッグ選手権試合
+EN World Tag Team Championship
+
+@ 23
+JP 世界ジュニアヘビー級選手権試合
+EN World Junior Heavyweight Championship
+
+@ 24
+JP アジアタッグ選手権試合
+EN All Asia Tag Team Championship
+
+@ 25
+JP 天下一ヘビー級選手権試合
+EN Tenkaichi Heavyweight Championship
+
+@ 26
+JP 天下一タッグ選手権試合
+EN Tenkaichi Tag Team Championship
+
+@ 27
+JP 天下一Ｊｒ．選手権試合
+EN Tenkaichi Jr. Championship
+
+@ 28
+JP ＷＭＧヘビー級選手権試合
+EN WMG Heavyweight Championship
+
+@ 29
+JP ＷＭＧタッグ選手権試合
+EN WMG Tag Team Championship
+
+@ 30
+JP Ｇ１クライマックス
+EN G1 Climax
+
+@ 31
+JP ベスト・オブ・ザ・スーパーＪｒ．
+EN Best of the Super Juniors
+
+@ 32
+JP ＧＨＣヘビー級リーグ戦
+EN GHC Heavyweight League
+
+@ 33
+JP ＧＨＣジュニアヘビー級リーグ戦
+EN GHC Junior Heavyweight League
+
+@ 34
+JP チャンピオンカーニバル
+EN Champion Carnival
+
+@ 35
+JP ジュニアヘビー級チャンピオンカーニバル
+EN Junior Heavyweight Champion Carnival
+
+@ 36
+JP 火祭り
+EN Fire Festival
+
+@ 37
+JP 天下一Ｊｒ．リーグ戦
+EN Tenkaichi Jr. League
+
+@ 38
+JP ＷＪ最強者決定リーグ戦
+EN WJ Strongest Wrestler League
+
+@ 39
+JP オリジナルリーグ戦
+EN Original League
+
+@ 40
+JP Ｇ１タッグリーグ
+EN G1 Tag League
+
+@ 41
+JP ＧＨＣタッグリーグ戦
+EN GHC Tag Team League
+
+@ 42
+JP 世界最強タッグ決定リーグ戦
+EN Real World Tag League
+
+@ 43
+JP 火祭りタッグ
+EN Fire Festival Tag
+
+@ 44
+JP ＷＪ最強タッグ決定リーグ戦
+EN WJ Strongest Tag League
+
+@ 45
+JP オリジナルタッグリーグ戦
+EN Original Tag League
+
+@ 46
+JP Ｇ１クライマックス
+EN G1 Climax
+
+@ 47
+JP ベスト・オブ・ザ・スーパーＪｒ．
+EN Best of the Super Juniors
+
+@ 48
+JP ＧＨＣヘビー級トーナメント
+EN GHC Heavyweight Tournament
+
+@ 49
+JP ＧＨＣジュニアヘビー級トーナメント
+EN GHC Junior Heavyweight Tournament
+
+@ 50
+JP チャンピオンカーニバル
+EN Champion Carnival
+
+@ 51
+JP ジュニアヘビー級チャンピオンカーニバル
+EN Junior Heavyweight Champion Carnival
+
+@ 52
+JP 火祭りトーナメント
+EN Fire Festival Tournament
+
+@ 53
+JP 天下一Ｊｒ．トーナメント
+EN Tenkaichi Jr. Tournament
+
+@ 54
+JP ＷＪ最強者決定トーナメント
+EN WJ Strongest Wrestler Tournament
+
+@ 55
+JP オリジナルトーナメント
+EN Original Tournament
+
+@ 56
+JP Ｇ１タッグトーナメント
+EN G1 Tag Tournament
+
+@ 57
+JP ＧＨＣタッグトーナメント
+EN GHC Tag Team Tournament
+
+@ 58
+JP 世界最強タッグ決定トーナメント
+EN Real World Tag Tournament
+
+@ 59
+JP 火祭りタッグトーナメント
+EN Fire Festival Tag Tournament
+
+@ 60
+JP ＷＪ最強タッグ決定トーナメント
+EN WJ Strongest Tag Tournament
+
+@ 61
+JP オリジナルタッグトーナメント
+EN Original Tag Tournament
+
+@ 62
+JP 公式戦
+EN League Match
+
+@ 63
+JP 優勝決定戦
+EN Playoff Final
+
+@ 64
+JP １回戦
+EN Round 1
+
+@ 65
+JP ２回戦
+EN Round 2
+
+@ 66
+JP ３回戦
+EN Round 3
+
+@ 67
+JP 準決勝
+EN Semifinal
+
+@ 68
+JP 決勝
+EN Final

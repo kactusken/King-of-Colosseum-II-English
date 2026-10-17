@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Match Maker Route Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<!--HEAD-->
+<style>
+/*COMMON_CSS*/
+/* Layout: header + tabs, then the campaign flowchart beside a dossier panel (stacks on phones). */
+
+/* Map view */
+#map { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 460px); gap: 12px; }
+.chartcol { display: flex; flex-direction: column; min-width: 0; min-height: 0; gap: 8px; }
+.promos { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.tools { margin-left: auto; display: flex; gap: 6px; }
+.flowbox { flex: 1; min-height: 360px; overflow: auto; background: var(--sunk); border: 1px solid var(--line); border-radius: 8px; padding: 16px 16px 24px; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--muted); }
+.legend b { color: var(--ink); font-weight: 600; }
+
+/* The flowchart: absolutely placed boxes over an SVG edge layer, scaled as one piece. */
+.chartwrap { position: relative; transform-origin: 0 0; }
+.chartwrap svg.edges { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; }
+.step { position: absolute; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px 10px; cursor: pointer; display: grid; gap: 3px; box-shadow: 0 1px 2px rgb(0 0 0 / .12); }
+.step:hover { border-color: var(--ink); }
+.step.sel { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
+.step .top { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
+.step .ttl { font: 700 15px/1.25 var(--body); }
+.step .meta { font-size: 13px; color: var(--muted); }
+.step .num { font: 600 12.5px var(--body); color: var(--muted); }
+.tag { font: 700 11.5px/1 var(--body); border-radius: 4px; padding: 3px 6px 2px; white-space: nowrap; }
+.t-office { background: var(--pc); color: var(--surface); }
+.t-show { background: var(--surface); color: var(--ink); }
+.t-check { background: var(--surface); color: var(--ink); border: 1px solid var(--ink); }
+.t-branch { background: var(--accent); color: var(--accent-ink); }
+.t-bonus { background: var(--hl-bg); color: var(--hl); border: 1px solid var(--hl); }
+.t-end { background: var(--good); color: var(--surface); }
+.t-over { background: var(--bad); color: var(--surface); }
+.step.start { border: 2px solid var(--pc); }
+.step.show { background: var(--ink); border-color: var(--ink); color: var(--surface); }
+.step.show .meta, .step.show .num { color: var(--line); }
+.step.check { background: var(--sunk); border: 1.5px dashed var(--ink); }
+.step.branch { border-color: var(--accent); background: var(--accent-soft); }
+.step.ending { border: 2.5px solid var(--good); }
+.step.over { border: 2.5px solid var(--bad); }
+.edge { fill: none; stroke: var(--muted); stroke-width: 1.6; }
+.edge.yes { stroke: var(--good); }
+.edge.no { stroke: var(--bad); }
+.edge.opt { stroke: var(--accent); stroke-dasharray: 6 4; }
+.edge.hl { stroke-width: 3.2; }
+.edge.dim, .elabel.dim { opacity: .3; }
+.elabel rect { fill: var(--sunk); }
+.elabel text { font: 600 11.5px var(--body); fill: var(--muted); }
+.elabel.yes text { fill: var(--good); } .elabel.no text { fill: var(--bad); } .elabel.opt text { fill: var(--accent); }
+.junction { fill: var(--bad); }
+#a-muted path { fill: var(--muted); } #a-yes path { fill: var(--good); } #a-no path { fill: var(--bad); } #a-opt path { fill: var(--accent); }
+.zoom { display: flex; gap: 4px; }
+.zoom .btn { min-width: 30px; }
+.cutnote { border: 1px dashed var(--muted); border-radius: 8px; padding: 8px 12px; color: var(--muted); font-size: 13.5px; margin: 0 0 12px; max-width: 760px; }
+
+/* Panel */
+aside.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; overflow-y: auto; overflow-x: hidden; min-width: 0; padding: 16px; display: flex; flex-direction: column; gap: 14px; }
+.panel h2 { font: 900 29px/1.05 var(--display); margin: 0; text-transform: uppercase; font-stretch: 62%; text-wrap: balance; }
+.panel h3 { font: 700 14px var(--body); color: var(--ink); margin: 0 0 6px; }
+.panel p { margin: 0; }
+.panel > * { min-width: 0; flex-shrink: 0; }
+.kicker { font: 500 13px var(--body); color: var(--muted); display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.ptag { font: 700 12.5px var(--body); color: var(--surface); background: var(--pc); border-radius: 4px; padding: 1px 6px; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 6px; }
+.fact { background: var(--sunk); border-radius: 6px; padding: 6px 9px; }
+.fact .fk { font: 700 12px var(--body); color: var(--muted); }
+.fact .v { font: 700 17px var(--body); font-variant-numeric: tabular-nums; }
+.fact .v small { font-weight: 400; font-size: 12.5px; color: var(--muted); }
+ul.rules { margin: 0; padding: 0; list-style: none; display: grid; gap: 3px; font-size: 14px; }
+.cond { background: var(--sunk); border-left: 3px solid var(--ink); border-radius: 0 6px 6px 0; padding: 7px 10px; font-size: 14px; }
+.cond b { font-weight: 700; }
+.note { border-left: 3px solid var(--line); padding: 2px 0 2px 12px; color: var(--muted); font-size: 13.5px; }
+.talk { display: grid; gap: 6px; }
+.page { background: var(--sunk); border-radius: 6px; padding: 7px 10px; font-size: 14.5px; }
+.page .spk { font: 700 12.5px var(--body); color: var(--pc); display: block; margin-bottom: 1px; }
+.page .spk.second { color: var(--muted); }
+.page .y { color: var(--hl); font-weight: 600; }
+.page .jp { display: block; color: var(--muted); font-size: 13px; margin-top: 4px; white-space: pre-line; }
+.seg { display: flex; flex-wrap: wrap; gap: 0; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; width: fit-content; }
+.seg button { font: 600 13px var(--body); border: 0; background: var(--surface); color: var(--muted); padding: 5px 11px; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
+.grades { display: grid; grid-template-columns: minmax(0, 1fr); gap: 6px; }
+details.g { border: 1px solid var(--line); border-radius: 6px; min-width: 0; }
+details.g > summary { cursor: pointer; padding: 6px 10px; display: flex; gap: 10px; align-items: baseline; list-style: none; }
+details.g > summary::-webkit-details-marker { display: none; }
+details.g > summary::before { content: "▸"; color: var(--muted); }
+details.g[open] > summary::before { content: "▾"; }
+details.g > .talk { padding: 0 8px 8px; }
+.gl { font: 800 20px/1 var(--display); font-stretch: 62%; width: 18px; text-align: center; }
+.gs { font-size: 13px; color: var(--muted); }
+.gf { font-size: 13.5px; flex: 1; min-width: 0; }
+details.g[open] .gf { display: none; }
+
+#shows, #how { overflow: auto; }
+td .rules { font-size: 13px; color: var(--muted); }
+
+@media (max-width: 900px) {
+  .app { height: auto; min-height: 100%; }
+  #map { grid-template-columns: minmax(0, 1fr); }
+  .flowbox { max-height: 70vh; flex: none; }
+  .tools { margin-left: 0; }
+}
+</style>
+
+<div class="app">
+  <header>
+    <h1>Match Maker <span>Route Map</span></h1>
+    <div class="sub">Every briefing, check, verdict and piece of advice in King of Colosseum II's Match Maker, read from the game's own data and code.</div>
+    <button id="theme" type="button"></button>
+    <!--NAV-->
+  </header>
+  <nav class="tabs" role="tablist">
+    <button role="tab" id="t-map" aria-selected="true" aria-controls="map">Route map</button>
+    <button role="tab" id="t-shows" aria-selected="false" aria-controls="shows">Shows &amp; goals</button>
+    <button role="tab" id="t-how" aria-selected="false" aria-controls="how">How the campaign works</button>
+  </nav>
+
+  <section class="view" id="map" role="tabpanel">
+    <div class="chartcol">
+      <div class="promos" id="promos">
+        <div class="tools"><span class="zoom"><button class="btn" id="zout" type="button" aria-label="Zoom out">−</button><button class="btn" id="zfit" type="button">Fit</button><button class="btn" id="zin" type="button" aria-label="Zoom in">+</button></span><button class="btn" id="jp" type="button" aria-pressed="false">Japanese: hidden</button></div>
+      </div>
+      <div class="flowbox" id="flowbox"></div>
+      <div class="legend">
+        <span><b>Office</b> the president's briefing, then you set the card</span>
+        <span><b style="color:var(--good)">Green</b> goals met · <b style="color:var(--bad)">red</b> a goal missed or no bonus · <b style="color:var(--accent)">dashed</b> only after a show scored 85+</span>
+        <span><b>Show</b> the show is played</span>
+        <span><b>Check</b> the game tests your result</span>
+        <span>Click any box for its dialogue</span>
+      </div>
+    </div>
+    <aside class="panel" id="panel" aria-live="polite"></aside>
+  </section>
+
+  <section class="view" id="shows" role="tabpanel" hidden>
+    <div class="wrap">
+      <div class="prose"><p>Every show and the goals it sets. A show is cleared when attendance reaches its goal <b>and</b> the average match rating reaches its goal; the grade (S to E) only changes what the president says. The last show of each promotion is a bonus show, played only if every earlier show scored A or better.</p></div>
+      <div class="filters">
+        <label for="f-promo" class="small muted">Promotion</label>
+        <select id="f-promo"></select>
+      </div>
+      <div class="tablebox"><table id="stable"><thead><tr><th>Promotion</th><th>#</th><th>Show</th><th>Venue</th><th>Capacity</th><th>Attendance goal</th><th>Rating goal</th><th>Bouts</th><th>Roster</th><th>Rules</th></tr></thead><tbody></tbody></table></div>
+    </div>
+  </section>
+
+  <section class="view" id="how" role="tabpanel" hidden>
+    <div class="wrap"><div class="prose" id="howtext"></div></div>
+  </section>
+</div>
+
+<script type="application/json" id="data">/*DATA*/</script>
+<script>
+(function () {
+"use strict";
+const D = JSON.parse(document.getElementById("data").textContent);
+const P = D.promotions, DL = D.dialogue, GR = D.grades;
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const num = n => n.toLocaleString("en-US");
+const pct = (a, b) => Math.round(a / b * 100);
+let showJP = false, cur = P[0], selId = "start";
+
+/*THEME_JS*/
+
+/* ---------- the nodes of one campaign */
+function nodes(p) {
+  const out = [{ id: "start", type: "start" }], n = p.shows.length;
+  p.shows.forEach(s => {
+    if (s.bonus && n > 1) out.push({ id: "bonus", type: "bonus", s });
+    out.push({ id: "office" + s.n, type: "office", s });
+    if (s.followup) out.push({ id: "guest" + s.n, type: "guest", s });
+    out.push({ id: "show" + s.n, type: "show", s });
+    out.push({ id: "check" + s.n, type: "check", s });
+  });
+  out.push({ id: "ending", type: "ending" }, { id: "gameover", type: "gameover" });
+  return out;
+}
+const find = id => nodes(cur).find(x => x.id === id);
+
+function stepHTML(p, x) {
+  const n = p.shows.length, s = x.s;
+  const box = (cls, inner) => `<div class="step ${cls}" data-id="${x.id}" tabindex="0">${inner}</div>`;
+  switch (x.type) {
+    case "start": return box("start", `<div class="top"><span class="tag t-office">Start</span><span class="ttl">Company select: ${esc(p.label)}</span></div><div class="meta">${esc(p.speakers.filter(Boolean).join(" and "))} · ${n} shows${p.cut ? " · cut from the game" : ""}</div>`);
+    case "office": return box("office", `<div class="top"><span class="tag t-office">Office</span>${s.bonus ? '<span class="tag t-bonus">Bonus show</span>' : ""}<span class="num">Show ${s.n}</span></div><div class="ttl">${esc(s.name)}</div><div class="meta">${s.intro ? "Match Maker intro, then the briefing" : "Briefing"} · ${esc(s.goal)}</div>`);
+    case "guest": return box("branch", `<div class="top"><span class="tag t-branch">Surprise announcement</span></div><div class="ttl">${s.followup.guests.length ? esc(s.followup.guests.join(", ")) : "A guest"}</div><div class="meta">${s.followup.guests.length ? "Join this show's roster" : ""}</div>`);
+    case "show": return box("show", `<div class="top"><span class="tag t-show">Show</span><span class="num">${s.matches} bouts · ${esc(s.venue)}</span></div><div class="ttl">${esc(s.name)}</div><div class="meta">Goals: ${num(s.attendance_goal)} fans of ${num(s.capacity)} · rating ${s.rating_goal}</div>`);
+    case "check": return box("check", `<div class="top"><span class="tag t-check">Check</span><span class="ttl">Goals met?</span></div><div class="meta">Verdict graded S to E</div>`);
+    case "bonus": return box("check", `<div class="top"><span class="tag t-check">Check</span><span class="ttl">Shows 1–${n - 1} all A or better?</span></div><div class="meta">Every earlier show scored 85+</div>`);
+    case "ending": return box("ending", `<div class="top"><span class="tag t-end">Ending</span><span class="ttl">Campaign cleared</span></div><div class="meta">The president's farewell; ${esc(p.label)} marked cleared</div>`);
+    case "gameover": return box("over", `<div class="top"><span class="tag t-over">Game Over</span><span class="ttl">Fired</span></div><div class="meta">Farewell scene, then back to company select</div>`);
+  }
+}
+
+/* Layout: a spine (start ... ending) in the middle column, surprise announcements to its left,
+   Game Over to its right fed by one bus from every check; the bonus check's "no" runs down a lane
+   left of the spine into the ending. */
+const L = { gw: 230, sw: 330, ow: 210, gap: 54, lane: 34, top: 8 };
+let edges = [], zoom = 1, natural = { w: 0, h: 0 };
+function renderFlow() {
+  const p = cur, ns = nodes(p), n = p.shows.length;
+  document.documentElement.style.setProperty("--pc", `var(--p-${p.key})`);
+  const hasGuest = ns.some(x => x.type === "guest");
+  const X = { guest: 0, spine: (hasGuest ? L.gw + 70 : 60) };
+  const busX = X.spine + L.sw + 60, X_over = busX - 36;
+  $("#flowbox").innerHTML = (p.cut ? `<p class="cutnote">Pancrase was cut late in development: the company select always skips it. Its whole campaign is still on the disc, but its roster is gone, so it can't be played even when unlocked (see How the campaign works).</p>` : "")
+    + `<div class="chartwrap" id="chart"><svg class="edges" id="edges"></svg>${ns.map(x => stepHTML(p, x)).join("")}</div>`;
+  const el = id => document.querySelector(`.step[data-id="${id}"]`);
+  const W = { guest: L.gw, gameover: L.ow };
+  ns.forEach(x => { el(x.id).style.width = (W[x.type] || L.sw) + "px"; });
+  const H = id => el(id).offsetHeight;
+  const pos = {};
+  const put = (id, x, y) => { const e = el(id); e.style.left = x + "px"; e.style.top = y + "px"; pos[id] = { x, y, w: e.offsetWidth, h: e.offsetHeight }; };
+  let y = L.top;
+  ns.filter(x => x.type !== "guest" && x.type !== "gameover").forEach(x => {
+    put(x.id, X.spine, y);
+    let h = H(x.id);
+    if (x.type === "office" && x.s.followup) {
+      const g = "guest" + x.s.n;
+      put(g, X.guest, y + h + L.gap / 2 - H(g) / 2 + 6);
+    }
+    y += h + L.gap;
+  });
+  put("gameover", X_over, pos.ending.y);
+  natural = { w: X_over + L.ow + 8, h: Math.max(pos.ending.y + pos.ending.h, pos.gameover.y + pos.gameover.h) + 12 };
+  /* edges: {from, to, d, cls, label, lx, ly, anchor} */
+  edges = [];
+  const cx = id => pos[id].x + pos[id].w / 2, bot = id => pos[id].y + pos[id].h, mid = id => pos[id].y + pos[id].h / 2;
+  const down = (a, b, cls, label) => edges.push({ from: a, to: b, cls, label, d: `M${cx(a)},${bot(a)} V${pos[b].y - 2}`, lx: cx(a) + 8, ly: (bot(a) + pos[b].y) / 2 + 4 });
+  const spine = ns.filter(x => x.type !== "guest" && x.type !== "gameover");
+  spine.forEach((x, i) => {
+    const nx = spine[i + 1];
+    if (!nx) return;
+    if (x.type === "check") down(x.id, nx.id, "yes", "goals met");
+    else if (x.type === "bonus") down(x.id, nx.id, "yes", "yes");
+    else down(x.id, nx.id, "", "");
+  });
+  ns.filter(x => x.type === "guest").forEach(x => {
+    const o = "office" + x.s.n, sh = "show" + x.s.n, g = x.id;
+    const gy = mid(g), gr = pos[g].x + pos[g].w, sx = pos[o].x;
+    edges.push({ from: o, to: g, cls: "opt", label: `if show ${x.s.followup.after} scored 85+`, d: `M${sx},${pos[o].y + 18} H${pos[g].x + pos[g].w / 2} V${pos[g].y - 2}`, lx: pos[g].x + pos[g].w / 2 + 8, ly: pos[o].y + 14, anchor: "start" });
+    edges.push({ from: g, to: sh, cls: "opt", label: "", d: `M${pos[g].x + pos[g].w / 2},${bot(g)} V${mid(sh)} H${pos[sh].x - 2}` });
+  });
+  const checks = ns.filter(x => x.type === "check");
+  checks.forEach(x => {
+    const yy = mid(x.id);
+    edges.push({ from: x.id, to: "gameover", cls: "no", label: "a goal missed", d: `M${pos[x.id].x + pos[x.id].w},${yy} H${busX}`, lx: pos[x.id].x + pos[x.id].w + 6, ly: yy - 6, anchor: "start", junction: [busX, yy] });
+  });
+  const busTop = mid(checks[0].id);
+  edges.push({ from: "bus", to: "gameover", cls: "no", label: "", d: `M${busX},${busTop} V${pos.gameover.y - 2}`, bus: true });
+  if (pos.bonus) {
+    const lx = X.spine - L.lane, yy = mid("bonus");
+    edges.push({ from: "bonus", to: "ending", cls: "no", label: "no", d: `M${X.spine},${yy} H${lx} V${mid("ending")} H${X.spine - 2}`, lx: lx - 6, ly: yy - 6, anchor: "end" });
+  }
+  const svg = $("#edges");
+  svg.setAttribute("width", natural.w); svg.setAttribute("height", natural.h);
+  const mk = c => `url(#a-${c || "muted"})`;
+  svg.innerHTML = `<defs>${["muted", "yes", "no", "opt"].map(c => `<marker id="a-${c}" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z"/></marker>`).join("")}</defs>`
+    + edges.map((e, i) => `<path class="edge ${e.cls}" data-e="${i}" d="${e.d}"${e.junction ? "" : ` marker-end="${mk(e.cls)}"`}/>`
+      + (e.junction ? `<circle class="junction" data-e="${i}" cx="${e.junction[0]}" cy="${e.junction[1]}" r="3.5"/>` : "")).join("")
+    + edges.map((e, i) => e.label ? `<g class="elabel ${e.cls}" data-e="${i}"><text x="${e.lx}" y="${e.ly}" text-anchor="${e.anchor || "start"}">${esc(e.label)}</text></g>` : "").join("");
+  svg.querySelectorAll(".elabel").forEach(g => {
+    const b = g.querySelector("text").getBBox();
+    const r = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    r.setAttribute("x", b.x - 3); r.setAttribute("y", b.y - 1); r.setAttribute("width", b.width + 6); r.setAttribute("height", b.height + 2); r.setAttribute("rx", 3);
+    g.insertBefore(r, g.firstChild);
+  });
+  applyZoom();
+  markSel();
+}
+function applyZoom() {
+  const c = $("#chart");
+  if (!c) return;
+  c.style.width = natural.w + "px"; c.style.height = natural.h + "px";
+  c.style.transform = `scale(${zoom})`;
+  c.style.marginRight = (natural.w * (zoom - 1)) + "px";
+  c.style.marginBottom = (natural.h * (zoom - 1)) + "px";
+}
+function fitZoom() {
+  const box = $("#flowbox");
+  zoom = Math.max(.45, Math.min(1, (box.clientWidth - 34) / natural.w));
+  applyZoom();
+}
+function markSel() {
+  document.querySelectorAll(".step").forEach(e => e.classList.toggle("sel", e.dataset.id === selId));
+  const on = new Set(edges.map((e, i) => (e.from === selId || e.to === selId || (e.bus && selId === "gameover") || (e.to === "gameover" && selId === "gameover")) ? i : -1));
+  document.querySelectorAll("#edges [data-e]").forEach(e => {
+    const hit = on.has(+e.dataset.e);
+    e.classList.toggle("hl", hit && e.tagName === "path");
+  });
+}
+
+/* ---------- dialogue */
+function richText(t) {
+  return esc(t.replace(/\n/g, " ")).replace(/&lt;(.*?)&gt;/g, '<span class="y">$1</span>').replace(/↓/g, "");
+}
+function talk(id, p, narrator) {
+  if (!id || !DL[id]) return '<p class="muted small">No line here.</p>';
+  return `<div class="talk">${DL[id].map(pg => {
+    const who = narrator ? "" : pg.second ? p.speakers[1] : p.speakers[0];
+    return `<div class="page">${who ? `<span class="spk${pg.second ? " second" : ""}">${esc(who)}</span>` : ""}${richText(pg.en)}${showJP ? `<span class="jp" lang="ja">${esc(pg.jp)}</span>` : ""}</div>`;
+  }).join("")}</div>`;
+}
+const firstLine = id => id && DL[id] ? richText(DL[id][0].en) : "";
+
+function facts(s) {
+  return `<div class="facts">
+    <div class="fact"><div class="fk">Venue</div><div class="v" style="font-size:15px">${esc(s.venue)}</div></div>
+    <div class="fact"><div class="fk">Capacity</div><div class="v">${num(s.capacity)}</div></div>
+    <div class="fact"><div class="fk">Attendance goal</div><div class="v">${num(s.attendance_goal)} <small>${pct(s.attendance_goal, s.capacity)}%</small></div></div>
+    <div class="fact"><div class="fk">Rating goal</div><div class="v">${s.rating_goal}</div></div>
+    <div class="fact"><div class="fk">Bouts</div><div class="v">${s.matches}</div></div>
+    <div class="fact"><div class="fk">Roster</div><div class="v">${s.roster}</div></div>
+  </div>`;
+}
+function head(p, kicker, title) {
+  return `<div class="kicker"><span class="ptag">${esc(p.label)}</span>${kicker}</div><h2>${title}</h2>`;
+}
+function link(id, label) { return `<a class="sl" data-go="${id}" tabindex="0">${label}</a>`; }
+
+function panel(x) {
+  const p = cur, s = x.s, n = p.shows.length;
+  let h = "";
+  switch (x.type) {
+    case "start":
+      h = head(p, `${n} shows`, esc(p.label)) +
+        `<p>Pick ${esc(p.label)} at the Match Maker company select. ${esc(p.speakers[0])} runs your briefings${p.speakers[1] ? `; ${esc(p.speakers[1])} speaks too` : ""}. Each show starts in the office: a briefing, then the office menu (set the cards, show info, wrestler and title info, past shows, advice), then the show and the verdict.</p>` +
+        `<div><h3>The shows</h3><ul class="rules">${p.shows.map(t => `<li>${link("office" + t.n, `${t.n}. ${esc(t.name)}`)} <span class="muted small">${esc(t.venue)}${t.bonus ? " · bonus" : ""}</span></li>`).join("")}</ul></div>` +
+        (p.cut ? `<p class="note">Cut from the game: the company list skips slot 6. With that skip removed the campaign loads, but the first show offers only two wrestlers, too few for a card.</p>` : "") +
+        `<p class="note">Clearing ${esc(p.label)} marks it cleared; clearing all five of New Japan, NOAH, All Japan, ZERO-ONE and WJ unlocks the Free Show.</p>`;
+      break;
+    case "office":
+      h = head(p, `Show ${s.n}${s.bonus ? " · bonus show" : ""}`, esc(s.name)) +
+        `<p class="muted">${esc(s.goal)}${s.name !== s.name_jp.normalize("NFKC").replace(/\u3000/g, " ") ? ` <span lang="ja">· ${esc(s.name_jp)}</span>` : ""}</p>` + facts(s) +
+        `<div><h3>Show rules</h3><ul class="rules">${s.notes.map(r => `<li>${esc(r)}</li>`).join("")}</ul></div>` +
+        (s.bonus ? `<p class="note">Bonus show: played only if shows 1–${n - 1} all scored A or better (85+).</p>` : "") +
+        (s.intro ? `<div><h3>First visit: what a Match Maker is</h3>${talk(s.intro, p, true)}</div>` : "") +
+        `<div><h3>Briefing</h3>${talk(s.briefing, p)}</div>` +
+        (s.followup ? `<p class="small">Then, ${link("guest" + s.n, "if show " + s.followup.after + " scored A or better")}: a surprise announcement.</p>` : "") +
+        adviceHTML(p, s);
+      break;
+    case "guest":
+      h = head(p, `Show ${s.n} · after the briefing`, "Surprise announcement") +
+        `<div class="cond">Plays when show ${s.followup.after} scored <b>A or better</b> (85+).</div>` +
+        (s.followup.guests.length ? `<div><h3>Joins the roster</h3><ul class="rules">${s.followup.guests.map((g, i) => `<li>${wlink(esc(g), (s.followup.guest_links || [])[i])}</li>`).join("")}</ul></div>` : "") +
+        (s.followup.note ? `<p class="note">${esc(s.followup.note)}</p>` : "") +
+        talk(s.followup.line, p);
+      break;
+    case "show":
+      h = head(p, `Show ${s.n}`, esc(s.name)) + facts(s) +
+        `<p>You set ${s.matches} bouts in the office, then the show plays. Attendance depends on the card (popularity, inter-promotion matches); the rating is the average of the bouts.</p>` +
+        `<div class="cond">To clear: at least <b>${num(s.attendance_goal)}</b> fans <b>and</b> an average match rating of at least <b>${s.rating_goal}</b>.</div>`;
+      break;
+    case "check": h = verdicts(p, s); break;
+    case "bonus":
+      h = head(p, `After show ${n - 1}`, "Bonus show check") +
+        `<div class="cond">Every one of shows 1–${n - 1} scored <b>85 or more</b> (grade A or S) → ${link("office" + n, esc(p.shows[n - 1].name))}. Otherwise → ${link("ending", "the ending")}.</div>` +
+        `<p>Score = (attendance ÷ capacity × 100 + match rating) ÷ 2. A full house with a rating of 70 is exactly 85.</p>`;
+      break;
+    case "ending":
+      h = head(p, "Campaign over", "Ending") +
+        `<p>After the last show you play (the bonus show, or show ${n - 1} if it was skipped). The farewell, then the clear screen; ${esc(p.label)} is marked cleared.</p>` + talk(p.ending, p);
+      break;
+    case "gameover":
+      h = head(p, "Any show", "Game Over") +
+        `<p>After the verdict of a show that missed a goal: this scene, then the GAME OVER screen, then back to company select. Shows can't be replayed.</p>` + talk(p.gameover, p);
+      break;
+  }
+  $("#panel").innerHTML = h;
+}
+
+let verdictSide = "met";
+function verdicts(p, s) {
+  const list = s[verdictSide];
+  return head(p, `Show ${s.n}`, "Goals met?") +
+    `<div class="cond">Cleared when attendance ≥ <b>${num(s.attendance_goal)}</b> and match rating ≥ <b>${s.rating_goal}</b>. The grade comes from the score = (attendance ÷ ${num(s.capacity)} × 100 + rating) ÷ 2 and only picks the verdict; a failed show can still get an S.</div>` +
+    `<div class="seg" role="group" aria-label="Result"><button type="button" data-side="met" aria-pressed="${verdictSide === "met"}">Goals met</button><button type="button" data-side="missed" aria-pressed="${verdictSide === "missed"}">A goal missed → Game Over</button></div>` +
+    `<div class="grades">${GR.map(([g, min], i) => `<details class="g"${i === 0 ? " open" : ""}><summary><span class="gl">${g}</span><span class="gs">${i === GR.length - 1 ? "below 30" : min + "+"}</span><span class="gf">${firstLine(list[i])}</span></summary>${talk(list[i], p)}</details>`).join("")}</div>`;
+}
+
+function adviceHTML(p, s) {
+  const topics = Object.entries(s.advice).filter(([, v]) => v.length);
+  if (!topics.length) return "";
+  return `<div><h3>Advice (office menu)</h3><p class="small muted" style="margin-bottom:6px">Each time you ask about a topic, the next answer in the list plays; after the last it starts over. The order resets when you leave the office.</p>` +
+    `<details class="g"><summary><span class="gs"><b>The question</b></span><span class="gf">${firstLine(s.advice_prompt)}</span></summary>${talk(s.advice_prompt, p)}</details>` +
+    topics.map(([t, ids]) => `<h3 style="margin-top:10px">${esc(t)}</h3><div class="grades">${ids.map((id, i) => `<details class="g"><summary><span class="gs">${i + 1}.</span><span class="gf">${firstLine(id)}</span></summary>${talk(id, p)}</details>`).join("")}</div>`).join("") +
+    `</div>`;
+}
+
+/* ---------- selection, chips, hash */
+function select(id, scroll) {
+  const x = find(id) || find("start");
+  selId = x.id;
+  markSel();
+  panel(x);
+  $("#panel").scrollTop = 0;
+  if (scroll) { const e = document.querySelector(`.step[data-id="${selId}"]`); if (e) e.scrollIntoView({ block: "nearest" }); }
+  try { history.replaceState(null, "", `#${cur.key}/${selId}`); } catch (e) { /* file:// in some browsers */ }
+}
+function setPromo(p, id) {
+  cur = p;
+  document.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", c.dataset.key === p.key));
+  renderFlow();
+  fitZoom();
+  select(id || "start", true);
+}
+const promos = $("#promos");
+P.forEach(p => {
+  const b = document.createElement("button");
+  b.type = "button"; b.className = "chip"; b.dataset.key = p.key;
+  b.style.setProperty("--c", `var(--p-${p.key})`);
+  b.innerHTML = `<span class="dot"></span>${esc(p.label)}`;
+  b.onclick = () => setPromo(p);
+  promos.insertBefore(b, promos.lastElementChild);
+});
+$("#flowbox").addEventListener("click", e => {
+  const go = e.target.closest("[data-go]");
+  if (go) { select(go.dataset.go, true); return; }
+  const st = e.target.closest(".step");
+  if (st) select(st.dataset.id);
+});
+$("#panel").addEventListener("click", e => {
+  const go = e.target.closest("[data-go]");
+  if (go) { select(go.dataset.go, true); return; }
+  const side = e.target.closest("[data-side]");
+  if (side) { verdictSide = side.dataset.side; select(selId); }
+});
+$("#panel").addEventListener("keydown", e => {
+  const go = e.target.closest("[data-go]");
+  if (go && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); select(go.dataset.go, true); }
+});
+$("#flowbox").addEventListener("keydown", e => {
+  const st = e.target.closest(".step");
+  if (st && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); select(st.dataset.id); }
+});
+$("#zin").onclick = () => { zoom = Math.min(1.6, zoom * 1.2); applyZoom(); };
+$("#zout").onclick = () => { zoom = Math.max(.35, zoom / 1.2); applyZoom(); };
+$("#zfit").onclick = fitZoom;
+const jpBtn = $("#jp");
+jpBtn.onclick = () => {
+  showJP = !showJP;
+  jpBtn.setAttribute("aria-pressed", showJP);
+  jpBtn.textContent = showJP ? "Japanese: shown" : "Japanese: hidden";
+  select(selId);
+};
+
+/* ---------- tabs */
+const TABS = ["map", "shows", "how"];
+function setTab(t) {
+  TABS.forEach(k => { $("#t-" + k).setAttribute("aria-selected", k === t); $("#" + k).hidden = k !== t; });
+}
+TABS.forEach(k => { $("#t-" + k).onclick = () => setTab(k); });
+
+/* ---------- shows table */
+const fp = $("#f-promo");
+fp.innerHTML = `<option value="">All</option>` + P.map(p => `<option value="${p.key}">${esc(p.label)}</option>`).join("");
+function drawShows() {
+  const rows = [];
+  P.filter(p => !fp.value || p.key === fp.value).forEach(p => p.shows.forEach(s => rows.push(
+    `<tr${s.n === 1 ? ' class="first"' : ""}><td>${s.n === 1 ? `<a class="sl" data-promo="${p.key}" data-show="${s.n}">${esc(p.label)}</a>` : ""}</td><td class="n">${s.n}</td>` +
+    `<td><a class="sl" data-promo="${p.key}" data-show="${s.n}">${esc(s.name)}</a>${s.bonus ? ' <span class="tag t-bonus">Bonus</span>' : ""}<div class="small muted">${esc(s.goal)}</div></td>` +
+    `<td>${esc(s.venue)}<div class="small muted">${esc(s.crowd)}</div></td><td class="n">${num(s.capacity)}</td>` +
+    `<td class="n">${num(s.attendance_goal)} <span class="muted">(${pct(s.attendance_goal, s.capacity)}%)</span></td><td class="n">${s.rating_goal}</td>` +
+    `<td class="n">${s.matches}</td><td class="n">${s.roster}</td><td><div class="rules">${s.notes.map(esc).join("<br>")}</div></td></tr>`)));
+  $("#stable tbody").innerHTML = rows.join("");
+}
+fp.onchange = drawShows;
+$("#stable").addEventListener("click", e => {
+  const a = e.target.closest("[data-promo]");
+  if (!a) return;
+  setTab("map");
+  setPromo(P.find(p => p.key === a.dataset.promo), "office" + a.dataset.show);
+});
+drawShows();
+
+/* ---------- how it works */
+$("#howtext").innerHTML = `
+<h2>The campaign</h2>
+<p>Match Maker has one campaign per promotion: New Japan, NOAH, All Japan, ZERO-ONE and WJ (and Pancrase, cut). The shows come in a fixed order and none can be replayed; there are no dialogue choices. Your results are the only thing that steers it.</p>
+<ol>
+<li><b>Office.</b> On the first show, the president explains what a Match Maker is. Each show then opens with a briefing. The office menu: Start Show (only once every bout is set), Match Cards, Show Info, Wrestler Info, Title Info, Past Shows (from show 2 on), Rankings, Advice, Quit.</li>
+<li><b>Surprise announcement.</b> For shows 2–4, if the previous show scored A or better, a second scene follows the briefing and guest wrestlers join the roster.</li>
+<li><b>The show</b> plays, then the president gives a verdict.</li>
+<li><b>Check.</b> A show is cleared when attendance reaches its goal <b>and</b> the average match rating reaches its goal. Miss either and you are fired: a farewell scene, GAME OVER, back to company select.</li>
+<li><b>Bonus show.</b> Each promotion's last show is played only if every earlier show scored A or better. Otherwise the campaign ends after the second-to-last show.</li>
+<li><b>Ending.</b> The president's thanks and the clear screen; the promotion is marked cleared. Clearing all five playable promotions unlocks the Free Show (any venue, no briefings, no verdicts).</li>
+</ol>
+<h2>Score and grade</h2>
+<p>Score = (attendance ÷ capacity × 100 + average match rating) ÷ 2.</p>
+<table><thead><tr><th>Grade</th><th>Score</th></tr></thead><tbody>${GR.map(([g, m], i) => `<tr><td><b>${g}</b></td><td>${i === GR.length - 1 ? "below 30" : m + " or more"}</td></tr>`).join("")}</tbody></table>
+<p>The grade picks which verdict the president gives (12 per show: six for a cleared show, six for a failed one) and decides the surprise announcements and the bonus show. It does not decide whether you pass: a show can score S and still fail on one of its goals.</p>
+<h2>Advice</h2>
+<p>The office's Advice menu has three topics: Matchmaking, Match Rating and Other. Each show has its own list of answers per topic; asking again plays the next answer and the list starts over after the last. Leaving the office resets it. At New Japan's and NOAH's bonus shows the second speaker (Fujinami, Masao Inoue) takes the question.</p>
+<h2>Pancrase</h2>
+<p>A sixth campaign, Pancrase, is complete on the disc (four shows, with its own president, briefings, verdicts and advice) but the company list always skips it, and its team list is missing the home roster, so its first show offers too few wrestlers to fill a card. Its two surprise announcements are also off by one: each plays one show before the code adds the guest.</p>
+<h2>Sources</h2>
+<p class="small muted">Built by <span class="k">tools/mmmap.py</span> from the game's Match Maker files (shows, briefings, verdicts, advice and its index) and the English translation. The flow comes from the game code (the Match Maker driver and the verdict, briefing and advice routines; addresses in docs/TECHNICAL.md). Not yet traced: the attendance formula and what the Free Show's result screens show.</p>`;
+
+/* ---------- start */
+const m = (location.hash || "").slice(1).split("/");
+setPromo(P.find(p => p.key === m[0]) || P[0], m[1]);
+})();
+</script>

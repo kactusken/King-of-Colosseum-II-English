@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Secret Shop &amp; Unlocks</title>
+<!--HEAD-->
+<style>
+/*COMMON_CSS*/
+/* Layout: header + tabs; each tab scrolls on its own. Built by tools/shopmap.py. */
+.view { overflow: auto; padding: 2px 4px 0 2px; }
+.view:focus { outline: none; }
+.wrap { max-width: 1240px; }
+.filters input[type="search"] { font: 14px var(--body); padding: 4px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--ink); width: 210px; }
+.filters label.chk { display: inline-flex; gap: 5px; align-items: center; font-size: 13px; color: var(--muted); }
+.count { font-size: 13px; color: var(--muted); margin-left: auto; }
+.price { font: 700 15px var(--body); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.price small { font-weight: 400; color: var(--muted); font-size: 12px; display: block; }
+.cat { font: 700 11.5px/1 var(--body); border-radius: 4px; padding: 3px 6px 2px; white-space: nowrap; display: inline-block; color: var(--surface); background: var(--cc, var(--muted)); }
+.catkey { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 8px; }
+.catkey div { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 11px; display: grid; gap: 4px; align-content: start; font-size: 13.5px; }
+.catkey .ex { color: var(--muted); font-size: 12.5px; }
+.cat-1 { --cc: var(--p-njpw); } .cat-2 { --cc: var(--p-ajpw); } .cat-3 { --cc: var(--p-noah); } .cat-4 { --cc: var(--muted); }
+.ul { display: flex; flex-wrap: wrap; gap: 4px; }
+.u { font: 600 12px var(--body); border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px; background: var(--sunk); white-space: nowrap; }
+.u b { font-weight: 700; color: var(--muted); font-size: 10.5px; margin-right: 3px; }
+.u.key { border-color: var(--hl); color: var(--hl); background: var(--hl-bg); }
+.desc { font-size: 13px; color: var(--muted); }
+.jp { font-size: 12.5px; color: var(--muted); }
+.req { font-size: 13.5px; }
+tr.unsold td { opacity: .65; }
+
+/* The unlock ladder: one column of cards per step */
+.ladder { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.rung { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px 12px; display: grid; gap: 8px; align-content: start; }
+.rung h3 { margin: 0; font: 900 23px/1.1 var(--display); text-transform: uppercase; font-stretch: 62%; }
+.rung .tot { font-size: 12.5px; color: var(--muted); }
+.rung ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; font-size: 13.5px; }
+.rung li { display: flex; gap: 6px; align-items: baseline; }
+.rung li .nm { flex: 1; min-width: 0; }
+.rung li .pr { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 12.5px; }
+.rung.key { border-color: var(--hl); }
+.stage { font: 700 14px var(--body); color: var(--ink); margin: 6px 0 -4px; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; display: grid; gap: 8px; align-content: start; }
+.card h3 { margin: 0; font: 700 16px var(--body); overflow-wrap: anywhere; }
+.card { min-width: 0; }
+.card .u { white-space: normal; }
+.card .vf { font-size: 12.5px; color: var(--muted); }
+.card .src { font: 600 12.5px var(--body); color: var(--muted); }
+td.n.hot { color: var(--good); font-weight: 700; }
+</style>
+
+<div class="app">
+  <header>
+    <h1>Secret Shop <span>&amp; Unlocks</span></h1>
+    <div class="sub">Every item in King of Colosseum II's Secret Shop, when it goes on sale and what it unlocks, plus how to earn souls and every other unlock.</div>
+    <button id="theme" type="button"></button>
+    <!--NAV-->
+  </header>
+  <nav class="tabs" role="tablist">
+    <button role="tab" id="t-items" aria-selected="true" aria-controls="items">Shop items</button>
+    <button role="tab" id="t-ladder" aria-selected="false" aria-controls="ladder">What goes on sale when</button>
+    <button role="tab" id="t-souls" aria-selected="false" aria-controls="souls">Earning souls</button>
+    <button role="tab" id="t-other" aria-selected="false" aria-controls="other">Other unlocks</button>
+  </nav>
+
+  <section class="view" id="items" role="tabpanel">
+    <div class="wrap">
+      <div class="prose"><p>The Secret Shop is on the Survival Road menu. Items cost <b>souls</b>, earned only in Survival Road. An item goes on sale once you've cleared the Survival Road course(s) it asks for. With the <b>King of Kings</b> title everything is half price.</p></div>
+      <div class="catkey" id="catkey"></div>
+      <div class="filters">
+        <input type="search" id="q" placeholder="Search items" aria-label="Search items">
+        <select id="f-cat" aria-label="Category"></select>
+        <select id="f-req" aria-label="Requirement"></select>
+        <label class="chk"><input type="checkbox" id="f-unsold"> rows never for sale</label>
+        <span class="count" id="count"></span>
+      </div>
+      <div class="tablebox"><table id="itable"><thead><tr><th>Item</th><th>Category</th><th>Price</th><th>On sale when</th><th>Unlocks</th></tr></thead><tbody></tbody></table></div>
+    </div>
+  </section>
+
+  <section class="view" id="ladder" role="tabpanel" hidden>
+    <div class="wrap" id="laddertext"></div>
+  </section>
+
+  <section class="view" id="souls" role="tabpanel" hidden>
+    <div class="wrap" id="soulstext"></div>
+  </section>
+
+  <section class="view" id="other" role="tabpanel" hidden>
+    <div class="wrap" id="othertext"></div>
+  </section>
+</div>
+
+<script type="application/json" id="data">/*DATA*/</script>
+<script>
+(function () {
+"use strict";
+const D = JSON.parse(document.getElementById("data").textContent);
+const $ = s => document.querySelector(s);
+const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const num = n => Number(n).toLocaleString("en-US");
+const IT = D.items, byId = {};
+IT.forEach(i => { if (i.id >= 0) byId[i.id] = i; });
+/*THEME_JS*/
+
+/* ---------- tabs */
+const TABS = ["items", "ladder", "souls", "other"];
+function setTab(t) { TABS.forEach(k => { $("#t-" + k).setAttribute("aria-selected", k === t); $("#" + k).hidden = k !== t; }); try { history.replaceState(null, "", "#" + t); } catch (e) { /* file:// */ } }
+TABS.forEach(k => { $("#t-" + k).onclick = () => setTab(k); });
+
+/* ---------- unlock chips */
+const KIND = { wrestler: "Wrestler", variant: "Costume", edit_template: "Edit Mode sample", ring: "Ring", linked_item: "Also", edit_points: "Edit points", difficulty: "Difficulty", course: "Course", referee: "Referee", mode: "Mode", flag: "", all: "" };
+function unlockChips(it) {
+  const u = it.unlocks, out = [];
+  const parts = u.filter(x => x.kind === "edit_part");
+  u.filter(x => x.kind !== "edit_part").forEach(x => {
+    let name = x.name;
+    if (x.kind === "edit_points") name = "+50 when creating a wrestler";
+    if (x.kind === "difficulty" || x.kind === "course") name = name.replace(/ \(0x[0-9a-f]+\)/, "");
+    const link = x.kind === "wrestler" ? `roster/${x.target}` : x.kind === "variant" && x.wrestler != null ? `roster/${x.wrestler}` : x.kind === "edit_template" ? `templates/${x.target}` : null;
+    out.push(`<span class="u${x.key_address ? " key" : ""}">${KIND[x.kind] ? `<b>${KIND[x.kind]}</b>` : ""}${wlink(esc(name), link)}</span>`);
+  });
+  if (parts.length) out.push(`<span class="u" title="${esc([...new Set(parts.map(p => p.name))].join(", "))}"><b>Edit faces</b>${parts.length}</span>`);
+  return `<div class="ul">${out.join("") || '<span class="muted small">-</span>'}</div>`;
+}
+function reqText(it) {
+  if (it.requirement) return esc(it.requirement.text.replace(" or harder", "+"));
+  if (it.bought_with != null) return `<span class="muted">Comes with ${esc(byId[it.bought_with] ? byId[it.bought_with].name_en : "row " + it.bought_with)}</span>`;
+  return `<span class="muted">${esc(it.note || "Not for sale")}</span>`;
+}
+
+/* ---------- what the categories mean (the shop's own names, explained) */
+const CAT_TEXT = {
+  1: ["New wrestlers and costumes for every mode: the hidden wrestlers, their extra costumes (Type 3/4 colours), and their faces in Edit Mode.", "e.g. Tatsumi Fujinami, Great Muta, Chono Summer Man"],
+  2: ["A ready-made character for Edit Mode. When you create a wrestler you can start from a sample instead of a blank: it fills in the look, moves and stats of that wrestler, which you can then change. Also adds the sample's face to Edit Mode.", "e.g. Mitsuru Kajita, Sam Pop, Night Blaster"],
+  3: ["The same, for mixed martial artists: a ready-made fighter to start an Edit Mode wrestler from, with face.", "e.g. Kojiro Matsuki, Rugal Robhankin"],
+  4: ["Everything else: rings, the extra Survival Road courses and difficulties, and more Edit points for new wrestlers.", "e.g. Fighter Course, SUPER HARD, Edit Points +50"]
+};
+$("#catkey").innerHTML = D.categories.map(c => `<div><span><span class="cat cat-${c.id}">${esc(c.en)}</span></span><span>${esc((CAT_TEXT[c.id] || [c.help_en])[0])}</span><span class="ex">${esc((CAT_TEXT[c.id] || ["", ""])[1])}</span></div>`).join("");
+
+/* ---------- items table */
+const fc = $("#f-cat"), fr = $("#f-req");
+const CAT_SHORT = { 1: "Hidden (wrestlers, costumes)", 2: "Pro Sample (Edit Mode)", 3: "MMA Sample (Edit Mode)", 4: "Etc. (rings, courses, options)" };
+fc.innerHTML = `<option value="">All categories</option>` + D.categories.map(c => `<option value="${c.id}">${esc(CAT_SHORT[c.id] || c.en)}</option>`).join("");
+const reqs = [...new Set(IT.filter(i => i.requirement).map(i => i.requirement.text))];
+fr.innerHTML = `<option value="">Any requirement</option>` + reqs.map(r => `<option>${esc(r)}</option>`).join("");
+function drawItems() {
+  const q = $("#q").value.trim().toLowerCase(), unsold = $("#f-unsold").checked;
+  const rows = IT.filter(i => (unsold || i.sold)
+    && (!fc.value || i.category == fc.value)
+    && (!fr.value || (i.requirement && i.requirement.text === fr.value))
+    && (!q || [i.name_en, i.name_jp, i.description_en, ...i.unlocks.map(u => u.name)].join(" ").toLowerCase().includes(q)));
+  $("#count").textContent = `${rows.length} item${rows.length === 1 ? "" : "s"}`;
+  $("#itable tbody").innerHTML = rows.map(i => `<tr${i.sold ? "" : ' class="unsold"'}>
+    <td><b>${esc(i.name_en)}</b> <span class="jp" lang="ja">${esc(i.name_jp)}</span>${i.description_en ? `<div class="desc">${esc(i.description_en)}</div>` : ""}</td>
+    <td>${i.category ? `<span class="cat cat-${i.category}">${esc(i.category_en)}</span>` : ""}</td>
+    <td class="price">${i.price != null ? `${num(i.price)}<small>${num(i.price_half)} half price</small>` : ""}</td>
+    <td class="req">${reqText(i)}</td>
+    <td>${unlockChips(i)}</td></tr>`).join("");
+}
+["#q", "#f-unsold"].forEach(s => $(s).addEventListener("input", drawItems));
+[fc, fr].forEach(s => s.addEventListener("change", drawItems));
+drawItems();
+
+/* ---------- ladder: group the items on sale by requirement, in the order a player meets them */
+(function () {
+  const sold = IT.filter(i => i.sold), groups = new Map();
+  const order = i => { const r = i.requirement; return r.type === "course" ? [r.difficulty, 0, r.course] : [r.difficulty, 1, r.count]; };
+  sold.slice().sort((a, b) => { const x = order(a), y = order(b); return x[0] - y[0] || x[1] - y[1] || x[2] - y[2]; })
+    .forEach(i => { const k = i.requirement.text; if (!groups.has(k)) groups.set(k, { r: i.requirement, items: [] }); groups.get(k).items.push(i); });
+  const stages = [["Clear one course on Normal", g => g.r.type === "course" && g.r.difficulty === 2 && g.r.course <= 6],
+    ["Clear several courses on Normal", g => g.r.type === "courses" && g.r.difficulty === 2],
+    ["After buying the extra courses", g => g.r.type === "course" && g.r.course > 6],
+    ["Harder difficulties", g => g.r.difficulty > 2]];
+  let html = `<div class="prose"><p>An item goes on sale the next time you enter the shop after meeting its requirement, and stays on sale. A course counts once you win its finals; Easy never counts. Highlighted items change Survival Road itself.</p></div>`;
+  stages.forEach(([title, test]) => {
+    const gs = [...groups.values()].filter(test);
+    if (!gs.length) return;
+    html += `<div class="stage">${esc(title)}</div><div class="ladder">` + gs.map(g => {
+      const total = g.items.reduce((s, i) => s + i.price, 0), key = g.items.some(i => i.unlocks.some(u => u.key_address));
+      return `<div class="rung${key ? " key" : ""}"><h3>${esc(g.r.text.replace(" or harder", "+"))}</h3><div class="tot">${g.items.length} item${g.items.length === 1 ? "" : "s"} · ${num(total)} souls in all</div><ul>${g.items.map(i =>
+        `<li><span class="cat cat-${i.category}">${esc(i.category_en)}</span><span class="nm">${i.unlocks.some(u => u.key_address) ? `<b>${esc(i.name_en)}</b>` : esc(i.name_en)}</span><span class="pr">${i.price}</span></li>`).join("")}</ul></div>`;
+    }).join("") + `</div>`;
+  });
+  const all = sold.reduce((s, i) => s + i.price, 0);
+  html += `<p class="note">Everything costs ${num(all)} souls (${num(Math.floor(all / 2))} with King of Kings prices). The Fighter and S-Stars courses go on sale after 4 courses on Normal; the S-1 and DARK rings then need the Fighter course cleared.</p>`;
+  $("#laddertext").innerHTML = html;
+})();
+
+/* ---------- souls */
+(function () {
+  const C = D.currency, diffs = Object.keys(C.per_match), grades = ["rating < 40", "40-59", "60-79", "80-99", "100"];
+  const titles = C.titles;
+  $("#soulstext").innerHTML = `<div class="prose">
+    <h2>Souls</h2>
+    <p>Souls are the shop's only currency. Every Survival Road match pays souls, won or lost, by difficulty and the match's rating, plus a bonus for your current title. You can hold at most ${num(C.cap)}.</p></div>
+    <div class="tablebox"><table><thead><tr><th>Difficulty</th>${grades.map(g => `<th>${esc(g.replace("rating < 40", "below 40"))}</th>`).join("")}</tr></thead><tbody>
+    ${diffs.map(d => `<tr><td><b>${esc(d)}</b></td>${grades.map(g => `<td class="n">${num(C.per_match[d][g])}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
+    <div class="prose"><p class="small muted">Columns are the match rating. Super Hard and Master have to be bought first (SUPER HARD after one course cleared on Hard, MASTER after one on Super Hard).</p>
+    <h2>Titles</h2>
+    <p>After every match the game gives you a title from your last 10 match ratings. It adds souls to well-rated matches; King of Kings also halves every shop price.</p></div>
+    <div class="tablebox"><table><thead><tr><th>#</th><th>Title</th><th>Earned with</th><th>Bonus, rating 80–99</th><th>Bonus, rating 100</th></tr></thead><tbody>
+    ${titles.map(t => { const b = C.title_bonus[t.en]; return `<tr><td class="n">${t.id}</td><td><b>${esc(t.en)}</b> <span class="jp" lang="ja">${esc(t.jp)}</span></td><td class="small">${esc(t.condition)}</td><td class="n">${b ? "+" + b["80-99"] : "-"}</td><td class="n">${b ? "+" + b["100"] : "-"}</td></tr>`; }).join("")}</tbody></table></div>
+    <div class="prose"><p class="note">The bonus column is decoded from the game code and not yet checked in game; the status screen's own labels differ. Green Boy and Backyard Wrestler give extra continues instead (+1 / +2).</p></div>`;
+})();
+
+/* ---------- other unlocks */
+(function () {
+  const src = D.other_sources.map(s => `<div class="card"><h3>${esc(s.source)}</h3>${s.verified !== false ? "" : `<div class="vf">From the game code; not yet tried in game.</div>`}<div class="ul">${s.unlocks.map(u => `<span class="u">${KIND[u.kind] ? `<b>${KIND[u.kind]}</b>` : ""}${esc(u.name)}</span>`).join("")}</div></div>`).join("");
+  const never = D.never_unlocked.map(n => `<li>${n.flag != null ? `<span class="k">flag ${n.flag}</span> ` : ""}${esc(n.what.replace(/ \(docs\/HIDDEN_CONTENT\.md\)/, ""))}</li>`).join("");
+  $("#othertext").innerHTML = `<div class="prose"><h2>Outside the shop</h2><p>Only a few things unlock anywhere else. Survival Road itself unlocks nothing directly; it only earns souls and puts items on sale. No mode on the title menu is ever locked.</p></div>
+    <div class="cards">${src}</div>
+    <div class="prose"><h2>Never unlocked</h2><p>Content on the disc that nothing in the game unlocks (the translation's <span class="k">--unlocks all</span> option opens most of it).</p><ul>${never}</ul>
+    <h2>Difficulties and courses</h2></div>
+    <div class="tablebox"><table><thead><tr><th>Survival Road</th><th>Available</th></tr></thead><tbody>
+    ${D.difficulties.map(d => `<tr><td>${esc(d.en)} <span class="jp" lang="ja">${esc(d.jp)}</span></td><td>${esc(d.unlock === "always" ? "From the start" : d.unlock.replace("buy", "Buy"))}</td></tr>`).join("")}
+    ${D.courses.map(c => `<tr><td>${esc(c.en)} course <span class="jp" lang="ja">${esc(c.jp)}</span></td><td>${esc(c.note ? c.note.replace(/ \(0x[0-9a-f]+\)/, "").replace(/^./, m => m.toUpperCase()) : "From the start")}</td></tr>`).join("")}
+    </tbody></table></div>`;
+})();
+
+const h = (location.hash || "").slice(1);
+setTab(TABS.includes(h) ? h : "items");
+})();
+</script>

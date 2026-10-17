@@ -1,0 +1,28 @@
+# --- Game data: never commit ---
+/rom/
+/extracted/
+/build/
+/release/
+*.bin
+*.BIN
+*.iso
+*.ISO
+*.img
+*.cue
+*.chd
+*.xdelta
+# (+ the game's own archive/audio extensions)
+
+# --- Game art and anything derived from it ---
+/translation/images-rendered/
+/translation/images-approved/
+/translation/images-handmade/
+*.png
+*.psd
+!/docs/screenshots/*.png
+
+# Regenerated / local
+/review/
+/screenshots/
+/.venv/
+__pycache__/
