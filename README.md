@@ -15,6 +15,12 @@ proportional font, so it reads like normal text and fits the original windows.
 > ([how to report](#reporting-problems)). [CHANGELOG.md](CHANGELOG.md) lists what's in each
 > release.
 
+## AI Disclosure
+
+This project was created with the assistance of AI. It builds on the tools and process I
+developed for my Fire Pro Wrestling G translation. Claude was used to translate the text, to
+adapt that earlier code to the PS2, and assist with reverse-engineering this game's own formats.
+
 ## Downloads
 
 Get the latest zip from the [Releases](../../releases) page. It contains three patches. Pick one:
