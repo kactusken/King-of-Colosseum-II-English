@@ -8,6 +8,8 @@ the Dojo tutorial, Match Maker, Survival Road, the Secret Shop, Edit Mode, resul
 graphics. That comes to 16,997 text entries and 292 pictures. English is drawn with the game's own
 proportional font, so it reads like normal text and fits the original windows.
 
+**[See screenshots](docs/SCREENSHOTS.md)** of the patched game.
+
 > **Status: first public beta.** Everything is translated, but not every mode has been played
 > through in English yet. The Dojo dialogue and lessons and the Match Maker briefings and verdicts
 > in particular haven't been checked on screen. You may find text that runs out of its box, a name
