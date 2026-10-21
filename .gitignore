@@ -26,3 +26,9 @@
 /screenshots/
 /.venv/
 __pycache__/
+
+# --- Private: notes, drafts, instructions for Claude (private/README.md) ---
+/private/
+/CLAUDE.md
+/CLAUDE.local.md
+/.claude/
