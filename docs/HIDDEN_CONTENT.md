@@ -56,7 +56,8 @@ state 1 is set to 8 by the menu at 0x150248 for its first two items): Edit Mode 
   points 400, Survival data: 9,999 souls, half price, every promotion's rank 5 and other records
   maxed;
 - plays a sound and marks the system data for saving.
-No guide or site mentions it (searched 2026-10-16). The English build keeps the Japanese
+Japanese fan sites list it as a nickname code (found 2026-10-29: kakusi.jp, uw.netlify.app,
+menokenkou.work); the 2026-10-16 search had missed them. The English build keeps the Japanese
 name-entry keyboards with kana-to-kanji conversion (entries 2014/2015), so it can still be typed.
 The `all` patch group (docs/PATCHES.md) runs the same routine without the password.
 

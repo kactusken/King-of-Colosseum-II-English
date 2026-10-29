@@ -64,7 +64,8 @@ Set up from the translation kit (version 433e414). Tools marked *game* are stubs
 | [sjisscan.py](sjisscan.py) | finds Shift-JIS text in binary files |
 | [mipsdis.py](mipsdis.py) | *capstone*: disassembler with reference and call search (ELF or raw@base:64) |
 | [bss_scan.py](bss_scan.py) | estimates how far past its end a code module's memory use reaches |
-| [pagekit.py](pagekit.py) | the reference pages in docs/: shared stylesheet ([pages_common.css](pages_common.css)), theme switch, nav, writing a page from its template; run it to rebuild every page |
+| [pagekit.py](pagekit.py) | the reference pages in docs/: shared stylesheet ([pages_common.css](pages_common.css)), theme switch, nav, the controller button icons, writing a page from its template; run it to rebuild every page |
+| [guidepage.py](guidepage.py) | builds the player's guide, `docs/guide/index.html` ([template](guide_template.html)): skills from the translation, a glossary checked against it; `--check` (in check.py --quick) |
 | [mmmap.py](mmmap.py) | builds the Match Maker route map, `docs/matchmaker-map/index.html` (page template [mmmap_template.html](mmmap_template.html)): every briefing, check, verdict and advice answer per promotion, from the original entries and the English text |
 | [survivalmap.py](survivalmap.py) | builds `docs/survival-road/index.html` ([template](survivalmap_template.html)): every course, difficulty, round and opponent pool, losses and continues, souls |
 | [shopmap.py](shopmap.py) | builds `docs/secret-shop/index.html` ([template](shopmap_template.html)): every shop item, its price, when it goes on sale and what it unlocks; souls and titles; other unlocks |

@@ -17,7 +17,7 @@ catch (e) { document.documentElement.dataset.theme = "dark"; }
 :root {
   /* light: steel paper and navy ink; the accent is the game's tab orange, gold is the title belt */
   --bg: #e6ebf3; --surface: #ffffff; --sunk: #eef2f8; --ink: #0d1a33; --muted: #4d5d78; --line: #c3cfe1;
-  --accent: #c2560c; --accent-soft: #fde9d8; --accent-ink: #ffffff; --good: #17734a; --bad: #b42318; --hl: #8a6100; --hl-bg: #fff2cc;
+  --accent: #a84a08; --accent-soft: #fde9d8; --accent-ink: #ffffff; --good: #17734a; --bad: #b42318; --hl: #8a6100; --hl-bg: #fff2cc;
   --tab: #e8781f; --tab-ink: #10203f; --band: #0f2347; --band-ink: #f3f6fb;
   --p-njpw: #c2412d; --p-noah: #127a55; --p-ajpw: #2563b0; --p-zero1: #b06200; --p-wj: #6d45a8; --p-pancrase: #5a6573;
   --display: "Archivo", "Arial Narrow", "Helvetica Neue", sans-serif;
@@ -47,7 +47,8 @@ body { background: var(--bg); color: var(--ink); margin: 0; font: 15px/1.5 var(-
 /* Header: a dark band across the top, the title in heavy condensed type */
 header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 18px; margin: 0 -16px; padding: 10px 16px 12px; background: var(--band); color: var(--band-ink); }
 h1 { font: 900 34px/0.95 var(--display); font-stretch: 62%; letter-spacing: .005em; text-transform: uppercase; margin: 0; }
-h1 span { color: inherit; }
+h1 span { color: var(--tab); }
+h1 .game { color: inherit; }
 .sub { color: #a9b8d3; font-size: 14px; max-width: 80ch; }
 #theme { margin-left: auto; align-self: center; font: 600 13px var(--body); border: 1px solid #36507e; background: transparent; color: var(--band-ink); border-radius: 999px; padding: 4px 12px; cursor: pointer; }
 /* Tabs: the game's orange slanted tab header for the open one */
@@ -77,7 +78,7 @@ th { font: 700 13px var(--body); color: var(--muted); position: sticky; top: 0; 
 td.n { font-variant-numeric: tabular-nums; white-space: nowrap; text-align: right; }
 tr.first td { border-top: 2px solid var(--line); }
 .prose { max-width: 72ch; display: grid; gap: 10px; }
-.prose h2 { font: 900 30px/1 var(--display); font-stretch: 62%; text-transform: uppercase; margin: 12px 0 0; }
+.prose h2 { font: 900 26px/1 var(--display); font-stretch: 62%; text-transform: uppercase; margin: 14px 0 2px; justify-self: start; background: var(--tab); color: var(--tab-ink); padding: 6px 24px 4px 18px; clip-path: polygon(10px 0, calc(100% - 10px) 0, 100% 100%, 0 100%); }
 .prose p, .prose li { margin: 0; }
 .prose ol, .prose ul { margin: 0; padding-left: 22px; display: grid; gap: 4px; }
 .prose table { font-size: 14px; }
@@ -90,6 +91,22 @@ nav.site a[aria-current="page"] { color: var(--tab); }
 @media (max-width: 900px) { .app { height: auto; min-height: 100%; } }
 a.wl { color: inherit; text-decoration: underline dotted; text-decoration-color: var(--muted); text-underline-offset: 3px; }
 a.wl:hover { text-decoration-style: solid; text-decoration-color: var(--accent); }
+/* Controller button icons (tools/pagekit.py BUTTONS_JS and button()): the game's dark discs with
+   coloured symbols */
+:root { --b-disc: #20252e; --b-ring: #20252e; --b-sq: #ff7ac6; --b-x: #8fb4ff; --b-o: #ff9a5c; --b-tri: #4fd1a5; --b-pad: #eef1f5; }
+:root[data-theme="dark"] { --b-disc: #2c3442; --b-ring: #4a5568; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --b-disc: #2c3442; --b-ring: #4a5568; } }
+svg.bi { width: 20px; height: 20px; vertical-align: middle; margin-right: 1px; }
+svg.bi.wide { width: 26px; }
+svg.bi text { font: 700 10px var(--body); fill: var(--b-pad); }
+.bplus { font: 700 12px/18px var(--body); color: var(--muted); margin: 0 1px; vertical-align: middle; }
+.b { white-space: nowrap; }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+/* Fact markings: game text, from the code (dashed), verified in game (green), unverified (gold) */
+.m { font: 600 11.5px/1 var(--body); font-style: normal; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; padding: 2px 5px; white-space: nowrap; vertical-align: 1px; }
+.m.c { border-style: dashed; }
+.m.v { color: var(--good); border-color: color-mix(in srgb, var(--good) 45%, transparent); }
+.m.u { color: var(--hl); border-color: color-mix(in srgb, var(--hl) 50%, transparent); background: var(--hl-bg); }
 
 /* Layout: header + tabs; the run map is a flowchart beside a dossier panel. Built by tools/survivalmap.py. */
 .view { overflow: auto; padding: 2px 4px 0 2px; }
@@ -182,10 +199,10 @@ ul.pool .with { color: var(--muted); font-size: 12.5px; }
 
 <div class="app">
   <header>
-    <h1>Survival Road <span>Map</span></h1>
+    <h1><span class="game">King of Colosseum II</span> <span>Survival Road Map</span></h1>
     <div class="sub">Every course, round and possible opponent in King of Colosseum II's Survival Road, read from the game's own data and code.</div>
     <button id="theme" type="button"></button>
-    <nav class="site" aria-label="Reference pages"><a href="../matchmaker-map/">Match Maker map</a><a href="../survival-road/" aria-current="page">Survival Road</a><a href="../secret-shop/">Secret Shop & unlocks</a><a href="../wrestlers/">Wrestlers</a></nav>
+    <nav class="site" aria-label="Reference pages"><a href="../guide/">Player's guide</a><a href="../matchmaker-map/">Match Maker map</a><a href="../survival-road/" aria-current="page">Survival Road</a><a href="../secret-shop/">Secret Shop & unlocks</a><a href="../wrestlers/">Wrestlers</a></nav>
   </header>
   <nav class="tabs" role="tablist">
     <button role="tab" id="t-map" aria-selected="true" aria-controls="map">Run map</button>
@@ -269,6 +286,13 @@ syncTheme();
 /* a wrestler's name as a link to their page in the wrestler database (name: escaped HTML;
    link: 'roster/<id>' or 'templates/<id>' from the page's data; no link = plain name) */
 function wlink(name, link) { return link ? `<a class="wl" href="../wrestlers/#${link}">${name}</a>` : name; }
+const GLYPH = {"sq": "<rect x=\"6\" y=\"6\" width=\"8\" height=\"8\" rx=\"0.5\" fill=\"none\" style=\"stroke:var(--b-sq)\" stroke-width=\"1.8\"/>", "x": "<path d=\"M6.3 6.3l7.4 7.4M13.7 6.3l-7.4 7.4\" style=\"stroke:var(--b-x)\" stroke-width=\"1.9\" stroke-linecap=\"round\"/>", "o": "<circle cx=\"10\" cy=\"10\" r=\"4.4\" fill=\"none\" style=\"stroke:var(--b-o)\" stroke-width=\"1.8\"/>", "tri": "<path d=\"M10 5.4l4.6 8.1H5.4z\" fill=\"none\" style=\"stroke:var(--b-tri)\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/>"};
+const disc = g => "<svg class=\"bi\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><circle cx=\"10\" cy=\"10\" r=\"9.2\" style=\"fill:var(--b-disc);stroke:var(--b-ring)\" stroke-width=\"0.8\"/>@G@</svg>".replace("@G@", GLYPH[g]);
+const DPAD = "<svg class=\"bi\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M7.2 1.2h5.6v6h6v5.6h-6v6H7.2v-6h-6V7.2h6z\" style=\"fill:var(--b-disc);stroke:var(--b-ring)\" stroke-width=\"0.8\"/><path d=\"M10 3l1.6 2.2H8.4zM10 17l1.6-2.2H8.4zM3 10l2.2-1.6v3.2zM17 10l-2.2-1.6v3.2z\" style=\"fill:var(--b-pad)\"/></svg>";
+const shoulder = t => "<svg class=\"bi wide\" viewBox=\"0 0 26 20\" aria-hidden=\"true\"><rect x=\"0.6\" y=\"2.6\" width=\"24.8\" height=\"14.8\" rx=\"4.5\" style=\"fill:var(--b-disc);stroke:var(--b-ring)\" stroke-width=\"0.8\"/><text x=\"13\" y=\"13.6\" text-anchor=\"middle\">@G@</text></svg>".replace("@G@", t);
+const STICK_ROT = {"up": 0, "right": 90, "down": 180, "left": 270};
+const stick = d => "<svg class=\"bi\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><circle cx=\"10\" cy=\"10\" r=\"9.2\" style=\"fill:var(--b-disc);stroke:var(--b-ring)\" stroke-width=\"0.8\"/><circle cx=\"10\" cy=\"10\" r=\"4.2\" style=\"fill:none;stroke:var(--b-pad)\" stroke-width=\"1.2\" opacity=\".55\"/><path d=\"M10 2.6l2.8 3.6H7.2z\" style=\"fill:var(--b-pad)\" transform=\"rotate(@G@ 10 10)\"/></svg>".replace("@G@", STICK_ROT[d]);
+const PLUS = '<span class="bplus">+</span>';
 let st = { course: 1, mode: "singles", diff: 2, title: -1 }, selId = "start", zoom = 1, natural = { w: 0, h: 0 }, edges = [];
 
 /* ---------- tabs */

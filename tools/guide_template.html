@@ -1,0 +1,1199 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>King of Colosseum II Guide</title>
+<meta name="description" content="A fan-made English guide to King of Colosseum II (PS2, 2004, Japan only), written with the English fan translation: modes, controls, how matches work, rules, Edit Mode, skills, secrets and a Japanese glossary.">
+<!--HEAD-->
+<style>
+/*COMMON_CSS*/
+/* The player's guide (tools/guidepage.py). The page scrolls as a document: the site header, then
+   a sticky Contents sidebar beside the text. Colours are the shared tokens (pages_common.css);
+   the PS2 face-button colours and the fact markings are below. */
+:root {
+  --shot-w: 480px;   /* screenshots: the 960 x 720 captures at exactly half size */
+}
+html, body { height: auto; }
+html { scroll-behavior: smooth; scroll-padding-top: 16px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { font-size: 16px; line-height: 1.6; }
+a { color: var(--accent); text-underline-offset: 2px; }
+.top { padding: 0 16px; }
+/* the header lines up with the content column (the 1640px box below) */
+.top header { margin: 0 -16px; padding: 10px max(24px, calc((100vw - 1640px) / 2 + 24px)) 16px; position: relative; }
+.top h1 { font-size: clamp(40px, 3.6vw, 64px); flex-basis: 100%; }
+.top h1 span { display: block; color: var(--tab); }
+.top .sub { color: #a9b8d3; font-size: 15px; flex-basis: 100%; order: 1; }
+.top #theme { position: absolute; top: 12px; right: max(24px, calc((100vw - 1640px) / 2 + 24px)); }
+.hero-tools { display: flex; flex-wrap: wrap; gap: 4px 22px; width: 100%; order: 2; }
+.hero-tools button { font: 600 13px var(--body); background: none; border: 0; padding: 2px 0; color: #a9b8d3; cursor: pointer; text-decoration: underline dotted; text-underline-offset: 4px; }
+.hero-tools button:hover, .hero-tools button[aria-expanded="true"] { color: var(--band-ink); }
+
+/* Layout */
+.wrap.guide { max-width: 1640px; margin: 0 auto; padding: 0 24px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 32px; }
+@media (min-width: 960px) { .wrap.guide { grid-template-columns: 220px minmax(0, 1fr); } }
+main { min-width: 0; padding: 28px 0 96px; }
+
+/* Contents */
+.toc { font-size: 14.5px; line-height: 1.45; }
+.toc summary { cursor: pointer; font-weight: 700; padding: 14px 0; list-style: none; display: flex; justify-content: space-between; border-bottom: 1px solid var(--line); }
+.toc summary::-webkit-details-marker { display: none; }
+.toc summary::after { content: "+"; font-size: 22px; line-height: 1; color: var(--muted); }
+.toc[open] summary::after { content: "–"; }
+.toc ol { list-style: none; margin: 0; padding: 0; }
+.toc ol ol { padding: 0 0 6px 12px; font-size: 13.5px; }
+.toc-group { font: 800 15px/1 var(--display); font-stretch: 75%; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 20px 0 6px 11px; }
+.toc a { display: block; color: var(--ink); text-decoration: none; padding: 2.5px 8px; border-left: 3px solid transparent; }
+.toc ol ol a { color: var(--muted); }
+.toc a:hover { color: var(--accent); }
+.toc a[aria-current="true"] { border-left-color: var(--tab); font-weight: 700; background: var(--sunk); color: var(--ink); }
+@media (min-width: 960px) {
+  .toc ol ol { display: none; }
+  .toc li.open > ol, .toc li:focus-within > ol { display: block; }
+  .toc { position: sticky; top: 0; align-self: start; max-height: 100vh; overflow: auto; padding: 22px 0; overscroll-behavior: contain; }
+  .toc summary { display: none; }
+}
+
+/* Text */
+main section { padding-top: 44px; }
+main > section:first-child { border-top: 0; margin-top: 0; padding-top: 0; }
+/* section titles are the game's orange slanted menu tab, on a rule like its tab bar */
+main h2 { font: 900 40px/1 var(--display); font-stretch: 62%; text-transform: uppercase; margin: 0 0 18px; display: flex; align-items: center; gap: 10px; border-bottom: 3px solid var(--tab); }
+main h2 .tabt { background: var(--tab); color: var(--tab-ink); padding: 7px 30px 5px 22px; clip-path: polygon(14px 0, calc(100% - 14px) 0, 100% 100%, 0 100%); }
+main h3 { font: 900 28px/1.1 var(--display); font-stretch: 70%; text-transform: uppercase; margin: 34px 0 8px; }
+main h4 { font: 700 17px/1.3 var(--body); margin: 22px 0 4px; }
+main p, main li, main dl { max-width: 74ch; }
+main p { margin: 0 0 12px; }
+main ul, main ol { padding-left: 1.3em; margin: 0 0 12px; }
+main li { margin: 3px 0; }
+.lede { font-size: 18px; max-width: 70ch; }
+.callout { background: var(--surface); border: 1px solid var(--line); border-left: 5px solid var(--tab); padding: 10px 16px; margin: 16px 0; border-radius: 0 6px 6px 0; max-width: 74ch; }
+.callout.warn { border-left-color: var(--bad); }
+.callout b.label { display: block; font-size: 14px; margin-bottom: 2px; }
+.callout p { margin: 0; }
+.cards3 { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; margin: 14px 0 18px; }
+.cards3 a { display: block; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; text-decoration: none; color: var(--ink); }
+.cards3 a:hover { border-color: var(--tab); }
+.cards3 b { display: block; font: 900 22px/1.1 var(--display); font-stretch: 62%; text-transform: uppercase; color: var(--accent); }
+.cards3 span { font-size: 14px; color: var(--muted); }
+
+/* Fact markings */
+/* (the fact markings .m are in pages_common.css) */
+
+/* Buttons: PS2 face buttons as round chips in their own colours, the rest as keys */
+kbd { font: 700 12.5px/1 var(--body); display: inline-block; vertical-align: middle; min-width: 1.7em; padding: 3px 6px; text-align: center; border-radius: 5px; background: var(--sunk); color: var(--ink); border: 1px solid var(--line); border-bottom-width: 2px; white-space: nowrap; }
+/* Button icons are the shared ones (pages_common.css, tools/pagekit.py), a little larger here */
+main svg.bi { width: 22px; height: 22px; }
+main svg.bi.wide { width: 29px; }
+main p svg.bi, main li svg.bi, .callout svg.bi { width: 19px; height: 19px; }
+main p svg.bi.wide, main li svg.bi.wide, .callout svg.bi.wide { width: 25px; }
+.plus { color: var(--muted); margin: 0 1px; }
+.soul { font: 700 11px/1 "Noto Sans JP", sans-serif; color: #fff; background: #c8282e; border-radius: 3px; padding: 2px 3px; vertical-align: 1px; }
+
+/* Tables */
+.tablewrap { overflow-x: auto; margin: 12px 0 20px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+main table { font-size: 14.5px; }
+main th { position: static; background: var(--sunk); white-space: nowrap; }
+main tr:last-child td { border-bottom: 0; }
+td.in { white-space: nowrap; width: 1%; }
+#controls td.in { width: 22rem; white-space: normal; }
+#controls .tablewrap { max-width: 1100px; }
+#controls .tables2 .tablewrap { max-width: none; }
+#controls .tables2 td.in { width: auto; }
+td .jp, .jp { color: var(--muted); font-size: .9em; }
+.tablewrap.fit { width: fit-content; max-width: 100%; }
+.tables2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(520px, 1fr)); gap: 0 24px; }
+.tables2 h4 { margin-top: 10px; }
+.filterbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 12px 0 4px; }
+.filterbar input { font: 14px var(--body); padding: 6px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--ink); width: 260px; }
+.filterbar .count { font-size: 13px; color: var(--muted); }
+.skill-name { font-weight: 700; white-space: nowrap; }
+.gloss .jt { font: 700 15px "Noto Sans JP", sans-serif; white-space: nowrap; }
+.gloss .r { display: block; font-size: 12.5px; color: var(--muted); }
+tr.grp td { background: var(--sunk); font: 900 17px/1 var(--display); font-stretch: 62%; text-transform: uppercase; color: var(--muted); padding: 7px 10px; }
+
+/* Special skills: a grid of compact cards; a combination's parts are links to those skills */
+.skgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 8px; margin: 10px 0 20px; }
+.skc { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--line); border-radius: 0 6px 6px 0; padding: 8px 12px 9px; display: grid; gap: 2px; align-content: start; }
+.skc .nm { font: 800 17px/1.15 var(--display); font-stretch: 75%; }
+.skc .nm .jp { font: 400 12.5px "Noto Sans JP", sans-serif; margin-left: 6px; }
+.skc .fx { font-size: 14px; line-height: 1.45; }
+.skc.combo { border-left-color: var(--tab); }
+.parts { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 3px; }
+.parts a { font: 600 12.5px var(--body); color: var(--ink); background: var(--sunk); border: 1px solid var(--line); border-radius: 4px; padding: 1px 7px; text-decoration: none; }
+.parts a:hover { border-color: var(--tab); }
+/* Glossary: two entries a row on wide screens, grouped */
+.glgrid { display: grid; grid-template-columns: minmax(0, 1fr); margin: 4px 0 18px; }
+@media (min-width: 1500px) { .glgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 64px; background: linear-gradient(var(--line), var(--line)) center / 1px 100% no-repeat; } }
+.glgrid h3.glh { grid-column: 1 / -1; font: 900 20px/1 var(--display); font-stretch: 62%; text-transform: uppercase; color: var(--muted); margin: 18px 0 4px; }
+.gle { display: grid; grid-template-columns: 13em minmax(0, 1fr); gap: 2px 14px; padding: 7px 2px; border-bottom: 1px solid var(--line); font-size: 14.5px; align-items: baseline; }
+.gle .jt { font: 700 15.5px "Noto Sans JP", sans-serif; }
+.gle .r { display: block; font-size: 12.5px; color: var(--muted); }
+.gle .en { font-weight: 700; font-size: 15px; }
+.gle .mn { display: block; font-weight: 400; font-size: 13px; color: var(--muted); }
+
+/* Controller diagram */
+.pad { margin: 8px 0 18px; max-width: 1100px; }
+.pad svg { display: block; width: 100%; height: auto; }
+.pad .body { fill: var(--surface); stroke: var(--line); stroke-width: 2; }
+.pad .part { fill: var(--sunk); stroke: var(--muted); stroke-width: 1.5; }
+.pad .lbl { font: 700 15px var(--body); fill: var(--ink); }
+.pad .sm { font: 400 13.5px var(--body); fill: var(--muted); }
+.pad .lead { stroke: var(--muted); stroke-width: 1; fill: none; stroke-dasharray: 3 3; }
+.pad .glyph { font: 700 15px "Segoe UI Symbol", "Noto Sans Symbols 2", system-ui, sans-serif; text-anchor: middle; dominant-baseline: central; }
+.pad .glyph.sm-g { font-size: 11px; }
+
+/* Screenshots: the 960 x 720 captures shown at half size, beside their text on wide screens */
+figure.shot { margin: 4px 0 16px; width: var(--shot-w); max-width: 100%; }
+figure.shot img, .shots img { display: block; width: 100%; height: auto; border-radius: 6px; border: 1px solid var(--line); background: var(--sunk); cursor: zoom-in; }
+figure.shot figcaption, .shots figcaption { font-size: 13.5px; color: var(--muted); margin-top: 6px; line-height: 1.4; }
+.shots { display: grid; gap: 14px; margin: 12px 0 20px; grid-template-columns: repeat(auto-fill, 320px); }
+.shots figure { margin: 0; }
+@media (min-width: 1200px) {
+  figure.shot.side { float: right; margin: 4px 0 16px 32px; }
+  main h2, main h3, main .shots, main .tables2, main .pad, main .skgrid, main .glgrid { clear: both; }
+  main section::after { content: ""; display: block; clear: both; }
+}
+
+/* Paired subsections side by side on wide screens */
+@media (min-width: 1400px) { .cols2 { display: grid; grid-template-columns: repeat(2, minmax(0, 74ch)); gap: 0 48px; align-items: start; } .cols2 > div > h3:first-child { margin-top: 26px; } }
+
+/* Spoilers */
+details.spoiler { margin: 14px 0; border: 1px dashed var(--muted); border-radius: 8px; background: var(--surface); padding: 0 16px; max-width: 74ch; }
+details.spoiler > summary { cursor: pointer; font-weight: 700; padding: 12px 0; color: var(--ink); display: flex; gap: 8px; list-style: none; }
+details.spoiler > summary::-webkit-details-marker { display: none; }
+details.spoiler > summary::before { content: "▸"; color: var(--tab); }
+details.spoiler[open] > summary::before { content: "▾"; }
+details.spoiler > summary::after { content: "Show"; margin-left: auto; font-weight: 600; font-size: 13px; color: var(--accent); }
+details.spoiler[open] > summary::after { content: "Hide"; }
+details.spoiler[open] > summary { border-bottom: 1px solid var(--line); margin-bottom: 10px; }
+details.spoiler[open] { padding-bottom: 12px; }
+
+/* About card, search, section links, zoom */
+.about-card { position: absolute; inset: auto; margin: 0; width: min(560px, calc(100vw - 32px)); padding: 16px 20px 18px; border: 1px solid var(--line); border-top: 4px solid var(--tab); background: var(--surface); color: var(--ink); font-size: 14.5px; line-height: 1.55; box-shadow: 0 14px 40px rgba(4, 10, 30, .4); border-radius: 0 0 8px 8px; }
+.about-card p { margin: 0 0 10px; } .about-card p:last-child { margin: 0; }
+.about-card h2 { font: 900 20px/1.1 var(--display); font-stretch: 62%; text-transform: uppercase; margin: 12px 0 4px; }
+.gsearch { position: relative; margin: 4px 0 4px; }
+.gsearch input { width: 100%; font: 14.5px var(--body); padding: 7px 34px 7px 10px; border-radius: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); }
+.gs-key { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); pointer-events: none; }
+.gsearch input:focus + .gs-key, .gsearch input:not(:placeholder-shown) + .gs-key { display: none; }
+.gres { position: fixed; inset: auto; margin: 0; padding: 6px; width: min(460px, calc(100vw - 32px)); max-height: min(70vh, 560px); overflow: auto; background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 14px 40px rgba(4, 10, 30, .4); font-size: 14.5px; line-height: 1.4; }
+.gr { display: grid; grid-template-columns: 5.2em minmax(0, 1fr); column-gap: 10px; padding: 7px 10px; border-radius: 6px; cursor: pointer; }
+.gr[aria-selected="true"] { background: var(--sunk); box-shadow: inset 3px 0 0 var(--tab); }
+.gr-kind { grid-row: span 2; font-size: 12px; font-weight: 700; color: var(--muted); padding-top: 2px; }
+.gr-t { font-weight: 700; min-width: 0; overflow-wrap: anywhere; } .gr-t.txt { font-weight: 400; }
+.gr-s { font-size: 13px; color: var(--muted); min-width: 0; }
+.gr mark { background: color-mix(in srgb, var(--tab) 30%, transparent); color: inherit; border-radius: 2px; padding: 0 1px; }
+.gr-none { padding: 10px; color: var(--muted); }
+.hit-flash { animation: flash 2s ease-out; border-radius: 4px; }
+@keyframes flash { from { background: color-mix(in srgb, var(--tab) 30%, transparent); } to { background: transparent; } }
+@media (prefers-reduced-motion: reduce) { .hit-flash { animation: none; outline: 2px solid var(--accent); } }
+.anchor { display: inline-grid; place-items: center; width: 1.1em; height: 1.1em; margin-left: .2em; vertical-align: middle; color: var(--muted); opacity: 0; text-decoration: none; position: relative; border-radius: 4px; transition: opacity .12s; }
+h2 .anchor { align-self: center; width: 26px; height: 26px; }
+.anchor svg { width: .6em; height: .6em; } h2 .anchor svg { width: 19px; height: 19px; }
+:is(h2, h3, h4):hover > .anchor, .anchor:focus-visible, .anchor.copied { opacity: 1; }
+.anchor:hover { color: var(--accent); }
+.anchor.copied::after { content: "Link copied"; position: absolute; left: calc(100% + 6px); top: 50%; transform: translateY(-50%); white-space: nowrap; font: 700 12.5px/1 var(--body); text-transform: none; color: var(--accent-ink); background: var(--accent); padding: 5px 8px; border-radius: 4px; }
+#zoom { width: calc(100vw - 32px); height: calc(100vh - 32px); max-width: none; max-height: none; padding: 0; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--ink); overflow: hidden; }
+#zoom[open] { display: grid; grid-template-rows: auto minmax(0, 1fr); }
+#zoom::backdrop { background: rgba(3, 8, 24, .78); }
+.dlg-head { display: flex; align-items: center; gap: 12px 20px; padding: 10px 12px 10px 20px; border-bottom: 1px solid var(--line); background: var(--surface); }
+.dlg-head p { margin: 0; font-size: 14.5px; color: var(--muted); }
+.dlg-close { margin-left: auto; flex: none; width: 38px; height: 38px; border-radius: 50%; cursor: pointer; background: transparent; color: var(--ink); border: 1px solid var(--line); font-size: 20px; line-height: 1; }
+.dlg-body { overflow: auto; padding: 16px; display: grid; place-items: center; }
+.dlg-body img { display: block; max-width: 100%; max-height: 100%; width: auto; height: auto; }
+footer.foot { border-top: 1px solid var(--line); padding: 24px 24px 48px; color: var(--muted); font-size: 13.5px; }
+footer.foot p { max-width: 1592px; margin: 4px auto; }
+
+/* Print */
+@media print {
+  :root:root:root { --bg: #fff; --surface: #fff; --sunk: #f1f3f7; --ink: #000; --muted: #444b58; --line: #c7ccd6; --accent: #a8470a; --tab: #d06a12; --band: #fff; --band-ink: #000; --hl: #7a5600; --hl-bg: #fff6d8; --good: #17663f; }
+  @page { margin: 14mm 12mm; }
+  html { scroll-behavior: auto; }
+  body { font-size: 10.5pt; line-height: 1.45; background: #fff; }
+  #theme, nav.site, .hero-tools, .toc, .anchor, .filterbar, #zoom, .gres, .about-card { display: none !important; }
+  .top header { padding: 0 0 4mm; } .top .sub { color: #444b58; }
+  .wrap.guide { display: block; max-width: none; padding: 0; }
+  main { padding: 0; }
+  main section { padding-top: 0; margin-top: 8mm; border-top: 0; }
+  main > section > h2 { break-before: page; } main > section:first-child > h2 { break-before: auto; }
+  main h2 { font-size: 26pt; } main h3 { font-size: 16pt; margin-top: 6mm; }
+  h2, h3, h4 { break-after: avoid; }
+  p, li { orphans: 3; widows: 3; max-width: none; }
+  tr, figure, .callout, .pad { break-inside: avoid; }
+  figure.shot.side { float: none; }
+  .tablewrap { overflow: visible; border-radius: 0; }
+  details.spoiler { border: 0; padding: 0; }
+  details.spoiler > summary { list-style: none; color: var(--ink); padding: 0; }
+  main h2 .tabt { background: #fbdcbc; color: #000; }
+  svg.bi, .soul, main h2 .tabt, .m.u { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .cols2 { display: block; }
+  main a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 8.5pt; color: var(--muted); overflow-wrap: anywhere; }
+}
+</style>
+
+<div class="top">
+  <header>
+    <h1>King of Colosseum II <span>Player's Guide</span></h1>
+    <div class="sub">How to play the English translation of <span lang="ja">キング オブ コロシアムII</span>: the modes, the controls, how a match is won, the rules, Edit Mode, every special skill and the secrets.</div>
+    <button id="theme" type="button"></button>
+    <!--NAV-->
+    <div class="hero-tools">
+      <button type="button" id="aboutBtn" aria-expanded="false" aria-controls="aboutCard">About this guide</button>
+      <button type="button" id="printBtn">Print or save as PDF</button>
+    </div>
+    <div class="about-card" id="aboutCard" popover="manual" role="dialog" aria-label="About this guide">
+      <p>A fan-written guide to <i>King of Colosseum II</i>, a Japan-only pro wrestling game for the PlayStation 2 (2004). It was written alongside the English fan translation, so names and menu labels are the ones the translation shows. The <a href="#glossary">Japanese glossary</a> helps if you play the original.</p>
+      <h2>Where the facts come from</h2>
+      <p>Most of it comes from the game itself: the Dojo's lessons (the trainers explain nearly every control), the menus' help lines, and the game's data and code as the translation project decoded them. Each claim that isn't obvious carries a marking: <span class="m">game text</span> the game says so on screen; <span class="m c">from the code</span> read in the game's data or code, not seen running; <span class="m v">verified in game</span> seen happen in an emulator; <span class="m u">unverified</span> an inference or a fan site's claim we couldn't check yet. Corrections are welcome (see <a href="#credits">Credits</a>).</p>
+      <h2>Version history</h2>
+      <p><b>1.0</b>: 2026-10-29 - first release, for translation v0.1.</p>
+    </div>
+  </header>
+</div>
+
+<div class="wrap guide">
+<details class="toc" id="toc" open>
+  <summary>Contents</summary>
+  <nav aria-label="Contents">
+  <div class="gsearch" role="search">
+    <input id="gq" type="search" placeholder="Search the guide" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="false" aria-controls="gres" aria-autocomplete="list" aria-label="Search the guide">
+    <kbd class="gs-key" aria-hidden="true">/</kbd>
+  </div>
+  <h2 class="toc-group" id="g-play">Playing</h2>
+  <ol aria-labelledby="g-play">
+    <li><a href="#game">The Game</a></li>
+    <li><a href="#start">Getting Started</a></li>
+    <li><a href="#modes">Modes</a>
+      <ol>
+        <li><a href="#modes-exhibition">Exhibition Match</a></li>
+        <li><a href="#modes-survival">Survival Road</a></li>
+        <li><a href="#modes-matchmaker">Match Maker</a></li>
+        <li><a href="#modes-title">Title Match</a></li>
+        <li><a href="#modes-series">Series Mode</a></li>
+        <li><a href="#modes-dojo">Dojo</a></li>
+      </ol>
+    </li>
+    <li><a href="#controls">Controls</a>
+      <ol>
+        <li><a href="#controls-standing">Standing</a></li>
+        <li><a href="#controls-clutch">Clutches</a></li>
+        <li><a href="#controls-whip">Irish Whip and corners</a></li>
+        <li><a href="#controls-down">Opponent down</a></li>
+        <li><a href="#controls-ground">Ground clutches</a></li>
+        <li><a href="#controls-defence">On the receiving end</a></li>
+        <li><a href="#controls-ring">Ring, apron and posts</a></li>
+        <li><a href="#controls-tag">Tag matches</a></li>
+        <li><a href="#controls-weapons">Weapons</a></li>
+      </ol>
+    </li>
+    <li><a href="#match">How a Match Works</a>
+      <ol>
+        <li><a href="#match-stats">No life bar</a></li>
+        <li><a href="#match-soul">Soul</a></li>
+        <li><a href="#match-timing">Timing and reversals</a></li>
+        <li><a href="#match-finish">Winning</a></li>
+        <li><a href="#match-tips">Tips</a></li>
+      </ol>
+    </li>
+    <li><a href="#rules">Rules and Settings</a></li>
+    <li><a href="#edit">Edit Mode</a></li>
+    <li><a href="#options">Options and Saving</a></li>
+  </ol>
+  <h2 class="toc-group" id="g-ref">Reference</h2>
+  <ol aria-labelledby="g-ref">
+    <li><a href="#skills">Special Skills</a></li>
+    <li><a href="#secrets">Secrets</a></li>
+    <li><a href="#glossary">Japanese Glossary</a></li>
+  </ol>
+  <h2 class="toc-group" id="g-about">About</h2>
+  <ol aria-labelledby="g-about">
+    <li><a href="#faq">Q&amp;A</a></li>
+    <li><a href="#credits">Credits and Legal</a></li>
+  </ol>
+  </nav>
+</details>
+
+<main>
+
+<!-- ============================================================ -->
+<section id="game">
+  <h2><span class="tabt">The Game</span></h2>
+  <figure class="shot side"><img src="../screenshots/exhibition-match.png" alt="The Exhibition Match menu in English: Single Match, Single Match (Seconds), Tag Match, Handicap Match, Triple Threat Match, Battle Royal, Elimination Match" width="960" height="720" loading="lazy"><figcaption>Exhibition Match, one of nine modes on the main menu.</figcaption></figure>
+  <p class="lede"><i>King of Colosseum II</i> (<span lang="ja">キング オブ コロシアムII</span>, <i>Kingu obu Koroshiamu Tsū</i>) is a pro wrestling game for the PlayStation 2, released in Japan in 2004 and never outside it. Its roster is the real Japanese scene of the time: New Japan, NOAH, All Japan, ZERO-ONE and WJ, plus freelancers and shoot fighters.</p>
+  <p>It plays differently from most wrestling games, so the parts worth reading first are <a href="#controls">Controls</a> and <a href="#match">How a Match Works</a>:</p>
+  <ul>
+    <li><b>No life bar.</b> Stamina, Spirit and Breath are hidden; you read them from how the wrestlers move. <a href="#match-stats">More</a></li>
+    <li><b>Clutches and timing.</b> Grapples start with a clutch (a hold), and you pick the move at the moment the wrestler sinks his hips. Miss it and he reverses. <a href="#match-timing">More</a></li>
+    <li><b>Soul.</b> Each wrestler can use his strongest moves only a few times a match. <a href="#match-soul">More</a></li>
+    <li><b>Booking and building.</b> Match Maker puts you in charge of a promotion's shows. Edit Mode builds wrestlers down to how the CPU fights with them. <a href="#modes-matchmaker">Match Maker</a>, <a href="#edit">Edit Mode</a></li>
+  </ul>
+  <p>This guide is the overview. The details live on four reference pages built from the game's data:</p>
+  <div class="cards3">
+    <a href="../wrestlers/"><b>Wrestler Database</b><span>Every wrestler and costume: profile, skills, parameters and the full moveset with inputs.</span></a>
+    <a href="../survival-road/"><b>Survival Road Map</b><span>Courses, difficulties, rounds, opponent pools, continues and souls.</span></a>
+    <a href="../matchmaker-map/"><b>Match Maker Map</b><span>Every campaign: each show's goals, the checks, the verdicts and the advice.</span></a>
+    <a href="../secret-shop/"><b>Secret Shop &amp; Unlocks</b><span>Every Hall of Souls item, its price, when it goes on sale and what it unlocks.</span></a>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<section id="start">
+  <h2><span class="tabt">Getting Started</span></h2>
+  <ul>
+    <li><b>The patch.</b> The translation is an xdelta patch for the Japanese disc (serial SLPM-65602). There are three patches: <b>English</b>, which unlocks as you play like the original; <b>English (All Unlocked)</b>; and the Japanese game with everything unlocked. See the project's <a href="https://github.com/kactusken/King-of-Colosseum-II-English#readme">README</a>.</li>
+    <li><b>Memory card.</b> The game saves to the card in <b>slot 1</b> and needs <b>1,871 KB</b> free. Without one it asks whether to start anyway, and you can play without saving. <span class="m">game text</span></li>
+    <li><b>Menus.</b> <kbd class="f cir">○</kbd> OK, <kbd class="f crs">✕</kbd> Back. <kbd class="f tri">△</kbd> picks a random wrestler on the select screen and opens extra menus elsewhere. <kbd>START</kbd> means Done. The button hints at the bottom of each screen say what else works there. <span class="m v">verified in game</span></li>
+    <li><b>Start in the Dojo.</b> Kotetsu Yamamoto's lessons teach every basic action with a live drill, and finishing them unlocks him as a wrestler and a referee (see <a href="#secrets">Secrets</a>).</li>
+    <li><b>Then Survival Road.</b> It's the only place to earn the <b>souls</b> that buy hidden wrestlers, rings and Edit samples in the Hall of Souls.</li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<section id="modes">
+  <h2><span class="tabt">Modes</span></h2>
+  <p>The main menu has nine entries. The help line each one shows is in the last column. <span class="m">game text</span></p>
+  <div class="tablewrap fit"><table>
+    <thead><tr><th>Mode</th><th>Japanese</th><th>What it is</th></tr></thead>
+    <tbody>
+    <tr><td><b><a href="#modes-exhibition">Exhibition Match</a></b></td><td lang="ja">エキシビションマッチ</td><td>Choose any wrestlers and fight in all kinds of matches.</td></tr>
+    <tr><td><b><a href="#modes-survival">Survival Road</a></b></td><td lang="ja">サバイバルロード</td><td>Fight your way to the top to win the "King of Colosseum". The only source of souls.</td></tr>
+    <tr><td><b><a href="#modes-matchmaker">Match Maker</a></b></td><td lang="ja">マッチメイカー</td><td>Make the cards for the shows of all kinds of promotions.</td></tr>
+    <tr><td><b><a href="#modes-title">Title Match</a></b></td><td lang="ja">タイトルマッチ</td><td>Fight with a title on the line.</td></tr>
+    <tr><td><b><a href="#modes-series">Series Mode</a></b></td><td lang="ja">シリーズモード</td><td>Fight in league and tournament formats.</td></tr>
+    <tr><td><b><a href="#edit">Edit</a></b></td><td lang="ja">エディット</td><td>Create your own original wrestlers and promotions.</td></tr>
+    <tr><td><b><a href="#modes-dojo">Dojo</a></b></td><td lang="ja">プロレス道場</td><td>Learn the controls while you play.</td></tr>
+    <tr><td><b><a href="#options">Options</a></b></td><td lang="ja">オプション</td><td>Game settings.</td></tr>
+    <tr><td><b><a href="#options-saving">Save/Load</a></b></td><td lang="ja">セーブ/ロード</td><td>Save or load game data.</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3 id="modes-exhibition">Exhibition Match</h3>
+  <figure class="shot side"><img src="../screenshots/wrestler-select.png" alt="The wrestler select screen: promotion tab at the top, surnames on the left, the wrestler's model and profile panel on the right" width="960" height="720" loading="lazy"><figcaption>Wrestler select: <kbd>◀</kbd> <kbd>▶</kbd> change the promotion, <kbd class="f tri">△</kbd> picks at random.</figcaption></figure>
+  <p>Seven match types <span class="m">game text</span>:</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Match type</th><th>Wrestlers</th><th>Notes</th></tr></thead>
+    <tbody>
+    <tr><td><b>Single Match</b></td><td>1 v 1</td><td>A one-on-one fight.</td></tr>
+    <tr><td><b>Single Match (Seconds)</b></td><td>1 v 1</td><td>With a second at ringside for each side. Seconds can interfere, and some skills only work as a Second.</td></tr>
+    <tr><td><b>Tag Match</b></td><td>2 v 2</td><td>See <a href="#controls-tag">Tag matches</a>.</td></tr>
+    <tr><td><b>Handicap Match</b></td><td>1 v 2</td><td></td></tr>
+    <tr><td><b>Triple Threat Match</b></td><td>3</td><td>All at once.</td></tr>
+    <tr><td><b>Battle Royal</b></td><td>4</td><td>All at once, last one standing.</td></tr>
+    <tr><td><b>Elimination Match</b></td><td>5 v 5 teams</td><td>Formats: <b>Gauntlet Match</b> (the winner stays in for the next opponent), <b>Round Robin</b> and <b>Tug of War (Round Robin)</b>. Order the team 1st, 2nd, 3rd, 4th and Captain. There are 32 preset teams (Team New Japan, Makai Club, BURNING, ZERO-ONE Army ...), and Team Edit builds your own. Quick Save an edited team or it's lost. <span class="m u">unverified</span> which help line belongs to which round-robin format</td></tr>
+    </tbody>
+  </table></div>
+  <p>After choosing a wrestler you choose his <b>Wrestler Type</b>: each wrestler has up to four versions (costumes or eras). Then choose who controls each side (Player 1-4 or COM), and the rules on the <a href="#rules">CONFIGURATION</a> screen. During a match <kbd>START</kbd> pauses: <b>Return to Match, Camera Effects, Camera Mode, End Match, Exit Mode</b>, and the commentary team. Afterwards: <b>Rematch, Quit</b> or <b>Retry</b>.</p>
+
+  <h3 id="modes-survival">Survival Road</h3>
+  <figure class="shot side"><img src="../screenshots/survival-road.png" alt="Survival Road: difficulty list Easy, Normal, Hard, S-Hard, Master; Single or Tag; the goal, CPU level and continues panel" width="960" height="720" loading="lazy"><figcaption>Survival Road: pick Single or Tag and a difficulty. The panel shows the goal, CPU level and continues.</figcaption></figure>
+  <p>A run through qualifiers and a final tournament to win the King of Colosseum. Pick a course (New Japan, NOAH, All Japan, ZERO-ONE or WJ, and later the Fighters and Superstars courses), Single or Tag, a difficulty, and in singles whether to take a second. <span class="m c">from the code</span></p>
+  <ul>
+    <li><b>Difficulties:</b> Easy (3 qualifiers, no finals), Normal (7 matches, 3 continues), Hard (8 matches, 2 continues), Super Hard (10, 1 continue) and Master (10, no continues). Super Hard and Master are bought in the Hall of Souls. A continue replays the same match.</li>
+    <li><b>Souls</b> come after every match, won or lost. How many depends on the difficulty and the match rating, plus a bonus from your rank title (King of Kings down to Backyard Wrestler, judged on your last 10 ratings). The cap is 9,999.</li>
+    <li>Clearing a course puts that course's hidden wrestlers on sale in the <b>Hall of Souls</b>, the shop on the Survival Road menu.</li>
+    <li>Saving over a run erases the old one, but ratings, titles and souls carry over. <span class="m">game text</span></li>
+  </ul>
+  <p>Every course's opponents: <a href="../survival-road/">Survival Road Map</a>. Every shop item: <a href="../secret-shop/">Secret Shop &amp; Unlocks</a>.</p>
+
+  <h3 id="modes-matchmaker">Match Maker</h3>
+  <figure class="shot side"><img src="../screenshots/match-maker.png" alt="Match Maker office: Start Show, Match Cards, Info, Show Records, Advice, Save/Quit, with the boss Masahiro Chono speaking" width="960" height="720" loading="lazy"><figcaption>The office: the boss briefs you before each show.</figcaption></figure>
+  <p>You book a run of shows for a promotion under its boss: New Japan (Masahiro Chono), NOAH (Mitsuharu Misawa), All Japan (Keiji Mutoh), ZERO-ONE (Shinya Hashimoto) or WJ (Katsuji Nagashima). <span class="m c">from the code</span></p>
+  <ul>
+    <li>Each show has an <b>attendance goal</b>, a <b>rating goal</b> and booking rules: use every available wrestler, bouts 4 and 5 as tag matches, a title match, all matches under Muga Rules...</li>
+    <li>You pass a show by reaching both goals. Miss one and it's <b>Game Over</b> for the campaign.</li>
+    <li>The grade (S to E) only changes the boss's verdict and, with every earlier show at 85 or more, opens a bonus last show.</li>
+    <li>Use <b>Advice</b> in the office before booking: the bosses say what this crowd wants.</li>
+    <li>Clearing all five promotions opens <b>Free Show</b>, your own show with wrestlers from every promotion.</li>
+  </ul>
+  <p>Every briefing, check and verdict: <a href="../matchmaker-map/">Match Maker Map</a>.</p>
+
+  <h3 id="modes-title">Title Match</h3>
+  <p>Choose a promotion and a belt, then <b>Match</b>, <b>Title History</b> (every champion, the date and the defenses) or <b>Vacate Title</b>. The belts: IWGP Heavyweight, NWF Heavyweight, IWGP Tag Team, IWGP Junior Heavyweight, IWGP Junior Tag Team, U-30 Openweight (New Japan); GHC Heavyweight, Tag Team, Junior Heavyweight and Junior Tag Team (NOAH); Triple Crown Heavyweight, World Tag Team, World Junior Heavyweight and All Asia Tag Team (All Japan); Tenkaichi Heavyweight, Tag Team and Jr. (ZERO-ONE); WMG Heavyweight and Tag Team (WJ). Some belts have conditions: the U-30 title needs two wrestlers aged 30 or under, junior belts need a wrestler in the weight class, and a champion can't be the challenger. <span class="m">game text</span></p>
+  <p>The game has a message "Title Match can now be chosen from the main menu", so it can start locked. What opens it hasn't been traced. <span class="m u">unverified</span></p>
+
+  <h3 id="modes-series">Series Mode</h3>
+  <p>Leagues and tournaments, singles or tag: G1 Climax, Best of the Super Juniors, Champion Carnival, the GHC leagues, Fire Festival, Real World Tag League and more, each also as a tournament, plus an <b>Original</b> one you name and set the rules for. <span class="m">game text</span></p>
+  <ul>
+    <li>League formats: <b>Normal</b> (most points wins), <b>Playoff</b> (top two meet in a final) and <b>2 Blocks</b> (the block winners meet).</li>
+    <li>Tournaments: <b>1-Day Tournament</b> (Stamina and Spirit drop with each match) or <b>Series Tournament</b> (full recovery between matches), for 4, 8, 16 or 32 entries.</li>
+    <li><b>Auto Mode</b> lets the CPU play the matches. <b>Standings</b> and <b>Quick Save</b> are on the series menu.</li>
+    <li>Wrestlers' <a href="#skills-mode">mode special skills</a> work here and in Title Match.</li>
+  </ul>
+
+  <h3 id="modes-dojo">Dojo</h3>
+  <figure class="shot side"><img src="../screenshots/dojo.png" alt="Pro Wrestling Dojo: Kotetsu Yamamoto with his arms folded, the dialogue box below" width="960" height="720" loading="lazy"><figcaption>Kotetsu Yamamoto runs the Dojo. Kantaro Hoshino teaches the weapons lessons.</figcaption></figure>
+  <p>Twelve steps of lessons, 84 drills in all: Basic Actions, Standing Actions, Down Actions A and B, Top Rope Dives, Clutch Actions, Irish Whip Actions A and B, Ground Clutch Actions, Tag Actions, then the <b>Test Match</b> (beat Kotetsu by 3 count or submission; there are no time, ring-out or DQ finishes) and <b>Sparring</b> (a free match against a trainee). Each lesson shows its goal and the controls, and stamps DONE when you pass. <kbd>START</kbd> opens the practice settings: CPU state (Full, Normal, Dying), CPU control and level, and Change Drill. <span class="m">game text</span></p>
+  <p>The <a href="#controls">Controls</a> section below follows the Dojo's lessons.</p>
+</section>
+
+<!-- ============================================================ -->
+<section id="controls">
+  <h2><span class="tabt">Controls</span></h2>
+  <p>What follows is what the Dojo teaches <span class="m">game text</span>, checked against the move slots in the wrestler data <span class="m c">from the code</span>. "Direction" is the D-pad (the game says <span lang="ja">方向キー</span>). Two buttons joined with <span class="plus">+</span> are pressed together. Every wrestler fills the same inputs with his own moves; the <a href="../wrestlers/">Wrestler Database</a> lists them.</p>
+  <p class="small muted">Markings: <span class="m">game text</span> the game says so; <span class="m c">from the code</span> read in the game's data; <span class="m v">verified in game</span> seen in an emulator; <span class="m u">unverified</span> not yet checked.</p>
+  <div class="pad" role="img" aria-label="A DualShock 2 with what each button does in a match">
+    <svg viewBox="0 56 1180 412" xmlns="http://www.w3.org/2000/svg">
+      <!-- shoulder buttons, behind the body -->
+      <rect class="part" x="360" y="78" width="96" height="22" rx="9"/><rect class="part" x="644" y="78" width="96" height="22" rx="9"/>
+      <rect class="part" x="352" y="100" width="108" height="26" rx="10"/><rect class="part" x="640" y="100" width="108" height="26" rx="10"/>
+      <text class="glyph" x="408" y="89" fill="currentColor" style="fill:var(--ink);font-size:12px">L2</text><text class="glyph" x="692" y="89" style="fill:var(--ink);font-size:12px">R2</text>
+      <!-- body -->
+      <path class="body" d="M410 120 H690 C742 120 772 146 786 192 L826 336 C840 386 822 424 782 428 C752 431 730 414 714 384 L688 334 C678 318 664 310 646 310 H454 C436 310 422 318 412 334 L386 384 C370 414 348 431 318 428 C278 424 260 386 274 336 L314 192 C328 146 358 120 410 120 Z"/>
+      <text class="glyph" x="406" y="113" style="fill:var(--ink);font-size:12px">L1</text><text class="glyph" x="694" y="113" style="fill:var(--ink);font-size:12px">R1</text>
+      <!-- D-pad -->
+      <path class="part" d="M384 168 h28 v26 h26 v28 h-26 v26 h-28 v-26 h-26 v-28 h26 z"/>
+      <!-- face buttons -->
+      <!--BTN tri 716 168 17--><!--BTN o 752 208 17--><!--BTN x 716 248 17--><!--BTN sq 680 208 17-->
+      <!-- select / start / analog -->
+      <rect class="part" x="490" y="200" width="30" height="13" rx="6"/><path class="part" d="M582 200 l24 7 l-24 7 z"/>
+      <circle class="part" cx="550" cy="246" r="7"/>
+      <!-- sticks -->
+      <circle class="part" cx="470" cy="282" r="30"/><circle class="part" cx="470" cy="282" r="18"/>
+      <circle class="part" cx="630" cy="282" r="30"/><circle class="part" cx="630" cy="282" r="18"/>
+      <!-- leader lines -->
+      <path class="lead" d="M360 89 H250"/><path class="lead" d="M352 113 H250"/><path class="lead" d="M358 208 H250"/><path class="lead" d="M440 290 L250 330"/>
+      <path class="lead" d="M740 89 H850"/><path class="lead" d="M748 113 H850"/><path class="lead" d="M769 208 H850"/><path class="lead" d="M660 290 L850 330"/>
+      <path class="lead" d="M594 214 L594 440"/>
+      <!-- left labels -->
+      <text class="lbl" x="20" y="78">L2</text><text class="sm" x="20" y="96">Switch Target (tag matches)</text>
+      <text class="lbl" x="20" y="122">L1</text><text class="sm" x="20" y="140">hold: recover Breath · to partner: Tag</text>
+      <text class="lbl" x="20" y="200">Direction (D-pad)</text><text class="sm" x="20" y="218">move · with △: run, climb, leave the ring</text><text class="sm" x="20" y="236">with a button: the second set of moves</text>
+      <text class="lbl" x="20" y="322">Left stick</text><text class="sm" x="20" y="340">not taught in the Dojo</text>
+      <!-- right labels -->
+      <text class="lbl" x="860" y="78">R2</text><text class="sm" x="860" y="96">hold: Guard · timed: Catch</text>
+      <text class="lbl" x="860" y="122">R1 + button</text><text class="sm" x="860" y="140">clutches, pick-ups, whips, weapons</text>
+      <text class="lbl" x="860" y="190">Face buttons</text>
+      <!--BTN tri 870 210 10--><text class="sm" x="888" y="215">Homing Dash · with Direction: Rope Dash</text>
+      <!--BTN o 870 236 10--><!--BTN x 894 236 10--><!--BTN sq 918 236 10--><text class="sm" x="936" y="241">strikes and moves</text>
+      <text class="sm" x="860" y="267">two together (□+✕, △+○): a Soul move</text>
+      <text class="lbl" x="860" y="322">Right stick</text><text class="sm" x="860" y="340">four taunts · R3: spin a Dazed foe</text>
+      <text class="lbl" x="604" y="452">START</text><text class="sm" x="660" y="452">pause menu</text>
+    </svg>
+  </div>
+  <div class="callout"><b class="label">The one thing to learn first</b><p>Clutches (grapples) work on timing. After <kbd>R1</kbd><span class="plus">+</span><kbd class="f tri">△</kbd> the screen flashes as your wrestler sinks his hips: press the move button <i>then</i>. Early in the match only small moves land, so build up through small, mid and big. <a href="#match-timing">Why</a></p></div>
+
+  <h3 id="controls-standing">Standing</h3>
+  <figure class="shot side"><img src="../screenshots/guide-moves-strikes.png" alt="Edit Mode moves screen, Strikes: inputs □, ×, Direction+□, Direction+×, Direction+○ and □+× with a red soul icon" width="960" height="720" loading="lazy"><figcaption>A moveset's strikes in Edit Mode. The red <span class="soul">魂</span> marks a Soul input.</figcaption></figure>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Input</th><th>Action</th></tr></thead>
+    <tbody>
+    <tr><td class="in"><kbd class="f sq">□</kbd> <kbd class="f crs">✕</kbd> <kbd class="f cir">○</kbd></td><td>Standing strikes. Each move has its own range and effect.</td></tr>
+    <tr><td class="in">Direction <span class="plus">+</span> <kbd class="f sq">□</kbd> <kbd class="f crs">✕</kbd> <kbd class="f cir">○</kbd></td><td>A second set of standing moves (mostly kicks).</td></tr>
+    <tr><td class="in"><kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd></td><td><b>Soul</b> move: stronger, and uses up one Soul. Direction <span class="plus">+</span> <kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd> is a second one.</td></tr>
+    <tr><td class="in"><kbd class="f tri">△</kbd></td><td><b>Homing Dash</b>: runs at the opponent by itself.</td></tr>
+    <tr><td class="in">Direction <span class="plus">+</span> <kbd class="f tri">△</kbd></td><td><b>Rope Dash</b>: run where you steer, off the ropes. Harder to use, but more freedom.</td></tr>
+    <tr><td class="in">dashing: <kbd class="f sq">□</kbd> <kbd class="f crs">✕</kbd> <kbd class="f cir">○</kbd> <kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd></td><td>Dash moves. <kbd class="f tri">△</kbd> just before the rebound is a <b>Rope Stop</b> (mash it to stop more easily).</td></tr>
+    <tr><td class="in">hold <kbd>R2</kbd></td><td><b>Guard</b>, held before the hit lands. Guarding with ragged Breath can cause a <b>Guard Crush</b>, which leaves you wide open.</td></tr>
+    <tr><td class="in"><kbd>R2</kbd> / Direction <span class="plus">+</span> <kbd>R2</kbd>, timed</td><td><b>Catch</b>: press it right as an attack is about to land to catch it and counter. Catching a kick leads to the leg-catch moves.</td></tr>
+    <tr><td class="in">Right stick</td><td><b>Taunts</b>: up, down, left, right. "Use them in the flow - the fans love it." Several skills work off taunts.</td></tr>
+    <tr><td class="in">hold <kbd>L1</kbd></td><td><b>Recover Breath</b>.</td></tr>
+    </tbody>
+  </table></div>
+  <p>Strikes lead into clutches and make good surprise attacks, but rely on them too much and the opponent reads you.</p>
+
+  <h3 id="controls-clutch">Clutches (grapples)</h3>
+  <figure class="shot side"><img src="../screenshots/guide-clutch-settings.png" alt="Edit Mode Clutch Settings: Front Grapple R1+□, R1+×, R1+○, R1+△, R1+□+× each set to a clutch such as Brainbuster" width="960" height="720" loading="lazy"><figcaption>Clutch Settings: each R1 input starts a different clutch.</figcaption></figure>
+  <p>Get close and press <kbd>R1</kbd><span class="plus">+</span><kbd class="f tri">△</kbd>: from the front that's the <b>Tie-Up Clutch</b>, from behind the <b>German Clutch</b>. Every wrestler has these two. <kbd>R1</kbd> with <kbd class="f sq">□</kbd>, <kbd class="f crs">✕</kbd>, <kbd class="f cir">○</kbd>, <kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd> or <kbd class="f tri">△</kbd><span class="plus">+</span><kbd class="f cir">○</kbd> starts the wrestler's other clutches (a Brainbuster clutch, a head grab, a powerbomb clutch...), set in Edit Mode. <span class="m c">from the code</span></p>
+  <p>In a clutch, press a button <b>as the screen flashes</b>:</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Input</th><th>Front clutch</th><th>Rear clutch (German Clutch)</th></tr></thead>
+    <tbody>
+    <tr><td class="in"><kbd class="f sq">□</kbd> <kbd class="f crs">✕</kbd> <kbd class="f cir">○</kbd> <kbd class="f tri">△</kbd></td><td>The clutch's moves, from small to big</td><td>The rear moves (mostly German suplex variants)</td></tr>
+    <tr><td class="in"><kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd> <kbd class="f tri">△</kbd><span class="plus">+</span><kbd class="f cir">○</kbd></td><td>Soul moves</td><td>Soul moves</td></tr>
+    <tr><td class="in"><kbd>R2</kbd></td><td><b>Front Headlock</b> (Tie-Up only): restrains him, then <kbd class="f sq">□</kbd><kbd class="f crs">✕</kbd><kbd class="f tri">△</kbd><kbd class="f cir">○</kbd> attack and Direction hauls him</td><td><b>Full Nelson</b>: holds him briefly, for a partner to hit (holds less on a fresh opponent)</td></tr>
+    <tr><td class="in"><kbd>R1</kbd></td><td>A move slot, often a switch to another clutch <span class="m c">from the code</span></td><td>Usually a switch to a Backdrop or German clutch <span class="m c">from the code</span></td></tr>
+    <tr><td class="in">Direction <span class="plus">+</span> tap <kbd>R1</kbd></td><td><b>Irish Whip</b> (Tie-Up only); <a href="#controls-whip">below</a></td><td></td></tr>
+    </tbody>
+  </table></div>
+  <p>How the plain <kbd>R1</kbd> slot and the whip inputs are told apart in practice hasn't been checked. <span class="m u">unverified</span> Near a Dazed opponent, <kbd>R3</kbd> spins him to face you or face away.</p>
+
+  <h3 id="controls-whip">Irish Whip and corners</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Input</th><th>Action</th></tr></thead>
+    <tbody>
+    <tr><td class="in">Tie-Up: Direction (to the ropes) <span class="plus">+</span> tap <kbd>R1</kbd></td><td><b>Irish Whip</b>. Counters, avalanche moves and more all start here.</td></tr>
+    <tr><td class="in">as he comes back: <kbd>R1</kbd> <span class="plus">+</span> <kbd class="f sq">□</kbd>/<kbd class="f crs">✕</kbd>/<kbd class="f cir">○</kbd>/<kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd></td><td><b>Counter Moves</b> (back elbows, shoulder throws...)</td></tr>
+    <tr><td class="in">Tie-Up: Direction (to a corner) <span class="plus">+</span> tap <kbd>R1</kbd></td><td><b>Diagonal Irish Whip</b>: he's stuck in the corner for a while; how long depends on his Stamina.</td></tr>
+    <tr><td class="in">he's in the corner: <kbd class="f sq">□</kbd> <kbd class="f crs">✕</kbd> <kbd class="f cir">○</kbd> <kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd></td><td><b>Diagonal Dash</b> from across the ring, or the <b>corner down moves</b> when you're close and he's slumped.</td></tr>
+    <tr><td class="in">in the corner: <kbd>R1</kbd> <span class="plus">+</span> <kbd class="f sq">□</kbd>/<kbd class="f crs">✕</kbd>/<kbd class="f cir">○</kbd>/<kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd></td><td><b>Corner Grapples</b>: the avalanche moves, "the most dangerous moves in wrestling".</td></tr>
+    <tr><td class="in">in the corner: <kbd>R1</kbd><span class="plus">+</span><kbd class="f tri">△</kbd></td><td><b>Tree of Woe</b>: hangs him upside down, helpless for a while. Useful in tag matches.</td></tr>
+    <tr><td class="in">Tie-Up: hold <kbd>R1</kbd></td><td><b>Irish Whip (Outside)</b>: throws him out of the ring, helpless for a while (your back to the ropes).</td></tr>
+    <tr><td class="in">Tie-Up: Direction (behind you) <span class="plus">+</span> <kbd>R1</kbd></td><td>Throws him onto the apron.</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3 id="controls-down">Opponent down</h3>
+  <p>The moves depend on where you stand (head, arm side or legs) and on whether he's face-up or face-down. Pins, chokes, locks and strikes are all down moves.</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Input</th><th>Action</th></tr></thead>
+    <tbody>
+    <tr><td class="in"><kbd class="f sq">□</kbd> <kbd class="f crs">✕</kbd> <kbd class="f cir">○</kbd> <kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd></td><td><b>Down moves</b> for that side. Dashing first gives the down dash moves (stomps, elbow drops).</td></tr>
+    <tr><td class="in"><kbd class="f crs">✕</kbd> during your own hold</td><td><b>Release</b> a pin, choke or lock at any time, "handy to win with your finisher".</td></tr>
+    <tr><td class="in">arm side: <kbd>R1</kbd><span class="plus">+</span><kbd class="f tri">△</kbd></td><td><b>Turn Over</b> (face-up ↔ face-down).</td></tr>
+    <tr><td class="in">head or feet: <kbd class="f tri">△</kbd></td><td><b>Dragging</b>: pull him to where your moves land, away from the ropes for example.</td></tr>
+    <tr><td class="in">arm side: <kbd class="f tri">△</kbd> / hold Direction</td><td><b>Pulling Sideways</b> (to line him up for a dive) / <b>Step Over</b>.</td></tr>
+    <tr><td class="in">head or feet: hold <kbd>R1</kbd><span class="plus">+</span><kbd class="f tri">△</kbd></td><td><b>Pick-up</b> to his feet. It can leave him Dazed, longer the more damage he has.</td></tr>
+    <tr><td class="in">tap <kbd>R1</kbd><span class="plus">+</span><kbd class="f tri">△</kbd></td><td>Pick-up to a half position: <b>Sitting</b> (at the head, face-up), <b>Kneeling</b> (at the feet, face-up; for Shining Wizard-type moves) or <b>All Fours</b> (face-down). Each has its own moves on <kbd class="f sq">□</kbd> <kbd class="f crs">✕</kbd> <kbd class="f cir">○</kbd> <kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd>.</td></tr>
+    <tr><td class="in"><kbd>R1</kbd> <span class="plus">+</span> <kbd class="f sq">□</kbd>/<kbd class="f crs">✕</kbd>/<kbd class="f cir">○</kbd>/<kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd>/<kbd class="f tri">△</kbd><span class="plus">+</span><kbd class="f cir">○</kbd></td><td><b>Clutch Pick-up</b>: haul him straight up into a clutch. Not taught in the Dojo. <span class="m c">from the code</span></td></tr>
+    </tbody>
+  </table></div>
+  <h4 id="controls-dives">Top rope dives</h4>
+  <p>Climb the post first (face it, Direction <span class="plus">+</span> <kbd class="f tri">△</kbd>; hold to run up it; Down climbs off). Choose the dive by his state: <b>down dives</b> (body press, elbow drop) on a downed opponent, <b>standing dives</b> (sledgehammer, missile kick) on a Dazed one.</p>
+  <ul>
+    <li>Down dive (front): <kbd class="f cir">○</kbd> or <kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd>. Standing dive: <kbd class="f sq">□</kbd> or <kbd class="f crs">✕</kbd>.</li>
+    <li>Down dive (back), a moonsault for example: he must lie face-up, straight out from the post. Hold Direction toward the post <span class="plus">+</span> <kbd class="f sq">□</kbd>/<kbd class="f crs">✕</kbd>/<kbd class="f cir">○</kbd>/<kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd>. Drag him or pull him sideways to line him up; a little off still lands.</li>
+    <li>Not every wrestler climbs: fighters who aren't pure pros, MMA types especially, stay off the posts (Post Climbing "Can't Climb").</li>
+  </ul>
+
+  <h3 id="controls-ground">Ground clutches</h3>
+  <figure class="shot side"><img src="../screenshots/guide-ground.png" alt="Edit Mode Hidden Moves: Guard Position with buttons □, ×, ○, △, R1, set to Do Nothing, Guard Rib Punch, Guard Punch, Pound" width="960" height="720" loading="lazy"><figcaption>The ground positions' moves are under "Hidden Moves" in Edit Mode.</figcaption></figure>
+  <p>The mat game. Get in with a <b>Running Tackle</b> (Homing Dash, then <kbd class="f sq">□</kbd>), or from some clutches and catches. When he tackles you, <kbd>R2</kbd> in time crushes it into a <b>Facelock</b>. There are four positions, <b>Guard, Mount, Facelock</b> and <b>Back Mount</b>. In each, the same flash timing as a clutch picks an attack, a break or a change of position, and losing the timing battle gives him a reversal.</p>
+  <p>In the data <span class="m c">from the code</span>: in each position <kbd class="f sq">□</kbd> is usually "Get Up" (break off), <kbd class="f crs">✕</kbd> <kbd class="f cir">○</kbd> <kbd class="f tri">△</kbd> strikes or submissions, <kbd>R1</kbd> a change of position (Guard Pass, Mount to Back Mount ...), and <kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd> <kbd class="f tri">△</kbd><span class="plus">+</span><kbd class="f cir">○</kbd> Soul moves. Underneath, the <b>Ground Clutch Reversal</b> moves break the clutch, sweep, pull guard or take the back.</p>
+
+  <h3 id="controls-defence">On the receiving end</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Input</th><th>Action</th></tr></thead>
+    <tbody>
+    <tr><td class="in">mash <kbd class="f sq">□</kbd> <kbd class="f crs">✕</kbd> <kbd class="f cir">○</kbd> <kbd class="f tri">△</kbd></td><td><b>Kick out</b> of a pin before 3, or <b>escape</b> a choke or lock before you give up.</td></tr>
+    <tr><td class="in">mashing + hold Direction to the ropes</td><td>Crawl to a <b>Rope Break</b> (if the rules allow it).</td></tr>
+    <tr><td class="in">down: hold <kbd class="f sq">□</kbd> + Direction</td><td><b>Rolling</b>; at the edge, a <b>Rolling Escape</b> out of the ring. Only for a short time.</td></tr>
+    <tr><td class="in">down: hold <kbd class="f sq">□</kbd></td><td><b>Play Possum</b>: stay down.</td></tr>
+    <tr><td class="in">down: hold <kbd class="f crs">✕</kbd></td><td><b>Getting-Up Feint</b>: a short invincible feint as you rise.</td></tr>
+    <tr><td class="in"><kbd>R2</kbd>, timed</td><td><b>Catch</b> a strike (see Standing); against a tackle, the Facelock.</td></tr>
+    <tr><td class="in">in a German Clutch: <kbd class="f sq">□</kbd> <kbd class="f crs">✕</kbd> <kbd class="f cir">○</kbd></td><td><b>German Clutch Reversal</b> moves. <span class="m c">from the code</span> <span class="m u">unverified</span> exact timing</td></tr>
+    <tr><td class="in"><kbd>L1</kbd><span class="plus">+</span><kbd>L2</kbd><span class="plus">+</span><kbd>R1</kbd><span class="plus">+</span><kbd>R2</kbd> for 2 seconds</td><td><b>Give up</b> yourself, in a choke or lock. Options has a "Give Up Button" setting ("Allow giving up in a match with a button press"); whether it has to be on is <span class="m u">unverified</span>.</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3 id="controls-ring">Ring, apron and posts</h3>
+  <div class="tables2">
+  <div class="tablewrap"><table>
+    <thead><tr><th>Input</th><th>Movement</th></tr></thead>
+    <tbody>
+    <tr><td class="in">at the apron edge: <b>hold</b> Direction <span class="plus">+</span> <kbd class="f tri">△</kbd></td><td>Leave the ring</td></tr>
+    <tr><td class="in">at the apron edge: <b>tap</b> Direction <span class="plus">+</span> <kbd class="f tri">△</kbd></td><td>Step out onto the apron</td></tr>
+    <tr><td class="in">outside, at the ring: hold Direction <span class="plus">+</span> <kbd class="f tri">△</kbd></td><td>Enter the ring</td></tr>
+    <tr><td class="in">on the apron: Direction <span class="plus">+</span> <kbd class="f tri">△</kbd></td><td>Drop to the floor, or climb the post</td></tr>
+    <tr><td class="in">Rope Dash, hold <kbd>R1</kbd></td><td>Dash In / Dash Out: fast re-entry, or chase him outside</td></tr>
+    <tr><td class="in">facing a post: Direction <span class="plus">+</span> <kbd class="f tri">△</kbd> (hold: run up)</td><td>Climb the post; Down climbs off</td></tr>
+    </tbody>
+  </table></div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Input</th><th>Outside the ring</th></tr></thead>
+    <tbody>
+    <tr><td class="in">at the apron edge facing him: Direction <span class="plus">+</span> <kbd class="f sq">□</kbd>/<kbd class="f crs">✕</kbd>/<kbd class="f cir">○</kbd>/<kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd></td><td><b>Plancha</b> over the ropes</td></tr>
+    <tr><td class="in">Rope Dash, during the rebound hold a button</td><td><b>Tope</b> through the ropes</td></tr>
+    <tr><td class="in">on the apron: Rope Dash, then a button</td><td><b>Apron Dash</b> onto him outside (needs room)</td></tr>
+    <tr><td class="in">on the apron, he's inside and Dazed: <kbd class="f crs">✕</kbd>/<kbd class="f cir">○</kbd>/<kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd></td><td><b>Springboard</b> back in</td></tr>
+    <tr><td class="in">inside, he's on the apron: <kbd>R1</kbd><span class="plus">+</span><kbd class="f tri">△</kbd>, then a button</td><td><b>Over-Rope Grapples</b> (the reverse from the apron: <b>Apron Grapples</b>)</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+
+  <h3 id="controls-tag">Tag matches</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Input</th><th>Action</th></tr></thead>
+    <tbody>
+    <tr><td class="in">Direction (to your partner) <span class="plus">+</span> <kbd>L1</kbd></td><td><b>Tag</b>, when you're the legal man inside and he waits on the apron.</td></tr>
+    <tr><td class="in">on the apron: <kbd class="f tri">△</kbd> / <kbd>L1</kbd></td><td><b>Beckon &amp; Tag</b>: call your CPU partner over / <b>Tag (Forced)</b> when he's close.</td></tr>
+    <tr><td class="in">near your trapped partner: <kbd class="f sq">□</kbd> <kbd class="f crs">✕</kbd> <kbd class="f cir">○</kbd> (or dashing)</td><td><b>Cut Attack</b>: break up the hold.</td></tr>
+    <tr><td class="in"><kbd>L2</kbd></td><td><b>Switch Target</b>.</td></tr>
+    <tr><td class="in">2 on 1, both at his front or back: <kbd class="f sq">□</kbd></td><td><b>Double Team</b>. Whip him into your own corner with your partner on the apron and press <kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd> for the corner double team.</td></tr>
+    <tr><td class="in">from the floor: Direction (to him) <span class="plus">+</span> <kbd>R1</kbd><span class="plus">+</span><kbd class="f tri">△</kbd></td><td><b>Pull Down</b> a wrestler from the ring or apron, or <b>Trip</b> him as he rebounds off the ropes (Rope Stop timing). "Mostly my job as a second." (Hoshino)</td></tr>
+    <tr><td class="in">he's up on the post: Direction (to the post) <span class="plus">+</span> <kbd class="f sq">□</kbd>/<kbd class="f crs">✕</kbd>/<kbd class="f cir">○</kbd></td><td><b>Deadly Drive</b>: slam him back into the ring.</td></tr>
+    </tbody>
+  </table></div>
+  <p>The Full Nelson and the Tree of Woe are the Dojo's tools for splitting the other team.</p>
+
+  <h3 id="controls-weapons">Weapons</h3>
+  <p>Kantaro Hoshino's lessons: hug the barrier outside and press Direction <span class="plus">+</span> <kbd>R1</kbd> to get a weapon. Near a weapon, <kbd>R1</kbd> picks it up and <kbd>R1</kbd> again drops it. <kbd class="f sq">□</kbd> <kbd class="f crs">✕</kbd> <kbd class="f cir">○</kbd> swing it light (fast, weak), mid and heavy (slow, strong), also while dashing. A weapon locks out some of your moves, and a hit makes the holder drop it. <kbd>R2</kbd>, timed as his weapon is about to hit, <b>catches</b> it and it's yours. Which weapons exist, and whether they draw a foul, isn't in the game's text. <span class="m u">unverified</span></p>
+</section>
+
+<!-- ============================================================ -->
+<section id="match">
+  <h2><span class="tabt">How a Match Works</span></h2>
+
+  <h3 id="match-stats">No life bar</h3>
+  <p>"None of these stats are shown on screen, so read them from how the wrestler moves." (Kotetsu Yamamoto) <span class="m">game text</span></p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Stat</th><th>What it does</th><th>Watch for</th></tr></thead>
+    <tbody>
+    <tr><td><b>Stamina</b> <span class="jp" lang="ja">体力</span></td><td>Low Stamina makes you easier to pin, and many skills switch on at "plenty of" or "nearly gone".</td><td>Slow, heavy movement; longer stays in the corner after a whip.</td></tr>
+    <tr><td><b>Spirit</b> <span class="jp" lang="ja">精神力</span></td><td>Low Spirit also makes the 3 count easier, and it changes how long you stay down.</td><td></td></tr>
+    <tr><td><b>Breath</b> <span class="jp" lang="ja">呼吸</span></td><td>Running and moves use it up. With ragged Breath your fighting pose drops and guarding risks a Guard Crush. Run out and you're <b>Breathless</b>, unable to move. Hold <kbd>L1</kbd> to recover.</td><td>The fighting pose dropping.</td></tr>
+    <tr><td><b>Durability</b> <span class="jp" lang="ja">耐久度</span></td><td>Neck, arm, waist and leg each have their own. A worn-down part makes you give up sooner.</td><td>Work one part with your locks <span class="m u">unverified</span> that each lock targets a part</td></tr>
+    </tbody>
+  </table></div>
+  <p>Heavy damage leaves a wrestler <b>Dazed</b> (seeing stars) for longer; a Pick-up can daze him too. Standing dives and the Springboard work best on a Dazed opponent. Wrestlers <b>bleed</b>, with their own recovery, breathing and spirit ratings while bleeding, and several skills key off blood. What starts the bleeding isn't stated. <span class="m u">unverified</span></p>
+  <p>What <i>is</i> on screen: the wrestlers' names, the remaining <b>Soul</b> and the clock (Options can turn each off), and the <b>Crowd Satisfaction</b> rating after the match.</p>
+
+  <div class="cols2"><div>
+  <h3 id="match-soul">Soul</h3>
+  <p>Soul moves (<span lang="ja">魂技</span>) are each wrestler's strongest moves, on the two-button inputs <kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd> and <kbd class="f tri">△</kbd><span class="plus">+</span><kbd class="f cir">○</kbd>. Every use spends one Soul, and uses are limited, so check the Soul count on screen. A wrestler without Soul moves equipped for a situation can't use one there. <span class="m">game text</span></p>
+  <ul>
+    <li>Each wrestler has 3 or 4 <b>Soul Buttons</b> in his skills <span class="m c">from the code</span>, almost certainly his Soul stock per match <span class="m u">unverified</span>.</li>
+    <li>Most <b>Finishers</b> sit on Soul inputs (of 441 wrestler versions, 379 have the finisher on a Soul input), so a finisher usually costs a Soul. <span class="m c">from the code</span></li>
+    <li>Souls move during a match only through skills: <i>Lights Out</i> takes one with your first Soul move, <i>Dictator</i> steals one when you're hit while taunting, <i>Blood Pact</i> and <i>Soul Cheer</i> restore one. See <a href="#skills">Special Skills</a>.</li>
+  </ul>
+
+  </div><div>
+  <h3 id="match-timing">Timing and reversals</h3>
+  <ul>
+    <li>In a clutch, press the move button as the screen flashes and the wrestler sinks his hips. Lose that timing battle and he hits a <b>clutch reversal</b>. <span class="m">game text</span></li>
+    <li>Early in the match mid and big moves rarely land, and <b>auto reversals</b> kick in. Build from small to mid to big. <span class="m">game text</span></li>
+    <li>Each wrestler has two <b>Reversals</b> types in his profile (odds and moves), drawn from the fight styles. They probably set how often he reverses automatically and with what. <span class="m u">unverified</span></li>
+    <li>Muga Rules give more reversals and stronger joint locks and roll-ups. <span class="m">game text</span></li>
+  </ul>
+
+  </div></div>
+  <div class="cols2"><div>
+  <h3 id="match-finish">Winning</h3>
+  <p>Under Pro Wrestling Rules you win by <b>3 count</b>, <b>submission</b> or <b>KO</b>. The result banners are 3 COUNT, KO, GIVE UP and TKO. Count-out, DQ, decisions, points and time-limit draws depend on the <a href="#rules">rules</a>.</p>
+  <ul>
+    <li><b>Pins</b> work better the lower his Stamina, Spirit and Breath. <b>Submissions</b> work better the lower the durability of the body part. <span class="m">game text</span></li>
+    <li>You can let go of your own hold with <kbd class="f crs">✕</kbd>: release a weakened opponent to finish him with your finisher instead.</li>
+    <li><b>Criticals</b> (<span lang="ja">クリティカル</span>) are a special event the match rating counts. The rules set how often they happen (High, Normal, Off), each wrestler has a critical type (most have Finisher), and skills change the critical rate of Soul moves. What a critical does exactly hasn't been traced; it may be the sudden KO or TKO finish. <span class="m u">unverified</span></li>
+    <li>The match rating (crowd satisfaction, and Survival Road's S-D grade) counts finishers, signature moves, Soul moves, taunts, criticals, near falls (2.9 counts), blood, outside moves, double teams, interference, a post-match brawl and more, against one-sided matches and long stretches with no hits. <span class="m">game text</span> How they add up hasn't been traced.</li>
+  </ul>
+
+  </div><div>
+  <h3 id="match-tips">Tips</h3>
+  <ul>
+    <li>Start small: light strikes and small clutch moves first. Big moves early get reversed.</li>
+    <li>Manage your Breath. Don't dash all match; step back and hold <kbd>L1</kbd> when your pose drops.</li>
+    <li>Position him first. Drag or pull him sideways before a moonsault, and away from the ropes before a submission.</li>
+    <li>Save your Soul for the finish. Most finishers need one.</li>
+    <li>Taunt between big moves: the crowd rating counts taunts, and several skills work off them.</li>
+    <li>For Match Maker and Survival Road ratings, vary the match: near falls, a dive outside, signature moves, then the finisher. A short, one-sided match rates badly. <span class="m u">unverified</span> as a rule; it follows the items the rating counts</li>
+    <li>If the timing feels hard, lower the CPU Level in the rules, or practise in the Dojo with the CPU set to Dying.</li>
+  </ul>
+  </div></div>
+</section>
+
+<!-- ============================================================ -->
+<section id="rules">
+  <h2><span class="tabt">Rules and Settings</span></h2>
+  <p>The CONFIGURATION screen sets the match rules: the settings, their values and the help lines below are the game's own. <span class="m">game text</span> Which settings a rule set uses, and where the screen is reached from in each mode, hasn't been mapped. <span class="m u">unverified</span></p>
+  <h3 id="rules-sets">Rule sets</h3>
+  <figure class="shot side"><img src="../screenshots/guide-crowd.png" alt="CONFIGURATION screen: the Crowd setting with New Japan Fans, NOAH Fans, All Japan Fans, ZERO-ONE Fans, WJ Fans, U-FILE Fans, MMA Fans, Wrestling Fans" width="960" height="720" loading="lazy"><figcaption>The CONFIGURATION screen: setting on the left, its values on the right, the help line at the bottom.</figcaption></figure>
+  <div class="tablewrap fit"><table>
+    <thead><tr><th>Rules</th><th>Japanese</th><th>Help line</th></tr></thead>
+    <tbody>
+    <tr><td><b>Pro Wrestling Rules</b></td><td lang="ja">プロレスルール</td><td>Win by 3 count, submission or KO.</td></tr>
+    <tr><td><b>Vale Tudo Rules</b></td><td lang="ja">バーリトゥードルール</td><td>Win by submission, KO or when the stamina runs out.</td></tr>
+    <tr><td><b>Ultimate Crush Rules</b></td><td lang="ja">ＵＬＴＩＭＡＴＥ ＣＲＵＳＨルール</td><td>The ultimate vale tudo rules: no draws.</td></tr>
+    <tr><td><b>U Rules</b></td><td lang="ja">Ｕルール</td><td>Win by submission, KO or when the points run out.</td></tr>
+    <tr><td><b>American Rules</b></td><td lang="ja">アメリカンルール</td><td>A fantasy rule that powers up signature and finishing moves.</td></tr>
+    <tr><td><b>Muga Rules</b></td><td lang="ja">無我ルール</td><td>More reversals, stronger joint locks and roll-ups.</td></tr>
+    <tr><td><b>Free</b></td><td lang="ja">フリー</td><td>Set the rules freely.</td></tr>
+    </tbody>
+  </table></div>
+  <p>A hidden eighth set, <b>Pancrase Rules</b>, is in <a href="#secrets">Secrets</a>.</p>
+  <h3 id="rules-settings">Every setting</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Setting</th><th>Help line</th><th>Values</th></tr></thead>
+    <tbody>
+    <tr><td><b>Rules</b></td><td>Set the match rules</td><td>the rule sets above</td></tr>
+    <tr><td><b>Match Type</b></td><td>Set how the match is decided</td><td>3 Count, Submission Only</td></tr>
+    <tr><td><b>Time Limit</b></td><td>Set the time limit</td><td>10, 15, 20, 30, 45, 60 min, Unlimited</td></tr>
+    <tr><td><b>Falls</b></td><td>Set the number of falls</td><td>One Fall, Best of 3 Falls</td></tr>
+    <tr><td><b>Rounds</b> / <b>Round Time</b> / <b>No. of Rounds</b></td><td>Rounds on or off, their length and number</td><td>On, Off / 3, 5, 10, 15, 20 min / 1-15 (some never shown) or Unlimited</td></tr>
+    <tr><td><b>Points</b> / <b>No. of Points</b></td><td>Points on or off; how many each wrestler has</td><td>On, Off / 5, 10, 15</td></tr>
+    <tr><td><b>Down Points</b> / <b>Escape Points</b></td><td>Points lost for being knocked down / for a rope escape</td><td>1-5</td></tr>
+    <tr><td><b>Judge</b></td><td>Set the decision when time runs out</td><td>On (Normal), On (Must System), Off</td></tr>
+    <tr><td><b>CPU Level</b></td><td>Set the CPU strength</td><td>1-8</td></tr>
+    <tr><td><b>Game Speed</b></td><td>Set how fast time passes in a match</td><td>100%, 200%, 300%, 400%</td></tr>
+    <tr><td><b>Ring</b></td><td>Choose the ring for the match</td><td>Plain (Blue, White, Black), New Japan 1-3, New Japan (VT), NOAH, All Japan, ZERO-ONE, WJ, U-FILE, and 13 more from the Hall of Souls</td></tr>
+    <tr><td><b>Crowd</b></td><td>Choose the type of fans in the crowd (affects crowd satisfaction)</td><td>New Japan, NOAH, All Japan, ZERO-ONE, WJ, U-FILE, MMA or Wrestling Fans</td></tr>
+    <tr><td><b>Venue</b> / <b>Ramp</b></td><td>The venue; whether there's an entrance ramp</td><td>Spike Dome, Nippon Butokan, Oedo Kokugikan, Rinkai Colosseum, Yurakuen Hall, Meifa Ariake, Sendagaya Gymnasium, Kawashima Stadium, Regional Venue / On, Off</td></tr>
+    <tr><td><b>Down Count</b></td><td>Choose whether a downed wrestler is counted</td><td>On, Off</td></tr>
+    <tr><td><b>Rope Break</b></td><td>Choose whether rope breaks are allowed</td><td>On, Off</td></tr>
+    <tr><td><b>Lumberjack</b></td><td>Keep the wrestlers from leaving the ring</td><td>On, Off</td></tr>
+    <tr><td><b>Ring-out Count</b></td><td>Choose whether a wrestler outside the ring is counted</td><td>20, 10, Off</td></tr>
+    <tr><td><b>Foul Count</b></td><td>Choose whether a wrestler on the corner post is counted</td><td>On, Off</td></tr>
+    <tr><td><b>Critical Rate</b></td><td>Set how often criticals happen</td><td>High, Normal, Off</td></tr>
+    <tr><td><b>Referee</b></td><td>Choose the referee</td><td>Red Shoes Unno, Masao Tayama, Shuichi Nishinaga, Mighty Inoue, Kyohei Wada, Shinsuke Abe, Tiger Hattori, Norio Honaga (and Kotetsu Yamamoto, from the Dojo)</td></tr>
+    <tr><td><b>Ring Announcer</b> / <b>Caller</b> / <b>Color</b></td><td>The ring announcer, play-by-play and color commentary</td><td>Hidekazu Tanaka, Ryu Nakata, Fumihito Kihara, Okky Okita / Yoshinari Tsuji, Off / Kazuo Yamazaki, Mitsuo Momota, Off</td></tr>
+    <tr><td><b>Intros</b></td><td>Choose whether to watch or skip entrances</td><td>On, Off</td></tr>
+    <tr><td><b>Skip CPU Matches</b></td><td>Play CPU vs. CPU matches at high speed</td><td>On, Off</td></tr>
+    </tbody>
+  </table></div>
+  <p>"On (Must System)" is presumably the 10-point must system of judging, from the Japanese <span lang="ja">マストシステム</span>. <span class="m u">unverified</span> The crowd matters in Match Maker: each promotion's fans like different things, and the bosses' advice says what.</p>
+</section>
+
+<!-- ============================================================ -->
+<section id="edit">
+  <h2><span class="tabt">Edit Mode</span></h2>
+  <figure class="shot side"><img src="../screenshots/guide-appearance.png" alt="Edit Mode Appearance: the Face list (Levin Gash, Russian Emp. Pyotr, Ronaldo Tobal, Wild Phantom, Alien, Wolf, Kappa, Karateka, Bear, Samurai) with L1 Match and R1 Entrance tabs" width="960" height="720" loading="lazy"><figcaption>Appearance: <kbd>L1</kbd> the match costume, <kbd>R1</kbd> the entrance one.</figcaption></figure>
+  <p>Edit builds a wrestler completely: look, moves, skills, parameters and how the CPU fights with him. The top menu:</p>
+  <ul>
+    <li><b>Original Wrestler Edit</b>: create new wrestlers. There are 100 slots, each with up to four Wrestler Types (versions). <span class="m c">from the code</span></li>
+    <li><b>Default Wrestler Edit</b>: change the built-in wrestlers. <b>Restore Data</b> puts the original back.</li>
+    <li><b>Promotion Edit</b> (20 new promotions, with a name and a logo), <b>Transfers</b>, <b>Rename</b> and <b>Reorder</b>.</li>
+  </ul>
+  <p>A wrestler's pages:</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Page</th><th>What's on it</th></tr></thead>
+    <tbody>
+    <tr><td><b>Choose Model</b></td><td>The model wrestler to start from.</td></tr>
+    <tr><td><b>Profile</b></td><td>Promotion, name, nickname, weight class (Junior Heavyweight, Heavyweight, Super Heavyweight, Openweight), nationality, build (SS-LL), height and weight, birthday, fight style, Reversals (Odds) and (Moves), two voices, favorite color, popularity.</td></tr>
+    <tr><td><b>Appearance</b></td><td><kbd>L1</kbd> the costume worn in matches and <kbd>R1</kbd> the one for entrances: face, body, each part of the gear, colours, and for the entrance the gear, intro speech, theme song (240), entrance and name calls.</td></tr>
+    <tr><td><b>Skills</b></td><td>Soul Buttons (3 or 4), critical type, recovery, breathing and spirit (each also while bleeding), neck/arm/waist/leg durability (down to "Injured"), move speed, post climbing, one <a href="#skills-mode">mode skill</a> and three <a href="#skills">match skills</a>.</td></tr>
+    <tr><td><b>Parameters</b></td><td>Eleven offense values (Strikes, Kicks, Throws, Joint Locks, Chokes, Power, Agility, Strength, Technique, Rough, Vale Tudo) and eleven defense values (the same, with Aerial, Slams and Lariat in place of Power, Agility and Strength), each 1-10. <span class="m c">from the code</span></td></tr>
+    <tr><td><b>Moveset</b></td><td>285 move slots in 25 categories (strikes, dashes, counters, corner, clutch settings and clutch moves, down moves by position, dives, over-rope and apron grapples, Hidden Moves for the ground game, catches, double teams, taunts, intros). Icons mark the <b>F</b> finisher, <b>S1-S4</b> signature moves and <b>V1-V2</b> voice slots. <span class="m c">from the code</span></td></tr>
+    <tr><td><b>CPU Logic</b></td><td>For each situation (opponent far away, locked up, down face-up, outside, tag partner in trouble ...), the odds of each action at Low, Mid, High and Dying opponent damage. <b>Auto Logic</b> fills it in for you.</td></tr>
+    </tbody>
+  </table></div>
+  <figure class="shot side"><img src="../screenshots/computer-logic.png" alt="COMPUTER LOGIC: situation 'Caught in a German Clutch', three German reversal choices at 35%, 55% and 10% by opponent damage" width="960" height="720" loading="lazy"><figcaption>CPU Logic: the odds of each reversal when caught in a German clutch.</figcaption></figure>
+  <ul>
+    <li><b>Load Sample</b> (<kbd class="f tri">△</kbd> on a page) loads a template into that page: 26 fight-style templates (Orthodox, Technician, Power, Luchador, Heel, Shooter ...), or a complete <b>sample</b> wrestler or fighter. Most samples are bought in the Hall of Souls. Load the same sample on every page for the complete wrestler. Samples arrive "already complete and free to change".</li>
+    <li><b>Copy</b> takes any of the six pages from another wrestler. Promotion and weight class aren't copied. <span class="m">game text</span></li>
+    <li><b>Edit Points</b>: 200 for a new original wrestler, up to 400 with the four "Edit Points +50" items. What they're spent on hasn't been traced. <span class="m u">unverified</span></li>
+    <li>Changing a champion's weight class or birthday, retiring him or overwriting him vacates his belts and takes him out of series and Elimination teams. A renamed wrestler loses his Battle History. <span class="m">game text</span></li>
+    <li>Names: the name entry keeps the game's Japanese keyboards. English names go in with the <b>ABC</b> grid.</li>
+    <li><b>Quick Save</b> often. Edits live in the Edit data until you save to the memory card.</li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<section id="options">
+  <h2><span class="tabt">Options and Saving</span></h2>
+  <div class="tables2">
+  <div>
+  <h4>Game Settings</h4>
+  <ul>
+    <li><b>Vibration</b></li>
+    <li><b>Save Prompt</b>: ask before saving changed game data</li>
+    <li><b>Clock</b> and <b>Wrestler Info</b> (names and Soul) in matches</li>
+    <li><b>Crowd Satisfaction</b> after matches</li>
+    <li><b>Give Up Button</b>: allow giving up with a button press</li>
+    <li><b>3D Model Type</b>: the proportions of the 3D models</li>
+  </ul>
+  </div>
+  <div>
+  <h4>Sound Settings and Battle History</h4>
+  <ul>
+    <li><b>Sound Type</b> (Stereo, Mono), <b>Entrance Theme</b> (Broadcast or Live), sound effect and music volume, <b>SFX Test</b> and <b>Music Test</b></li>
+    <li><b>Battle History</b>: each wrestler's record: matches by type, league and tournament wins, titles won</li>
+    <li>There's no difficulty or camera option: CPU strength is the rules' CPU Level, and the camera is on the pause menu.</li>
+  </ul>
+  </div>
+  </div>
+  <p>The Music Test's track title flickers, showing only its first letters. The original Japanese game does the same. <span class="m v">verified in game</span></p>
+  <h3 id="options-saving">Saving</h3>
+  <ul>
+    <li><b>Save/Load</b> on the main menu: <b>Load</b>, <b>Save</b> and <b>Copy Wrestler</b>, each for All Data, System Data or Edit Data. System data holds the unlocks, the Hall of Souls, Survival Road records and souls, and the options and rules. <span class="m c">from the code</span></li>
+    <li>The game also saves by itself after changes, unless the card was swapped.</li>
+    <li><b>Copy Wrestler</b> loads edited wrestlers from another memory card (put it in slot 1), one at a time.</li>
+    <li>Series Mode, Elimination teams, Survival Road and Match Maker keep their progress with their own Quick Save or Save/Quit.</li>
+    <li>Saves from the Japanese game work with the translation: the patch doesn't change the save format. The save's title on the card stays Japanese (<span lang="ja">キングオブコロシアム２</span>).</li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<section id="skills">
+  <h2><span class="tabt">Special Skills</span></h2>
+  <p>Each wrestler has up to three <b>match special skills</b> and one <b>mode special skill</b>, set on the Skills page in Edit Mode. The effects below are the game's own descriptions. <span class="m">game text</span> Every wrestler's skills are in the <a href="../wrestlers/">Wrestler Database</a>.</p>
+  <div class="filterbar"><input type="search" id="skq" placeholder="Filter skills (name or effect)" aria-label="Filter skills"><span class="count" id="skcount" aria-live="polite"></span></div>
+  <h3 id="skills-match">Match skills</h3>
+  <div class="skgrid" id="sk-match"></div>
+  <h3 id="skills-combo">Combination skills</h3>
+  <p>A combination skill counts as all of its parts at once.</p>
+  <div class="skgrid" id="sk-combo"></div>
+  <h3 id="skills-mode">Mode skills</h3>
+  <p>Only in Series Mode and Title Match.</p>
+  <div class="skgrid" id="sk-mode"></div>
+</section>
+
+<!-- ============================================================ -->
+<section id="secrets">
+  <h2><span class="tabt">Secrets</span></h2>
+  <p>Unlockables and hidden content. Everything bought with souls, with its price and condition, is on <a href="../secret-shop/">Secret Shop &amp; Unlocks</a>. The technical side is in <a href="https://github.com/kactusken/King-of-Colosseum-II-English/blob/main/docs/HIDDEN_CONTENT.md">HIDDEN_CONTENT.md</a>.</p>
+  <div class="cols2 sec"><div>
+  <h3 id="sec-shop">The Hall of Souls</h3>
+  <p>The shop on the Survival Road menu ("Trade souls for secrets") sells 30 hidden wrestlers and versions, 117 Edit samples, 13 rings, Edit Points, the Super Hard and Master difficulties and two extra courses, for 10-500 souls. An item goes on sale once you've cleared the course it asks for, mostly on Normal or harder. With the <b>King of Kings</b> rank title everything is half price. <span class="m c">from the code</span></p>
+  <details class="spoiler">
+    <summary>Spoiler: what clearing each course puts on sale</summary>
+    <p>Clearing a promotion's course on Normal or harder puts its legends and alternate versions on sale. Some of them:</p>
+    <ul>
+      <li><b>New Japan</b> (10): Tatsumi Fujinami, Seiji Sakaguchi, S.S. Machine, Black Cat, Chono Summer Man ...</li>
+      <li><b>NOAH</b> (7): Misawa Super Gen., Kobashi Chosedai, Rusher Kimura, Mighty Inoue ...</li>
+      <li><b>All Japan</b> (6): Great Muta (500 souls, the most expensive), Kokushi Muso, Mutoh NBM ...</li>
+      <li><b>ZERO-ONE</b> (2): Hashif Khan and SHOGUN.</li>
+      <li><b>WJ</b> (5): Choshu Revolution, Masa Saito, Power Warrior ...</li>
+    </ul>
+    <p>The full list with prices: <a href="../secret-shop/">Secret Shop &amp; Unlocks</a>. <span class="m c">from the code</span></p>
+  </details>
+  </div><div>
+  <h3 id="sec-dojo">Kotetsu Yamamoto</h3>
+  <details class="spoiler">
+    <summary>Spoiler: the Dojo's reward</summary>
+    <p>Beat Kotetsu in the Dojo's Test Match to unlock him as a wrestler (New Japan) and as a referee. <span class="m c">from the code</span>; fan sites agree. The Dojo route itself hasn't been played through with the translation. <span class="m u">unverified</span></p>
+  </details>
+  </div><div>
+  <h3 id="sec-freeshow">Free Show</h3>
+  <details class="spoiler">
+    <summary>Spoiler: Match Maker's reward</summary>
+    <p>Clear the Match Maker campaigns of all five promotions to open <b>Free Show</b>: book your own shows with wrestlers from every promotion. <span class="m c">from the code</span></p>
+  </details>
+  </div><div>
+  <h3 id="sec-password">Unlock everything</h3>
+  <details class="spoiler">
+    <summary>Spoiler: a name that unlocks everything</summary>
+    <p>In Edit Mode, enter <b lang="ja">小橋蝶野武藤橋本三沢</b> (Kobashi Chono Muto Hashimoto Misawa, in kanji) as a wrestler's name and confirm. It was tested in the given name field <span class="m v">verified in game</span>; Japanese fan sites type it as the nickname. It marks every Dojo lesson cleared, unlocks Kotetsu Yamamoto, buys every Hall of Souls item, turns on every ring, sets Edit Points to 400 and gives you 9,999 souls and the half-price title. Type it on the hiragana grid and convert each name to kanji.</p>
+  </details>
+  </div><div>
+  <h3 id="sec-hidden">What nothing unlocks</h3>
+  <details class="spoiler">
+    <summary>Spoiler: content the game never opens</summary>
+    <p>Some content is in the game but never reachable, not even with the name above: a cut <b>Pancrase</b> promotion (its rules, ring, crowd, fighters' faces and a Match Maker campaign), the <b>WAR</b> ring, a referee, four Dojo trainees and a joke wrestler. The translation's <b>All Unlocked</b> patch opens them, and they work in game. <span class="m v">verified in game</span> Details: <a href="https://github.com/kactusken/King-of-Colosseum-II-English/blob/main/docs/HIDDEN_CONTENT.md">HIDDEN_CONTENT.md</a>.</p>
+  </details>
+  </div></div>
+</section>
+
+<!-- ============================================================ -->
+<section id="glossary">
+  <h2><span class="tabt">Japanese Glossary</span></h2>
+  <p>Terms from the original Japanese game, and what the translation shows instead. The last column is checked against the translation each time this page is built.</p>
+  <div class="filterbar"><input type="search" id="glq" placeholder="Filter the glossary" aria-label="Filter the glossary"><span class="count" id="glcount" aria-live="polite"></span></div>
+  <div class="glgrid" id="gl" aria-label="Japanese, meaning, and on screen in the translation"></div>
+</section>
+
+<!-- ============================================================ -->
+<section id="faq">
+  <h2><span class="tabt">Q&amp;A</span></h2>
+  <h4 id="faq-english">Is there an official English version?</h4>
+  <p>No, the game was only released in Japan. This guide goes with the English fan translation, a patch for your own copy of the disc.</p>
+  <h4 id="faq-health">Where's the health bar?</h4>
+  <p>There isn't one. Stamina, Spirit and Breath are hidden by design; watch the wrestlers' movement and pose. See <a href="#match-stats">No life bar</a>.</p>
+  <h4 id="faq-reversed">Why does every big move get reversed?</h4>
+  <p>Two reasons: the timing (press as the screen flashes) and the match stage (big moves early get reversed automatically). See <a href="#match-timing">Timing and reversals</a>.</p>
+  <h4 id="faq-finisher">How do I do my finisher?</h4>
+  <p>It's on one of the wrestler's move slots, usually a Soul input like <kbd class="f sq">□</kbd><span class="plus">+</span><kbd class="f crs">✕</kbd> or <kbd class="f tri">△</kbd><span class="plus">+</span><kbd class="f cir">○</kbd> in a clutch, so it needs a Soul left. The <a href="../wrestlers/">Wrestler Database</a> shows each finisher's exact input (marked F).</p>
+  <h4 id="faq-souls">How do I get souls?</h4>
+  <p>Only from Survival Road, after every match. Higher difficulties and better match ratings give more.</p>
+  <h4 id="faq-unlock">Can I just unlock everything?</h4>
+  <p>Yes: the "All Unlocked" patch, or the name in <a href="#sec-password">Secrets</a>.</p>
+  <h4 id="faq-saves">Do my Japanese saves work?</h4>
+  <p>Yes. With an All Unlocked patch, loading a save keeps everything unlocked, but Survival Road's souls and records are reset to the unlocked values at every load.</p>
+  <h4 id="faq-japanese">Why is some text still in Japanese?</h4>
+  <p>The title logo, promotion and belt logos, costumes and ring art are artwork and stay as they are. So do the movies, the spoken commentary, the name-entry keyboards (English names use the ABC grid), the staff credits and the save's title on the card.</p>
+</section>
+
+<!-- ============================================================ -->
+<section id="credits">
+  <h2><span class="tabt">Credits and Legal</span></h2>
+  <p>This guide is a non-commercial fan project, not affiliated with or endorsed by the game's developer or publisher. <i>King of Colosseum II</i> and its names and trademarks belong to their owners; the real wrestlers' and promotions' names belong to them.</p>
+  <p>The text is written in our own words from the game's own text (the Dojo lessons and the menus), its data and code as decoded by the <a href="https://github.com/kactusken/King-of-Colosseum-II-English">English translation project</a>, and these fan sources, which confirmed the unlock list and the name code: <a href="https://kakusi.jp/?p=66253">KAKUSI</a>, <a href="https://uw.netlify.app/details/ps2/630">uw.netlify.app</a> and <a href="https://menokenkou.work/kingukorosiamuura/">日々を楽しむゲームブログ</a> (sunouk). Bootflap's <a href="http://bootflap.blogspot.com/2008/02/king-of-colosseum-ii-review.html">2008 review</a> describes the grapple system the same way. The guide contains no scans or images from any printed guidebook. The screenshots are from the English fan translation.</p>
+  <p>AI assisted with this guide.</p>
+  <p>The guide text is shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0</a> (CC BY-SA 4.0; see <a href="./LICENSE">LICENSE</a>). You may share and adapt it as long as you credit this guide and share alike.</p>
+  <h3 id="contributing">Corrections</h3>
+  <p>Open an issue at <a href="https://github.com/kactusken/King-of-Colosseum-II-English/issues">github.com/kactusken/King-of-Colosseum-II-English</a>, especially for anything marked <span class="m u">unverified</span>.</p>
+</section>
+
+</main>
+</div>
+
+<footer class="foot">
+  <p>King of Colosseum II: a fan guide, version 1.0. A non-commercial fan project, not affiliated with or endorsed by the game's developer or publisher. Guide text: <a href="./LICENSE">CC BY-SA 4.0</a>.</p>
+</footer>
+
+<div class="gres" id="gres" popover="manual" role="listbox" aria-label="Search results"></div>
+<dialog id="zoom" aria-label="Screenshot">
+  <div class="dlg-head"><p id="zoomCap"></p><button class="dlg-close" type="button" aria-label="Close">×</button></div>
+  <div class="dlg-body"><img id="zoomImg" alt=""></div>
+</dialog>
+
+<script type="application/json" id="data">/*DATA*/</script>
+<script>
+/*THEME_JS*/
+</script>
+<script>
+/* Contents: open on wide screens, the section being read highlighted; the About card */
+(function () {
+  const toc = document.getElementById('toc');
+  const mqWide = window.matchMedia('(min-width: 960px)');
+  function syncToc() { toc.open = mqWide.matches; }
+  syncToc();
+  mqWide.addEventListener && mqWide.addEventListener('change', syncToc);
+  toc.addEventListener('click', e => { if (e.target.closest('a') && !mqWide.matches) toc.open = false; });
+  const links = {};
+  toc.querySelectorAll('a[href^="#"]').forEach(a => { links[a.getAttribute('href').slice(1)] = a; });
+  const targets = Object.keys(links).map(id => document.getElementById(id)).filter(Boolean)
+    .sort((a, b) => a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1);
+  let current = null, openLi = null;
+  function setCurrent(id) {
+    if (id === current) return;
+    if (current && links[current]) links[current].removeAttribute('aria-current');
+    current = id;
+    const a = links[id];
+    let li = a ? a.closest('li') : null;
+    while (li && li.parentElement.closest('li')) li = li.parentElement.closest('li');
+    if (li !== openLi) { if (openLi) openLi.classList.remove('open'); if (li) li.classList.add('open'); openLi = li; }
+    if (!a) return;
+    a.setAttribute('aria-current', 'true');
+    const t = toc.getBoundingClientRect(), r = a.getBoundingClientRect();
+    if (r.top < t.top + 40) toc.scrollTop -= (t.top + 40 - r.top);
+    else if (r.bottom > t.bottom - 40) toc.scrollTop += (r.bottom - (t.bottom - 40));
+  }
+  function onScroll() {
+    const line = window.innerHeight * 0.25; let best = null;
+    for (const t of targets) { if (t.getBoundingClientRect().top - line <= 0) best = t.id; else break; }
+    setCurrent(best);
+  }
+  let ticking = false;
+  window.addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(() => { ticking = false; onScroll(); }); } }, { passive: true });
+  onScroll();
+
+  const btn = document.getElementById('aboutBtn'), card = document.getElementById('aboutCard');
+  if (!btn || !card || !card.showPopover) return;
+  let timer = null, pinned = false;
+  function place() {
+    const r = btn.getBoundingClientRect();
+    card.style.top = (r.bottom + window.scrollY + 8) + 'px';
+    card.style.left = Math.max(16, Math.min(r.left, document.documentElement.clientWidth - card.offsetWidth - 16)) + window.scrollX + 'px';
+  }
+  function show() { clearTimeout(timer); if (!card.matches(':popover-open')) { card.showPopover(); place(); } btn.setAttribute('aria-expanded', 'true'); }
+  function hide() { clearTimeout(timer); pinned = false; if (card.matches(':popover-open')) card.hidePopover(); btn.setAttribute('aria-expanded', 'false'); }
+  function later() { if (!pinned) { clearTimeout(timer); timer = setTimeout(hide, 220); } }
+  btn.addEventListener('mouseenter', show); btn.addEventListener('mouseleave', later); btn.addEventListener('focus', show);
+  btn.addEventListener('blur', () => setTimeout(() => { if (!card.contains(document.activeElement)) later(); }, 0));
+  card.addEventListener('mouseenter', () => clearTimeout(timer)); card.addEventListener('mouseleave', later);
+  card.addEventListener('focusout', e => { if (!card.contains(e.relatedTarget) && e.relatedTarget !== btn) later(); });
+  btn.addEventListener('click', () => { if (pinned) hide(); else { pinned = true; show(); } });
+  card.addEventListener('click', e => { if (e.target.closest('a')) hide(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && card.matches(':popover-open')) { hide(); btn.focus(); } });
+  document.addEventListener('pointerdown', e => { if (pinned && !card.contains(e.target) && e.target !== btn) hide(); });
+  window.addEventListener('resize', () => { if (card.matches(':popover-open')) place(); });
+})();
+
+/* The tables from the data block: special skills and the glossary, each with a filter box */
+(function () {
+  const D = JSON.parse(document.getElementById('data').textContent);
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const combo = t => t.replace(/^Has the Skills\s*/, '').replace(/\s+combined$/, '');
+  const skRows = [];
+  const bySlug = {};
+  for (const kind of ['match', 'mode']) D.skills[kind].forEach(x => { bySlug[slug(x.name)] = x.name; });
+  // a part as written in a combination ("Ground Tech.") -> the match skill it names
+  const partLink = p => { const k = slug(p); const hit = Object.keys(bySlug).find(n => n === k || n.startsWith(k)); return hit ? `<a href="#skill-${hit}">${esc(p)}</a>` : esc(p); };
+  for (const kind of ['match', 'combo', 'mode']) {
+    const box = document.getElementById('sk-' + kind);
+    D.skills[kind].forEach(x => {
+      const el = document.createElement('div');
+      el.className = 'skc' + (kind === 'combo' ? ' combo' : '');
+      el.id = 'skill-' + slug(x.name);
+      const text = kind === 'combo' ? combo(x.text) : x.text;
+      const body = kind === 'combo'
+        ? `<div class="parts">${text.split(/\s*(?:,|\+|&|\band\b)\s*/).filter(Boolean).map(partLink).join('')}</div>`
+        : `<div class="fx">${esc(text)}</div>`;
+      el.innerHTML = `<div class="nm">${esc(x.name)}<span class="jp" lang="ja">${esc(x.jp)}</span></div>${body}`;
+      el.dataset.k = (x.name + ' ' + x.jp + ' ' + text).toLowerCase();
+      box.appendChild(el); skRows.push(el);
+    });
+  }
+  const gl = document.getElementById('gl'), glRows = [];
+  let grp = null;
+  D.glossary.forEach(g => {
+    if (g.group !== grp) { grp = g.group; const h = document.createElement('h3'); h.className = 'glh grp'; h.textContent = grp; gl.appendChild(h); glRows.push(h); }
+    const el = document.createElement('div');
+    el.className = 'gle';
+    el.innerHTML = `<div><span class="jt" lang="ja">${esc(g.jp)}</span><span class="r">${esc(g.romaji)}</span></div><div class="en">${esc(g.en)}<span class="mn">${esc(g.meaning)}</span></div>`;
+    el.dataset.k = [g.jp, g.romaji, g.meaning, g.en].join(' ').toLowerCase();
+    gl.appendChild(el); glRows.push(el);
+  });
+  function filter(rows, q, count, noun) {
+    const t = q.value.trim().toLowerCase(); let n = 0, all = 0;
+    rows.forEach(r => { if (r.classList.contains('grp')) return; all++; const ok = !t || r.dataset.k.includes(t); r.hidden = !ok; if (ok) n++; });
+    rows.forEach(r => { if (!r.classList.contains('grp')) return; let x = r.nextElementSibling, any = false; while (x && !x.classList.contains('grp')) { if (!x.hidden) any = true; x = x.nextElementSibling; } r.hidden = !any; });
+    count.textContent = n === all ? `${all} ${noun}` : `${n} of ${all} ${noun}`;
+  }
+  const skq = document.getElementById('skq'), skc = document.getElementById('skcount');
+  const glq = document.getElementById('glq'), glc = document.getElementById('glcount');
+  const fs = () => filter(skRows, skq, skc, 'skills'), fg = () => filter(glRows, glq, glc, 'terms');
+  skq.addEventListener('input', fs); glq.addEventListener('input', fg); fs(); fg();
+  window.addEventListener('beforeprint', () => { skq.value = ''; glq.value = ''; fs(); fg(); });
+  // for the guide search: the skills and terms as entries
+  window.guideEntries = D.skills.match.concat(D.skills.combo, D.skills.mode).map(s => ({ name: s.name, group: 'Special skill', text: s.text, id: 'skill-' + slug(s.name) }))
+    .concat(D.glossary.map(g => ({ name: g.en, group: 'Glossary: ' + g.jp, text: g.meaning, id: null })));
+  window.pageShowEntry = function (id) {
+    const r = id ? document.getElementById(id) : document.getElementById('glossary');
+    if (!r) return;
+    skq.value = ''; glq.value = ''; fs(); fg();
+    r.scrollIntoView({ block: 'center' });
+    r.classList.remove('hit-flash'); void r.offsetWidth; r.classList.add('hit-flash');
+  };
+})();
+
+/* Guide search, section links, screenshot zoom, printing (from the kit's starter page) */
+(function () {
+  const main = document.querySelector('main');
+  const strip = el => { const c = el.cloneNode(true); c.querySelectorAll('.anchor').forEach(x => x.remove()); return c.textContent.replace(/\s+/g, ' ').trim(); };
+  const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const fold = s => s.toLowerCase().replace(/[’']/g, "'");
+  function openTo(el) { for (let d = el.closest('details'); d; d = d.parentElement.closest('details')) d.open = true; }
+  function flash(el) { el.classList.remove('hit-flash'); void el.offsetWidth; el.classList.add('hit-flash'); setTimeout(() => el.classList.remove('hit-flash'), 2100); }
+
+  const ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>';
+  function copyText(t) {
+    if (navigator.clipboard && window.isSecureContext) return navigator.clipboard.writeText(t);
+    const ta = document.createElement('textarea'); ta.value = t; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); } finally { ta.remove(); }
+    return Promise.resolve();
+  }
+  const heads = [];
+  main.querySelectorAll('section > h2, h3[id], h4[id]').forEach(h => {
+    const id = h.tagName === 'H2' ? h.parentElement.id : h.id;
+    if (!id) return;
+    const title = strip(h);
+    heads.push({ el: h, id, title });
+    const a = document.createElement('a');
+    a.className = 'anchor'; a.href = '#' + id; a.innerHTML = ICON;
+    a.setAttribute('aria-label', 'Copy link to “' + title + '”');
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      history.replaceState(null, '', '#' + id);
+      copyText(location.href).then(() => { a.classList.add('copied'); clearTimeout(a._t); a._t = setTimeout(() => a.classList.remove('copied'), 1600); }, () => {});
+    });
+    h.appendChild(a);
+  });
+
+  const zoom = document.getElementById('zoom');
+  if (zoom && zoom.showModal) {
+    const zi = document.getElementById('zoomImg'), zc = document.getElementById('zoomCap');
+    main.addEventListener('click', e => {
+      const img = e.target.closest('.shots img, figure.shot img');
+      if (!img || !img.naturalWidth) return;
+      zi.src = img.currentSrc || img.src; zi.alt = img.alt;
+      const cap = img.closest('figure') && img.closest('figure').querySelector('figcaption');
+      zc.textContent = cap ? cap.textContent : img.alt;
+      zoom.showModal();
+    });
+    zoom.querySelector('.dlg-close').addEventListener('click', () => zoom.close());
+    zoom.addEventListener('click', e => { if (e.target === zoom) zoom.close(); });
+  }
+
+  const q = document.getElementById('gq'), box = document.getElementById('gres');
+  if (!q || !box || !box.showPopover) return;
+  let index = null, results = [], active = -1;
+  function sectionOf(el) {
+    const sec = el.closest('main > section'); const h = sec && sec.querySelector('h2');
+    let sub = null;
+    for (const x of heads) { if (x.el.tagName !== 'H2' && sec && sec.contains(x.el) && (x.el.compareDocumentPosition(el) & Node.DOCUMENT_POSITION_FOLLOWING)) sub = x.title; }
+    return (h ? strip(h) : '') + (sub ? ' › ' + sub : '');
+  }
+  function build() {
+    index = [];
+    for (const h of heads) index.push({ kind: 'Section', rank: 0, t: h.title, s: h.el.tagName === 'H2' ? '' : sectionOf(h.el), key: fold(h.title), go: () => { openTo(h.el); location.hash = h.id; } });
+    (window.guideEntries || []).forEach(e => {
+      index.push({ kind: e.group === 'Special skill' ? 'Skill' : 'Term', rank: 1, t: e.name, s: e.group, text: e.text || '', key: fold([e.name, e.group, e.text].join(' ')), go: () => window.pageShowEntry(e.id) });
+    });
+    main.querySelectorAll('p, li, td, dd, figcaption').forEach(el => {
+      if (el.closest('#sk-match, #sk-combo, #sk-mode, #gl') || el.querySelector('p, li, td, dd')) return;
+      const text = el.textContent.replace(/\s+/g, ' ').trim();
+      if (text.length < 12) return;
+      index.push({ kind: 'Text', rank: 2, t: '', s: '', text, el, key: fold(text), go: () => { openTo(el); el.scrollIntoView({ block: 'center' }); flash(el); } });
+    });
+  }
+  function hl(text, words) {
+    let out = esc(text);
+    if (words.length > 1 && fold(text).includes(words.join(' '))) words = [words.join(' ')];
+    for (const w of words) out = out.replace(new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/'/g, "['’]") + ')', 'gi'), '<mark>$1</mark>');
+    return out;
+  }
+  function snippet(text, w) {
+    const i = Math.max(0, fold(text).indexOf(w)), a = Math.max(0, i - 50), b = Math.min(text.length, i + w.length + 80);
+    return (a ? '…' : '') + text.slice(a, b).trim() + (b < text.length ? '…' : '');
+  }
+  function search(raw) {
+    const words = fold(raw).split(/\s+/).filter(Boolean);
+    results = []; results.words = words;
+    if (!words.length) return results;
+    const phrase = words.join(' '), out = [];
+    for (const it of index) {
+      if (!words.every(w => it.key.includes(w))) continue;
+      if (it.kind === 'Text' && phrase.length < 3) continue;
+      const name = fold(it.t);
+      const score = it.rank * 10 + (name.startsWith(phrase) ? 0 : name.includes(phrase) ? 2 : words.every(w => name.includes(w)) ? 4 : 6);
+      out.push([score, it]);
+    }
+    out.sort((a, b) => a[0] - b[0]);
+    const named = out.filter(([, it]) => it.kind !== 'Text').slice(0, 9).map(x => x[1]);
+    const text = out.filter(([, it]) => it.kind === 'Text').slice(0, 14 - named.length).map(x => x[1]);
+    const textCount = out.length - out.filter(([, it]) => it.kind !== 'Text').length;
+    results = named.concat(text);
+    results.extra = textCount - text.length;
+    results.words = words;
+    return results;
+  }
+  function place() {
+    const r = q.getBoundingClientRect();
+    box.style.left = Math.max(8, Math.min(r.left, document.documentElement.clientWidth - box.offsetWidth - 8)) + 'px';
+    box.style.top = (r.bottom + 6) + 'px';
+  }
+  function render() {
+    const words = results.words || [];
+    if (!q.value.trim()) { close(); return; }
+    box.innerHTML = results.length ? results.map((it, i) => {
+      const t = it.kind === 'Text' ? hl(snippet(it.text, words[0]), words) : hl(it.t, words);
+      const s = it.kind === 'Text' ? esc(sectionOf(it.el)) : it.text && !words.every(w => fold(it.t).includes(w)) ? hl(snippet(it.text, words[0]), words) : esc(it.s);
+      return `<div class="gr" role="option" id="gr-${i}" data-i="${i}" aria-selected="${i === active}"><span class="gr-kind">${it.kind}</span><span class="gr-t${it.kind === 'Text' ? ' txt' : ''}">${t}</span>${s ? `<span class="gr-s">${s}</span>` : ''}</div>`;
+    }).join('') + (results.extra > 0 ? `<div class="gr-none">${results.extra} more text matches; type more to narrow it down.</div>` : '')
+      : '<div class="gr-none">Nothing matches. Try a shorter word.</div>';
+    if (!box.matches(':popover-open')) box.showPopover();
+    place();
+    q.setAttribute('aria-expanded', 'true');
+    if (active >= 0) q.setAttribute('aria-activedescendant', 'gr-' + active); else q.removeAttribute('aria-activedescendant');
+  }
+  function close() { if (box.matches(':popover-open')) box.hidePopover(); q.setAttribute('aria-expanded', 'false'); q.removeAttribute('aria-activedescendant'); active = -1; }
+  function setActive(i) {
+    active = i;
+    box.querySelectorAll('.gr').forEach(g => g.setAttribute('aria-selected', String(+g.dataset.i === i)));
+    const g = document.getElementById('gr-' + i); if (g) g.scrollIntoView({ block: 'nearest' });
+    if (i >= 0) q.setAttribute('aria-activedescendant', 'gr-' + i); else q.removeAttribute('aria-activedescendant');
+  }
+  function choose(i) { const it = results[i]; if (!it) return; close(); q.blur(); it.go(); }
+  q.addEventListener('input', () => { if (!index) build(); search(q.value); active = results.length ? 0 : -1; render(); });
+  q.addEventListener('focus', () => { if (!index) build(); if (q.value.trim()) { search(q.value); render(); } });
+  q.addEventListener('keydown', e => {
+    if (e.key === 'ArrowDown' && results.length) { e.preventDefault(); setActive((active + 1) % results.length); }
+    else if (e.key === 'ArrowUp' && results.length) { e.preventDefault(); setActive((active - 1 + results.length) % results.length); }
+    else if (e.key === 'Enter' && active >= 0) { e.preventDefault(); choose(active); }
+    else if (e.key === 'Escape') { if (box.matches(':popover-open')) { e.preventDefault(); close(); } else { q.value = ''; } }
+  });
+  box.addEventListener('mousedown', e => e.preventDefault());
+  box.addEventListener('click', e => { const g = e.target.closest('.gr'); if (g) choose(+g.dataset.i); });
+  box.addEventListener('mousemove', e => { const g = e.target.closest('.gr'); if (g && +g.dataset.i !== active) setActive(+g.dataset.i); });
+  q.addEventListener('blur', () => setTimeout(() => { if (document.activeElement !== q) close(); }, 0));
+  window.addEventListener('resize', () => { if (box.matches(':popover-open')) place(); });
+  window.addEventListener('scroll', () => { if (box.matches(':popover-open')) place(); }, { passive: true });
+  document.addEventListener('keydown', e => {
+    if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
+    const t = e.target; if (t.closest && t.closest('input, textarea, select, [contenteditable="true"], dialog[open]')) return;
+    e.preventDefault();
+    const toc = document.getElementById('toc'); if (toc && !toc.open) toc.open = true;
+    q.focus(); q.select();
+  });
+})();
+
+/* Printing: open every spoiler and load every picture first */
+(function () {
+  let undo = [];
+  function prep() {
+    if (undo.length) return;
+    document.querySelectorAll('main details:not([open])').forEach(d => { d.open = true; undo.push(() => { d.open = false; }); });
+    document.querySelectorAll('img[loading="lazy"]').forEach(i => { i.loading = 'eager'; });
+  }
+  function unprep() { undo.forEach(f => f()); undo = []; }
+  window.addEventListener('beforeprint', prep);
+  window.addEventListener('afterprint', unprep);
+  const btn = document.getElementById('printBtn');
+  if (btn) btn.addEventListener('click', () => {
+    prep();
+    const waits = [...document.images].filter(i => !i.complete).map(i => new Promise(r => { i.addEventListener('load', r, { once: true }); i.addEventListener('error', r, { once: true }); }));
+    Promise.race([Promise.all(waits), new Promise(r => setTimeout(r, 4000))]).then(() => window.print());
+  });
+})();
+</script>

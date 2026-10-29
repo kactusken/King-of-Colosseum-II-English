@@ -28,6 +28,7 @@ TOOLS = Path(__file__).resolve().parent
 CHECKS = [
     ('lint', [PY, 'tools/lint.py'], True),
     ('ascii text patch (simulated)', [PY, 'tools/test_textpatch.py'], True),
+    ("player's guide up to date (docs/guide)", [PY, 'tools/guidepage.py', '--check'], True),
     # archive round trips (need tools/extract.py first); the AFS one reads 2 x 1.8 GB, about a minute
     ('afs round trip', [PY, 'tools/afs.py', 'verify', 'extracted/DATA/KC2FIRE.AFS', 'extracted/DATA/KC2FIRE_AFS'], False),
     ('pack 000 round trip', [PY, 'tools/pak.py', 'verify', 'extracted/DATA/KC2FIRE.000'], False),

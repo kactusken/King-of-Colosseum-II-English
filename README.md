@@ -8,6 +8,14 @@ the Dojo tutorial, Match Maker, Survival Road, the Secret Shop, Edit Mode, resul
 graphics. That comes to 16,997 text entries and 292 pictures. English is drawn with the game's own
 proportional font, so it reads like normal text and fits the original windows.
 
+**[Read the Player's Guide](https://kactusken.github.io/King-of-Colosseum-II-English/guide/)**: how
+to play, the controls (taught only in the Dojo), how a match is won without a life bar, every mode,
+the rules, Edit Mode, the special skills and the secrets, with a Japanese glossary. Reference pages
+for the [wrestlers](https://kactusken.github.io/King-of-Colosseum-II-English/wrestlers/),
+[Survival Road](https://kactusken.github.io/King-of-Colosseum-II-English/survival-road/),
+[Match Maker](https://kactusken.github.io/King-of-Colosseum-II-English/matchmaker-map/) and the
+[Secret Shop](https://kactusken.github.io/King-of-Colosseum-II-English/secret-shop/) go with it.
+
 **[See screenshots](docs/SCREENSHOTS.md)** of the patched game.
 
 > **Status: first public beta.** Everything is translated, but not every mode has been played
@@ -54,6 +62,9 @@ Then:
 
 ## Notes for players
 
+- **Guide.** The [Player's Guide](https://kactusken.github.io/King-of-Colosseum-II-English/guide/)
+  explains the controls (taught only in the Dojo), how a match is won without a life bar, the
+  modes, the rules and Edit Mode.
 - **Names.** Real wrestlers, promotions, titles and venues use their own official English
   spellings (given name first). The game's made-up venues get English names (Oedo Kokugikan,
   Rinkai Colosseum).
@@ -95,6 +106,7 @@ the game's formats.
 | [docs/PLATFORM.md](docs/PLATFORM.md) | PS2 pitfalls for this kind of work |
 | [docs/HIDDEN_CONTENT.md](docs/HIDDEN_CONTENT.md) | Unlockables, debug features, and unused and cut content |
 | [tools/README.md](tools/README.md) | Every tool, what it's for and how to run it |
+| [Player's Guide](https://kactusken.github.io/King-of-Colosseum-II-English/guide/) | How to play: modes, controls, how matches work, rules, Edit Mode, skills, secrets, a Japanese glossary |
 | [Match Maker Map](https://kactusken.github.io/King-of-Colosseum-II-English/matchmaker-map/) | Every Match Maker campaign: when each briefing, verdict and advice answer plays |
 | [Survival Road Map](https://kactusken.github.io/King-of-Colosseum-II-English/survival-road/) | Courses, difficulties, rounds and opponent pools |
 | [Secret Shop](https://kactusken.github.io/King-of-Colosseum-II-English/secret-shop/) | Shop items, when they go on sale, and what they unlock |

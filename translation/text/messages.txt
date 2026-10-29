@@ -1066,7 +1066,7 @@ EN Tag Expert partners:
 
 @ 262
 JP とのツープラトン攻撃の威力が
-EN double teams do
+EN double teams
 
 @ 263
 JP ２０％増す
