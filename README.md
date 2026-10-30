@@ -60,6 +60,14 @@ Then:
 2. Open the patched `.iso` in your emulator. The patch has been tested in
    [PCSX2](https://pcsx2.net/).
 
+### Widescreen in PCSX2 (optional)
+
+The [patches](patches) folder has 16:9 widescreen patches by Arapapa, one for each of the three
+patched games. PCSX2 picks the right one by itself.
+
+1. Place the three `.pnach` files in the `patches` directory inside your PCSX2 config folder.
+2. Enable widescreen in the Graphics options.
+
 ## Notes for players
 
 - **Guide.** The [Player's Guide](https://kactusken.github.io/King-of-Colosseum-II-English/guide/)
