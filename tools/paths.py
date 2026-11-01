@@ -37,6 +37,7 @@ PROJECT = Path(__file__).resolve().parent.parent
 GAME = 'King of Colosseum II'                           # used in output names and release notes
 PLATFORM = 'PS2'
 ORIGINAL_NAME = 'King of Colosseum II (Japan).iso'              # the original image, as dumped (Redump name)
+AI_DISCLOSURE = 'This project was created with the assistance of AI.'   # same wording as the README
 # The original the patches apply to (make_patches.py and build.py check it)
 ORIGINAL = {'size': 4593778688, 'crc32': 'fad699da', 'md5': '3d7fe73ec4da338d5cc16a688c543de1', 'sha1': 'f519ef2b98c0340c9ccd876e4988507d49787785'}
 

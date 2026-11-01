@@ -777,8 +777,10 @@ JP ＮＯ　ＤＡＴＡ
 JP 
 
 @ 2ab5e8 slot=87
-# [keep] already English letters / a number format
+# Locked Edit samples: 0x170c58 copies strlen(name) BYTES of this, so it must be single-byte (a
+# full-width ？ cut in half eats the row's new line). 18 = the widest name in the original.
 JP ？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？
+EN ??????????????????
 
 @ 2ab640 slot=15
 # [keep] already English letters / a number format

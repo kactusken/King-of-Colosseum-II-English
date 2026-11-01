@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.2 (beta) - 2026-10-31
+- Fixed: the Load Sample list in Edit Wrestler (Triangle) fell apart when samples were still
+  locked, in the wrestler and fighter lists alike. The All Unlocked patches never showed this.
+- Fixed: a doubled word in a line of game text.
+- Added: 16:9 widescreen patches for PCSX2, by Arapapa ([patches](patches), see the README). The
+  files for the two English patches are renamed in this release because PCSX2 matches them to the
+  game's executable: replace any you installed for v0.1.
+- Much smaller downloads: the two English patches no longer store the whole data file again.
+
+Apply these patches to the clean original disc image, not to a v0.1 image. Saves carry over.
+
 ## v0.1 (beta) - 2026-10-16
 First release. Everything in scope is in English: every on-screen string (16,997 entries) and all
 292 menu and text-window pictures.

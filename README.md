@@ -18,7 +18,7 @@ for the [wrestlers](https://kactusken.github.io/King-of-Colosseum-II-English/wre
 
 **[See screenshots](docs/SCREENSHOTS.md)** of the patched game.
 
-> **Status: first public beta.** Everything is translated, but not every mode has been played
+> **Status: public beta.** Everything is translated, but not every mode has been played
 > through in English yet. The Dojo dialogue and lessons and the Match Maker briefings and verdicts
 > in particular haven't been checked on screen. You may find text that runs out of its box, a name
 > that doesn't fit, or a line that reads oddly. Please report anything like that

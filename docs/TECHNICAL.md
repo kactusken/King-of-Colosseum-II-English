@@ -136,6 +136,17 @@ The wrestler types and sample wrestlers Edit loads into a wrestler: 157 blocks o
 special move); the last block is 4 bytes short, its text fields whole. tools/records.py writes it
 with the roster translations (SINGLES). *From the data.*
 
+**Locked samples in the Load Sample list** (cause *from the code*, fix *verified in game*,
+2026-10-31). 0x170c58 draws the list; a sample whose flag (1452 +0x7c) isn't set shows a row of ？
+instead of its name and help line, made by copying strlen(text) *bytes* (at most 0x50) of the
+string at 0x3aa5e8 and drawing it with `%s\n`. With the original 40 full-width ？, a name of odd
+byte length ends on half a ？: the lead byte 0x81 pairs with the `\n`, the formatter drops both,
+and the next row runs on from the same line. The original has this on six names, which hold a
+half-width space; English (one byte a letter) has it on 62 of the 129 lockable samples, so the list
+fell apart in any build without the unlocks. elf.txt now makes that string 18 ASCII `?` and a NUL:
+one byte is one character, and the NUL stops the copy at the width of the longest original name
+(18 characters; the longest English names have 20).
+
 ### Save title (entry 1432)
 icon.sys for the memory card: title キングオブコロシアム２ at +0xc0. Kept (user decision).
 
@@ -348,9 +359,13 @@ loader call or data table refers to them. *From the code.* Not translated.
 `build.py` text steps change entries through `files.packs` (decompressed on demand); each changed
 pack is rebuilt once with `pak.pack()`: a changed entry stays in its slot if it fits, otherwise it
 goes after the last entry. If the pack then outgrows its place on the disc (KC2FIRE.000 has none -
-.001 follows it), `disc.py` cuts the room off the end of the zero-padding file `GOOD.BYE` and moves
-the pack there (tested on a scratch image; ISO9660 and UDF stay consistent). The game finds the
-data files through the file system (no LBAs in the ELF) - *relocation verified in game* (the build that grew .000 by 518 KB boots and loads normally).
+.001 follows it), `disc.py` keeps it where it is, moves .001 and .MVS forward by the sectors needed
+and cuts those off the start of the zero-padding file `LAST.DAY`. Moving a pack far instead (into
+`GOOD.BYE`) also works, but xdelta can't reach the old copy 2 GB away, even at its maximum `-B`, so
+every patch grew from about 4 MB to 78 MB. The game finds the data files through the file system
+(`sceCdSearchFile`; no LBAs or sizes in the ELF, and KC2FIRE.DIR holds only names). *Both layouts
+verified in game*: moving .000 and, since 2026-10-31, moving .001 and .MVS (a build that grew .000
+by 518 KB boots and loads normally each way).
 
 ## Images
 All in `KC2FIRE.000`, one TIM2 per entry (sometimes several pictures): 10,254 pictures, exported

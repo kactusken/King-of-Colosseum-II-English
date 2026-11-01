@@ -81,6 +81,9 @@ def main(argv=None):
     ap.add_argument('--allow-handmade', action='store_true', help='build even with unapproved hand edits')
     args = ap.parse_args(paths.configure(sys.argv[1:] if argv is None else argv))
 
+    if args.version != 'dev' and not paths.AI_DISCLOSURE.strip():
+        sys.exit('tools/paths.py AI_DISCLOSURE is empty: set a short line such as '
+                 '"AI assisted with the translation."')
     wip = catalog.handmade_in_progress()
     if wip and not args.allow_handmade:
         sys.exit(f'{paths.show(paths.HANDMADE)} has unapproved images, which the build would include:\n  '
@@ -125,6 +128,8 @@ def main(argv=None):
         notes += (f'\n{name}.xdelta\n{textwrap.fill(description, 78, initial_indent="  ", subsequent_indent="  ")}\n'
                   f'  Result: {target["size"]} bytes, CRC32 {target["crc32"]}, SHA-1 {target["sha1"]}\n')
 
+    if paths.AI_DISCLOSURE.strip():
+        notes += '\nAI disclosure\n-------------\n' + textwrap.fill(paths.AI_DISCLOSURE.strip(), 78) + '\n'
     notes += LEGAL.format(game=paths.GAME)
     (out / 'README.txt').write_text(f'{title}\n\n{notes}', encoding='utf-8', newline='\r\n')
     zip_path = paths.RELEASE / f'{title}.zip'
