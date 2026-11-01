@@ -9,7 +9,8 @@
   game's executable: replace any you installed for v0.1.
 - Much smaller downloads: the two English patches no longer store the whole data file again.
 
-Apply these patches to the clean original disc image, not to a v0.1 image. Saves carry over.
+Apply these patches to the clean original disc image, not to a v0.1 image. Saves should
+carry over.
 
 ## v0.1 (beta) - 2026-10-16
 First release. Everything in scope is in English: every on-screen string (16,997 entries) and all

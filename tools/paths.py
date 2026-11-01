@@ -35,6 +35,7 @@ from pathlib import Path
 
 PROJECT = Path(__file__).resolve().parent.parent
 GAME = 'King of Colosseum II'                           # used in output names and release notes
+GAME_FILE = GAME.replace(':', ' -')   # GAME in file names: Windows doesn't allow ':'
 PLATFORM = 'PS2'
 ORIGINAL_NAME = 'King of Colosseum II (Japan).iso'              # the original image, as dumped (Redump name)
 AI_DISCLOSURE = 'This project was created with the assistance of AI.'   # same wording as the README

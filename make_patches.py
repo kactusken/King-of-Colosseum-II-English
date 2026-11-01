@@ -38,6 +38,9 @@ VARIANTS = [
      'The original Japanese game with the same unlocks.'),
 ]
 
+FORMAT = 'xdelta'             # release/announce.py in the kit reads these two
+MEDIUM = 'disc image'
+
 # -S none: no secondary compression, which some patchers (Rom Patcher JS) can't read.
 # -A=: no application header (it would record local file paths).
 # Add '-B', str(1 << 30) for DVD images if a patch comes out large because data moved far.
