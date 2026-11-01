@@ -123,6 +123,9 @@ TEXT_STEPS = [
 # Zero-padding files a grown file may take space from (disc.py take_from_padding): the disc is
 # nearly full, and KC2FIRE.000 has no room to grow where it is.
 PADDING_DONORS = ['/DATA/GOOD.BYE', '/DATA/HELLO.FOR']
+# Tried first, and what normally happens: KC2FIRE.000 stays put and .001 and .MVS move a little way
+# into this padding. Moving .000 itself to GOOD.BYE, 2 GB away, adds 74 MB to every patch.
+SHIFT_INTO = ['/DATA/LAST.DAY']
 
 
 class Packs:
@@ -273,7 +276,8 @@ def main(argv=None):
         def fits(name):
             return (len(files.data[name]) + disc.SECTOR - 1) // disc.SECTOR <= d.allocated_sectors(d.find(name))
         for name in sorted(files.changed, key=lambda n: not fits(n)):
-            d.write_file(d.find(name), bytes(files.data[name]), relocate=True, donors=PADDING_DONORS)
+            d.write_file(d.find(name), bytes(files.data[name]), relocate=True, donors=PADDING_DONORS,
+                         shift_into=SHIFT_INTO)
             print(f'patched {name}')
     disc.companion_files(out)
     print(f'done: {paths.show(out)}  ({len(files.changed)} files patched)')

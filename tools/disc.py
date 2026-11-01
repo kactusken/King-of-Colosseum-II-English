@@ -17,6 +17,10 @@ find files through their own tables (an LBA table in the ELF or an archive index
 system - check before relying on relocation. A disc with no room left can give up space from a
 zero-padding file (write_file(..., donors=[...]) cuts its end off).
 
+A file moved far is expensive in a patch: xdelta can't reach the old copy, so it stores the file
+again. When a zero-padding file lies a little further on, write_file(..., shift_into=[...]) keeps
+the file where it is and moves whatever lies between a few sectors forward instead.
+
 Interface shared by every platform's disc.py (build.py and extract.py use only this):
   SECTOR                        data bytes per sector
   Disc(path or file, writable)  .files(), .find(path), .read_file(e), .write_file(e, data, relocate),
@@ -305,22 +309,46 @@ class Disc:
                 return True
         return False
 
-    def write_file(self, e, data, relocate=False, donors=()):
-        """Write a file's data; if it outgrows its slot and `relocate`, move it to a gap (made by
-        take_from_padding(donors) if there is none) or to the end of the image."""
+    def shift_following(self, e, extra, paddings):
+        """Free `extra` sectors right after `e`: move the files between it and the first zero-padding
+        file in `paddings` (paths) that lies after it forward, and cut that many sectors off the
+        padding's start. Returns True if done."""
+        after = [x for x in self.files() if x.lba > e.lba]
+        wanted = {'/' + p.lstrip('/').upper() for p in paddings}
+        pad = next((x for x in after if x.path.upper() in wanted), None)
+        if pad is None or pad.sectors - extra < 1 or not self.is_empty(pad):
+            return False
+        moved = [x for x in after if x.lba < pad.lba]
+        print(f'  moving {len(moved)} files {extra} sectors forward, into the start of {pad.path} (zero padding)')
+        self.set_extent(pad, pad.lba + extra, (pad.sectors - extra) * SECTOR)
+        if moved:
+            first, end = moved[0].lba, pad.lba - extra
+            while end > first:   # from the end: source and destination overlap
+                n = min(end - first, 1 << 13)
+                end -= n
+                self.write(end + extra, self.read(end, n))
+        for x in reversed(moved):
+            self.set_extent(x, x.lba + extra, x.size)
+        return True
+
+    def write_file(self, e, data, relocate=False, donors=(), shift_into=()):
+        """Write a file's data; if it outgrows its slot and `relocate`, make room right after it
+        (shift_following(shift_into)), else move it to a gap (made by take_from_padding(donors) if
+        there is none) or to the end of the image."""
         need = max(1, (len(data) + SECTOR - 1) // SECTOR)
         avail = self.allocated_sectors(e)
         lba = e.lba
         if need > avail:
             if not relocate:
                 raise ValueError(f'{e.path}: {len(data)} bytes needs {need} sectors, only {avail} available')
-            lba = self.find_gap(need)
-            if lba is None and self.take_from_padding(donors, need):
+            if not self.shift_following(e, need - avail, shift_into):
                 lba = self.find_gap(need)
-            if lba is None:
-                lba = self.total_sectors
-                self._grow(lba + need)
-            print(f'  relocating {e.path}: LBA {e.lba} -> {lba} ({need} sectors)')
+                if lba is None and self.take_from_padding(donors, need):
+                    lba = self.find_gap(need)
+                if lba is None:
+                    lba = self.total_sectors
+                    self._grow(lba + need)
+                print(f'  relocating {e.path}: LBA {e.lba} -> {lba} ({need} sectors)')
         self.write(lba, bytes(data).ljust(need * SECTOR, b'\0'))
         self.set_extent(e, lba, len(data))
 
